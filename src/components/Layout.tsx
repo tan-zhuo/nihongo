@@ -143,12 +143,34 @@ export default function Layout() {
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 pb-24 sm:px-6 sm:py-10">
+      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 pb-6 sm:px-6 sm:py-10">
         <Outlet />
       </main>
 
-      <footer className="border-t border-stone-200/70 bg-white/50">
-        <div className="mx-auto max-w-5xl px-4 pb-24 pt-10 sm:px-6 sm:pb-10">
+      {/* Phones get no sitemap footer — with the tab bar it should read as an
+          app, not a web page. Only the audio credit stays, because the
+          VOICEVOX terms and the CC BY-SA kana audio require it to be visible
+          wherever the audio is; it also carries the tab-bar clearance. */}
+      <p
+        className="px-4 pb-24 text-center text-[10px] leading-relaxed text-stone-300 sm:hidden"
+        suppressHydrationWarning
+      >
+        © {YEAR} nihongo.ink · 音声: VOICEVOX:四国めたん · 五十音音声:{' '}
+        <a
+          href="https://www.guidetojapanese.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-stone-200 underline-offset-2"
+        >
+          Tae Kim
+        </a>{' '}
+        (CC BY-SA 3.0)
+      </p>
+
+      {/* Hidden with CSS rather than unmounted: the sitemap links stay in the
+          prerendered HTML for crawlers. */}
+      <footer className="hidden border-t border-stone-200/70 bg-white/50 sm:block">
+        <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
           <div className="grid gap-9 sm:grid-cols-12 sm:gap-8">
             <div className="sm:col-span-5">
               <Link to="/" className="mb-3 inline-flex items-center gap-2.5">
