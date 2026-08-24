@@ -88,7 +88,11 @@ export default function Practice() {
 
   useEffect(() => {
     if (!typing.finished) {
-      inputRef.current?.focus()
+      const el = inputRef.current
+      el?.focus()
+      // Stepping back refills the input with the previous line: put the caret
+      // at its end so the next backspace deletes a character, not nothing.
+      el?.setSelectionRange(el.value.length, el.value.length)
       activeLineRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' })
     }
   }, [typing.lineIdx, typing.finished])
@@ -293,29 +297,59 @@ export default function Practice() {
               </div>
               {/* Input line */}
               {isActive ? (
-                <input
-                  ref={inputRef}
-                  value={typing.current}
-                  autoFocus
-                  spellCheck={false}
-                  autoComplete="off"
-                  autoCorrect="off"
-                  placeholder={
-                    typing.lineIdx === 0 && typing.current === ''
-                      ? t('practice.inputPlaceholder')
-                      : ''
-                  }
-                  className="mt-1.5 w-full border-b-2 border-accent-dark/70 bg-transparent py-1.5 text-xl leading-normal tracking-wide outline-none transition-colors placeholder:text-sm placeholder:text-stone-300 focus:border-accent-dark sm:text-2xl"
-                  onChange={(e) =>
-                    typing.handleChange(
-                      e.target.value,
-                      (e.nativeEvent as InputEvent).isComposing ?? false,
-                    )
-                  }
-                  onCompositionStart={(e) => typing.onCompositionStart(e.currentTarget.value.length)}
-                  onCompositionEnd={(e) => typing.onCompositionEnd(e.currentTarget.value)}
-                  onPaste={(e) => e.preventDefault()}
-                />
+                <div className="relative">
+                  <input
+                    ref={inputRef}
+                    value={typing.current}
+                    autoFocus
+                    spellCheck={false}
+                    autoComplete="off"
+                    autoCorrect="off"
+                    placeholder={
+                      typing.lineIdx === 0 && typing.current === ''
+                        ? t('practice.inputPlaceholder')
+                        : ''
+                    }
+                    className="mt-1.5 w-full border-b-2 border-accent-dark/70 bg-transparent py-1.5 text-xl leading-normal tracking-wide outline-none transition-colors placeholder:text-sm placeholder:text-stone-300 focus:border-accent-dark sm:text-2xl"
+                    onChange={(e) =>
+                      typing.handleChange(
+                        e.target.value,
+                        (e.nativeEvent as InputEvent).isComposing ?? false,
+                      )
+                    }
+                    onKeyDown={(e) => {
+                      // Backspace on an empty line reopens the line above it.
+                      if (
+                        e.key === 'Backspace' &&
+                        e.currentTarget.value === '' &&
+                        !e.nativeEvent.isComposing &&
+                        typing.stepBack()
+                      ) {
+                        e.preventDefault()
+                      }
+                    }}
+                    onCompositionStart={(e) => typing.onCompositionStart(e.currentTarget.value.length)}
+                    onCompositionEnd={(e) => typing.onCompositionEnd(e.currentTarget.value)}
+                    onPaste={(e) => e.preventDefault()}
+                  />
+                  {/* Soft keyboards often swallow backspace on an empty field,
+                      so the same move needs a tappable target. It only shows
+                      when stepping back is possible, i.e. exactly when the
+                      keyboard shortcut would work. */}
+                  {typing.lineIdx > 0 && typing.current === '' && (
+                    <button
+                      type="button"
+                      // Keep focus on the input; the caret is restored by the effect above.
+                      onMouseDown={(e) => {
+                        e.preventDefault()
+                        typing.stepBack()
+                      }}
+                      className="absolute right-0 top-1/2 -translate-y-1/2 rounded-md border border-stone-200 bg-white px-2 py-1 text-xs text-stone-400 transition-colors hover:border-accent-dark hover:text-accent-deep"
+                    >
+                      ← {t('practice.editPrev')}
+                    </button>
+                  )}
+                </div>
               ) : isPast ? (
                 <div className="mt-1.5 border-b border-stone-200 py-1.5 text-xl leading-normal tracking-wide sm:text-2xl">
                   {Array.from(typing.done[li] ?? '').map((ch, ci) => (
@@ -352,7 +386,7 @@ export default function Practice() {
         })}
       </div>
       <p className="pb-4 text-xs text-stone-400">
-        {t('practice.tapWordHint')} {t('practice.imeHint')}
+        {t('practice.tapWordHint')} {t('practice.imeHint')} {t('practice.backHint')}
       </p>
 
       {popup && (

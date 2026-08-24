@@ -35,7 +35,8 @@ export function splitLines(text: string, max = 22): string[] {
  * commits automatically once fully typed, and characters committed past the
  * end of a line (e.g. a multi-char IME confirmation) carry over to the next
  * line. Characters in an unconfirmed IME composition are "pending" and not
- * graded, so kana-to-kanji conversion never counts as a mistake.
+ * graded, so kana-to-kanji conversion never counts as a mistake. A committed
+ * line can be reopened with stepBack() to fix a typo spotted too late.
  */
 export function useLineTyping(lines: string[]) {
   const [lineIdx, setLineIdx] = useState(0)
@@ -126,6 +127,24 @@ export function useLineTyping(lines: string[]) {
     [handleChange],
   )
 
+  /**
+   * Reopen the previous line for editing (backspace at the start of an empty
+   * line). Requiring the current line to be empty keeps this lossless: the
+   * text of the line being left has already been deleted by the typist, so
+   * nothing has to be stashed and `done` stays aligned with `lineIdx`.
+   * Already-graded characters stay graded — retyping only re-grades what the
+   * typist actually deletes, exactly like backspacing within a line.
+   */
+  const stepBack = useCallback(() => {
+    if (finished || composing || lineIdx === 0 || current !== '') return false
+    const prev = done[lineIdx - 1] ?? ''
+    setDone(done.slice(0, lineIdx - 1))
+    setLineIdx(lineIdx - 1)
+    setCurrent(prev)
+    gradedLen.current = prev.length
+    return true
+  }, [finished, composing, lineIdx, current, done])
+
   const reset = useCallback(() => {
     setLineIdx(0)
     setCurrent('')
@@ -168,6 +187,7 @@ export function useLineTyping(lines: string[]) {
     typedTotal,
     totalChars,
     handleChange,
+    stepBack,
     onCompositionStart,
     onCompositionEnd,
     reset,
