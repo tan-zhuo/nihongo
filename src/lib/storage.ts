@@ -38,6 +38,14 @@ export interface TextbookRecord {
   total: number
 }
 
+export interface NumbersRecord {
+  ts: number
+  topic: 'number' | 'time' | 'date' | 'counter'
+  mode: 'choice' | 'type' | 'reverse'
+  correct: number
+  total: number
+}
+
 export interface QuizRecord {
   ts: number
   level: Level | 'all'
@@ -52,6 +60,7 @@ interface Records {
   kana: KanaRecord[]
   quiz: QuizRecord[]
   textbook: TextbookRecord[]
+  numbers: NumbersRecord[]
 }
 
 const KEY = 'nihongotype.records.v1'
@@ -68,12 +77,13 @@ export function loadRecords(): Records {
         kana: Array.isArray(parsed.kana) ? parsed.kana : [],
         quiz: Array.isArray(parsed.quiz) ? parsed.quiz : [],
         textbook: Array.isArray(parsed.textbook) ? parsed.textbook : [],
+        numbers: Array.isArray(parsed.numbers) ? parsed.numbers : [],
       }
     }
   } catch {
     // corrupted or unavailable storage → start fresh
   }
-  return { articles: [], vocab: [], kana: [], quiz: [], textbook: [] }
+  return { articles: [], vocab: [], kana: [], quiz: [], textbook: [], numbers: [] }
 }
 
 function save(records: Records) {
@@ -125,6 +135,15 @@ export function addTextbookRecord(record: TextbookRecord) {
   records.textbook.push(record)
   if (records.textbook.length > MAX_ENTRIES) {
     records.textbook = records.textbook.slice(-MAX_ENTRIES)
+  }
+  save(records)
+}
+
+export function addNumbersRecord(record: NumbersRecord) {
+  const records = loadRecords()
+  records.numbers.push(record)
+  if (records.numbers.length > MAX_ENTRIES) {
+    records.numbers = records.numbers.slice(-MAX_ENTRIES)
   }
   save(records)
 }

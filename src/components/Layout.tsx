@@ -27,6 +27,9 @@ function NavIcon({ name }: { name: string }) {
   if (name === 'kana') {
     return <span className="flex h-5 w-5 items-center justify-center text-[15px] leading-none">あ</span>
   }
+  if (name === 'numbers') {
+    return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">数</span>
+  }
   if (name === 'grammar') {
     return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">文</span>
   }
@@ -51,9 +54,19 @@ function NavIcon({ name }: { name: string }) {
   )
 }
 
-const NAV_ITEMS = [
+interface NavItem {
+  to: string
+  key: string
+  icon: string
+  end?: boolean
+  /** false keeps it out of the phone tab bar — eight tabs stop being legible. */
+  tab?: boolean
+}
+
+const NAV_ITEMS: NavItem[] = [
   { to: '/', key: 'home', icon: 'home', end: true },
   { to: '/kana', key: 'kana', icon: 'kana' },
+  { to: '/numbers', key: 'numbers', icon: 'numbers', tab: false },
   { to: '/grammar', key: 'grammar', icon: 'grammar' },
   { to: '/articles', key: 'articles', icon: 'articles' },
   { to: '/vocab', key: 'vocab', icon: 'vocab' },
@@ -65,6 +78,7 @@ const NAV_ITEMS = [
 const FOOTER_LINKS = [
   { to: '/kana', key: 'nav.kana' },
   { to: '/kana/convert', key: 'home.convertTitle' },
+  { to: '/numbers', key: 'nav.numbers' },
   { to: '/grammar', key: 'nav.grammar' },
   { to: '/articles', key: 'nav.articles' },
   { to: '/vocab', key: 'nav.vocab' },
@@ -75,7 +89,7 @@ const FOOTER_LINKS = [
 const YEAR = new Date().getFullYear()
 
 // The bottom tab bar drops Home — the logo already goes there — to stay legible at 375px.
-const TAB_ITEMS = NAV_ITEMS.filter((i) => i.key !== 'home')
+const TAB_ITEMS = NAV_ITEMS.filter((i) => i.key !== 'home' && i.tab !== false)
 
 export default function Layout() {
   const { t, i18n } = useTranslation()

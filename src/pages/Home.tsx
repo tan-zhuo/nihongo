@@ -9,6 +9,7 @@ export default function Home() {
   const cards = [
     { to: '/kana', mark: '音', title: t('home.kanaTitle'), desc: t('home.kanaDesc') },
     { to: '/kana/convert', mark: '変', title: t('home.convertTitle'), desc: t('home.convertDesc') },
+    { to: '/numbers', mark: '数', title: t('home.numbersTitle'), desc: t('home.numbersDesc') },
     { to: '/articles', mark: '文', title: t('home.articleTitle'), desc: t('home.articleDesc') },
     { to: '/vocab', mark: '語', title: t('home.vocabTitle'), desc: t('home.vocabDesc') },
     { to: '/textbook', mark: '標', title: t('home.textbookTitle'), desc: t('home.textbookDesc') },

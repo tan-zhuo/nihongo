@@ -32,6 +32,10 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: 'Hiragana → Katakana Practice (ひらがな⇄カタカナ) — nihongo.ink',
     desc: 'Drill kana conversion both ways: see a hiragana and pick or hand-write the katakana, and back again. Look-alike distractors (シ/ツ, ソ/ン), a writing pad, and native audio for every character.',
   },
+  '/numbers': {
+    title: 'Japanese Numbers, Dates & Counters — Readings and Drills — nihongo.ink',
+    desc: 'Learn how Japanese numbers, clock times, dates, weekdays, durations and counters are read — 4時 よじ, 20日 はつか, 8本 はっぽん — with reading tables and endless generated practice.',
+  },
   '/grammar': {
     title: 'Japanese Grammar Typing Practice (JLPT N5–N1 + Keigo) — nihongo.ink',
     desc: 'Type example sentences for JLPT N5–N1 grammar points and keigo (honorific Japanese), with furigana, translations and audio.',
