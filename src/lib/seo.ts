@@ -14,11 +14,11 @@ export const PAGE_META: Record<string, PageMeta> = {
   '/': {
     title:
       'nihongo.ink — Japanese Typing Practice | 日本語タイピング練習 · 日语打字练习',
-    desc: 'Free Japanese typing practice. 52 JLPT N5–N1 graded articles and classic folktales, 4,200 vocabulary words, kana drills, grammar and keigo — with furigana, translations and audio.',
+    desc: 'Free Japanese typing practice. 58 JLPT N5–N1 graded articles and classic folktales, 4,200 vocabulary words, kana drills, grammar and keigo — with furigana, translations and audio.',
   },
   '/articles': {
     title: 'Japanese Articles for Typing Practice (JLPT N5–N1) — nihongo.ink',
-    desc: 'Practice typing 52 graded Japanese articles: 40 original essays from JLPT N5 to N1 plus 12 classic folktales — 桃太郎, 浦島太郎, かぐや姫 and more. Furigana, translations and audio included.',
+    desc: 'Practice typing 58 graded Japanese articles: 40 original essays from JLPT N5 to N1 plus 18 classic folktales and bedtime stories — 桃太郎, 浦島太郎, かぐや姫, 七夕 and more. Furigana, translations and audio included.',
   },
   '/vocab': {
     title: 'Japanese Vocabulary Typing Practice — 4,200 JLPT Words — nihongo.ink',
