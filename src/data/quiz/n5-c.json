@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "n5-q136",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "わたしの【兄】は 大学生です。",
+    "options": [
+      "あに",
+      "おに",
+      "きょう",
+      "あね"
+    ],
+    "answer": 0,
+    "expl_zh": "「兄」读「あに」,指自己的哥哥。「あね」是「姉」(姐姐),注意两个字很像。",
+    "expl_en": "兄 is あに (my older brother); あね is 姉, an older sister."
+  },
+  {
+    "id": "n5-q137",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "【学校】は 駅の 近くに あります。",
+    "options": [
+      "がくこう",
+      "がっこう",
+      "かっこう",
+      "がこう"
+    ],
+    "answer": 1,
+    "expl_zh": "「学校」读「がっこう」,中间有促音「っ」,而且「が」是浊音。",
+    "expl_en": "学校 is がっこう — voiced が plus the small っ."
+  },
+  {
+    "id": "n5-q138",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "【毎日】 日本語を べんきょうします。",
+    "options": [
+      "まいにち",
+      "まいひ",
+      "めいにち",
+      "まいじつ"
+    ],
+    "answer": 0,
+    "expl_zh": "「毎日」读「まいにち」。「日」在这里读「にち」,和「毎朝(まいあさ)」的训读不同。",
+    "expl_en": "毎日 is まいにち; 日 takes the on reading にち here."
+  },
+  {
+    "id": "n5-q139",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "きのうは【一人】で 映画を 見ました。",
+    "options": [
+      "いちり",
+      "ひとつ",
+      "いちにん",
+      "ひとり"
+    ],
+    "answer": 3,
+    "expl_zh": "「一人」是特殊读法「ひとり」,「二人」读「ふたり」。「いちにん」不是自然的日语。",
+    "expl_en": "一人 is the special reading ひとり, just as 二人 is ふたり."
+  },
+  {
+    "id": "n5-q140",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "父は【会社】で はたらいて います。",
+    "options": [
+      "がいしゃ",
+      "かいしゃ",
+      "かいしや",
+      "かいしゅ"
+    ],
+    "answer": 1,
+    "expl_zh": "「会社」读「かいしゃ」,「か」不浊化;「しゃ」是拗音,要写小的「ゃ」。",
+    "expl_en": "会社 is かいしゃ — unvoiced か, and しゃ is a small-ゃ contraction."
+  },
+  {
+    "id": "n5-q141",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "ここに【名前】を 書いて ください。",
+    "options": [
+      "なまえ",
+      "めいぜん",
+      "なまい",
+      "めいまえ"
+    ],
+    "answer": 0,
+    "expl_zh": "「名前」读「なまえ」,两个字都用训读。音读「めい」用在「有名(ゆうめい)」这类词里。",
+    "expl_en": "名前 is なまえ, both kanji in their kun readings."
+  },
+  {
+    "id": "n5-q142",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "あしたは 学校が【休み】です。",
+    "options": [
+      "やすみ",
+      "やすめ",
+      "はやみ",
+      "きゅうみ"
+    ],
+    "answer": 0,
+    "expl_zh": "「休み」读「やすみ」,是动词「休みます」的名词形。「きゅう」用在「休日(きゅうじつ)」里。",
+    "expl_en": "休み is やすみ, the noun form of 休みます."
+  },
+  {
+    "id": "n5-q143",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "駅まで【車】で 行きましょう。",
+    "options": [
+      "くらま",
+      "しゃ",
+      "くるま",
+      "くろま"
+    ],
+    "answer": 2,
+    "expl_zh": "单独一个「車」读训读「くるま」。音读「しゃ」只在「電車(でんしゃ)」这类词里出现。",
+    "expl_en": "車 on its own is くるま; しゃ appears only in compounds like 電車."
+  },
+  {
+    "id": "n5-q144",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "にわに きれいな【花】が さいて います。",
+    "options": [
+      "か",
+      "ばな",
+      "はな",
+      "はに"
+    ],
+    "answer": 2,
+    "expl_zh": "「花」单独用时读「はな」。「ばな」是复合词里的连浊形,如「生け花(いけばな)」。",
+    "expl_en": "花 alone is はな; ばな only appears voiced inside compounds."
+  },
+  {
+    "id": "n5-q145",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "つくえの【上】に ねこが います。",
+    "options": [
+      "じょう",
+      "うわ",
+      "した",
+      "うえ"
+    ],
+    "answer": 3,
+    "expl_zh": "表示位置时「上」读「うえ」。「じょう」是音读,「した」是「下」,意思相反。",
+    "expl_en": "As a position word 上 is うえ; じょう is the on reading and した is 下."
+  },
+  {
+    "id": "n5-q146",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "いすの【下】に かばんが あります。",
+    "options": [
+      "げ",
+      "しも",
+      "くだ",
+      "した"
+    ],
+    "answer": 3,
+    "expl_zh": "「下」表示位置时读「した」。「げ」「か」是音读,用在「地下(ちか)」等词里。",
+    "expl_en": "下 as a position is した; げ/か are on readings used in compounds."
+  },
+  {
+    "id": "n5-q147",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "きょうは【白い】シャツを 着ます。",
+    "options": [
+      "しろい",
+      "はくい",
+      "しらい",
+      "しろ"
+    ],
+    "answer": 0,
+    "expl_zh": "「白い」读「しろい」。「はく」是音读,如「白紙(はくし)」;形容词形一定用训读。",
+    "expl_en": "白い is しろい; はく is the on reading and never used for the adjective."
+  },
+  {
+    "id": "n5-q148",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "りんごを【五つ】ください。",
+    "options": [
+      "ごっつ",
+      "いつ",
+      "ごつ",
+      "いつつ"
+    ],
+    "answer": 3,
+    "expl_zh": "用「〜つ」数东西时是训读,「五つ」读「いつつ」。「ご」是音读,用在「五人(ごにん)」里。",
+    "expl_en": "Counting with 〜つ uses kun readings: 五つ is いつつ."
+  },
+  {
+    "id": "n5-q149",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "じゅぎょうは【九時】に はじまります。",
+    "options": [
+      "くうじ",
+      "きゅうじ",
+      "くじ",
+      "ここのじ"
+    ],
+    "answer": 2,
+    "expl_zh": "钟点里的「九時」读「くじ」,不读「きゅうじ」。类似的还有「四時(よじ)」「七時(しちじ)」。",
+    "expl_en": "Nine o'clock is くじ, not きゅうじ — like よじ and しちじ."
+  },
+  {
+    "id": "n5-q150",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "【八日】に また 会いましょう。",
+    "options": [
+      "はつか",
+      "やっか",
+      "はちにち",
+      "ようか"
+    ],
+    "answer": 3,
+    "expl_zh": "「八日」读「ようか」。「はつか」是「二十日」,两个词很容易混。",
+    "expl_en": "八日 is ようか; はつか is 二十日, the twentieth."
+  },
+  {
+    "id": "n5-q151",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "【今週】は とても いそがしいです。",
+    "options": [
+      "いましゅう",
+      "きんしゅう",
+      "こんしゅう",
+      "こんしゅ"
+    ],
+    "answer": 2,
+    "expl_zh": "「今週」读「こんしゅう」。「今」在「今日(きょう)」「今朝(けさ)」里读法特殊,但在「今週・今月」里读「こん」。",
+    "expl_en": "今週 is こんしゅう — 今 is こん here, unlike in 今日 or 今朝."
+  },
+  {
+    "id": "n5-q152",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "まいばん 本を【読みます】。",
+    "options": [
+      "しみます",
+      "よびます",
+      "よみます",
+      "どみます"
+    ],
+    "answer": 2,
+    "expl_zh": "「読みます」读「よみます」。「よびます」是「呼びます」(叫、喊),只差一个假名,意思完全不同。",
+    "expl_en": "読みます is よみます; よびます is 呼びます (to call)."
+  },
+  {
+    "id": "n5-q153",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "ノートに かんじを【書きます】。",
+    "options": [
+      "かきます",
+      "がきます",
+      "しょきます",
+      "かぎます"
+    ],
+    "answer": 0,
+    "expl_zh": "「書きます」读「かきます」,「か」是清音。「しょ」是音读,用在「辞書(じしょ)」里。",
+    "expl_en": "書きます is かきます with an unvoiced か; しょ is the on reading, as in 辞書."
+  },
+  {
+    "id": "n5-q154",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "母に【電話】を かけました。",
+    "options": [
+      "でんは",
+      "でんご",
+      "てんわ",
+      "でんわ"
+    ],
+    "answer": 3,
+    "expl_zh": "「電話」读「でんわ」。「電」是浊音「でん」,「話」在这里读「わ」而不是「はなし」。",
+    "expl_en": "電話 is でんわ — voiced でん, and 話 is read わ in this compound."
+  },
+  {
+    "id": "n5-q155",
+    "level": "N5",
+    "section": "vocab",
+    "type": "kanji-reading",
+    "question": "この かさは【千円】でした。",
+    "options": [
+      "ぜんえん",
+      "せんげん",
+      "ちえん",
+      "せんえん"
+    ],
+    "answer": 3,
+    "expl_zh": "「千円」读「せんえん」,「せん」是清音。注意「三千(さんぜん)」时才会浊化。",
+    "expl_en": "千円 is せんえん; the voiced ぜん only appears in 三千 (さんぜん)."
+  },
+  {
+    "id": "n5-q156",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "うちの 近くに 大きな【かわ】が あります。",
+    "options": [
+      "三",
+      "州",
+      "川",
+      "水"
+    ],
+    "answer": 2,
+    "expl_zh": "「かわ」写作「川」。三笔竖着写是「川」,「水(みず)」「三(さん)」读音都不同。",
+    "expl_en": "かわ is 川; 水 is みず and 三 is さん."
+  },
+  {
+    "id": "n5-q157",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "六時に【いえ】へ 帰ります。",
+    "options": [
+      "室",
+      "宇",
+      "家",
+      "宅"
+    ],
+    "answer": 2,
+    "expl_zh": "「いえ」写作「家」。「宅」读「たく」,用在「お宅(おたく)」里;「室」是「しつ」。",
+    "expl_en": "いえ is 家; 宅 is たく and 室 is しつ."
+  },
+  {
+    "id": "n5-q158",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "【くち】を 大きく あけて ください。",
+    "options": [
+      "日",
+      "口",
+      "目",
+      "白"
+    ],
+    "answer": 1,
+    "expl_zh": "「くち」写作「口」,是个方框。「日」是「ひ」,「目」是「め」,字形都很像,要看清楚里面有没有横。",
+    "expl_en": "くち is 口, an empty box; 日 (ひ) and 目 (め) have strokes inside."
+  },
+  {
+    "id": "n5-q159",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "はこの【なか】に 何が ありますか。",
+    "options": [
+      "虫",
+      "由",
+      "申",
+      "中"
+    ],
+    "answer": 3,
+    "expl_zh": "「なか」写作「中」,竖线穿过方框的正中间。「申」「由」的竖线位置不同。",
+    "expl_en": "なか is 中 — the stroke runs through the middle of the box."
+  },
+  {
+    "id": "n5-q160",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "パンを【ひゃく】円で 買いました。",
+    "options": [
+      "白",
+      "自",
+      "首",
+      "百"
+    ],
+    "answer": 3,
+    "expl_zh": "「ひゃく」写作「百」,是「一」+「白」。「白」单独是「しろ」,少了上面那一横。",
+    "expl_en": "ひゃく is 百 (一 over 白); 白 alone is しろ."
+  },
+  {
+    "id": "n5-q161",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "わからない ことばを【せんせい】に 聞きました。",
+    "options": [
+      "先生",
+      "失生",
+      "先牛",
+      "洗生"
+    ],
+    "answer": 0,
+    "expl_zh": "「せんせい」写作「先生」。注意「牛(うし)」比「生」少一笔,「失(しつ)」和「先」也只差一点。",
+    "expl_en": "せんせい is 先生; 牛 and 失 are different characters that look close."
+  },
+  {
+    "id": "n5-q162",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "きのう【ともだち】と あそびました。",
+    "options": [
+      "反だち",
+      "友だち",
+      "有だち",
+      "左だち"
+    ],
+    "answer": 1,
+    "expl_zh": "「ともだち」写作「友だち」。「反(はん)」和「友」字形相近,但上面的撇不一样。",
+    "expl_en": "ともだち is 友だち; 反 (はん) is a different character."
+  },
+  {
+    "id": "n5-q163",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "駅の【きた】に こうえんが あります。",
+    "options": [
+      "化",
+      "北",
+      "比",
+      "兆"
+    ],
+    "answer": 1,
+    "expl_zh": "「きた」写作「北」。「比(ひ)」两边都朝右,「北」左右相背,方向不一样。",
+    "expl_en": "きた is 北; in 比 both halves face the same way."
+  },
+  {
+    "id": "n5-q164",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "かぜを ひいて、【みみ】が いたいです。",
+    "options": [
+      "目",
+      "耳",
+      "貝",
+      "自"
+    ],
+    "answer": 1,
+    "expl_zh": "「みみ」写作「耳」。「目(め)」少两笔,「貝(かい)」下面有两点,注意区分。",
+    "expl_en": "みみ is 耳; 目 is め and 貝 is かい."
+  },
+  {
+    "id": "n5-q165",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "まいあさ 八時に【がっこう】へ 行きます。",
+    "options": [
+      "字校",
+      "学枚",
+      "学交",
+      "学校"
+    ],
+    "answer": 3,
+    "expl_zh": "「がっこう」写作「学校」。「校」的右边是「交」加木字旁,不要写成「枚」。",
+    "expl_en": "がっこう is 学校; 校 is 木 plus 交, not 枚."
+  },
+  {
+    "id": "n5-q166",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "デパートで【あたらしい】くつを 買いました。",
+    "options": [
+      "新らしい",
+      "親しい",
+      "新しい",
+      "薪しい"
+    ],
+    "answer": 2,
+    "expl_zh": "「あたらしい」写作「新しい」,送假名只有「しい」,不加「ら」。「親しい」读「したしい」。",
+    "expl_en": "あたらしい is 新しい — okurigana しい only; 親しい is したしい."
+  },
+  {
+    "id": "n5-q167",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "七時に ばんごはんを【たべます】。",
+    "options": [
+      "良べます",
+      "会べます",
+      "飲べます",
+      "食べます"
+    ],
+    "answer": 3,
+    "expl_zh": "「たべます」写作「食べます」。「飲(の)みます」是喝,汉字和意思都不同。",
+    "expl_en": "たべます is 食べます; 飲みます (のみます) is to drink."
+  },
+  {
+    "id": "n5-q168",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "きのうの 夜、【ゆき】が ふりました。",
+    "options": [
+      "電",
+      "雨",
+      "雲",
+      "雪"
+    ],
+    "answer": 3,
+    "expl_zh": "「ゆき」写作「雪」。四个字都有雨字头:「雲(くも)」「電(でん)」「雨(あめ)」,要看下半部分。",
+    "expl_en": "ゆき is 雪; all four share the rain radical, so check what is underneath."
+  },
+  {
+    "id": "n5-q169",
+    "level": "N5",
+    "section": "vocab",
+    "type": "orthography",
+    "question": "つかれましたから、【すこし】休みましょう。",
+    "options": [
+      "小し",
+      "少し",
+      "少い",
+      "小さし"
+    ],
+    "answer": 1,
+    "expl_zh": "「すこし」写作「少し」。「小(ちい)さい」是形容大小的,汉字和送假名都不一样。",
+    "expl_en": "すこし is 少し; 小さい (ちいさい) is the adjective for size."
+  },
+  {
+    "id": "n5-q170",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "きってを はって、手紙を ポストに（　）。",
+    "options": [
+      "つきました",
+      "いれました",
+      "はいりました",
+      "おきました"
+    ],
+    "answer": 1,
+    "expl_zh": "把信投进邮筒用他动词「入れます」。「入ります」是自动词(自己进去),不能带「手紙を」。",
+    "expl_en": "You put a letter into a postbox with the transitive 入れます; 入ります is intransitive."
+  },
+  {
+    "id": "n5-q171",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "この 道を まっすぐ 行って、二つめの かどを 右に（　）ください。",
+    "options": [
+      "まわして",
+      "わたって",
+      "とおって",
+      "まがって"
+    ],
+    "answer": 3,
+    "expl_zh": "在拐角处转弯用「曲がります」。「わたります」是过马路、过桥,「とおります」是经过。",
+    "expl_en": "You turn at a corner with 曲がります; わたります is to cross and とおります is to pass through."
+  },
+  {
+    "id": "n5-q172",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "電車の きっぷを（　）から、ホームへ 行きます。",
+    "options": [
+      "はらって",
+      "もらって",
+      "かって",
+      "かりて"
+    ],
+    "answer": 2,
+    "expl_zh": "车票是自己花钱买的,用「買います」。「はらいます」的宾语是钱,不是票。",
+    "expl_en": "You buy (買います) a ticket; はらいます takes money, not the ticket, as its object."
+  },
+  {
+    "id": "n5-q173",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "先生が 教室に 入って 来て、じゅぎょうが（　）。",
+    "options": [
+      "はじめました",
+      "はじまりました",
+      "おわりました",
+      "やめました"
+    ],
+    "answer": 1,
+    "expl_zh": "「じゅぎょうが」是「が」,所以要用自动词「始まります」。「始めます」是他动词,前面要用「じゅぎょうを」。",
+    "expl_en": "With じゅぎょうが you need the intransitive 始まります; 始めます would require を."
+  },
+  {
+    "id": "n5-q174",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "すみません、この にもつを 二かいへ（　）ください。",
+    "options": [
+      "もって いって",
+      "とって",
+      "かけて",
+      "もって きて"
+    ],
+    "answer": 0,
+    "expl_zh": "从说话人这里拿到别处去,用「持って 行きます」。「持って 来ます」是拿到说话人这边来,方向相反。",
+    "expl_en": "Carrying something away from the speaker is 持って 行きます; 持って 来ます is toward the speaker."
+  },
+  {
+    "id": "n5-q175",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "父は まいにち 車を（　）して 会社へ 行きます。",
+    "options": [
+      "うんてん",
+      "しゅっぱつ",
+      "さんぽ",
+      "りょこう"
+    ],
+    "answer": 0,
+    "expl_zh": "开车用「運転します」。「旅行」是旅行,「出発」是出发,都不能直接接「車を」。",
+    "expl_en": "Driving a car is 運転します; 旅行 and 出発 cannot take 車を."
+  },
+  {
+    "id": "n5-q176",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "この おちゃは まだ（　）ですから、少し まって ください。",
+    "options": [
+      "つめたい",
+      "あつい",
+      "さむい",
+      "ぬるい"
+    ],
+    "answer": 1,
+    "expl_zh": "热的饮料、食物用「熱い」。「暑い」虽然也读あつい,但说的是天气;「寒い」只用于天气。",
+    "expl_en": "Hot drinks and food take 熱い; 寒い is only for weather."
+  },
+  {
+    "id": "n5-q177",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "この シャツは とても（　）でしたから、二まい 買いました。",
+    "options": [
+      "たかかった",
+      "やすかった",
+      "おもかった",
+      "ながかった"
+    ],
+    "answer": 1,
+    "expl_zh": "因为便宜才买两件,用「安かった」。如果是「高かった」,后面应该说没买。",
+    "expl_en": "Buying two makes sense because they were cheap (安かった), not expensive."
+  },
+  {
+    "id": "n5-q178",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "じゅぎょうは 九時に はじまって、十時半に（　）。",
+    "options": [
+      "でます",
+      "おわります",
+      "はじまります",
+      "つきます"
+    ],
+    "answer": 1,
+    "expl_zh": "「九時に はじまって」后面接的是结束时间,用「終わります」。",
+    "expl_en": "After \"starts at nine\" comes the finishing time — 終わります."
+  },
+  {
+    "id": "n5-q179",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "雨が ふって いますから、（　）を 持って 行きます。",
+    "options": [
+      "ぼうし",
+      "めがね",
+      "かさ",
+      "かばん"
+    ],
+    "answer": 2,
+    "expl_zh": "下雨要带伞「かさ」。「ぼうし」是帽子,「めがね」是眼镜,都不能挡雨。",
+    "expl_en": "Rain calls for an umbrella (かさ)."
+  },
+  {
+    "id": "n5-q180",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "へやが さむいですから、（　）を つけましょう。",
+    "options": [
+      "テレビ",
+      "でんき",
+      "まど",
+      "ストーブ"
+    ],
+    "answer": 3,
+    "expl_zh": "冷了要开暖炉「ストーブ」。「まど」是窗户,只能「開けます・閉めます」,不能「つけます」。",
+    "expl_en": "Cold calls for a heater (ストーブ); a window takes 開けます/閉めます, not つけます."
+  },
+  {
+    "id": "n5-q181",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "二かいへは、この（　）を のぼって ください。",
+    "options": [
+      "エレベーター",
+      "げんかん",
+      "ろうか",
+      "かいだん"
+    ],
+    "answer": 3,
+    "expl_zh": "「のぼります」(往上爬)搭配的是楼梯「かいだん」。电梯是「乗ります」,走廊是「歩きます」。",
+    "expl_en": "のぼります goes with stairs (かいだん); a lift takes 乗ります."
+  },
+  {
+    "id": "n5-q182",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "パーティーに 人が 三十人ぐらい（　）。",
+    "options": [
+      "かえりました",
+      "あつまりました",
+      "わかれました",
+      "でかけました"
+    ],
+    "answer": 1,
+    "expl_zh": "很多人聚到一处用「集まります」。「別れます」是分开,「出かけます」是出门,意思相反。",
+    "expl_en": "People gathering is 集まります; 別れます is to part and 出かけます is to go out."
+  },
+  {
+    "id": "n5-q183",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "友だちに 本を（　）、まだ 返して いません。",
+    "options": [
+      "かりて",
+      "あげて",
+      "うって",
+      "かして"
+    ],
+    "answer": 0,
+    "expl_zh": "后半句说「まだ 返して いません」(还没还),所以是我借来的,用「借ります」。「貸します」是借给别人。",
+    "expl_en": "\"I haven't returned it yet\" means I borrowed it — 借ります; 貸します is to lend."
+  },
+  {
+    "id": "n5-q184",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "兄は せが（　）ですから、バスケットボールが 上手です。",
+    "options": [
+      "ひろい",
+      "ながい",
+      "おおきい",
+      "たかい"
+    ],
+    "answer": 3,
+    "expl_zh": "个子高用「せが 高い」,这是固定搭配。「大きい」形容整个人或物,不用来说身高。",
+    "expl_en": "Being tall is せが 高い — a fixed collocation."
+  },
+  {
+    "id": "n5-q185",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "あたらしい ことばは、ノートに（　）おきます。",
+    "options": [
+      "よんで",
+      "かいて",
+      "きいて",
+      "はなして"
+    ],
+    "answer": 1,
+    "expl_zh": "记在笔记本上用「書きます」。「読みます」是读,方向反了。",
+    "expl_en": "You write (書きます) new words in a notebook."
+  },
+  {
+    "id": "n5-q186",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "この コーヒーは あまく ありません。さとうを（　）ください。",
+    "options": [
+      "だして",
+      "いれて",
+      "つけて",
+      "かけて"
+    ],
+    "answer": 1,
+    "expl_zh": "往咖啡里加糖用「入れます」。「かけます」用于往表面浇、撒,如「しょうゆを かけます」。",
+    "expl_en": "You put (入れます) sugar into coffee; かけます is for pouring over something."
+  },
+  {
+    "id": "n5-q187",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "もうすぐ 電車が（　）から、いそいで ください。",
+    "options": [
+      "でます",
+      "きます",
+      "つきます",
+      "かえります"
+    ],
+    "answer": 0,
+    "expl_zh": "「いそいで ください」是因为车要开走了,用「出ます」(发车)。「着きます」是到站,不用着急。",
+    "expl_en": "Hurry because the train is about to leave (出ます); 着きます is arriving."
+  },
+  {
+    "id": "n5-q188",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "日本の りょうりの 中で、すしが 一番（　）です。",
+    "options": [
+      "すき",
+      "ほしい",
+      "たのしい",
+      "じょうず"
+    ],
+    "answer": 0,
+    "expl_zh": "说喜好用「好きです」。「上手」说的是技能,「ほしい」用于想要东西。",
+    "expl_en": "Preference takes 好きです; 上手 is about skill and ほしい about wanting an object."
+  },
+  {
+    "id": "n5-q189",
+    "level": "N5",
+    "section": "vocab",
+    "type": "context",
+    "question": "あした 友だちが ひこうきで 空港に（　）。",
+    "options": [
+      "かえります",
+      "でます",
+      "つきます",
+      "わたります"
+    ],
+    "answer": 2,
+    "expl_zh": "到达某地用「着きます」。「出ます」是出发、离开,方向相反。",
+    "expl_en": "Arriving somewhere is 着きます; 出ます means to leave."
+  },
+  {
+    "id": "n5-q190",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "この へやは【ひろく ないです】。",
+    "options": [
+      "せまいです",
+      "くらいです",
+      "しずかです",
+      "きたないです"
+    ],
+    "answer": 0,
+    "expl_zh": "「広く ない」是不宽敞,等于「せまい」(窄)。其他选项说的是别的性质。",
+    "expl_en": "Not spacious (広くない) means cramped — せまい."
+  },
+  {
+    "id": "n5-q191",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "【らいしゅう】テストが あります。",
+    "options": [
+      "一週間 まえに テストが ありました",
+      "きょう テストが あります",
+      "一週間ぐらい あとに テストが あります",
+      "きのう テストが ありました"
+    ],
+    "answer": 2,
+    "expl_zh": "「来週」是下周,也就是一周之后。「先週」才是一周之前。",
+    "expl_en": "来週 is next week, about a week from now; 先週 is last week."
+  },
+  {
+    "id": "n5-q192",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "姉は【ぎんこうに つとめて います】。",
+    "options": [
+      "姉は ぎんこうの 近くに 住んで います",
+      "姉は ぎんこうで はたらいて います",
+      "姉は ぎんこうへ 行きました",
+      "姉は ぎんこうで お金を かりました"
+    ],
+    "answer": 1,
+    "expl_zh": "「〜に 勤めて います」就是在那里工作,等于「〜で 働いて います」。注意助词不同:勤める用「に」,働く用「で」。",
+    "expl_en": "〜に 勤めて います means to be employed there — the same as 〜で 働いて います."
+  },
+  {
+    "id": "n5-q193",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "【まいあさ】こうえんを さんぽします。",
+    "options": [
+      "あさだけ さんぽしません",
+      "ばん いつも さんぽします",
+      "ときどき あさ さんぽします",
+      "あさ いつも さんぽします"
+    ],
+    "answer": 3,
+    "expl_zh": "「毎朝」=每天早上,也就是「あさ いつも」。「ときどき」是偶尔,频率不一样。",
+    "expl_en": "毎朝 means every morning — always in the morning, not sometimes."
+  },
+  {
+    "id": "n5-q194",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "この 本は【つまらないです】。",
+    "options": [
+      "やさしいです",
+      "たかく ないです",
+      "むずかしいです",
+      "おもしろく ないです"
+    ],
+    "answer": 3,
+    "expl_zh": "「つまらない」是没意思,等于「おもしろく ない」。「むずかしい」说的是难易,不是有趣与否。",
+    "expl_en": "つまらない (boring) equals おもしろく ない (not interesting)."
+  },
+  {
+    "id": "n5-q195",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "わたしは【まだ ひるごはんを 食べて いません】。",
+    "options": [
+      "ひるごはんは いりません",
+      "ひるごはんを 作りました",
+      "もう おなかが いっぱいです",
+      "おなかが すいて います"
+    ],
+    "answer": 3,
+    "expl_zh": "还没吃午饭,所以肚子饿,等于「おなかが すいて います」。「いっぱい」是吃饱了,意思相反。",
+    "expl_en": "Not having had lunch yet means being hungry — おなかが すいて います."
+  },
+  {
+    "id": "n5-q196",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "きょうは【十二月三十一日】です。",
+    "options": [
+      "きょうから あたらしい 年です",
+      "らいしゅう 十二月に なります",
+      "あしたから あたらしい 年です",
+      "きのうは 一月一日でした"
+    ],
+    "answer": 2,
+    "expl_zh": "12月31日是一年的最后一天,所以明天就是新年。「きょうから」说的是元旦,差一天。",
+    "expl_en": "December 31 is the last day of the year, so the new year starts tomorrow."
+  },
+  {
+    "id": "n5-q197",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "この かばんは【兄に もらいました】。",
+    "options": [
+      "兄が この かばんを くれました",
+      "兄に この かばんを かしました",
+      "兄が この かばんを 買いました",
+      "兄に この かばんを あげました"
+    ],
+    "answer": 0,
+    "expl_zh": "「わたしは 兄に もらいました」和「兄が わたしに くれました」说的是同一件事,只是视角不同。",
+    "expl_en": "\"I received it from my brother\" and \"my brother gave it to me\" describe the same event."
+  },
+  {
+    "id": "n5-q198",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "わたしの うちは【駅から あるいて 五分】です。",
+    "options": [
+      "うちは 駅から とおいです",
+      "うちは 駅の 中に あります",
+      "うちは 駅に ちかいです",
+      "うちから 駅まで バスで 行きます"
+    ],
+    "answer": 2,
+    "expl_zh": "走五分钟就到,说明离车站很近,等于「駅に ちかい」。",
+    "expl_en": "Five minutes on foot means the house is close to the station."
+  },
+  {
+    "id": "n5-q199",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "この 店は【水曜日 やすみです】。",
+    "options": [
+      "水曜日は 店が いそがしいです",
+      "水曜日は 店が しまって います",
+      "水曜日だけ 店が あいて います",
+      "毎日 店は やすみです"
+    ],
+    "answer": 1,
+    "expl_zh": "「休みです」就是那天不营业,店门关着。「水曜日だけ 店が あいて います」说的正好相反。",
+    "expl_en": "休みです means the shop is closed that day."
+  },
+  {
+    "id": "n5-q200",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "父は【今 うちに いません】。",
+    "options": [
+      "父は 出かけて います",
+      "父は 今 かえって 来ました",
+      "父は うちで はたらいて います",
+      "父は もう ねました"
+    ],
+    "answer": 0,
+    "expl_zh": "人不在家,就是出去了,等于「出かけて います」。其他三个都表示人在家。",
+    "expl_en": "Not being at home means he has gone out — 出かけて います."
+  },
+  {
+    "id": "n5-q201",
+    "level": "N5",
+    "section": "vocab",
+    "type": "paraphrase",
+    "question": "この りょうりは【おいしく ありませんでした】。",
+    "options": [
+      "まずかったです",
+      "からかったです",
+      "つめたかったです",
+      "あまかったです"
+    ],
+    "answer": 0,
+    "expl_zh": "「おいしく ない」的反义就是「まずい」(难吃)。「あまい・からい」说的是味道种类,不是好不好吃。",
+    "expl_en": "Not tasty (おいしくない) is まずい; あまい/からい describe kinds of taste, not quality."
+  },
+  {
+    "id": "n5-q202",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "つくえの 上に 本（　）ノートなどが あります。",
+    "options": [
+      "から",
+      "や",
+      "と",
+      "も"
+    ],
+    "answer": 1,
+    "expl_zh": "「AやBなど」是从多个东西里举几个例子。「と」表示全部列举,不能和「など」一起用。",
+    "expl_en": "AやBなど lists examples; と implies an exhaustive list and clashes with など."
+  },
+  {
+    "id": "n5-q203",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "まいあさ この 道（　）通って、学校へ 行きます。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "answer": 2,
+    "expl_zh": "「通る・歩く・渡る」这类表示经过某个场所的动词,场所用「を」。",
+    "expl_en": "Verbs of passing through a space — 通る, 歩く, 渡る — mark that space with を."
+  },
+  {
+    "id": "n5-q204",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "田中さんは まいあさ 電車（　）会社へ 行きます。",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "と"
+    ],
+    "answer": 2,
+    "expl_zh": "交通工具作为手段用「で」。「電車に 乗ります」时才用「に」,注意动词不同,助词也不同。",
+    "expl_en": "Means of transport takes で; に appears only with 乗ります."
+  },
+  {
+    "id": "n5-q205",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "へやに 入る（　）、くつを ぬぎます。",
+    "options": [
+      "ながら",
+      "まえ",
+      "あと",
+      "とき"
+    ],
+    "answer": 3,
+    "expl_zh": "「辞書形+とき」表示做某事的时候。「まえ」要说「入る まえに」,「あと」要接た形。",
+    "expl_en": "Dictionary form + とき means \"when\"; まえ needs に and あと needs the た-form."
+  },
+  {
+    "id": "n5-q206",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この かんじは 何（　）読みますか。",
+    "options": [
+      "と",
+      "に",
+      "で",
+      "を"
+    ],
+    "answer": 0,
+    "expl_zh": "问读音、称呼用「何と 読みますか」「何と 言いますか」,引用内容用「と」。",
+    "expl_en": "Asking how something is read uses 何と 読みますか — と marks the quoted content."
+  },
+  {
+    "id": "n5-q207",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "あの 人は 学生（　）ありません。",
+    "options": [
+      "では",
+      "に",
+      "が",
+      "で"
+    ],
+    "answer": 0,
+    "expl_zh": "名词的否定是「〜では ありません」(口语「じゃ ありません」)。只用「で」是不完整的。",
+    "expl_en": "The negative of a noun predicate is 〜では ありません (colloquially じゃ ありません)."
+  },
+  {
+    "id": "n5-q208",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "きょうは 日曜日です（　）、学校は 休みです。",
+    "options": [
+      "が",
+      "でも",
+      "より",
+      "から"
+    ],
+    "answer": 3,
+    "expl_zh": "前因后果用「〜から」。「が」是逆接,前后意思要相反,这里不合。",
+    "expl_en": "から gives the reason; が is adversative and does not fit here."
+  },
+  {
+    "id": "n5-q209",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "たくさん 食べました（　）、まだ おなかが すいて います。",
+    "options": [
+      "から",
+      "が",
+      "ので",
+      "と"
+    ],
+    "answer": 1,
+    "expl_zh": "「吃了很多」和「还饿」是相反的内容,用逆接的「が」。「から」表示原因,逻辑不通。",
+    "expl_en": "\"Ate a lot\" and \"still hungry\" conflict, so the adversative が is needed."
+  },
+  {
+    "id": "n5-q210",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "まいあさ パンを 食べます。（　）、コーヒーを 飲みます。",
+    "options": [
+      "じゃあ",
+      "それから",
+      "しかし",
+      "でも"
+    ],
+    "answer": 1,
+    "expl_zh": "依次叙述两件事用「それから」(然后)。「しかし・でも」是转折,前后意思要相反。",
+    "expl_en": "それから links two actions in sequence; しかし/でも mark contrast."
+  },
+  {
+    "id": "n5-q211",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "「いっしょに 映画を 見ませんか。」「ええ、（　）。」",
+    "options": [
+      "見ましょう",
+      "見ません",
+      "見て います",
+      "見ました"
+    ],
+    "answer": 0,
+    "expl_zh": "「〜ませんか」是邀请,答应时用「〜ましょう」。这是 N5 最常考的一组对话。",
+    "expl_en": "〜ませんか invites; the accepting reply is 〜ましょう."
+  },
+  {
+    "id": "n5-q212",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この ケーキは 母（　）作りました。",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "answer": 1,
+    "expl_zh": "做动作的人用「が」。「に」表示对象,「で」表示手段或场所,都不能标记动作主体。",
+    "expl_en": "The doer of the action is marked が."
+  },
+  {
+    "id": "n5-q213",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "わたしは まだ 名前を 書いて（　）。",
+    "options": [
+      "いません",
+      "ありません",
+      "ないです",
+      "いました"
+    ],
+    "answer": 0,
+    "expl_zh": "「まだ〜て いません」表示动作还没做。不能说「書いて ありません」,那是另一种结构。",
+    "expl_en": "\"Not yet done\" is まだ〜て いません."
+  },
+  {
+    "id": "n5-q214",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "「もう しゅくだいを しましたか。」「いいえ、（　）して いません。」",
+    "options": [
+      "ときどき",
+      "もう",
+      "まだ",
+      "もうすぐ"
+    ],
+    "answer": 2,
+    "expl_zh": "对「もう〜ましたか」的否定回答用「まだ〜て いません」,「まだ」和「もう」是一组。",
+    "expl_en": "The negative answer to もう〜ましたか is いいえ、まだ〜て いません."
+  },
+  {
+    "id": "n5-q215",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この へやは きれいで、（　）です。",
+    "options": [
+      "しずかに",
+      "しずかだ",
+      "しずか",
+      "しずかな"
+    ],
+    "answer": 2,
+    "expl_zh": "「です」前面直接接な形容词的词干,所以是「しずかです」。「な」只在修饰名词时加。",
+    "expl_en": "Before です a na-adjective appears as its bare stem: しずかです."
+  },
+  {
+    "id": "n5-q216",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "妹は りんご（　）好きです。",
+    "options": [
+      "に",
+      "へ",
+      "を",
+      "が"
+    ],
+    "answer": 3,
+    "expl_zh": "「好きです・きらいです・上手です・ほしいです」这类词,对象都用「が」,不用「を」。",
+    "expl_en": "好き, きらい, 上手 and ほしい all mark their object with が, never を."
+  },
+  {
+    "id": "n5-q217",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "すみません、トイレは どこ（　）ありますか。",
+    "options": [
+      "で",
+      "へ",
+      "を",
+      "に"
+    ],
+    "answer": 3,
+    "expl_zh": "「あります・います」表示存在,场所用「に」。「で」是动作发生的场所。",
+    "expl_en": "Existence with あります/います marks the place with に; で marks where an action happens."
+  },
+  {
+    "id": "n5-q218",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この くつは 大きいです。もっと 小さい（　）を 見せて ください。",
+    "options": [
+      "もの",
+      "こと",
+      "の",
+      "だ"
+    ],
+    "answer": 2,
+    "expl_zh": "「の」可以代替前面出现过的名词(这里指くつ),避免重复。「こと」不能指具体的东西。",
+    "expl_en": "の stands in for the noun already mentioned (くつ); こと cannot refer to a physical object."
+  },
+  {
+    "id": "n5-q219",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この 花は とても きれい（　）、いい においです。",
+    "options": [
+      "で",
+      "に",
+      "だし",
+      "くて"
+    ],
+    "answer": 0,
+    "expl_zh": "な形容词的中顿形是「〜で」。い形容词才是去い加くて,如「安くて」。",
+    "expl_en": "Na-adjectives connect with で; only i-adjectives use the くて form."
+  },
+  {
+    "id": "n5-q220",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "ここに じゅうしょを（　）ください。",
+    "options": [
+      "書き",
+      "書いて",
+      "書いた",
+      "書く"
+    ],
+    "answer": 1,
+    "expl_zh": "请求别人做某事用「て形+ください」,所以是「書いて ください」。",
+    "expl_en": "Requests use the て-form + ください: 書いて ください."
+  },
+  {
+    "id": "n5-q221",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "へやの 電気が（　）います。ねる まえに けして ください。",
+    "options": [
+      "ついて",
+      "つく",
+      "つき",
+      "つけて"
+    ],
+    "answer": 0,
+    "expl_zh": "「電気が」用自动词「つきます」,状态是「ついて います」。他动词「つけます」要说「電気を つけて います」。",
+    "expl_en": "電気が takes the intransitive つきます, so the state is ついて います."
+  },
+  {
+    "id": "n5-q222",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この へやで たばこを すっても（　）。",
+    "options": [
+      "います",
+      "いいです",
+      "ください",
+      "ましょう"
+    ],
+    "answer": 1,
+    "expl_zh": "「〜ても いいです」表示许可。禁止则说「〜ては いけません」。",
+    "expl_en": "〜ても いいです grants permission; the prohibition is 〜ては いけません."
+  },
+  {
+    "id": "n5-q223",
+    "level": "N5",
+    "section": "grammar",
+    "type": "grammar-form",
+    "question": "この 三つの 中で、どれが（　）安いですか。",
+    "options": [
+      "もっと",
+      "一番",
+      "とても",
+      "たくさん"
+    ],
+    "answer": 1,
+    "expl_zh": "三个以上的东西比较,问最高级用「一番」。「もっと」是「更」,不能用来问最高级。",
+    "expl_en": "Superlatives among three or more use 一番; もっと means \"more\"."
+  },
+  {
+    "id": "n5-q224",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "きのう　＿＿　＿＿　＿★＿　＿＿　食べました。",
+    "options": [
+      "家で",
+      "スーパーで",
+      "買った",
+      "魚を"
+    ],
+    "answer": 3,
+    "expl_zh": "完整句子:「きのう スーパーで 買った 魚を 家で 食べました。」「スーパーで 買った」整体修饰「魚」,★处是「魚を」。",
+    "expl_en": "Full sentence: きのう スーパーで 買った 魚を 家で 食べました."
+  },
+  {
+    "id": "n5-q225",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "その　＿＿　＿＿　＿★＿　＿＿　ください。",
+    "options": [
+      "かして",
+      "山田さんに",
+      "本を",
+      "赤い"
+    ],
+    "answer": 1,
+    "expl_zh": "完整句子:「その 赤い 本を 山田さんに かして ください。」借出的对象用「に」,★处是「山田さんに」。",
+    "expl_en": "Full sentence: その 赤い 本を 山田さんに かして ください; the person lent to takes に."
+  },
+  {
+    "id": "n5-q226",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "妹は　＿＿　＿＿　＿★＿　＿＿　います。",
+    "options": [
+      "料理を",
+      "手つだって",
+      "台所で",
+      "母の"
+    ],
+    "answer": 0,
+    "expl_zh": "完整句子:「妹は 台所で 母の 料理を 手つだって います。」场所→对象→动词,★处是「料理を」。",
+    "expl_en": "Full sentence: 妹は 台所で 母の 料理を 手つだって います."
+  },
+  {
+    "id": "n5-q227",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "あした　＿＿　＿＿　＿★＿　＿＿　行きませんか。",
+    "options": [
+      "前の",
+      "駅の",
+      "いっしょに",
+      "きっさてんへ"
+    ],
+    "answer": 0,
+    "expl_zh": "完整句子:「あした いっしょに 駅の 前の きっさてんへ 行きませんか。」「駅の 前の」连续修饰,★处是「前の」。",
+    "expl_en": "Full sentence: あした いっしょに 駅の 前の きっさてんへ 行きませんか."
+  },
+  {
+    "id": "n5-q228",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "わたしは　＿＿　＿＿　＿★＿　＿＿　分かりません。",
+    "options": [
+      "かんじの",
+      "読み方が",
+      "まだ",
+      "この"
+    ],
+    "answer": 0,
+    "expl_zh": "完整句子:「わたしは まだ この かんじの 読み方が 分かりません。」★处是「かんじの」。",
+    "expl_en": "Full sentence: わたしは まだ この かんじの 読み方が 分かりません."
+  },
+  {
+    "id": "n5-q229",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "わたしは　＿＿　＿＿　＿★＿　＿＿　たいです。",
+    "options": [
+      "国へ",
+      "帰り",
+      "今年の",
+      "夏休みに"
+    ],
+    "answer": 0,
+    "expl_zh": "完整句子:「わたしは 今年の 夏休みに 国へ 帰りたいです。」时间→方向→动词,★处是「国へ」。",
+    "expl_en": "Full sentence: わたしは 今年の 夏休みに 国へ 帰りたいです."
+  },
+  {
+    "id": "n5-q230",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "ここでは　＿＿　＿＿　＿★＿　＿＿　ください。",
+    "options": [
+      "あまり",
+      "大きい",
+      "話さないで",
+      "声で"
+    ],
+    "answer": 3,
+    "expl_zh": "完整句子:「ここでは あまり 大きい 声で 話さないで ください。」「あまり」和否定呼应,★处是「声で」。",
+    "expl_en": "Full sentence: ここでは あまり 大きい 声で 話さないで ください — あまり pairs with the negative."
+  },
+  {
+    "id": "n5-q231",
+    "level": "N5",
+    "section": "grammar",
+    "type": "sentence-order",
+    "question": "すみません、　＿＿　＿＿　＿★＿　＿＿　ありますか。",
+    "options": [
+      "もっと",
+      "へやは",
+      "駅に",
+      "近い"
+    ],
+    "answer": 3,
+    "expl_zh": "完整句子:「すみません、もっと 駅に 近い へやは ありますか。」「駅に 近い」是固定搭配,★处是「近い」。",
+    "expl_en": "Full sentence: すみません、もっと 駅に 近い へやは ありますか; 近い takes に."
+  },
+  {
+    "id": "n5-q232",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "リンさん\nこんばんは。あしたの 朝、いっしょに 学校へ 行きませんか。わたしは 八時に アパートの 下で まって います。あしたは テストが ありますから、少し 早く 行きましょう。テストの あとで、学校の しょくどうで ひるごはんを 食べませんか。\nマリア",
+    "question": "マリアさんは あした 何時に アパートの 下に いますか。",
+    "options": [
+      "七時",
+      "七時半",
+      "八時",
+      "九時"
+    ],
+    "answer": 2,
+    "expl_zh": "「八時に アパートの 下で まって います」写得很清楚。其他时间信里没有提到。",
+    "expl_en": "The note says Maria will be waiting downstairs at eight."
+  },
+  {
+    "id": "n5-q233",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "リンさん\nこんばんは。あしたの 朝、いっしょに 学校へ 行きませんか。わたしは 八時に アパートの 下で まって います。あしたは テストが ありますから、少し 早く 行きましょう。テストの あとで、学校の しょくどうで ひるごはんを 食べませんか。\nマリア",
+    "question": "二人は テストの あとで 何を しますか。",
+    "options": [
+      "としょかんで べんきょうします",
+      "買い物に 行きます",
+      "しょくどうで ひるごはんを 食べます",
+      "アパートへ 帰ります"
+    ],
+    "answer": 2,
+    "expl_zh": "最后一句「テストの あとで、学校の しょくどうで ひるごはんを 食べませんか」就是答案。",
+    "expl_en": "The last line invites Lin to have lunch in the school canteen after the test."
+  },
+  {
+    "id": "n5-q234",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜さくら町 バスの おしらせ＞\nいつもは 朝 六時から 夜 十時まで 走ります。\n十二月二十九日と 三十日は、朝 七時から 夜 七時までです。\n十二月三十一日と 一月一日は、バスが 休みです。",
+    "question": "十二月三十日の 夜、何時まで バスに 乗る ことが できますか。",
+    "options": [
+      "乗る ことが できません",
+      "夜 七時",
+      "夜 十時",
+      "朝 七時"
+    ],
+    "answer": 1,
+    "expl_zh": "12月29日和30日是特别时间,晚上七点就收车。「夜 十時」是平时的时间。",
+    "expl_en": "On 29–30 December the buses stop at 7 p.m.; 10 p.m. is the usual schedule."
+  },
+  {
+    "id": "n5-q235",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜さくら町 バスの おしらせ＞\nいつもは 朝 六時から 夜 十時まで 走ります。\n十二月二十九日と 三十日は、朝 七時から 夜 七時までです。\n十二月三十一日と 一月一日は、バスが 休みです。",
+    "question": "一月一日に バスに 乗りたいです。どうですか。",
+    "options": [
+      "夜だけ 乗る ことが できます",
+      "いつもと 同じ 時間です",
+      "朝だけ 乗る ことが できます",
+      "その 日は バスが ありません"
+    ],
+    "answer": 3,
+    "expl_zh": "「十二月三十一日と 一月一日は、バスが 休みです」——那两天整天没有车。",
+    "expl_en": "The notice says buses do not run at all on 31 December and 1 January."
+  },
+  {
+    "id": "n5-q236",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "わたしは 先月から 日本語の 学校に 通って います。クラスには 学生が 十五人 います。中国から 来た 人が 六人、ベトナムから 来た 人が 五人、そして わたしと 同じ タイから 来た 人が 四人 います。みんな とても しんせつです。",
+    "question": "タイから 来た 学生は 何人 いますか。",
+    "options": [
+      "四人",
+      "五人",
+      "六人",
+      "十五人"
+    ],
+    "answer": 0,
+    "expl_zh": "「タイから 来た 人が 四人」。十五人是全班人数,六人是中国来的,别看错。",
+    "expl_en": "Four students came from Thailand; fifteen is the whole class."
+  },
+  {
+    "id": "n5-q237",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "わたしは 先月から 日本語の 学校に 通って います。クラスには 学生が 十五人 います。中国から 来た 人が 六人、ベトナムから 来た 人が 五人、そして わたしと 同じ タイから 来た 人が 四人 います。みんな とても しんせつです。",
+    "question": "この 人は いつから 学校に 通って いますか。",
+    "options": [
+      "今月から",
+      "先週から",
+      "先月から",
+      "去年から"
+    ],
+    "answer": 2,
+    "expl_zh": "第一句「先月から 日本語の 学校に 通って います」。「先月」是上个月。",
+    "expl_en": "The first line says they have been attending since last month (先月)."
+  },
+  {
+    "id": "n5-q238",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "きのうは 姉の たんじょうびでした。わたしは ケーキを 作りました。はじめて 作りましたから、少し 時間が かかりましたが、姉は「おいしい」と 言って、全部 食べて くれました。来年も 作りたいです。",
+    "question": "「わたし」は きのう 何を しましたか。",
+    "options": [
+      "プレゼントを もらいました",
+      "ケーキを 買いました",
+      "ケーキを 作りました",
+      "レストランへ 行きました"
+    ],
+    "answer": 2,
+    "expl_zh": "「わたしは ケーキを 作りました」。是自己做的,不是买的。",
+    "expl_en": "They made the cake themselves rather than buying it."
+  },
+  {
+    "id": "n5-q239",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "きのうは 姉の たんじょうびでした。わたしは ケーキを 作りました。はじめて 作りましたから、少し 時間が かかりましたが、姉は「おいしい」と 言って、全部 食べて くれました。来年も 作りたいです。",
+    "question": "どうして 時間が かかりましたか。",
+    "options": [
+      "姉と いっしょに 作ったから",
+      "はじめて 作ったから",
+      "夜 おそかったから",
+      "たくさん 作ったから"
+    ],
+    "answer": 1,
+    "expl_zh": "「はじめて 作りましたから、少し 時間が かかりました」——「から」前面就是原因。",
+    "expl_en": "The から clause gives the reason: it was their first time making one."
+  },
+  {
+    "id": "n5-q240",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜としょかんの つかい方＞\n・本は 一人 三さつまで、二週間 かりる ことが できます。\n・かえす 日に 来る ことが できない 時は、電話を して ください。\n・としょかんの 中で 食べたり 飲んだり しないで ください。",
+    "question": "本は 何さつ かりる ことが できますか。",
+    "options": [
+      "一さつまで",
+      "二さつまで",
+      "三さつまで",
+      "何さつでも"
+    ],
+    "answer": 2,
+    "expl_zh": "「一人 三さつまで」。「二週間」说的是借阅期限,不是本数,别混。",
+    "expl_en": "Up to three books per person; the two weeks is the loan period, not a count."
+  },
+  {
+    "id": "n5-q241",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜としょかんの つかい方＞\n・本は 一人 三さつまで、二週間 かりる ことが できます。\n・かえす 日に 来る ことが できない 時は、電話を して ください。\n・としょかんの 中で 食べたり 飲んだり しないで ください。",
+    "question": "かえす 日に としょかんへ 行く ことが できません。どう しますか。",
+    "options": [
+      "新しい 本を かります",
+      "本を 友だちに わたします",
+      "としょかんに 電話を します",
+      "次の 日に かえします"
+    ],
+    "answer": 2,
+    "expl_zh": "第二条写着「来る ことが できない 時は、電話を して ください」。",
+    "expl_en": "The second rule says to telephone if you cannot come on the due date."
+  },
+  {
+    "id": "n5-q242",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "土曜日に 山へ 行く やくそくを しました。でも、金曜日の 夜から 雨が ふりました。土曜日の 朝も まだ 雨でしたから、山へは 行きませんでした。わたしたちは 映画を 見に 行って、そのあと ラーメンを 食べました。とても 楽しかったです。",
+    "question": "この 人たちは 土曜日に 何を しましたか。",
+    "options": [
+      "山へ 行きました",
+      "うちに いました",
+      "映画を 見て、ラーメンを 食べました",
+      "友だちの うちへ 行きました"
+    ],
+    "answer": 2,
+    "expl_zh": "没去成山,改成「映画を 見に 行って、そのあと ラーメンを 食べました」。",
+    "expl_en": "Instead of the mountain they went to a film and then had ramen."
+  },
+  {
+    "id": "n5-q243",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "土曜日に 山へ 行く やくそくを しました。でも、金曜日の 夜から 雨が ふりました。土曜日の 朝も まだ 雨でしたから、山へは 行きませんでした。わたしたちは 映画を 見に 行って、そのあと ラーメンを 食べました。とても 楽しかったです。",
+    "question": "どうして 山へ 行きませんでしたか。",
+    "options": [
+      "朝 おきる ことが できなかったから",
+      "映画が 見たかったから",
+      "雨が ふって いたから",
+      "友だちが 来なかったから"
+    ],
+    "answer": 2,
+    "expl_zh": "「土曜日の 朝も まだ 雨でしたから、山へは 行きませんでした」——下雨是原因。",
+    "expl_en": "It was still raining on Saturday morning, so they cancelled."
+  },
+  {
+    "id": "n5-q244",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜日本語クラスの 時間わり＞\n月曜日: かんじ (9:00〜10:30)\n火曜日: 会話 (9:00〜10:30)\n水曜日: 休み\n木曜日: かんじ (13:00〜14:30)\n金曜日: 会話 (13:00〜14:30)\n※金曜日の じゅぎょうの あとで、みんなで お茶を 飲みます。",
+    "question": "かんじの じゅぎょうは 何曜日に ありますか。",
+    "options": [
+      "月曜日と 火曜日",
+      "月曜日と 木曜日",
+      "火曜日と 金曜日",
+      "水曜日と 木曜日"
+    ],
+    "answer": 1,
+    "expl_zh": "表里「かんじ」出现在月曜日和木曜日。火曜日和金曜日是「会話」。",
+    "expl_en": "Kanji classes appear on Monday and Thursday; Tuesday and Friday are conversation."
+  },
+  {
+    "id": "n5-q245",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "＜日本語クラスの 時間わり＞\n月曜日: かんじ (9:00〜10:30)\n火曜日: 会話 (9:00〜10:30)\n水曜日: 休み\n木曜日: かんじ (13:00〜14:30)\n金曜日: 会話 (13:00〜14:30)\n※金曜日の じゅぎょうの あとで、みんなで お茶を 飲みます。",
+    "question": "みんなで お茶を 飲むのは 何曜日ですか。",
+    "options": [
+      "月曜日",
+      "水曜日",
+      "木曜日",
+      "金曜日"
+    ],
+    "answer": 3,
+    "expl_zh": "※的补充说明写着「金曜日の じゅぎょうの あとで」。这种带※的小字常常就是考点。",
+    "expl_en": "The ※ note says it happens after Friday's class."
+  },
+  {
+    "id": "n5-q246",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "お母さんへ\n友だちの 山田さんの うちへ 行って 来ます。六時までに 帰ります。おそく なる 時は 電話します。れいぞうこの ぎゅうにゅうは わたしが 飲みました。ごめんなさい。\nゆきこ",
+    "question": "ゆきこさんは 何を しましたか。",
+    "options": [
+      "ぎゅうにゅうを 飲みました",
+      "山田さんに 電話しました",
+      "六時に 帰りました",
+      "ぎゅうにゅうを 買いました"
+    ],
+    "answer": 0,
+    "expl_zh": "「れいぞうこの ぎゅうにゅうは わたしが 飲みました」。打电话和六点回家都是还没发生的事。",
+    "expl_en": "She drank the milk; phoning and returning by six have not happened yet."
+  },
+  {
+    "id": "n5-q247",
+    "level": "N5",
+    "section": "reading",
+    "type": "reading",
+    "passage": "わたしの 町には 駅が 二つ あります。うちから 近い 駅は 小さくて、電車が 三十分に 一本 来ます。もう 一つの 駅は あるいて 二十分 かかりますが、電車が たくさん あります。いそぐ 時は、その 駅まで あるきます。",
+    "question": "この 人は いそぐ 時、どう しますか。",
+    "options": [
+      "バスに 乗ります",
+      "近い 駅から 電車に 乗ります",
+      "とおい ほうの 駅まで あるきます",
+      "三十分 まちます"
+    ],
+    "answer": 2,
+    "expl_zh": "「いそぐ 時は、その 駅まで あるきます」的「その 駅」指的是前一句走二十分钟、班次多的那个远车站。",
+    "expl_en": "その 駅 refers to the farther station — twenty minutes' walk, but with frequent trains."
+  }
+]
