@@ -21,7 +21,12 @@ const BOOKS = [
 
 // Characters the passages may use regardless of the word lists: the recurring
 // cast of the textbook, plus kanji the books teach as 文字 without glossing.
-const NAMES = '李森金田中小野吉村山川本太郎花子鈴木佐藤高橋原口上下左右大千万円年月日時分曜何人私何々'
+// The recurring cast, the place names the book uses from lesson 1, and kanji
+// the books print without ever glossing (numerals, counters).
+const NAMES =
+  '李森金田中小野吉村山川本太郎花子鈴木佐藤高橋原口' +
+  '東京京都大阪奈良横浜神戸名古屋北海道沖縄富士上海北京香港台湾' +
+  '一二三四五六七八九十百千万億上下左右大円年月日時分曜何人私何々'
 const KANJI = /[㐀-䶿一-鿿々]/
 const RUN = /\{([^|{}]+)\|([^|{}]+)\}/g
 const KANA_ONLY = /^[ぁ-ゟ゠-ヿーー]+$/
@@ -38,10 +43,9 @@ function kanjiBudget() {
   for (const id of BOOKS) {
     const book = JSON.parse(fs.readFileSync(`${ROOT}/src/data/textbook/${id}.json`, 'utf8'))
     for (const lesson of [...book.lessons].sort((a, b) => a.n - b.n)) {
-      for (const text of [lesson.title, lesson.title_zh]) {
-        // title_zh is Chinese, but its kanji are by definition on-topic here
-        for (const ch of text) if (KANJI.test(ch)) seen.add(ch)
-      }
+      // Only the Japanese title counts — title_zh is Chinese and would let
+      // through characters that are not Japanese words at all.
+      for (const ch of lesson.title) if (KANJI.test(ch)) seen.add(ch)
       for (const w of lesson.words) {
         for (const ch of w.w) if (KANJI.test(ch)) seen.add(ch)
       }

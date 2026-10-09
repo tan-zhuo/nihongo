@@ -1,32 +1,4040 @@
 [
-{
-  "n": 1,
-  "passages": [
-    { "kind": "honbun", "lines": [
-      { "ja": "{私|わたし}は {李|り}です。{中国人|ちゅうごくじん}です。", "zh": "我是小李。是中国人。", "en": "I am Li. I am Chinese.", "note_zh": "「名詞1は 名詞2です」是本课最基本的句型。「は」做提示助词时读「わ」。第二句省略了主语「私は」——日语里主语清楚时通常不重复。", "note_en": "The core pattern 名詞1は名詞2です. The topic marker は is pronounced wa, and the second sentence drops the already-obvious subject." },
-      { "ja": "{小野|おの}さんは {日本人|にほんじん}です。{会社員|かいしゃいん}です。", "zh": "小野女士是日本人。是公司职员。", "en": "Ms. Ono is Japanese. She is a company employee." },
-      { "ja": "あの{人|ひと}は {森|もり}さんです。{森|もり}さんも {会社員|かいしゃいん}です。", "zh": "那个人是森先生。森先生也是公司职员。", "en": "That person is Mr. Mori. Mr. Mori is also a company employee.", "note_zh": "「も」表示「也」,用来替换「は」,不能两个一起说。说「森さんは も」是错的。", "note_en": "も (\"also\") replaces は rather than stacking with it — 森さんはも is wrong." },
-      { "ja": "{金|きん}さんは {韓国|かんこく}の {留学生|りゅうがくせい}です。", "zh": "小金是韩国的留学生。", "en": "Mr. Kim is a student from Korea.", "note_zh": "「名詞1の 名詞2」用「の」把两个名词连起来,表示所属、来源。这里是「韓国的留学生」。", "note_en": "名詞1の名詞2 links two nouns — here \"an exchange student from Korea\"." },
-      { "ja": "{私|わたし}は {学生|がくせい}では ありません。", "zh": "我不是学生。", "en": "I am not a student.", "note_zh": "否定句是「〜では ありません」。口语里「では」常说成「じゃ」。", "note_en": "The negative is 〜では ありません; in speech では often contracts to じゃ." },
-      { "ja": "{皆|みな}さん、どうぞよろしくお{願|ねが}いします。", "zh": "各位，请多关照。", "en": "Everyone, I look forward to working with you." }
-    ] },
-    { "kind": "kaiwa", "lines": [
-      { "sp": "李", "ja": "{初|はじ}めまして。{李|り}です。どうぞよろしくお{願|ねが}いします。", "zh": "初次见面。我是小李。请多关照。", "en": "How do you do. I am Li. Pleased to meet you.", "note_zh": "初次见面的固定三句:「初めまして」→ 自我介绍 →「どうぞよろしくお願いします」。顺序基本不变。", "note_en": "The fixed three-step greeting: 初めまして → your name → どうぞよろしくお願いします." },
-      { "sp": "小野", "ja": "{初|はじ}めまして。{小野|おの}です。こちらこそ、どうぞよろしく。", "zh": "初次见面。我是小野。我才要请您多关照。", "en": "How do you do. I am Ono. The pleasure is mine.", "note_zh": "「こちらこそ」是「该我这边才对」,用来回应对方的客气话。", "note_en": "こちらこそ returns the courtesy: \"it is I who should say that\"." },
-      { "sp": "李", "ja": "あのう、{失礼|しつれい}ですが、{小野|おの}さんは {会社員|かいしゃいん}ですか。", "zh": "请问，不好意思，小野女士是公司职员吗？", "en": "Excuse me — may I ask, Ms. Ono, are you a company employee?", "note_zh": "「あのう」是开口前的缓冲,「失礼ですが」用来礼貌地问对方的事。疑问句只在句尾加「か」,语序不变。", "note_en": "あのう softens the opening and 失礼ですが prefaces a personal question. Questions just add か — the word order never changes." },
-      { "sp": "小野", "ja": "はい、そうです。{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}です。", "zh": "是的。是日本企业的职员。", "en": "Yes, that's right. I work for a Japanese company.", "note_zh": "「の」可以连用:「日本の 企業の 社員」=日本的→企业的→职员,从大范围到小范围。", "note_en": "の can chain: Japan → company → employee, moving from the broadest frame inward." },
-      { "sp": "李", "ja": "あの{人|ひと}も {社員|しゃいん}ですか。", "zh": "那个人也是职员吗？", "en": "Is that person an employee too?" },
-      { "sp": "小野", "ja": "いいえ、{違|ちが}います。あの{人|ひと}は {大学|だいがく}の {教授|きょうじゅ}です。", "zh": "不，不是。那个人是大学教授。", "en": "No, he isn't. He is a university professor.", "note_zh": "否定回答用「いいえ、違います」,比「いいえ、〜では ありません」更简短自然。", "note_en": "いいえ、違います is the short, natural way to answer no." },
-      { "sp": "李", "ja": "そうですか。お{名前|なまえ}は。", "zh": "是这样啊。请问叫什么名字？", "en": "I see. And his name?", "note_zh": "「お名前は。」后面省略了「何ですか」。这种句尾停在「は」的说法听起来柔和,很常用。", "note_en": "「お名前は。」leaves 何ですか unsaid — trailing off after は sounds softer and is very common." },
-      { "sp": "小野", "ja": "あのう、{分|わ}かりません。すみません。", "zh": "那个，我不知道。对不起。", "en": "Hmm, I don't know. Sorry." }
-    ] }
-  ],
-  "points": [
-    { "pattern": "名詞1は 名詞2です", "explain_zh": "最基本的判断句。「は」是提示主题的助词,读作「わ」。「です」是礼貌的断定,接在名词后面。", "explain_en": "The basic statement. は marks the topic (pronounced wa) and です is the polite copula after a noun.", "examples": ["{私|わたし}は {学生|がくせい}です。", "{李|り}さんは {中国人|ちゅうごくじん}です。"] },
-    { "pattern": "名詞1は 名詞2では ありません", "explain_zh": "否定形。「では」口语中常说成「じゃ」,「じゃ ありません」更随意一些。", "explain_en": "The negative. では often becomes じゃ in casual speech.", "examples": ["{私|わたし}は {先生|せんせい}では ありません。", "あの{人|ひと}は {店員|てんいん}じゃ ありません。"] },
-    { "pattern": "名詞1は 名詞2ですか", "explain_zh": "疑问句在句尾加「か」就行,语序和陈述句完全一样,不用倒装。书写时句尾用「。」,不用问号。", "explain_en": "Questions simply add か; the word order is unchanged and Japanese writes 。 rather than a question mark.", "examples": ["あなたは {会社員|かいしゃいん}ですか。", "{森|もり}さんは {課長|かちょう}ですか。"] },
-    { "pattern": "名詞1の 名詞2", "explain_zh": "「の」把两个名词连起来,表示所属、所在或来源,相当于中文的「的」。可以连续使用。", "explain_en": "の links two nouns to show possession, affiliation or origin, and can be chained.", "examples": ["{私|わたし}の {名前|なまえ}", "{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}"] },
-    { "pattern": "名詞も", "explain_zh": "「も」表示「也」。它要替换掉「は」,不能说成「〜はも」。", "explain_en": "も means \"also\" and replaces は — never 〜はも.", "examples": ["{森|もり}さんも {会社員|かいしゃいん}です。", "{私|わたし}も {中国人|ちゅうごくじん}です。"] }
-  ]
-}
+  {
+    "n": 1,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{私|わたし}は {李|り}です。{中国人|ちゅうごくじん}です。",
+            "zh": "我是小李。是中国人。",
+            "en": "I am Li. I am Chinese.",
+            "note_zh": "「名詞1は 名詞2です」是本课最基本的句型。「は」做提示助词时读「わ」。第二句省略了主语「私は」——日语里主语清楚时通常不重复。",
+            "note_en": "The core pattern 名詞1は名詞2です. The topic marker は is pronounced wa, and the second sentence drops the already-obvious subject."
+          },
+          {
+            "ja": "{小野|おの}さんは {日本人|にほんじん}です。{会社員|かいしゃいん}です。",
+            "zh": "小野女士是日本人。是公司职员。",
+            "en": "Ms. Ono is Japanese. She is a company employee."
+          },
+          {
+            "ja": "あの{人|ひと}は {森|もり}さんです。{森|もり}さんも {会社員|かいしゃいん}です。",
+            "zh": "那个人是森先生。森先生也是公司职员。",
+            "en": "That person is Mr. Mori. Mr. Mori is also a company employee.",
+            "note_zh": "「も」表示「也」,用来替换「は」,不能两个一起说。说「森さんは も」是错的。",
+            "note_en": "も (\"also\") replaces は rather than stacking with it — 森さんはも is wrong."
+          },
+          {
+            "ja": "{金|きん}さんは {韓国|かんこく}の {留学生|りゅうがくせい}です。",
+            "zh": "小金是韩国的留学生。",
+            "en": "Mr. Kim is a student from Korea.",
+            "note_zh": "「名詞1の 名詞2」用「の」把两个名词连起来,表示所属、来源。这里是「韓国的留学生」。",
+            "note_en": "名詞1の名詞2 links two nouns — here \"an exchange student from Korea\"."
+          },
+          {
+            "ja": "{私|わたし}は {学生|がくせい}では ありません。",
+            "zh": "我不是学生。",
+            "en": "I am not a student.",
+            "note_zh": "否定句是「〜では ありません」。口语里「では」常说成「じゃ」。",
+            "note_en": "The negative is 〜では ありません; in speech では often contracts to じゃ."
+          },
+          {
+            "ja": "{皆|みな}さん、どうぞよろしくお{願|ねが}いします。",
+            "zh": "各位，请多关照。",
+            "en": "Everyone, I look forward to working with you."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "{初|はじ}めまして。{李|り}です。どうぞよろしくお{願|ねが}いします。",
+            "zh": "初次见面。我是小李。请多关照。",
+            "en": "How do you do. I am Li. Pleased to meet you.",
+            "note_zh": "初次见面的固定三句:「初めまして」→ 自我介绍 →「どうぞよろしくお願いします」。顺序基本不变。",
+            "note_en": "The fixed three-step greeting: 初めまして → your name → どうぞよろしくお願いします."
+          },
+          {
+            "sp": "小野",
+            "ja": "{初|はじ}めまして。{小野|おの}です。こちらこそ、どうぞよろしく。",
+            "zh": "初次见面。我是小野。我才要请您多关照。",
+            "en": "How do you do. I am Ono. The pleasure is mine.",
+            "note_zh": "「こちらこそ」是「该我这边才对」,用来回应对方的客气话。",
+            "note_en": "こちらこそ returns the courtesy: \"it is I who should say that\"."
+          },
+          {
+            "sp": "李",
+            "ja": "あのう、{失礼|しつれい}ですが、{小野|おの}さんは {会社員|かいしゃいん}ですか。",
+            "zh": "请问，不好意思，小野女士是公司职员吗？",
+            "en": "Excuse me — may I ask, Ms. Ono, are you a company employee?",
+            "note_zh": "「あのう」是开口前的缓冲,「失礼ですが」用来礼貌地问对方的事。疑问句只在句尾加「か」,语序不变。",
+            "note_en": "あのう softens the opening and 失礼ですが prefaces a personal question. Questions just add か — the word order never changes."
+          },
+          {
+            "sp": "小野",
+            "ja": "はい、そうです。{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}です。",
+            "zh": "是的。是日本企业的职员。",
+            "en": "Yes, that's right. I work for a Japanese company.",
+            "note_zh": "「の」可以连用:「日本の 企業の 社員」=日本的→企业的→职员,从大范围到小范围。",
+            "note_en": "の can chain: Japan → company → employee, moving from the broadest frame inward."
+          },
+          {
+            "sp": "李",
+            "ja": "あの{人|ひと}も {社員|しゃいん}ですか。",
+            "zh": "那个人也是职员吗？",
+            "en": "Is that person an employee too?"
+          },
+          {
+            "sp": "小野",
+            "ja": "いいえ、{違|ちが}います。あの{人|ひと}は {大学|だいがく}の {教授|きょうじゅ}です。",
+            "zh": "不，不是。那个人是大学教授。",
+            "en": "No, he isn't. He is a university professor.",
+            "note_zh": "否定回答用「いいえ、違います」,比「いいえ、〜では ありません」更简短自然。",
+            "note_en": "いいえ、違います is the short, natural way to answer no."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。お{名前|なまえ}は。",
+            "zh": "是这样啊。请问叫什么名字？",
+            "en": "I see. And his name?",
+            "note_zh": "「お名前は。」后面省略了「何ですか」。这种句尾停在「は」的说法听起来柔和,很常用。",
+            "note_en": "「お名前は。」leaves 何ですか unsaid — trailing off after は sounds softer and is very common."
+          },
+          {
+            "sp": "小野",
+            "ja": "あのう、{分|わ}かりません。すみません。",
+            "zh": "那个，我不知道。对不起。",
+            "en": "Hmm, I don't know. Sorry."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "名詞1は 名詞2です",
+        "explain_zh": "最基本的判断句。「は」是提示主题的助词,读作「わ」。「です」是礼貌的断定,接在名词后面。",
+        "explain_en": "The basic statement. は marks the topic (pronounced wa) and です is the polite copula after a noun.",
+        "examples": [
+          "{私|わたし}は {学生|がくせい}です。",
+          "{李|り}さんは {中国人|ちゅうごくじん}です。"
+        ]
+      },
+      {
+        "pattern": "名詞1は 名詞2では ありません",
+        "explain_zh": "否定形。「では」口语中常说成「じゃ」,「じゃ ありません」更随意一些。",
+        "explain_en": "The negative. では often becomes じゃ in casual speech.",
+        "examples": [
+          "{私|わたし}は {先生|せんせい}では ありません。",
+          "あの{人|ひと}は {店員|てんいん}じゃ ありません。"
+        ]
+      },
+      {
+        "pattern": "名詞1は 名詞2ですか",
+        "explain_zh": "疑问句在句尾加「か」就行,语序和陈述句完全一样,不用倒装。书写时句尾用「。」,不用问号。",
+        "explain_en": "Questions simply add か; the word order is unchanged and Japanese writes 。 rather than a question mark.",
+        "examples": [
+          "あなたは {会社員|かいしゃいん}ですか。",
+          "{森|もり}さんは {課長|かちょう}ですか。"
+        ]
+      },
+      {
+        "pattern": "名詞1の 名詞2",
+        "explain_zh": "「の」把两个名词连起来,表示所属、所在或来源,相当于中文的「的」。可以连续使用。",
+        "explain_en": "の links two nouns to show possession, affiliation or origin, and can be chained.",
+        "examples": [
+          "{私|わたし}の {名前|なまえ}",
+          "{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}"
+        ]
+      },
+      {
+        "pattern": "名詞も",
+        "explain_zh": "「も」表示「也」。它要替换掉「は」,不能说成「〜はも」。",
+        "explain_en": "も means \"also\" and replaces は — never 〜はも.",
+        "examples": [
+          "{森|もり}さんも {会社員|かいしゃいん}です。",
+          "{私|わたし}も {中国人|ちゅうごくじん}です。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "これは {本|ほん}です。それも {本|ほん}です。",
+            "zh": "这是书。那也是书。",
+            "en": "This is a book. That is a book too.",
+            "note_zh": "「これ」指靠近说话人的东西,「それ」指靠近听话人的东西。两者都是代词,后面不接名词。",
+            "note_en": "これ is near the speaker, それ near the listener. Both are pronouns and stand alone."
+          },
+          {
+            "ja": "あれは {雑誌|ざっし}です。",
+            "zh": "那是杂志。",
+            "en": "That over there is a magazine.",
+            "note_zh": "「あれ」指离双方都远的东西。これ・それ・あれ・どれ 合称「こそあど」。",
+            "note_en": "あれ is far from both speakers — the こそあど set is これ・それ・あれ・どれ."
+          },
+          {
+            "ja": "これは {私|わたし}の {鉛筆|えんぴつ}です。",
+            "zh": "这是我的铅笔。",
+            "en": "This is my pencil."
+          },
+          {
+            "ja": "その {辞書|じしょ}は {誰|だれ}のですか。",
+            "zh": "那本词典是谁的？",
+            "en": "Whose dictionary is that?",
+            "note_zh": "「この・その・あの」后面一定要接名词,不能单独用。「誰のですか」里「の」后面省略了「辞書」。",
+            "note_en": "この/その/あの must be followed by a noun. In 誰のですか the noun after の (辞書) is left out."
+          },
+          {
+            "ja": "それは {小野|おの}さんのです。",
+            "zh": "那是小野女士的。",
+            "en": "That is Ms. Ono's."
+          },
+          {
+            "ja": "あの かばんは {李|り}さんのです。",
+            "zh": "那个包是小李的。",
+            "en": "That bag over there is Li's."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "{小野|おの}さん、これは {何|なん}ですか。",
+            "zh": "小野女士，这是什么？",
+            "en": "Ms. Ono, what is this?",
+            "note_zh": "问东西是什么用「何ですか」,「何」在「です」前读「なん」。",
+            "note_en": "何 is read なん before です."
+          },
+          {
+            "sp": "小野",
+            "ja": "それは {手帳|てちょう}です。{私|わたし}のです。",
+            "zh": "那是记事本。是我的。",
+            "en": "That is a pocket diary. It's mine.",
+            "note_zh": "李拿在手上的东西,小野要用「それ」来指。中文说「这」的场合,日语看距离决定用哪个。",
+            "note_en": "Because Li is holding it, Ono says それ — the choice follows distance, not the Chinese \"this\"."
+          },
+          {
+            "sp": "李",
+            "ja": "この {写真|しゃしん}も {小野|おの}さんのですか。",
+            "zh": "这张照片也是小野女士的吗？",
+            "en": "Is this photo yours too?"
+          },
+          {
+            "sp": "小野",
+            "ja": "いいえ、{違|ちが}います。それは {森|もり}さんのです。",
+            "zh": "不，不是。那是森先生的。",
+            "en": "No, it isn't. That is Mr. Mori's."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。あれは {何|なん}ですか。",
+            "zh": "是吗。那边那个是什么？",
+            "en": "I see. And what is that over there?"
+          },
+          {
+            "sp": "小野",
+            "ja": "あれは {中国|ちゅうごく}の お{土産|みやげ}です。シルクの ハンカチです。",
+            "zh": "那是中国的礼物。是丝绸手绢。",
+            "en": "That is a souvenir from China — a silk handkerchief.",
+            "note_zh": "「シルクの ハンカチ」用「の」说明材质,和「私の 本」的所属用法是同一个「の」。",
+            "note_en": "The same の that shows possession also states material: a handkerchief of silk."
+          },
+          {
+            "sp": "李",
+            "ja": "どうぞ。これは {日本|にほん}の {特産品|とくさんひん}です。",
+            "zh": "请收下。这是日本的特产。",
+            "en": "Here you are. This is a local speciality from Japan."
+          },
+          {
+            "sp": "小野",
+            "ja": "どうも。{李|り}さん、どうも。",
+            "zh": "谢谢。小李，谢谢你。",
+            "en": "Thank you. Thank you, Li."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "これ / それ / あれ は 名詞です",
+        "explain_zh": "指东西的代词。「これ」是说话人身边的,「それ」是听话人身边的,「あれ」是两人都够不着的。疑问词是「どれ」。",
+        "explain_en": "Pronouns for things: これ by the speaker, それ by the listener, あれ away from both. The question word is どれ.",
+        "examples": [
+          "これは {辞書|じしょ}です。",
+          "あれは {傘|かさ}ですか。"
+        ]
+      },
+      {
+        "pattern": "この / その / あの + 名詞",
+        "explain_zh": "连体词,后面必须跟名词,不能单独使用。「これは 本です」对,「この 本です」也对,但「この です」不成立。",
+        "explain_en": "These always attach to a noun and can never stand alone.",
+        "examples": [
+          "この {靴|くつ}は {私|わたし}のです。",
+          "あの {人|ひと}は {店員|てんいん}です。"
+        ]
+      },
+      {
+        "pattern": "名詞1の 名詞2 / 名詞の（省略）",
+        "explain_zh": "「の」表示所属、产地、材质。后面的名词在上下文清楚时可以省略,只说「私の」「小野さんの」。",
+        "explain_en": "の marks possession, origin or material. When the second noun is obvious it is simply dropped: 私の, 小野さんの.",
+        "examples": [
+          "{私|わたし}の {名刺|めいし}",
+          "この {時計|とけい}は {森|もり}さんのです。"
+        ]
+      },
+      {
+        "pattern": "〜は 何ですか / 誰のですか",
+        "explain_zh": "问事物用「何」,问所有者用「誰の」。「何」单独或在「です」前读「なん」,在「〜ですか」以外的场合也可能读「なに」。",
+        "explain_en": "何 asks what, 誰の asks whose. 何 reads なん before です.",
+        "examples": [
+          "それは {何|なん}ですか。",
+          "この かばんは {誰|だれ}のですか。"
+        ]
+      },
+      {
+        "pattern": "はい、そうです / いいえ、違います",
+        "explain_zh": "对「名詞ですか」的回答。肯定用「はい、そうです」,否定用「いいえ、違います」,比完整句子更自然。",
+        "explain_en": "The natural short answers to a noun question.",
+        "examples": [
+          "「これは {本|ほん}ですか。」「はい、そうです。」",
+          "「それは {雑誌|ざっし}ですか。」「いいえ、{違|ちが}います。」"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "ここは デパートです。",
+            "zh": "这里是百货商店。",
+            "en": "This is a department store.",
+            "note_zh": "「ここ・そこ・あそこ・どこ」是指场所的代词,用法和「これ・それ・あれ」一致,只是指的是地方。",
+            "note_en": "ここ/そこ/あそこ/どこ work like これ/それ/あれ but point at places."
+          },
+          {
+            "ja": "{入|い}り{口|ぐち}は あそこです。",
+            "zh": "入口在那边。",
+            "en": "The entrance is over there."
+          },
+          {
+            "ja": "エスカレーターは あちらです。",
+            "zh": "自动扶梯在那边。",
+            "en": "The escalator is that way.",
+            "note_zh": "「こちら・そちら・あちら・どちら」比「ここ・そこ…」客气,店员和接待处常用,也可以指人。",
+            "note_en": "こちら/そちら/あちら are the polite counterparts, used by shop staff — and they can also refer to people."
+          },
+          {
+            "ja": "{食堂|しょくどう}は 7{階|かい}です。",
+            "zh": "食堂在7层。",
+            "en": "The canteen is on the seventh floor."
+          },
+          {
+            "ja": "ネクタイの {売|う}り{場|ば}は 2{階|かい}です。",
+            "zh": "领带柜台在2层。",
+            "en": "The tie counter is on the second floor."
+          },
+          {
+            "ja": "{地下|ちか}も {売|う}り{場|ば}です。",
+            "zh": "地下也是卖场。",
+            "en": "The basement is a sales floor too."
+          },
+          {
+            "ja": "{銀行|ぎんこう}と {郵便局|ゆうびんきょく}は この ビルの {隣|となり}です。",
+            "zh": "银行和邮局在这栋楼的旁边。",
+            "en": "The bank and the post office are next to this building.",
+            "note_zh": "「名詞と名詞」把两个名词并列起来,相当于中文的「和」。",
+            "note_en": "名詞と名詞 joins two nouns, like \"and\"."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "店員",
+            "ja": "いらっしゃいませ。",
+            "zh": "欢迎光临。",
+            "en": "Welcome."
+          },
+          {
+            "sp": "李",
+            "ja": "あのう、ネクタイの {売|う}り{場|ば}は どこですか。",
+            "zh": "请问，领带柜台在哪里？",
+            "en": "Excuse me, where is the tie counter?",
+            "note_zh": "问地点用「どこですか」。客气一点可以说「どちらですか」。",
+            "note_en": "どこですか asks where; どちらですか is the politer version."
+          },
+          {
+            "sp": "店員",
+            "ja": "2{階|かい}です。エレベーターは そちらです。",
+            "zh": "在2层。电梯在那边。",
+            "en": "On the second floor. The lift is over there."
+          },
+          {
+            "sp": "李",
+            "ja": "どうも。",
+            "zh": "谢谢。",
+            "en": "Thanks."
+          },
+          {
+            "sp": "李",
+            "ja": "すみません、この ネクタイは いくらですか。",
+            "zh": "劳驾，这条领带多少钱？",
+            "en": "Excuse me, how much is this tie?",
+            "note_zh": "问价钱的固定说法是「〜は いくらですか」。「いくら」本身就是疑问词,不用再加「何」。",
+            "note_en": "〜は いくらですか is the set way to ask a price; いくら is already the question word."
+          },
+          {
+            "sp": "店員",
+            "ja": "5{千|せん}{円|えん}です。",
+            "zh": "5千日元。",
+            "en": "Five thousand yen."
+          },
+          {
+            "sp": "李",
+            "ja": "じゃ、その ワインは いくらですか。",
+            "zh": "那么，那瓶葡萄酒多少钱？",
+            "en": "Then how much is that wine?"
+          },
+          {
+            "sp": "店員",
+            "ja": "これは 1{万|まん}2{千|せん}{円|えん}です。{日本|にほん}の {特産品|とくさんひん}です。",
+            "zh": "这个是1万2千日元。是日本的特产。",
+            "en": "This one is twelve thousand yen. It's a Japanese speciality.",
+            "note_zh": "日语的大数按「万・千・百」拼读:12000 = 1万2千。注意日语没有「十千」的说法。",
+            "note_en": "Large numbers stack as 万・千・百: 12,000 is 1万2千."
+          },
+          {
+            "sp": "李",
+            "ja": "じゃ、これ、お{願|ねが}いします。",
+            "zh": "那么，这个，麻烦您了。",
+            "en": "I'll take this one, please.",
+            "note_zh": "买东西时「これ、お願いします」就够了。更完整的「これを ください」要用到助词「を」,第7课才学。",
+            "note_en": "これ、お願いします is enough when buying; the fuller これをください needs を, taught in lesson 7."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "ここ / そこ / あそこ は 場所です",
+        "explain_zh": "指场所的代词。「ここ」是说话人所在的地方,「そこ」是听话人所在的地方,「あそこ」离两人都远。",
+        "explain_en": "Place pronouns: ここ where the speaker is, そこ where the listener is, あそこ away from both.",
+        "examples": [
+          "ここは {教室|きょうしつ}です。",
+          "あそこは {図書館|としょかん}です。"
+        ]
+      },
+      {
+        "pattern": "名詞は 場所ですか / どこですか",
+        "explain_zh": "问某个东西或某个人在哪里,用「〜は どこですか」。回答时把地点放在「です」前面。",
+        "explain_en": "Ask where something is with 〜は どこですか; the answer puts the place before です.",
+        "examples": [
+          "{受付|うけつけ}は どこですか。",
+          "お{手洗|てあら}いは あちらです。"
+        ]
+      },
+      {
+        "pattern": "こちら / そちら / あちら / どちら",
+        "explain_zh": "比「ここ・そこ・あそこ・どこ」郑重,服务场合常用。也可以用来指人,相当于「这位」。",
+        "explain_en": "The polite set, standard in service situations; also used of people (\"this person here\").",
+        "examples": [
+          "{事務所|じむしょ}は こちらです。",
+          "お{国|くに}は どちらですか。"
+        ]
+      },
+      {
+        "pattern": "名詞は いくらですか",
+        "explain_zh": "问价钱。数字后面加「円」。日语的数词按万・千・百拼读,没有「十千」这种说法。",
+        "explain_en": "Asks a price. Amounts take 円, and numbers are built from 万/千/百.",
+        "examples": [
+          "この {傘|かさ}は いくらですか。",
+          "3{千|せん}5{百|ひゃく}{円|えん}です。"
+        ]
+      },
+      {
+        "pattern": "名詞と名詞",
+        "explain_zh": "「と」并列两个(或几个)名词,把它们全部列举出来。",
+        "explain_en": "と lists nouns exhaustively — A and B.",
+        "examples": [
+          "{銀行|ぎんこう}と {郵便局|ゆうびんきょく}",
+          "コンビニと {喫茶店|きっさてん}"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{私|わたし}の {部屋|へや}に {机|つくえ}と ベッドが あります。",
+            "zh": "我的房间里有桌子和床。",
+            "en": "There is a desk and a bed in my room.",
+            "note_zh": "「場所に 物が あります」是存在句的基本形。场所用「に」,存在的东西用「が」,两个助词都不能换。",
+            "note_en": "The existence pattern: 場所に 物が あります. The place takes に and the thing takes が."
+          },
+          {
+            "ja": "{机|つくえ}の {上|うえ}に {眼鏡|めがね}が あります。",
+            "zh": "桌子上有眼镜。",
+            "en": "There are glasses on the desk.",
+            "note_zh": "位置词要说成「机の 上」——名词+「の」+位置词,不能直接说「机上」。",
+            "note_en": "Position words attach with の: 机の上, never 机上."
+          },
+          {
+            "ja": "{箱|はこ}の {中|なか}に {人形|にんぎょう}が あります。",
+            "zh": "箱子里有玩偶。",
+            "en": "There is a doll in the box."
+          },
+          {
+            "ja": "{庭|にわ}に {犬|いぬ}が います。{猫|ねこ}も います。",
+            "zh": "院子里有狗。也有猫。",
+            "en": "There is a dog in the garden. There is a cat too.",
+            "note_zh": "人和动物用「います」,东西和植物用「あります」。这是本课最容易弄错的地方。",
+            "note_en": "います for people and animals, あります for things — the classic lesson-4 trap."
+          },
+          {
+            "ja": "{公園|こうえん}に {子供|こども}が たくさん います。",
+            "zh": "公园里有很多孩子。",
+            "en": "There are a lot of children in the park."
+          },
+          {
+            "ja": "{売店|ばいてん}は ロビーの {近|ちか}くに あります。",
+            "zh": "小卖部在大厅附近。",
+            "en": "The kiosk is near the lobby.",
+            "note_zh": "「物は 場所に あります」把东西作主题。问「在哪里」时用这个语序,问「有什么」时用「場所に〜が」。",
+            "note_en": "When the thing is the topic you say 物は 場所に あります; the に〜が order answers \"what is there\"."
+          },
+          {
+            "ja": "{駐車場|ちゅうしゃじょう}は ビルの {後|うし}ろです。",
+            "zh": "停车场在大楼后面。",
+            "en": "The car park is behind the building."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "ようこそ。ここが {私|わたし}の {家|いえ}です。",
+            "zh": "欢迎。这里就是我家。",
+            "en": "Welcome. This is my home."
+          },
+          {
+            "sp": "小野",
+            "ja": "ええと、{新宿|しんじゅく}ですか。",
+            "zh": "嗯…是在新宿吗？",
+            "en": "Let me see — is it in Shinjuku?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい。デパートの {前|まえ}の ビルの {隣|となり}です。",
+            "zh": "是的。在百货商店前面那栋楼的旁边。",
+            "en": "Yes. Next to the building in front of the department store.",
+            "note_zh": "「の」可以一层层往下套:デパートの 前の ビルの 隣。读的时候从后往前理解会更清楚。",
+            "note_en": "の nests: next to (the building (in front of (the store))). Read it from the end backwards."
+          },
+          {
+            "sp": "小野",
+            "ja": "{部屋|へや}は どうですか。",
+            "zh": "房间怎么样？",
+            "en": "How is the room?"
+          },
+          {
+            "sp": "李",
+            "ja": "{部屋|へや}に {机|つくえ}と {椅子|いす}が あります。テレビも あります。",
+            "zh": "房间里有桌子和椅子。也有电视。",
+            "en": "There is a desk and a chair, and a television too."
+          },
+          {
+            "sp": "小野",
+            "ja": "{電話|でんわ}は ありますか。",
+            "zh": "有电话吗？",
+            "en": "Is there a telephone?"
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、ありません。パソコンが あります。",
+            "zh": "没有。有电脑。",
+            "en": "No, there isn't. I have a computer.",
+            "note_zh": "「あります」的否定是「ありません」,「います」的否定是「いません」。",
+            "note_en": "The negatives are ありません and いません."
+          },
+          {
+            "sp": "小野",
+            "ja": "{外|そと}に {男|おとこ}の {人|ひと}が いますが、{誰|だれ}ですか。",
+            "zh": "外面有个男的，是谁？",
+            "en": "There's a man outside — who is he?"
+          },
+          {
+            "sp": "李",
+            "ja": "{隣|となり}の {人|ひと}です。{車|くるま}は あの {駐車場|ちゅうしゃじょう}です。",
+            "zh": "是邻居。车在那个停车场。",
+            "en": "He is my neighbour. His car is in that car park."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですか。ありがとうございます。",
+            "zh": "这样啊。谢谢。",
+            "en": "I see. Thank you."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "場所に 物/人 が あります・います",
+        "explain_zh": "存在句。场所后面用「に」,存在的主体后面用「が」。无生命的东西用「あります」,人和动物用「います」。",
+        "explain_en": "Existence: place + に, subject + が. あります for inanimate things, います for people and animals.",
+        "examples": [
+          "{部屋|へや}に テレビが あります。",
+          "{庭|にわ}に {猫|ねこ}が います。"
+        ]
+      },
+      {
+        "pattern": "物/人 は 場所に あります・います",
+        "explain_zh": "把东西或人当作主题时用这个语序,回答「在哪里」。前一个句型回答的是「那里有什么」,方向正好相反。",
+        "explain_en": "Topic-first order, used to answer \"where is it\" — the mirror image of the に〜が order.",
+        "examples": [
+          "{売店|ばいてん}は ロビーに あります。",
+          "{子供|こども}は {公園|こうえん}に います。"
+        ]
+      },
+      {
+        "pattern": "名詞の + 上 / 下 / 前 / 後ろ / 中 / 外 / 右 / 左 / 近く / 間",
+        "explain_zh": "位置词本身是名词,前面要用「の」连接。「AとBの 間」表示在两者之间。",
+        "explain_en": "Position words are nouns and attach with の. AとBの間 means between A and B.",
+        "examples": [
+          "{机|つくえ}の {上|うえ}",
+          "{銀行|ぎんこう}と {郵便局|ゆうびんきょく}の {間|あいだ}"
+        ]
+      },
+      {
+        "pattern": "〜は ありません・いません",
+        "explain_zh": "存在句的否定。注意不能说「ないです」以外的形式混用,礼貌体就是「ありません」「いません」。",
+        "explain_en": "The polite negatives of the existence verbs.",
+        "examples": [
+          "{部屋|へや}に {電話|でんわ}は ありません。",
+          "{教室|きょうしつ}に {誰|だれ}も いません。"
+        ]
+      },
+      {
+        "pattern": "〜が、〜",
+        "explain_zh": "句中的「が」把两句话连起来,可以是转折,也可以只是铺垫下文,这里是后者:先说明情况,再提问。",
+        "explain_en": "Mid-sentence が links two clauses — sometimes contrastive, often just setting up what follows.",
+        "examples": [
+          "{外|そと}に {人|ひと}が いますが、{誰|だれ}ですか。",
+          "すみませんが、{受付|うけつけ}は どこですか。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{森|もり}さんは {毎朝|まいあさ}7{時|じ}に {起|お}きます。",
+            "zh": "森先生每天早上7点起床。",
+            "en": "Mr. Mori gets up at seven every morning.",
+            "note_zh": "具体时刻后面加「に」。「毎朝」「今日」这类词本身不带具体数字,后面不加「に」。",
+            "note_en": "Specific clock times take に; relative words like 毎朝 or 今日 take no particle."
+          },
+          {
+            "ja": "{会社|かいしゃ}は 9{時|じ}からです。",
+            "zh": "公司9点开始上班。",
+            "en": "His company starts at nine."
+          },
+          {
+            "ja": "{午前|ごぜん}9{時|じ}から {午後|ごご}6{時|じ}まで {働|はたら}きます。",
+            "zh": "从上午9点工作到下午6点。",
+            "en": "He works from nine in the morning until six in the evening.",
+            "note_zh": "「AからBまで」表示起点和终点,时间和地点都能用。只说一头也可以:「9時から」「6時まで」。",
+            "note_en": "AからBまで gives a range in time or space; either half can stand alone."
+          },
+          {
+            "ja": "{昼|ひる}{休|やす}みは 12{時|じ}からです。",
+            "zh": "午休从12点开始。",
+            "en": "The lunch break starts at twelve."
+          },
+          {
+            "ja": "{土曜日|どようび}と {日曜日|にちようび}は {働|はたら}きません。",
+            "zh": "星期六和星期天不工作。",
+            "en": "He doesn't work on Saturdays and Sundays.",
+            "note_zh": "「ます」的否定是「ません」。一般现在时既表示习惯,也表示将来。",
+            "note_en": "The negative of ます is ません. The ます form covers both habits and the future."
+          },
+          {
+            "ja": "{昨日|きのう}は {日曜日|にちようび}でした。{森|もり}さんは {休|やす}みました。",
+            "zh": "昨天是星期天。森先生休息了。",
+            "en": "Yesterday was Sunday. Mr. Mori rested.",
+            "note_zh": "过去式:动词「ました」,名词「でした」。这两套变化要分开记。",
+            "note_en": "Past tense: verbs take ました, nouns take でした."
+          },
+          {
+            "ja": "{毎晩|まいばん}11{時|じ}{半|はん}ごろ {寝|ね}ます。",
+            "zh": "每天晚上11点半左右睡觉。",
+            "en": "He goes to bed around half past eleven every night."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さんは {毎日|まいにち}{何時|なんじ}に {起|お}きますか。",
+            "zh": "小李每天几点起床？",
+            "en": "What time do you get up every day, Li?",
+            "note_zh": "问时刻用「何時に」。回答时也要带「に」。",
+            "note_en": "Ask the time with 何時に — and answer with に as well."
+          },
+          {
+            "sp": "李",
+            "ja": "6{時|じ}{半|はん}に {起|お}きます。それから {勉強|べんきょう}します。",
+            "zh": "6点半起床。然后学习。",
+            "en": "At half past six. Then I study.",
+            "note_zh": "「それから」把先后发生的两件事连起来,相当于「然后」。",
+            "note_en": "それから chains two actions in order: \"and then\"."
+          },
+          {
+            "sp": "小野",
+            "ja": "{授業|じゅぎょう}は {何時|なんじ}から {何時|なんじ}までですか。",
+            "zh": "课从几点到几点？",
+            "en": "From what time to what time are your classes?"
+          },
+          {
+            "sp": "李",
+            "ja": "{午前|ごぜん}9{時|じ}から {午後|ごご}3{時|じ}までです。",
+            "zh": "从上午9点到下午3点。",
+            "en": "From nine a.m. to three p.m."
+          },
+          {
+            "sp": "小野",
+            "ja": "{毎日|まいにち}ですか。",
+            "zh": "每天都有吗？",
+            "en": "Every day?"
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、{水曜日|すいようび}は ありません。{時々|ときどき}{銀行|ぎんこう}の {仕事|しごと}が あります。",
+            "zh": "不，星期三没有。有时有银行的工作。",
+            "en": "No, not on Wednesdays. Sometimes I have work at the bank.",
+            "note_zh": "「時々」「いつも」这类频度副词放在动词前面,位置比较自由,但不放句尾。",
+            "note_en": "Frequency adverbs like 時々 and いつも go before the verb, never at the end."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですか。{昨日|きのう}も {働|はたら}きましたか。",
+            "zh": "这样啊。昨天也工作了吗？",
+            "en": "I see. Did you work yesterday too?"
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、{働|はたら}きませんでした。{昨日|きのう}は {休|やす}みでした。",
+            "zh": "不，没工作。昨天休息。",
+            "en": "No, I didn't. Yesterday was my day off.",
+            "note_zh": "过去否定:动词「ませんでした」,名词「では ありませんでした」。这里「休みでした」是名词句的过去肯定。",
+            "note_en": "Past negative is ませんでした for verbs. 休みでした here is a past affirmative noun sentence."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですね。{今日|きょう}の {仕事|しごと}は {何時|なんじ}に {終|お}わりますか。",
+            "zh": "是啊。今天的工作几点结束？",
+            "en": "Right. What time does today's work finish?"
+          },
+          {
+            "sp": "李",
+            "ja": "5{時|じ}に {終|お}わります。",
+            "zh": "5点结束。",
+            "en": "It finishes at five."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "時刻に 動詞ます",
+        "explain_zh": "具体的时刻后面加「に」。「毎日・今日・明日・昨日・朝・夜」这些没有数字的时间词后面不加「に」,星期几可加可不加。",
+        "explain_en": "Clock times take に. Words without a number (毎日, 今日, 朝…) take none; weekdays are optional.",
+        "examples": [
+          "7{時|じ}に {起|お}きます。",
+          "{明日|あした} {働|はたら}きます。"
+        ]
+      },
+      {
+        "pattern": "ます / ません / ました / ませんでした",
+        "explain_zh": "礼貌体的四个基本形。现在肯定「ます」、现在否定「ません」、过去肯定「ました」、过去否定「ませんでした」。「ます」形也表示将来和习惯。",
+        "explain_en": "The four polite forms. The plain ます form also carries future and habitual meaning.",
+        "examples": [
+          "{毎晩|まいばん} {寝|ね}ます。",
+          "{昨日|きのう} {休|やす}みませんでした。"
+        ]
+      },
+      {
+        "pattern": "AからBまで",
+        "explain_zh": "表示范围。「から」是起点,「まで」是终点,时间和场所都能用。只说一边也成立。",
+        "explain_en": "から marks the start and まで the end, for times and places alike.",
+        "examples": [
+          "9{時|じ}から 5{時|じ}までです。",
+          "{授業|じゅぎょう}は {午後|ごご}からです。"
+        ]
+      },
+      {
+        "pattern": "名詞でした / では ありませんでした",
+        "explain_zh": "名词句的过去式。注意它和动词的「ました」是两套不同的变化,不要混用。",
+        "explain_en": "The past of a noun sentence — a different set of endings from the verb's ました.",
+        "examples": [
+          "{昨日|きのう}は {休|やす}みでした。",
+          "{今日|きょう}は {火曜日|かようび}では ありませんでした。"
+        ]
+      },
+      {
+        "pattern": "それから",
+        "explain_zh": "接续词,把按时间先后发生的事连起来,也可以用来追加列举。",
+        "explain_en": "A connective: \"and then\", also used to add one more item.",
+        "examples": [
+          "{起|お}きます。それから {勉強|べんきょう}します。",
+          "{銀行|ぎんこう}と {郵便局|ゆうびんきょく}、それから {病院|びょういん}"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{吉田|よしだ}さんは {来月|らいげつ}{中国|ちゅうごく}へ {行|い}きます。",
+            "zh": "吉田先生下个月去中国。",
+            "en": "Mr. Yoshida is going to China next month.",
+            "note_zh": "「場所へ 行きます」的「へ」读作「え」,表示移动的方向。也可以说「場所に 行きます」,意思差不多。",
+            "note_en": "へ (pronounced e) marks direction with 行く/来る/帰る; に works almost the same here."
+          },
+          {
+            "ja": "{飛行機|ひこうき}で {行|い}きます。",
+            "zh": "坐飞机去。",
+            "en": "He is going by plane.",
+            "note_zh": "交通工具用「で」表示手段。注意「電車に 乗ります」用的是「に」,动词不同助词也不同。",
+            "note_en": "Means of transport takes で; the verb 乗る takes に instead."
+          },
+          {
+            "ja": "{先週|せんしゅう}、{李|り}さんは {家族|かぞく}と {空港|くうこう}へ {来|き}ました。",
+            "zh": "上周，小李和家人来了机场。",
+            "en": "Last week Li came to the airport with his family.",
+            "note_zh": "「人と」表示一起行动的对象,相当于中文的「和…」。",
+            "note_en": "人と names the person you do something with."
+          },
+          {
+            "ja": "{小野|おの}さんは {毎日|まいにち}{自転車|じてんしゃ}で {会社|かいしゃ}へ {行|い}きます。",
+            "zh": "小野女士每天骑自行车去公司。",
+            "en": "Ms. Ono cycles to work every day."
+          },
+          {
+            "ja": "{森|もり}さんは {一人|ひとり}で {新幹線|しんかんせん}に {乗|の}りました。",
+            "zh": "森先生一个人坐了新干线。",
+            "en": "Mr. Mori took the bullet train by himself."
+          },
+          {
+            "ja": "{東京|とうきょう}{駅|えき}で {降|お}りました。",
+            "zh": "在东京站下了车。",
+            "en": "He got off at Tokyo station."
+          },
+          {
+            "ja": "{来年|らいねん}の {誕生日|たんじょうび}は {日曜日|にちようび}です。",
+            "zh": "明年的生日是星期天。",
+            "en": "Next year his birthday falls on a Sunday."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{今週|こんしゅう}の {休|やす}みは どこへ {行|い}きますか。",
+            "zh": "小李，这周放假去哪里？",
+            "en": "Li, where are you going on your day off this week?",
+            "note_zh": "问目的地用「どこへ」。如果哪里都不去,回答是「どこへも 行きません」——疑问词+助词+「も」+否定。",
+            "note_en": "どこへ asks the destination; \"nowhere\" is どこへも 行きません — question word + particle + も + negative."
+          },
+          {
+            "sp": "李",
+            "ja": "{京都|きょうと}へ {行|い}きます。{新幹線|しんかんせん}で {行|い}きます。",
+            "zh": "去京都。坐新干线去。",
+            "en": "To Kyoto. I'm going by bullet train."
+          },
+          {
+            "sp": "小野",
+            "ja": "いいですね。{誰|だれ}と {行|い}きますか。",
+            "zh": "真好啊。和谁一起去？",
+            "en": "Nice. Who are you going with?"
+          },
+          {
+            "sp": "李",
+            "ja": "{森|もり}さんと {行|い}きます。",
+            "zh": "和森先生一起去。",
+            "en": "With Mr. Mori."
+          },
+          {
+            "sp": "小野",
+            "ja": "いつですか。",
+            "zh": "什么时候？",
+            "en": "When?"
+          },
+          {
+            "sp": "李",
+            "ja": "{来週|らいしゅう}の {土曜日|どようび}です。{朝|あさ}7{時|じ}の {電車|でんしゃ}に {乗|の}ります。",
+            "zh": "下周六。坐早上7点的电车。",
+            "en": "Next Saturday. We're taking the seven o'clock train.",
+            "note_zh": "「来週の 土曜日」用「の」把两个时间词连起来。另外「7時の 電車」也是「の」——7点发的那班车。",
+            "note_en": "の links the two time words, and also forms 7時の電車 — the seven o'clock train."
+          },
+          {
+            "sp": "小野",
+            "ja": "{何日|なんにち}{帰|かえ}りますか。",
+            "zh": "几号回来？",
+            "en": "What date do you come back?"
+          },
+          {
+            "sp": "李",
+            "ja": "{日曜日|にちようび}の {夜|よる}{帰|かえ}ります。{小野|おの}さんも どうですか。",
+            "zh": "星期天晚上回来。小野女士也去怎么样？",
+            "en": "Sunday evening. How about you — would you come too?"
+          },
+          {
+            "sp": "小野",
+            "ja": "ありがとうございます。でも、{来週|らいしゅう}は {仕事|しごと}が あります。",
+            "zh": "谢谢。不过下周有工作。",
+            "en": "Thank you. But I have work next week."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。じゃ、また {来月|らいげつ}。",
+            "zh": "这样啊。那下个月吧。",
+            "en": "I see. Next month, then."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "場所へ 行きます・来ます・帰ります",
+        "explain_zh": "「へ」表示移动的方向,写作「へ」读作「え」。三个动词的方向不同:「行く」离开说话人,「来る」靠近说话人,「帰る」回原处。",
+        "explain_en": "へ (read e) marks direction. 行く goes away from the speaker, 来る comes toward them, 帰る returns.",
+        "examples": [
+          "{中国|ちゅうごく}へ {行|い}きます。",
+          "{家|いえ}へ {帰|かえ}ります。"
+        ]
+      },
+      {
+        "pattern": "交通手段で 行きます",
+        "explain_zh": "「で」表示凭借的手段。走着去是例外,说「歩いて 行きます」,不用「で」。",
+        "explain_en": "で marks the means. Going on foot is the exception — 歩いて行きます, with no で.",
+        "examples": [
+          "バスで {行|い}きます。",
+          "{船|ふね}で {帰|かえ}りました。"
+        ]
+      },
+      {
+        "pattern": "人と 動詞ます",
+        "explain_zh": "「と」表示共同动作的对象,问「和谁」用「誰と」。想明确说「一起」时还可以加「一緒に」,那个词第7课学。",
+        "explain_en": "と names the companion; ask with 誰と. The optional 一緒に (\"together\") comes in lesson 7.",
+        "examples": [
+          "{友達|ともだち}と {行|い}きます。",
+          "{家族|かぞく}と {来|き}ました。"
+        ]
+      },
+      {
+        "pattern": "乗り物に 乗ります / 乗り物を 降ります",
+        "explain_zh": "上车用「に 乗ります」,下车用「を 降ります」。助词和中文直觉不一样,要整组记住。",
+        "explain_en": "Board with に 乗ります, get off with を 降ります — learn the pair together.",
+        "examples": [
+          "{電車|でんしゃ}に {乗|の}ります。",
+          "{駅|えき}で {降|お}ります。"
+        ]
+      },
+      {
+        "pattern": "いつ / 何日 / どうやって",
+        "explain_zh": "「いつ」问笼统的时间,「何日」问具体日期,「どうやって」问方法、路线。它们都是疑问词,句尾照样加「か」。",
+        "explain_en": "いつ asks when in general, 何日 asks the date, どうやって asks how. All still end the sentence with か.",
+        "examples": [
+          "いつ {帰|かえ}りますか。",
+          "どうやって {行|い}きますか。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 7,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{李|り}さんは {毎日|まいにち}コーヒーを {飲|の}みます。",
+            "zh": "小李每天喝咖啡。",
+            "en": "Li drinks coffee every day.",
+            "note_zh": "「を」是宾语助词,标出动作直接作用的对象。它只做助词用,读作「お」。",
+            "note_en": "を marks the direct object and is pronounced o."
+          },
+          {
+            "ja": "{朝|あさ}ご{飯|はん}は {家|いえ}で {食|た}べます。",
+            "zh": "早饭在家吃。",
+            "en": "He has breakfast at home.",
+            "note_zh": "「で」在这里表示动作发生的场所。和第4课「〜に あります」的「に」不同:「に」说的是存在的地点,「で」说的是做事的地点。",
+            "note_en": "This で marks where an action happens — unlike the に of あります, which marks where something exists."
+          },
+          {
+            "ja": "{会社|かいしゃ}で {新聞|しんぶん}を {読|よ}みます。",
+            "zh": "在公司看报纸。",
+            "en": "He reads the paper at the office."
+          },
+          {
+            "ja": "{昼|ひる}ご{飯|はん}は {食堂|しょくどう}で {食|た}べます。",
+            "zh": "午饭在食堂吃。",
+            "en": "He has lunch in the canteen."
+          },
+          {
+            "ja": "{晩|ばん}ご{飯|はん}の {後|あと}で、{音楽|おんがく}を {聞|き}きます。",
+            "zh": "晚饭后听音乐。",
+            "en": "After dinner he listens to music."
+          },
+          {
+            "ja": "{昨日|きのう}は {映画|えいが}を {見|み}ました。それから {手紙|てがみ}を {書|か}きました。",
+            "zh": "昨天看了电影。然后写了信。",
+            "en": "Yesterday he watched a film, and then wrote a letter."
+          },
+          {
+            "ja": "{李|り}さんは たばこを {吸|す}いません。お{酒|さけ}も {飲|の}みません。",
+            "zh": "小李不抽烟。也不喝酒。",
+            "en": "Li doesn't smoke, and he doesn't drink either.",
+            "note_zh": "否定句里,第二个否定项用「も」承接,相当于「也不」。",
+            "note_en": "In a run of negatives, も carries on the \"not ... either\" sense."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{昼|ひる}ご{飯|はん}は もう {食|た}べましたか。",
+            "zh": "小李，午饭已经吃了吗？",
+            "en": "Li, have you had lunch yet?",
+            "note_zh": "「もう〜ましたか」问事情做完没有。没做完就回答「いいえ、まだです」。",
+            "note_en": "もう〜ましたか asks whether it's done; the answer if not is いいえ、まだです."
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、まだです。",
+            "zh": "不，还没有。",
+            "en": "No, not yet."
+          },
+          {
+            "sp": "小野",
+            "ja": "じゃ、{一緒|いっしょ}に {食|た}べませんか。",
+            "zh": "那么，一起吃吗？",
+            "en": "Shall we eat together, then?",
+            "note_zh": "「〜ませんか」是邀请,用否定疑问的形式反而更客气,相当于「要不要…？」。",
+            "note_en": "〜ませんか invites; the negative question form sounds more polite than a plain one."
+          },
+          {
+            "sp": "李",
+            "ja": "いいですね。{何|なに}を {食|た}べますか。",
+            "zh": "好啊。吃什么？",
+            "en": "Good idea. What shall we have?",
+            "note_zh": "「何」后面接助词「を」时读「なに」,接「です」时读「なん」。",
+            "note_en": "何 is なに before を, but なん before です."
+          },
+          {
+            "sp": "小野",
+            "ja": "{駅|えき}の {前|まえ}の {店|みせ}で {魚|さかな}を {食|た}べましょう。",
+            "zh": "在车站前面那家店吃鱼吧。",
+            "en": "Let's have fish at the place in front of the station.",
+            "note_zh": "「〜ましょう」是提议或应邀,相当于「…吧」。对「〜ませんか」的答应也常用它。",
+            "note_en": "〜ましょう proposes or accepts: \"let's\". It is the usual reply to 〜ませんか."
+          },
+          {
+            "sp": "李",
+            "ja": "いいですね。{野菜|やさい}も {食|た}べましょう。",
+            "zh": "好啊。也吃点蔬菜吧。",
+            "en": "Sounds good. Let's have vegetables too."
+          },
+          {
+            "sp": "小野",
+            "ja": "{飲|の}み{物|もの}は {何|なに}が いいですか。",
+            "zh": "喝的要什么？",
+            "en": "What would you like to drink?"
+          },
+          {
+            "sp": "李",
+            "ja": "{私|わたし}は お{茶|ちゃ}を {飲|の}みます。ビールは {飲|の}みません。",
+            "zh": "我喝茶。不喝啤酒。",
+            "en": "I'll have tea. I don't drink beer."
+          },
+          {
+            "sp": "小野",
+            "ja": "じゃ、{私|わたし}も お{茶|ちゃ}に します。",
+            "zh": "那我也要茶。",
+            "en": "Then I'll have tea too."
+          },
+          {
+            "sp": "李",
+            "ja": "{後|あと}で {写真|しゃしん}を {撮|と}りませんか。",
+            "zh": "待会儿拍张照片吧？",
+            "en": "Shall we take a photo afterwards?"
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "名詞を 動詞ます",
+        "explain_zh": "「を」标出动作的直接对象,只作助词用,读音是「お」。他动词句的基本结构就是「〜は 〜を 〜ます」。",
+        "explain_en": "を marks the direct object. Used only as a particle, it is pronounced o.",
+        "examples": [
+          "コーヒーを {飲|の}みます。",
+          "{本|ほん}を {読|よ}みました。"
+        ]
+      },
+      {
+        "pattern": "場所で 動詞ます",
+        "explain_zh": "「で」表示动作进行的场所。和第4课存在句的「に」区别开:「教室に います」是在那里,「教室で 勉強します」是在那里做事。",
+        "explain_en": "で marks where an action takes place, as against the に of existence.",
+        "examples": [
+          "{食堂|しょくどう}で {食|た}べます。",
+          "{家|いえ}で {音楽|おんがく}を {聞|き}きます。"
+        ]
+      },
+      {
+        "pattern": "一緒に 〜ませんか",
+        "explain_zh": "邀请对方一起做某事。用否定疑问的形式,语气比「〜ますか」柔和客气。",
+        "explain_en": "Invites someone along; the negative question is softer than a plain question.",
+        "examples": [
+          "{一緒|いっしょ}に {映画|えいが}を {見|み}ませんか。",
+          "お{茶|ちゃ}を {飲|の}みませんか。"
+        ]
+      },
+      {
+        "pattern": "〜ましょう",
+        "explain_zh": "提议一起做,或者答应对方的邀请。「〜ませんか」是询问对方意愿,「〜ましょう」是已经有共识后的号召。",
+        "explain_en": "\"Let's\" — proposing, or accepting an invitation already made.",
+        "examples": [
+          "{行|い}きましょう。",
+          "{一緒|いっしょ}に {食|た}べましょう。"
+        ]
+      },
+      {
+        "pattern": "もう 〜ました / まだです",
+        "explain_zh": "「もう」是已经,「まだ」是还没有。对「もう〜ましたか」的否定回答用「いいえ、まだです」,不说「いいえ、〜ませんでした」。",
+        "explain_en": "もう = already, まだ = not yet. The negative answer is いいえ、まだです, not a past negative.",
+        "examples": [
+          "もう {書|か}きましたか。",
+          "いいえ、まだです。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{李|り}さんは {日本語|にほんご}で {手紙|てがみ}を {書|か}きます。",
+            "zh": "小李用日语写信。",
+            "en": "Li writes letters in Japanese.",
+            "note_zh": "「で」在这里表示工具、手段或语言。第6课的「電車で」是交通手段,第7课的「食堂で」是场所——同一个「で」,意思靠上下文区分。",
+            "note_en": "This で marks the tool, means or language — the same particle as 電車で (transport) and 食堂で (place)."
+          },
+          {
+            "ja": "{毎晩|まいばん}{母|はは}に {電話|でんわ}を {掛|か}けます。",
+            "zh": "每天晚上给母亲打电话。",
+            "en": "Every evening he phones his mother.",
+            "note_zh": "动作的对象(给谁)用「に」。打电话、寄信、教、借出都用这个「に」。",
+            "note_en": "に marks the person on the receiving end — of a call, a letter, teaching or a loan."
+          },
+          {
+            "ja": "{昨日|きのう}、{小野|おの}さんに メールを {送|おく}りました。",
+            "zh": "昨天给小野女士发了邮件。",
+            "en": "Yesterday he sent Ms. Ono an email."
+          },
+          {
+            "ja": "{森|もり}さんは {李|り}さんに {日本語|にほんご}を {教|おし}えます。",
+            "zh": "森先生教小李日语。",
+            "en": "Mr. Mori teaches Li Japanese."
+          },
+          {
+            "ja": "{李|り}さんは {森|もり}さんに {中国語|ちゅうごくご}を {習|なら}います。",
+            "zh": "小李跟森先生学汉语。",
+            "en": "Li learns Chinese from Mr. Mori.",
+            "note_zh": "「教えます」和「習います」方向相反,但对象都用「に」。「習います」的「に」是「从…那里」。",
+            "note_en": "教える and 習う run in opposite directions, yet both mark the other person with に."
+          },
+          {
+            "ja": "{小野|おの}さんは {李|り}さんに チョコレートを あげました。",
+            "zh": "小野女士给了小李巧克力。",
+            "en": "Ms. Ono gave Li some chocolate."
+          },
+          {
+            "ja": "{李|り}さんは {小野|おの}さんに {花束|はなたば}を もらいました。",
+            "zh": "小李从小野女士那里收到了花束。",
+            "en": "Li received a bouquet from Ms. Ono.",
+            "note_zh": "「あげます」是给出去,「もらいます」是收进来。主语是谁,句子的方向就跟着变。",
+            "note_en": "あげる gives away, もらう receives — the subject decides which way the thing moves."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、その {荷物|にもつ}は {何|なん}ですか。",
+            "zh": "小李，那个行李是什么？",
+            "en": "Li, what's that package?"
+          },
+          {
+            "sp": "李",
+            "ja": "{母|はは}に もらいました。{中国|ちゅうごく}の お{菓子|かし}です。",
+            "zh": "是母亲给的。是中国的点心。",
+            "en": "My mother sent it to me. Chinese sweets.",
+            "note_zh": "「母に もらいました」的「に」也可以换成「から」,意思一样:「母から もらいました」。",
+            "note_en": "The に of もらう can be swapped for から with no change of meaning."
+          },
+          {
+            "sp": "小野",
+            "ja": "いいですね。どうやって {送|おく}りましたか。",
+            "zh": "真好啊。怎么寄的？",
+            "en": "How nice. How did she send it?"
+          },
+          {
+            "sp": "李",
+            "ja": "{飛行機|ひこうき}で {送|おく}りました。1{週間|しゅうかん}{掛|か}かりました。",
+            "zh": "用飞机寄的。花了一周。",
+            "en": "By air. It took a week."
+          },
+          {
+            "sp": "小野",
+            "ja": "{中国|ちゅうごく}の お{菓子|かし}は {箸|はし}で {食|た}べますか。",
+            "zh": "中国的点心用筷子吃吗？",
+            "en": "Do you eat Chinese sweets with chopsticks?"
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、{手|て}で {食|た}べます。どうぞ。",
+            "zh": "不，用手吃。请吧。",
+            "en": "No, with your hands. Please, help yourself."
+          },
+          {
+            "sp": "小野",
+            "ja": "ありがとうございます。じゃ、{私|わたし}も。これ、{先輩|せんぱい}に もらいました。",
+            "zh": "谢谢。那我也拿出来。这个，是前辈给的。",
+            "en": "Thank you. Here's mine, then — a senior colleague gave me this."
+          },
+          {
+            "sp": "李",
+            "ja": "{何|なん}ですか。",
+            "zh": "是什么？",
+            "en": "What is it?"
+          },
+          {
+            "sp": "小野",
+            "ja": "{日本|にほん}の {辞書|じしょ}です。{李|り}さんに あげます。",
+            "zh": "是日本的词典。送给小李。",
+            "en": "A Japanese dictionary. I'm giving it to you.",
+            "note_zh": "「あげます」用于「我给别人」或「别人给别人」,不能用于「别人给我」——那要说「くれます」,第28课才学。",
+            "note_en": "あげる works for \"I give\" or \"A gives B\", never \"someone gives me\" — that is くれる, in lesson 28."
+          },
+          {
+            "sp": "李",
+            "ja": "いいんですか。どうも ありがとうございます。すぐに {読|よ}みます。",
+            "zh": "可以吗？非常感谢。马上就看。",
+            "en": "Really? Thank you very much. I'll start reading it right away."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "道具・手段・言語 で 動詞ます",
+        "explain_zh": "「で」表示用什么做。工具(箸で)、语言(日本語で)、交通工具(電車で)都是同一个助词。",
+        "explain_en": "で covers tools, languages and transport alike — whatever you do it with.",
+        "examples": [
+          "{箸|はし}で {食|た}べます。",
+          "{英語|えいご}で {話|はな}します。"
+        ]
+      },
+      {
+        "pattern": "人に 物を あげます / 人に 物を もらいます",
+        "explain_zh": "「あげます」是给出,「もらいます」是收到。两个动词的对象都用「に」,但方向相反。「もらいます」的「に」可以换成「から」。",
+        "explain_en": "あげる gives, もらう receives; both mark the other person with に, and もらう also allows から.",
+        "examples": [
+          "{友達|ともだち}に {花|はな}を あげました。",
+          "{先輩|せんぱい}に {本|ほん}を もらいました。"
+        ]
+      },
+      {
+        "pattern": "人に 物を 貸します / 人に 物を 借ります",
+        "explain_zh": "「貸します」是借给别人,「借ります」是从别人那里借。和「あげる・もらう」是同一组方向关系。",
+        "explain_en": "貸す lends out, 借りる borrows in — the same directional pair as あげる/もらう.",
+        "examples": [
+          "{李|り}さんに {傘|かさ}を {貸|か}しました。",
+          "{図書館|としょかん}で {本|ほん}を {借|か}ります。"
+        ]
+      },
+      {
+        "pattern": "人に 〜を 教えます / 習います",
+        "explain_zh": "「教えます」是教给别人,「習います」是跟别人学。注意「習います」的「に」表示的是来源。",
+        "explain_en": "教える teaches someone; 習う learns from someone — here に marks the source.",
+        "examples": [
+          "{学生|がくせい}に {英語|えいご}を {教|おし}えます。",
+          "{先生|せんせい}に {日本語|にほんご}を {習|なら}います。"
+        ]
+      },
+      {
+        "pattern": "もう / まだ / さっき / すぐに",
+        "explain_zh": "表示时间先后的副词。「さっき」是刚才(过去),「すぐに」是马上(将来),「もう」已经,「まだ」还没有。",
+        "explain_en": "Time adverbs: さっき just now, すぐに right away, もう already, まだ not yet.",
+        "examples": [
+          "さっき {電話|でんわ}を {掛|か}けました。",
+          "すぐに {送|おく}ります。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 9,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{四川|しせん}{料理|りょうり}は {辛|から}いです。",
+            "zh": "四川菜很辣。",
+            "en": "Sichuan food is spicy.",
+            "note_zh": "い形容词本身就以「い」结尾,后面直接加「です」,不改变词形。注意不要说「辛いだです」。",
+            "note_en": "An i-adjective already ends in い; です simply follows it unchanged."
+          },
+          {
+            "ja": "{日本|にほん}{料理|りょうり}は あまり {辛|から}く ないです。",
+            "zh": "日本菜不太辣。",
+            "en": "Japanese food is not very spicy.",
+            "note_zh": "い形容词的否定把「い」换成「く」,再加「ないです」(或「ありません」)。「あまり」后面必须是否定。",
+            "note_en": "Drop the い, add くないです (or くありません). あまり requires the negative."
+          },
+          {
+            "ja": "この {店|みせ}の {料理|りょうり}は {安|やす}くて おいしいです。",
+            "zh": "这家店的菜又便宜又好吃。",
+            "en": "The food at this shop is cheap and tasty.",
+            "note_zh": "两个い形容词并列时,前一个变成「くて」。「安いで おいしい」是错的。",
+            "note_en": "To stack two i-adjectives, the first becomes くて — never 安いで."
+          },
+          {
+            "ja": "{昨日|きのう}の {天気|てんき}は とても {暑|あつ}かったです。",
+            "zh": "昨天的天气非常热。",
+            "en": "Yesterday's weather was very hot.",
+            "note_zh": "い形容词的过去式是「〜かったです」。「暑いでした」是常见的错误。",
+            "note_en": "The past is かったです — not 暑いでした, a very common slip."
+          },
+          {
+            "ja": "{今日|きょう}は {暑|あつ}く ありませんでした。{少|すこ}し {寒|さむ}かったです。",
+            "zh": "今天不热。有点冷。",
+            "en": "Today was not hot. It was a little cold.",
+            "note_zh": "过去否定是「〜く ありませんでした」或「〜く なかったです」。",
+            "note_en": "Past negative: くありませんでした, or くなかったです."
+          },
+          {
+            "ja": "{新|あたら}しい {部屋|へや}は {広|ひろ}いです。{古|ふる}い {部屋|へや}は {狭|せま}かったです。",
+            "zh": "新房间很宽敞。旧房间很窄。",
+            "en": "The new room is spacious. The old one was cramped.",
+            "note_zh": "い形容词修饰名词时直接放在前面,不加任何东西:「新しい 部屋」。",
+            "note_en": "Before a noun an i-adjective needs nothing extra: 新しい部屋."
+          },
+          {
+            "ja": "{日本語|にほんご}の {勉強|べんきょう}は {難|むずか}しいですが、{楽|たの}しいです。",
+            "zh": "日语学习很难，但是很快乐。",
+            "en": "Studying Japanese is hard, but it's fun.",
+            "note_zh": "「〜が、〜」在这里是转折,连接意思相反的两句。「〜て/くて」只能连接同方向的内容。",
+            "note_en": "が joins contrasting clauses; くて only links things pointing the same way."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{日本|にほん}の {夏|なつ}は どうですか。",
+            "zh": "小李，日本的夏天怎么样？",
+            "en": "Li, how do you find summer in Japan?"
+          },
+          {
+            "sp": "李",
+            "ja": "とても {暑|あつ}いです。でも、{冬|ふゆ}は あまり {寒|さむ}く ないですね。",
+            "zh": "非常热。不过冬天不太冷啊。",
+            "en": "Very hot. But the winters aren't too cold, are they."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですね。{李|り}さんの {国|くに}の {冬|ふゆ}は {寒|さむ}いですか。",
+            "zh": "是啊。小李你们国家的冬天冷吗？",
+            "en": "That's true. Are winters cold in your country?"
+          },
+          {
+            "sp": "李",
+            "ja": "ええ、とても。{北|きた}は もっと {寒|さむ}いです。",
+            "zh": "嗯，非常冷。北方更冷。",
+            "en": "Yes, very. The north is colder still."
+          },
+          {
+            "sp": "小野",
+            "ja": "どの {季節|きせつ}が いいですか。",
+            "zh": "哪个季节好？",
+            "en": "Which season is nicest?"
+          },
+          {
+            "sp": "李",
+            "ja": "{秋|あき}です。{暑|あつ}く なくて、{天気|てんき}も いいです。",
+            "zh": "秋天。不热，天气也好。",
+            "en": "Autumn. It isn't hot, and the weather is lovely."
+          },
+          {
+            "sp": "小野",
+            "ja": "{料理|りょうり}は どうですか。{日本|にほん}の {料理|りょうり}は おいしいですか。",
+            "zh": "菜呢？日本菜好吃吗？",
+            "en": "And the food? Is Japanese food good?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい、おいしいです。でも、{少|すこ}し {甘|あま}いです。それに、{高|たか}いです。",
+            "zh": "好吃。不过有点甜。而且贵。",
+            "en": "Yes, it's good. A little sweet, though. And expensive.",
+            "note_zh": "「高い」既可以指价格贵,也可以指高度高,靠上下文区分。这里说的是价钱。",
+            "note_en": "高い means both \"expensive\" and \"tall\"; context decides. Here it is the price."
+          },
+          {
+            "sp": "小野",
+            "ja": "この {店|みせ}は {安|やす}いですよ。そして、{広|ひろ}いです。",
+            "zh": "这家店便宜哦。而且很宽敞。",
+            "en": "This place is cheap, though. And it's roomy."
+          },
+          {
+            "sp": "李",
+            "ja": "いい {店|みせ}ですね。",
+            "zh": "是家好店啊。",
+            "en": "It's a good place, isn't it."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "い形容詞です / い形容詞 名詞",
+        "explain_zh": "い形容词后面直接加「です」,修饰名词时直接放在名词前面,都不用变形。",
+        "explain_en": "Add です straight on, and put the adjective straight before a noun — no change either way.",
+        "examples": [
+          "この {料理|りょうり}は {辛|から}いです。",
+          "{辛|から}い {料理|りょうり}"
+        ]
+      },
+      {
+        "pattern": "〜く ないです / 〜く ありません",
+        "explain_zh": "否定把词尾的「い」换成「く」。「いい」是例外,否定是「よく ないです」,不是「いく ないです」。",
+        "explain_en": "The い becomes く. いい is irregular: よくないです, never いくないです.",
+        "examples": [
+          "{高|たか}く ないです。",
+          "{天気|てんき}が よく ありません。"
+        ]
+      },
+      {
+        "pattern": "〜かったです / 〜く ありませんでした",
+        "explain_zh": "过去式把「い」换成「かった」。「いい」的过去是「よかったです」。「暑いでした」这种说法不存在。",
+        "explain_en": "Past: い → かった. いい gives よかったです. 暑いでした does not exist.",
+        "examples": [
+          "{楽|たの}しかったです。",
+          "{忙|いそが}しく ありませんでした。"
+        ]
+      },
+      {
+        "pattern": "〜くて、〜",
+        "explain_zh": "并列两个形容词。い形容词变「くて」,な形容词用「で」。前后必须是同方向的评价,相反的要用「〜が」。",
+        "explain_en": "Links two adjectives (i → くて, na → で). Both must point the same way; use が for a contrast.",
+        "examples": [
+          "{広|ひろ}くて {明|あか}るい {部屋|へや}",
+          "{安|やす}くて おいしいです。"
+        ]
+      },
+      {
+        "pattern": "とても / あまり / 少し",
+        "explain_zh": "程度副词。「とても」是很,「少し」是稍微,「あまり」后面必须接否定,意思是「不太…」。",
+        "explain_en": "Degree adverbs; あまり is special in that it must be followed by a negative.",
+        "examples": [
+          "とても {面白|おもしろ}いです。",
+          "あまり {難|むずか}しく ないです。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{京都|きょうと}の {紅葉|こうよう}は {有名|ゆうめい}です。",
+            "zh": "京都的红叶很有名。",
+            "en": "The autumn leaves of Kyoto are famous.",
+            "note_zh": "な形容词后面直接接「です」,词干不变。「有名い」这样的说法不存在。",
+            "note_en": "A na-adjective takes です directly; there is no い on the stem."
+          },
+          {
+            "ja": "{秋|あき}の {景色|けしき}は {本当|ほんとう}に きれいです。",
+            "zh": "秋天的景色真漂亮。",
+            "en": "The autumn scenery is really beautiful.",
+            "note_zh": "「きれい」虽然以「い」结尾,却是な形容词。同类的还有「嫌い」「有名」,要特别注意。",
+            "note_en": "きれい ends in い but is a na-adjective — as are 嫌い and 有名."
+          },
+          {
+            "ja": "{町|まち}は {静|しず}かな {町|まち}です。{交通|こうつう}も {便利|べんり}です。",
+            "zh": "城市是座安静的城市。交通也方便。",
+            "en": "It is a quiet town, and the transport is convenient too.",
+            "note_zh": "な形容词修饰名词时要加「な」:「静かな 町」。这就是「な形容词」名字的由来。",
+            "note_en": "Before a noun a na-adjective adds な — hence the name."
+          },
+          {
+            "ja": "{神社|じんじゃ}と お{寺|てら}が {多|おお}いです。だから {旅行|りょこう}の {人|ひと}に {人気|にんき}が あります。",
+            "zh": "神社和寺院很多。所以很受游客欢迎。",
+            "en": "There are many shrines and temples, so it is popular with travellers.",
+            "note_zh": "「だから」接在原因的后面,引出结果。和第5课的「〜から」不同:「から」在句中,「だから」在句首。",
+            "note_en": "だから opens a new sentence with the result; から joins clauses inside one sentence."
+          },
+          {
+            "ja": "でも、{春|はる}と {秋|あき}は あまり {静|しず}かでは ありません。",
+            "zh": "不过，春天和秋天不太安静。",
+            "en": "But in spring and autumn it is not very quiet.",
+            "note_zh": "な形容词的否定是「〜では ありません」,和名词句一样。「あまり」后面一定接否定。",
+            "note_en": "The na-adjective negative is 〜では ありません, like a noun. あまり always pairs with a negative."
+          },
+          {
+            "ja": "{昨日|きのう}の {海|うみ}は とても きれいでした。",
+            "zh": "昨天的海非常漂亮。",
+            "en": "The sea was very beautiful yesterday.",
+            "note_zh": "な形容词的过去式也和名词一样:「〜でした」「〜では ありませんでした」。",
+            "note_en": "The past forms match a noun's: でした and では ありませんでした."
+          },
+          {
+            "ja": "{温泉|おんせん}の {生活|せいかつ}は {静|しず}かで、{元気|げんき}に なります。",
+            "zh": "温泉的生活很安静，人会变精神。",
+            "en": "Life at the hot spring is quiet, and it makes you feel well."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{北京|ペキン}は どんな {町|まち}ですか。",
+            "zh": "小李，北京是个什么样的城市？",
+            "en": "Li, what kind of city is Beijing?",
+            "note_zh": "「どんな+名詞」问性质,回答要用形容词。「どの+名詞」是从几个里面选哪一个,两者不同。",
+            "note_en": "どんな asks what something is like; どの asks which one of several."
+          },
+          {
+            "sp": "李",
+            "ja": "とても にぎやかな {町|まち}です。{人|ひと}も {車|くるま}も {多|おお}いです。",
+            "zh": "是非常热闹的城市。人和车都很多。",
+            "en": "A very lively city. Plenty of people and plenty of cars."
+          },
+          {
+            "sp": "小野",
+            "ja": "{交通|こうつう}は {便利|べんり}ですか。",
+            "zh": "交通方便吗？",
+            "en": "Is the transport good?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい、{地下鉄|ちかてつ}が {便利|べんり}です。でも、バスは あまり {便利|べんり}では ありません。",
+            "zh": "方便，地铁很方便。不过公交车不太方便。",
+            "en": "Yes, the metro is handy. The buses, though, are not very convenient."
+          },
+          {
+            "sp": "小野",
+            "ja": "どうして ですか。",
+            "zh": "为什么？",
+            "en": "Why is that?",
+            "note_zh": "「どうして」问原因。回答时句尾用「〜からです」。",
+            "note_en": "どうして asks why; the answer ends in 〜からです."
+          },
+          {
+            "sp": "李",
+            "ja": "{朝|あさ}と {夜|よる}は {道|みち}が {大変|たいへん}ですから。",
+            "zh": "因为早上和晚上路上很够呛。",
+            "en": "Because the roads are terrible morning and evening."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですか。{上海|シャンハイ}も にぎやかですか。",
+            "zh": "这样啊。上海也热闹吗？",
+            "en": "I see. Is Shanghai lively too?"
+          },
+          {
+            "sp": "李",
+            "ja": "ええ、{上海|シャンハイ}も にぎやかです。そして、{町|まち}が きれいです。",
+            "zh": "是的，上海也热闹。而且城市很干净。",
+            "en": "Yes, Shanghai is lively too. And the city is clean.",
+            "note_zh": "「そして」用来追加同方向的内容,「でも」用来转折。两个都放在句首。",
+            "note_en": "そして adds something in the same direction; でも turns the other way. Both open a sentence."
+          },
+          {
+            "sp": "小野",
+            "ja": "{色々|いろいろ}な {話|はなし}を ありがとうございます。",
+            "zh": "谢谢您讲了这么多。",
+            "en": "Thank you for telling me all this."
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ。また {一緒|いっしょ}に {行|い}きましょう。",
+            "zh": "不客气。改天一起去吧。",
+            "en": "Not at all. Let's go together another time."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "な形容詞です / な形容詞な 名詞",
+        "explain_zh": "な形容词接「です」时词干不变,修饰名词时加「な」。「きれい」「嫌い」虽然带「い」,仍然是な形容词。",
+        "explain_en": "Bare stem + です; add な before a noun. Watch out for きれい and 嫌い, which look like i-adjectives.",
+        "examples": [
+          "この {町|まち}は {静|しず}かです。",
+          "{静|しず}かな {町|まち}です。"
+        ]
+      },
+      {
+        "pattern": "な形容詞では ありません / でした",
+        "explain_zh": "な形容词的否定和过去,变化方式和名词完全一样,不像い形容词那样把「い」变成「く」。",
+        "explain_en": "Na-adjectives inflect exactly like nouns, not like i-adjectives.",
+        "examples": [
+          "{便利|べんり}では ありません。",
+          "にぎやかでした。"
+        ]
+      },
+      {
+        "pattern": "どんな 名詞",
+        "explain_zh": "问事物的性质、种类,回答用形容词。注意和「どの+名詞」(哪一个)区分开。",
+        "explain_en": "Asks what something is like, answered with an adjective — unlike どの, which picks one out.",
+        "examples": [
+          "どんな {人|ひと}ですか。",
+          "どんな {町|まち}ですか。"
+        ]
+      },
+      {
+        "pattern": "そして / でも / だから",
+        "explain_zh": "句首接续词。「そして」追加,「でも」转折,「だから」承接前句说结果。三个都不能放在句中。",
+        "explain_en": "Sentence-initial connectives: そして adds, でも contrasts, だから draws a conclusion.",
+        "examples": [
+          "{静|しず}かです。そして、{便利|べんり}です。",
+          "{大変|たいへん}でした。だから、{休|やす}みました。"
+        ]
+      },
+      {
+        "pattern": "どうして〜か / 〜からです",
+        "explain_zh": "问原因用「どうして」,回答时在理由后面加「からです」。只说理由不加「から」会显得生硬。",
+        "explain_en": "どうして asks why; the reply attaches からです to the reason.",
+        "examples": [
+          "どうして {来|き}ませんでしたか。",
+          "{仕事|しごと}が {忙|いそが}しかったからです。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 11,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{小野|おの}さんは {歌|うた}が {好|す}きです。",
+            "zh": "小野女士喜欢唱歌。",
+            "en": "Ms. Ono likes singing.",
+            "note_zh": "「好き」是な形容词,喜欢的对象用「が」,不用「を」。「歌を 好きです」是错的。",
+            "note_en": "好き is a na-adjective: the thing liked takes が, never を."
+          },
+          {
+            "ja": "{李|り}さんは スポーツが {大好|だいす}きです。{野球|やきゅう}も サッカーも {好|す}きです。",
+            "zh": "小李非常喜欢体育。棒球和足球都喜欢。",
+            "en": "Li loves sport — both baseball and football.",
+            "note_zh": "「AもBも」把两项并列,肯定句里是「都…」,否定句里是「都不…」。",
+            "note_en": "AもBも lists two: \"both\" with an affirmative, \"neither\" with a negative."
+          },
+          {
+            "ja": "{森|もり}さんは {字|じ}が {上手|じょうず}です。{絵|え}は {下手|へた}です。",
+            "zh": "森先生字写得好。画画不行。",
+            "en": "Mr. Mori writes beautifully. His drawing is poor.",
+            "note_zh": "「上手」「下手」也用「が」。说自己擅长时用「上手」容易显得自夸,一般说「得意です」。",
+            "note_en": "上手/下手 also take が. Saying 上手 of yourself sounds boastful; 得意 is the modest choice."
+          },
+          {
+            "ja": "{私|わたし}は {漫画|まんが}が {嫌|きら}いでは ありません。でも、{小説|しょうせつ}の ほうを よく {読|よ}みます。",
+            "zh": "我不讨厌漫画。不过更常看小说。",
+            "en": "I don't dislike manga, but I read novels more often."
+          },
+          {
+            "ja": "{机|つくえ}の {上|うえ}に {本|ほん}が 3{冊|さつ}と ノートが 2{冊|さつ} あります。",
+            "zh": "桌子上有3本书和2本笔记本。",
+            "en": "There are three books and two notebooks on the desk.",
+            "note_zh": "量词放在「が」和动词之间,不加助词。「3冊の 本」这种说法也有,但口语里上面这种更自然。",
+            "note_en": "The counter sits between が and the verb, with no particle of its own."
+          },
+          {
+            "ja": "{庭|にわ}に {犬|いぬ}が 2{匹|ひき} います。",
+            "zh": "院子里有2条狗。",
+            "en": "There are two dogs in the garden."
+          },
+          {
+            "ja": "{私|わたし}の {趣味|しゅみ}は {水泳|すいえい}です。{毎週|まいしゅう}2{時間|じかん}{泳|およ}ぎます。",
+            "zh": "我的爱好是游泳。每周游2小时。",
+            "en": "My hobby is swimming. I swim for two hours a week."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さんの {趣味|しゅみ}は {何|なん}ですか。",
+            "zh": "小李的爱好是什么？",
+            "en": "What are your hobbies, Li?"
+          },
+          {
+            "sp": "李",
+            "ja": "{音楽|おんがく}です。ギターが {大好|だいす}きです。",
+            "zh": "音乐。我非常喜欢吉他。",
+            "en": "Music. I love the guitar."
+          },
+          {
+            "sp": "森",
+            "ja": "いいですね。ギターは {何|なん}{本|ぼん} ありますか。",
+            "zh": "真好啊。吉他有几把？",
+            "en": "Nice. How many guitars do you have?",
+            "note_zh": "问数量用「何+量词」:何本・何冊・何枚・何人。「何本」读「なんぼん」,发生了音变。",
+            "note_en": "Ask quantity with 何 + counter. 何本 is read なんぼん — the sound shifts."
+          },
+          {
+            "sp": "李",
+            "ja": "2{本|ほん} あります。でも、{上手|じょうず}では ありません。",
+            "zh": "有2把。不过弹得不好。",
+            "en": "Two. But I'm not good at it."
+          },
+          {
+            "sp": "森",
+            "ja": "{毎日|まいにち} どのくらい しますか。",
+            "zh": "每天练多久？",
+            "en": "How long do you practise each day?",
+            "note_zh": "「どのくらい」问时间长短、数量、程度,回答用「2時間」「3枚」这类带量词的说法。",
+            "note_en": "どのくらい asks how long or how much; the answer carries a counter."
+          },
+          {
+            "sp": "李",
+            "ja": "だいたい1{時間|じかん}です。{森|もり}さんは {何|なに}が {好|す}きですか。",
+            "zh": "大概1小时。森先生喜欢什么？",
+            "en": "About an hour. What do you like, Mr. Mori?"
+          },
+          {
+            "sp": "森",
+            "ja": "{私|わたし}は {映画|えいが}です。{去年|きょねん}は {映画|えいが}を 50{本|ぽん} {見|み}ました。",
+            "zh": "我是电影。去年看了50部电影。",
+            "en": "Films, for me. Last year I watched fifty of them.",
+            "note_zh": "「本」除了细长的东西,也用来数电影、电话这类「一条一条」的事物。50本读「ごじゅっぽん」。",
+            "note_en": "本 counts not just long thin things but also films and phone calls. 50本 is ごじゅっぽん."
+          },
+          {
+            "sp": "李",
+            "ja": "{多|おお}いですね。お{金|かね}が {大変|たいへん}でしょう。",
+            "zh": "真多啊。钱不少吧。",
+            "en": "That's a lot. It must cost a fortune."
+          },
+          {
+            "sp": "森",
+            "ja": "ええ。{全部|ぜんぶ}で 5{万|まん}{円|えん}ぐらいでした。",
+            "zh": "是啊。总共大概5万日元。",
+            "en": "Yes. About fifty thousand yen in total."
+          },
+          {
+            "sp": "李",
+            "ja": "じゃ、また いい {映画|えいが}を {教|おし}えて {下|くだ}さい。",
+            "zh": "那改天请告诉我有什么好电影。",
+            "en": "Then do tell me about a good film another time."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜が 好きです / 嫌いです",
+        "explain_zh": "喜好的对象用「が」,不用「を」。「好き」「嫌い」都是な形容词,否定是「〜では ありません」。",
+        "explain_en": "The object of liking takes が. Both words are na-adjectives, so the negative is では ありません.",
+        "examples": [
+          "{歌|うた}が {好|す}きです。",
+          "{野球|やきゅう}は {嫌|きら}いでは ありません。"
+        ]
+      },
+      {
+        "pattern": "〜が 上手です / 下手です",
+        "explain_zh": "擅长与否的对象也用「が」。「上手」用在别人身上是夸奖,用在自己身上会显得自大。",
+        "explain_en": "Skill also takes が. 上手 praises others; used of yourself it sounds immodest.",
+        "examples": [
+          "{字|じ}が {上手|じょうず}です。",
+          "{絵|え}が {下手|へた}です。"
+        ]
+      },
+      {
+        "pattern": "数量詞の使い方",
+        "explain_zh": "量词放在动词前面,不带助词:「本が 3冊 あります」。和语数词「一つ・二つ」用于没有专门量词的东西。",
+        "explain_en": "Counters go just before the verb with no particle. The 一つ/二つ series covers things with no special counter.",
+        "examples": [
+          "りんごを {三|みっ}つ {買|か}いました。",
+          "{学生|がくせい}が 5{人|にん} います。"
+        ]
+      },
+      {
+        "pattern": "何＋助数詞 / どのくらい",
+        "explain_zh": "问数量用「何冊」「何枚」「何人」,问时间长度或程度用「どのくらい」。注意「何本」读「なんぼん」这类音变。",
+        "explain_en": "何 + counter asks how many; どのくらい asks how long or how much. Mind sound changes like なんぼん.",
+        "examples": [
+          "{本|ほん}が {何|なん}{冊|さつ} ありますか。",
+          "どのくらい {掛|か}かりますか。"
+        ]
+      },
+      {
+        "pattern": "AもBも",
+        "explain_zh": "并列两项。肯定句是「A和B都…」,否定句是「A和B都不…」。",
+        "explain_en": "Lists two items: \"both\" in the affirmative, \"neither\" in the negative.",
+        "examples": [
+          "{野球|やきゅう}も サッカーも {好|す}きです。",
+          "{肉|にく}も {魚|さかな}も {食|た}べません。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{私|わたし}は すき{焼|や}きより てんぷらの ほうが {好|す}きです。",
+            "zh": "比起日式牛肉火锅，我更喜欢天妇罗。",
+            "en": "I like tempura better than sukiyaki.",
+            "note_zh": "「AよりBの ほうが〜」是比较句的基本形。「より」接在被比的一方后面,「ほう」是选中的一方。",
+            "note_en": "AよりBのほうが〜: より attaches to the thing compared against, ほう to the one preferred."
+          },
+          {
+            "ja": "{刺身|さしみ}と {寿司|すし}と、どちらが {好|す}きですか。",
+            "zh": "生鱼片和寿司，你更喜欢哪个？",
+            "en": "Which do you prefer, sashimi or sushi?",
+            "note_zh": "两者比较时,疑问词只能用「どちら」,不能用「どれ」。「どれ」要三者以上。",
+            "note_en": "With two items the question word must be どちら; どれ needs three or more."
+          },
+          {
+            "ja": "ラーメンは うどんより {値段|ねだん}が {安|やす}いです。",
+            "zh": "拉面比乌冬面便宜。",
+            "en": "Ramen is cheaper than udon."
+          },
+          {
+            "ja": "{日本|にほん}の {料理|りょうり}の {中|なか}で、{何|なに}が {一番|いちばん} おいしいですか。",
+            "zh": "日本菜里面，什么最好吃？",
+            "en": "Of all Japanese dishes, which is the tastiest?",
+            "note_zh": "「〜の 中で、何が 一番〜」是三者以上的最高级。范围是人就用「誰が」,是地方就用「どこが」。",
+            "note_en": "〜の中で、何が一番〜 is the superlative for three or more; swap 何 for 誰 or どこ as needed."
+          },
+          {
+            "ja": "{夏|なつ}は {北京|ペキン}の ほうが {東京|とうきょう}より {気温|きおん}が {高|たか}いです。",
+            "zh": "夏天北京的气温比东京高。",
+            "en": "In summer Beijing is hotter than Tokyo."
+          },
+          {
+            "ja": "{上海|シャンハイ}は {人口|じんこう}が {多|おお}いです。{面積|めんせき}も {広|ひろ}いです。",
+            "zh": "上海人口多。面积也大。",
+            "en": "Shanghai has a large population and a big area too."
+          },
+          {
+            "ja": "{春|はる}は {暖|あたた}かくて、{秋|あき}は {涼|すず}しいです。やっぱり この {二|ふた}つの {季節|きせつ}が {一番|いちばん} いいです。",
+            "zh": "春天暖和，秋天凉爽。果然这两个季节最好。",
+            "en": "Spring is warm and autumn is cool. These two seasons really are the best."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{日本|にほん}の {食|た}べ{物|もの}は どうですか。",
+            "zh": "小李，日本的食物怎么样？",
+            "en": "Li, how do you find Japanese food?"
+          },
+          {
+            "sp": "李",
+            "ja": "だいたい {好|す}きです。でも、{刺身|さしみ}は ちょっと…。",
+            "zh": "基本都喜欢。不过生鱼片有点…",
+            "en": "I like most of it. Sashimi, though, is a bit…",
+            "note_zh": "「ちょっと…」后面省略了否定的内容。日语里直接说「嫌いです」太生硬,这样留白更委婉。",
+            "note_en": "Trailing off after ちょっと leaves the refusal unsaid — far softer than 嫌いです."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうですか。じゃ、{寿司|すし}と てんぷらと、どちらが {好|す}きですか。",
+            "zh": "这样啊。那寿司和天妇罗，哪个更喜欢？",
+            "en": "I see. Then which do you prefer, sushi or tempura?"
+          },
+          {
+            "sp": "李",
+            "ja": "てんぷらの ほうが {好|す}きです。{寿司|すし}より {味|あじ}が {強|つよ}いですから。",
+            "zh": "更喜欢天妇罗。因为味道比寿司浓。",
+            "en": "Tempura. The flavour is stronger than sushi's."
+          },
+          {
+            "sp": "小野",
+            "ja": "{塩|しお}で {食|た}べますか、{醤油|しょうゆ}で {食|た}べますか。",
+            "zh": "蘸盐吃还是蘸酱油吃？",
+            "en": "Do you eat it with salt or with soy sauce?"
+          },
+          {
+            "sp": "李",
+            "ja": "{塩|しお}の ほうが おいしいです。{醤油|しょうゆ}は {味|あじ}が {重|おも}いです。",
+            "zh": "蘸盐更好吃。酱油味道重。",
+            "en": "Salt tastes better. Soy sauce is heavy."
+          },
+          {
+            "sp": "小野",
+            "ja": "{中国|ちゅうごく}の {料理|りょうり}の {中|なか}では、{何|なに}が {一番|いちばん} {有名|ゆうめい}ですか。",
+            "zh": "中国菜里面，什么最有名？",
+            "en": "Of Chinese dishes, which is the most famous?"
+          },
+          {
+            "sp": "李",
+            "ja": "{世界|せかい}では {四川|しせん}{料理|りょうり}が {一番|いちばん} {人気|にんき}が あります。ほとんど みんな {好|す}きです。",
+            "zh": "在世界上四川菜最受欢迎。几乎人人都喜欢。",
+            "en": "Worldwide, Sichuan food is the most popular. Almost everyone likes it."
+          },
+          {
+            "sp": "小野",
+            "ja": "{辛|から}いですか。",
+            "zh": "辣吗？",
+            "en": "Is it spicy?"
+          },
+          {
+            "sp": "李",
+            "ja": "ええ、とても。でも、{多分|たぶん} {小野|おの}さんも {好|す}きですよ。",
+            "zh": "嗯，非常辣。不过小野女士大概也会喜欢的。",
+            "en": "Very. But I expect you'd like it too.",
+            "note_zh": "「多分」常和「〜でしょう」「〜と 思います」一起用,表示推测。句尾的「よ」是把信息告诉对方的语气。",
+            "note_en": "多分 marks a guess; the final よ offers the information to the listener."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "AはBより〜です / AよりBの ほうが〜です",
+        "explain_zh": "比较两者。「より」接在作为基准的一方后面。强调哪一方更怎么样时,用「〜の ほうが」。",
+        "explain_en": "より attaches to the baseline; のほうが highlights the one that wins.",
+        "examples": [
+          "{東京|とうきょう}は {京都|きょうと}より {人口|じんこう}が {多|おお}いです。",
+          "てんぷらの ほうが {好|す}きです。"
+        ]
+      },
+      {
+        "pattern": "AとBと、どちらが〜ですか",
+        "explain_zh": "两者之间二选一。只能用「どちら」,不能用「どれ」。回答用「〜の ほうが〜です」。",
+        "explain_en": "A two-way choice always uses どちら, never どれ; answer with 〜のほうが.",
+        "examples": [
+          "{夏|なつ}と {冬|ふゆ}と、どちらが {好|す}きですか。",
+          "{夏|なつ}の ほうが {好|す}きです。"
+        ]
+      },
+      {
+        "pattern": "〜の 中で、何が 一番〜ですか",
+        "explain_zh": "三者以上的最高级。范围后面用「の 中で」。问人用「誰が」,问地方用「どこが」,问时间用「いつが」。",
+        "explain_en": "The superlative for three or more; swap 何 for 誰/どこ/いつ to suit.",
+        "examples": [
+          "{季節|きせつ}の {中|なか}で いつが {一番|いちばん} いいですか。",
+          "クラスで {誰|だれ}が {一番|いちばん} {若|わか}いですか。"
+        ]
+      },
+      {
+        "pattern": "もっと / 一番 / だいたい / ほとんど",
+        "explain_zh": "程度副词。「もっと」是更进一步,「一番」是最,「だいたい」是大体,「ほとんど」是几乎全部——接否定时变成「几乎不」。",
+        "explain_en": "Degree adverbs. Note ほとんど flips to \"hardly\" before a negative.",
+        "examples": [
+          "もっと {安|やす}いのは ありませんか。",
+          "ほとんど {分|わ}かりません。"
+        ]
+      },
+      {
+        "pattern": "多分 / やっぱり",
+        "explain_zh": "「多分」表示推测,后面常接「でしょう」。「やっぱり」是「果然还是」,确认心里原本的想法。",
+        "explain_en": "多分 hedges a guess; やっぱり confirms what you suspected all along.",
+        "examples": [
+          "{多分|たぶん} {来|き}ます。",
+          "やっぱり こちらの ほうが いいです。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 13,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{机|つくえ}の {上|うえ}に {本|ほん}が 3{冊|さつ} あります。",
+            "zh": "桌子上有3本书。",
+            "en": "There are three books on the desk."
+          },
+          {
+            "ja": "{昨日|きのう}、スーパーで {卵|たまご}を 10{個|こ}と りんごを {五|いつ}つ {買|か}いました。",
+            "zh": "昨天在超市买了10个鸡蛋和5个苹果。",
+            "en": "Yesterday I bought ten eggs and five apples at the supermarket.",
+            "note_zh": "量词紧跟在「を」和动词之间,本身不带助词。两组数量并列时,用「と」连接名词,量词各自跟在后面。",
+            "note_en": "Counters sit between を and the verb; と joins the nouns, each with its own count."
+          },
+          {
+            "ja": "{全部|ぜんぶ}で 2{千|せん}{円|えん}ぐらい {払|はら}いました。",
+            "zh": "总共付了2千日元左右。",
+            "en": "I paid about two thousand yen in all.",
+            "note_zh": "「ぐらい」接在数量后面表示大约。时刻的「大约」用「ごろ」,两个不能混:「3時ごろ」「3時間ぐらい」。",
+            "note_en": "ぐらい is \"about\" for quantities; ごろ is \"about\" for points in time — 3時ごろ vs 3時間ぐらい."
+          },
+          {
+            "ja": "{駅|えき}から {家|いえ}まで 20{分|ぷん} かかります。",
+            "zh": "从车站到家要20分钟。",
+            "en": "It takes twenty minutes from the station to my house.",
+            "note_zh": "「かかります」表示花费时间或金钱。所需的量放在动词前面,不加助词。",
+            "note_en": "かかる covers both time and money spent; the amount goes bare before the verb."
+          },
+          {
+            "ja": "{日本語|にほんご}の {勉強|べんきょう}は 2{年|ねん}{半|はん}です。",
+            "zh": "日语学了2年半。",
+            "en": "I have been studying Japanese for two and a half years."
+          },
+          {
+            "ja": "この {切手|きって}は 1{枚|まい}80{円|えん}です。5{枚|まい}ずつ {要|い}ります。",
+            "zh": "这种邮票1张80日元。各需要5张。",
+            "en": "These stamps are eighty yen each. I need five of each.",
+            "note_zh": "「ずつ」表示平均分配,「各…」的意思。「だけ」则表示限定,「只…」。",
+            "note_en": "ずつ distributes evenly (\"each\"); だけ limits (\"only\")."
+          },
+          {
+            "ja": "{財布|さいふ}に 1{万|まん}{円|えん}だけ あります。{他|ほか}に お{金|かね}は ありません。",
+            "zh": "钱包里只有1万日元。别的钱没有了。",
+            "en": "I have only ten thousand yen in my wallet. No other money."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "店員",
+            "ja": "いらっしゃいませ。{何|なに}を お{探|さが}しですか。",
+            "zh": "欢迎光临。您找什么？",
+            "en": "Welcome. What are you looking for?"
+          },
+          {
+            "sp": "李",
+            "ja": "{白|しろ}い シャツを {探|さが}して います。",
+            "zh": "我在找白衬衫。",
+            "en": "I'm looking for a white shirt."
+          },
+          {
+            "sp": "店員",
+            "ja": "こちらは いかがですか。{色|いろ}は {白|しろ}と {青|あお}と {黒|くろ}が あります。",
+            "zh": "这件怎么样？颜色有白色、蓝色和黑色。",
+            "en": "How about this one? It comes in white, blue and black."
+          },
+          {
+            "sp": "李",
+            "ja": "{白|しろ}を お{願|ねが}いします。いくらですか。",
+            "zh": "要白色的。多少钱？",
+            "en": "The white one, please. How much is it?"
+          },
+          {
+            "sp": "店員",
+            "ja": "4{千|せん}8{百|ひゃく}{円|えん}です。",
+            "zh": "4千8百日元。",
+            "en": "Four thousand eight hundred yen."
+          },
+          {
+            "sp": "李",
+            "ja": "じゃ、2{枚|まい} {下|くだ}さい。{他|ほか}に {帽子|ぼうし}も ありますか。",
+            "zh": "那请给我2件。另外也有帽子吗？",
+            "en": "Two, then, please. Do you also have hats?"
+          },
+          {
+            "sp": "店員",
+            "ja": "はい。あちらで {売|う}って います。",
+            "zh": "有。在那边卖。",
+            "en": "Yes, they're sold over there."
+          },
+          {
+            "sp": "李",
+            "ja": "{全部|ぜんぶ}で いくらに なりますか。",
+            "zh": "总共多少钱？",
+            "en": "How much will that be altogether?",
+            "note_zh": "「全部で」里的「で」表示合计的范围。结账时的固定说法。",
+            "note_en": "The で of 全部で marks the total — the standard phrase at a till."
+          },
+          {
+            "sp": "店員",
+            "ja": "シャツ2{枚|まい}で 9{千|せん}6{百|ひゃく}{円|えん}です。",
+            "zh": "2件衬衫9千6百日元。",
+            "en": "Two shirts come to nine thousand six hundred yen."
+          },
+          {
+            "sp": "李",
+            "ja": "カードで {払|はら}います。",
+            "zh": "用卡付。",
+            "en": "I'll pay by card.",
+            "note_zh": "支付手段用「で」,和第8课的工具、手段是同一个助词。",
+            "note_en": "The means of payment takes the same で as any other tool or method."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "数量詞の位置",
+        "explain_zh": "量词放在动词正前面,不带任何助词:「りんごを 三つ 買います」。放在名词前面时要加「の」:「三つの りんご」,但口语里前者更常用。",
+        "explain_en": "Counters go bare, right before the verb. The 三つのりんご order exists but is less common in speech.",
+        "examples": [
+          "{本|ほん}を 2{冊|さつ} {買|か}いました。",
+          "{学生|がくせい}が 10{人|にん} います。"
+        ]
+      },
+      {
+        "pattern": "時間・期間の数え方",
+        "explain_zh": "「分・時間・日・週間・か月・年」表示长度。和表示时刻的「時」「日」要分开:「3時」是3点,「3時間」是3小时。",
+        "explain_en": "Durations use 分/時間/日/週間/か月/年. Don't confuse 3時 (three o'clock) with 3時間 (three hours).",
+        "examples": [
+          "3{週間|しゅうかん} かかります。",
+          "1か{月|げつ} かかります。"
+        ]
+      },
+      {
+        "pattern": "〜ぐらい / 〜ごろ",
+        "explain_zh": "「ぐらい」接数量,表示大约多少;「ごろ」接时刻,表示大约几点。「3時ごろ」对,「3時ぐらい」虽然也听得到,但标准说法是「ごろ」。",
+        "explain_en": "ぐらい hedges a quantity, ごろ hedges a point in time.",
+        "examples": [
+          "1{時間|じかん}ぐらい かかります。",
+          "7{時|じ}ごろ {起|お}きます。"
+        ]
+      },
+      {
+        "pattern": "〜ずつ / 〜だけ",
+        "explain_zh": "「ずつ」是平均分配,「各…」;「だけ」是限定,「只…」。两个都接在数量词后面,意思完全不同。",
+        "explain_en": "ずつ = so many each; だけ = only that many. Both follow a quantity but mean opposite things.",
+        "examples": [
+          "{二|ふた}つずつ {下|くだ}さい。",
+          "1{枚|まい}だけ {要|い}ります。"
+        ]
+      },
+      {
+        "pattern": "〜が かかります / 〜を 払います",
+        "explain_zh": "「かかります」的主语是花掉的时间或钱,自己不花力气;「払います」是主动支付,宾语用「を」。",
+        "explain_en": "かかる takes the cost as its subject (it \"takes\"); 払う is the active \"pay\", with を.",
+        "examples": [
+          "お{金|かね}が かかります。",
+          "1{万|まん}{円|えん}を {払|はら}いました。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{昨日|きのう}デパートへ {行|い}って、{買|か}い{物|もの}しました。",
+            "zh": "昨天去百货商店买了东西。",
+            "en": "Yesterday I went to the department store and did some shopping.",
+            "note_zh": "「て形」把两个以上的动作按时间顺序连起来。时态只在最后一个动词上体现,前面的「行って」不变。",
+            "note_en": "The て-form chains actions in order. Only the final verb carries the tense."
+          },
+          {
+            "ja": "{朝|あさ}7{時|じ}に {起|お}きて、{手|て}を {洗|あら}って、{朝|あさ}ご{飯|はん}を {食|た}べました。",
+            "zh": "早上7点起床，洗了手，吃了早饭。",
+            "en": "I got up at seven, washed my hands and had breakfast."
+          },
+          {
+            "ja": "まず {部屋|へや}を {掃除|そうじ}して、{次|つぎ}に {洗濯|せんたく}しました。{最後|さいご}に {料理|りょうり}しました。",
+            "zh": "首先打扫了房间，接着洗了衣服。最后做了饭。",
+            "en": "First I cleaned the room, then did the laundry, and finally cooked.",
+            "note_zh": "「まず・次に・最後に」给步骤排序,和「て形」一起用,叙述会很清楚。",
+            "note_en": "まず / 次に / 最後に order the steps, and sit naturally alongside the て-form."
+          },
+          {
+            "ja": "{家|いえ}を {出|で}て、{駅|えき}まで {歩|ある}きました。",
+            "zh": "出了家门，走到车站。",
+            "en": "I left the house and walked to the station.",
+            "note_zh": "「家を 出ます」用「を」,因为「出る」表示离开某个场所。和「部屋に 入ります」的「に」正好相反。",
+            "note_en": "Leaving a place takes を (家を出る), while entering takes に (部屋に入る)."
+          },
+          {
+            "ja": "{電車|でんしゃ}に {乗|の}って、30{分|ぷん}{待|ま}って、{会議|かいぎ}に {参加|さんか}しました。",
+            "zh": "坐上电车，等了30分钟，参加了会议。",
+            "en": "I got on the train, waited thirty minutes and joined the meeting."
+          },
+          {
+            "ja": "{会議|かいぎ}は 3{時|じ}に {終|お}わって、それから {散歩|さんぽ}しました。",
+            "zh": "会议3点结束，然后散了步。",
+            "en": "The meeting finished at three, and then I took a walk."
+          },
+          {
+            "ja": "{明日|あした}は {試験|しけん}が ありますから、{今|いま}から {宿題|しゅくだい}を します。",
+            "zh": "明天有考试，所以现在开始做作业。",
+            "en": "I have an exam tomorrow, so I'll start my homework now."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、{日曜日|にちようび}は {何|なに}を しましたか。",
+            "zh": "小李，星期天做了什么？",
+            "en": "Li, what did you do on Sunday?"
+          },
+          {
+            "sp": "李",
+            "ja": "{朝|あさ} {公園|こうえん}へ {行|い}って、{泳|およ}いで、それから {友達|ともだち}と {遊|あそ}びました。",
+            "zh": "早上去了公园，游了泳，然后和朋友玩了。",
+            "en": "I went to the park in the morning, had a swim, then hung out with a friend."
+          },
+          {
+            "sp": "森",
+            "ja": "いいですね。{何時|なんじ}ごろ {出発|しゅっぱつ}しましたか。",
+            "zh": "真好啊。几点左右出发的？",
+            "en": "Nice. What time did you set off?"
+          },
+          {
+            "sp": "李",
+            "ja": "8{時|じ}に {家|いえ}を {出|で}て、9{時|じ}に {着|つ}きました。",
+            "zh": "8点出门，9点到的。",
+            "en": "I left home at eight and arrived at nine.",
+            "note_zh": "「着きます」的到达地点用「に」:「公園に 着きます」。注意不是「へ」。",
+            "note_en": "着く marks its destination with に, not へ."
+          },
+          {
+            "sp": "森",
+            "ja": "ちょっと {急|いそ}ぎましたか。",
+            "zh": "有点赶吗？",
+            "en": "Did you have to rush a bit?"
+          },
+          {
+            "sp": "李",
+            "ja": "ええ。{走|はし}って {駅|えき}まで {行|い}きました。",
+            "zh": "是的。跑着去的车站。",
+            "en": "Yes. I ran to the station.",
+            "note_zh": "「走って 行きます」的「て形」表示方式——怎么去的。和表示先后的用法要靠上下文区分。",
+            "note_en": "Here the て-form states the manner (how you went), not a sequence — context decides."
+          },
+          {
+            "sp": "森",
+            "ja": "{午後|ごご}は どうでしたか。",
+            "zh": "下午呢？",
+            "en": "And the afternoon?"
+          },
+          {
+            "sp": "李",
+            "ja": "{喫茶店|きっさてん}に {入|はい}って、{座|すわ}って、3{時間|じかん}{話|はな}しました。",
+            "zh": "进了咖啡馆，坐下，聊了3个小时。",
+            "en": "We went into a café, sat down and talked for three hours."
+          },
+          {
+            "sp": "森",
+            "ja": "{長|なが}いですね。{今週|こんしゅう}の {日曜日|にちようび}の {予定|よてい}は ありますか。",
+            "zh": "真长啊。这周日有安排吗？",
+            "en": "That's a long chat. Any plans for Sunday?"
+          },
+          {
+            "sp": "李",
+            "ja": "{会社|かいしゃ}の パーティーに {参加|さんか}します。{店|みせ}は もう {予約|よやく}しました。",
+            "zh": "要参加公司的聚会。店已经订好了。",
+            "en": "I'm going to a company party. The restaurant is booked already."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "動詞て形のつくり方",
+        "explain_zh": "動1按词尾变:い・ち・り→って、み・び・に→んで、き→いて、ぎ→いで、し→して(「行く」例外,是「行って」)。動2去「る」加「て」。動3是「来て」「して」。",
+        "explain_en": "Group 1 shifts by its final kana (い/ち/り→って, み/び/に→んで, き→いて, ぎ→いで, し→して; 行く is irregular). Group 2 drops る and adds て. Group 3 gives 来て and して.",
+        "examples": [
+          "{買|か}う → {買|か}って",
+          "{読|よ}む → {読|よ}んで"
+        ]
+      },
+      {
+        "pattern": "〜て、〜て、〜ます（動作の順序）",
+        "explain_zh": "按时间先后把动作连起来。时态只在句末的动词上体现,前面的动词一律用「て形」。",
+        "explain_en": "Chains actions in sequence; only the last verb is marked for tense.",
+        "examples": [
+          "{起|お}きて、{食|た}べて、{出|で}かけます。",
+          "{行|い}って、{買|か}って、{帰|かえ}りました。"
+        ]
+      },
+      {
+        "pattern": "場所を 出ます / 場所に 入ります・着きます",
+        "explain_zh": "离开某处用「を」,进入和到达某处用「に」。这组助词和中文直觉不同,要成对记。",
+        "explain_en": "Leaving takes を; entering and arriving take に. Learn the pair together.",
+        "examples": [
+          "{家|いえ}を {出|で}ます。",
+          "{教室|きょうしつ}に {入|はい}ります。"
+        ]
+      },
+      {
+        "pattern": "まず / 次に / 最後に",
+        "explain_zh": "给步骤排序的副词,常和「て形」一起用。说明做法、流程时很好用。",
+        "explain_en": "Step adverbs — first, next, finally — natural partners for the て-form.",
+        "examples": [
+          "まず {洗|あら}います。{次|つぎ}に {切|き}ります。",
+          "{最後|さいご}に {醤油|しょうゆ}を {入|い}れます。"
+        ]
+      },
+      {
+        "pattern": "名詞＋します（動3）",
+        "explain_zh": "「勉強」「掃除」「予約」这类名词后面直接加「します」就变成动词。宾语可以用「を」:「掃除を します」,也可以合起来说「掃除します」。",
+        "explain_en": "Many nouns become verbs with します; the object may be split off with を or left fused.",
+        "examples": [
+          "{予約|よやく}しました。",
+          "{部屋|へや}の {掃除|そうじ}を します。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 15,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{小野|おの}さんは {今|いま}{新聞|しんぶん}を {読|よ}んで います。",
+            "zh": "小野女士正在看报纸。",
+            "en": "Ms. Ono is reading the paper.",
+            "note_zh": "「て形+います」表示动作正在进行。和「読みます」(习惯、将来)区别开。",
+            "note_en": "て-form + います marks an action in progress, as against the habitual/future 読みます."
+          },
+          {
+            "ja": "{李|り}さんは {東京|とうきょう}に {住|す}んで います。",
+            "zh": "小李住在东京。",
+            "en": "Li lives in Tokyo.",
+            "note_zh": "「住んで います」表示的是持续的状态,不是「正在住」。这类动词不说「住みます」。",
+            "note_en": "住んでいます is a lasting state, not an action in progress — 住みます alone is unnatural."
+          },
+          {
+            "ja": "{森|もり}さんは {銀行|ぎんこう}に {勤|つと}めて います。",
+            "zh": "森先生在银行工作。",
+            "en": "Mr. Mori works at a bank.",
+            "note_zh": "「勤めて います」也是状态。注意助词是「に」,不是「で」:「銀行に 勤めます」。",
+            "note_en": "Another state verb. Note the particle: 銀行に勤める, not で."
+          },
+          {
+            "ja": "{兄|あに}は {結婚|けっこん}して います。{姉|あね}は まだ {独身|どくしん}です。",
+            "zh": "哥哥已婚。姐姐还单身。",
+            "en": "My older brother is married. My sister is still single.",
+            "note_zh": "「結婚して います」是「已婚」这个状态,不是「正在结婚」。中文的「结婚了」对应的就是这个形式。",
+            "note_en": "結婚しています means \"is married\" — the resulting state, not the ceremony."
+          },
+          {
+            "ja": "{今|いま} {雨|あめ}が {降|ふ}って います。{風|かぜ}も {吹|ふ}いて います。",
+            "zh": "现在正在下雨。风也在刮。",
+            "en": "It is raining now, and the wind is blowing too."
+          },
+          {
+            "ja": "{昨日|きのう}は {晴|は}れて いましたが、{今日|きょう}は {曇|くも}って います。",
+            "zh": "昨天是晴天，今天阴天。",
+            "en": "Yesterday it was clear, but today it's cloudy.",
+            "note_zh": "「て います」的过去是「て いました」。表示过去某个时点的状态或正在进行的动作。",
+            "note_en": "The past of ています is ていました — the state or action at some past moment."
+          },
+          {
+            "ja": "{妹|いもうと}は {赤|あか}い セーターを {着|き}て、{帽子|ぼうし}を {被|かぶ}って います。",
+            "zh": "妹妹穿着红毛衣，戴着帽子。",
+            "en": "My little sister is wearing a red jumper and a hat.",
+            "note_zh": "穿戴的动词要分部位:上衣「着る」、裤子鞋「履く」、帽子「被る」、眼镜「掛ける」。",
+            "note_en": "Japanese picks the verb by body part: 着る (tops), 履く (legs/feet), 被る (head), 掛ける (glasses)."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "もしもし、{李|り}さんですか。{今|いま} {何|なに}を して いますか。",
+            "zh": "喂，是小李吗？现在在做什么？",
+            "en": "Hello, is that Li? What are you doing right now?"
+          },
+          {
+            "sp": "李",
+            "ja": "{部屋|へや}で {宿題|しゅくだい}を して います。",
+            "zh": "在房间里做作业。",
+            "en": "I'm doing my homework in my room."
+          },
+          {
+            "sp": "森",
+            "ja": "{李|り}さんは どこに {住|す}んで いますか。",
+            "zh": "小李住在哪里？",
+            "en": "Where do you live?"
+          },
+          {
+            "sp": "李",
+            "ja": "{会社|かいしゃ}の {独身寮|どくしんりょう}に {住|す}んで います。{駅|えき}から {歩|ある}いて 5{分|ふん}です。",
+            "zh": "住在公司的单身宿舍。离车站走路5分钟。",
+            "en": "In the company dormitory. Five minutes' walk from the station."
+          },
+          {
+            "sp": "森",
+            "ja": "{住所|じゅうしょ}を {教|おし}えて {下|くだ}さい。",
+            "zh": "请告诉我地址。",
+            "en": "Could you tell me the address?",
+            "note_zh": "「て形+ください」是请求对方做某事,第14课学的「て形」在这里派上用场。",
+            "note_en": "て-form + ください makes a request — another use of the て-form from lesson 14."
+          },
+          {
+            "sp": "李",
+            "ja": "はい。{電話|でんわ}{番号|ばんごう}も {知|し}って いますか。",
+            "zh": "好的。电话号码也知道吗？",
+            "en": "Sure. Do you have my phone number as well?",
+            "note_zh": "「知って います」是知道。否定不是「知って いません」,而是「知りません」——这是个重要的例外。",
+            "note_en": "知っています means \"know\", but the negative is 知りません, not 知っていません — an important exception."
+          },
+          {
+            "sp": "森",
+            "ja": "いいえ、{知|し}りません。",
+            "zh": "不，不知道。",
+            "en": "No, I don't."
+          },
+          {
+            "sp": "李",
+            "ja": "あとで メールを {送|おく}ります。{森|もり}さんは {結婚|けっこん}して いますか。",
+            "zh": "稍后发邮件。森先生结婚了吗？",
+            "en": "I'll email it later. Are you married, Mr. Mori?"
+          },
+          {
+            "sp": "森",
+            "ja": "ええ。{妻|つま}は {病院|びょういん}に {勤|つと}めて います。{子供|こども}が {二人|ふたり} います。",
+            "zh": "是的。妻子在医院工作。有两个孩子。",
+            "en": "Yes. My wife works at a hospital. We have two children."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。いつか {会|あ}いたいです。",
+            "zh": "这样啊。什么时候想见见。",
+            "en": "I see. I'd like to meet them one day."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜て います（動作の進行）",
+        "explain_zh": "表示动作正在进行。「今」「ちょうど」这类词常和它一起出现。过去形是「〜て いました」。",
+        "explain_en": "An action in progress, often with 今 or ちょうど. Past: ていました.",
+        "examples": [
+          "{今|いま} {食|た}べて います。",
+          "{雨|あめ}が {降|ふ}って います。"
+        ]
+      },
+      {
+        "pattern": "〜て います（状態）",
+        "explain_zh": "「住む・勤める・結婚する・知る」这类动词的「て います」表示持续的状态,不是正在做。这些动词单说「住みます」反而不自然。",
+        "explain_en": "With 住む, 勤める, 結婚する, 知る the ている form expresses a lasting state, not an ongoing action.",
+        "examples": [
+          "{東京|とうきょう}に {住|す}んで います。",
+          "{結婚|けっこん}して います。"
+        ]
+      },
+      {
+        "pattern": "知って います ⇔ 知りません",
+        "explain_zh": "「知る」的肯定是「知って います」,否定却是「知りません」。不能说「知って いません」,这是必须单独记的例外。",
+        "explain_en": "The affirmative is 知っています but the negative is 知りません — never 知っていません.",
+        "examples": [
+          "{住所|じゅうしょ}を {知|し}って いますか。",
+          "いいえ、{知|し}りません。"
+        ]
+      },
+      {
+        "pattern": "着る / 履く / 被る / 掛ける",
+        "explain_zh": "穿戴按部位选动词:上身「着る」、下身和鞋「履く」、头上「被る」、眼镜「掛ける」。脱下来一律用「脱ぐ」(眼镜用「外す」)。",
+        "explain_en": "The verb depends on the body part; taking things off is 脱ぐ (glasses use 外す).",
+        "examples": [
+          "セーターを {着|き}て います。",
+          "{眼鏡|めがね}を {掛|か}けて います。"
+        ]
+      },
+      {
+        "pattern": "〜て ください",
+        "explain_zh": "用「て形」请求对方做某事。比「〜ます」客气,但对上级最好再加一层,说「〜て いただけませんか」。",
+        "explain_en": "A request on the て-form. Polite, though a superior merits 〜ていただけませんか.",
+        "examples": [
+          "{住所|じゅうしょ}を {教|おし}えて {下|くだ}さい。",
+          "ちょっと {待|ま}って {下|くだ}さい。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "ホテルの {部屋|へや}は {広|ひろ}くて {明|あか}るいです。",
+            "zh": "宾馆的房间又宽敞又明亮。",
+            "en": "The hotel room is spacious and bright.",
+            "note_zh": "い形容词用「くて」连接,两个评价方向要一致。前面是好评,后面也得是好评。",
+            "note_en": "くて joins two i-adjectives, and both must pull the same way."
+          },
+          {
+            "ja": "{設備|せつび}も {新|あたら}しくて、サービスも いいです。",
+            "zh": "设备也新，服务也好。",
+            "en": "The facilities are new and the service is good too."
+          },
+          {
+            "ja": "この ホテルは {静|しず}かで {安全|あんぜん}です。",
+            "zh": "这家宾馆又安静又安全。",
+            "en": "This hotel is quiet and safe.",
+            "note_zh": "な形容词连接时用「で」,不用「くて」。「静かくて」是错的。",
+            "note_en": "Na-adjectives connect with で, never くて."
+          },
+          {
+            "ja": "{部屋代|へやだい}は {割合|わりあい}に {安|やす}いですが、{駅|えき}から ちょっと {歩|ある}きます。",
+            "zh": "房费比较便宜，不过要从车站走一段。",
+            "en": "The room rate is fairly cheap, but it's a bit of a walk from the station."
+          },
+          {
+            "ja": "{小野|おの}さんは {髪|かみ}が {長|なが}くて、{目|め}が {大|おお}きいです。",
+            "zh": "小野女士头发长，眼睛大。",
+            "en": "Ms. Ono has long hair and big eyes.",
+            "note_zh": "「AはBが〜です」是描写人或物某个部位、属性的句型。「は」提示整体,「が」提示具体的部分。",
+            "note_en": "AはBが〜です describes a part of a whole: は for the whole, が for the feature."
+          },
+          {
+            "ja": "{森|もり}さんは {背|せ}が {高|たか}くて、{性格|せいかく}が {明|あか}るいです。",
+            "zh": "森先生个子高，性格开朗。",
+            "en": "Mr. Mori is tall and cheerful."
+          },
+          {
+            "ja": "{昨日|きのう}は {仕事|しごと}が {厳|きび}しくて、とても {眠|ねむ}かったです。",
+            "zh": "昨天工作很严苛，非常困。",
+            "en": "Work was tough yesterday and I was very sleepy.",
+            "note_zh": "「くて」也可以表示原因:前面是因,后面是果。这里「厳しくて」说明为什么困。",
+            "note_en": "くて can also mean \"and so\" — the first clause being the reason for the second."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "{森|もり}さん、{新|あたら}しい アパートは どうですか。",
+            "zh": "森先生，新公寓怎么样？",
+            "en": "Mr. Mori, how is the new flat?"
+          },
+          {
+            "sp": "森",
+            "ja": "{部屋|へや}は {広|ひろ}くて {明|あか}るいです。でも、{割合|わりあい}に うるさいです。",
+            "zh": "房间又宽敞又明亮。不过比较吵。",
+            "en": "It's roomy and bright. A bit noisy, though."
+          },
+          {
+            "sp": "李",
+            "ja": "どうしてですか。",
+            "zh": "为什么？",
+            "en": "Why is that?"
+          },
+          {
+            "sp": "森",
+            "ja": "{前|まえ}の {道|みち}を {車|くるま}が たくさん {走|はし}って いますから。",
+            "zh": "因为前面的路上有很多车在跑。",
+            "en": "Because a lot of cars go along the road out front."
+          },
+          {
+            "sp": "李",
+            "ja": "{部屋代|へやだい}は いくらですか。",
+            "zh": "房费多少？",
+            "en": "How much is the rent?"
+          },
+          {
+            "sp": "森",
+            "ja": "8{万|まん}{円|えん}です。{設備|せつび}が {新|あたら}しくて {丈夫|じょうぶ}ですから、{高|たか}く ないです。",
+            "zh": "8万日元。设备又新又结实，所以不贵。",
+            "en": "Eighty thousand yen. The fittings are new and solid, so it isn't expensive."
+          },
+          {
+            "sp": "李",
+            "ja": "{雰囲気|ふんいき}は どうですか。",
+            "zh": "气氛怎么样？",
+            "en": "What's the atmosphere like?"
+          },
+          {
+            "sp": "森",
+            "ja": "{隣|となり}の {人|ひと}は {真面目|まじめ}で {優|やさ}しい {人|ひと}です。",
+            "zh": "隔壁的人又认真又体贴。",
+            "en": "My neighbour is a serious, kind person.",
+            "note_zh": "な形容词修饰名词是「〜な+名詞」,但两个词并列再修饰名词时,前一个用「で」:「真面目で 優しい 人」。",
+            "note_en": "Two adjectives before one noun: the first takes で (or くて), the last keeps its own form."
+          },
+          {
+            "sp": "李",
+            "ja": "いいですね。{私|わたし}の {部屋|へや}は {狭|せま}くて {暗|くら}いです。",
+            "zh": "真好啊。我的房间又窄又暗。",
+            "en": "That's nice. My room is cramped and dark."
+          },
+          {
+            "sp": "森",
+            "ja": "{李|り}さんも {新|あたら}しい {部屋|へや}を {探|さが}しませんか。",
+            "zh": "小李也找个新房间吧？",
+            "en": "Why don't you look for a new place too?"
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "い形容詞くて、〜 / な形容詞で、〜",
+        "explain_zh": "把两个以上的形容词连起来。い形容词变「くて」,な形容词和名词用「で」。「いい」的连接形是「よくて」。",
+        "explain_en": "Chain adjectives with くて (i) or で (na and nouns). いい becomes よくて.",
+        "examples": [
+          "{広|ひろ}くて {明|あか}るい {部屋|へや}",
+          "{静|しず}かで {安全|あんぜん}です。"
+        ]
+      },
+      {
+        "pattern": "AはBが〜です",
+        "explain_zh": "描写人或事物的某个部分、属性。「は」提示整体,「が」提示被描写的那个部分。",
+        "explain_en": "Describes a feature of a whole: は for the whole, が for the part being described.",
+        "examples": [
+          "{森|もり}さんは {背|せ}が {高|たか}いです。",
+          "この {部屋|へや}は {設備|せつび}が {新|あたら}しいです。"
+        ]
+      },
+      {
+        "pattern": "〜くて、〜（原因）",
+        "explain_zh": "「くて」除了并列,也能表示原因:前句是因,后句是果。后句不能是命令或请求。",
+        "explain_en": "Besides listing, くて can give a cause — but the result clause cannot be a command or request.",
+        "examples": [
+          "{忙|いそが}しくて、{行|い}けませんでした。",
+          "{頭|あたま}が {痛|いた}くて、{休|やす}みました。"
+        ]
+      },
+      {
+        "pattern": "体の部分を表す言葉",
+        "explain_zh": "「頭・顔・目・耳・口・鼻・手・足・背・髪」等。描写时常用「AはBが〜です」的句型。",
+        "explain_en": "Body-part words, usually described with the AはBが〜です pattern.",
+        "examples": [
+          "{目|め}が {大|おお}きいです。",
+          "{髪|かみ}が {長|なが}いです。"
+        ]
+      },
+      {
+        "pattern": "割合に / なかなか",
+        "explain_zh": "「割合に」是「比较地」,语气比「とても」弱。「なかなか」肯定句里是「相当」,否定句里是「怎么也不…」。",
+        "explain_en": "割合に is a mild \"fairly\"; なかなか means \"quite\" in the affirmative but \"not easily\" with a negative.",
+        "examples": [
+          "{割合|わりあい}に {安|やす}いです。",
+          "なかなか {難|むずか}しいです。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 17,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{私|わたし}は {新|あたら}しい {洋服|ようふく}が {欲|ほ}しいです。",
+            "zh": "我想要一件新衣服。",
+            "en": "I want a new outfit.",
+            "note_zh": "「欲しい」是い形容词,想要的东西用「が」,不用「を」。而且只能说自己的愿望,说别人要用「欲しがって います」。",
+            "note_en": "欲しい is an i-adjective taking が. It states your own desire only; for others use 欲しがっている."
+          },
+          {
+            "ja": "{夏|なつ}の {休|やす}みに {旅行|りょこう}に {行|い}きたいです。",
+            "zh": "暑假想去旅行。",
+            "en": "I want to go travelling during the summer break.",
+            "note_zh": "「動詞ます形+たい」表示自己想做某事。「たい」本身按い形容词变化:「行きたく ないです」「行きたかったです」。",
+            "note_en": "ます-stem + たい says what you want to do, and inflects like an i-adjective."
+          },
+          {
+            "ja": "{京都|きょうと}で お{寺|てら}を {見物|けんぶつ}したいです。",
+            "zh": "想在京都参观寺院。",
+            "en": "I'd like to see the temples in Kyoto."
+          },
+          {
+            "ja": "{山|やま}に {登|のぼ}って、{写真|しゃしん}を {撮|と}りたいです。",
+            "zh": "想爬山，拍照片。",
+            "en": "I want to climb a mountain and take photos."
+          },
+          {
+            "ja": "{友達|ともだち}は {動物園|どうぶつえん}へ {遊|あそ}びに {行|い}きました。",
+            "zh": "朋友去动物园玩了。",
+            "en": "My friend went to the zoo for fun.",
+            "note_zh": "「場所へ 動詞ます形+に 行きます」表示去做某事。「遊びに 行く」「買い物に 行く」都是这个结构。",
+            "note_en": "Place へ + ます-stem + に + 行く states the purpose of going."
+          },
+          {
+            "ja": "{昨日|きのう}は たくさん {歩|ある}きましたから、とても {疲|つか}れました。",
+            "zh": "昨天走了很多，所以非常累。",
+            "en": "I walked a lot yesterday, so I'm very tired."
+          },
+          {
+            "ja": "{喉|のど}が {渇|かわ}きました。{冷|つめ}たい {水|みず}が {飲|の}みたいです。",
+            "zh": "口渴了。想喝凉水。",
+            "en": "I'm thirsty. I'd like some cold water.",
+            "note_zh": "「〜たい」的宾语可以用「が」也可以用「を」,「が」更强调想要的对象本身。",
+            "note_en": "The object of 〜たい can take が or を; が puts more weight on the thing wanted."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{将来|しょうらい} {何|なに}を したいですか。",
+            "zh": "小李，将来想做什么？",
+            "en": "Li, what do you want to do in the future?"
+          },
+          {
+            "sp": "李",
+            "ja": "{自分|じぶん}の {店|みせ}を {持|も}ちたいです。{自由|じゆう}に {働|はたら}きたいですから。",
+            "zh": "想有自己的店。因为想自由地工作。",
+            "en": "I'd like my own shop — I want to work freely."
+          },
+          {
+            "sp": "小野",
+            "ja": "いいですね。お{金|かね}が {必要|ひつよう}ですね。",
+            "zh": "真好啊。需要钱呢。",
+            "en": "That's nice. You'll need money, though."
+          },
+          {
+            "sp": "李",
+            "ja": "ええ。でも、まだ {十分|じゅうぶん}では ありません。",
+            "zh": "是的。不过还不够。",
+            "en": "Yes. And I don't have enough yet."
+          },
+          {
+            "sp": "小野",
+            "ja": "{今年|ことし}の {休|やす}みは どこかへ {行|い}きますか。",
+            "zh": "今年的假期去哪里吗？",
+            "en": "Are you going anywhere on your holiday this year?",
+            "note_zh": "「どこかへ」是「去某个地方」,不确定哪里。注意和「どこへ」(具体问哪里)的区别。",
+            "note_en": "どこかへ asks whether you're going somewhere at all; どこへ asks which place."
+          },
+          {
+            "sp": "李",
+            "ja": "{北海道|ほっかいどう}へ {行|い}きたいです。スキーを したいです。",
+            "zh": "想去北海道。想滑雪。",
+            "en": "I'd like to go to Hokkaido. I want to ski."
+          },
+          {
+            "sp": "小野",
+            "ja": "{私|わたし}は {海|うみ}へ {釣|つ}りに {行|い}きたいです。",
+            "zh": "我想去海边钓鱼。",
+            "en": "I'd like to go fishing at the sea."
+          },
+          {
+            "sp": "李",
+            "ja": "いいですね。ぜひ {一緒|いっしょ}に {行|い}きましょう。",
+            "zh": "真好啊。一定一起去吧。",
+            "en": "Sounds great. Let's definitely go together.",
+            "note_zh": "「ぜひ」表示强烈的愿望,常和「〜たい」「〜ましょう」「〜て ください」搭配。",
+            "note_en": "ぜひ strengthens a wish and pairs with 〜たい, 〜ましょう or 〜てください."
+          },
+          {
+            "sp": "小野",
+            "ja": "でも、なかなか {休|やす}みが {取|と}れません。",
+            "zh": "不过不太容易请到假。",
+            "en": "Getting time off isn't easy, though."
+          },
+          {
+            "sp": "李",
+            "ja": "いつか {行|い}きたいですね。",
+            "zh": "总有一天想去啊。",
+            "en": "Let's go one day."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜が 欲しいです",
+        "explain_zh": "表示想要某个东西。「欲しい」是い形容词,对象用「が」。只用于第一人称的愿望,或者疑问句里问对方。",
+        "explain_en": "Wants a thing. An i-adjective taking が, limited to your own desire or a question to the listener.",
+        "examples": [
+          "{新|あたら}しい {時計|とけい}が {欲|ほ}しいです。",
+          "{何|なに}が {欲|ほ}しいですか。"
+        ]
+      },
+      {
+        "pattern": "動詞ます形＋たいです",
+        "explain_zh": "表示想做某事。「たい」按い形容词变化:否定「たく ないです」,过去「たかったです」。同样只说自己或问对方。",
+        "explain_en": "Wants to do something. たい inflects as an i-adjective and is likewise first-person or a question.",
+        "examples": [
+          "{日本|にほん}へ {行|い}きたいです。",
+          "{何|なに}も {食|た}べたく ないです。"
+        ]
+      },
+      {
+        "pattern": "場所へ 動詞ます形＋に 行きます",
+        "explain_zh": "去某地做某事。动词用「ます形」去掉「ます」。名词性的动作可以直接接:「買い物に 行きます」「旅行に 行きます」。",
+        "explain_en": "Goes somewhere to do something; verbal nouns can attach directly (買い物に行く).",
+        "examples": [
+          "{映画|えいが}を {見|み}に {行|い}きます。",
+          "{釣|つ}りに {行|い}きました。"
+        ]
+      },
+      {
+        "pattern": "体の状態を表す表現",
+        "explain_zh": "「喉が 渇きました」「お腹が 空きました」「疲れました」「風邪を 引きました」都用过去式表示现在的状态,这点和中文不同。",
+        "explain_en": "These all use the past form to describe a present state — unlike English or Chinese.",
+        "examples": [
+          "お{腹|なか}が {空|す}きました。",
+          "{風邪|かぜ}を {引|ひ}きました。"
+        ]
+      },
+      {
+        "pattern": "ぜひ / いつか / なかなか",
+        "explain_zh": "「ぜひ」是一定要,配愿望和邀请。「いつか」是总有一天。「なかなか」接否定表示「怎么也不…」。",
+        "explain_en": "ぜひ = by all means; いつか = someday; なかなか + negative = not easily.",
+        "examples": [
+          "ぜひ {来|き}て {下|くだ}さい。",
+          "なかなか {来|き}ません。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 18,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{携帯|けいたい}{電話|でんわ}は とても {小|ちい}さく なりました。",
+            "zh": "手机变得很小了。",
+            "en": "Mobile phones have become very small.",
+            "note_zh": "い形容词变「く」+「なります」表示变化。「小さいに なります」是错的。",
+            "note_en": "An i-adjective drops い for く before なります — never 小さいになる."
+          },
+          {
+            "ja": "{機械|きかい}の {性能|せいのう}も よく なりました。",
+            "zh": "机器的性能也变好了。",
+            "en": "Machines perform better too, now.",
+            "note_zh": "「いい」的变化形是「よく」,所以是「よく なりました」,不说「いく なりました」。",
+            "note_en": "いい shifts to よく: よくなりました, not いくなりました."
+          },
+          {
+            "ja": "{値段|ねだん}は {昔|むかし}より {安|やす}く なりました。",
+            "zh": "价格比以前便宜了。",
+            "en": "Prices have come down compared with the past."
+          },
+          {
+            "ja": "{町|まち}は だんだん にぎやかに なりました。",
+            "zh": "城市渐渐热闹起来了。",
+            "en": "The town has gradually grown livelier.",
+            "note_zh": "な形容词和名词用「に」+「なります」。「にぎやかく」是错的。",
+            "note_en": "Na-adjectives and nouns take に before なります."
+          },
+          {
+            "ja": "{弟|おとうと}は {大学|だいがく}の {学生|がくせい}に なりました。",
+            "zh": "弟弟成了大学生。",
+            "en": "My younger brother has become a university student."
+          },
+          {
+            "ja": "{最近|さいきん}、{環境|かんきょう}が ますます {大切|たいせつ}に なって います。",
+            "zh": "最近，环境变得越来越重要。",
+            "en": "The environment is becoming more and more important.",
+            "note_zh": "「〜に なって います」表示变化还在持续。「なりました」是变化已经完成。",
+            "note_en": "〜になっています means the change is still under way; なりました says it is done."
+          },
+          {
+            "ja": "{経済|けいざい}が {進|すす}んで、{人口|じんこう}が {増|ふ}えました。でも、{田|た}んぼは {減|へ}りました。",
+            "zh": "经济发展了，人口增加了。但是农田减少了。",
+            "en": "The economy advanced and the population grew — but the rice fields shrank."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、{日本語|にほんご}が {上手|じょうず}に なりましたね。",
+            "zh": "小李，日语变好了啊。",
+            "en": "Li, your Japanese has really improved.",
+            "note_zh": "夸别人进步时的常用说法。「上手」是な形容词,所以用「に なりました」。",
+            "note_en": "The standard compliment on progress. 上手 is a na-adjective, hence に."
+          },
+          {
+            "sp": "李",
+            "ja": "ありがとうございます。でも、まだ {字|じ}が {難|むずか}しいです。",
+            "zh": "谢谢。不过字还是难。",
+            "en": "Thank you. The characters are still hard, though."
+          },
+          {
+            "sp": "森",
+            "ja": "{最初|さいしょ}は みんな そうです。だんだん {読|よ}めるように なりますよ。",
+            "zh": "一开始大家都这样。会渐渐能读的。",
+            "en": "Everyone starts there. You'll gradually be able to read them."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。{森|もり}さんの {中国語|ちゅうごくご}も {上手|じょうず}に なりました。",
+            "zh": "是吗。森先生的汉语也变好了。",
+            "en": "Really? Your Chinese has come on, too."
+          },
+          {
+            "sp": "森",
+            "ja": "いいえ、まだまだです。{最近|さいきん} {忙|いそが}しくて、{勉強|べんきょう}の {時間|じかん}が {減|へ}りました。",
+            "zh": "不，还差得远。最近忙，学习时间减少了。",
+            "en": "Not at all. I've been busy lately and my study time has shrunk.",
+            "note_zh": "「まだまだです」是谦虚的回应,意思是「还差得远」。被夸奖时常这么说。",
+            "note_en": "まだまだです is the modest reply to a compliment: \"I've a long way to go.\""
+          },
+          {
+            "sp": "李",
+            "ja": "{仕事|しごと}は どうですか。",
+            "zh": "工作怎么样？",
+            "en": "How is work?"
+          },
+          {
+            "sp": "森",
+            "ja": "{急|きゅう}に {会議|かいぎ}が {増|ふ}えました。{毎日|まいにち} {帰|かえ}りが {遅|おそ}く なりました。",
+            "zh": "会议突然多了。每天回家都变晚了。",
+            "en": "Meetings suddenly piled up. I get home late every day now."
+          },
+          {
+            "sp": "李",
+            "ja": "{大変|たいへん}ですね。{体|からだ}を {大切|たいせつ}に して {下|くだ}さい。",
+            "zh": "真辛苦。请保重身体。",
+            "en": "That's rough. Do take care of yourself."
+          },
+          {
+            "sp": "森",
+            "ja": "ありがとう。やっと {今週|こんしゅう}から {少|すこ}し {楽|らく}に なりました。",
+            "zh": "谢谢。终于从这周开始轻松一点了。",
+            "en": "Thanks. Things finally eased up a little this week.",
+            "note_zh": "「やっと」表示期待已久的事终于实现,带有松一口气的语气。",
+            "note_en": "やっと marks a long-awaited outcome, with a note of relief."
+          },
+          {
+            "sp": "李",
+            "ja": "よかったですね。",
+            "zh": "那太好了。",
+            "en": "I'm glad to hear it."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "い形容詞く なります",
+        "explain_zh": "い形容词去「い」加「く」再接「なります」,表示变化。「いい」的变化形是「よく」。",
+        "explain_en": "i-adjective → く + なります. いい becomes よく.",
+        "examples": [
+          "{安|やす}く なりました。",
+          "{天気|てんき}が よく なりました。"
+        ]
+      },
+      {
+        "pattern": "な形容詞／名詞に なります",
+        "explain_zh": "な形容词和名词后面加「に」再接「なります」。「学生に なります」「便利に なります」。",
+        "explain_en": "Na-adjectives and nouns take に before なります.",
+        "examples": [
+          "{便利|べんり}に なりました。",
+          "{学生|がくせい}に なりました。"
+        ]
+      },
+      {
+        "pattern": "〜く／〜に して ください",
+        "explain_zh": "「なります」是自然变化,「します」是人为改变。「音を 小さく して ください」就是请对方把声音调小。",
+        "explain_en": "なる is a change that happens; する is a change you make.",
+        "examples": [
+          "{部屋|へや}を きれいに します。",
+          "{体|からだ}を {大切|たいせつ}に して {下|くだ}さい。"
+        ]
+      },
+      {
+        "pattern": "増えます / 減ります / 上がります / 下がります",
+        "explain_zh": "表示增减升降的自动词,主语用「が」。都不需要动作者,说的是事物本身的变化。",
+        "explain_en": "Intransitive verbs of change; the thing itself is the subject, marked が.",
+        "examples": [
+          "{人口|じんこう}が {増|ふ}えました。",
+          "{値段|ねだん}が {下|さ}がりました。"
+        ]
+      },
+      {
+        "pattern": "だんだん / ますます / すっかり / やっと / 急に",
+        "explain_zh": "描述变化的副词。「だんだん」逐渐,「ますます」越来越,「すっかり」完全,「やっと」终于,「急に」突然。",
+        "explain_en": "Adverbs of change: gradually, more and more, completely, finally, suddenly.",
+        "examples": [
+          "だんだん {暖|あたた}かく なります。",
+          "{急|きゅう}に {寒|さむ}く なりました。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 19,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{部屋|へや}の {鍵|かぎ}を {忘|わす}れないで {下|くだ}さい。",
+            "zh": "请不要忘记房间的钥匙。",
+            "en": "Please don't forget your room key.",
+            "note_zh": "「ない形+でください」是礼貌的禁止,比「〜ては いけません」柔和。動1把词尾改成あ段加「ない」,動2去「る」加「ない」。",
+            "note_en": "ない-form + でください is a gentle \"please don't\", softer than 〜てはいけません."
+          },
+          {
+            "ja": "{出|で}かける {前|まえ}に、{窓|まど}を {閉|し}めて、{電気|でんき}を {消|け}して {下|くだ}さい。",
+            "zh": "出门前，请关窗，关灯。",
+            "en": "Before you go out, close the window and turn off the light.",
+            "note_zh": "「辞書形+前に」表示在做某事之前。注意不管句子是过去还是现在,「前に」前面一律用辞书形。",
+            "note_en": "Dictionary form + 前に = before doing. The verb stays in the dictionary form whatever the tense."
+          },
+          {
+            "ja": "ごみは ここに {捨|す}てないで {下|くだ}さい。",
+            "zh": "请不要把垃圾扔在这里。",
+            "en": "Please don't throw rubbish here."
+          },
+          {
+            "ja": "{明日|あした}は {必|かなら}ず 9{時|じ}までに {来|こ}なければ なりません。",
+            "zh": "明天必须9点前来。",
+            "en": "You must be here by nine tomorrow.",
+            "note_zh": "「ない形」去「ない」加「なければ なりません」表示必须。口语里常说成「〜なきゃ」。",
+            "note_en": "Drop ない and add なければ なりません for obligation; casual speech shortens it to なきゃ."
+          },
+          {
+            "ja": "{熱|ねつ}が ありますから、{無理|むり}を しないで {下|くだ}さい。",
+            "zh": "因为发烧了，请不要勉强。",
+            "en": "You have a fever, so don't push yourself."
+          },
+          {
+            "ja": "{薬|くすり}を {飲|の}んで、{今日|きょう}は すぐに {寝|ね}なければ なりません。",
+            "zh": "要吃药，今天必须马上睡。",
+            "en": "Take the medicine and get to bed right away today."
+          },
+          {
+            "ja": "{病気|びょうき}では ありませんから、{医者|いしゃ}へ {行|い}かなくても いいです。",
+            "zh": "不是生病，所以不用去看医生。",
+            "en": "It isn't an illness, so you don't have to see a doctor.",
+            "note_zh": "「ない形」去「ない」加「なくても いいです」表示不必。和「〜なければ なりません」正好相反。",
+            "note_en": "なくても いいです means \"need not\" — the opposite of なければ なりません."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{顔色|かおいろ}が よく ないですね。",
+            "zh": "小李，脸色不太好啊。",
+            "en": "Li, you don't look well."
+          },
+          {
+            "sp": "李",
+            "ja": "{昨日|きのう}から {熱|ねつ}が あります。",
+            "zh": "从昨天开始发烧。",
+            "en": "I've had a temperature since yesterday."
+          },
+          {
+            "sp": "小野",
+            "ja": "{医者|いしゃ}へ {行|い}きましたか。",
+            "zh": "去看医生了吗？",
+            "en": "Have you seen a doctor?"
+          },
+          {
+            "sp": "李",
+            "ja": "いいえ、まだです。{午後|ごご}に {会議|かいぎ}が ありますから。",
+            "zh": "还没有。因为下午有会议。",
+            "en": "Not yet. I have a meeting this afternoon."
+          },
+          {
+            "sp": "小野",
+            "ja": "{駄目|だめ}ですよ。{会議|かいぎ}は {出|で}なくても いいです。{必|かなら}ず {薬局|やっきょく}へ {行|い}って {下|くだ}さい。",
+            "zh": "那可不行。会议可以不参加。请一定去药店。",
+            "en": "That won't do. You needn't attend the meeting. Do go to the chemist.",
+            "note_zh": "「駄目です」是明确的否定,意思是「不行」。比「いけません」更口语。",
+            "note_en": "駄目です is a flat \"no good\" — more colloquial than いけません."
+          },
+          {
+            "sp": "李",
+            "ja": "でも、{約束|やくそく}が…。",
+            "zh": "可是，约好了…",
+            "en": "But I promised…"
+          },
+          {
+            "sp": "李",
+            "ja": "わかりました。{部長|ぶちょう}に {電話|でんわ}します。",
+            "zh": "知道了。我给部长打电话。",
+            "en": "All right. I'll ring the department head."
+          },
+          {
+            "sp": "小野",
+            "ja": "そうして {下|くだ}さい。{絶対|ぜったい}に {無理|むり}を しないで {下|くだ}さいね。",
+            "zh": "请这样做。千万不要勉强。",
+            "en": "Please do. And absolutely don't overdo it."
+          },
+          {
+            "sp": "李",
+            "ja": "はい。{薬|くすり}を {飲|の}んでから、{帰|かえ}ります。",
+            "zh": "好的。吃完药就回去。",
+            "en": "I will. I'll go home after taking the medicine."
+          },
+          {
+            "sp": "小野",
+            "ja": "{気|き}を {付|つ}けて。お{大事|だいじ}に。",
+            "zh": "路上小心。保重。",
+            "en": "Take care. Get well soon.",
+            "note_zh": "「お大事に」是对病人说的固定问候语,后面省略了「して ください」。",
+            "note_en": "お大事に is the set phrase to a sick person; してください is left unsaid."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "動詞ない形のつくり方",
+        "explain_zh": "動1把词尾的う段改成あ段再加「ない」(う→わない);動2去「る」加「ない」;動3是「来ない」「しない」。「ある」的否定是「ない」。",
+        "explain_en": "Group 1 shifts the final vowel to the あ row (う→わ); group 2 drops る; group 3 gives 来ない and しない.",
+        "examples": [
+          "{書|か}く → {書|か}かない",
+          "{食|た}べる → {食|た}べない"
+        ]
+      },
+      {
+        "pattern": "〜ないで ください",
+        "explain_zh": "礼貌地请求对方不要做某事。语气比「〜ては いけません」(禁止)柔和得多。",
+        "explain_en": "A polite request not to do something, much softer than the outright ban 〜てはいけません.",
+        "examples": [
+          "ここで たばこを {吸|す}わないで {下|くだ}さい。",
+          "{心配|しんぱい}しないで {下|くだ}さい。"
+        ]
+      },
+      {
+        "pattern": "〜なければ なりません",
+        "explain_zh": "表示必须、不得不。接法是ない形去「ない」加「なければ なりません」。口语里常缩成「〜なきゃ」。",
+        "explain_en": "Expresses obligation: drop ない, add なければ なりません (casual: なきゃ).",
+        "examples": [
+          "{明日|あした} {必|かなら}ず {来|こ}なければ なりません。",
+          "{薬|くすり}を {飲|の}まなければ なりません。"
+        ]
+      },
+      {
+        "pattern": "〜なくても いいです",
+        "explain_zh": "表示不必、不用。和「〜なければ なりません」是一对。问「要不要做」时常说「〜なくても いいですか」。",
+        "explain_en": "\"You don't have to\" — the counterpart of なければ なりません.",
+        "examples": [
+          "{来|こ}なくても いいです。",
+          "お{金|かね}を {払|はら}わなくても いいです。"
+        ]
+      },
+      {
+        "pattern": "動詞辞書形＋前に",
+        "explain_zh": "表示在做某事之前。前面的动词一律用辞书形,不随句子的时态变化。名词要加「の」:「食事の 前に」。",
+        "explain_en": "\"Before doing\" — the verb stays in the dictionary form regardless of tense; nouns take の.",
+        "examples": [
+          "{寝|ね}る {前|まえ}に {本|ほん}を {読|よ}みます。",
+          "{食事|しょくじ}の {前|まえ}に {手|て}を {洗|あら}います。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "スミスさんは {眼鏡|めがね}を {掛|か}けて いる {人|ひと}です。",
+            "zh": "史密斯先生是那位戴眼镜的人。",
+            "en": "Mr. Smith is the one wearing glasses.",
+            "note_zh": "动词的简体形可以直接修饰名词,放在名词前面。「掛けて いる 人」就是「戴着眼镜的人」,中间不加「の」。",
+            "note_en": "A plain-form verb modifies a noun directly — no の in between."
+          },
+          {
+            "ja": "{向|む}こうに {立|た}って いる {人|ひと}は {森|もり}さんです。",
+            "zh": "站在对面的人是森先生。",
+            "en": "The person standing over there is Mr. Mori."
+          },
+          {
+            "ja": "{背広|せびろ}を {着|き}て、{鞄|かばん}を {持|も}って いる {人|ひと}が {部長|ぶちょう}です。",
+            "zh": "穿西装、拿包的那位是部长。",
+            "en": "The man in a suit holding a briefcase is the department head."
+          },
+          {
+            "ja": "あれは {昨日|きのう}{買|か}った {地図|ちず}です。",
+            "zh": "那是昨天买的地图。",
+            "en": "That's the map I bought yesterday.",
+            "note_zh": "修饰名词的小句里,主语要用「が」,不用「は」。「私が 買った 地図」才对。",
+            "note_en": "Inside a noun-modifying clause the subject takes が, never は."
+          },
+          {
+            "ja": "{私|わたし}が {生|う}まれた {町|まち}は {海|うみ}の {近|ちか}くに あります。",
+            "zh": "我出生的城市在海边。",
+            "en": "The town where I was born is near the sea."
+          },
+          {
+            "ja": "{信号|しんごう}の ある {交差点|こうさてん}の {右|みぎ}が {駅|えき}です。",
+            "zh": "有红绿灯的十字路口右边就是车站。",
+            "en": "The station is to the right of the crossing with the traffic lights.",
+            "note_zh": "「ある」也能直接修饰名词:「信号の ある 交差点」。这里的「の」是小句主语「が」的替换形式,两者都可以。",
+            "note_en": "In a modifying clause the subject's が may appear as の — 信号のある / 信号がある both work."
+          },
+          {
+            "ja": "{道|みち}が {混|こ}んで いますから、{駅|えき}まで {案内|あんない}します。",
+            "zh": "路上堵车，我带您到车站。",
+            "en": "The roads are busy, so I'll take you to the station."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "すみません、{会議|かいぎ}に {来|く}る {人|ひと}は {誰|だれ}ですか。",
+            "zh": "请问，来开会的人是谁？",
+            "en": "Excuse me, who is coming to the meeting?"
+          },
+          {
+            "sp": "小野",
+            "ja": "{制服|せいふく}を {着|き}て いる {女|おんな}の {人|ひと}と、{背|せ}が {高|たか}い {男|おとこ}の {人|ひと}です。",
+            "zh": "是穿制服的女士，和个子高的男士。",
+            "en": "A woman in uniform and a tall man."
+          },
+          {
+            "sp": "李",
+            "ja": "{向|む}こうに {並|なら}んで いる {人|ひと}たちですか。",
+            "zh": "是在对面排队的那些人吗？",
+            "en": "The people queueing over there?"
+          },
+          {
+            "sp": "小野",
+            "ja": "いいえ、{角|かど}の ところに {立|た}って いる {二人|ふたり}です。",
+            "zh": "不，是站在拐角那里的两个人。",
+            "en": "No, the two standing at the corner."
+          },
+          {
+            "sp": "李",
+            "ja": "わかりました。{迎|むか}えに {行|い}きます。",
+            "zh": "明白了。我去接。",
+            "en": "Got it. I'll go and meet them."
+          },
+          {
+            "sp": "小野",
+            "ja": "お{願|ねが}いします。ところで、{昨日|きのう} {届|とど}いた {荷物|にもつ}は どこですか。",
+            "zh": "拜托了。话说，昨天送到的行李在哪里？",
+            "en": "Thanks. By the way, where is the package that arrived yesterday?",
+            "note_zh": "「ところで」用来转换话题,放在句首。和「でも」不同,它不表示转折。",
+            "note_en": "ところで changes the subject — unlike でも, it signals no contrast."
+          },
+          {
+            "sp": "李",
+            "ja": "{受付|うけつけ}の {人|ひと}に {渡|わた}しました。",
+            "zh": "交给接待处的人了。",
+            "en": "I handed it to the receptionist."
+          },
+          {
+            "sp": "小野",
+            "ja": "ありがとう。それから、{道|みち}で {拾|ひろ}った {鍵|かぎ}は?",
+            "zh": "谢谢。还有，在路上捡到的钥匙呢？",
+            "en": "Thanks. And the key you picked up on the street?"
+          },
+          {
+            "sp": "李",
+            "ja": "{落|お}とした {人|ひと}が {来|き}ましたから、{渡|わた}しました。",
+            "zh": "丢钥匙的人来了，已经给他了。",
+            "en": "The person who dropped it came by, so I gave it back.",
+            "note_zh": "「落とした 人」= 丢了(钥匙)的人。修饰小句用过去式,表示动作已经发生。",
+            "note_en": "落とした人 — the clause stays in the past because the dropping already happened."
+          },
+          {
+            "sp": "小野",
+            "ja": "ありがとう。{李|り}さんが いて、よかったです。",
+            "zh": "谢谢。有小李在真好。",
+            "en": "Thanks. I'm glad you're here."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "動詞の普通形＋名詞（連体修飾）",
+        "explain_zh": "动词的简体形直接放在名词前面修饰它,中间不加「の」。「買う 本」「買った 本」「買わない 本」都成立。",
+        "explain_en": "A plain-form verb modifies a noun directly, in any tense and polarity.",
+        "examples": [
+          "{昨日|きのう} {買|か}った {本|ほん}",
+          "{毎日|まいにち} {乗|の}る {電車|でんしゃ}"
+        ]
+      },
+      {
+        "pattern": "修飾節の中の「が」",
+        "explain_zh": "修饰小句里的主语只能用「が」,不能用「は」。「は」是提示整句主题的,管不到小句内部。",
+        "explain_en": "The subject of a modifying clause must take が — は belongs to the main sentence's topic.",
+        "examples": [
+          "{私|わたし}が {生|う}まれた {町|まち}",
+          "{父|ちち}が {作|つく}った {料理|りょうり}"
+        ]
+      },
+      {
+        "pattern": "修飾節の「が」⇔「の」",
+        "explain_zh": "短小的修饰小句里,主语的「が」可以换成「の」,意思不变:「信号の ある 交差点」。长句子里一般还是用「が」。",
+        "explain_en": "In a short modifying clause が may be replaced by の with no change of meaning.",
+        "examples": [
+          "{背|せ}の {高|たか}い {人|ひと}",
+          "{信号|しんごう}の ある {交差点|こうさてん}"
+        ]
+      },
+      {
+        "pattern": "〜て いる＋名詞",
+        "explain_zh": "描写人的外表、穿着、姿势时,常用「〜て いる+名詞」。「眼鏡を 掛けて いる 人」是最典型的例子。",
+        "explain_en": "〜ている + noun is the standard way to describe someone's appearance or posture.",
+        "examples": [
+          "コートを {着|き}て いる {人|ひと}",
+          "{並|なら}んで いる {人|ひと}たち"
+        ]
+      },
+      {
+        "pattern": "ところで",
+        "explain_zh": "转换话题用的接续词,放在句首。意思是「话说回来」「对了」,前后内容没有逻辑关系。",
+        "explain_en": "A topic-changing connective at the start of a sentence: \"by the way\".",
+        "examples": [
+          "ところで、{仕事|しごと}は どうですか。",
+          "ところで、お{国|くに}は どちらですか。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 21,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{私|わたし}は {明日|あした}{京都|きょうと}へ {行|い}く つもりです。",
+            "zh": "我打算明天去京都。",
+            "en": "I intend to go to Kyoto tomorrow.",
+            "note_zh": "「動詞の辞書形+つもりです」表示自己的打算。否定是「行かない つもりです」,不说「行く つもりでは ありません」(那是「并没有这个打算」)。",
+            "note_en": "Dictionary form + つもりです states your intention; the negative puts ない on the verb."
+          },
+          {
+            "ja": "{切符|きっぷ}は もう {取|と}りました。",
+            "zh": "票已经买好了。",
+            "en": "I've already got the ticket."
+          },
+          {
+            "ja": "{来月|らいげつ}の {連休|れんきゅう}に {旅行|りょこう}する {予定|よてい}です。",
+            "zh": "下个月的连休预定去旅行。",
+            "en": "I'm scheduled to travel during next month's long weekend.",
+            "note_zh": "「予定です」是已经定下来的安排,比「つもりです」客观。「つもり」是心里想,「予定」是日程上有。",
+            "note_en": "予定 is a fixed arrangement on the calendar; つもり is what you have in mind."
+          },
+          {
+            "ja": "{夏休|なつやす}みには {北海道|ほっかいどう}へ {行|い}こうと {考|かんが}えて います。",
+            "zh": "暑假想去北海道。",
+            "en": "I'm thinking of going to Hokkaido in the summer holidays."
+          },
+          {
+            "ja": "{大学|だいがく}を {卒業|そつぎょう}してから、{日本|にほん}の {企業|きぎょう}に {就職|しゅうしょく}したいです。",
+            "zh": "大学毕业后，想在日本的企业就职。",
+            "en": "After graduating I'd like to find a job with a Japanese company.",
+            "note_zh": "「大学を 卒業する」用「を」,因为是离开学校。「大学に 入学する」进入时用「に」。",
+            "note_en": "卒業 takes を (leaving the school); 入学 takes に (entering it)."
+          },
+          {
+            "ja": "{来年|らいねん}{留学|りゅうがく}する ために、ビザを {申|もう}し{込|こ}みました。",
+            "zh": "为了明年留学，申请了签证。",
+            "en": "I applied for a visa so that I can study abroad next year."
+          },
+          {
+            "ja": "{雨|あめ}は そろそろ {止|や}む はずです。",
+            "zh": "雨应该快停了。",
+            "en": "The rain ought to stop soon.",
+            "note_zh": "「はずです」表示根据道理推断「应该…」。和「きっと」不同,它有客观依据,不是单纯的信心。",
+            "note_en": "はずです infers from evidence that something ought to be so, unlike the sheer confidence of きっと."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、{週末|しゅうまつ}の {予定|よてい}は {決|き}めましたか。",
+            "zh": "小李，周末的安排定了吗？",
+            "en": "Li, have you decided what you're doing this weekend?"
+          },
+          {
+            "sp": "李",
+            "ja": "ええ。{土曜日|どようび}は {引|ひ}っ{越|こ}す つもりです。",
+            "zh": "定了。星期六打算搬家。",
+            "en": "Yes. I'm planning to move house on Saturday."
+          },
+          {
+            "sp": "森",
+            "ja": "そうですか。{新|あたら}しい {部屋|へや}は もう {探|さが}しましたか。",
+            "zh": "是吗。新房间已经找好了吗？",
+            "en": "Oh? Have you found a new place already?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい、{先週|せんしゅう} {調|しら}べて、{会社|かいしゃ}の {近|ちか}くの アパートに {決|き}めました。",
+            "zh": "是的，上周查了，决定租公司附近的公寓。",
+            "en": "Yes, I looked last week and settled on a flat near the office."
+          },
+          {
+            "sp": "森",
+            "ja": "{私|わたし}も {行|い}きましょうか。",
+            "zh": "我也去吧？",
+            "en": "Shall I come along?",
+            "note_zh": "「〜ましょうか」是主动提出帮忙,和「〜ましょう」(一起做吧)不同。",
+            "note_en": "〜ましょうか offers help, as against 〜ましょう, which proposes doing it together."
+          },
+          {
+            "sp": "李",
+            "ja": "いいんですか。{荷物|にもつ}が {多|おお}いですから、きっと {大変|たいへん}です。",
+            "zh": "可以吗？行李多，肯定很辛苦。",
+            "en": "Would you? There's a lot of stuff — it'll definitely be hard work."
+          },
+          {
+            "sp": "森",
+            "ja": "{大丈夫|だいじょうぶ}です。{何時|なんじ}から {始|はじ}めますか。",
+            "zh": "没关系。几点开始？",
+            "en": "No problem. What time do we start?"
+          },
+          {
+            "sp": "李",
+            "ja": "{朝|あさ}9{時|じ}に {始|はじ}める {予定|よてい}です。{昼|ひる}までに {終|お}わる はずです。",
+            "zh": "预定早上9点开始。中午前应该能结束。",
+            "en": "We're set to begin at nine. It should be done by noon.",
+            "note_zh": "「までに」是「在…之前(完成)」,「まで」是「一直到…」。两个助词不能互换。",
+            "note_en": "までに is a deadline (\"by\"); まで is duration (\"until\"). They are not interchangeable."
+          },
+          {
+            "sp": "森",
+            "ja": "わかりました。じゃ、そろそろ {帰|かえ}ります。",
+            "zh": "明白了。那我差不多该回去了。",
+            "en": "Right. I'd better be off, then."
+          },
+          {
+            "sp": "李",
+            "ja": "{土曜日|どようび}に。お{願|ねが}いします。",
+            "zh": "星期六见。拜托了。",
+            "en": "See you Saturday. Thanks a lot."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "動詞辞書形＋つもりです",
+        "explain_zh": "表示自己的打算、意图。否定是在动词上加「ない」:「行かない つもりです」。「つもりでは ありません」意思是「并没有这个打算」,语气不同。",
+        "explain_en": "States your own intention; negate the verb (行かないつもり), not the つもり.",
+        "examples": [
+          "{来年|らいねん} {留学|りゅうがく}する つもりです。",
+          "{今年|ことし}は {帰|かえ}らない つもりです。"
+        ]
+      },
+      {
+        "pattern": "動詞辞書形／名詞の＋予定です",
+        "explain_zh": "表示已经安排好的日程,比「つもり」客观。名词后面要加「の」:「会議の 予定です」。",
+        "explain_en": "A fixed arrangement, more objective than つもり. Nouns need の before 予定.",
+        "examples": [
+          "3{時|じ}に {出発|しゅっぱつ}する {予定|よてい}です。",
+          "{来週|らいしゅう}{出張|しゅっちょう}の {予定|よてい}です。"
+        ]
+      },
+      {
+        "pattern": "動詞普通形＋はずです",
+        "explain_zh": "根据已知的情况推断「照理应该…」。不是说话人的主观愿望,而是有依据的判断。",
+        "explain_en": "Infers what ought to be the case from known facts — a reasoned judgement, not a wish.",
+        "examples": [
+          "もう {着|つ}いた はずです。",
+          "{森|もり}さんは {知|し}って いる はずです。"
+        ]
+      },
+      {
+        "pattern": "〜てから / 〜までに",
+        "explain_zh": "「てから」是做完前项再做后项。「までに」表示期限,「在…之前完成」,和表示持续的「まで」要分开。",
+        "explain_en": "てから = after doing; までに = by (a deadline), distinct from まで (until).",
+        "examples": [
+          "{卒業|そつぎょう}してから {働|はたら}きます。",
+          "5{時|じ}までに {来|き}て {下|くだ}さい。"
+        ]
+      },
+      {
+        "pattern": "きっと / そろそろ / まだまだ",
+        "explain_zh": "「きっと」是说话人很有把握的推测。「そろそろ」是「差不多该…了」。「まだまだ」是「还早、还差得远」。",
+        "explain_en": "きっと = surely; そろそろ = it's about time; まだまだ = still a long way off.",
+        "examples": [
+          "きっと {来|き}ます。",
+          "そろそろ {始|はじ}めましょう。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 22,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{森|もり}さんは {毎晩|まいばん}テレビを {見|み}る。",
+            "zh": "森先生每晚看电视。",
+            "en": "Mr. Mori watches television every evening.",
+            "note_zh": "这一课的本文用的是简体(普通形)。写日记、作文,以及对家人朋友说话时都用它。「見ます」的简体就是辞书形「見る」。",
+            "note_en": "This reading is in plain style — used for diaries, essays and talk with family and friends."
+          },
+          {
+            "ja": "{昨日|きのう}は {日記|にっき}を {書|か}いた。でも、{長|なが}い {文章|ぶんしょう}は {書|か}かなかった。",
+            "zh": "昨天写了日记。不过没写长文章。",
+            "en": "Yesterday he wrote in his diary — but nothing long.",
+            "note_zh": "简体的过去式是「た形」,过去否定是「〜なかった」。礼貌体的「ました・ませんでした」各自对应它们。",
+            "note_en": "Plain past is the た-form; plain past negative ends in なかった."
+          },
+          {
+            "ja": "{今日|きょう}の ニュースは あまり {面白|おもしろ}くなかった。",
+            "zh": "今天的新闻不太有意思。",
+            "en": "Today's news wasn't very interesting.",
+            "note_zh": "い形容词的简体:现在「面白い」、否定「面白くない」、过去「面白かった」、过去否定「面白くなかった」。去掉「です」就行。",
+            "note_en": "For i-adjectives the plain forms are simply the polite ones minus です."
+          },
+          {
+            "ja": "{説明|せつめい}の {意味|いみ}が {変|へん}だ。{理由|りゆう}が わからない。",
+            "zh": "说明的意思很奇怪。不知道原因。",
+            "en": "The explanation reads oddly. He doesn't see why.",
+            "note_zh": "な形容词和名词的简体是「〜だ」。否定是「〜では ない」,过去是「〜だった」。",
+            "note_en": "Na-adjectives and nouns end in だ; negative では ない, past だった."
+          },
+          {
+            "ja": "{李|り}さんに {質問|しつもん}した。{李|り}さんは すぐ {答|こた}えて くれた。",
+            "zh": "问了小李。小李马上回答了。",
+            "en": "He asked Li, who answered at once."
+          },
+          {
+            "ja": "つまり、この {文章|ぶんしょう}の {問題|もんだい}は {言葉|ことば}では なかった。",
+            "zh": "也就是说，这篇文章的问题不在于词语。",
+            "en": "In short, the trouble with the text was not the wording."
+          },
+          {
+            "ja": "{明日|あした} また {相談|そうだん}する。",
+            "zh": "明天再商量。",
+            "en": "He will talk it over again tomorrow."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、ちょっと {相談|そうだん}したいことが あるんだけど。",
+            "zh": "小李，有点事想商量。",
+            "en": "Li, there's something I'd like to talk over with you.",
+            "note_zh": "「けど」是「が」的口语形式,常用来开场。关系近的人之间会话多用简体。",
+            "note_en": "けど is the colloquial が, often used to open a topic. Close friends speak in plain style."
+          },
+          {
+            "sp": "李",
+            "ja": "うん、{何|なに}?",
+            "zh": "嗯，什么事？",
+            "en": "Sure, what is it?",
+            "note_zh": "「うん」是「はい」的简体,「ううん」是「いいえ」。只能对关系近的人用。",
+            "note_en": "うん is the casual はい, ううん the casual いいえ — for close company only."
+          },
+          {
+            "sp": "森",
+            "ja": "{来週|らいしゅう}の {会議|かいぎ}、{李|り}さんは {賛成|さんせい}する?",
+            "zh": "下周的会议，小李赞成吗？",
+            "en": "Next week's meeting — are you for it?",
+            "note_zh": "简体的疑问句不加「か」,只把句尾的语调升高。书面上常用问号。",
+            "note_en": "A plain-style question drops か and simply rises in pitch."
+          },
+          {
+            "sp": "李",
+            "ja": "{別|べつ}に {反対|はんたい}しない。でも、{理由|りゆう}を {説明|せつめい}して ほしい。",
+            "zh": "倒不反对。不过希望说明一下理由。",
+            "en": "I'm not against it. But I'd like the reasons explained."
+          },
+          {
+            "sp": "森",
+            "ja": "{確|たし}かに そうだ。{実|じつ}は {私|わたし}も よく わからない。",
+            "zh": "确实是这样。其实我也不太明白。",
+            "en": "Fair point. To be honest, I don't fully understand it either.",
+            "note_zh": "「実は」用来引出真话或内情,语气比直说柔和。",
+            "note_en": "実は introduces the real story, softening what follows."
+          },
+          {
+            "sp": "李",
+            "ja": "{例|たと}えば、お{金|かね}の {話|はなし}は あった?",
+            "zh": "比如说，有提到钱的事吗？",
+            "en": "Was there anything about money, for example?"
+          },
+          {
+            "sp": "森",
+            "ja": "ううん、なかった。だから {変|へん}だと {言|い}って いる。",
+            "zh": "没有。所以我才说奇怪。",
+            "en": "No, there wasn't. That's why I say it's strange."
+          },
+          {
+            "sp": "李",
+            "ja": "じゃ、{部長|ぶちょう}に {質問|しつもん}しよう。",
+            "zh": "那，去问部长吧。",
+            "en": "Then let's ask the department head."
+          },
+          {
+            "sp": "森",
+            "ja": "そうだね。{李|り}さん、{一緒|いっしょ}に {来|き}て くれる?",
+            "zh": "是啊。小李，能一起来吗？",
+            "en": "Good idea. Will you come with me?"
+          },
+          {
+            "sp": "李",
+            "ja": "もちろん。{連絡|れんらく}して おくよ。",
+            "zh": "当然。我来联系。",
+            "en": "Of course. I'll get in touch."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "動詞の普通形",
+        "explain_zh": "现在肯定=辞书形,现在否定=ない形,过去肯定=た形,过去否定=なかった。对应礼貌体的「ます・ません・ました・ませんでした」。",
+        "explain_en": "Dictionary / ない / た / なかった — the plain counterparts of ます, ません, ました, ませんでした.",
+        "examples": [
+          "{見|み}る・{見|み}ない・{見|み}た・{見|み}なかった",
+          "{行|い}く・{行|い}かない・{行|い}った・{行|い}かなかった"
+        ]
+      },
+      {
+        "pattern": "い形容詞・な形容詞・名詞の普通形",
+        "explain_zh": "い形容词去掉「です」就是简体。な形容词和名词要加「だ」:「静かだ」「学生だ」,否定是「〜では ない」,过去是「〜だった」。",
+        "explain_en": "Drop です for i-adjectives; add だ for na-adjectives and nouns (では ない, だった).",
+        "examples": [
+          "{面白|おもしろ}い・{面白|おもしろ}くなかった",
+          "{静|しず}かだ・{静|しず}かでは なかった"
+        ]
+      },
+      {
+        "pattern": "普通形の疑問文",
+        "explain_zh": "简体疑问句不加「か」,靠升调表示疑问。「学生だ?」这种情况下「だ」通常省略,说「学生?」。",
+        "explain_en": "Plain questions drop か and rely on intonation; the だ of a noun is usually dropped too.",
+        "examples": [
+          "もう {食|た}べた?",
+          "{明日|あした} {来|く}る?"
+        ]
+      },
+      {
+        "pattern": "普通形を使う場面",
+        "explain_zh": "日记、作文、新闻报道等书面语,以及对家人、朋友、晚辈说话时用简体。对上级、客人、不熟的人仍然用礼貌体。",
+        "explain_en": "Plain style belongs in diaries, essays and reporting, and in speech with family and friends — not with superiors or strangers.",
+        "examples": [
+          "{今日|きょう}は {雨|あめ}だった。",
+          "うん、{分|わ}かった。"
+        ]
+      },
+      {
+        "pattern": "つまり / 実は / 例えば / 別に",
+        "explain_zh": "整理话语的副词和接续词。「つまり」归纳,「実は」引出内情,「例えば」举例,「別に」接否定表示「并不特别…」。",
+        "explain_en": "Discourse markers: つまり sums up, 実は reveals, 例えば illustrates, 別に + negative plays something down.",
+        "examples": [
+          "つまり、{時間|じかん}が ない。",
+          "{別|べつ}に {嫌|きら}いでは ない。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 23,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{休|やす}みの {日|ひ}、{散歩|さんぽ}したり {買|か}い{物|もの}に {行|い}ったり します。",
+            "zh": "休息日散散步、买买东西。",
+            "en": "On my days off I go for walks, do some shopping, that sort of thing.",
+            "note_zh": "「〜たり〜たり します」从若干动作里举几个例子,暗示还有别的。接法是た形加「り」。",
+            "note_en": "〜たり〜たり lists a few representative actions and implies others; build it on the た-form."
+          },
+          {
+            "ja": "{平日|へいじつ}は {忙|いそが}しいですが、{祝日|しゅくじつ}は ゆっくりします。",
+            "zh": "平日很忙，节假日则好好休息。",
+            "en": "Weekdays are busy, but on public holidays I take it easy."
+          },
+          {
+            "ja": "{友達|ともだち}を {誘|さそ}って、カラオケに {行|い}ったり ゲームを したり しました。",
+            "zh": "约了朋友，去唱了卡拉OK，玩了游戏。",
+            "en": "I invited friends out and we did karaoke and played games."
+          },
+          {
+            "ja": "{夏|なつ}の {祭|まつ}りでは、{花火|はなび}を {見|み}たり {屋台|やたい}で {食|た}べたり します。",
+            "zh": "夏天的庙会上，看看烟花、在摊位吃点东西。",
+            "en": "At the summer festival people watch fireworks and eat at the stalls."
+          },
+          {
+            "ja": "{春|はる}は {花見|はなみ}を します。{公園|こうえん}は とても {賑|にぎ}やかです。",
+            "zh": "春天赏樱。公园非常热闹。",
+            "en": "In spring we go flower-viewing. The parks are very lively."
+          },
+          {
+            "ja": "{昨日|きのう}は {寝坊|ねぼう}して、{一日|いちにち}{家|いえ}で のんびりしました。",
+            "zh": "昨天睡了懒觉，一整天在家悠闲地过。",
+            "en": "Yesterday I slept in and spent the whole day lazing at home."
+          },
+          {
+            "ja": "たまに {退屈|たいくつ}な {日|ひ}も ありますが、だいたい {休|やす}みを {楽|たの}しんで います。",
+            "zh": "偶尔也有无聊的日子，不过基本上很享受假期。",
+            "en": "There's the odd dull day, but on the whole I enjoy my time off."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、{休|やす}みの {日|ひ}は {何|なに}を して いますか。",
+            "zh": "小李，休息日都做什么？",
+            "en": "Li, what do you do on your days off?"
+          },
+          {
+            "sp": "李",
+            "ja": "{部屋|へや}を {掃除|そうじ}したり {洗濯|せんたく}したり します。",
+            "zh": "打扫打扫房间、洗洗衣服。",
+            "en": "I clean my room, do the laundry, things like that."
+          },
+          {
+            "sp": "森",
+            "ja": "{真面目|まじめ}ですね。{出|で}かけないんですか。",
+            "zh": "真认真啊。不出门吗？",
+            "en": "Very diligent. Don't you go out?"
+          },
+          {
+            "sp": "李",
+            "ja": "たまに {出|で}かけます。{映画|えいが}を {見|み}たり {友達|ともだち}と {食事|しょくじ}したり します。",
+            "zh": "偶尔出门。看看电影、和朋友吃吃饭。",
+            "en": "Sometimes. I'll see a film, or have a meal with friends."
+          },
+          {
+            "sp": "森",
+            "ja": "いいですね。{今週|こんしゅう}の {日曜日|にちようび}、お{祭|まつ}りが ありますよ。",
+            "zh": "真好。这周日有庙会哦。",
+            "en": "Nice. There's a festival this Sunday, you know."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。{行|い}った ことが ありません。",
+            "zh": "是吗。我没去过。",
+            "en": "Really? I've never been to one.",
+            "note_zh": "「た形+ことが あります」表示有过某种经历。否定是「ことが ありません」。",
+            "note_en": "た-form + ことが あります states an experience; the negative is ことが ありません."
+          },
+          {
+            "sp": "森",
+            "ja": "じゃ、{一緒|いっしょ}に {行|い}きましょう。{花火|はなび}を {見|み}たり {屋台|やたい}で {食|た}べたり しましょう。",
+            "zh": "那一起去吧。看看烟花、在摊位吃点东西。",
+            "en": "Let's go together, then — watch the fireworks and eat at the stalls."
+          },
+          {
+            "sp": "李",
+            "ja": "{楽|たの}しみです。{何時|なんじ}に {集|あつ}まりますか。",
+            "zh": "真期待。几点集合？",
+            "en": "I'm looking forward to it. What time shall we meet?",
+            "note_zh": "「楽しみです」表示期待,和动词「楽しむ」不同,它是名词。",
+            "note_en": "楽しみです (\"I'm looking forward to it\") is a noun, not the verb 楽しむ."
+          },
+          {
+            "sp": "森",
+            "ja": "6{時|じ}に {駅|えき}の {前|まえ}で。{祭|まつ}りの {服|ふく}を {着|き}て {来|き}ても いいですよ。",
+            "zh": "6点在车站前。可以穿节日的衣服来哦。",
+            "en": "Six, in front of the station. You're welcome to come in festival dress."
+          },
+          {
+            "sp": "李",
+            "ja": "{持|も}って いません。そのままで {行|い}きます。",
+            "zh": "我没有。就这样去。",
+            "en": "I don't have one. I'll come as I am."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜たり 〜たり します",
+        "explain_zh": "从许多动作中举出两三个作代表,暗示「还做别的」。接在た形后面加「り」。最后一定要用「します」收尾。",
+        "explain_en": "Lists two or three representative actions and implies more. Built on the た-form, closed with します.",
+        "examples": [
+          "{読|よ}んだり {書|か}いたり します。",
+          "{掃除|そうじ}したり {洗濯|せんたく}したり しました。"
+        ]
+      },
+      {
+        "pattern": "〜た ことが あります",
+        "explain_zh": "表示过去的经历,「曾经…过」。只用于有记忆价值的经历,不用于昨天刚做的事。",
+        "explain_en": "States a past experience — for something memorable, not what you did yesterday.",
+        "examples": [
+          "{日本|にほん}へ {行|い}った ことが あります。",
+          "まだ {食|た}べた ことが ありません。"
+        ]
+      },
+      {
+        "pattern": "〜ても いいです",
+        "explain_zh": "表示许可。「〜ては いけません」是禁止。疑问句「〜ても いいですか」用来征求许可。",
+        "explain_en": "Grants permission; 〜てはいけません forbids, and 〜てもいいですか asks.",
+        "examples": [
+          "ここに {座|すわ}っても いいですか。",
+          "{写真|しゃしん}を {撮|と}っても いいです。"
+        ]
+      },
+      {
+        "pattern": "〜んです",
+        "explain_zh": "用来说明情况或要求说明,口语里很常用。普通形后面接「んです」,な形容词和名词要加「な」:「静かなんです」。",
+        "explain_en": "Explains a situation or asks for an explanation; na-adjectives and nouns insert な.",
+        "examples": [
+          "{出|で}かけないんですか。",
+          "{頭|あたま}が {痛|いた}いんです。"
+        ]
+      },
+      {
+        "pattern": "たまに / 時々 / いつも",
+        "explain_zh": "频度副词,从低到高是「たまに」→「時々」→「よく」→「いつも」。都放在动词前面。",
+        "explain_en": "Frequency, low to high: たまに, 時々, よく, いつも — all placed before the verb.",
+        "examples": [
+          "たまに {出|で}かけます。",
+          "いつも ここで {食|た}べます。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 24,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{李|り}さんは もうすぐ {来|く}ると {思|おも}います。",
+            "zh": "我想小李马上就来。",
+            "en": "I think Li will be here soon.",
+            "note_zh": "「普通形+と 思います」表示说话人的判断。「と」前面一定是简体,不能说「来ますと 思います」。",
+            "note_en": "Plain form + と思います gives the speaker's judgement; the clause before と is never polite."
+          },
+          {
+            "ja": "{天気予報|てんきよほう}に よると、{明日|あした}は {雨|あめ}だと {言|い}って いました。",
+            "zh": "据天气预报说，明天下雨。",
+            "en": "According to the forecast, it said tomorrow will be rainy.",
+            "note_zh": "名词接「と」时要加「だ」:「雨だと 思います」。い形容词和动词直接接。",
+            "note_en": "A noun needs だ before と (雨だと); verbs and i-adjectives attach directly."
+          },
+          {
+            "ja": "{森|もり}さんは「{会議|かいぎ}に {出|で}る」と {言|い}いました。",
+            "zh": "森先生说「要参加会议」。",
+            "en": "Mr. Mori said, \"I'll attend the meeting.\"",
+            "note_zh": "直接引用把原话放进「」里,「と」前面照抄不变。间接引用则把原话改成简体。",
+            "note_en": "Direct quotation keeps the words inside 「」; indirect quotation converts them to plain form."
+          },
+          {
+            "ja": "{台風|たいふう}が {来|き}ますから、{心配|しんぱい}です。",
+            "zh": "因为台风要来，很担心。",
+            "en": "A typhoon is coming, so I'm worried."
+          },
+          {
+            "ja": "{窓|まど}から {海|うみ}が {見|み}えます。{船|ふね}の {音|おと}も {聞|き}こえます。",
+            "zh": "从窗户能看见海。也能听见船的声音。",
+            "en": "You can see the sea from the window, and hear the boats too.",
+            "note_zh": "「見えます」「聞こえます」是自然而然看得见、听得见,主语用「が」。和表示能力的「見る ことが できます」不同。",
+            "note_en": "見える/聞こえる describe what reaches your senses unbidden, with が — not ability."
+          },
+          {
+            "ja": "{事故|じこ}の {情報|じょうほう}を {確認|かくにん}して、すぐに {部長|ぶちょう}に {報告|ほうこく}しました。",
+            "zh": "确认了事故的信息，马上向部长报告了。",
+            "en": "I checked the accident report and told the department head at once."
+          },
+          {
+            "ja": "みんな {無事|ぶじ}でしたから、{安心|あんしん}しました。",
+            "zh": "大家都平安，就放心了。",
+            "en": "Everyone was safe, so I was relieved."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "小野",
+            "ja": "{李|り}さん、{地震|じしん}の ニュースを {見|み}ましたか。",
+            "zh": "小李，看到地震的新闻了吗？",
+            "en": "Li, did you see the news about the earthquake?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい。{怖|こわ}かったです。{家族|かぞく}は {大丈夫|だいじょうぶ}だと {思|おも}いますが、{心配|しんぱい}です。",
+            "zh": "看到了。很可怕。我想家人应该没事，但还是担心。",
+            "en": "Yes. It was frightening. I think my family is fine, but I'm worried."
+          },
+          {
+            "sp": "小野",
+            "ja": "{連絡|れんらく}しましたか。",
+            "zh": "联系了吗？",
+            "en": "Have you been in touch?"
+          },
+          {
+            "sp": "李",
+            "ja": "{朝|あさ} {電話|でんわ}しました。{母|はは}は「みんな {無事|ぶじ}だ」と {言|い}って いました。",
+            "zh": "早上打了电话。母亲说「大家都平安」。",
+            "en": "I rang this morning. My mother said everyone is safe.",
+            "note_zh": "转述别人说过的话用「〜と 言って いました」,比「言いました」更自然地表示「(当时)说过」。",
+            "note_en": "〜と 言っていました reports what someone said, and sounds more natural than 言いました."
+          },
+          {
+            "sp": "小野",
+            "ja": "よかったですね。{安心|あんしん}しました。",
+            "zh": "那太好了。放心了。",
+            "en": "That's a relief."
+          },
+          {
+            "sp": "李",
+            "ja": "ええ。でも、{家|いえ}の {様子|ようす}は まだ わかりません。",
+            "zh": "是的。不过家里的情况还不清楚。",
+            "en": "Yes. I still don't know what state the house is in, though."
+          },
+          {
+            "sp": "小野",
+            "ja": "ニュースに よると、{電気|でんき}は もう {直|なお}ったそうですよ。",
+            "zh": "据新闻说，电已经修好了。",
+            "en": "According to the news, the power is back on."
+          },
+          {
+            "sp": "李",
+            "ja": "そうですか。それを {聞|き}いて、うれしいです。",
+            "zh": "是吗。听到这个很高兴。",
+            "en": "Really? I'm glad to hear it."
+          },
+          {
+            "sp": "小野",
+            "ja": "{国|くに}へ {帰|かえ}りますか。",
+            "zh": "要回国吗？",
+            "en": "Will you go home?"
+          },
+          {
+            "sp": "李",
+            "ja": "もちろん {帰|かえ}りたいです。でも、{仕事|しごと}が ありますから、{来月|らいげつ}に なると {思|おも}います。",
+            "zh": "当然想回。不过有工作，我想要到下个月了。",
+            "en": "Of course I want to. But with work, I think it'll be next month.",
+            "note_zh": "「〜と 思います」也可以用来说自己的推测或打算,语气比断定柔和,日语里非常常用。",
+            "note_en": "〜と思います also softens a statement about your own plans — very common in Japanese."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "普通形＋と 思います",
+        "explain_zh": "表示说话人的判断或推测。「と」前面必须是简体。名词和な形容词要加「だ」:「学生だと 思います」。",
+        "explain_en": "The speaker's judgement. The clause before と is plain, and nouns/na-adjectives add だ.",
+        "examples": [
+          "{明日|あした}は {雨|あめ}だと {思|おも}います。",
+          "{森|もり}さんは {来|こ}ないと {思|おも}います。"
+        ]
+      },
+      {
+        "pattern": "「〜」と 言いました / 普通形＋と 言って いました",
+        "explain_zh": "直接引用把原话放在「」里;间接引用把原话改成简体接「と」。转述别人说过的话,常用「言って いました」。",
+        "explain_en": "Direct quotes sit in 「」; indirect ones take the plain form before と. 言っていました reports hearsay.",
+        "examples": [
+          "「{行|い}きます」と {言|い}いました。",
+          "{休|やす}むと {言|い}って いました。"
+        ]
+      },
+      {
+        "pattern": "〜に よると",
+        "explain_zh": "表示信息的来源,「据…说」。后面常跟「〜そうです」或「〜と 言って いました」。",
+        "explain_en": "Cites a source — \"according to\" — usually followed by 〜そうです or 〜と言っていました.",
+        "examples": [
+          "{天気予報|てんきよほう}に よると、{明日|あした}は {晴|は}れです。",
+          "{噂|うわさ}に よると、そうだそうです。"
+        ]
+      },
+      {
+        "pattern": "見えます / 聞こえます",
+        "explain_zh": "表示自然进入视野、传入耳中,主语用「が」。和表示能力的「見る ことが できます」不同:后者强调条件允许。",
+        "explain_en": "What reaches your eyes or ears on its own, marked が — not the ability of 見ることができます.",
+        "examples": [
+          "{海|うみ}が {見|み}えます。",
+          "{音|おと}が {聞|き}こえません。"
+        ]
+      },
+      {
+        "pattern": "気持ちを表す言葉",
+        "explain_zh": "「うれしい・悲しい・寂しい・怖い」是い形容词,「残念・心配・安心」是な形容词。说别人的感情时要加「〜そうです」「〜がって いる」。",
+        "explain_en": "Feeling words — i-adjectives and na-adjectives. Describing someone else's feelings needs そうです or がっている.",
+        "examples": [
+          "とても うれしいです。",
+          "{残念|ざんねん}でした。"
+        ]
+      }
+    ]
+  }
 ]
