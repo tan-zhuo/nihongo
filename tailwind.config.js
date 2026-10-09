@@ -6,6 +6,8 @@ export default {
       colors: {
         paper: '#faf9f6',
         ink: '#2c2a26',
+        // one step between stone-100 and stone-200, for hairline tracks
+        'stone-150': '#ededeb',
         accent: {
           DEFAULT: '#5b8a72',
           light: '#eaf1ec',

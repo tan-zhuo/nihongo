@@ -24,9 +24,19 @@ interface Prefs {
   dir: CardDirection
   kind: KindFilter
   shuffle: boolean
+  /** passage view: ruby readings on, and every translation expanded */
+  furi: boolean
+  showAll: boolean
 }
 
-const DEFAULT_PREFS: Prefs = { mode: 'text', dir: 'ja2meaning', kind: 'mix', shuffle: false }
+const DEFAULT_PREFS: Prefs = {
+  mode: 'text',
+  dir: 'ja2meaning',
+  kind: 'mix',
+  shuffle: false,
+  furi: true,
+  showAll: false,
+}
 
 function loadPrefs(): Prefs {
   try {
@@ -63,28 +73,25 @@ function useBookTitle() {
     lang.startsWith('zh') ? book.title_zh : lang.startsWith('ja') ? book.title : book.title_en
 }
 
-/** Small circular gauge: outer ring = seen, inner arc = mastered. */
-function ProgressRing({ value, size = 34 }: { value: number; size?: number }) {
-  const r = (size - 4) / 2
-  const c = 2 * Math.PI * r
+/** Share of `words` already in the mastered box, 0–1. */
+function masteredRatio(words: TextbookWord[], srs: ReturnType<typeof loadSrs>): number {
+  const p = progressOf(words, srs)
+  return p.total ? p.mastered / p.total : 0
+}
+
+function ProgressBar({ value, className = '' }: { value: number; className?: string }) {
   return (
-    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="shrink-0">
-      <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#e7e5e4" strokeWidth="3" />
-      <circle
-        cx={size / 2}
-        cy={size / 2}
-        r={r}
-        fill="none"
-        stroke="#5b8a72"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeDasharray={c}
-        strokeDashoffset={c * (1 - value)}
-        transform={`rotate(-90 ${size / 2} ${size / 2})`}
-        className="transition-all duration-500"
-      />
-    </svg>
+    <div className={`bar ${className}`}>
+      <span style={{ width: `${Math.round(value * 100)}%` }} />
+    </div>
   )
+}
+
+/** Each series gets its own weight of the accent, so a volume is placeable at a glance. */
+const SERIES_STRIPE: Record<BookSeries, string> = {
+  elementary: 'bg-accent/60',
+  intermediate: 'bg-accent-dark',
+  advanced: 'bg-accent-deep',
 }
 
 function SeriesLabel({ series }: { series: BookSeries }) {
@@ -116,10 +123,10 @@ function BookIndex() {
   return (
     <div className="mx-auto max-w-3xl">
       <h1 className="mb-2 font-serif text-2xl font-bold">{t('textbook.title')}</h1>
-      <p className="mb-8 text-sm leading-relaxed text-stone-500">{t('textbook.intro')}</p>
+      <p className="mb-9 text-sm leading-relaxed text-stone-500">{t('textbook.intro')}</p>
 
       {grouped.map(({ series, items }) => (
-        <div key={series}>
+        <div key={series} className="mb-9 last:mb-0">
           <SeriesLabel series={series} />
           <div className="grid gap-4 sm:grid-cols-2">
             {items.map((book) => {
@@ -128,25 +135,26 @@ function BookIndex() {
               const empty = words.length === 0
               const inner = (
                 <>
-                  <div className="mb-3 flex items-start justify-between gap-3">
-                    <div>
-                      <div className="font-serif text-lg font-semibold">{bookTitle(book)}</div>
-                      <div className="mt-0.5 text-xs text-stone-400">
-                        {empty
-                          ? t('textbook.comingSoon')
-                          : t('textbook.bookMeta', {
-                              lessons: book.lessons.length,
-                              words: words.length,
-                            })}
-                      </div>
-                    </div>
-                    {!empty && <ProgressRing value={p.total ? p.mastered / p.total : 0} />}
+                  <span
+                    className={`absolute inset-y-0 left-0 w-1 rounded-l-2xl ${SERIES_STRIPE[series]}`}
+                  />
+                  <div className="font-serif text-lg font-semibold">{bookTitle(book)}</div>
+                  <div className="mt-1 text-xs text-stone-400">
+                    {empty
+                      ? t('textbook.comingSoon')
+                      : t('textbook.bookMeta', {
+                          lessons: book.lessons.length,
+                          words: words.length,
+                        })}
                   </div>
                   {!empty && (
-                    <div className="text-xs text-stone-400">
-                      {t('textbook.masteredOf', { mastered: p.mastered, total: p.total })}
+                    <div className="mt-4 flex items-center gap-3 text-xs text-stone-400">
+                      <ProgressBar value={masteredRatio(words, srs)} className="min-w-0 flex-1" />
+                      <span className="shrink-0">
+                        {t('textbook.masteredOf', { mastered: p.mastered, total: p.total })}
+                      </span>
                       {p.due > 0 && (
-                        <span className="ml-2 rounded-full bg-accent-light px-2 py-0.5 text-accent-deep">
+                        <span className="shrink-0 rounded-full bg-accent-light px-2 py-0.5 font-medium text-accent-deep">
                           {t('textbook.dueCount', { count: p.due })}
                         </span>
                       )}
@@ -155,14 +163,14 @@ function BookIndex() {
                 </>
               )
               return empty ? (
-                <div key={book.id} className="card p-5 opacity-60">
+                <div key={book.id} className="card relative overflow-hidden p-5 pl-6 opacity-60">
                   {inner}
                 </div>
               ) : (
                 <Link
                   key={book.id}
                   to={`/textbook/${book.id}`}
-                  className="card p-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lift"
+                  className="card relative overflow-hidden p-5 pl-6 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lift"
                 >
                   {inner}
                 </Link>
@@ -195,15 +203,19 @@ function LessonIndex({ book }: { book: TextbookBook }) {
       <Link to="/textbook" className="mb-4 inline-block text-sm text-stone-400 hover:text-accent-dark">
         ← {t('textbook.title')}
       </Link>
-      <div className="mb-6 flex items-center justify-between gap-4">
-        <div>
+      <div className="mb-7">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
           <h1 className="font-serif text-2xl font-bold">{bookTitle(book)}</h1>
-          <p className="mt-1 text-sm text-stone-500">
-            {t('textbook.bookMeta', { lessons: book.lessons.length, words: words.length })} ·{' '}
-            {t('textbook.masteredOf', { mastered: overall.mastered, total: overall.total })}
+          <p className="text-sm text-stone-400">
+            {t('textbook.bookMeta', { lessons: book.lessons.length, words: words.length })}
           </p>
         </div>
-        <ProgressRing value={overall.total ? overall.mastered / overall.total : 0} size={48} />
+        <div className="mt-3 flex items-center gap-3">
+          <ProgressBar value={masteredRatio(words, srs)} className="min-w-0 flex-1" />
+          <span className="shrink-0 text-xs text-stone-400">
+            {t('textbook.masteredOf', { mastered: overall.mastered, total: overall.total })}
+          </span>
+        </div>
       </div>
 
       {book.themed && (
@@ -229,31 +241,31 @@ function LessonIndex({ book }: { book: TextbookBook }) {
 
       <div className="grid gap-3 sm:grid-cols-2">
         {book.lessons.map((lesson) => {
-          const p = progressOf(lesson.words, srs)
+          const ratio = masteredRatio(lesson.words, srs)
           return (
             <Link
               key={lesson.n}
               to={`/textbook/${book.id}/${lesson.n}`}
-              className="card flex items-center gap-3 p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lift"
+              className="card group relative flex items-center gap-3.5 overflow-hidden p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lift"
             >
-              <ProgressRing value={p.total ? p.mastered / p.total : 0} />
+              {/* The lesson number is the thing you scan for, so give it its own mark. */}
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-stone-50 font-serif text-base font-semibold text-stone-400 transition-colors duration-200 group-hover:bg-accent-light group-hover:text-accent-deep">
+                {lesson.n}
+              </span>
               <div className="min-w-0 flex-1">
-                <div className="flex items-baseline gap-2">
-                  <span className="shrink-0 whitespace-nowrap font-serif text-sm font-semibold text-accent-deep">
-                    {t('textbook.lessonN', { n: lesson.n })}
-                  </span>
-                  <span className="min-w-0 truncate font-serif text-sm">{lesson.title}</span>
-                </div>
+                <div className="truncate font-serif text-[0.9375rem] leading-snug">{lesson.title}</div>
                 <div className="mt-0.5 truncate text-xs text-stone-400">
                   {zhFirst && `${lesson.title_zh} · `}
                   {t('textbook.wordCount', { count: lesson.words.length })}
-                  {findText(book, lesson.n) && (
-                    <span className="ml-1.5 rounded bg-accent-light px-1.5 py-px text-[0.625rem] text-accent-deep">
-                      {t('textbook.hasText')}
-                    </span>
-                  )}
                 </div>
               </div>
+              {/* Progress rides the card's bottom edge: invisible until there is some. */}
+              {ratio > 0 && (
+                <span
+                  className="absolute inset-x-0 bottom-0 h-0.5 bg-accent-dark"
+                  style={{ width: `${Math.round(ratio * 100)}%` }}
+                />
+              )}
             </Link>
           )
         })}
@@ -402,10 +414,6 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
     ? book.lessons.find((l) => l.n === lesson.n + 1)
     : undefined
 
-  const heading = isReview
-    ? t('textbook.reviewTitle')
-    : `${t('textbook.lessonN', { n: lesson?.n ?? 0 })}　${lesson?.title ?? ''}`
-
   return (
     <div className={mode === 'text' ? 'mx-auto max-w-6xl' : 'mx-auto max-w-2xl'}>
       <Link
@@ -414,32 +422,66 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
       >
         ← {bookTitle(book)}
       </Link>
-      <h1 className="font-serif text-xl font-bold sm:text-2xl">{heading}</h1>
-      <p className="mb-5 mt-1 text-sm text-stone-400">
-        {isReview
-          ? t('textbook.reviewDesc')
-          : `${zhFirst ? `${lesson?.title_zh ?? ''} · ` : ''}${t('textbook.wordCount', { count: source.length })}`}
-      </p>
 
-      {/* mode tabs */}
-      <div className="mb-4 flex gap-2">
-        {modes.map((m) => (
-          <button
-            key={m}
-            className={`${mode === m ? 'chip-on' : 'chip-off'} flex-1 justify-center sm:flex-none`}
-            onClick={() => {
-              update({ mode: m })
-              setResult(null)
-            }}
-          >
-            {t(`textbook.mode.${m}`)}
-          </button>
-        ))}
+      {/* The lesson number is set beside the title rather than run into it, so
+          the Japanese title starts at a predictable place down the list. */}
+      <div className="flex items-start gap-3 sm:gap-4">
+        {!isReview && (
+          <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-light font-serif text-lg font-semibold text-accent-deep sm:h-11 sm:w-11 sm:text-xl">
+            {lesson?.n ?? 0}
+          </span>
+        )}
+        <div className="min-w-0">
+          <h1 className="font-serif text-xl font-bold leading-tight sm:text-2xl">
+            {isReview ? t('textbook.reviewTitle') : (lesson?.title ?? '')}
+          </h1>
+          <p className="mt-1 text-sm text-stone-400">
+            {isReview
+              ? t('textbook.reviewDesc')
+              : `${zhFirst ? `${lesson?.title_zh ?? ''} · ` : ''}${t('textbook.wordCount', { count: source.length })}`}
+          </p>
+        </div>
+      </div>
+
+      {/* One row of controls: which view on the left, that view's options on
+          the right, so the two kinds of switch never look alike. */}
+      <div className="mb-5 mt-5 flex flex-wrap items-center justify-between gap-3">
+        <div className="seg-group">
+          {modes.map((m) => (
+            <button
+              key={m}
+              className={mode === m ? 'seg-on' : 'seg-off'}
+              onClick={() => {
+                update({ mode: m })
+                setResult(null)
+              }}
+            >
+              {t(`textbook.mode.${m}`)}
+            </button>
+          ))}
+        </div>
+
+        {mode === 'text' && (
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <button
+              className={prefs.furi ? 'chip-on' : 'chip-off'}
+              onClick={() => update({ furi: !prefs.furi })}
+            >
+              {t('textbook.furigana')}
+            </button>
+            <button
+              className={prefs.showAll ? 'chip-on' : 'chip-off'}
+              onClick={() => update({ showAll: !prefs.showAll })}
+            >
+              {t('textbook.showAllTrans')}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* per-mode options */}
       {mode === 'card' && !result && (
-        <div className="mb-5 flex flex-wrap items-center gap-2 text-xs">
+        <div className="-mt-1 mb-5 flex flex-wrap items-center gap-2 text-xs">
           {(['ja2meaning', 'meaning2ja'] as CardDirection[]).map((d) => (
             <button
               key={d}
@@ -460,7 +502,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
         </div>
       )}
       {mode === 'choice' && !result && (
-        <div className="mb-5 flex flex-wrap gap-2 text-xs">
+        <div className="-mt-1 mb-5 flex flex-wrap gap-2 text-xs">
           {(['mix', 'ja2meaning', 'meaning2ja', 'reading'] as KindFilter[]).map((k) => (
             <button
               key={k}
@@ -474,7 +516,13 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
       )}
 
       {mode === 'text' && text && lesson ? (
-        <LessonText text={text} words={lesson.words} zhFirst={zhFirst} />
+        <LessonText
+          text={text}
+          words={lesson.words}
+          zhFirst={zhFirst}
+          furi={prefs.furi}
+          showAll={prefs.showAll}
+        />
       ) : source.length === 0 ? (
         <p className="py-16 text-center text-stone-400">
           {isReview ? t('textbook.nothingDue') : t('vocab.empty')}
