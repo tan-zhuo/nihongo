@@ -1,0 +1,1946 @@
+[
+  {
+    "n": 1,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{言葉|ことば}は {意味|いみ}を {伝|つた}える {道具|どうぐ}で ある と {同時|どうじ}に、{話|はな}し{手|て}の {立|た}ち{位置|いち}を {示|しめ}す {標|しるし}でも ある。",
+            "zh": "语言既是传达意义的工具，同时也是显示说话人立场的标记。",
+            "en": "Language is a tool for conveying meaning and, at the same time, a marker of where the speaker stands."
+          },
+          {
+            "ja": "{同|おな}じ {内容|ないよう}でも、{言|い}い{回|まわ}しを {変|か}えれば、{受|う}け{取|と}る {人|ひと}の {印象|いんしょう}は {一変|いっぺん}する。",
+            "zh": "同样的内容，换个说法，接收方的印象就会完全改变。",
+            "en": "Say the same thing differently and the hearer's impression is transformed."
+          },
+          {
+            "ja": "{日本語|にほんご}は とりわけ {婉曲|えんきょく}な {表現|ひょうげん}が {発達|はったつ}して おり、{断|ことわ}る {際|さい}にも {直接|ちょくせつ}には {言|い}い{切|き}らない。",
+            "zh": "日语尤其发展出婉曲的表达，拒绝时也不直接说死。",
+            "en": "Japanese has developed an unusually rich stock of indirection; even a refusal is not stated outright.",
+            "note_zh": "「〜て おり」是「〜て いて」的书面形式,论说文和正式文书里常用。「とりわけ」是「尤其」,比「特に」更书面。",
+            "note_en": "〜ており is the written form of 〜ていて; とりわけ is a bookish 特に."
+          },
+          {
+            "ja": "「{検討|けんとう}します」が {事実上|じじつじょう}の {拒否|きょひ}で ある ことは、{外国人|がいこくじん}には なかなか {通|つう}じない。",
+            "zh": "「我们研究一下」事实上是拒绝，这一点外国人很难领会。",
+            "en": "That \"we will consider it\" amounts to a refusal is not easily grasped from outside."
+          },
+          {
+            "ja": "{語感|ごかん}の {微妙|びみょう}な {差|さ}を {使|つか}い{分|わ}ける ことが、{表現力|ひょうげんりょく}の {核心|かくしん}で あろう。",
+            "zh": "分辨使用语感的微妙差别，大概就是表现力的核心。",
+            "en": "Discriminating among fine shades of feeling is, surely, the heart of expressive power.",
+            "note_zh": "「〜で あろう」是「〜でしょう」的书面形式,论说文里表示推测。",
+            "note_en": "〜であろう is the written でしょう, the voice of academic conjecture."
+          },
+          {
+            "ja": "{若者言葉|わかものことば}や {流行語|りゅうこうご}を「{言葉|ことば}の{乱|みだ}れ」と {批判|ひはん}する {声|こえ}は、どの {時代|じだい}にも あった。",
+            "zh": "把年轻人用语和流行语批评为「语言的混乱」的声音，哪个时代都有。",
+            "en": "Complaints that youth slang is \"the corruption of the language\" have sounded in every age."
+          },
+          {
+            "ja": "だが、{今日|こんにち}の {標準語|ひょうじゅんご}も、かつては {新|あたら}しい {造語|ぞうご}で あった。{言葉|ことば}は {変|か}わる ものだ。",
+            "zh": "但是，今天的标准语，曾经也是新造的词。语言本来就是会变的。",
+            "en": "Yet today's standard was once a coinage. Language changes; that is its nature."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "教授",
+            "ja": "{李|り}さん、{今回|こんかい}の {論文|ろんぶん}の テーマは {何|なん}でしたか。",
+            "zh": "小李，这次论文的主题是什么？",
+            "en": "Li, what was the theme of your paper?"
+          },
+          {
+            "sp": "李",
+            "ja": "{日本語|にほんご}の {婉曲|えんきょく}{表現|ひょうげん}です。とくに {断|ことわ}り{方|かた}を {取|と}り{上|あ}げました。",
+            "zh": "日语的婉曲表达。特别讨论了拒绝的方式。",
+            "en": "Euphemism in Japanese, focusing on how refusals are made."
+          },
+          {
+            "sp": "教授",
+            "ja": "{面白|おもしろ}い {着眼|ちゃくがん}ですね。{先行|せんこう}{研究|けんきゅう}は {当|あ}たりましたか。",
+            "zh": "着眼点有意思。查过先行研究了吗？",
+            "en": "An interesting angle. Have you looked at the prior literature?"
+          },
+          {
+            "sp": "李",
+            "ja": "はい。ただ、{分析|ぶんせき}の {枠組|わくぐ}みで {迷|まよ}って おります。{語用論|ごようろん}で {見|み}るべきか、{文体論|ぶんたいろん}で {見|み}るべきか。",
+            "zh": "查了。不过在分析框架上犹豫。该从语用论看，还是从文体论看。",
+            "en": "Yes. But I'm torn over the framework — whether to view it pragmatically or stylistically."
+          },
+          {
+            "sp": "教授",
+            "ja": "{両方|りょうほう}から {見|み}れば いいのでは ありませんか。",
+            "zh": "从两边看不就行了吗？",
+            "en": "Why not look from both?"
+          },
+          {
+            "sp": "李",
+            "ja": "{欲張|よくば}りすぎでしょうか。",
+            "zh": "会不会太贪心了？",
+            "en": "Would that be overreaching?"
+          },
+          {
+            "sp": "教授",
+            "ja": "{枚数|まいすう}との {関係|かんけい}も ありますね。{範囲|はんい}を {狭|せま}める なら、{断|ことわ}り{方|かた} {一|ひと}つに した ほうが {緻密|ちみつ}に なります。",
+            "zh": "也要看篇幅。要缩小范围的话，只留拒绝方式这一点会更缜密。",
+            "en": "There's the length to consider too. Narrowed to refusals alone, it would be tighter.",
+            "note_zh": "「範囲を 狭める」是「缩小范围」。论文写作里,范围越窄越容易写得深。",
+            "note_en": "範囲を狭める — to narrow the scope; in writing, a narrower question is easier to treat deeply."
+          },
+          {
+            "sp": "李",
+            "ja": "わかりました。では、{用例|ようれい}を {集|あつ}め{直|なお}します。",
+            "zh": "明白了。那我重新收集用例。",
+            "en": "Understood. I'll gather the examples again."
+          },
+          {
+            "sp": "教授",
+            "ja": "{実例|じつれい}が {命|いのち}です。{辞書|じしょ}の {記述|きじゅつ}を {鵜呑|うの}みに せず、{生|なま}の {会話|かいわ}に {当|あ}たって ください。",
+            "zh": "实例是命。不要囫囵吞下辞典的描述，要去碰真实的会话。",
+            "en": "Real examples are everything. Don't take the dictionary's word for it — go to live speech."
+          },
+          {
+            "sp": "李",
+            "ja": "{心|こころ}に {留|と}めます。ありがとうございました。",
+            "zh": "我记住了。谢谢您。",
+            "en": "I'll keep that in mind. Thank you."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜て おり / 〜て おります",
+        "explain_zh": "「〜て いて」「〜て います」的书面・郑重形式。论说文、报告、正式邮件里几乎都用这个。",
+        "explain_en": "The written and formal counterpart of 〜ていて / 〜ています — standard in papers and reports.",
+        "examples": [
+          "{研究|けんきゅう}が {進|すす}んで おり、{成果|せいか}も {出|で}て いる。",
+          "{現在|げんざい} {検討|けんとう}して おります。"
+        ]
+      },
+      {
+        "pattern": "〜で あろう / 〜で あった",
+        "explain_zh": "「〜でしょう」「〜でした」的书面形式。论说文里用「である体」时,推测和过去都换成这一套。",
+        "explain_en": "The である-style equivalents of でしょう and でした, used throughout academic prose.",
+        "examples": [
+          "{重要|じゅうよう}で あろう。",
+          "かつては {常識|じょうしき}で あった。"
+        ]
+      },
+      {
+        "pattern": "とりわけ / いわば / すなわち",
+        "explain_zh": "论说文的连接词。「とりわけ」是尤其,「いわば」是可以说是,「すなわち」是也就是说,用来换一种说法。",
+        "explain_en": "Connectives of argument: とりわけ (above all), いわば (so to speak), すなわち (that is to say).",
+        "examples": [
+          "とりわけ {重要|じゅうよう}なのは {語感|ごかん}だ。",
+          "すなわち、{同|おな}じ ことで ある。"
+        ]
+      },
+      {
+        "pattern": "〜べきか 〜べきか",
+        "explain_zh": "学术讨论里常见的犹豫表达,把两个「应该」并列起来,表示还没定下用哪个。",
+        "explain_en": "The hesitation of scholarly debate: two \"oughts\" set side by side, neither yet chosen.",
+        "examples": [
+          "{採|と}るべきか {捨|す}てるべきか。",
+          "{広|ひろ}げるべきか {狭|せば}めるべきか。"
+        ]
+      },
+      {
+        "pattern": "言葉を論じる語彙",
+        "explain_zh": "「語彙・語感・言い回し・比喩・婉曲・含蓄・口語・文語・慣用句・諺」。「言葉の 乱れ」是批评语言变化时的固定说法。",
+        "explain_en": "The vocabulary for discussing language itself; 言葉の乱れ is the set phrase of linguistic complaint.",
+        "examples": [
+          "{語感|ごかん}が {微妙|びみょう}に {違|ちが}う。",
+          "{婉曲|えんきょく}に {断|ことわ}る。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{小説|しょうせつ}を {読|よ}む {楽|たの}しみは、{筋書|すじが}きを {追|お}う ことだけに ある のでは ない。",
+            "zh": "读小说的乐趣，不只在于追情节。",
+            "en": "The pleasure of a novel does not lie in following the plot alone."
+          },
+          {
+            "ja": "{心理描写|しんりびょうしゃ}の {細|こま}やかさ、{情景|じょうけい}の {鮮|あざ}やかさ、{結末|けつまつ}に {残|のこ}る {余韻|よいん}——{味|あじ}わう {所|ところ}は {至|いた}る {所|ところ}に ある。",
+            "zh": "心理描写的细腻、情景的鲜明、结尾留下的余韵——可供品味之处到处都是。",
+            "en": "Fineness of inner portraiture, vividness of scene, the resonance left at the close — there is something to savour everywhere."
+          },
+          {
+            "ja": "{伏線|ふくせん}に {気|き}が {付|つ}いた {瞬間|しゅんかん}、{一度|いちど} {読|よ}んだ {物語|ものがたり}が {別|べつ}の {顔|かお}を {見|み}せる。",
+            "zh": "察觉到伏笔的瞬间，读过一遍的故事会显出另一副面孔。",
+            "en": "The moment you catch the foreshadowing, a story you have already read shows another face."
+          },
+          {
+            "ja": "{難解|なんかい}だと {言|い}われる {作品|さくひん}も、{時代背景|じだいはいけい}を {知|し}れば {一気|いっき}に {近|ちか}づいて くる。",
+            "zh": "被说成难解的作品，知道了时代背景也会一下子变得亲近。",
+            "en": "Even a work called difficult comes close at once if you know the age it came from."
+          },
+          {
+            "ja": "{批評|ひひょう}を {先|さき}に {読|よ}む か、{作品|さくひん}を {先|さき}に {読|よ}む か——これは {読者|どくしゃ}の {好|この}みで あろう。",
+            "zh": "先读评论还是先读作品——这大概是读者的喜好。",
+            "en": "Whether to read the criticism or the work first is, one supposes, a matter of taste."
+          },
+          {
+            "ja": "{名作|めいさく}と {呼|よ}ばれる ものが {必|かなら}ずしも {自分|じぶん}に {合|あ}うとは {限|かぎ}らない。",
+            "zh": "被称为名作的，未必就适合自己。",
+            "en": "What is called a masterpiece does not necessarily suit you.",
+            "note_zh": "「〜とは 限らない」是部分否定,「未必…」。常和「必ずしも」一起用,比「〜ない」语气委婉。",
+            "note_en": "〜とは限らない is a hedged negative — \"not necessarily\" — usually with 必ずしも."
+          },
+          {
+            "ja": "{感銘|かんめい}を {受|う}ける{本|ほん}に {出会|であ}える かどうかは、{運|うん}でも あり、{読|よ}み{続|つづ}けた {量|りょう}でも ある。",
+            "zh": "能否遇到令人感动的书，既是运气，也是持续阅读的量。",
+            "en": "Whether you meet a book that moves you is partly luck and partly how much you have read."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "教授",
+            "ja": "{李|り}さん、{最近|さいきん} {何|なに}を {読|よ}んで いますか。",
+            "zh": "小李，最近在读什么？",
+            "en": "Li, what are you reading these days?"
+          },
+          {
+            "sp": "李",
+            "ja": "{明治|めいじ}の {文豪|ぶんごう}の {随筆|ずいひつ}を。{小説|しょうせつ}より {語|かた}り{口|くち}が {近|ちか}くて、{読|よ}みやすいです。",
+            "zh": "明治文豪的随笔。比小说的语气更亲近，好读。",
+            "en": "Essays by the Meiji masters. The voice is closer than in their novels, and easier to read."
+          },
+          {
+            "sp": "教授",
+            "ja": "いい {入|はい}り{方|かた}です。{随筆|ずいひつ}は {作風|さくふう}が そのまま {出|で}ますから。",
+            "zh": "是好的入门方式。因为随笔里作风直接显现。",
+            "en": "A good way in. An essay shows the writer's manner undisguised."
+          },
+          {
+            "sp": "李",
+            "ja": "ただ、{文語|ぶんご}が {混|ま}じると、{意味|いみ}は {取|と}れても {味|あじ}が {分|わ}かりません。",
+            "zh": "不过夹杂文语的时候，意思能懂，味道却尝不出来。",
+            "en": "Though where the classical language creeps in, I get the sense but not the flavour."
+          },
+          {
+            "sp": "教授",
+            "ja": "それは {時間|じかん}が {解決|かいけつ}します。{声|こえ}に {出|だ}して {読|よ}んで みましたか。",
+            "zh": "那个时间会解决。试过出声读吗？",
+            "en": "Time will take care of that. Have you tried reading it aloud?"
+          },
+          {
+            "sp": "李",
+            "ja": "いえ、まだです。",
+            "zh": "还没有。",
+            "en": "Not yet."
+          },
+          {
+            "sp": "教授",
+            "ja": "{音|おと}に すると、{文|ぶん}の {呼吸|こきゅう}が {分|わ}かります。{抒情|じょじょう}の {強|つよ}い {文章|ぶんしょう}ほど {効|き}きますよ。",
+            "zh": "读出声来，就能明白文章的呼吸。抒情性强的文章尤其有效。",
+            "en": "Voiced, you feel the breath of the prose. The more lyrical the writing, the better it works."
+          },
+          {
+            "sp": "李",
+            "ja": "やって みます。{解釈|かいしゃく}が {分|わ}かれる ところは、どう {書|か}けば いいでしょうか。",
+            "zh": "我试试。解释有分歧的地方该怎么写？",
+            "en": "I'll try. And where interpretations divide, how should I write it?"
+          },
+          {
+            "sp": "教授",
+            "ja": "{諸説|しょせつ}を {並|なら}べた {上|うえ}で、{自分|じぶん}が どれを {採|と}る かを {理由|りゆう}とともに {書|か}く。それで {十分|じゅうぶん}です。",
+            "zh": "列出诸说之后，写出自己采用哪一个及其理由。那样就够了。",
+            "en": "Set out the views, then say which you take and why. That is enough.",
+            "note_zh": "「〜とともに」是「与…一起、同时」,书面语。这里是「连同理由一起写」。",
+            "note_en": "〜とともに — \"together with\" — written register; here, stating the reason alongside."
+          },
+          {
+            "sp": "李",
+            "ja": "{分|わ}かりました。ありがとうございます。",
+            "zh": "明白了。谢谢您。",
+            "en": "Understood. Thank you."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜とは 限らない",
+        "explain_zh": "部分否定,「未必…」。常和「必ずしも」呼应。断定过度时用它来留余地,论说文里很常用。",
+        "explain_en": "\"Not necessarily\" — a hedge against over-assertion, often paired with 必ずしも.",
+        "examples": [
+          "{高|たか}いから いいとは {限|かぎ}らない。",
+          "{多数|たすう}が {正|ただ}しいとは {限|かぎ}らない。"
+        ]
+      },
+      {
+        "pattern": "〜のでは ない",
+        "explain_zh": "否定一种理解,「并不是…」。后面常接正确的说法:「〜のでは なく、〜で ある」。",
+        "explain_en": "Denies a reading — usually followed by the correct one.",
+        "examples": [
+          "{嫌|きら}いな のでは ありません。",
+          "{難|むずか}しい のでは なく、{慣|な}れて いない だけだ。"
+        ]
+      },
+      {
+        "pattern": "〜とともに",
+        "explain_zh": "「与…一起、同时」。书面语,可以表示伴随、同时,也可以表示「随着…」:「時代とともに 変わる」。",
+        "explain_en": "\"Together with\" or \"as\" — accompaniment, or change over time.",
+        "examples": [
+          "{理由|りゆう}とともに {述|の}べる。",
+          "{時代|じだい}とともに {変|か}わる。"
+        ]
+      },
+      {
+        "pattern": "〜ほど 〜",
+        "explain_zh": "「越…越…」。名词和形容词都能直接接。「抒情の 強い 文章ほど 効く」=越抒情越有效。",
+        "explain_en": "\"The more …\" — attaching directly to nouns and adjectives alike.",
+        "examples": [
+          "{古|ふる}い {作品|さくひん}ほど {背景|はいけい}が {要|い}る。",
+          "{短|みじか}い {文|ぶん}ほど {難|むずか}しい。"
+        ]
+      },
+      {
+        "pattern": "文学を語る語彙",
+        "explain_zh": "「作風・筋書き・伏線・結末・余韻・心理描写・情景・解釈・批評」。「味わう」用于文章时是「细细品读」,不只是吃东西。",
+        "explain_en": "Literary vocabulary; 味わう means to savour a text, not only a dish.",
+        "examples": [
+          "{余韻|よいん}が {残|のこ}る {結末|けつまつ}",
+          "{伏線|ふくせん}が {回収|かいしゅう}される。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{歴史|れきし}は {過去|かこ}の {出来事|できごと}の {集|あつ}まりでは なく、それを どう {位置|いち}づけるかの {営|いとな}みで ある。",
+            "zh": "历史不是过去事件的集合，而是如何给它们定位的活动。",
+            "en": "History is not a heap of past events but the work of placing them."
+          },
+          {
+            "ja": "{同|おな}じ {史料|しりょう}を {読|よ}んでも、{歴史観|れきしかん}が {違|ちが}えば {結論|けつろん}は {大|おお}きく {分|わ}かれる。",
+            "zh": "读同样的史料，历史观不同，结论就大不一样。",
+            "en": "Read the same sources with different convictions and the conclusions diverge sharply."
+          },
+          {
+            "ja": "{考古学|こうこがく}の {調査|ちょうさ}が {通説|つうせつ}を {覆|くつがえ}す ことも {珍|めずら}しく ない。",
+            "zh": "考古调查推翻通说的事也不少见。",
+            "en": "An archaeological survey overturning the received account is nothing unusual."
+          },
+          {
+            "ja": "{明治維新|めいじいしん}を {近代化|きんだいか}の {出発点|しゅっぱつてん}と {見|み}る か、{断絶|だんぜつ}と {見|み}る かでも、{評価|ひょうか}は {変|か}わる。",
+            "zh": "把明治维新看作近代化的起点，还是看作断裂，评价也随之改变。",
+            "en": "Reckon the Meiji Restoration a beginning or a rupture, and the assessment shifts."
+          },
+          {
+            "ja": "{戦争|せんそう}と {敗戦|はいせん}、そして {復興|ふっこう}から {高度経済成長|こうどけいざいせいちょう}へ——この {変遷|へんせん}を どう {語|かた}るかは、{今|いま}も {論争|ろんそう}の {的|まと}で ある。",
+            "zh": "战争与战败，继而从复兴到高度经济成长——如何叙述这一变迁，至今仍是论争的焦点。",
+            "en": "War, defeat, reconstruction, then high growth — how to narrate that passage is still contested.",
+            "note_zh": "「論争の 的」是「论争的焦点」。「的」在这里是「众矢之的」的「的」,指被集中讨论的对象。",
+            "note_en": "論争の的 — the target of controversy, the thing everyone's arguments are aimed at."
+          },
+          {
+            "ja": "{過去|かこ}を {美化|びか}する のも、{一方的|いっぽうてき}に {断罪|だんざい}する のも、{歴史|れきし}を {見|み}る {目|め}を {曇|くも}らせる。",
+            "zh": "美化过去，和片面地断罪，都会使看历史的眼睛变浑浊。",
+            "en": "To beautify the past or to condemn it flatly alike clouds the historical eye."
+          },
+          {
+            "ja": "{教訓|きょうくん}を {引|ひ}き{出|だ}す ためには、まず {何|なに}が {起|お}きたのかを {丁寧|ていねい}に {辿|たど}る ほか ない。",
+            "zh": "为了汲取教训，只能先仔细地追溯发生了什么。",
+            "en": "To draw a lesson, there is nothing for it but to trace carefully what happened."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "教授",
+            "ja": "{李|り}さん、{卒業|そつぎょう}{論文|ろんぶん}の {時代|じだい}{設定|せってい}は {決|き}まりましたか。",
+            "zh": "小李，毕业论文的时代设定定了吗？",
+            "en": "Li, have you settled on the period for your thesis?"
+          },
+          {
+            "sp": "李",
+            "ja": "{戦国時代|せんごくじだい}を {考|かんが}えて いましたが、{史料|しりょう}が {多|おお}すぎて {手|て}に {余|あま}ります。",
+            "zh": "本来在考虑战国时代，不过史料太多，力不从心。",
+            "en": "I was thinking of the Warring States, but there are too many sources to handle.",
+            "note_zh": "「手に 余る」是惯用语,「力不从心、处理不了」。",
+            "note_en": "手に余る — more than one's hands can hold — to be beyond one's capacity."
+          },
+          {
+            "sp": "教授",
+            "ja": "{範囲|はんい}を {狭|せば}めれば いいのです。{地域|ちいき}か、{人物|じんぶつ}か、{制度|せいど}か。",
+            "zh": "缩小范围就好。地域、人物，还是制度。",
+            "en": "Then narrow it. By region, by person, or by institution."
+          },
+          {
+            "sp": "李",
+            "ja": "{制度|せいど}に {興味|きょうみ}が あります。{幕府|ばくふ}の {支配|しはい}が {地方|ちほう}まで どう {届|とど}いて いたのか。",
+            "zh": "我对制度有兴趣。幕府的统治是怎么到达地方的。",
+            "en": "Institutions interest me — how far the shogunate's rule actually reached into the provinces."
+          },
+          {
+            "sp": "教授",
+            "ja": "いい {問|と}いです。{中央|ちゅうおう}の {記録|きろく}だけ {見|み}て いると、{届|とど}いて いた ように {見|み}えて しまいますが。",
+            "zh": "是好问题。只看中央的记录的话，会显得好像是到达了的。",
+            "en": "A good question. Read only the central records and it looks as though it did."
+          },
+          {
+            "sp": "李",
+            "ja": "{地方|ちほう}の {史料|しりょう}と {突|つ}き{合|あ}わせる べきだ と いう ことですね。",
+            "zh": "就是说该和地方的史料对照吧。",
+            "en": "So I should set them against the provincial sources."
+          },
+          {
+            "sp": "教授",
+            "ja": "そう です。{両方|りょうほう}を {並|なら}べて {初|はじ}めて、{実態|じったい}が {見|み}えて きます。",
+            "zh": "是的。把两者并列起来，实态才看得出来。",
+            "en": "Just so. Only with both side by side does the reality emerge."
+          },
+          {
+            "sp": "李",
+            "ja": "{読|よ}める {史料|しりょう}が {限|かぎ}られて いるのが {不安|ふあん}です。",
+            "zh": "能读的史料有限，让我不安。",
+            "en": "What worries me is how few sources I can actually read."
+          },
+          {
+            "sp": "教授",
+            "ja": "{読|よ}める {範囲|はんい}で {正直|しょうじき}に {書|か}けば よろしい。{読|よ}めなかった ものを {読|よ}んだ ふりを する、それが {一番|いちばん} いけません。",
+            "zh": "在能读的范围内老实地写就好。把没读的装作读过了，那才最要不得。",
+            "en": "Write honestly within what you can read. Pretending to have read what you haven't — that is the one unforgivable thing.",
+            "note_zh": "「〜ふりを する」是「装作…的样子」。接普通形,名词加「の」:「知らない ふり」「学生の ふり」。",
+            "note_en": "〜ふりをする is to feign; nouns take の before it."
+          },
+          {
+            "sp": "李",
+            "ja": "{心|こころ}に {刻|きざ}みます。",
+            "zh": "我铭记在心。",
+            "en": "I'll keep that before me."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜か、〜かでも",
+        "explain_zh": "「是看作A还是看作B,这一点上也…」。把两种解释并列,指出由此产生的差异。论说文常用。",
+        "explain_en": "Sets two readings against each other and points to the difference they make.",
+        "examples": [
+          "{進歩|しんぽ}と {見|み}るか {損失|そんしつ}と {見|み}るかで {評価|ひょうか}は {違|ちが}う。",
+          "{行|い}くか {残|のこ}るかで {人生|じんせい}が {変|か}わる。"
+        ]
+      },
+      {
+        "pattern": "〜ほか ない",
+        "explain_zh": "「只能…」,表示别无选择。书面语。「〜しか ない」是口语形式。",
+        "explain_en": "\"There is nothing for it but\" — the written form of 〜しかない.",
+        "examples": [
+          "{辿|たど}る ほか ない。",
+          "{待|ま}つ ほか ありません。"
+        ]
+      },
+      {
+        "pattern": "〜ふりを する",
+        "explain_zh": "「装作…的样子」。动词和形容词用普通形,名词加「の」。多含贬义。",
+        "explain_en": "To feign; plain forms attach directly, nouns take の. Usually disapproving.",
+        "examples": [
+          "{知|し}らない ふりを しました。",
+          "{寝|ね}た ふりを する。"
+        ]
+      },
+      {
+        "pattern": "〜て 初めて",
+        "explain_zh": "「只有…之后才…」。前项是不可缺的条件。学术讨论里常用来说明方法的必要性。",
+        "explain_en": "\"Only after\" — marking an indispensable step, often in arguing for a method.",
+        "examples": [
+          "{並|なら}べて {初|はじ}めて {分|わ}かる。",
+          "{失|うしな}って {初|はじ}めて {気|き}が {付|つ}く。"
+        ]
+      },
+      {
+        "pattern": "歴史を語る語彙",
+        "explain_zh": "「史料・通説・諸説・変遷・興亡・覆す・辿る・位置づける・教訓」。「〜観」接在名词后面表示看法:「歴史観」「価値観」「人生観」。",
+        "explain_en": "Historical vocabulary; the suffix 〜観 names a way of seeing — 歴史観, 価値観, 人生観.",
+        "examples": [
+          "{通説|つうせつ}を {覆|くつがえ}す {発見|はっけん}",
+          "{歴史|れきし}の {中|なか}に {位置|いち}づける。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{思想|しそう}とは、{世界|せかい}を どう {捉|とら}えるかに ついての、{一|ひと}つの {体系|たいけい}で ある。",
+            "zh": "所谓思想，是关于如何把握世界的一套体系。",
+            "en": "A system of thought is one coherent way of grasping the world."
+          },
+          {
+            "ja": "どんな {主張|しゅちょう}にも {前提|ぜんてい}が あり、その {前提|ぜんてい}を {問|と}い{直|なお}す ところから {哲学|てつがく}は {始|はじ}まる。",
+            "zh": "任何主张都有前提，哲学就从重新追问那个前提开始。",
+            "en": "Every claim rests on a premise, and philosophy begins by questioning it."
+          },
+          {
+            "ja": "{善悪|ぜんあく}や {正義|せいぎ}を {絶対的|ぜったいてき}な ものと {見|み}る {立場|たちば}も あれば、{相対的|そうたいてき}な ものと {見|み}る {立場|たちば}も ある。",
+            "zh": "有把善恶和正义看作绝对的立场，也有看作相对的立场。",
+            "en": "Some hold good and justice to be absolute; others, relative."
+          },
+          {
+            "ja": "{個人主義|こじんしゅぎ}と {集団主義|しゅうだんしゅぎ}の {対立|たいりつ}も、{突|つ}き{詰|つ}めれば {人間|にんげん}を どう {認識|にんしき}するかの {違|ちが}いに {帰結|きけつ}する。",
+            "zh": "个人主义与集体主义的对立，追根究底也归结为如何认识人的差异。",
+            "en": "Individualism against collectivism resolves, pressed far enough, into a difference over what a person is.",
+            "note_zh": "「突き詰める」是「追根究底」。「〜に 帰結する」是「最终归结为…」,论说文的常用动词。",
+            "note_en": "突き詰める is to press a question to its limit; 〜に帰結する, to resolve finally into."
+          },
+          {
+            "ja": "{論理|ろんり}に {矛盾|むじゅん}が ない ことと、{現実|げんじつ}に {通用|つうよう}する ことは、{必|かなら}ずしも {一致|いっち}しない。",
+            "zh": "逻辑上没有矛盾，和在现实中行得通，未必一致。",
+            "en": "Freedom from contradiction and workability in the world do not always coincide.",
+            "note_zh": "「必ずしも〜ない」是部分否定,「未必…」。后面一定接否定。",
+            "note_en": "必ずしも〜ない is a partial negative: \"not necessarily\"."
+          },
+          {
+            "ja": "{普遍的|ふへんてき}な {価値|かち}が ある と {信|しん}じる こと {自体|じたい}が、{一|ひと}つの {立場|たちば}で ある と いう {指摘|してき}も ある。",
+            "zh": "也有指出说，相信存在普遍价值这件事本身，就是一种立场。",
+            "en": "Some point out that believing in universal values is itself a position."
+          },
+          {
+            "ja": "{答|こた}えの {出|で}ない {問|と}いを {抱|かか}え{続|つづ}ける こと——それが {思想|しそう}を {営|いとな}む と いう ことなので あろう。",
+            "zh": "一直抱着得不出答案的问题——这大概就是所谓从事思想。",
+            "en": "To go on holding a question that has no answer — that, perhaps, is what it is to think."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "教授",
+            "ja": "{今日|きょう}の {議論|ぎろん}、どこから {始|はじ}めましょうか。",
+            "zh": "今天的讨论，从哪里开始？",
+            "en": "Where shall we begin today's discussion?"
+          },
+          {
+            "sp": "李",
+            "ja": "{前回|ぜんかい}の「{客観性|きゃっかんせい}は {可能|かのう}か」と いう {問|と}いの {続|つづ}きを。",
+            "zh": "接着上次「客观性是否可能」那个问题。",
+            "en": "Picking up last time's question of whether objectivity is possible."
+          },
+          {
+            "sp": "教授",
+            "ja": "いいでしょう。{李|り}さんは どう {考|かんが}えますか。",
+            "zh": "好。小李你怎么想？",
+            "en": "Very well. What is your view?"
+          },
+          {
+            "sp": "李",
+            "ja": "{完全|かんぜん}な {客観|きゃっかん}は {不可能|ふかのう}だと {思|おも}います。{観察|かんさつ}する {時点|じてん}で、すでに {主観|しゅかん}が {入|はい}って いますから。",
+            "zh": "我认为完全的客观不可能。因为在观察的时点，主观就已经进去了。",
+            "en": "I think complete objectivity is impossible — subjectivity enters the moment you observe."
+          },
+          {
+            "sp": "教授",
+            "ja": "では、{学問|がくもん}は {成|な}り{立|た}たない ことに なりませんか。",
+            "zh": "那么，学问不就不成立了吗？",
+            "en": "Then does scholarship not collapse?"
+          },
+          {
+            "sp": "李",
+            "ja": "いえ。{完全|かんぜん}を {目指|めざ}せない ことと、{近|ちか}づけない ことは {別|べつ}だと {考|かんが}えます。",
+            "zh": "不。我认为达不到完全，和无法接近，是两回事。",
+            "en": "No. Being unable to attain it is not the same as being unable to approach it."
+          },
+          {
+            "sp": "教授",
+            "ja": "なるほど。{程度|ていど}の {問題|もんだい}に {置|お}き{換|か}える わけですね。",
+            "zh": "原来如此。就是说置换成程度的问题。",
+            "en": "I see — you recast it as a matter of degree."
+          },
+          {
+            "sp": "李",
+            "ja": "はい。ただ、その{程度|ていど}を {誰|だれ}が {測|はか}るのか、と いう {問|と}いが {残|のこ}ります。",
+            "zh": "是的。不过，那个程度由谁来衡量的问题还留着。",
+            "en": "Yes. Though the question remains of who measures that degree."
+          },
+          {
+            "sp": "教授",
+            "ja": "よろしい。そこまで {自分|じぶん}で {問|と}い{直|なお}せれば {十分|じゅうぶん}です。{次回|じかい}までに {文章|ぶんしょう}に して ください。",
+            "zh": "很好。能自己追问到那一步就够了。下次之前写成文章。",
+            "en": "Good. Getting that far by questioning yourself is enough. Put it in writing by next time."
+          },
+          {
+            "sp": "李",
+            "ja": "{承知|しょうち}{致|いた}しました。",
+            "zh": "明白了。",
+            "en": "I will."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "必ずしも〜ない",
+        "explain_zh": "部分否定,「未必…、不一定…」。后面必须接否定。全部否定是「決して〜ない」,两者语气差别很大。",
+        "explain_en": "A partial negative — \"not necessarily\" — always followed by a negative, unlike the total 決して〜ない.",
+        "examples": [
+          "{高|たか}いから {必|かなら}ずしも いいとは {限|かぎ}らない。",
+          "{正|ただ}しいとは {必|かなら}ずしも {言|い}えない。"
+        ]
+      },
+      {
+        "pattern": "〜に 帰結する / 〜に 置き換える",
+        "explain_zh": "论说文的动词。「帰結する」是最终归结为,「置き換える」是换成另一种说法或框架来看。",
+        "explain_en": "The verbs of argument: to resolve finally into, and to recast in other terms.",
+        "examples": [
+          "{同|おな}じ {問題|もんだい}に {帰結|きけつ}する。",
+          "{程度|ていど}の {問題|もんだい}に {置|お}き{換|か}える。"
+        ]
+      },
+      {
+        "pattern": "〜こと 自体が",
+        "explain_zh": "「…这件事本身就…」。用来把前面的行为或判断本身当作讨论对象,论说文里常用于反省式的指摘。",
+        "explain_en": "\"The very fact of doing X\" — turning the act itself into the object of scrutiny.",
+        "examples": [
+          "{疑|うたが}う こと {自体|じたい}が {出発点|しゅっぱつてん}だ。",
+          "{聞|き}く こと {自体|じたい}が {失礼|しつれい}に なる {場合|ばあい}も ある。"
+        ]
+      },
+      {
+        "pattern": "〜とは、〜で ある（定義）",
+        "explain_zh": "下定义的句式。「Aとは、Bで ある」。论文的开头常用它来界定关键概念。",
+        "explain_en": "The defining frame of academic writing: \"By A is meant B\".",
+        "examples": [
+          "{思想|しそう}とは、{体系|たいけい}で ある。",
+          "{自由|じゆう}とは {何|なに}かを {問|と}う。"
+        ]
+      },
+      {
+        "pattern": "思想を論じる語彙",
+        "explain_zh": "「前提・概念・本質・論理・矛盾・認識・主観・客観・普遍的・相対的」。「〜的」接在汉语词后面构成形容动词,是论说文的基本构词法。",
+        "explain_en": "The vocabulary of philosophy; the suffix 〜的 turns a Sino-Japanese noun into a na-adjective.",
+        "examples": [
+          "{前提|ぜんてい}を {問|と}い{直|なお}す。",
+          "{相対的|そうたいてき}な {見方|みかた}"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{民主主義|みんしゅしゅぎ}の {根|ね}は、{選挙|せんきょ}で {代表|だいひょう}を {選|えら}ぶ {仕組|しく}みに ある。",
+            "zh": "民主主义的根，在于通过选举选出代表的机制。",
+            "en": "The root of democracy lies in choosing representatives by election."
+          },
+          {
+            "ja": "しかし {投票率|とうひょうりつ}が {下|さ}がり {続|つづ}ければ、{選|えら}ばれた {政権|せいけん}の {正当性|せいとうせい}は {薄|うす}く なって いく。",
+            "zh": "但投票率持续下降的话，当选政权的正当性就会越来越薄。",
+            "en": "But as turnout keeps falling, the legitimacy of the government elected grows thin."
+          },
+          {
+            "ja": "{公約|こうやく}が {守|まも}られたか どうかを {検証|けんしょう}する {習慣|しゅうかん}が {根付|ねづ}かなければ、{選挙|せんきょ}は {形|かたち}だけに なる。",
+            "zh": "如果不养成检验竞选承诺是否兑现的习惯，选举就只剩形式。",
+            "en": "Unless checking whether pledges were kept becomes a habit, elections become mere form."
+          },
+          {
+            "ja": "{法案|ほうあん}は {国会|こっかい}で {審議|しんぎ}され、{可決|かけつ}か {否決|ひけつ}かが {決|き}まる。",
+            "zh": "法案在国会审议，决定通过还是否决。",
+            "en": "A bill is debated in the Diet and either passed or rejected."
+          },
+          {
+            "ja": "{実際|じっさい}の {制度|せいど}{設計|せっけい}を {担|にな}うのは {官僚|かんりょう}で あり、{政治家|せいじか}が すべてを {決|き}めて いる わけでは ない。",
+            "zh": "实际承担制度设计的是官僚，并非政治家决定一切。",
+            "en": "It is officials who draft the actual machinery; politicians do not decide everything.",
+            "note_zh": "「〜わけでは ない」是部分否定,「并不是…」。用来否定一个过于简单的理解。",
+            "note_en": "〜わけではない denies an over-simple reading: \"it is not that…\"."
+          },
+          {
+            "ja": "{財政|ざいせい}が {厳|きび}しく なれば、{増税|ぞうぜい}か {歳出|さいしゅつ}の {削減|さくげん}か、どちらかを {選|えら}ばざるを {得|え}ない。",
+            "zh": "财政吃紧的话，增税还是削减支出，不得不选一个。",
+            "en": "When the finances tighten, it is tax rises or spending cuts — one or the other must be chosen."
+          },
+          {
+            "ja": "{透明性|とうめいせい}が {保|たも}たれ、{追及|ついきゅう}する {人|ひと}たちが {機能|きのう}して いて {初|はじ}めて、{汚職|おしょく}や {癒着|ゆちゃく}は {抑|おさ}えられる。",
+            "zh": "只有保持透明性、追究的一方发挥作用，腐败和勾结才能被抑制。",
+            "en": "Only where transparency holds and the scrutinisers do their work is corruption held down."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "記者",
+            "ja": "{今回|こんかい}の {法案|ほうあん}に ついて、{野党|やとう}の {反対|はんたい}を どう {受|う}け{止|と}めて いますか。",
+            "zh": "关于这次的法案，您怎么看待在野党的反对？",
+            "en": "How do you take the opposition's resistance to this bill?"
+          },
+          {
+            "sp": "議員",
+            "ja": "{批判|ひはん}は {当然|とうぜん}の {役割|やくわり}です。{審議|しんぎ}を {重|かさ}ねる ことが {国会|こっかい}の {仕事|しごと}です から。",
+            "zh": "批判是理所当然的职责。因为反复审议就是国会的工作。",
+            "en": "Criticism is their proper role. Debating it over and over is what the Diet is for."
+          },
+          {
+            "sp": "記者",
+            "ja": "とは いえ、{会期|かいき}は {限|かぎ}られて います。",
+            "zh": "话虽如此，会期有限。",
+            "en": "Even so, the session is limited."
+          },
+          {
+            "sp": "議員",
+            "ja": "ええ。{時間|じかん}を {理由|りゆう}に {議論|ぎろん}を {打|う}ち{切|き}る のは {避|さ}けたい と {考|かんが}えて おります。",
+            "zh": "是的。我认为想避免以时间为由中断讨论。",
+            "en": "Yes. I would want to avoid cutting off debate on grounds of time."
+          },
+          {
+            "sp": "記者",
+            "ja": "{修正|しゅうせい}に {応|おう}じる {用意|ようい}は。",
+            "zh": "有接受修正的准备吗？",
+            "en": "Are you prepared to accept amendments?"
+          },
+          {
+            "sp": "議員",
+            "ja": "{中身|なかみ}に よります。{筋|すじ}の {通|とお}った {指摘|してき}で あれば、{取|と}り{入|い}れる べきだ と {思|おも}います。",
+            "zh": "看内容。如果是说得通的指出，我认为应该采纳。",
+            "en": "It depends on the substance. Where the point is sound, it ought to be taken up.",
+            "note_zh": "「筋が 通る」是惯用语,「有道理、说得通」。否定是「筋が 通らない」。",
+            "note_en": "筋が通る — the thread runs through — meaning an argument holds together."
+          },
+          {
+            "sp": "記者",
+            "ja": "{支持率|しじりつ}の {低下|ていか}が {続|つづ}いて いますが。",
+            "zh": "支持率持续下降。",
+            "en": "Your approval ratings keep sliding."
+          },
+          {
+            "sp": "議員",
+            "ja": "{重|おも}く {受|う}け{止|と}めて おります。{数字|すうじ}は {国民|こくみん}の {声|こえ}です から。",
+            "zh": "我沉重地接受。因为数字就是国民的声音。",
+            "en": "We take that gravely. The numbers are the public's voice."
+          },
+          {
+            "sp": "記者",
+            "ja": "{辞任|じにん}の {可能性|かのうせい}に ついては。",
+            "zh": "关于辞任的可能性呢？",
+            "en": "And the possibility of resignation?"
+          },
+          {
+            "sp": "議員",
+            "ja": "{今|いま}は {政策|せいさく}を {前|まえ}に {進|すす}める こと、それだけを {考|かんが}えて おります。",
+            "zh": "现在只考虑把政策向前推进这一件事。",
+            "en": "Right now I am thinking only of carrying the policy forward."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜わけでは ない",
+        "explain_zh": "部分否定,「并不是…」。用来否定一个过于简单或极端的理解,留下中间的余地。",
+        "explain_en": "\"It is not that…\" — denying an over-simple or absolute reading while leaving room in between.",
+        "examples": [
+          "{反対|はんたい}して いる わけでは ありません。",
+          "{全|すべ}てが {悪|わる}い わけでは ない。"
+        ]
+      },
+      {
+        "pattern": "〜ざるを 得ない",
+        "explain_zh": "「不得不…」,带有无奈。书面语。「する」变成「せざるを 得ない」。",
+        "explain_en": "\"Have no choice but to\", reluctantly; する gives せざるを得ない.",
+        "examples": [
+          "{選|えら}ばざるを {得|え}ない。",
+          "{認|みと}めざるを {得|え}ません。"
+        ]
+      },
+      {
+        "pattern": "〜て 初めて",
+        "explain_zh": "「只有…之后才…」。强调前项是不可缺的条件。政治和制度的论述里常用来说明前提。",
+        "explain_en": "\"Only once\" — marking the indispensable precondition.",
+        "examples": [
+          "{機能|きのう}して {初|はじ}めて {意味|いみ}が ある。",
+          "{使|つか}って {初|はじ}めて {分|わ}かる。"
+        ]
+      },
+      {
+        "pattern": "〜に よります / 〜次第です",
+        "explain_zh": "「取决于…、看情况」。会见和议论里用来避免立刻表态,是一种有礼貌的保留。",
+        "explain_en": "\"It depends\" — a courteous way of not committing on the spot.",
+        "examples": [
+          "{中身|なかみ}に よります。",
+          "{結果|けっか}{次第|しだい}です。"
+        ]
+      },
+      {
+        "pattern": "政治の語彙",
+        "explain_zh": "「政権・与党・野党・審議・可決・否決・官僚・財政・支持率・汚職・癒着」。「追及する」是追究责任,和「追求する」(追求)读音相同但意思不同。",
+        "explain_en": "Political vocabulary. 追及する (to press for accountability) and 追求する (to pursue) sound alike but differ.",
+        "examples": [
+          "{責任|せきにん}を {追及|ついきゅう}する。",
+          "{法案|ほうあん}が {可決|かけつ}された。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{外交|がいこう}とは、{武力|ぶりょく}に {頼|たよ}らずに {国益|こくえき}を {守|まも}る ための {技術|ぎじゅつ}で ある。",
+            "zh": "所谓外交，是不依靠武力而守护国家利益的技术。",
+            "en": "Diplomacy is the art of defending national interest without force."
+          },
+          {
+            "ja": "{首脳|しゅのう}{会談|かいだん}の {裏|うら}には、{長|なが}い {実務|じつむ}レベルの {交渉|こうしょう}が {積|つ}み{重|かさ}なって いる。",
+            "zh": "首脑会谈的背后，积累着漫长的实务级别谈判。",
+            "en": "Behind a summit lie months of accumulated working-level talks."
+          },
+          {
+            "ja": "{協定|きょうてい}や {条約|じょうやく}は、{締結|ていけつ}して {終|お}わりでは なく、{批准|ひじゅん}と {履行|りこう}が あって {初|はじ}めて {意味|いみ}を {持|も}つ。",
+            "zh": "协定和条约不是缔结就完了，伴随批准与履行才有意义。",
+            "en": "A treaty does not end at signature; only ratification and performance give it meaning."
+          },
+          {
+            "ja": "{対立|たいりつ}が {深|ふか}まれば {制裁|せいさい}が {科|か}され、{交渉|こうしょう}が {決裂|けつれつ}すれば {緊張|きんちょう}は {一気|いっき}に {高|たか}まる。",
+            "zh": "对立加深则施以制裁，谈判破裂则紧张一下子升高。",
+            "en": "As antagonism deepens sanctions follow, and when talks break down tension spikes."
+          },
+          {
+            "ja": "{第三国|だいさんごく}や {国際機関|こくさいきかん}の {仲介|ちゅうかい}が {和平|わへい}の {出発点|しゅっぱつてん}に なる ことも ある。",
+            "zh": "第三国或国际机构的斡旋，有时会成为和平的起点。",
+            "en": "Mediation by a third state or an international body can provide the starting point for peace."
+          },
+          {
+            "ja": "{相互依存|そうごいぞん}が {深|ふか}まった {今日|こんにち}、{完全|かんぜん}に {孤立|こりつ}して {生|い}きて いける {国|くに}は ない。",
+            "zh": "在相互依存加深的今天，没有能完全孤立地生存下去的国家。",
+            "en": "In today's web of interdependence, no state can live in complete isolation."
+          },
+          {
+            "ja": "{依然|いぜん}として {領土|りょうど}や {主権|しゅけん}を めぐる {紛争|ふんそう}は {絶|た}えないが、{対話|たいわ}を {閉|と}ざさない こと、それ しか {道|みち}は ない で あろう。",
+            "zh": "围绕领土和主权的纷争依然不断，但不关上对话之门，大概只有这一条路。",
+            "en": "Disputes over territory and sovereignty persist, yet keeping dialogue open is surely the one road left.",
+            "note_zh": "「〜を めぐる」是「围绕…的」,修饰名词。动词形是「〜を めぐって」。",
+            "note_en": "〜をめぐる modifies a noun (\"concerning\"); the verbal form is 〜をめぐって."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "記者",
+            "ja": "{今回|こんかい}の {会談|かいだん}の {成果|せいか}を どう {評価|ひょうか}されますか。",
+            "zh": "您如何评价这次会谈的成果？",
+            "en": "How do you assess the outcome of this round of talks?"
+          },
+          {
+            "sp": "外交官",
+            "ja": "{合意|ごうい}に {至|いた}った {点|てん}が {三|みっ}つ、{持|も}ち{越|こ}された {点|てん}が {二|ふた}つ、と いう ところです。",
+            "zh": "达成一致的有三点，留待下次的有两点。",
+            "en": "Three points agreed, two carried over — that is where we stand."
+          },
+          {
+            "sp": "記者",
+            "ja": "{持|も}ち{越|こ}された {二|ふた}つは、{最|もっと}も {重|おも}い {議題|ぎだい}では ありませんか。",
+            "zh": "留待下次的两点，不正是最重的议题吗？",
+            "en": "Are those two not the heaviest items on the table?"
+          },
+          {
+            "sp": "外交官",
+            "ja": "{否定|ひてい}は {致|いた}しません。ただ、{今回|こんかい} {対話|たいわ}の {枠組|わくぐ}みを {維持|いじ}できた こと {自体|じたい}に {意味|いみ}が あります。",
+            "zh": "我不否认。不过这次能维持对话框架本身就有意义。",
+            "en": "I won't deny it. But keeping the framework of dialogue alive has value in itself."
+          },
+          {
+            "sp": "記者",
+            "ja": "{制裁|せいさい}の {解除|かいじょ}に ついては。",
+            "zh": "关于解除制裁呢？",
+            "en": "And lifting the sanctions?"
+          },
+          {
+            "sp": "外交官",
+            "ja": "{現段階|げんだんかい}で {申|もう}し{上|あ}げられる ことは ございません。",
+            "zh": "现阶段没有可以奉告的。",
+            "en": "There is nothing I can say at this stage.",
+            "note_zh": "「〜ことは ございません」是最郑重的否定。会见里用来回避回答,不失礼但也不透露。",
+            "note_en": "The most formal of refusals — declining to answer without giving offence."
+          },
+          {
+            "sp": "記者",
+            "ja": "{同盟国|どうめいこく}との {歩調|ほちょう}は {合|あ}って いますか。",
+            "zh": "和同盟国的步调一致吗？",
+            "en": "Are you in step with your allies?"
+          },
+          {
+            "sp": "外交官",
+            "ja": "{緊密|きんみつ}に {連携|れんけい}して おります。{立場|たちば}の {違|ちが}いが ない とは {申|もう}しませんが、{方向|ほうこう}は {一致|いっち}して います。",
+            "zh": "在紧密协作。不是说没有立场差异，但方向是一致的。",
+            "en": "We are closely coordinated. I won't say there are no differences of position, but the direction is shared."
+          },
+          {
+            "sp": "記者",
+            "ja": "{次回|じかい}の {見通|みとお}しは。",
+            "zh": "下次的预期呢？",
+            "en": "What is the outlook for the next round?"
+          },
+          {
+            "sp": "外交官",
+            "ja": "{日程|にってい}は {調整|ちょうせい}{中|ちゅう}です。{対話|たいわ}を {続|つづ}ける、それが {現時点|げんじてん}の {最|もっと}も {確|たし}かな {答|こた}えです。",
+            "zh": "日程在调整中。继续对话，这是现时点最确定的回答。",
+            "en": "Dates are being arranged. We keep talking — that is the surest answer I have today."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜を めぐる / 〜を めぐって",
+        "explain_zh": "「围绕…(的)」。「めぐる」修饰名词,「めぐって」接动词。多用于争论、纷争、议论的对象。",
+        "explain_en": "\"Concerning, surrounding\" — めぐる before a noun, めぐって before a verb. The language of contention.",
+        "examples": [
+          "{領土|りょうど}を めぐる {紛争|ふんそう}",
+          "その {件|けん}を めぐって {議論|ぎろん}が {続|つづ}いた。"
+        ]
+      },
+      {
+        "pattern": "依然として",
+        "explain_zh": "「依然、仍旧」。表示情况没有改变,多用于负面的持续。报道和论说文里常用。",
+        "explain_en": "\"Still, as ever\" — marking an unchanged, usually unwelcome, state. Common in reportage.",
+        "examples": [
+          "{依然|いぜん}として {不透明|ふとうめい}です。",
+          "{依然|いぜん}として {解決|かいけつ}して いない。"
+        ]
+      },
+      {
+        "pattern": "〜ないとは 申しませんが",
+        "explain_zh": "郑重地承认有例外,「不是说没有…」。先承认再强调主要的方向,是外交辞令的典型做法。",
+        "explain_en": "\"I would not say there is none\" — conceding the exception before restating the main line. Pure diplomacy.",
+        "examples": [
+          "{問題|もんだい}が ないとは {申|もう}しません。",
+          "{難|むずか}しくないとは {言|い}えません。"
+        ]
+      },
+      {
+        "pattern": "〜こと 自体に 意味が ある",
+        "explain_zh": "「这件事本身就有意义」。用来在成果不足时，把价值放在行为本身上。",
+        "explain_en": "Shifts the value onto the act itself when the outcome falls short.",
+        "examples": [
+          "{続|つづ}ける こと {自体|じたい}に {意味|いみ}が ある。",
+          "{会|あ}う こと {自体|じたい}が {目的|もくてき}でした。"
+        ]
+      },
+      {
+        "pattern": "外交の語彙",
+        "explain_zh": "「首脳会談・協定・条約・批准・制裁・仲介・和平・主権・国益・相互依存」。「歩調を 合わせる」是「步调一致」,用于同盟和合作。",
+        "explain_en": "Diplomatic vocabulary; 歩調を合わせる — to march in step — is said of allies.",
+        "examples": [
+          "{同盟国|どうめいこく}と {歩調|ほちょう}を {合|あ}わせる。",
+          "{条約|じょうやく}を {批准|ひじゅん}する。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 7,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{経営|けいえい}とは、{限|かぎ}られた {資源|しげん}を どこに {配|くば}るかを {決|き}め{続|つづ}ける {営|いとな}みで ある。",
+            "zh": "所谓经营，是不断决定把有限资源配置到何处的活动。",
+            "en": "Management is the continuous business of deciding where limited resources go."
+          },
+          {
+            "ja": "{企業理念|きぎょうりねん}が {明確|めいかく}で なければ、{経営戦略|けいえいせんりゃく}は その{場|ば}しのぎに なる。",
+            "zh": "企业理念不明确的话，经营战略就会变成临时应付。",
+            "en": "Without a clear corporate philosophy, strategy degenerates into expedients.",
+            "note_zh": "「その場しのぎ」是惯用语,「临时凑合、权宜之计」,带有批评的语气。",
+            "note_en": "その場しのぎ is a makeshift — a stopgap, said with disapproval."
+          },
+          {
+            "ja": "{収益|しゅうえき}を {上|あ}げる {方法|ほうほう}は、{売上|うりあげ}を {伸|の}ばすか、コストを {削減|さくげん}するかの {二|ふた}つしか ない。",
+            "zh": "提高收益的方法，只有增加销售额或削减成本两种。",
+            "en": "There are only two ways to raise profit: grow revenue or cut cost."
+          },
+          {
+            "ja": "{人件費|じんけんひ}を {削|けず}れば {短期|たんき}の {数字|すうじ}は {良|よ}く なるが、{人材|じんざい}が {育|そだ}たなく なる。",
+            "zh": "削减人事费短期数字会好看，但人才就培养不起来了。",
+            "en": "Cutting the wage bill flatters the short-term numbers while starving the talent pipeline."
+          },
+          {
+            "ja": "{年功序列|ねんこうじょれつ}と {終身雇用|しゅうしんこよう}が {崩|くず}れ、{成果主義|せいかしゅぎ}へ {移|うつ}る {動|うご}きは {今|いま}も {続|つづ}いて いる。",
+            "zh": "年功序列和终身雇用瓦解，向成果主义转移的动向至今仍在持续。",
+            "en": "Seniority pay and lifetime employment have crumbled, and the shift to performance pay continues."
+          },
+          {
+            "ja": "もっとも、{評価制度|ひょうかせいど}が {公正|こうせい}で なければ、{成果主義|せいかしゅぎ}は {不信|ふしん}を {生|う}む だけで ある。",
+            "zh": "不过，评价制度不公正的话，成果主义只会产生不信任。",
+            "en": "That said, where the appraisal system is unfair, performance pay breeds only distrust."
+          },
+          {
+            "ja": "{組織|そしき}を {動|うご}かすのは {制度|せいど}では なく、{制度|せいど}を {運用|うんよう}する {人|ひと}で ある と いう {点|てん}は、いつの {時代|じだい}も {変|か}わらない。",
+            "zh": "推动组织的不是制度，而是运用制度的人——这一点哪个时代都不变。",
+            "en": "What moves an organisation is not the system but the people who run it — and that never changes."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "役員",
+            "ja": "{李|り}さん、{来期|らいき}の {事業|じぎょう}{計画|けいかく}、{要点|ようてん}を {聞|き}かせて ください。",
+            "zh": "小李，下期的事业计划，说说要点。",
+            "en": "Li, let me hear the essentials of next term's plan."
+          },
+          {
+            "sp": "李",
+            "ja": "はい。{三|みっ}つに して ご{説明|せつめい}します。",
+            "zh": "好。我归成三点来说明。",
+            "en": "Certainly. I'll put it under three heads."
+          },
+          {
+            "sp": "役員",
+            "ja": "どうぞ。",
+            "zh": "请。",
+            "en": "Go ahead."
+          },
+          {
+            "sp": "李",
+            "ja": "{一|いち}つ{目|め}は {設備投資|せつびとうし}です。{老朽化|ろうきゅうか}した {機械|きかい}の {更新|こうしん}が {生産性|せいさんせい}に {直結|ちょっけつ}します。",
+            "zh": "第一是设备投资。老化机器的更新直接关系到生产性。",
+            "en": "First, capital investment. Replacing the ageing machines bears directly on productivity."
+          },
+          {
+            "sp": "役員",
+            "ja": "{回収|かいしゅう}の {見込|みこ}みは。",
+            "zh": "回收的预期呢？",
+            "en": "And the payback?"
+          },
+          {
+            "sp": "李",
+            "ja": "{四年|よねん}を {見込|みこ}んで おります。{二|ふた}つ{目|め}は {人材育成|じんざいいくせい}。{三|みっ}つ{目|め}は {海外|かいがい}{提携|ていけい}です。",
+            "zh": "预计四年。第二是人才培养。第三是海外合作。",
+            "en": "Four years. Second, developing people. Third, an overseas tie-up."
+          },
+          {
+            "sp": "役員",
+            "ja": "{三|みっ}つ{目|め}は {早|はや}すぎるのでは ありませんか。",
+            "zh": "第三点是不是为时尚早？",
+            "en": "Isn't the third premature?"
+          },
+          {
+            "sp": "李",
+            "ja": "ご{指摘|してき}は ごもっともです。ただ、{競合|きょうごう}は すでに {動|うご}いて おり、{待|ま}てば {条件|じょうけん}は {悪|わる}く なる{一方|いっぽう}かと。",
+            "zh": "您的指出很有道理。不过竞争对手已经在动，等下去条件只会越来越差。",
+            "en": "A fair point. But competitors are already moving, and waiting will only worsen the terms.",
+            "note_zh": "「ごもっともです」是郑重地承认对方说得对。先接受再反驳,是商务讨论的基本姿态。",
+            "note_en": "ごもっともです concedes the point formally — accept first, then push back."
+          },
+          {
+            "sp": "役員",
+            "ja": "なるほど。では、{提携|ていけい}は {調査|ちょうさ}{段階|だんかい}までを {今期|こんき}に {前倒|まえだお}しし、{判断|はんだん}は {来期|らいき}に {委|ゆだ}ねましょう。",
+            "zh": "原来如此。那么，合作把调查阶段提前到本期，判断交给下期。",
+            "en": "I see. Then bring the exploratory stage forward into this term, and leave the decision to next."
+          },
+          {
+            "sp": "李",
+            "ja": "{承知|しょうち}{致|いた}しました。その{線|せん}で {練|ね}り{直|なお}します。",
+            "zh": "明白了。我按那个方向重新梳理。",
+            "en": "Understood. I'll rework it along those lines."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜とは、〜で ある",
+        "explain_zh": "下定义。论说文和商务文书里用来先界定概念,再展开论述。「〜と いうのは」是口语形式。",
+        "explain_en": "The defining frame; 〜というのは is its spoken counterpart.",
+        "examples": [
+          "{経営|けいえい}とは {決断|けつだん}の {連続|れんぞく}で ある。",
+          "{責任|せきにん}とは {何|なに}かを {考|かんが}える。"
+        ]
+      },
+      {
+        "pattern": "〜しか ない",
+        "explain_zh": "「只有…」,表示没有别的选项。「〜ほか ない」更书面。「二つしか ない」是数量上的限定。",
+        "explain_en": "\"There is only\" — limiting the options; 〜ほかない is the bookish version.",
+        "examples": [
+          "{方法|ほうほう}は {二|ふた}つしか ない。",
+          "{待|ま}つしか ありません。"
+        ]
+      },
+      {
+        "pattern": "〜は 〜では なく、〜で ある",
+        "explain_zh": "先否定一个说法,再提出正确的。论说文里用来纠正常见的误解,语气有力。",
+        "explain_en": "Denies one account and substitutes another — the rhetoric of correcting a common error.",
+        "examples": [
+          "{問題|もんだい}は {制度|せいど}では なく {運用|うんよう}で ある。",
+          "{原因|げんいん}は {技術|ぎじゅつ}では なく {人|ひと}に ある。"
+        ]
+      },
+      {
+        "pattern": "ごもっともです / ご指摘の とおりです",
+        "explain_zh": "商务讨论里先承认对方有理的说法。先接受再提出不同看法,是日本职场议论的基本节奏。",
+        "explain_en": "Concede first, then qualify — the basic rhythm of disagreement in a Japanese workplace.",
+        "examples": [
+          "ご{指摘|してき}の とおりです。",
+          "おっしゃる ことは ごもっともです。"
+        ]
+      },
+      {
+        "pattern": "経営の語彙",
+        "explain_zh": "「経営戦略・企業理念・収益・コスト削減・人材育成・成果主義・年功序列・終身雇用」。「委ねる」是把判断或权限交给别人,比「任せる」更正式。",
+        "explain_en": "Management vocabulary; 委ねる entrusts a decision, more formally than 任せる.",
+        "examples": [
+          "{判断|はんだん}を {現場|げんば}に {委|ゆだ}ねる。",
+          "コスト{削減|さくげん}に {取|と}り{組|く}む。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{金融|きんゆう}とは、{余|あま}って いる ところから {足|た}りない ところへ お{金|かね}を {流|なが}す {仕組|しく}みで ある。",
+            "zh": "所谓金融，是把钱从有余的地方流向不足的地方的机制。",
+            "en": "Finance is the machinery that moves money from where it is surplus to where it is short."
+          },
+          {
+            "ja": "{中央銀行|ちゅうおうぎんこう}は {金利|きんり}を {上|あ}げ{下|さ}げする ことで、{通貨|つうか}の {量|りょう}と {景気|けいき}を {調整|ちょうせい}しようと {試|こころ}みる。",
+            "zh": "中央银行通过升降利率，试图调节货币量和景气。",
+            "en": "The central bank raises and lowers rates to try to steer the money supply and the cycle."
+          },
+          {
+            "ja": "{金利|きんり}が {上|あ}がれば {債券|さいけん}の {利回|りまわ}りも {上|あ}がり、{株式|かぶしき}から {資金|しきん}が {移|うつ}りやすく なる。",
+            "zh": "利率上升则债券的收益率也上升，资金容易从股票转移。",
+            "en": "When rates rise, bond yields rise with them and money tends to shift out of equities."
+          },
+          {
+            "ja": "{投資|とうし}と {投機|とうき}の {境|さかい}は {曖昧|あいまい}だが、{根拠|こんきょ}の ない {値上|ねあ}がりへの {期待|きたい}だけで {買|か}う のは {後者|こうしゃ}で あろう。",
+            "zh": "投资与投机的界线暧昧，但仅凭对无根据的涨价的期待就买入，大概属于后者。",
+            "en": "The line between investing and speculating is blurred, but buying on groundless hope of a rise is surely the latter.",
+            "note_zh": "「前者・後者」用来指代前面提到的两项。论说文里避免重复时常用。",
+            "note_en": "前者 and 後者 refer back to two items just named, sparing repetition."
+          },
+          {
+            "ja": "バブルの {時期|じき}には、{誰|だれ}もが {高騰|こうとう}は {続|つづ}くと {信|しん}じる。{暴落|ぼうらく}して {初|はじ}めて、{皆|みな}が {我|われ}に {返|かえ}る。",
+            "zh": "泡沫时期，人人都相信高涨会持续。直到暴跌，大家才回过神来。",
+            "en": "In a bubble everyone believes the climb will last. Only when it collapses do they come to their senses."
+          },
+          {
+            "ja": "{分散投資|ぶんさんとうし}が {勧|すす}められる のは、{未来|みらい}を {正確|せいかく}に {予測|よそく}できる {人|ひと}が いない からで ある。",
+            "zh": "之所以推荐分散投资，是因为没有人能准确预测未来。",
+            "en": "Diversification is recommended precisely because nobody can forecast the future accurately."
+          },
+          {
+            "ja": "{元本割|がんぽんわ}れの {可能性|かのうせい}を {引|ひ}き{受|う}けられない {資金|しきん}は、そもそも {投|とう}じる べきでは ない。",
+            "zh": "承受不了本金亏损可能性的资金，本来就不该投入。",
+            "en": "Money that cannot bear the possibility of loss should never have been put in to begin with."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "顧客",
+            "ja": "{退職金|たいしょくきん}の {運用|うんよう}を {考|かんが}えて いるのですが。",
+            "zh": "我在考虑退休金的运用。",
+            "en": "I'm thinking about what to do with my retirement money."
+          },
+          {
+            "sp": "李",
+            "ja": "ありがとうございます。まず、いつ {使|つか}う ご{予定|よてい}の {資金|しきん}かを {伺|うかが}えますか。",
+            "zh": "谢谢。首先，能请教是预定什么时候用的资金吗？",
+            "en": "Thank you. First, may I ask when you expect to need it?"
+          },
+          {
+            "sp": "顧客",
+            "ja": "{半分|はんぶん}は {当面|とうめん} {使|つか}いません。{残|のこ}りは {数年|すうねん}{以内|いない}に。",
+            "zh": "一半暂时不用。剩下的在几年以内。",
+            "en": "Half I won't touch for now. The rest within a few years."
+          },
+          {
+            "sp": "李",
+            "ja": "では、その {二|ふた}つは {分|わ}けて {考|かんが}える べきです。{数年|すうねん}{以内|いない}に {使|つか}う {資金|しきん}で リスクを {取|と}るのは {勧|すす}められません。",
+            "zh": "那么这两部分该分开考虑。几年内要用的资金去承担风险，我不建议。",
+            "en": "Then the two should be treated separately. I would not advise taking risk with money needed within a few years."
+          },
+          {
+            "sp": "顧客",
+            "ja": "{利回|りまわ}りの {高|たか}い {商品|しょうひん}を {勧|すす}められた ことが あるのですが。",
+            "zh": "有人向我推荐过收益率高的产品。",
+            "en": "Someone recommended a high-yield product to me."
+          },
+          {
+            "sp": "李",
+            "ja": "{利回|りまわ}りが {高|たか}い と いう ことは、それだけ リスクも {高|たか}い と いう ことです。{例外|れいがい}は ありません。",
+            "zh": "收益率高，就意味着风险同样高。没有例外。",
+            "en": "A high yield means a correspondingly high risk. There are no exceptions.",
+            "note_zh": "「〜と いう ことは、〜と いう ことです」是解释实质的句式。这里用来点破常识。",
+            "note_en": "The defining frame used here to spell out an uncomfortable truth."
+          },
+          {
+            "sp": "顧客",
+            "ja": "{元本|がんぽん}は {保証|ほしょう}されると {聞|き}きました。",
+            "zh": "听说本金有保证。",
+            "en": "I was told the principal was guaranteed."
+          },
+          {
+            "sp": "李",
+            "ja": "{条件|じょうけん}{付|つ}きで あろう か と {思|おも}います。{契約|けいやく}{書|しょ}の {注意|ちゅうい}{書|が}きを {一緒|いっしょ}に {確|たし}かめましょう。",
+            "zh": "我想大概是附条件的。我们一起确认合同书的注意事项吧。",
+            "en": "I suspect with conditions attached. Let us look at the small print together."
+          },
+          {
+            "sp": "顧客",
+            "ja": "お{願|ねが}いします。",
+            "zh": "拜托了。",
+            "en": "Please."
+          },
+          {
+            "sp": "李",
+            "ja": "{急|いそ}ぐ {必要|ひつよう}は ございません。{分|わ}からない まま {投|とう}じる のが、{一番|いちばん} {損|そん}を します。",
+            "zh": "不需要着急。在不明白的状态下投入，损失最大。",
+            "en": "There is no need to hurry. Putting money in without understanding is the surest way to lose it."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "前者 / 後者",
+        "explain_zh": "指代前面列举的两项中的第一个和第二个。论说文里用来避免重复,口语里很少用。",
+        "explain_en": "\"The former\" and \"the latter\" — a device of written argument, rare in speech.",
+        "examples": [
+          "{前者|ぜんしゃ}を {採|と}るべきだ。",
+          "{後者|こうしゃ}の ほうが {現実的|げんじつてき}で ある。"
+        ]
+      },
+      {
+        "pattern": "〜のは 〜から で ある",
+        "explain_zh": "先提出结论,再说明理由。「〜のは」把前项名词化并提示为主题,「〜からで ある」给出原因。论说文的基本句式。",
+        "explain_en": "Conclusion first, reason second — the backbone sentence of expository writing.",
+        "examples": [
+          "{勧|すす}められるのは、{予測|よそく}できない からで ある。",
+          "{難|むずか}しいのは、{例外|れいがい}が {多|おお}い からです。"
+        ]
+      },
+      {
+        "pattern": "そもそも",
+        "explain_zh": "「本来、根本上」。用来把话题拉回最初的前提,常带有「这件事从一开始就不成立」的语气。",
+        "explain_en": "\"To begin with\" — pulling the discussion back to first premises, often to say it never held up.",
+        "examples": [
+          "そもそも {無理|むり}な {話|はなし}です。",
+          "そもそもの {原因|げんいん}は そこに ある。"
+        ]
+      },
+      {
+        "pattern": "〜て 初めて",
+        "explain_zh": "「只有…之后才…」。这里用来描写事后才醒悟的情形,带有讽刺。",
+        "explain_en": "\"Only when\" — here with a touch of irony about hindsight.",
+        "examples": [
+          "{暴落|ぼうらく}して {初|はじ}めて {気|き}が {付|つ}く。",
+          "{失|うしな}って {初|はじ}めて {分|わ}かる。"
+        ]
+      },
+      {
+        "pattern": "金融の語彙",
+        "explain_zh": "「金利・為替相場・債券・配当・利回り・資産・負債・担保・元本・分散投資」。「元本割れ」是跌破本金,投资说明里的关键词。",
+        "explain_en": "Financial vocabulary; 元本割れ — falling below principal — is the key warning term.",
+        "examples": [
+          "{元本割|がんぽんわ}れの {恐|おそ}れが あります。",
+          "{分散投資|ぶんさんとうし}を {勧|すす}めます。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 9,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{日本|にほん}の {製造業|せいぞうぎょう}は、{高|たか}い {技能|ぎのう}と {精緻|せいち}な {品質管理|ひんしつかんり}で {競争力|きょうそうりょく}を {保|たも}って きた。",
+            "zh": "日本的制造业，靠高超的技能和精细的品质管理保持着竞争力。",
+            "en": "Japanese manufacturing has kept its edge through high skill and meticulous quality control."
+          },
+          {
+            "ja": "{生産|せいさん}ラインの {各|かく}{工程|こうてい}で {検品|けんぴん}を {重|かさ}ね、{不良品|ふりょうひん}を {後|あと}の {工程|こうてい}へ {流|なが}さない。",
+            "zh": "在生产线的各工序反复检品，不把不良品流向后道工序。",
+            "en": "Inspection is repeated at every stage so that no defective part passes downstream."
+          },
+          {
+            "ja": "{歩留|ぶど}まりを {上|あ}げる ことは、そのまま コストの {削減|さくげん}に つながる。",
+            "zh": "提高成品率，直接关系到成本削减。",
+            "en": "Raising the yield translates directly into lower cost."
+          },
+          {
+            "ja": "もっとも、{人件費|じんけんひ}の {安|やす}い {国|くに}へ {生産|せいさん}が {移|うつ}り、{国内|こくない}の {空洞化|くうどうか}が {進|すす}んだ {時期|じき}も あった。",
+            "zh": "不过，也有过生产转移到人事费低廉的国家、国内空洞化加剧的时期。",
+            "en": "There was, to be sure, a period when production moved to cheaper countries and the domestic base hollowed out."
+          },
+          {
+            "ja": "{近年|きんねん}は {供給網|きょうきゅうもう}が {切|き}れる ことを {経験|けいけん}し、{国内|こくない}{回帰|かいき}を {検討|けんとう}する {企業|きぎょう}も {現|あらわ}れて いる。",
+            "zh": "近年经历了供应网被切断，也出现了研究回归国内的企业。",
+            "en": "Having lived through supply chains breaking, some firms are now weighing a return home."
+          },
+          {
+            "ja": "{自動化|じどうか}が {進|すす}めば {生産性|せいさんせい}は {上|あ}がるが、{熟練|じゅくれん}の {技|わざ}を どう {受|う}け{継|つ}ぐ かと いう {問題|もんだい}が {残|のこ}る。",
+            "zh": "自动化推进则生产性提高，但熟练技艺如何传承的问题还留着。",
+            "en": "Automation lifts productivity, yet the question of passing on skilled craft remains."
+          },
+          {
+            "ja": "{設計図|せっけいず}には {書|か}けない {勘|かん}を、どう {次|つぎ}の {世代|せだい}へ {渡|わた}すか——それが {現場|げんば}の {最|もっと}も {重|おも}い {課題|かだい}で あろう。",
+            "zh": "设计图上写不出的直觉，如何交给下一代——那大概是现场最沉重的课题。",
+            "en": "How to hand on the intuition no drawing can record — that is the heaviest task on the shop floor.",
+            "note_zh": "「勘」是靠经验积累的直觉判断,技术传承的议论里是个关键词。",
+            "note_en": "勘 — the intuition built from long experience — is the key word in debates about passing on craft."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "工場長",
+            "ja": "{李|り}さん、{今月|こんげつ}の {稼働率|かどうりつ}は どうでしたか。",
+            "zh": "小李，这个月的开工率怎么样？",
+            "en": "Li, how was the utilisation rate this month?"
+          },
+          {
+            "sp": "李",
+            "ja": "92パーセントです。{先月|せんげつ}より 3ポイント {上|あ}がりました。",
+            "zh": "92%。比上月提高了3个百分点。",
+            "en": "Ninety-two percent, three points up on last month."
+          },
+          {
+            "sp": "工場長",
+            "ja": "いい {数字|すうじ}だ。{歩留|ぶど}まりは。",
+            "zh": "是好数字。成品率呢？",
+            "en": "Good figure. And the yield?"
+          },
+          {
+            "sp": "李",
+            "ja": "そちらは {伸|の}びて おりません。{第三|だいさん}{工程|こうてい}で {不良|ふりょう}が {集中|しゅうちゅう}して いて。",
+            "zh": "那边没有提高。不良集中在第三工序。",
+            "en": "That has not moved. The defects are concentrated at the third stage.",
+            "note_zh": "「〜て おります」是「〜て います」的谦让形。向上级报告时整段都用这一套。",
+            "note_en": "〜ております is the humble 〜ています — the register of reporting to a superior."
+          },
+          {
+            "sp": "工場長",
+            "ja": "{原因|げんいん}は {特定|とくてい}できて いますか。",
+            "zh": "原因确定了吗？",
+            "en": "Have you pinned down the cause?"
+          },
+          {
+            "sp": "李",
+            "ja": "{部品|ぶひん}の {大|おお}きさの ばらつきだ と {見|み}て おります。{下請|したう}けの {工場|こうじょう}と {規格|きかく}を {見直|みなお}したいのですが。",
+            "zh": "我认为是零件大小的波动。想和下包工厂重新审视规格。",
+            "en": "I believe it's variation in the part sizes. I'd like to revisit the spec with the subcontractor."
+          },
+          {
+            "sp": "工場長",
+            "ja": "{妥当|だとう}でしょう。ただ、{規格|きかく}を {厳|きび}しく すれば、{先方|せんぽう}の コストが {上|あ}がります。",
+            "zh": "是妥当的。不过规格收紧的话，对方的成本会上升。",
+            "en": "Reasonable. Though a tighter spec raises their cost."
+          },
+          {
+            "sp": "李",
+            "ja": "そこは {納期|のうき}を {延|の}ばす ことで {調整|ちょうせい}できないか、{打診|だしん}して みます。",
+            "zh": "那点我试探一下能不能用延长交货期来调整。",
+            "en": "I'll sound them out on whether a longer lead time could offset it.",
+            "note_zh": "「打診する」原意是医学上的叩诊,引申为「试探对方的意向」。商务场合常用。",
+            "note_en": "打診する — originally medical percussion — means to sound someone out."
+          },
+          {
+            "sp": "工場長",
+            "ja": "それが いい。{一方的|いっぽうてき}に {押|お}し{付|つ}ければ、{品質|ひんしつ}は かえって {落|お}ちます。",
+            "zh": "那样好。单方面强加的话，品质反而会下降。",
+            "en": "Good. Impose it one-sidedly and quality will fall, not rise."
+          },
+          {
+            "sp": "李",
+            "ja": "{承知|しょうち}{致|いた}しました。{来週|らいしゅう}{訪|たず}ねて {参|まい}ります。",
+            "zh": "明白了。下周去拜访。",
+            "en": "Understood. I'll go and see them next week."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜に つながる",
+        "explain_zh": "「关系到…、导致…」。主语是原因,后项是结果。多用于正面或中性的结果,负面时也说「〜を 招く」。",
+        "explain_en": "\"Leads to\" — cause to consequence; for bad outcomes 〜を招く is the usual choice.",
+        "examples": [
+          "コストの {削減|さくげん}に つながる。",
+          "{事故|じこ}に つながる {恐|おそ}れが ある。"
+        ]
+      },
+      {
+        "pattern": "〜と 見て おります / 〜と 見られる",
+        "explain_zh": "「认为是…」。比「思います」客观,用于基于数据和观察的判断。报道里常用被动的「〜と 見られる」。",
+        "explain_en": "\"We assess that\" — more objective than 思います, resting on data; news uses the passive 〜と見られる.",
+        "examples": [
+          "{原因|げんいん}は {部品|ぶひん}だ と {見|み}て おります。",
+          "{回復|かいふく}は {来年|らいねん}に なる と {見|み}られる。"
+        ]
+      },
+      {
+        "pattern": "〜ことで / 〜ことに よって",
+        "explain_zh": "表示手段,「通过…」。「納期を 延ばす ことで 調整する」=通过延长交货期来调整。书面语。",
+        "explain_en": "States the means: \"by doing\". 〜ことによって is the heavier variant.",
+        "examples": [
+          "{自動化|じどうか}する ことで コストを {下|さ}げる。",
+          "{話|はな}し{合|あ}う ことに よって {解決|かいけつ}した。"
+        ]
+      },
+      {
+        "pattern": "かえって",
+        "explain_zh": "「反而」,表示结果和预料相反。论说和劝告里用来指出好心办坏事的可能。",
+        "explain_en": "\"On the contrary\" — flagging that the intended effect may reverse.",
+        "examples": [
+          "{急|いそ}ぐと かえって {遅|おそ}く なる。",
+          "{厳|きび}しく すると かえって {品質|ひんしつ}が {落|お}ちる。"
+        ]
+      },
+      {
+        "pattern": "製造の語彙",
+        "explain_zh": "「工程・歩留まり・検品・不良品・下請け・外注・規格・稼働率・空洞化」。「打診する」是试探对方意向,商务场合的常用动词。",
+        "explain_en": "Manufacturing vocabulary; 打診する is to sound out the other side before committing.",
+        "examples": [
+          "{稼働率|かどうりつ}が {上|あ}がりました。",
+          "{先方|せんぽう}に {打診|だしん}して みます。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{膨大|ぼうだい}な データの {蓄積|ちくせき}と {解析|かいせき}{技術|ぎじゅつ}の {進展|しんてん}が、{機械学習|きかいがくしゅう}を {一気|いっき}に {実用|じつよう}の {段階|だんかい}へ {押|お}し{上|あ}げた。",
+            "zh": "庞大数据的积累和解析技术的进展，一举把机器学习推上了实用阶段。",
+            "en": "Vast accumulated data and advances in analysis pushed machine learning into practical use at a stroke."
+          },
+          {
+            "ja": "{音声|おんせい}{認識|にんしき}も {画像|がぞう}{認識|にんしき}も、{今|いま}や {人間|にんげん}の {精度|せいど}に {並|なら}ぶ {水準|すいじゅん}に {達|たっ}して いる。",
+            "zh": "语音识别和图像识别，如今都达到了与人类精度比肩的水平。",
+            "en": "Speech and image recognition now reach levels matching human accuracy."
+          },
+          {
+            "ja": "もっとも、{学習|がくしゅう}データに {偏|かたよ}りが あれば、{出|で}て くる {判断|はんだん}も {偏|かたよ}る。",
+            "zh": "不过，如果训练数据有偏颇，输出的判断也会偏颇。",
+            "en": "That said, where the training data is skewed, so are the judgements that come out.",
+            "note_zh": "「もっとも」在句首是接续词,「不过、话虽如此」,用来补充一个限制条件。和表示程度的「最も」不同。",
+            "note_en": "Sentence-initial もっとも is a connective adding a caveat — not the superlative 最も."
+          },
+          {
+            "ja": "なぜ その {結論|けつろん}に {至|いた}ったのかを {説明|せつめい}できない {点|てん}も、{大|おお}きな {課題|かだい}と されて いる。",
+            "zh": "无法说明为何得出那个结论，这一点也被视为大课题。",
+            "en": "That it cannot explain how it reached a conclusion is counted a serious problem."
+          },
+          {
+            "ja": "{雇用|こよう}{喪失|そうしつ}を {恐|おそ}れる {声|こえ}も ある {一方|いっぽう}で、{人|ひと}の {仕事|しごと}を {補完|ほかん}する {道具|どうぐ}に すぎない と いう {見方|みかた}も ある。",
+            "zh": "一方面有畏惧失业的声音，另一方面也有看法认为它不过是补充人类工作的工具。",
+            "en": "Some fear job losses; others see it as no more than a tool that complements human work.",
+            "note_zh": "「〜に すぎない」是「不过是…」,用来降低对象的分量。书面语。",
+            "note_en": "〜にすぎない — \"no more than\" — plays something down, in written register."
+          },
+          {
+            "ja": "{淘汰|とうた}される {職|しょく}が {出|で}る のは {避|さ}けられないに せよ、{新|あたら}しく {生|う}まれる {職|しょく}も ある だろう。",
+            "zh": "被淘汰的职业出现虽然无法避免，但也会有新诞生的职业吧。",
+            "en": "Some occupations will inevitably go, yet new ones will come into being.",
+            "note_zh": "「〜に せよ」是「即使…也」,书面的让步。「〜にしても」的更正式形式。",
+            "note_en": "〜にせよ is a formal concessive, the written form of 〜にしても."
+          },
+          {
+            "ja": "{問|と}うべきは、{技術|ぎじゅつ}を {止|と}める かどうかでは なく、どう {制御|せいぎょ}し、{誰|だれ}が {説明責任|せつめいせきにん}を {負|お}うか で ある。",
+            "zh": "该问的不是要不要停下技术，而是如何控制、由谁负说明责任。",
+            "en": "The question is not whether to halt the technology but how to govern it, and who answers for it."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "森",
+            "ja": "{李|り}さん、{社内|しゃない}の {自動生成|じどうせいせい}ツール、{導入|どうにゅう}の {検討|けんとう}が {進|すす}んで いるようですね。",
+            "zh": "小李，公司内部的自动生成工具，好像在推进引入的研究。",
+            "en": "Li, I gather the review of that generative tool is moving along."
+          },
+          {
+            "sp": "李",
+            "ja": "ええ。ただ、{情報|じょうほう}{漏洩|ろうえい}の {心配|しんぱい}が {残|のこ}って いて、{法務|ほうむ}が {慎重|しんちょう}です。",
+            "zh": "是的。不过信息泄露的担忧还在，法务很慎重。",
+            "en": "Yes. But the leak risk is still a worry, and legal are cautious."
+          },
+          {
+            "sp": "森",
+            "ja": "{当然|とうぜん}でしょう。{入力|にゅうりょく}した {内容|ないよう}が {学習|がくしゅう}に {使|つか}われる {可能性|かのうせい}が あります から。",
+            "zh": "那是当然。因为输入的内容有可能被用于训练。",
+            "en": "Understandably. What you type may be used for training."
+          },
+          {
+            "sp": "李",
+            "ja": "そこは {契約|けいやく}で {除外|じょがい}できるようです。{暗号化|あんごうか}の {条件|じょうけん}も {確認|かくにん}して います。",
+            "zh": "那点似乎可以通过合同排除。加密的条件也在确认。",
+            "en": "That can apparently be excluded by contract. We're checking the encryption terms too."
+          },
+          {
+            "sp": "森",
+            "ja": "{運用|うんよう}{面|めん}では どうですか。{使|つか}う {人|ひと}の {教育|きょういく}も {要|い}りますね。",
+            "zh": "运用方面呢？使用方的培训也需要吧。",
+            "en": "And operationally? The users will need training."
+          },
+          {
+            "sp": "李",
+            "ja": "おっしゃる とおりです。{出力|しゅつりょく}を そのまま {使|つか}わない、{必|かなら}ず {裏付|うらづ}けを {取|と}る——この {二点|にてん}は {徹底|てってい}させる つもりです。",
+            "zh": "正如您所说。不直接使用输出、必须取得佐证——这两点打算贯彻到底。",
+            "en": "Quite so. Never use the output as is, always verify — those two we intend to enforce."
+          },
+          {
+            "sp": "森",
+            "ja": "{賛成|さんせい}です。{便利|べんり}さに {慣|な}れると、{確|たし}かめる {手間|てま}を {惜|お}しむ ように なりますから。",
+            "zh": "我赞成。习惯了便利，就会舍不得花确认的工夫。",
+            "en": "I agree. Once you get used to the convenience, you start begrudging the checking."
+          },
+          {
+            "sp": "李",
+            "ja": "{依存度|いぞんど}が {上|あ}がる ほど、{説明責任|せつめいせきにん}は {重|おも}く なる。そこを {社内|しゃない}で {共有|きょうゆう}したいです。",
+            "zh": "依赖度越高，说明责任越重。想把这一点在公司内部共享。",
+            "en": "The more we depend on it, the heavier the accountability. I want that understood across the company."
+          },
+          {
+            "sp": "森",
+            "ja": "いい {整理|せいり}です。{来週|らいしゅう}の {役員会|やくいんかい}で、その{形|かたち}で {説明|せつめい}して ください。",
+            "zh": "整理得好。下周的董事会上，就按那个形式说明。",
+            "en": "Well framed. Present it that way at next week's board meeting."
+          },
+          {
+            "sp": "李",
+            "ja": "{承知|しょうち}{致|いた}しました。",
+            "zh": "明白了。",
+            "en": "I will."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜に すぎない",
+        "explain_zh": "「不过是…、只不过…」。用来降低对象的分量或重要性。书面语,论说文里常用于反驳夸大的说法。",
+        "explain_en": "\"No more than\" — deflating a claim, and a standard move against overstatement.",
+        "examples": [
+          "{一|ひと}つの {例|れい}に すぎません。",
+          "{道具|どうぐ}に すぎない と いう {見方|みかた}"
+        ]
+      },
+      {
+        "pattern": "〜に せよ / 〜にしても",
+        "explain_zh": "书面的让步,「即使…也」。「〜に せよ」更正式。两个并列时是「〜に せよ 〜に せよ」(不管是…还是…)。",
+        "explain_en": "Formal concessives; paired, 〜にせよ〜にせよ covers both alternatives.",
+        "examples": [
+          "{避|さ}けられないに せよ、{備|そな}えは できる。",
+          "{行|い}くに せよ {行|い}かないに せよ、{連絡|れんらく}は {必要|ひつよう}だ。"
+        ]
+      },
+      {
+        "pattern": "もっとも（接続詞）",
+        "explain_zh": "句首的「もっとも」是「不过、话虽如此」,用来补充限制条件。和表示最高级的「最も」是不同的词。",
+        "explain_en": "As a connective, もっとも adds a caveat — quite distinct from the superlative 最も.",
+        "examples": [
+          "{便利|べんり}だ。もっとも、{費用|ひよう}は かかる。",
+          "もっとも、{例外|れいがい}も ある。"
+        ]
+      },
+      {
+        "pattern": "問うべきは、〜では なく 〜で ある",
+        "explain_zh": "论说文的句式,用来把讨论从错误的问题上拉回来。「〜べきは」把动作名词化并提示为主题。",
+        "explain_en": "An argumentative frame for redirecting a debate away from the wrong question.",
+        "examples": [
+          "{考|かんが}える べきは {方法|ほうほう}では なく {目的|もくてき}だ。",
+          "{問|と}う べきは その {前提|ぜんてい}で ある。"
+        ]
+      },
+      {
+        "pattern": "情報技術の語彙",
+        "explain_zh": "「機械学習・深層学習・解析・偏り・自動生成・情報漏洩・暗号化・説明責任」。「〜化」表示过程:「デジタル化」「自動化」「暗号化」。",
+        "explain_en": "The vocabulary of information technology; 〜化 names the process of becoming.",
+        "examples": [
+          "{自動化|じどうか}が {進|すす}んで いる。",
+          "{説明責任|せつめいせきにん}を {負|お}う。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 11,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{論文|ろんぶん}は、{新|あたら}しい {知見|ちけん}を {公|おおやけ}の {議論|ぎろん}に さらす ための {形式|けいしき}で ある。",
+            "zh": "论文是把新见解暴露于公共讨论的一种形式。",
+            "en": "A paper is the form in which new findings are exposed to public argument."
+          },
+          {
+            "ja": "まず {先行研究|せんこうけんきゅう}を {整理|せいり}し、{何|なに}が すでに {分|わ}かって いて、{何|なに}が {残|のこ}って いるかを {示|しめ}す。",
+            "zh": "首先整理先行研究，指出什么已经清楚、什么还留着。",
+            "en": "You first survey the prior work, showing what is settled and what remains."
+          },
+          {
+            "ja": "その {空白|くうはく}に {対|たい}して {研究課題|けんきゅうかだい}を {立|た}て、{仮説|かせつ}を {検証|けんしょう}する {手法|しゅほう}を {選|えら}ぶ。",
+            "zh": "针对那个空白设立研究课题，选择验证假说的方法。",
+            "en": "Against that gap you set your question and choose a method to test the hypothesis."
+          },
+          {
+            "ja": "{結果|けっか}が {統計的|とうけいてき}に {有意|ゆうい}で あっても、それだけで {主張|しゅちょう}が {立証|りっしょう}された ことには ならない。",
+            "zh": "即使结果在统计上显著，仅凭这一点也不等于主张得到了证明。",
+            "en": "A statistically significant result does not, by itself, establish the claim.",
+            "note_zh": "「〜ことには ならない」是「并不等于…、不能算是…」,用来否定过度的推论。",
+            "note_en": "〜ことにはならない denies that one thing amounts to another — a brake on over-inference."
+          },
+          {
+            "ja": "{再現性|さいげんせい}が あるか どうかまで {問|と}われて {初|はじ}めて、{知見|ちけん}は {共有|きょうゆう}{財産|ざいさん}に なる。",
+            "zh": "直到被追问有无可重现性，见解才成为共有财产。",
+            "en": "Only once reproducibility is asked of it does a finding become common property.",
+            "note_zh": "「〜て 初めて」是「只有…之后才…」,强调前项是不可缺的条件。",
+            "note_en": "〜て初めて: only after this does the result follow — the condition is indispensable."
+          },
+          {
+            "ja": "{引用|いんよう}を {示|しめ}さなければ {剽窃|ひょうせつ}に なり、データに {手|て}を {加|くわ}えれば {捏造|ねつぞう}に なる。",
+            "zh": "不标明引用就成了剽窃，对数据动手脚就成了捏造。",
+            "en": "Leave your citations unmarked and it is plagiarism; touch the data and it is fabrication."
+          },
+          {
+            "ja": "{厳密|げんみつ}さを {欠|か}いた {独創|どくそう}は、{学問|がくもん}では {評価|ひょうか}されない。{従|したが}って、{手続|てつづ}きの {丁寧|ていねい}さこそが {生命線|せいめいせん}で ある。",
+            "zh": "缺乏严密性的独创，在学问中不被认可。因此，手续的细致才是生命线。",
+            "en": "Originality without rigour counts for nothing in scholarship. Hence the care of procedure is the lifeline."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "李",
+            "ja": "{先生|せんせい}、{査読|さどく}の {結果|けっか}が {戻|もど}って まいりました。",
+            "zh": "老师，审稿结果回来了。",
+            "en": "Professor, the referees' reports have come back."
+          },
+          {
+            "sp": "教授",
+            "ja": "どうでしたか。",
+            "zh": "怎么样？",
+            "en": "And?"
+          },
+          {
+            "sp": "李",
+            "ja": "{条件|じょうけん}{付|つ}きで {掲載|けいさい}{可|か}です。ただ、{手法|しゅほう}の {記述|きじゅつ}が {不十分|ふじゅうぶん}だと {指摘|してき}されました。",
+            "zh": "附条件可以刊载。不过被指出方法的记述不充分。",
+            "en": "Accepted with revisions. Though they say the methods section is thin."
+          },
+          {
+            "sp": "教授",
+            "ja": "どの {部分|ぶぶん}ですか。",
+            "zh": "哪部分？",
+            "en": "Which part?"
+          },
+          {
+            "sp": "李",
+            "ja": "{標本|ひょうほん}の {選|えら}び{方|かた}です。なぜ この {集団|しゅうだん}を {選|えら}んだのか、{根拠|こんきょ}を {書|か}けと。",
+            "zh": "是样本的选取方式。要我写出为什么选这个群体的根据。",
+            "en": "The sampling. They want the grounds for choosing this population spelled out."
+          },
+          {
+            "sp": "教授",
+            "ja": "もっともな {指摘|してき}です。{読|よ}み{手|て}が {再現|さいげん}できなければ、{論文|ろんぶん}の {意味|いみ}が ありません。",
+            "zh": "是合理的指出。读者无法重现的话，论文就没有意义。",
+            "en": "A fair point. If a reader cannot reproduce it, the paper has no value."
+          },
+          {
+            "sp": "李",
+            "ja": "{補足|ほそく}すると、{枚数|まいすう}を {超|こ}えて しまいそうです。",
+            "zh": "补充的话，篇幅好像会超。",
+            "en": "If I add it, I'll likely run over the length."
+          },
+          {
+            "sp": "教授",
+            "ja": "{考察|こうさつ}を {削|けず}りなさい。あそこは {書|か}きすぎて います。",
+            "zh": "把考察删一些。那里写过头了。",
+            "en": "Cut the discussion. You have overwritten it there."
+          },
+          {
+            "sp": "李",
+            "ja": "{分|わ}かりました。{示唆|しさ}に とどめて、{結論|けつろん}づけは しません。",
+            "zh": "明白了。只到提示为止，不下结论。",
+            "en": "Understood. I'll keep it to suggestion and hold back from concluding.",
+            "note_zh": "「〜に とどめる」是「只限于…、到…为止」。学术写作里用来避免说过头。",
+            "note_en": "〜にとどめる — to confine oneself to — the scholar's guard against claiming too much."
+          },
+          {
+            "sp": "教授",
+            "ja": "それで よろしい。{示唆|しさ}する と {立証|りっしょう}する の {違|ちが}いが {分|わ}かって いれば、{心配|しんぱい}は ありません。",
+            "zh": "那样就好。只要明白提示和证明的区别，就不用担心。",
+            "en": "Quite right. If you know the difference between suggesting and proving, you'll be fine."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜て 初めて",
+        "explain_zh": "「只有…之后才…」。强调前项是不可缺少的条件,后项在此之前不成立。书面语。",
+        "explain_en": "\"Only after\" — the first clause is indispensable; before it, the second does not hold.",
+        "examples": [
+          "{失|うしな}って {初|はじ}めて {気|き}が {付|つ}く。",
+          "{検証|けんしょう}されて {初|はじ}めて {定説|ていせつ}と なる。"
+        ]
+      },
+      {
+        "pattern": "〜ことには ならない",
+        "explain_zh": "「并不等于…、不能算是…」。用来否定过度的推论,是学术讨论里非常重要的一个刹车。",
+        "explain_en": "\"That does not amount to\" — the brake applied to an over-hasty inference.",
+        "examples": [
+          "{黙|だま}って いても、{認|みと}めた ことには なりません。",
+          "{有意|ゆうい}でも、{証明|しょうめい}した ことには ならない。"
+        ]
+      },
+      {
+        "pattern": "〜に とどめる",
+        "explain_zh": "「只限于…、到…为止」。学术写作里用来表示自己有意不说过头,是一种谨慎的姿态。",
+        "explain_en": "To confine oneself to — a deliberate restraint in academic writing.",
+        "examples": [
+          "{指摘|してき}に とどめます。",
+          "{今回|こんかい}は {紹介|しょうかい}に とどめたい。"
+        ]
+      },
+      {
+        "pattern": "従って / すなわち / よって",
+        "explain_zh": "论文的接续词。「従って」是因此,「よって」更硬,「すなわち」是换一种说法。口语里几乎不用。",
+        "explain_en": "The connectives of formal argument: hence, therefore, that is to say — rarely heard in speech.",
+        "examples": [
+          "{従|したが}って、{仮説|かせつ}は {支持|しじ}されない。",
+          "すなわち、{両者|りょうしゃ}は {同|おな}じで ある。"
+        ]
+      },
+      {
+        "pattern": "研究の語彙",
+        "explain_zh": "「査読・掲載・先行研究・仮説検証・標本・有意・再現性・考察・剽窃・捏造」。「示唆する」比「立証する」弱得多,学术写作里要分清。",
+        "explain_en": "Research vocabulary. 示唆する (to suggest) is far weaker than 立証する (to prove) — keep them apart.",
+        "examples": [
+          "{先行研究|せんこうけんきゅう}を {整理|せいり}する。",
+          "{結果|けっか}は 〜を {示唆|しさ}して いる。"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "passages": [
+      {
+        "kind": "honbun",
+        "lines": [
+          {
+            "ja": "{義務教育|ぎむきょういく}の {目的|もくてき}は、すべての {子|こ}どもに {一定|いってい}の {学力|がくりょく}を {保障|ほしょう}する ことに ある。",
+            "zh": "义务教育的目的，在于保障所有孩子具备一定的学力。",
+            "en": "The purpose of compulsory education is to guarantee every child a certain level of attainment."
+          },
+          {
+            "ja": "{学習指導要領|がくしゅうしどうようりょう}が {全国|ぜんこく}{共通|きょうつう}の {枠組|わくぐ}みを {定|さだ}め、{各校|かくこう}が カリキュラムを {組|く}み{立|た}てる。",
+            "zh": "学习指导要领规定全国共通的框架，各校据此编制课程。",
+            "en": "The national curriculum guidelines set a common frame within which each school builds its courses."
+          },
+          {
+            "ja": "{画一的|かくいつてき}だと いう {批判|ひはん}は {根強|ねづよ}いが、{一律|いちりつ}の {基準|きじゅん}が {教育格差|きょういくかくさ}を {抑|おさ}えて きた {面|めん}も ある。",
+            "zh": "认为千篇一律的批判根深蒂固，但统一的标准也有抑制教育差距的一面。",
+            "en": "The charge of uniformity is persistent, yet a single standard has also held educational inequality in check.",
+            "note_zh": "「〜面も ある」是「也有…的一面」,用来补充相反的角度。论说文里保持平衡时常用。",
+            "note_en": "〜面もある adds the opposite side — the balancing move of argumentative prose."
+          },
+          {
+            "ja": "{公立|こうりつ}と {私立|しりつ}の {差|さ}、{都市|とし}と {地方|ちほう}の {差|さ}は、{授業料|じゅぎょうりょう}の {無償化|むしょうか}だけでは {是正|ぜせい}しきれない。",
+            "zh": "公立与私立之差、城市与地方之差，仅靠学费无偿化无法完全纠正。",
+            "en": "The gaps between public and private, city and country, cannot be righted by free tuition alone.",
+            "note_zh": "「動詞ます形+きれない」是「无法完全…、…不完」。「きる」是「做到底」,否定是做不到底。",
+            "note_en": "ます-stem + きれない: cannot do it fully, cannot finish doing it."
+          },
+          {
+            "ja": "{教職員|きょうしょくいん}の {多忙化|たぼうか}も {深刻|しんこく}で、{授業|じゅぎょう}の {準備|じゅんび}に {時間|じかん}を {割|さ}けない {声|こえ}が {絶|た}えない。",
+            "zh": "教职员的繁忙化也很严重，抽不出时间备课的声音不绝于耳。",
+            "en": "Teacher overload is severe too, and complaints of having no time to prepare lessons never stop."
+          },
+          {
+            "ja": "{少人数学級|しょうにんずうがっきゅう}や {習熟度|しゅうじゅくど}{別|べつ}の {指導|しどう}は、{一|ひと}つの {答|こた}えで あろう。",
+            "zh": "小班化和按掌握程度分组指导，大概是一个答案。",
+            "en": "Smaller classes and streaming by attainment are, perhaps, one answer."
+          },
+          {
+            "ja": "{学|まな}びを {学校|がっこう}の {中|なか}だけに {閉|と}じ{込|こ}めず、{生涯教育|しょうがいきょういく}や {職業訓練|しょくぎょうくんれん}へ {開|ひら}いて いく {視点|してん}も {欠|か}かせない。",
+            "zh": "不把学习关在学校之内，向终身教育和职业训练敞开的视角也不可或缺。",
+            "en": "Nor can we do without opening learning beyond school, into lifelong study and vocational training."
+          }
+        ]
+      },
+      {
+        "kind": "kaiwa",
+        "lines": [
+          {
+            "sp": "記者",
+            "ja": "{教育格差|きょういくかくさ}の {是正|ぜせい}に ついて、どう お{考|かんが}えですか。",
+            "zh": "关于纠正教育差距，您怎么看？",
+            "en": "How do you see the correction of educational inequality?"
+          },
+          {
+            "sp": "李",
+            "ja": "{授業料|じゅぎょうりょう}の {無償化|むしょうか}は {出発点|しゅっぱつてん}で あって、{到達点|とうたつてん}では ありません。",
+            "zh": "学费无偿化是起点，不是终点。",
+            "en": "Free tuition is a starting point, not a destination."
+          },
+          {
+            "sp": "記者",
+            "ja": "と {言|い}いますと。",
+            "zh": "此话怎讲？",
+            "en": "Meaning?"
+          },
+          {
+            "sp": "李",
+            "ja": "{学校|がっこう}の {外|そと}で どれだけ {学|まな}べる かの {差|さ}が、{実|じつ}は {大|おお}きい。{塾|じゅく}にも {本|ほん}にも、{家庭|かてい}の {事情|じじょう}が {出|で}ます。",
+            "zh": "在校外能学多少的差距，其实很大。补习班也好书也好，家庭情况都会显现。",
+            "en": "The real gap is in how much can be learned outside school. Cram schools, books — the family's situation shows in both."
+          },
+          {
+            "sp": "記者",
+            "ja": "{公的|こうてき}な {支援|しえん}で {補|おぎな}える ものでしょうか。",
+            "zh": "靠公共支援能弥补吗？",
+            "en": "Can public support make that up?"
+          },
+          {
+            "sp": "李",
+            "ja": "{全部|ぜんぶ}は {無理|むり}です。ただ、{図書館|としょかん}や {無料|むりょう}の {学習|がくしゅう}の {場|ば}を {増|ふ}やす ことは できます。{底上|そこあ}げには なる。",
+            "zh": "全部不可能。不过增加图书馆和免费的学习场所是可以的。能起到抬升底部的作用。",
+            "en": "Not entirely. But libraries and free places to study can be increased. That lifts the floor."
+          },
+          {
+            "sp": "記者",
+            "ja": "{抜本的|ばっぽんてき}な {改革|かいかく}は {必要|ひつよう}ないと。",
+            "zh": "是说不需要根本性的改革？",
+            "en": "So no root-and-branch reform is needed?"
+          },
+          {
+            "sp": "李",
+            "ja": "そうは {申|もう}して おりません。ただ、{制度|せいど}を {変|か}える には {時間|じかん}が かかります。その{間|あいだ}に できる ことも ある、と {申|もう}し{上|あ}げて いるのです。",
+            "zh": "我没有那样说。只是改变制度需要时间。我是在说，在那期间也有能做的事。",
+            "en": "I did not say that. Changing institutions takes time; I am saying there is work to do meanwhile.",
+            "note_zh": "「そうは 申して おりません」是郑重地否定对方的归纳。「〜と 申し上げて いるのです」用来重申自己的真意。",
+            "note_en": "A formal way to reject a misreading, then restate what you actually meant."
+          },
+          {
+            "sp": "記者",
+            "ja": "{具体的|ぐたいてき}には。",
+            "zh": "具体来说？",
+            "en": "Such as?"
+          },
+          {
+            "sp": "李",
+            "ja": "まず {実態|じったい}を {知|し}る ことです。{数字|すうじ}が なければ、{議論|ぎろん}は {空|そら}{回|まわ}りします。",
+            "zh": "首先是了解实态。没有数字，讨论就会空转。",
+            "en": "First, knowing the facts on the ground. Without figures, the debate spins its wheels."
+          }
+        ]
+      }
+    ],
+    "points": [
+      {
+        "pattern": "〜面も ある",
+        "explain_zh": "「也有…的一面」。用来补充相反或被忽略的角度,是论说文保持平衡的基本手法。",
+        "explain_en": "\"There is also this side to it\" — the standard move for keeping an argument balanced.",
+        "examples": [
+          "{厳|きび}しいが、{優|やさ}しい{面|めん}も ある。",
+          "{問題|もんだい}も ある{反面|はんめん}、{利点|りてん}も ある。"
+        ]
+      },
+      {
+        "pattern": "動詞ます形＋きる / きれない",
+        "explain_zh": "「〜きる」是做到底、完全做完,「〜きれない」是做不完、无法完全。「使いきる」「食べきれない」。",
+        "explain_en": "〜きる completes an action fully; 〜きれない says it cannot be completed.",
+        "examples": [
+          "{一日|いちにち}で {読|よ}みきれません。",
+          "{最後|さいご}まで やりきりました。"
+        ]
+      },
+      {
+        "pattern": "〜で あって、〜では ない",
+        "explain_zh": "先肯定再否定,用来纠正定位。「出発点で あって、到達点では ない」是典型的论说句式。",
+        "explain_en": "Asserts one thing and denies another, correcting how something is positioned.",
+        "examples": [
+          "{手段|しゅだん}で あって {目的|もくてき}では ない。",
+          "{一例|いちれい}で あって、{全体|ぜんたい}では ない。"
+        ]
+      },
+      {
+        "pattern": "そうは 申して おりません",
+        "explain_zh": "郑重地否定对方的归纳或曲解,然后重申自己的真意。{記者}会见和议论场合的固定说法。",
+        "explain_en": "A formal denial of a misreading, followed by a restatement — the language of the press conference.",
+        "examples": [
+          "そうは {申|もう}して おりません。",
+          "{私|わたし}が {申|もう}し{上|あ}げたいのは、〜と いう ことです。"
+        ]
+      },
+      {
+        "pattern": "教育制度の語彙",
+        "explain_zh": "「義務教育・学習指導要領・教育格差・無償化・習熟度・底上げ・是正・抜本的」。「底上げ」原指抬高底部,引申为整体水平的提升。",
+        "explain_en": "Education-policy vocabulary; 底上げ is raising the floor, hence lifting the whole.",
+        "examples": [
+          "{格差|かくさ}を {是正|ぜせい}する。",
+          "{全体|ぜんたい}の {底上|そこあ}げを {図|はか}る。"
+        ]
+      }
+    ]
+  }
+]
