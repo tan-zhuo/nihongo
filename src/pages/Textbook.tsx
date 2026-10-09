@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { books, bookWords, findBook, findLesson } from '../data/textbook'
+import { books, bookWords, findBook, findLesson, findText } from '../data/textbook'
 import WordFlashcard, { type CardDirection } from '../components/WordFlashcard'
 import WordChoice from '../components/WordChoice'
+import LessonText from '../components/LessonText'
 import { buildChoiceQuestions, type ChoiceKind } from '../lib/wordquiz'
 import { boxOf, isDue, loadSrs, progressOf, resetProgress, MASTERED_BOX } from '../lib/srs'
 import { addTextbookRecord } from '../lib/storage'
@@ -15,7 +16,7 @@ import type { BookSeries, TextbookBook, TextbookWord } from '../types'
 const PREF_KEY = 'nihongo.textbook.prefs.v1'
 const REVIEW_SIZE = 40
 
-type StudyMode = 'card' | 'choice' | 'list'
+type StudyMode = 'text' | 'card' | 'choice' | 'list'
 type KindFilter = 'mix' | ChoiceKind
 
 interface Prefs {
@@ -25,7 +26,7 @@ interface Prefs {
   shuffle: boolean
 }
 
-const DEFAULT_PREFS: Prefs = { mode: 'card', dir: 'ja2meaning', kind: 'mix', shuffle: false }
+const DEFAULT_PREFS: Prefs = { mode: 'text', dir: 'ja2meaning', kind: 'mix', shuffle: false }
 
 function loadPrefs(): Prefs {
   try {
@@ -246,6 +247,11 @@ function LessonIndex({ book }: { book: TextbookBook }) {
                 <div className="mt-0.5 truncate text-xs text-stone-400">
                   {zhFirst && `${lesson.title_zh} · `}
                   {t('textbook.wordCount', { count: lesson.words.length })}
+                  {findText(book, lesson.n) && (
+                    <span className="ml-1.5 rounded bg-accent-light px-1.5 py-px text-[0.625rem] text-accent-deep">
+                      {t('textbook.hasText')}
+                    </span>
+                  )}
                 </div>
               </div>
             </Link>
@@ -316,9 +322,16 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
   const zhFirst = (i18n.resolvedLanguage ?? 'en').startsWith('zh')
   const isReview = lessonKey === 'review'
   const lesson = isReview ? undefined : findLesson(book, lessonKey)
+  const text = lesson ? findText(book, lesson.n) : undefined
 
   const [prefs, setPrefs] = useState<Prefs>(DEFAULT_PREFS)
   useEffect(() => setPrefs(loadPrefs()), [])
+  // The passage tab is the default, so a lesson without one (or the review
+  // deck) has to land somewhere real instead of showing an empty pane.
+  const mode: StudyMode = prefs.mode === 'text' && !text ? 'card' : prefs.mode
+  const modes: StudyMode[] = text
+    ? (['text', 'card', 'choice', 'list'] as StudyMode[])
+    : (['card', 'choice', 'list'] as StudyMode[])
   const update = (patch: Partial<Prefs>) => {
     setPrefs((p) => {
       const next = { ...p, ...patch }
@@ -394,7 +407,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
     : `${t('textbook.lessonN', { n: lesson?.n ?? 0 })}　${lesson?.title ?? ''}`
 
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className={mode === 'text' ? 'mx-auto max-w-6xl' : 'mx-auto max-w-2xl'}>
       <Link
         to={`/textbook/${book.id}`}
         className="mb-4 inline-block text-sm text-stone-400 hover:text-accent-dark"
@@ -410,10 +423,10 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
 
       {/* mode tabs */}
       <div className="mb-4 flex gap-2">
-        {(['card', 'choice', 'list'] as StudyMode[]).map((m) => (
+        {modes.map((m) => (
           <button
             key={m}
-            className={`${prefs.mode === m ? 'chip-on' : 'chip-off'} flex-1 justify-center sm:flex-none`}
+            className={`${mode === m ? 'chip-on' : 'chip-off'} flex-1 justify-center sm:flex-none`}
             onClick={() => {
               update({ mode: m })
               setResult(null)
@@ -425,7 +438,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
       </div>
 
       {/* per-mode options */}
-      {prefs.mode === 'card' && !result && (
+      {mode === 'card' && !result && (
         <div className="mb-5 flex flex-wrap items-center gap-2 text-xs">
           {(['ja2meaning', 'meaning2ja'] as CardDirection[]).map((d) => (
             <button
@@ -446,7 +459,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
           )}
         </div>
       )}
-      {prefs.mode === 'choice' && !result && (
+      {mode === 'choice' && !result && (
         <div className="mb-5 flex flex-wrap gap-2 text-xs">
           {(['mix', 'ja2meaning', 'meaning2ja', 'reading'] as KindFilter[]).map((k) => (
             <button
@@ -460,7 +473,9 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
         </div>
       )}
 
-      {source.length === 0 ? (
+      {mode === 'text' && text && lesson ? (
+        <LessonText text={text} words={lesson.words} zhFirst={zhFirst} />
+      ) : source.length === 0 ? (
         <p className="py-16 text-center text-stone-400">
           {isReview ? t('textbook.nothingDue') : t('vocab.empty')}
         </p>
@@ -495,7 +510,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
             </div>
           )}
         </div>
-      ) : prefs.mode === 'list' ? (
+      ) : mode === 'list' ? (
         <>
           <WordList words={source} zhFirst={zhFirst} />
           {!isReview && lesson && (
@@ -510,7 +525,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
             </button>
           )}
         </>
-      ) : prefs.mode === 'card' ? (
+      ) : mode === 'card' ? (
         <WordFlashcard
           key={`card-${round}-${prefs.dir}-${deck.length}`}
           words={activeDeck}

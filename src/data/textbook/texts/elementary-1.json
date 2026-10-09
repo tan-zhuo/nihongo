@@ -1,0 +1,32 @@
+[
+{
+  "n": 1,
+  "passages": [
+    { "kind": "honbun", "lines": [
+      { "ja": "{私|わたし}は {李|り}です。{中国人|ちゅうごくじん}です。", "zh": "我是小李。是中国人。", "en": "I am Li. I am Chinese.", "note_zh": "「名詞1は 名詞2です」是本课最基本的句型。「は」做提示助词时读「わ」。第二句省略了主语「私は」——日语里主语清楚时通常不重复。", "note_en": "The core pattern 名詞1は名詞2です. The topic marker は is pronounced wa, and the second sentence drops the already-obvious subject." },
+      { "ja": "{小野|おの}さんは {日本人|にほんじん}です。{会社員|かいしゃいん}です。", "zh": "小野女士是日本人。是公司职员。", "en": "Ms. Ono is Japanese. She is a company employee." },
+      { "ja": "あの{人|ひと}は {森|もり}さんです。{森|もり}さんも {会社員|かいしゃいん}です。", "zh": "那个人是森先生。森先生也是公司职员。", "en": "That person is Mr. Mori. Mr. Mori is also a company employee.", "note_zh": "「も」表示「也」,用来替换「は」,不能两个一起说。说「森さんは も」是错的。", "note_en": "も (\"also\") replaces は rather than stacking with it — 森さんはも is wrong." },
+      { "ja": "{金|きん}さんは {韓国|かんこく}の {留学生|りゅうがくせい}です。", "zh": "小金是韩国的留学生。", "en": "Mr. Kim is a student from Korea.", "note_zh": "「名詞1の 名詞2」用「の」把两个名词连起来,表示所属、来源。这里是「韓国的留学生」。", "note_en": "名詞1の名詞2 links two nouns — here \"an exchange student from Korea\"." },
+      { "ja": "{私|わたし}は {学生|がくせい}では ありません。", "zh": "我不是学生。", "en": "I am not a student.", "note_zh": "否定句是「〜では ありません」。口语里「では」常说成「じゃ」。", "note_en": "The negative is 〜では ありません; in speech では often contracts to じゃ." },
+      { "ja": "{皆|みな}さん、どうぞよろしくお{願|ねが}いします。", "zh": "各位，请多关照。", "en": "Everyone, I look forward to working with you." }
+    ] },
+    { "kind": "kaiwa", "lines": [
+      { "sp": "李", "ja": "{初|はじ}めまして。{李|り}です。どうぞよろしくお{願|ねが}いします。", "zh": "初次见面。我是小李。请多关照。", "en": "How do you do. I am Li. Pleased to meet you.", "note_zh": "初次见面的固定三句:「初めまして」→ 自我介绍 →「どうぞよろしくお願いします」。顺序基本不变。", "note_en": "The fixed three-step greeting: 初めまして → your name → どうぞよろしくお願いします." },
+      { "sp": "小野", "ja": "{初|はじ}めまして。{小野|おの}です。こちらこそ、どうぞよろしく。", "zh": "初次见面。我是小野。我才要请您多关照。", "en": "How do you do. I am Ono. The pleasure is mine.", "note_zh": "「こちらこそ」是「该我这边才对」,用来回应对方的客气话。", "note_en": "こちらこそ returns the courtesy: \"it is I who should say that\"." },
+      { "sp": "李", "ja": "あのう、{失礼|しつれい}ですが、{小野|おの}さんは {会社員|かいしゃいん}ですか。", "zh": "请问，不好意思，小野女士是公司职员吗？", "en": "Excuse me — may I ask, Ms. Ono, are you a company employee?", "note_zh": "「あのう」是开口前的缓冲,「失礼ですが」用来礼貌地问对方的事。疑问句只在句尾加「か」,语序不变。", "note_en": "あのう softens the opening and 失礼ですが prefaces a personal question. Questions just add か — the word order never changes." },
+      { "sp": "小野", "ja": "はい、そうです。{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}です。", "zh": "是的。是日本企业的职员。", "en": "Yes, that's right. I work for a Japanese company.", "note_zh": "「の」可以连用:「日本の 企業の 社員」=日本的→企业的→职员,从大范围到小范围。", "note_en": "の can chain: Japan → company → employee, moving from the broadest frame inward." },
+      { "sp": "李", "ja": "あの{人|ひと}も {社員|しゃいん}ですか。", "zh": "那个人也是职员吗？", "en": "Is that person an employee too?" },
+      { "sp": "小野", "ja": "いいえ、{違|ちが}います。あの{人|ひと}は {大学|だいがく}の {教授|きょうじゅ}です。", "zh": "不，不是。那个人是大学教授。", "en": "No, he isn't. He is a university professor.", "note_zh": "否定回答用「いいえ、違います」,比「いいえ、〜では ありません」更简短自然。", "note_en": "いいえ、違います is the short, natural way to answer no." },
+      { "sp": "李", "ja": "そうですか。お{名前|なまえ}は。", "zh": "是这样啊。请问叫什么名字？", "en": "I see. And his name?", "note_zh": "「お名前は。」后面省略了「何ですか」。这种句尾停在「は」的说法听起来柔和,很常用。", "note_en": "「お名前は。」leaves 何ですか unsaid — trailing off after は sounds softer and is very common." },
+      { "sp": "小野", "ja": "あのう、{分|わ}かりません。すみません。", "zh": "那个，我不知道。对不起。", "en": "Hmm, I don't know. Sorry." }
+    ] }
+  ],
+  "points": [
+    { "pattern": "名詞1は 名詞2です", "explain_zh": "最基本的判断句。「は」是提示主题的助词,读作「わ」。「です」是礼貌的断定,接在名词后面。", "explain_en": "The basic statement. は marks the topic (pronounced wa) and です is the polite copula after a noun.", "examples": ["{私|わたし}は {学生|がくせい}です。", "{李|り}さんは {中国人|ちゅうごくじん}です。"] },
+    { "pattern": "名詞1は 名詞2では ありません", "explain_zh": "否定形。「では」口语中常说成「じゃ」,「じゃ ありません」更随意一些。", "explain_en": "The negative. では often becomes じゃ in casual speech.", "examples": ["{私|わたし}は {先生|せんせい}では ありません。", "あの{人|ひと}は {店員|てんいん}じゃ ありません。"] },
+    { "pattern": "名詞1は 名詞2ですか", "explain_zh": "疑问句在句尾加「か」就行,语序和陈述句完全一样,不用倒装。书写时句尾用「。」,不用问号。", "explain_en": "Questions simply add か; the word order is unchanged and Japanese writes 。 rather than a question mark.", "examples": ["あなたは {会社員|かいしゃいん}ですか。", "{森|もり}さんは {課長|かちょう}ですか。"] },
+    { "pattern": "名詞1の 名詞2", "explain_zh": "「の」把两个名词连起来,表示所属、所在或来源,相当于中文的「的」。可以连续使用。", "explain_en": "の links two nouns to show possession, affiliation or origin, and can be chained.", "examples": ["{私|わたし}の {名前|なまえ}", "{日本|にほん}の {企業|きぎょう}の {社員|しゃいん}"] },
+    { "pattern": "名詞も", "explain_zh": "「も」表示「也」。它要替换掉「は」,不能说成「〜はも」。", "explain_en": "も means \"also\" and replaces は — never 〜はも.", "examples": ["{森|もり}さんも {会社員|かいしゃいん}です。", "{私|わたし}も {中国人|ちゅうごくじん}です。"] }
+  ]
+}
+]

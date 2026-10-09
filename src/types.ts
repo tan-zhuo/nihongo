@@ -136,6 +136,45 @@ export interface TextbookLesson {
   words: TextbookWord[]
 }
 
+/**
+ * One line of a lesson text. The passages are ORIGINAL prose written to use
+ * only that lesson's vocabulary and grammar — they are not the textbook's own
+ * 本文/会話, which is copyrighted. The UI says so on every lesson.
+ */
+export interface TextbookLine {
+  /** speaker label on a 会話 turn, e.g. 小野; absent for narration */
+  sp?: string
+  /** the line, with kanji runs annotated as {漢字|かんじ} */
+  ja: string
+  zh: string
+  en: string
+  /** sentence analysis: why this line is built the way it is */
+  note_zh?: string
+  note_en?: string
+}
+
+export interface TextbookPassage {
+  /** 本文 = the lesson's reading, 会話 = its dialogue */
+  kind: 'honbun' | 'kaiwa'
+  lines: TextbookLine[]
+}
+
+/** A grammar pattern the lesson teaches, in the book's own teaching order. */
+export interface TextbookPoint {
+  pattern: string
+  explain_zh: string
+  explain_en: string
+  /** short illustrations, annotated like `ja` */
+  examples: string[]
+}
+
+export interface TextbookText {
+  /** lesson number within its own volume */
+  n: number
+  passages: TextbookPassage[]
+  points: TextbookPoint[]
+}
+
 export interface TextbookBook {
   id: BookId
   series: BookSeries
