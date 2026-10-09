@@ -7,6 +7,7 @@ import advanced1 from './advanced-1.json'
 import advanced2 from './advanced-2.json'
 import textE1 from './texts/elementary-1.json'
 import textE2 from './texts/elementary-2.json'
+import textI1 from './texts/intermediate-1.json'
 
 export const books: TextbookBook[] = [
   elementary1 as TextbookBook,
@@ -45,6 +46,7 @@ export const allTextbookWords: TextbookWord[] = books.flatMap(bookWords)
 const texts: Partial<Record<string, TextbookText[]>> = {
   'elementary-1': textE1 as TextbookText[],
   'elementary-2': textE2 as TextbookText[],
+  'intermediate-1': textI1 as TextbookText[],
 }
 
 export function findText(

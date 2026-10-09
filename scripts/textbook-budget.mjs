@@ -9,7 +9,7 @@ const wordsArg = process.argv.find((a) => a.startsWith('--words='))
 const seen = new Set(
   '李森金田中小野吉村山川本太郎花子鈴木佐藤高橋原口' +
   '東京京都大阪奈良横浜神戸名古屋北海道沖縄富士上海北京香港台湾' +
-  '一二三四五六七八九十百千万億上下左右大円年月日時分曜何人私何々',
+  '一二三四五六七八九十百千万億上下左右東西南北大円年月日時分秒曜何人私何々',
 )
 outer: for (const id of BOOKS) {
   const b = JSON.parse(fs.readFileSync(`src/data/textbook/${id}.json`, 'utf8'))

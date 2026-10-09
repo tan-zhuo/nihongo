@@ -2,10 +2,18 @@
 /**
  * Checks the original lesson passages in src/data/textbook/texts/*.json.
  *
- * The passages are written to stay inside the vocabulary a learner has by that
- * lesson, so the main check is a cumulative kanji budget: every kanji in a
- * lesson's text must already appear in a word list at or before that lesson
- * (earlier volumes count), in the lesson titles, or in the proper-name list.
+ * The passages are written to stay at the level of the lesson they belong to,
+ * and the checks differ by volume because the meaningful constraint does:
+ *
+ *   elementary — a cumulative kanji budget. Every kanji must already appear in
+ *   a word list at or before that lesson (earlier volumes count), in a lesson
+ *   title, or in the proper-name list. A beginner really has met nothing else.
+ *
+ *   intermediate / advanced — the budget is the whole six-volume corpus, since
+ *   a learner at this level has thousands of words and the books themselves use
+ *   plenty they never gloss. What is checked instead is that the passage
+ *   actually teaches its own lesson: at least MIN_LESSON_WORDS of the lesson's
+ *   vocabulary must appear in it.
  *
  *   node scripts/check-textbook-texts.mjs
  */
@@ -26,7 +34,7 @@ const BOOKS = [
 const NAMES =
   '李森金田中小野吉村山川本太郎花子鈴木佐藤高橋原口' +
   '東京京都大阪奈良横浜神戸名古屋北海道沖縄富士上海北京香港台湾' +
-  '一二三四五六七八九十百千万億上下左右大円年月日時分曜何人私何々'
+  '一二三四五六七八九十百千万億上下左右東西南北大円年月日時分秒曜何人私何々'
 const KANJI = /[㐀-䶿一-鿿々]/
 const RUN = /\{([^|{}]+)\|([^|{}]+)\}/g
 const KANA_ONLY = /^[ぁ-ゟ゠-ヿーー]+$/
@@ -36,10 +44,17 @@ const strip = (s) => s.replace(RUN, '$1')
 let errors = 0
 const fail = (where, msg) => { console.error(`  ✗ ${where}: ${msg}`); errors++ }
 
-/** Kanji allowed at each lesson, accumulating across the six volumes. */
+/** How much of its own vocabulary an intermediate/advanced passage must use. */
+const MIN_LESSON_WORDS = 8
+
+/**
+ * Kanji allowed at each lesson. Elementary lessons accumulate; from the
+ * intermediate volumes on, every lesson gets the whole corpus.
+ */
 function kanjiBudget() {
   const budget = new Map()
   const seen = new Set(NAMES)
+  const keys = []
   for (const id of BOOKS) {
     const book = JSON.parse(fs.readFileSync(`${ROOT}/src/data/textbook/${id}.json`, 'utf8'))
     for (const lesson of [...book.lessons].sort((a, b) => a.n - b.n)) {
@@ -49,9 +64,13 @@ function kanjiBudget() {
       for (const w of lesson.words) {
         for (const ch of w.w) if (KANJI.test(ch)) seen.add(ch)
       }
-      budget.set(`${id}-${lesson.n}`, new Set(seen))
+      const key = `${id}-${lesson.n}`
+      keys.push([key, id])
+      budget.set(key, new Set(seen))
     }
   }
+  const everything = seen
+  for (const [key, id] of keys) if (!id.startsWith('elementary')) budget.set(key, everything)
   return budget
 }
 
@@ -108,6 +127,15 @@ for (const id of BOOKS) {
         const over = [...new Set([...plain].filter((c) => KANJI.test(c) && !allowed.has(c)))]
         if (over.length) fail(at, `kanji not taught by this lesson: ${over.join('')}`)
         lines++
+      }
+    }
+
+    if (!id.startsWith('elementary')) {
+      const prose = t.passages.flatMap((p) => p.lines).map((l) => strip(l.ja)).join('')
+      const lesson = book.lessons.find((l) => l.n === t.n)
+      const used = (lesson?.words ?? []).filter((w) => prose.includes(w.w))
+      if (used.length < MIN_LESSON_WORDS) {
+        fail(where, `uses only ${used.length} of its own words, want ${MIN_LESSON_WORDS}`)
       }
     }
 
