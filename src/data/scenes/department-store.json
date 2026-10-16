@@ -1,0 +1,31 @@
+{
+  "id": "department-store",
+  "n": 69,
+  "group": "town",
+  "title": "デパート",
+  "title_zh": "百货商店",
+  "title_en": "Department store",
+  "words": [
+    { "w": "エスカレーター", "r": "エスカレーター", "zh": "自动扶梯", "en": "escalator", "x": 350, "y": 350 },
+    { "w": "エレベーター", "r": "エレベーター", "zh": "电梯", "en": "elevator", "x": 738, "y": 150 },
+    { "w": "売り場", "r": "うりば", "zh": "柜台；售货处", "en": "sales floor; department", "x": 300, "y": 98 },
+    { "w": "店員", "r": "てんいん", "zh": "店员", "en": "shop clerk", "x": 186, "y": 290 },
+    { "w": "レジ", "r": "レジ", "zh": "收银台", "en": "cash register", "x": 584, "y": 208 },
+    { "w": "マネキン", "r": "マネキン", "zh": "人体模特", "en": "mannequin", "x": 175, "y": 220 },
+    { "w": "化粧品", "r": "けしょうひん", "zh": "化妆品", "en": "cosmetics", "x": 84, "y": 364 },
+    { "w": "紙袋", "r": "かみぶくろ", "zh": "纸袋", "en": "paper bag", "x": 676, "y": 440 },
+    { "w": "案内板", "r": "あんないばん", "zh": "指示牌", "en": "information board", "x": 672, "y": 206 },
+    { "w": "セール", "r": "セール", "zh": "大减价；促销", "en": "sale", "x": 435, "y": 126 },
+    { "w": "試着室", "r": "しちゃくしつ", "zh": "试衣间", "en": "fitting room", "x": 85, "y": 120 },
+    { "w": "靴", "r": "くつ", "zh": "鞋", "en": "shoes", "x": 545, "y": 440 },
+    { "w": "服", "r": "ふく", "zh": "衣服", "en": "clothes", "x": 300, "y": 220 },
+    { "w": "買う", "r": "かう", "zh": "买", "en": "to buy", "x": 512, "y": 216 },
+    { "w": "値段", "r": "ねだん", "zh": "价格", "en": "price", "x": 372, "y": 196 },
+    { "w": "客", "r": "きゃく", "zh": "顾客", "en": "customer", "x": 640, "y": 332 }
+  ],
+  "sentences": [
+    { "ja": "{服|ふく}の{売|う}り{場|ば}は{二階|にかい}です。エスカレーターで{上|あ}がりましょう。", "zh": "服装柜台在二楼。我们坐自动扶梯上去吧。", "en": "The clothing department is on the second floor. Let's take the escalator up." },
+    { "ja": "{今日|きょう}はセールなので、{値段|ねだん}が{安|やす}いです。", "zh": "今天在大减价，所以价格很便宜。", "en": "There is a sale today, so the prices are cheap." },
+    { "ja": "{客|きゃく}は{紙袋|かみぶくろ}を{持|も}ってエレベーターを{待|ま}っています。", "zh": "顾客拿着纸袋在等电梯。", "en": "The customer is waiting for the elevator holding a paper bag." }
+  ]
+}

@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="380" width="800" height="120" fill="#e3c9a3" stroke="none"/>
+  <path d="M0 380h800" stroke="#b08a63" stroke-width="3"/>
+  <path d="M0 420h800M0 460h800" stroke="#d2b58e" stroke-width="1.5"/>
+  <rect x="0" y="370" width="800" height="10" fill="#e9dfcf" stroke="none"/>
+
+  <!-- coat rack -->
+  <path d="M138 100v276" stroke-width="6" stroke="#5e4634"/>
+  <path d="M138 100v276" stroke-width="2" stroke="#9c7450"/>
+  <ellipse cx="138" cy="378" rx="34" ry="8" fill="#9c7450"/>
+  <path d="M138 112l-40-12M138 112l40-12" stroke-width="5" stroke="#5e4634"/>
+  <circle cx="98" cy="100" r="4" fill="#5e4634"/>
+  <circle cx="178" cy="100" r="4" fill="#5e4634"/>
+  <!-- hat -->
+  <g data-w="8">
+    <ellipse cx="138" cy="90" rx="40" ry="9" fill="#5b8a72"/>
+    <path d="M114 90v-30c0-8 48-8 48 0v30" fill="#5b8a72"/>
+    <path d="M114 82h48" stroke="#f0cf6d" stroke-width="4"/>
+  </g>
+  <!-- scarf -->
+  <g data-w="9">
+    <path d="M86 104c-4 60-6 120-2 184h26c4-64 2-124-2-184z" fill="#d9736b"/>
+    <path d="M86 140h26M85 170h26M85 200h26M85 230h26M85 260h26" stroke="#f4efe6" stroke-width="4"/>
+    <path d="M84 288l4 12M92 288l2 12M100 288l0 12M108 288l-2 12" stroke-width="1.5"/>
+  </g>
+  <!-- belt -->
+  <g data-w="11">
+    <path d="M172 104v120c0 16 24 16 24 0V112" stroke-width="10" stroke="#3f3a34"/>
+    <path d="M172 104v120c0 16 24 16 24 0V112" stroke-width="6" stroke="#9c7450"/>
+    <rect x="188" y="112" width="18" height="24" rx="3" fill="#f0cf6d"/>
+    <path d="M197 116v16" />
+  </g>
+  <!-- keys on hook -->
+  <g data-w="16">
+    <rect x="231" y="138" width="30" height="12" rx="3" fill="#9c7450"/>
+    <circle cx="246" cy="156" r="7" stroke-width="3"/>
+    <path d="M240 161l-8 24 6 2 2-6-4-2 2-6-4-2 2-6" fill="#f0cf6d"/>
+    <path d="M252 161l6 24-6 2-2-6 4-2-2-6 4-2-2-6" fill="#cfc9bd"/>
+    <circle cx="237" cy="166" r="3" fill="#f0cf6d"/>
+    <circle cx="255" cy="166" r="3" fill="#cfc9bd"/>
+  </g>
+  <!-- umbrella in stand -->
+  <g data-w="14">
+    <path d="M70 222c-10 0-14 10-8 16" stroke-width="4"/>
+    <path d="M70 222l-14 124" stroke-width="3"/>
+    <path d="M66 236c-18 30-20 66-8 104 16-30 24-66 20-104-4-4-8-4-12 0z" fill="#d9736b"/>
+    <path d="M60 252l-2 80M72 252l-4 80" stroke="#f1b1aa" stroke-width="1.5"/>
+    <rect x="36" y="334" width="44" height="44" rx="6" fill="#cfc9bd"/>
+    <ellipse cx="58" cy="334" rx="22" ry="6" fill="#ede9e1"/>
+  </g>
+  <!-- bag on floor -->
+  <g data-w="13">
+    <path d="M214 322c0-14 32-14 32 0" stroke-width="4"/>
+    <path d="M190 338h80l-6 42h-68z" fill="#b5463f"/>
+    <path d="M190 338h80v10h-80z" fill="#d9736b"/>
+    <circle cx="230" cy="356" r="5" fill="#f0cf6d"/>
+  </g>
+
+  <!-- person -->
+  <g>
+    <path d="M300 380V200c0-26 12-40 30-40s30 14 30 40v180z" fill="#a58bc0"/>
+    <path d="M300 300h60" stroke="#8b70a8"/>
+    <rect x="312" y="296" width="14" height="84" rx="6" fill="#f5d2b4"/>
+    <rect x="334" y="296" width="14" height="84" rx="6" fill="#f5d2b4"/>
+    <path d="M306 380h24v-8h-24zM330 380h24v-8h-24z" fill="#3f3a34"/>
+    <rect x="322" y="146" width="16" height="18" fill="#f5d2b4" stroke="none"/>
+    <circle cx="330" cy="128" r="23" fill="#f5d2b4"/>
+    <path d="M307 126c0-26 46-26 46 0-6-10-14-12-23-12s-17 2-23 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="330" cy="102" r="9" fill="#4a3b32"/>
+    <path d="M325 138c2 3 8 3 10 0" stroke-width="1.5"/>
+    <path d="M354 180l10 70" stroke="#3f3a34" stroke-width="14"/>
+    <path d="M354 180l10 70" stroke="#f5d2b4" stroke-width="10"/>
+    <path d="M306 182l-32 48" stroke="#3f3a34" stroke-width="14"/>
+    <path d="M306 182l-32 48" stroke="#f5d2b4" stroke-width="10"/>
+    <circle cx="364" cy="252" r="7" fill="#f5d2b4"/>
+    <circle cx="272" cy="234" r="7" fill="#f5d2b4"/>
+  </g>
+  <!-- glasses -->
+  <g data-w="6">
+    <circle cx="321" cy="130" r="8" fill="#d6e7f0" fill-opacity="0.7"/>
+    <circle cx="340" cy="130" r="8" fill="#d6e7f0" fill-opacity="0.7"/>
+    <path d="M329 130h3M313 128l-6-2M348 128l6-2"/>
+  </g>
+  <!-- necklace -->
+  <g data-w="3">
+    <path d="M314 160c4 14 10 20 16 22 6-2 12-8 16-22" stroke="#f0cf6d" stroke-width="3"/>
+    <circle cx="330" cy="186" r="5" fill="#d9736b"/>
+  </g>
+  <!-- wristwatch -->
+  <g data-w="1">
+    <path d="M272 220l10 8" stroke-width="12" stroke="#5e4634"/>
+    <circle cx="278" cy="223" r="8" fill="#ffffff"/>
+    <path d="M278 223v-4M278 223h3" stroke-width="1.5"/>
+  </g>
+
+  <!-- mirror -->
+  <g data-w="17">
+    <path d="M446 300l-20 78M484 300l20 78" stroke-width="4"/>
+    <path d="M430 376h30M470 376h30" stroke-width="4"/>
+    <ellipse cx="465" cy="190" rx="40" ry="120" fill="#9c7450" stroke-width="2"/>
+    <ellipse cx="465" cy="190" rx="30" ry="108" fill="#d6e7f0"/>
+    <path d="M452 110c-10 40-10 90 0 130" stroke="#ffffff" stroke-width="4"/>
+  </g>
+
+  <!-- shelf -->
+  <rect x="556" y="186" width="224" height="8" rx="2" fill="#9c7450"/>
+  <path d="M570 194l-10 16M766 194l10 16" stroke-width="3"/>
+  <!-- gloves -->
+  <g data-w="10">
+    <path d="M572 186v-26c0-16 8-26 18-26s18 10 18 26v26z" fill="#7da2c4"/>
+    <path d="M574 168c-10-2-14-12-8-18 6 2 10 8 8 18z" fill="#7da2c4"/>
+    <path d="M584 138v20M590 136v22M596 138v20" stroke="#4a7fa3" stroke-width="1.5"/>
+    <rect x="572" y="174" width="36" height="12" fill="#b9cfe3"/>
+    <path d="M598 186v-26c0-16 8-26 18-26s18 10 18 26v26z" fill="#7da2c4"/>
+    <path d="M632 168c10-2 14-12 8-18-6 2-10 8-8 18z" fill="#7da2c4"/>
+    <path d="M610 138v20M616 136v22M622 138v20" stroke="#4a7fa3" stroke-width="1.5"/>
+    <rect x="598" y="174" width="36" height="12" fill="#b9cfe3"/>
+  </g>
+  <!-- wallet -->
+  <g data-w="12">
+    <rect x="648" y="156" width="54" height="30" rx="4" fill="#b5463f"/>
+    <path d="M648 166h54" stroke="#d9736b"/>
+    <rect x="686" y="164" width="16" height="12" rx="3" fill="#d9736b"/>
+    <circle cx="694" cy="170" r="2" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- handkerchief -->
+  <g data-w="15">
+    <rect x="718" y="164" width="54" height="22" rx="2" fill="#b9cfe3"/>
+    <path d="M718 172h54M718 180h54M732 164v22M746 164v22M760 164v22" stroke="#ffffff" stroke-width="1.5"/>
+    <path d="M718 164h54" stroke="#4a7fa3"/>
+  </g>
+
+  <!-- dresser -->
+  <rect x="540" y="290" width="240" height="88" rx="4" fill="#d8b48c"/>
+  <path d="M540 334h240M660 290v88" stroke="#b08a63"/>
+  <rect x="534" y="284" width="252" height="10" rx="3" fill="#e3c9a3"/>
+  <circle cx="600" cy="312" r="4" fill="#5e4634"/>
+  <circle cx="720" cy="312" r="4" fill="#5e4634"/>
+  <circle cx="600" cy="356" r="4" fill="#5e4634"/>
+  <circle cx="720" cy="356" r="4" fill="#5e4634"/>
+  <!-- ring on cone -->
+  <g data-w="2">
+    <path d="M552 284l16-44 16 44z" fill="#ede9e1"/>
+    <circle cx="568" cy="258" r="10" stroke="#f0cf6d" stroke-width="4"/>
+    <circle cx="568" cy="258" r="10"/>
+    <path d="M562 246l6-8 6 8-6 6z" fill="#7da2c4"/>
+  </g>
+  <!-- earrings on stand -->
+  <g data-w="4">
+    <path d="M604 284v-50h40v50" fill="#ffffff"/>
+    <path d="M598 284h52" stroke-width="3"/>
+    <path d="M612 236c-4 4-4 8 0 10M636 236c4 4 4 8 0 10" stroke="#f0cf6d" stroke-width="2.5"/>
+    <path d="M612 246v8M636 246v8" stroke="#f0cf6d" stroke-width="2.5"/>
+    <path d="M612 254c-8 8-8 18 0 22 8-4 8-14 0-22zM636 254c-8 8-8 18 0 22 8-4 8-14 0-22z" fill="#a58bc0"/>
+    <circle cx="612" cy="264" r="2" fill="#ffffff" stroke="none"/>
+    <circle cx="636" cy="264" r="2" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- bracelet -->
+  <g data-w="5">
+    <ellipse cx="690" cy="278" rx="22" ry="9" stroke="#f0cf6d" stroke-width="5"/>
+    <ellipse cx="690" cy="278" rx="22" ry="9"/>
+    <circle cx="672" cy="274" r="3" fill="#d9736b"/>
+    <circle cx="690" cy="269" r="3" fill="#7da2c4"/>
+    <circle cx="708" cy="274" r="3" fill="#5b8a72"/>
+    <circle cx="690" cy="287" r="3" fill="#d9736b"/>
+  </g>
+  <!-- sunglasses -->
+  <g data-w="7">
+    <path d="M722 272h50" stroke-width="3"/>
+    <ellipse cx="734" cy="278" rx="12" ry="8" fill="#3f3a34"/>
+    <ellipse cx="760" cy="278" rx="12" ry="8" fill="#3f3a34"/>
+    <path d="M746 276h2" stroke-width="3"/>
+    <path d="M730 275c2-2 6-2 8 0M756 275c2-2 6-2 8 0" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+</svg>

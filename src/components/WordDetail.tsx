@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { vocab } from '../data/vocab'
 import accents from '../data/vocab/accents.json'
+import sceneAccents from '../data/vocab/scene-accents.json'
 import { scenesWithWord } from '../data/scenes'
 import { findExamples, type Example } from '../lib/examples'
-import { relatedWords } from '../lib/dictionary'
+import { relatedWords, toHiragana } from '../lib/dictionary'
 import { loadWordImages } from '../lib/wordImages'
 import { speak, speakWord } from '../lib/tts'
 import Furigana from './Furigana'
@@ -62,7 +63,10 @@ export default function WordDetail({ entry, zhFirst, onPick }: Props) {
   const [broken, setBroken] = useState(false)
   const [furi, setFuri] = useState(true)
 
-  const accent = entry.id ? (accents as Record<string, number>)[entry.id] : undefined
+  // Vocab words are keyed by id; scene words outside the list by 表記|よみ.
+  const accent =
+    (entry.id ? (accents as Record<string, number>)[entry.id] : undefined) ??
+    (sceneAccents as Record<string, number>)[`${entry.word}|${toHiragana(entry.reading)}`]
   const scenes = useMemo(() => scenesWithWord(entry.word), [entry.word])
   const related = useMemo(() => {
     const v = entry.id ? vocab.find((x) => x.id === entry.id) : undefined

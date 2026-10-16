@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <path id="foot" d="M-14 0c0-6 6-9 14-9s14 3 14 9z" fill="#f5d2b4"/>
+    <g id="fan">
+      <path d="M4-4c6 0 10 3 14 3 4 0 6-2 6-4 0-6-6-12-10-18 0-2 1-3 3-3 6 0 10 12 10 22 0 6-6 10-13 10h-4z" fill="#f5d2b4"/>
+    </g>
+  </defs>
+  <!-- arena wall and floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="130" width="800" height="300" fill="#ede9e1" stroke="none"/>
+  <path d="M0 130h800" stroke="#cfc9bd"/>
+  <rect x="0" y="430" width="800" height="70" fill="#cfc9bd" stroke="none"/>
+
+  <!-- hanging roof -->
+  <g data-w="14">
+    <path d="M260 20v22M540 20v22" stroke-width="3"/>
+    <path d="M190 96l210-62 210 62-10 12H200z" fill="#5e4634"/>
+    <path d="M232 92l168-46 168 46z" fill="#9c7450"/>
+    <rect x="200" y="108" width="400" height="18" fill="#a58bc0"/>
+    <path d="M200 126c30 10 60 10 90 0s60-10 90 0 60 10 90 0 60-10 90 0 30 10 40 0" fill="#a58bc0"/>
+    <path d="M206 126v30M594 126v30" stroke-width="3"/>
+    <rect x="200" y="154" width="12" height="26" rx="3" fill="#5b8a72"/>
+    <rect x="588" y="154" width="12" height="26" rx="3" fill="#b5463f"/>
+  </g>
+
+  <!-- dohyo mound -->
+  <g data-w="2">
+    <path d="M60 430l90-90h500l90 90z" fill="#d8b48c"/>
+    <ellipse cx="400" cy="340" rx="250" ry="46" fill="#e3c9a3"/>
+    <path d="M150 340h500" stroke="#c49b6e"/>
+    <path d="M376 322h16M408 322h16" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <g data-w="13">
+    <ellipse cx="400" cy="338" rx="180" ry="34" stroke="#9c7450" stroke-width="7" stroke-dasharray="20 5"/>
+    <ellipse cx="400" cy="338" rx="180" ry="34" stroke-width="1"/>
+  </g>
+
+  <!-- salt box -->
+  <g data-w="12">
+    <path d="M226 400h48l-6 26h-36z" fill="#9c7450"/>
+    <path d="M224 390h52v10h-52z" fill="#9c7450"/>
+    <path d="M230 390c8-12 32-12 40 0z" fill="#ffffff"/>
+  </g>
+
+  <!-- wrestler doing shiko (left) -->
+  <g data-w="1">
+    <path d="M154 300l6 60v62" stroke="#f5d2b4" stroke-width="26"/>
+    <path d="M154 300l6 60v62" stroke-width="1"/>
+    <use href="#foot" x="162" y="430"/>
+    <ellipse cx="140" cy="244" rx="50" ry="54" fill="#f5d2b4"/>
+    <path d="M100 222l-32 36M182 226l-4 66" stroke="#f5d2b4" stroke-width="16"/>
+    <path d="M100 222l-32 36M182 226l-4 66" stroke-width="1"/>
+    <circle cx="178" cy="296" r="9" fill="#f5d2b4"/>
+    <circle cx="140" cy="170" r="26" fill="#f5d2b4"/>
+    <path d="M114 166c0-30 52-30 52 0-6-10-16-12-26-12s-20 2-26 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="130" cy="172" r="2.2" fill="#3f3a34" stroke="none"/>
+    <circle cx="150" cy="172" r="2.2" fill="#3f3a34" stroke="none"/>
+    <path d="M135 184c3 2 7 2 10 0" stroke-width="1.5"/>
+  </g>
+  <g data-w="4">
+    <path d="M118 292l-52-30M66 262l-14-42" stroke="#f5d2b4" stroke-width="24"/>
+    <path d="M118 292l-52-30M66 262l-14-42" stroke-width="1"/>
+    <path d="M34 216c-4-12 8-18 20-16s16 8 14 14z" fill="#f5d2b4"/>
+    <circle cx="66" cy="260" r="9" fill="#f5d2b4"/>
+    <path d="M44 290l-6 8M56 300l-2 10M70 304l2 10" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <g data-w="3">
+    <path d="M94 276h92v18c-22 10-70 10-92 0z" fill="#4a7fa3"/>
+    <path d="M128 294h24v32h-24z" fill="#4a7fa3"/>
+  </g>
+  <g data-w="5">
+    <path d="M126 150c0-10 28-10 28 0" fill="#4a3b32"/>
+    <path d="M140 148l0-12" stroke-width="4"/>
+    <path d="M140 150l24-10" stroke-width="5"/>
+  </g>
+
+  <!-- bout: pusher (left) and pushed (right) -->
+  <g data-w="6">
+    <path d="M330 300l-30 70M360 306l12 66" stroke="#f5d2b4" stroke-width="20"/>
+    <path d="M330 300l-30 70M360 306l12 66" stroke-width="1"/>
+    <use href="#foot" x="294" y="382"/><use href="#foot" x="376" y="382"/>
+    <path d="M444 300l-14 70M472 300l32 66" stroke="#f5d2b4" stroke-width="20"/>
+    <path d="M444 300l-14 70M472 300l32 66" stroke-width="1"/>
+    <use href="#foot" x="426" y="382"/><use href="#foot" x="510" y="378"/>
+    <ellipse cx="346" cy="262" rx="40" ry="46" fill="#f5d2b4"/>
+    <ellipse cx="458" cy="258" rx="40" ry="46" fill="#f5d2b4"/>
+    <path d="M318 290h58v18c-14 8-44 8-58 0z" fill="#b5463f"/>
+    <path d="M430 288h56v18c-14 8-42 8-56 0z" fill="#5b8a72"/>
+    <circle cx="374" cy="208" r="22" fill="#f5d2b4"/>
+    <path d="M352 204c0-26 44-26 44 0-6-9-14-11-22-11s-16 2-22 11z" fill="#4a3b32" stroke="none"/>
+    <path d="M364 188c0-8 20-8 20 0M374 184l20-8" stroke-width="4"/>
+    <circle cx="380" cy="208" r="2" fill="#3f3a34" stroke="none"/>
+    <path d="M384 216l6 2" stroke-width="1.5"/>
+    <circle cx="470" cy="200" r="22" fill="#f5d2b4"/>
+    <path d="M448 196c0-26 44-26 44 0-6-9-14-11-22-11s-16 2-22 11z" fill="#4a3b32" stroke="none"/>
+    <path d="M460 180c0-8 20-8 20 0M470 176l20-8" stroke-width="4"/>
+    <circle cx="462" cy="200" r="2" fill="#3f3a34" stroke="none"/>
+    <path d="M456 210c2-2 6-2 8 0" stroke-width="1.5"/>
+    <path d="M490 240l24-30M478 268l30-6" stroke="#f5d2b4" stroke-width="16"/>
+    <path d="M490 240l24-30M478 268l30-6" stroke-width="1"/>
+    <circle cx="516" cy="206" r="8" fill="#f5d2b4"/>
+    <circle cx="512" cy="262" r="8" fill="#f5d2b4"/>
+  </g>
+  <g data-w="7">
+    <path d="M376 236l40-6M380 272l40-10" stroke="#f5d2b4" stroke-width="16"/>
+    <path d="M376 236l40-6M380 272l40-10" stroke-width="1"/>
+    <circle cx="420" cy="230" r="9" fill="#f5d2b4"/>
+    <circle cx="424" cy="262" r="9" fill="#f5d2b4"/>
+    <path d="M434 222l12-4M436 254l12-2" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+
+  <!-- referee (gyoji) -->
+  <g data-w="8">
+    <path d="M540 236l-12 90h64l-12-90z" fill="#a58bc0"/>
+    <path d="M536 250h-24v40c0 6 24 6 24 0zM584 250h24v40c0 6-24 6-24 0z" fill="#a58bc0"/>
+    <path d="M544 232h32l-6 26h-20z" fill="#f0cf6d"/>
+    <path d="M520 328h80" stroke-width="4"/>
+    <path d="M546 232l14 26 14-26" fill="#ffffff"/>
+    <path d="M542 230l18 30 18-30" stroke-width="3"/>
+    <circle cx="560" cy="200" r="20" fill="#f5d2b4"/>
+    <path d="M538 196c0-16 10-30 22-30s22 14 22 30c-8-6-14-8-22-8s-14 2-22 8z" fill="#3f3a34"/>
+    <path d="M546 170c4-14 24-14 28 0" fill="#3f3a34"/>
+    <circle cx="553" cy="202" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="567" cy="202" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M556 210c2 2 6 2 8 0" stroke-width="1.5"/>
+    <circle cx="520" cy="296" r="7" fill="#f5d2b4"/>
+  </g>
+  <g data-w="9">
+    <path d="M596 254l14-34" stroke="#f5d2b4" stroke-width="12"/>
+    <path d="M610 220l10-24" stroke="#9c7450" stroke-width="4"/>
+    <ellipse cx="626" cy="178" rx="20" ry="24" fill="#d9736b"/>
+    <ellipse cx="626" cy="178" rx="12" ry="16" fill="#f0cf6d"/>
+    <circle cx="598" cy="256" r="7" fill="#f5d2b4"/>
+  </g>
+
+  <!-- yokozuna (right) -->
+  <g data-w="10">
+    <path d="M682 320l-8 110M718 320l8 110" stroke="#f5d2b4" stroke-width="22"/>
+    <path d="M682 320l-8 110M718 320l8 110" stroke-width="1"/>
+    <use href="#foot" x="672" y="442"/><use href="#foot" x="728" y="442"/>
+    <ellipse cx="700" cy="252" rx="46" ry="54" fill="#f5d2b4"/>
+    <path d="M660 230l-16 40M740 230l6-46" stroke="#f5d2b4" stroke-width="18"/>
+    <path d="M660 230l-16 40M740 230l6-46" stroke-width="1"/>
+    <circle cx="644" cy="272" r="9" fill="#f5d2b4"/>
+    <circle cx="748" cy="182" r="9" fill="#f5d2b4"/>
+    <circle cx="700" cy="172" r="26" fill="#f5d2b4"/>
+    <path d="M674 168c0-30 52-30 52 0-6-10-16-12-26-12s-20 2-26 12z" fill="#4a3b32" stroke="none"/>
+    <path d="M688 152c0-10 24-10 24 0M700 146l22-8" stroke-width="5"/>
+    <circle cx="690" cy="174" r="2.2" fill="#3f3a34" stroke="none"/>
+    <circle cx="710" cy="174" r="2.2" fill="#3f3a34" stroke="none"/>
+    <path d="M694 186c3 3 9 3 12 0" stroke-width="1.5"/>
+    <path d="M656 292h88v22c-20 10-68 10-88 0z" fill="#5e4634"/>
+    <path d="M656 288c20-14 68-14 88 0v12c-20-14-68-14-88 0z" fill="#ffffff"/>
+    <path d="M672 298l-4 14 6-2-4 14M700 302v14l6-2v14M728 298l4 14-6-2 4 14" stroke="#8c867c" stroke-width="2" fill="none"/>
+    <path d="M690 312h20v40h-20z" fill="#5e4634"/>
+  </g>
+  <g data-w="11">
+    <path d="M740 196l12-24M740 160l-4 12" stroke="#f0cf6d" stroke-width="3"/>
+    <path d="M722 150l6-12M734 170l8-8" stroke="#f0cf6d" stroke-width="2"/>
+  </g>
+
+  <!-- cushion -->
+  <g data-w="16">
+    <path d="M44 450h78l6 32H38z" fill="#a58bc0"/>
+    <path d="M60 466h46" stroke="#8c6fa8" stroke-width="1.5"/>
+    <path d="M46 440h74l4 10H42z" fill="#d9736b"/>
+  </g>
+  <!-- spectators (from behind) -->
+  <g data-w="15">
+    <path d="M150 500v-30c0-16 50-16 50 0v30z" fill="#7da2c4"/>
+    <circle cx="175" cy="452" r="17" fill="#f5d2b4"/>
+    <path d="M158 450c0-22 34-22 34 0z" fill="#4a3b32"/>
+    <path d="M230 500v-30c0-16 50-16 50 0v30z" fill="#d9736b"/>
+    <circle cx="255" cy="454" r="17" fill="#f5d2b4"/>
+    <path d="M238 452c0-22 34-22 34 0z" fill="#8c867c"/>
+    <path d="M310 500v-30c0-16 50-16 50 0v30z" fill="#5b8a72"/>
+    <circle cx="335" cy="452" r="17" fill="#f5d2b4"/>
+    <path d="M318 450c0-22 34-22 34 0z" fill="#4a3b32"/>
+    <path d="M390 500v-30c0-16 50-16 50 0v30z" fill="#f0cf6d"/>
+    <circle cx="415" cy="454" r="17" fill="#f5d2b4"/>
+    <path d="M398 452c0-22 34-22 34 0z" fill="#4a3b32"/>
+    <path d="M500 500v-30c0-16 50-16 50 0v30z" fill="#e59a5b"/>
+    <circle cx="525" cy="452" r="17" fill="#f5d2b4"/>
+    <path d="M508 450c0-22 34-22 34 0z" fill="#8c867c"/>
+    <path d="M580 500v-30c0-16 50-16 50 0v30z" fill="#a58bc0"/>
+    <circle cx="605" cy="454" r="17" fill="#f5d2b4"/>
+    <path d="M588 452c0-22 34-22 34 0z" fill="#4a3b32"/>
+  </g>
+</svg>

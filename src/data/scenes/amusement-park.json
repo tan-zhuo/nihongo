@@ -1,0 +1,32 @@
+{
+  "id": "amusement-park",
+  "n": 74,
+  "group": "town",
+  "title": "遊園地",
+  "title_zh": "游乐园",
+  "title_en": "Amusement park",
+  "words": [
+    { "w": "遊園地", "r": "ゆうえんち", "zh": "游乐园", "en": "amusement park", "x": 124, "y": 356 },
+    { "w": "観覧車", "r": "かんらんしゃ", "zh": "摩天轮", "en": "Ferris wheel", "x": 650, "y": 160 },
+    { "w": "ジェットコースター", "r": "ジェットコースター", "zh": "过山车", "en": "roller coaster", "x": 200, "y": 222 },
+    { "w": "叫ぶ", "r": "さけぶ", "zh": "喊叫", "en": "to shout; to scream", "x": 236, "y": 150 },
+    { "w": "メリーゴーランド", "r": "メリーゴーランド", "zh": "旋转木马", "en": "merry-go-round", "x": 410, "y": 362 },
+    { "w": "馬", "r": "うま", "zh": "马", "en": "horse", "x": 470, "y": 302 },
+    { "w": "お化け屋敷", "r": "おばけやしき", "zh": "鬼屋", "en": "haunted house", "x": 100, "y": 290 },
+    { "w": "チケット", "r": "チケット", "zh": "票", "en": "ticket", "x": 745, "y": 408 },
+    { "w": "行列", "r": "ぎょうれつ", "zh": "队伍；行列", "en": "queue; procession", "x": 640, "y": 462 },
+    { "w": "帽子", "r": "ぼうし", "zh": "帽子", "en": "hat; cap", "x": 600, "y": 364 },
+    { "w": "着ぐるみ", "r": "きぐるみ", "zh": "玩偶装", "en": "mascot costume", "x": 260, "y": 440 },
+    { "w": "風船", "r": "ふうせん", "zh": "气球", "en": "balloon", "x": 300, "y": 298 },
+    { "w": "楽しい", "r": "たのしい", "zh": "快乐的", "en": "fun; enjoyable", "x": 350, "y": 440 },
+    { "w": "子供", "r": "こども", "zh": "孩子", "en": "child", "x": 470, "y": 440 },
+    { "w": "綿あめ", "r": "わたあめ", "zh": "棉花糖", "en": "cotton candy", "x": 515, "y": 392 },
+    { "w": "空", "r": "そら", "zh": "天空", "en": "sky", "x": 420, "y": 40 }
+  ],
+  "sentences": [
+    { "ja": "{遊園地|ゆうえんち}で{観覧車|かんらんしゃ}に{乗|の}りました。", "zh": "在游乐园坐了摩天轮。", "en": "We rode the Ferris wheel at the amusement park." },
+    { "ja": "ジェットコースターはとても{速|はや}くて、みんな{叫|さけ}んでいます。", "zh": "过山车非常快，大家都在尖叫。", "en": "The roller coaster is very fast, and everyone is screaming." },
+    { "ja": "{子供|こども}は{風船|ふうせん}を{持|も}って、とても{楽|たの}しそうです。", "zh": "孩子拿着气球，看起来非常开心。", "en": "The child is holding a balloon and looks very happy." },
+    { "ja": "チケット{売|う}り{場|ば}の{前|まえ}に{長|なが}い{行列|ぎょうれつ}ができています。", "zh": "售票处前排起了长队。", "en": "There is a long line in front of the ticket booth." }
+  ]
+}

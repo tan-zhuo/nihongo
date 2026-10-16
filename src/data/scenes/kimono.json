@@ -1,0 +1,31 @@
+{
+  "id": "kimono",
+  "n": 96,
+  "group": "culture",
+  "title": "着物",
+  "title_zh": "和服",
+  "title_en": "Kimono",
+  "words": [
+    { "w": "着物", "r": "きもの", "zh": "和服", "en": "kimono", "x": 250, "y": 320 },
+    { "w": "帯", "r": "おび", "zh": "腰带", "en": "obi; sash", "x": 250, "y": 212 },
+    { "w": "襟", "r": "えり", "zh": "衣领", "en": "collar", "x": 250, "y": 165 },
+    { "w": "振袖", "r": "ふりそで", "zh": "振袖（长袖和服）", "en": "long-sleeved kimono", "x": 420, "y": 345 },
+    { "w": "袖", "r": "そで", "zh": "袖子", "en": "sleeve", "x": 478, "y": 300 },
+    { "w": "結ぶ", "r": "むすぶ", "zh": "系；结合", "en": "to tie; to link", "x": 420, "y": 268 },
+    { "w": "かんざし", "r": "かんざし", "zh": "发簪", "en": "hair ornament", "x": 372, "y": 86 },
+    { "w": "浴衣", "r": "ゆかた", "zh": "浴衣", "en": "yukata (summer kimono)", "x": 680, "y": 200 },
+    { "w": "鏡", "r": "かがみ", "zh": "镜子", "en": "mirror", "x": 548, "y": 130 },
+    { "w": "障子", "r": "しょうじ", "zh": "纸拉门", "en": "paper sliding door", "x": 115, "y": 150 },
+    { "w": "巾着", "r": "きんちゃく", "zh": "束口袋", "en": "drawstring pouch", "x": 312, "y": 282 },
+    { "w": "草履", "r": "ぞうり", "zh": "草履（和服鞋）", "en": "zori sandals", "x": 110, "y": 418 },
+    { "w": "下駄", "r": "げた", "zh": "木屐", "en": "geta clogs", "x": 200, "y": 458 },
+    { "w": "足袋", "r": "たび", "zh": "足袋（分趾袜）", "en": "tabi socks", "x": 316, "y": 452 },
+    { "w": "扇子", "r": "せんす", "zh": "折扇", "en": "folding fan", "x": 490, "y": 448 },
+    { "w": "畳", "r": "たたみ", "zh": "榻榻米", "en": "tatami mat", "x": 700, "y": 462 }
+  ],
+  "sentences": [
+    { "ja": "{姉|あね}は{赤|あか}い{振袖|ふりそで}を{着|き}て、{帯|おび}を{結|むす}んでいます。", "zh": "姐姐穿着红色的振袖，正在系腰带。", "en": "My sister is wearing a red furisode and tying her obi." },
+    { "ja": "{母|はは}は{青|あお}い{着物|きもの}を{着|き}て、{巾着|きんちゃく}を{持|も}っています。", "zh": "妈妈穿着蓝色的和服，拿着束口袋。", "en": "Mom is wearing a blue kimono and holding a drawstring pouch." },
+    { "ja": "{畳|たたみ}の{上|うえ}に{草履|ぞうり}と{下駄|げた}と{足袋|たび}があります。", "zh": "榻榻米上有草履、木屐和足袋。", "en": "There are zori, geta and tabi on the tatami." }
+  ]
+}

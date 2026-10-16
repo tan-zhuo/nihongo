@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="hl"><path d="M-15-2h30v18h-30z" fill="#4a3b32" stroke="none"/><circle r="13" fill="#f5d2b4"/><path d="M-13-3c3-11 23-11 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#4a3b32" stroke="none"/><path d="M-4 5c1 2 7 2 8 0" stroke-width="1.5"/></g>
+    <path id="aw" d="M0 0h126v26H0zM0 26q10 12 21 0q10 12 21 0q10 12 21 0q10 12 21 0q10 12 21 0q10 12 21 0"/>
+    <g id="ct"><rect x="8" y="256" width="110" height="74" fill="#e3c9a3"/><rect x="4" y="250" width="118" height="8" rx="2" fill="#9c7450"/><rect x="4" y="294" width="118" height="8" rx="2" fill="#9c7450"/></g>
+    <path id="fish" d="M0 0c8-10 24-10 32 0-8 10-24 10-32 0zM32 0l10-7v14z" fill="#7da2c4"/>
+    <g id="fl"><path d="M0 0v-30" stroke="#5b8a72" stroke-width="2.5"/><circle cy="-34" r="8"/></g>
+  </defs>
+  <rect width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <!-- arcade roof -->
+  <g data-w="2">
+    <rect x="0" y="0" width="800" height="100" fill="#cfc9bd" stroke="none"/>
+    <path d="M0 100C200 10 600 10 800 100z" fill="#d6e7f0"/>
+    <path d="M100 100V51M200 100V30M300 100V20M400 100V17M500 100V20M600 100V30M700 100V51" stroke="#8c867c"/>
+    <path d="M0 100h800" stroke-width="3"/>
+    <circle cx="160" cy="118" r="8" fill="#f8e6ae"/><path d="M160 100v10"/>
+    <circle cx="640" cy="118" r="8" fill="#f8e6ae"/><path d="M640 100v10"/>
+  </g>
+  <!-- hanging street sign -->
+  <g data-w="1">
+    <rect x="340" y="82" width="120" height="32" rx="4" fill="#d9736b"/>
+    <rect x="346" y="87" width="108" height="22" rx="3" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <!-- street floor -->
+  <rect x="0" y="330" width="800" height="170" fill="#ede9e1" stroke="none"/>
+  <path d="M0 330h800" stroke-width="3"/>
+  <path d="M0 390h800M0 450h800M80 330v170M240 330v170M400 330v170M560 330v170M720 330v170" stroke="#cfc9bd"/>
+  <!-- greengrocer -->
+  <g data-w="3">
+    <rect x="22" y="116" width="98" height="30" rx="3" fill="#5b8a72"/>
+    <circle cx="70" cy="126" r="9" fill="#ffffff" stroke="none"/>
+    <use href="#aw" x="8" y="148" fill="#9dc0a8"/>
+    <use href="#ct"/>
+  </g>
+  <g data-w="6">
+    <path d="M22 256v-36c0-12 10-20 20-20s20 8 20 20v36z" fill="#4a7fa3"/>
+    <rect x="30" y="218" width="24" height="38" rx="3" fill="#ffffff" stroke="none"/>
+    <circle cx="42" cy="184" r="14" fill="#f5d2b4"/>
+    <path d="M28 181c3-11 25-11 28 0-5-5-10-6-14-6s-9 1-14 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M38 189c1 2 7 2 8 0" stroke-width="1.5"/>
+    <path d="M30 170h24v-6h-24z" fill="#f0cf6d"/>
+  </g>
+  <g data-w="4">
+    <rect x="16" y="224" width="40" height="30" rx="2" fill="#9c7450"/>
+    <circle cx="26" cy="226" r="8" fill="#d9736b"/><circle cx="46" cy="226" r="8" fill="#d9736b"/><circle cx="36" cy="222" r="8" fill="#d9736b"/>
+    <rect x="62" y="228" width="40" height="26" rx="2" fill="#9c7450"/>
+    <path d="M66 232l10-20M80 232l10-20M94 232l6-18" stroke="#5b8a72" stroke-width="5"/>
+    <path d="M64 232l12-18 8 18zM84 232l10-18 8 18z" fill="#f0cf6d"/>
+    <path d="M24 268c0-8 12-8 12 0s-12 8-12 0zM50 268c0-8 12-8 12 0s-12 8-12 0zM76 268c0-8 12-8 12 0s-12 8-12 0z" fill="#e59a5b"/>
+    <path d="M36 268l16 20M62 268l16 20" stroke="#e59a5b" stroke-width="5"/>
+    <path d="M44 286l16 8M70 286l16 8" stroke="#5b8a72" stroke-width="4"/>
+    <path d="M14 256h100" stroke="#9c7450"/>
+  </g>
+  <g data-w="5">
+    <path d="M120 258v-18" stroke-width="3"/>
+    <path d="M120 212l6 10 12-4-4 12 10 6-10 6 4 12-12-4-6 10-6-10-12 4 4-12-10-6 10-6-4-12 12 4z" fill="#f0cf6d"/>
+    <path d="M120 226v16M114 236l6 6 6-6" stroke="#b5463f" stroke-width="2.5"/>
+  </g>
+  <!-- fishmonger -->
+  <g data-w="7">
+    <rect x="152" y="116" width="98" height="30" rx="3" fill="#4a7fa3"/>
+    <use href="#fish" x="186" y="126" transform="scale(0.6) translate(130 84)"/>
+    <use href="#aw" x="138" y="148" fill="#7da2c4"/>
+    <use href="#ct" x="130"/>
+  </g>
+  <g data-w="8">
+    <rect x="146" y="226" width="110" height="30" rx="4" fill="#ffffff"/>
+    <path d="M150 240c20-10 40-10 60 0 16 8 30 8 46 0" stroke="#d6e7f0" stroke-width="6"/>
+    <use href="#fish" x="156" y="236"/>
+    <use href="#fish" x="196" y="246"/>
+    <use href="#fish" x="176" y="222"/>
+    <use href="#fish" x="216" y="232"/>
+  </g>
+  <!-- banner flag -->
+  <g data-w="10">
+    <rect x="265" y="146" width="4" height="184" fill="#8c867c"/>
+    <path d="M269 154h30v140l-15 8-15-8z" fill="#d9736b"/>
+    <circle cx="284" cy="190" r="9" fill="#ffffff" stroke="none"/>
+    <circle cx="284" cy="226" r="9" fill="#ffffff" stroke="none"/>
+    <circle cx="284" cy="262" r="9" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- butcher -->
+  <g data-w="9">
+    <rect x="282" y="116" width="98" height="30" rx="3" fill="#b5463f"/>
+    <path d="M320 126c0-8 24-8 24 0s-24 8-24 0z" fill="#ffffff" stroke="none"/>
+    <use href="#aw" x="268" y="148" fill="#f1b1aa"/>
+    <use href="#ct" x="260"/>
+    <rect x="276" y="212" width="112" height="44" rx="4" fill="#d6e7f0"/>
+    <path d="M282 236c0-10 18-14 26-6 6 8-4 18-14 18s-12-4-12-12zM316 234c0-10 20-14 28-6 6 8-4 18-16 18s-12-4-12-12zM352 236c0-10 16-14 24-6 6 8-4 18-14 18s-10-4-10-12z" fill="#f1b1aa"/>
+    <path d="M286 238c6-4 12-4 18 0M320 236c6-4 14-4 20 0M356 238c6-4 10-4 16 0" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <!-- bakery -->
+  <g data-w="11">
+    <rect x="412" y="116" width="98" height="30" rx="3" fill="#e59a5b"/>
+    <path d="M446 126c0-6 28-6 28 0s-28 6-28 0z" fill="#ffffff" stroke="none"/>
+    <use href="#aw" x="398" y="148" fill="#f0cf6d"/>
+    <use href="#ct" x="390"/>
+  </g>
+  <g data-w="12">
+    <path d="M406 256v-26h50v26z" fill="#9c7450"/>
+    <path d="M410 230c0-8 10-14 20-14s20 6 20 14zM412 232l8-10M424 232l8-10M436 232l8-10" fill="#e59a5b"/>
+    <path d="M466 254c-8-8-4-30 24-36 28 6 32 28 24 36z" fill="#d8b48c"/>
+    <path d="M476 238l6-6M490 236l6-6M504 238l6-6" />
+    <ellipse cx="420" cy="282" rx="14" ry="9" fill="#e59a5b"/>
+    <ellipse cx="452" cy="284" rx="14" ry="9" fill="#e59a5b"/>
+    <ellipse cx="484" cy="284" rx="14" ry="9" fill="#d8b48c"/>
+    <path d="M416 278h8M448 280h8M480 280h8" stroke="#f8e6ae"/>
+  </g>
+  <!-- flower shop -->
+  <g data-w="13">
+    <rect x="542" y="116" width="98" height="30" rx="3" fill="#a58bc0"/>
+    <circle cx="591" cy="126" r="7" fill="#ffffff" stroke="none"/>
+    <use href="#aw" x="528" y="148" fill="#f1b1aa"/>
+    <use href="#ct" x="520"/>
+  </g>
+  <g data-w="14">
+    <path d="M538 256v-30h30v30zM576 256v-34h30v34zM614 256v-30h30v30z" fill="#8c867c"/>
+    <use href="#fl" x="546" y="226" fill="#d9736b"/><use href="#fl" x="560" y="230" fill="#f0cf6d"/>
+    <use href="#fl" x="584" y="222" fill="#a58bc0"/><use href="#fl" x="598" y="226" fill="#d9736b"/>
+    <use href="#fl" x="622" y="226" fill="#f0cf6d"/><use href="#fl" x="636" y="230" fill="#f1b1aa"/>
+    <path d="M540 292v-22h24v22zM572 292v-26h24v26z" fill="#9dc0a8"/>
+    <circle cx="546" cy="268" r="7" fill="#d9736b"/><circle cx="558" cy="264" r="7" fill="#f0cf6d"/><circle cx="578" cy="262" r="7" fill="#a58bc0"/><circle cx="590" cy="266" r="7" fill="#f1b1aa"/>
+  </g>
+  <!-- bookstore -->
+  <g data-w="15">
+    <rect x="672" y="116" width="98" height="30" rx="3" fill="#4a7fa3"/>
+    <rect x="712" y="118" width="18" height="16" fill="#ffffff" stroke="none"/>
+    <use href="#aw" x="658" y="148" fill="#b9cfe3"/>
+    <use href="#ct" x="650"/>
+  </g>
+  <g data-w="16">
+    <rect x="662" y="196" width="104" height="60" fill="#e3c9a3"/>
+    <path d="M668 252v-44h12v44M682 252v-36h12v36M696 252v-48h14v48M712 252v-40h12v40M726 252v-44h12v44M740 252v-36h14v36" fill="#d9736b"/>
+    <path d="M696 208h14M726 208h12" stroke="#ffffff"/>
+    <rect x="670" y="262" width="40" height="10" fill="#4a7fa3"/>
+    <rect x="674" y="272" width="40" height="10" fill="#f0cf6d"/>
+    <rect x="668" y="282" width="44" height="10" fill="#5b8a72"/>
+    <path d="M724 262h36l6 30h-36z" fill="#ffffff"/>
+    <path d="M730 270h22M732 280h22" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- woman with shopping bag -->
+  <g>
+    <rect x="288" y="434" width="28" height="36" fill="#4a7fa3"/>
+    <path d="M282 434v-34c0-14 8-22 20-22s20 8 20 22v34z" fill="#e59a5b"/>
+    <path d="M316 400l12 32" stroke="#e59a5b" stroke-width="8"/>
+    <circle cx="328" cy="436" r="5" fill="#f5d2b4"/>
+    <use href="#hl" x="302" y="364"/>
+  </g>
+  <g data-w="18">
+    <path d="M322 440c0-10 14-10 14 0" />
+    <rect x="316" y="438" width="30" height="34" rx="3" fill="#f0cf6d"/>
+    <path d="M324 448l6 10 6-10" stroke="#5b8a72"/>
+    <path d="M322 466c4-4 10-4 14 0" stroke="#5b8a72"/>
+  </g>
+  <!-- bicycle -->
+  <g data-w="17">
+    <circle cx="578" cy="452" r="24" fill="#ffffff"/>
+    <circle cx="578" cy="452" r="4" fill="#3f3a34"/>
+    <circle cx="662" cy="452" r="24" fill="#ffffff"/>
+    <circle cx="662" cy="452" r="4" fill="#3f3a34"/>
+    <path d="M578 452l36-6-14-40h50l-36 40M578 452l22-46M650 406l12 46" stroke="#4a7fa3" stroke-width="3"/>
+    <path d="M650 406v-8h18" stroke-width="3"/>
+    <rect x="586" y="398" width="26" height="7" rx="3" fill="#3f3a34"/>
+    <rect x="666" y="400" width="30" height="22" rx="3" fill="#8c867c"/>
+    <path d="M672 406h18M672 412h18" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="614" cy="446" r="5" fill="#cfc9bd"/>
+  </g>
+</svg>

@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="chair">
+      <rect x="-26" y="0" width="52" height="40" rx="6" fill="#8c867c"/>
+      <path d="M-22 40v22M22 40v22" stroke-width="4"/>
+    </g>
+    <g id="parent">
+      <path d="M-30 60v-32c0-18 60-18 60 0v32z"/>
+      <circle cx="0" cy="8" r="18" fill="#f5d2b4"/>
+    </g>
+    <path id="flower" d="M0-6c3-6 10-2 6 3 6 0 6 7 0 7 2 6-6 8-6 2-4 6-10 2-6-3-6 0-6-7 0-7-3-6 4-9 6-2z"/>
+  </defs>
+  <!-- gym: wall, ceiling, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <g data-w="1">
+    <rect x="0" y="0" width="800" height="26" fill="#ede9e1" stroke="none"/>
+    <path d="M0 26h800" stroke="#cfc9bd" stroke-width="3"/>
+    <path d="M0 60h800" stroke="#cfc9bd"/>
+    <path d="M100 26v34M300 26v34M500 26v34M700 26v34" stroke="#cfc9bd" stroke-width="3"/>
+    <rect x="0" y="290" width="800" height="210" fill="#e3c9a3" stroke="none"/>
+    <path d="M0 330h800M0 380h800M0 430h800M0 480h800" stroke="#d8b48c" stroke-width="1.5"/>
+  </g>
+  <path d="M0 290h800" stroke="#b08a63" stroke-width="3"/>
+  <!-- red/white curtain -->
+  <g data-w="2">
+    <rect x="0" y="62" width="800" height="138" fill="#ffffff" stroke="none"/>
+    <path d="M30 62v138M90 62v138M150 62v138M210 62v138M270 62v138M330 62v138M390 62v138M450 62v138M510 62v138M570 62v138M630 62v138M690 62v138M750 62v138" stroke="#d9736b" stroke-width="30"/>
+    <path d="M0 62h800M0 200h800" />
+  </g>
+  <!-- flag (decor) -->
+  <g>
+    <path d="M196 72v128" stroke-width="4"/>
+    <circle cx="196" cy="68" r="4" fill="#f0cf6d"/>
+    <rect x="198" y="78" width="60" height="40" fill="#ffffff"/>
+    <circle cx="228" cy="98" r="11" fill="#d9736b" stroke="none"/>
+  </g>
+  <!-- stage -->
+  <g data-w="3">
+    <path d="M170 250h460v40H170z" fill="#9c7450"/>
+    <path d="M170 250h460" stroke="#5e4634" stroke-width="3"/>
+    <path d="M630 290h40v-13h-20v-14h-20z" fill="#9c7450"/>
+    <rect x="186" y="262" width="428" height="4" fill="#5e4634" stroke="none"/>
+  </g>
+  <!-- principal (facing right) -->
+  <g data-w="4">
+    <path d="M272 170h40l8 82h-56z" fill="#3f3a34"/>
+    <path d="M280 252h10v-6h-10zM300 252h10v-6h-10z" fill="#3f3a34"/>
+    <path d="M292 170l6 10 6-10" fill="#ffffff"/>
+    <path d="M298 180v30" stroke="#b5463f" stroke-width="3"/>
+    <path d="M308 182l24 20" stroke="#3f3a34" stroke-width="12"/>
+    <circle cx="336" cy="206" r="6" fill="#f5d2b4"/>
+    <circle cx="292" cy="146" r="22" fill="#f5d2b4"/>
+    <path d="M270 142c0-26 44-26 44 0-6-8-14-10-22-10s-16 2-22 10z" fill="#cfc9bd" stroke="none"/>
+    <circle cx="286" cy="148" r="5" stroke-width="1.5"/>
+    <circle cx="300" cy="148" r="5" stroke-width="1.5"/>
+    <path d="M291 148h4" stroke-width="1.5"/>
+    <path d="M290 158c3 2 7 2 10 0" stroke-width="1.5"/>
+  </g>
+  <!-- student bowing (facing left) -->
+  <g data-w="6">
+    <path d="M414 214v36M432 214v36" stroke="#f5d2b4" stroke-width="10"/>
+    <path d="M406 250h16M424 250h16" stroke-width="5"/>
+    <path d="M404 196h38l6 20h-50z" fill="#8c867c"/>
+    <path d="M414 198l-2 18M432 198l2 18" stroke="#ffffff" stroke-width="1.5"/>
+    <g transform="rotate(-55 422 198)">
+      <rect x="404" y="150" width="36" height="52" rx="8" fill="#4a7fa3"/>
+      <path d="M414 152l8 12 8-12" fill="#ffffff"/>
+      <path d="M422 164v20" stroke="#b5463f" stroke-width="3"/>
+      <circle cx="422" cy="132" r="21" fill="#f5d2b4"/>
+      <path d="M401 128c0-26 42-26 42 0-6-9-13-11-21-11s-15 2-21 11z" fill="#4a3b32" stroke="none"/>
+      <circle cx="413" cy="134" r="1.8" fill="#3f3a34" stroke="none"/>
+      <circle cx="431" cy="134" r="1.8" fill="#3f3a34" stroke="none"/>
+      <path d="M418 142c2 2 6 2 8 0" stroke-width="1.5"/>
+    </g>
+    <path d="M388 176l-14 26M392 182l-10 24" stroke="#4a7fa3" stroke-width="11"/>
+    <circle cx="372" cy="204" r="6" fill="#f5d2b4"/>
+    <circle cx="380" cy="208" r="6" fill="#f5d2b4"/>
+  </g>
+  <g data-w="7">
+    <path d="M452 150c-6-12-14-20-26-26" stroke="#8c867c" stroke-width="2"/>
+    <path d="M426 134h0l8-6M426 124v0l0 10" stroke="#8c867c" stroke-width="2"/>
+  </g>
+  <g data-w="5">
+    <path d="M340 196h32v16h-32z" fill="#ffffff"/>
+    <path d="M344 202h24M344 206h16" stroke="#8c867c" stroke-width="1.5"/>
+    <path d="M334 194l6-2v20l-6-2z" fill="#f0cf6d"/>
+  </g>
+  <!-- teacher in hakama -->
+  <g data-w="8">
+    <path d="M526 148h44l6 44h-56z" fill="#e0ece3"/>
+    <path d="M518 150h24v38c0 6-24 6-24 0zM554 150h24v38c0 6-24 6-24 0z" fill="#e0ece3"/>
+    <path d="M538 148l10 22 10-22" fill="#ffffff"/>
+    <path d="M534 146l14 28 14-28" stroke-width="2.5"/>
+    <circle cx="548" cy="124" r="22" fill="#f5d2b4"/>
+    <path d="M526 120c0-28 44-28 44 0-6-10-14-12-22-12s-16 2-22 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="548" cy="98" r="8" fill="#4a3b32"/>
+    <circle cx="540" cy="126" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="556" cy="126" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M544 134c3 2 6 2 8 0" stroke-width="1.5"/>
+    <circle cx="552" cy="192" r="6" fill="#f5d2b4"/>
+    <circle cx="540" cy="192" r="6" fill="#f5d2b4"/>
+  </g>
+  <g data-w="9">
+    <path d="M522 192h52l14 60h-80z" fill="#b5463f"/>
+    <path d="M536 200l-6 52M548 200v52M560 200l6 52" stroke="#8c3832" stroke-width="1.5"/>
+    <path d="M524 192h48" stroke-width="3"/>
+  </g>
+
+  <!-- students seated from behind (sailor collar) -->
+  <g data-w="10">
+    <use href="#chair" x="270" y="330"/>
+    <path d="M240 400v-50c0-20 60-20 60 0v50z" fill="#4a7fa3"/>
+    <path d="M250 346h40l-4 26h-32z" fill="#ffffff"/>
+    <path d="M254 364h32M258 356h24" stroke="#4a7fa3" stroke-width="1.5"/>
+    <circle cx="270" cy="318" r="18" fill="#f5d2b4"/>
+    <path d="M252 318c0-24 36-24 36 0v10h-36z" fill="#4a3b32"/>
+  </g>
+  <g>
+    <use href="#chair" x="180" y="330"/>
+    <path d="M150 400v-50c0-20 60-20 60 0v50z" fill="#4a7fa3"/>
+    <circle cx="180" cy="318" r="18" fill="#f5d2b4"/>
+    <path d="M162 316c0-22 36-22 36 0z" fill="#4a3b32"/>
+    <use href="#chair" x="360" y="330"/>
+    <path d="M330 400v-50c0-20 60-20 60 0v50z" fill="#4a7fa3"/>
+    <circle cx="360" cy="318" r="18" fill="#f5d2b4"/>
+    <path d="M342 318c0-24 36-24 36 0v10h-36z" fill="#4a3b32"/>
+    <use href="#chair" x="450" y="330"/>
+    <path d="M420 400v-50c0-20 60-20 60 0v50z" fill="#4a7fa3"/>
+    <circle cx="450" cy="318" r="18" fill="#f5d2b4"/>
+    <path d="M432 316c0-22 36-22 36 0z" fill="#4a3b32"/>
+    <use href="#chair" x="540" y="330"/>
+    <path d="M510 400v-50c0-20 60-20 60 0v50z" fill="#4a7fa3"/>
+    <circle cx="540" cy="318" r="18" fill="#f5d2b4"/>
+    <path d="M522 318c0-24 36-24 36 0v10h-36z" fill="#4a3b32"/>
+  </g>
+  <g data-w="11">
+    <rect x="604" y="330" width="52" height="40" rx="6" fill="#8c867c"/>
+    <path d="M604 372h52v12h-52z" fill="#8c867c"/>
+    <path d="M608 384v18M652 384v18" stroke-width="4"/>
+  </g>
+
+  <!-- crying girl (left) -->
+  <g data-w="13">
+    <path d="M62 270h60l6 90H56z" fill="#4a7fa3"/>
+    <path d="M80 270l12 12 12-12" fill="#ffffff"/>
+    <path d="M92 282v18" stroke="#b5463f" stroke-width="3"/>
+    <path d="M56 360h72l6 40H50z" fill="#8c867c"/>
+    <path d="M70 360l-2 40M92 360v40M114 360l2 40" stroke="#ffffff" stroke-width="1.5"/>
+    <path d="M76 400v34M108 400v34" stroke="#f5d2b4" stroke-width="10"/>
+    <path d="M66 434h20M98 434h20" stroke-width="5"/>
+    <path d="M60 278l-10 60" stroke="#4a7fa3" stroke-width="12"/>
+    <circle cx="50" cy="340" r="6" fill="#f5d2b4"/>
+    <path d="M124 278l4 50" stroke="#4a7fa3" stroke-width="12"/>
+    <circle cx="92" cy="244" r="22" fill="#f5d2b4"/>
+    <path d="M70 242c0-28 44-28 44 0v30h-8v-24c-8-6-20-6-28 0v24h-8z" fill="#4a3b32" stroke="none"/>
+    <path d="M82 244c2-2 6-2 8 0M102 244c-2-2-6-2-8 0" stroke-width="1.5"/>
+    <path d="M86 252c2 4 8 4 12 0" stroke-width="1.5"/>
+    <path d="M80 250c0 6-5 10-2 14 3-4-2-8 2-14zM106 250c0 6 5 10 2 14-3-4 2-8-2-14z" fill="#7da2c4" stroke="#7da2c4" stroke-width="1.5"/>
+  </g>
+  <g data-w="14">
+    <circle cx="128" cy="330" r="7" fill="#f5d2b4"/>
+    <path d="M118 332l18 14 8 22-28-10z" fill="#ffffff"/>
+    <circle cx="130" cy="352" r="2" fill="#f1b1aa" stroke="none"/>
+  </g>
+
+  <!-- girl with bouquet (right) -->
+  <g data-w="12">
+    <path d="M672 270h56l8 90h-72z" fill="#4a7fa3"/>
+    <path d="M690 270l10 12 10-12" fill="#ffffff"/>
+    <path d="M700 282v16" stroke="#b5463f" stroke-width="3"/>
+    <path d="M668 360h66l6 40h-78z" fill="#8c867c"/>
+    <path d="M680 360l-2 40M700 360v40M720 360l2 40" stroke="#ffffff" stroke-width="1.5"/>
+    <path d="M684 400v34M716 400v34" stroke="#f5d2b4" stroke-width="10"/>
+    <path d="M674 434h20M706 434h20" stroke-width="5"/>
+    <circle cx="700" cy="244" r="22" fill="#f5d2b4"/>
+    <path d="M678 240c0-28 44-28 44 0-6-10-14-12-22-12s-16 2-22 12z" fill="#4a3b32" stroke="none"/>
+    <path d="M678 240v30M722 240v30" stroke="#4a3b32" stroke-width="6"/>
+    <circle cx="692" cy="246" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="708" cy="246" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M695 254c3 3 7 3 10 0" stroke-width="1.5"/>
+    <path d="M672 280l-6 44M728 280l6 44" stroke="#4a7fa3" stroke-width="12"/>
+    <path d="M684 300l-20 52h72l-20-52z" fill="#b9cfe3"/>
+    <path d="M700 302v36" stroke="#5b8a72" stroke-width="2"/>
+    <use href="#flower" x="700" y="282" fill="#d9736b"/>
+    <use href="#flower" x="678" y="294" fill="#f0cf6d"/>
+    <use href="#flower" x="722" y="294" fill="#f1b1aa"/>
+    <use href="#flower" x="690" y="310" fill="#ffffff"/>
+    <use href="#flower" x="712" y="312" fill="#f0cf6d"/>
+    <circle cx="666" cy="326" r="7" fill="#f5d2b4"/>
+    <circle cx="734" cy="326" r="7" fill="#f5d2b4"/>
+    <path d="M688 338h24l-4 10h-16z" fill="#d9736b"/>
+  </g>
+
+  <!-- parents row from behind, clapping -->
+  <g data-w="15">
+    <use href="#parent" x="260" y="440" fill="#5e4634"/>
+    <path d="M242 440c0-24 36-24 36 0z" fill="#8c867c"/>
+    <use href="#parent" x="340" y="440" fill="#d9736b"/>
+    <path d="M322 440c0-24 36-24 36 0v12h-36z" fill="#4a3b32"/>
+    <use href="#parent" x="430" y="440" fill="#3f3a34"/>
+    <path d="M412 440c0-24 36-24 36 0z" fill="#4a3b32"/>
+    <use href="#parent" x="590" y="440" fill="#a58bc0"/>
+    <path d="M572 440c0-24 36-24 36 0v12h-36z" fill="#4a3b32"/>
+  </g>
+  <g data-w="16">
+    <path d="M312 432l-14 20M330 430l14 22" stroke="#f5d2b4" stroke-width="10"/>
+    <ellipse cx="310" cy="432" rx="7" ry="9" fill="#f5d2b4"/>
+    <ellipse cx="330" cy="430" rx="7" ry="9" fill="#f5d2b4"/>
+    <path d="M300 424l-4-4M320 416v-6M338 422l4-4" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <g data-w="17">
+    <use href="#parent" x="510" y="440" fill="#5b8a72"/>
+    <path d="M492 440c0-24 36-24 36 0z" fill="#4a3b32"/>
+    <path d="M520 448l10-22M504 450l6-20" stroke="#f5d2b4" stroke-width="10"/>
+    <rect x="500" y="402" width="40" height="26" rx="4" fill="#3f3a34"/>
+    <rect x="506" y="408" width="28" height="16" fill="#7da2c4" stroke="none"/>
+    <path d="M508 400v-6h12v6" fill="#3f3a34"/>
+  </g>
+</svg>

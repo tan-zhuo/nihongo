@@ -1,0 +1,33 @@
+{
+  "id": "bus-stop",
+  "n": 72,
+  "group": "town",
+  "title": "バス停",
+  "title_zh": "公交车站",
+  "title_en": "Bus stop",
+  "words": [
+    { "w": "バス", "r": "バス", "zh": "公共汽车", "en": "bus", "x": 520, "y": 346 },
+    { "w": "バス停", "r": "バスてい", "zh": "公交车站", "en": "bus stop", "x": 380, "y": 236 },
+    { "w": "時刻表", "r": "じこくひょう", "zh": "时刻表", "en": "timetable", "x": 380, "y": 352 },
+    { "w": "屋根", "r": "やね", "zh": "屋顶", "en": "roof", "x": 215, "y": 136 },
+    { "w": "ベンチ", "r": "ベンチ", "zh": "长椅", "en": "bench", "x": 240, "y": 420 },
+    { "w": "運転手", "r": "うんてんしゅ", "zh": "司机", "en": "driver", "x": 518, "y": 300 },
+    { "w": "乗客", "r": "じょうきゃく", "zh": "乘客", "en": "passenger", "x": 584, "y": 300 },
+    { "w": "乗る", "r": "のる", "zh": "乘坐", "en": "to ride; to get on", "x": 642, "y": 420 },
+    { "w": "降りる", "r": "おりる", "zh": "下（车）", "en": "to get off", "x": 455, "y": 432 },
+    { "w": "並ぶ", "r": "ならぶ", "zh": "排队；排列", "en": "to line up", "x": 700, "y": 462 },
+    { "w": "待つ", "r": "まつ", "zh": "等待", "en": "to wait", "x": 300, "y": 452 },
+    { "w": "ICカード", "r": "アイシーカード", "zh": "IC卡（交通卡）", "en": "IC card", "x": 680, "y": 374 },
+    { "w": "学生", "r": "がくせい", "zh": "学生", "en": "student", "x": 752, "y": 376 },
+    { "w": "かばん", "r": "かばん", "zh": "包；书包", "en": "bag; briefcase", "x": 758, "y": 444 },
+    { "w": "おばあさん", "r": "おばあさん", "zh": "奶奶；老奶奶", "en": "grandmother; elderly woman", "x": 170, "y": 350 },
+    { "w": "信号", "r": "しんごう", "zh": "红绿灯；信号", "en": "traffic light; signal", "x": 56, "y": 176 },
+    { "w": "木", "r": "き", "zh": "树", "en": "tree", "x": 760, "y": 150 }
+  ],
+  "sentences": [
+    { "ja": "バス{停|てい}でバスを{待|ま}っています。", "zh": "在公交车站等公交车。", "en": "We are waiting for the bus at the bus stop." },
+    { "ja": "{学生|がくせい}はICカードでバスに{乗|の}ります。", "zh": "学生用IC卡乘公交车。", "en": "The student gets on the bus with an IC card." },
+    { "ja": "おばあさんはベンチに{座|すわ}って{時刻表|じこくひょう}を{見|み}ています。", "zh": "老奶奶坐在长椅上看时刻表。", "en": "The elderly woman is sitting on the bench looking at the timetable." },
+    { "ja": "{乗客|じょうきゃく}は{前|まえ}のドアから{降|お}ります。", "zh": "乘客从前门下车。", "en": "Passengers get off through the front door." }
+  ]
+}

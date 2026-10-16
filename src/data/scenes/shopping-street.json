@@ -1,0 +1,34 @@
+{
+  "id": "shopping-street",
+  "n": 73,
+  "group": "town",
+  "title": "商店街",
+  "title_zh": "商店街",
+  "title_en": "Shopping street",
+  "words": [
+    { "w": "商店街", "r": "しょうてんがい", "zh": "商店街", "en": "shopping street", "x": 400, "y": 98 },
+    { "w": "アーケード", "r": "アーケード", "zh": "拱廊街", "en": "arcade", "x": 400, "y": 50 },
+    { "w": "八百屋", "r": "やおや", "zh": "蔬菜店", "en": "greengrocer", "x": 75, "y": 165 },
+    { "w": "野菜", "r": "やさい", "zh": "蔬菜", "en": "vegetable", "x": 70, "y": 302 },
+    { "w": "安い", "r": "やすい", "zh": "便宜的", "en": "cheap", "x": 120, "y": 258 },
+    { "w": "店主", "r": "てんしゅ", "zh": "店主", "en": "shopkeeper", "x": 46, "y": 226 },
+    { "w": "魚屋", "r": "さかなや", "zh": "鱼店", "en": "fish shop", "x": 205, "y": 165 },
+    { "w": "魚", "r": "さかな", "zh": "鱼", "en": "fish", "x": 200, "y": 302 },
+    { "w": "肉屋", "r": "にくや", "zh": "肉店", "en": "butcher shop", "x": 335, "y": 165 },
+    { "w": "のぼり", "r": "のぼり", "zh": "竖幅旗", "en": "banner flag", "x": 268, "y": 236 },
+    { "w": "パン屋", "r": "パンや", "zh": "面包店", "en": "bakery", "x": 465, "y": 165 },
+    { "w": "パン", "r": "パン", "zh": "面包", "en": "bread", "x": 465, "y": 302 },
+    { "w": "花屋", "r": "はなや", "zh": "花店", "en": "flower shop", "x": 595, "y": 165 },
+    { "w": "花", "r": "はな", "zh": "花", "en": "flower", "x": 595, "y": 302 },
+    { "w": "本屋", "r": "ほんや", "zh": "书店", "en": "bookstore", "x": 725, "y": 165 },
+    { "w": "本", "r": "ほん", "zh": "书", "en": "book", "x": 725, "y": 302 },
+    { "w": "自転車", "r": "じてんしゃ", "zh": "自行车", "en": "bicycle", "x": 620, "y": 474 },
+    { "w": "買い物袋", "r": "かいものぶくろ", "zh": "购物袋", "en": "shopping bag", "x": 338, "y": 470 }
+  ],
+  "sentences": [
+    { "ja": "{商店街|しょうてんがい}にはアーケードがあるので、{雨|あめ}の{日|ひ}も{便利|べんり}です。", "zh": "商店街有拱廊，下雨天也很方便。", "en": "The shopping street has an arcade, so it is convenient even on rainy days." },
+    { "ja": "{八百屋|やおや}の{野菜|やさい}はスーパーより{安|やす}いです。", "zh": "蔬菜店的蔬菜比超市便宜。", "en": "The vegetables at the greengrocer are cheaper than at the supermarket." },
+    { "ja": "パン{屋|や}でパンを{買|か}ってから、{花屋|はなや}で{花|はな}を{買|か}いました。", "zh": "在面包店买了面包，然后在花店买了花。", "en": "After buying bread at the bakery, I bought flowers at the flower shop." },
+    { "ja": "{店主|てんしゅ}は{魚|さかな}を{大|おお}きな{声|こえ}で{売|う}っています。", "zh": "店主大声地叫卖鱼。", "en": "The shopkeeper is selling fish in a loud voice." }
+  ]
+}

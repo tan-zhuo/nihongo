@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <!-- tiled backsplash -->
+  <rect x="0" y="150" width="800" height="110" fill="#ede9e1" stroke="none"/>
+  <path d="M0 150h800M0 186h800M0 222h800" stroke="#cfc9bd" stroke-width="1.5"/>
+  <path d="M40 150v36M120 150v36M200 150v36M280 150v36M360 150v36M440 150v36M520 150v36M600 150v36M680 150v36M760 150v36M80 186v36M160 186v36M240 186v36M320 186v36M400 186v36M480 186v36M560 186v36M640 186v36M720 186v36M40 222v38M120 222v38M200 222v38M280 222v38M360 222v38M440 222v38M520 222v38M600 222v38M680 222v38M760 222v38" stroke="#cfc9bd" stroke-width="1.5"/>
+  <!-- shelf with plant and jars -->
+  <rect x="300" y="96" width="220" height="10" rx="2" fill="#9c7450"/>
+  <path d="M330 96v-34h30v34z" fill="#b9cfe3"/>
+  <path d="M372 96v-28h26v28z" fill="#f0cf6d"/>
+  <path d="M440 96c-6-20 2-30 16-30s22 10 16 30z" fill="#a58bc0"/>
+  <path d="M456 66v-24" stroke="#5b8a72" stroke-width="2.5"/>
+  <path d="M456 54c-10 0-14-8-12-14 8 0 14 6 12 14zM456 46c10 0 14-8 12-14-8 0-14 6-12 14z" fill="#9dc0a8"/>
+  <!-- backpack hanging on a hook -->
+  <g data-w="15">
+    <path d="M700 40v16" stroke-width="3"/>
+    <path d="M684 58c8-20 24-20 32 0" stroke-width="4"/>
+    <rect x="662" y="66" width="76" height="106" rx="18" fill="#d9736b"/>
+    <path d="M662 110h76" stroke="#b5463f"/>
+    <rect x="676" y="118" width="48" height="40" rx="10" fill="#b5463f"/>
+    <path d="M684 70c6-10 26-10 32 0" />
+    <circle cx="700" cy="138" r="4" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- table -->
+  <rect x="30" y="250" width="740" height="206" fill="#e3c9a3"/>
+  <rect x="30" y="456" width="740" height="14" fill="#9c7450"/>
+  <path d="M60 470v30M740 470v30" stroke-width="6"/>
+  <path d="M30 250h740" stroke="#c49b6e"/>
+  <!-- open bento box -->
+  <g data-w="1">
+    <rect x="230" y="272" width="300" height="128" rx="10" fill="#d9736b"/>
+    <rect x="240" y="282" width="280" height="108" rx="6" fill="#f1b1aa" stroke="#b5463f"/>
+    <rect x="242" y="284" width="96" height="104" rx="4" fill="#ffffff" stroke="none"/>
+    <path d="M340 284v104M340 338h178" stroke="#b5463f"/>
+    <path d="M256 300h6M300 296h6M268 356h6M312 372h6M286 380h6" stroke="#3f3a34" stroke-width="2"/>
+  </g>
+  <!-- umeboshi on the rice -->
+  <g data-w="9">
+    <circle cx="290" cy="330" r="15" fill="#d9736b"/>
+    <circle cx="286" cy="326" r="4" fill="#f1b1aa" stroke="none"/>
+  </g>
+  <!-- rolled omelet -->
+  <g data-w="4">
+    <rect x="348" y="292" width="40" height="40" rx="7" fill="#f0cf6d"/>
+    <path d="M358 308c10-6 20 2 14 10s-16 4-10-4" stroke="#e59a5b" stroke-width="1.5"/>
+    <rect x="392" y="290" width="40" height="42" rx="7" fill="#f0cf6d"/>
+    <path d="M402 308c10-6 20 2 14 10s-16 4-10-4" stroke="#e59a5b" stroke-width="1.5"/>
+  </g>
+  <!-- karaage -->
+  <g data-w="5">
+    <path d="M438 312c-6-16 12-24 24-18 12-8 28 2 24 14 8 10-4 22-16 18-10 8-28 2-32-14z" fill="#9c7450"/>
+    <path d="M478 318c-2-12 12-20 22-14 12-4 22 8 16 18 2 10-12 14-20 8-10 6-20 0-18-12z" fill="#9c7450"/>
+    <circle cx="456" cy="308" r="2.5" fill="#d8b48c" stroke="none"/>
+    <circle cx="470" cy="318" r="2.5" fill="#d8b48c" stroke="none"/>
+    <circle cx="498" cy="318" r="2.5" fill="#d8b48c" stroke="none"/>
+  </g>
+  <!-- broccoli -->
+  <g data-w="8">
+    <path d="M500 386v-18" stroke="#9dc0a8" stroke-width="6"/>
+    <circle cx="488" cy="358" r="10" fill="#5b8a72"/>
+    <circle cx="512" cy="358" r="10" fill="#5b8a72"/>
+    <circle cx="500" cy="348" r="11" fill="#5b8a72"/>
+  </g>
+  <!-- octopus sausage -->
+  <g data-w="6">
+    <path d="M364 364c0-12 10-20 22-20s22 8 22 20v6h-44z" fill="#d9736b"/>
+    <path d="M366 370l-6 14M376 370l-2 16M386 370v16M396 370l2 16M406 370l6 14" stroke="#d9736b" stroke-width="4"/>
+    <path d="M366 370l-6 14M376 370l-2 16M386 370v16M396 370l2 16M406 370l6 14" stroke="#3f3a34" stroke-width="1"/>
+    <circle cx="380" cy="358" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="392" cy="358" r="1.8" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- cherry tomatoes -->
+  <g data-w="7">
+    <circle cx="442" cy="364" r="15" fill="#d9736b"/>
+    <path d="M442 350c-6-4-6-8-2-10" stroke="#5b8a72" stroke-width="2.5"/>
+    <circle cx="470" cy="370" r="14" fill="#d9736b"/>
+    <path d="M470 357c-6-4-6-8-2-10" stroke="#5b8a72" stroke-width="2.5"/>
+    <circle cx="438" cy="360" r="3" fill="#f1b1aa" stroke="none"/>
+    <circle cx="466" cy="366" r="3" fill="#f1b1aa" stroke="none"/>
+  </g>
+  <!-- lid standing beside -->
+  <g data-w="2">
+    <rect x="560" y="272" width="100" height="120" rx="10" fill="#d9736b"/>
+    <rect x="570" y="282" width="80" height="100" rx="6" fill="#f1b1aa" stroke="#b5463f"/>
+    <circle cx="610" cy="300" r="8" fill="#ffffff" stroke="#b5463f"/>
+    <circle cx="590" cy="364" r="6" fill="#ffffff" stroke="#b5463f"/>
+    <circle cx="634" cy="364" r="6" fill="#ffffff" stroke="#b5463f"/>
+  </g>
+  <!-- onigiri on a plate -->
+  <g data-w="3">
+    <ellipse cx="170" cy="344" rx="50" ry="14" fill="#ede9e1"/>
+    <path d="M128 338c0-4 20-40 28-40s28 36 28 40-56 4-56 0z" fill="#ffffff"/>
+    <path d="M140 324h32v14h-32z" fill="#3f3a34" stroke="none"/>
+    <path d="M160 340c0-4 22-44 30-44s30 40 30 44-60 4-60 0z" fill="#ffffff"/>
+    <path d="M174 326h32v14h-32z" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- pack of nori -->
+  <g data-w="10">
+    <path d="M56 310l8-4h48v40l-8 4h-48z" fill="#3d614f"/>
+    <rect x="56" y="310" width="48" height="40" fill="#3f3a34"/>
+    <rect x="56" y="324" width="48" height="12" fill="#ffffff" stroke="none"/>
+    <path d="M64 330h32" stroke="#d9736b" stroke-width="3"/>
+  </g>
+  <!-- chopsticks and case -->
+  <g data-w="11">
+    <path d="M536 414l100-8M538 422l100-6" stroke="#9c7450" stroke-width="4"/>
+    <path d="M536 414l100-8M538 422l100-6" stroke="#3f3a34" stroke-width="1.2"/>
+  </g>
+  <g data-w="12">
+    <rect x="596" y="434" width="110" height="20" rx="6" fill="#7da2c4"/>
+    <path d="M610 434v20" stroke="#4a7fa3"/>
+  </g>
+  <!-- water bottle -->
+  <g data-w="13">
+    <rect x="712" y="282" width="20" height="18" rx="3" fill="#3d614f"/>
+    <path d="M706 296h32" />
+    <rect x="696" y="300" width="50" height="130" rx="12" fill="#7da2c4"/>
+    <rect x="696" y="340" width="50" height="40" fill="#d6e7f0" stroke="none"/>
+    <path d="M696 340h50M696 380h50" stroke="#4a7fa3"/>
+    <path d="M740 300c14 10 14 30 0 40" stroke="#3f3a34" stroke-width="3"/>
+  </g>
+  <!-- lunch bag -->
+  <g data-w="14">
+    <path d="M60 400c0-10 8-14 20-14h40c12 0 20 4 20 14l-4 44h-72z" fill="#9dc0a8"/>
+    <path d="M62 406h76" stroke="#5b8a72"/>
+    <path d="M78 386c4-8 10-12 22-12s18 4 22 12" fill="#e0ece3"/>
+    <path d="M70 396h60" stroke="#5b8a72" stroke-width="2.5"/>
+    <path d="M132 396c8 4 10 12 4 18" stroke="#5b8a72" stroke-width="2.5"/>
+    <path d="M84 418h32M84 430h32" stroke="#5b8a72" stroke-width="1.5"/>
+  </g>
+  <!-- mother packing the bento -->
+  <g data-w="16">
+    <path d="M78 250c0-50 14-86 52-86s52 36 52 86z" fill="#5b8a72"/>
+    <path d="M100 250v-60c0-18 12-26 30-26s30 8 30 26v60z" fill="#f8e6ae"/>
+    <path d="M110 176h40" stroke="#e0b94a"/>
+    <circle cx="130" cy="122" r="27" fill="#f5d2b4"/>
+    <path d="M103 118c4-22 50-22 54 0-6-8-18-12-27-12s-21 4-27 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="130" cy="92" r="11" fill="#4a3b32"/>
+    <circle cx="120" cy="124" r="2" fill="#3f3a34" stroke="none"/>
+    <circle cx="140" cy="124" r="2" fill="#3f3a34" stroke="none"/>
+    <path d="M124 134c3 3 9 3 12 0" />
+    <path d="M176 180l56 70" stroke-width="11"/>
+    <path d="M176 180l56 70" stroke="#f5d2b4" stroke-width="7"/>
+    <circle cx="234" cy="254" r="8" fill="#f5d2b4"/>
+    <path d="M238 258l22 24M242 252l24 22" stroke-width="2"/>
+    <path d="M258 272c6-6 16-4 16 4s-10 10-14 4z" fill="#9c7450"/>
+  </g>
+</svg>

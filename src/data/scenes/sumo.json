@@ -1,0 +1,31 @@
+{
+  "id": "sumo",
+  "n": 97,
+  "group": "culture",
+  "title": "相撲",
+  "title_zh": "相扑",
+  "title_en": "Sumo",
+  "words": [
+    { "w": "力士", "r": "りきし", "zh": "力士；相扑选手", "en": "sumo wrestler", "x": 140, "y": 226 },
+    { "w": "土俵", "r": "どひょう", "zh": "土俵（相扑台）", "en": "sumo ring", "x": 330, "y": 432 },
+    { "w": "まわし", "r": "まわし", "zh": "兜裆布", "en": "mawashi (loincloth belt)", "x": 140, "y": 286 },
+    { "w": "四股", "r": "しこ", "zh": "四股（抬腿踏地）", "en": "shiko leg stomp", "x": 70, "y": 330 },
+    { "w": "髷", "r": "まげ", "zh": "发髻", "en": "topknot", "x": 190, "y": 136 },
+    { "w": "取組", "r": "とりくみ", "zh": "（相扑）比赛；对局", "en": "sumo bout", "x": 410, "y": 390 },
+    { "w": "押す", "r": "おす", "zh": "推；按", "en": "to push; to press", "x": 400, "y": 244 },
+    { "w": "行司", "r": "ぎょうじ", "zh": "行司（裁判）", "en": "sumo referee", "x": 560, "y": 290 },
+    { "w": "軍配", "r": "ぐんばい", "zh": "军配（裁判扇）", "en": "referee's fan", "x": 632, "y": 214 },
+    { "w": "横綱", "r": "よこづな", "zh": "横纲（最高级力士）", "en": "yokozuna (grand champion)", "x": 700, "y": 300 },
+    { "w": "強い", "r": "つよい", "zh": "强的；强壮的", "en": "strong", "x": 710, "y": 200 },
+    { "w": "塩", "r": "しお", "zh": "盐", "en": "salt", "x": 250, "y": 400 },
+    { "w": "俵", "r": "たわら", "zh": "草袋", "en": "straw bale", "x": 612, "y": 378 },
+    { "w": "屋根", "r": "やね", "zh": "屋顶", "en": "roof", "x": 400, "y": 62 },
+    { "w": "観客", "r": "かんきゃく", "zh": "观众", "en": "spectators; audience", "x": 470, "y": 470 },
+    { "w": "座布団", "r": "ざぶとん", "zh": "坐垫", "en": "floor cushion", "x": 84, "y": 468 }
+  ],
+  "sentences": [
+    { "ja": "{二人|ふたり}の{力士|りきし}が{土俵|どひょう}の{上|うえ}で{取組|とりくみ}をしています。", "zh": "两个力士在土俵上比赛。", "en": "Two sumo wrestlers are having a bout on the ring." },
+    { "ja": "{行司|ぎょうじ}は{軍配|ぐんばい}を{持|も}って{立|た}っています。", "zh": "行司拿着军配站着。", "en": "The referee is standing holding his fan." },
+    { "ja": "{横綱|よこづな}はとても{強|つよ}いです。{観客|かんきゃく}が{大|おお}きな{声|こえ}で{応援|おうえん}します。", "zh": "横纲非常强。观众大声加油。", "en": "The yokozuna is very strong. The spectators cheer loudly." }
+  ]
+}

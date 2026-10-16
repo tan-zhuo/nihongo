@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="330" width="800" height="170" fill="#e3c9a3" stroke="none"/>
+  <path d="M0 330h800" stroke="#b08a63" stroke-width="3"/>
+  <path d="M0 400h800M0 460h800" stroke="#d8b48c" stroke-width="1.5"/>
+  <!-- bunting -->
+  <path d="M0 20q200 40 400 10t400 10" stroke="#8c867c"/>
+  <path d="M60 26l12 22 12-24M200 34l12 22 12-24M330 28l12 22 12-24M470 26l12 22 12-24M620 30l12 22 12-24" fill="#f1b1aa"/>
+  <!-- wall shelf -->
+  <rect x="50" y="128" width="500" height="10" fill="#9c7450"/>
+  <path d="M70 138l10 16M530 138l-10 16" stroke-width="3"/>
+  <!-- candy jar -->
+  <g data-w="4">
+    <rect x="72" y="66" width="66" height="62" rx="10" fill="#ffffff"/>
+    <rect x="84" y="54" width="42" height="14" rx="4" fill="#9c7450"/>
+    <circle cx="90" cy="112" r="8" fill="#d9736b"/>
+    <circle cx="108" cy="114" r="8" fill="#f0cf6d"/>
+    <circle cx="124" cy="110" r="8" fill="#9dc0a8"/>
+    <circle cx="98" cy="96" r="8" fill="#a58bc0"/>
+    <circle cx="116" cy="94" r="8" fill="#e59a5b"/>
+    <path d="M136 112l8-6v12zM160 112l-8-6v12z" fill="#d9736b"/>
+    <ellipse cx="148" cy="112" rx="9" ry="7" fill="#d9736b"/>
+  </g>
+  <!-- cookie jar -->
+  <g data-w="2">
+    <rect x="192" y="66" width="66" height="62" rx="10" fill="#ffffff"/>
+    <rect x="204" y="54" width="42" height="14" rx="4" fill="#9c7450"/>
+    <circle cx="212" cy="112" r="12" fill="#e3c9a3"/>
+    <circle cx="238" cy="112" r="12" fill="#e3c9a3"/>
+    <circle cx="225" cy="90" r="12" fill="#e3c9a3"/>
+    <circle cx="209" cy="109" r="1.8" fill="#5e4634" stroke="none"/><circle cx="216" cy="116" r="1.8" fill="#5e4634" stroke="none"/>
+    <circle cx="235" cy="108" r="1.8" fill="#5e4634" stroke="none"/><circle cx="242" cy="116" r="1.8" fill="#5e4634" stroke="none"/>
+    <circle cx="222" cy="87" r="1.8" fill="#5e4634" stroke="none"/><circle cx="229" cy="94" r="1.8" fill="#5e4634" stroke="none"/>
+    <circle cx="272" cy="116" r="12" fill="#e3c9a3"/>
+    <circle cx="269" cy="113" r="1.8" fill="#5e4634" stroke="none"/><circle cx="276" cy="119" r="1.8" fill="#5e4634" stroke="none"/>
+  </g>
+  <!-- potato chips bag -->
+  <g data-w="12">
+    <path d="M316 60l6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6v68h-78z" fill="#d9736b"/>
+    <path d="M316 128l6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6" />
+    <rect x="326" y="80" width="58" height="36" rx="18" fill="#f0cf6d" stroke="none"/>
+    <ellipse cx="346" cy="98" rx="11" ry="7" fill="#f8e6ae" stroke="#e59a5b" stroke-width="1.5"/>
+    <ellipse cx="364" cy="100" rx="11" ry="7" fill="#f8e6ae" stroke="#e59a5b" stroke-width="1.5"/>
+    <ellipse cx="408" cy="124" rx="12" ry="6" fill="#f8e6ae" stroke="#e59a5b" stroke-width="1.5"/>
+  </g>
+  <!-- gum -->
+  <g data-w="5">
+    <rect x="462" y="78" width="12" height="46" fill="#ffffff"/>
+    <rect x="478" y="72" width="12" height="52" fill="#ffffff"/>
+    <rect x="494" y="80" width="12" height="44" fill="#ffffff"/>
+    <rect x="452" y="94" width="68" height="34" rx="4" fill="#5b8a72"/>
+    <path d="M460 112h52" stroke="#9dc0a8" stroke-width="3"/>
+  </g>
+  <!-- counter -->
+  <rect x="40" y="256" width="580" height="74" fill="#d8b48c"/>
+  <rect x="34" y="240" width="592" height="16" rx="3" fill="#9c7450"/>
+  <path d="M60 272h540M60 310h540" stroke="#c49b6e" stroke-width="1.5"/>
+  <!-- cake -->
+  <g data-w="1">
+    <ellipse cx="140" cy="240" rx="62" ry="9" fill="#ffffff"/>
+    <rect x="86" y="190" width="108" height="48" rx="4" fill="#f8e6ae"/>
+    <path d="M86 214h108" stroke="#f1b1aa" stroke-width="5"/>
+    <ellipse cx="140" cy="190" rx="54" ry="10" fill="#ffffff"/>
+    <path d="M88 192c6 12 14 12 20 0 6 12 14 12 20 0 6 12 14 12 20 0 6 12 14 12 20 0 6 12 14 12 20 0" fill="#ffffff" stroke="none"/>
+    <circle cx="110" cy="182" r="7" fill="#d9736b"/>
+    <circle cx="140" cy="178" r="7" fill="#d9736b"/>
+    <circle cx="170" cy="182" r="7" fill="#d9736b"/>
+    <path d="M110 175l-4-5 8 1zM140 171l-4-5 8 1zM170 175l-4-5 8 1z" fill="#5b8a72"/>
+  </g>
+  <!-- pudding -->
+  <g data-w="10">
+    <ellipse cx="260" cy="240" rx="36" ry="7" fill="#ffffff"/>
+    <path d="M234 238l8-42h36l8 42z" fill="#f0cf6d"/>
+    <path d="M242 196h36l2 10c-10 8-30 8-40 0z" fill="#9c7450"/>
+    <circle cx="260" cy="190" r="6" fill="#b5463f"/>
+  </g>
+  <!-- chocolate -->
+  <g data-w="3">
+    <rect x="322" y="202" width="96" height="38" rx="3" fill="#5e4634"/>
+    <path d="M346 202v38M370 202v38M394 202v38M322 221h96" stroke="#9c7450" stroke-width="1.5"/>
+    <path d="M322 202h50l-8 38h-42z" fill="#d9736b"/>
+    <path d="M372 202h-14l-6 38h12z" fill="#cfc9bd"/>
+    <rect x="330" y="214" width="26" height="14" rx="3" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- juice -->
+  <g data-w="14">
+    <path d="M458 184h46l-5 56h-36z" fill="#ffffff"/>
+    <path d="M461 200h40l-4 40h-32z" fill="#e59a5b" stroke="none"/>
+    <path d="M492 176l-16 60" stroke="#d9736b" stroke-width="4"/>
+    <circle cx="470" cy="190" r="9" fill="#f0cf6d"/>
+    <path d="M461 190h18" stroke="#e59a5b" stroke-width="1.5"/>
+  </g>
+  <!-- gift box -->
+  <g data-w="16">
+    <rect x="534" y="198" width="68" height="42" fill="#a58bc0"/>
+    <rect x="530" y="192" width="76" height="14" rx="2" fill="#8b70a8"/>
+    <path d="M568 192v48M534 220h68" stroke="#f0cf6d" stroke-width="5"/>
+    <path d="M568 192c-6-12-20-14-20-4s10 8 20 4c6-12 20-14 20-4s-10 8-20 4z" fill="#f0cf6d"/>
+  </g>
+  <!-- low tray table -->
+  <rect x="44" y="398" width="520" height="12" rx="3" fill="#9c7450"/>
+  <path d="M64 410v50M544 410v50" stroke-width="5"/>
+  <!-- plate and dango -->
+  <g data-w="15">
+    <ellipse cx="112" cy="396" rx="56" ry="11" fill="#ffffff"/>
+    <ellipse cx="112" cy="396" rx="42" ry="6" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <g data-w="7">
+    <path d="M62 384h108" stroke="#d8b48c" stroke-width="4"/>
+    <circle cx="90" cy="374" r="13" fill="#f1b1aa"/>
+    <circle cx="116" cy="374" r="13" fill="#ffffff"/>
+    <circle cx="142" cy="374" r="13" fill="#9dc0a8"/>
+    <path d="M70 386h14" stroke-width="3"/>
+  </g>
+  <!-- daifuku -->
+  <g data-w="8">
+    <ellipse cx="206" cy="378" rx="22" ry="18" fill="#ffffff"/>
+    <path d="M222 394a20 16 0 0 1 40 0z" fill="#ffffff"/>
+    <path d="M230 394a12 9 0 0 1 24 0z" fill="#5e4634" stroke="none"/>
+    <path d="M196 368c4-4 10-4 14 0" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <!-- dorayaki -->
+  <g data-w="9">
+    <ellipse cx="320" cy="388" rx="38" ry="9" fill="#d8b48c"/>
+    <path d="M282 376v12M358 376v12" />
+    <rect x="282" y="372" width="76" height="12" fill="#5e4634" stroke="none"/>
+    <path d="M284 384c10 4 20-4 30 0s24 4 40-2" stroke="#5e4634" stroke-width="3"/>
+    <ellipse cx="320" cy="368" rx="40" ry="10" fill="#d8b48c"/>
+    <path d="M282 368v8M358 368v8" />
+    <ellipse cx="320" cy="368" rx="28" ry="6" fill="#c49b6e" stroke="none"/>
+  </g>
+  <!-- senbei -->
+  <g data-w="6">
+    <circle cx="420" cy="378" r="22" fill="#d8b48c"/>
+    <circle cx="420" cy="378" r="14" stroke="#c49b6e" stroke-width="1.5"/>
+    <circle cx="452" cy="380" r="22" fill="#d8b48c"/>
+    <rect x="442" y="366" width="20" height="30" rx="2" fill="#3d614f"/>
+    <circle cx="414" cy="372" r="1.6" fill="#9c7450" stroke="none"/><circle cx="426" cy="384" r="1.6" fill="#9c7450" stroke="none"/>
+  </g>
+  <!-- girl eating ice cream -->
+  <g data-w="13">
+    <path d="M662 290h56l14 92h-84z" fill="#d9736b"/>
+    <rect x="662" y="276" width="56" height="22" rx="8" fill="#d9736b" stroke="none"/>
+    <path d="M676 382v62M704 382v62" stroke-width="5"/>
+    <path d="M676 382v62M704 382v62" stroke="#f5d2b4" stroke-width="2"/>
+    <path d="M664 450h20v-8h-20zM696 450h20v-8h-20z" fill="#3f3a34"/>
+    <circle cx="690" cy="248" r="27" fill="#f5d2b4"/>
+    <path d="M663 246c0-22 54-22 54 0-8-8-18-12-27-12s-19 4-27 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="664" cy="258" r="9" fill="#4a3b32" stroke="none"/>
+    <circle cx="716" cy="258" r="9" fill="#4a3b32" stroke="none"/>
+    <path d="M679 250c2-3 5-3 7 0M694 250c2-3 5-3 7 0" stroke-width="1.5"/>
+    <path d="M683 262c4 4 10 4 14 0" stroke-width="1.5"/>
+    <circle cx="676" cy="262" r="4" fill="#f1b1aa" stroke="none"/>
+    <circle cx="704" cy="262" r="4" fill="#f1b1aa" stroke="none"/>
+    <path d="M664 300l-14 18-8 14" stroke-width="5"/>
+    <path d="M664 300l-14 18-8 14" stroke="#f5d2b4" stroke-width="2"/>
+    <path d="M718 300l16 30" stroke-width="5"/>
+    <path d="M718 300l16 30" stroke="#f5d2b4" stroke-width="2"/>
+    <path d="M738 236c-6-8-18 0-8 10l8 8 8-8c10-10-2-18-8-10z" fill="#d9736b"/>
+    <path d="M756 268c-4-6-12 0-6 7l6 6 6-6c6-7-2-13-6-7z" fill="#f1b1aa"/>
+  </g>
+  <g data-w="11">
+    <path d="M626 314h32l-16 44z" fill="#e3c9a3"/>
+    <path d="M632 322l12 12M640 318l12 10M630 332l8 8" stroke="#c49b6e" stroke-width="1.5"/>
+    <circle cx="642" cy="300" r="17" fill="#f1b1aa"/>
+    <circle cx="642" cy="282" r="14" fill="#ffffff"/>
+    <circle cx="636" cy="298" r="2" fill="#b5463f" stroke="none"/><circle cx="648" cy="304" r="2" fill="#b5463f" stroke="none"/>
+  </g>
+</svg>

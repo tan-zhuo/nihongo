@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <path id="s" d="M0-7l2 5 5 0-4 3 2 5-5-3-5 3 2-5-4-3 5 0z" fill="#f8e6ae" stroke="none"/>
+    <path id="lf" d="M0 0c12-9 32-9 46 0-14 9-34 9-46 0z" fill="#3d614f" stroke="#3f3a34" stroke-width="1.5"/>
+  </defs>
+  <!-- evening sky -->
+  <rect x="0" y="0" width="800" height="500" fill="#4a7fa3" stroke="none"/>
+  <ellipse cx="560" cy="340" rx="420" ry="110" fill="#7da2c4" fill-opacity="0.6" stroke="none"/>
+  <!-- milky way -->
+  <g data-w="10">
+    <path d="M330 0c90 30 170 60 250 100s150 80 220 130V340c-80-60-150-110-230-150S430 100 320 0z" fill="#b9cfe3" fill-opacity="0.3" stroke="none"/>
+    <path d="M370 0c70 24 150 56 220 90s140 76 210 118v60c-80-50-150-96-220-130S440 44 350 0z" fill="#d6e7f0" fill-opacity="0.3" stroke="none"/>
+    <g fill="#ffffff" stroke="none"><circle cx="420" cy="40" r="2"/><circle cx="500" cy="70" r="1.5"/><circle cx="560" cy="130" r="2"/><circle cx="640" cy="160" r="1.5"/><circle cx="700" cy="200" r="2"/><circle cx="760" cy="230" r="1.5"/><circle cx="600" cy="110" r="1.5"/><circle cx="660" cy="190" r="1.5"/></g>
+  </g>
+  <g fill="#ffffff" stroke="none"><circle cx="320" cy="150" r="2"/><circle cx="500" cy="200" r="2"/><circle cx="760" cy="60" r="2"/><circle cx="600" cy="240" r="1.5"/><circle cx="360" cy="250" r="1.5"/><circle cx="780" cy="300" r="1.5"/><circle cx="460" cy="250" r="1.5"/></g>
+  <!-- stars -->
+  <g data-w="11">
+    <use href="#s" transform="translate(372 60) scale(2)"/><use href="#s" transform="translate(410 52) scale(1.4)"/><use href="#s" transform="translate(400 80) scale(1.2)"/>
+    <path d="M372 46v28M358 60h28" stroke="#f8e6ae" stroke-width="1"/>
+  </g>
+
+  <!-- Orihime -->
+  <g data-w="8">
+    <use href="#s" transform="translate(430 96) scale(2.2)"/>
+    <path d="M412 160v-30c0-10 8-18 18-18s18 8 18 18v30c-12 6-24 6-36 0z" fill="#f1b1aa"/>
+    <path d="M422 128l-4 30h24l-4-30" stroke="#d9736b" stroke-width="1.5"/>
+    <path d="M410 124l-12 10 10 2M450 124l12 10-10 2" stroke-width="4"/>
+    <circle cx="430" cy="110" r="13" fill="#f5d2b4"/>
+    <path d="M416 108c0-14 28-14 28 0-4-4-8-6-14-6s-10 2-14 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M416 108v30M444 108v30" stroke="#4a3b32" stroke-width="4"/>
+    <path d="M426 114c1 2 7 2 8 0" stroke-width="1.5"/>
+    <circle cx="438" cy="100" r="3" fill="#d9736b" stroke="none"/>
+  </g>
+  <!-- Hikoboshi -->
+  <g data-w="9">
+    <use href="#s" transform="translate(700 36) scale(2.2)"/>
+    <path d="M682 100v-30c0-10 8-18 18-18s18 8 18 18v30c-12 6-24 6-36 0z" fill="#7da2c4"/>
+    <path d="M700 54v44" stroke="#4a7fa3" stroke-width="1.5"/>
+    <path d="M680 64l-12 10 8 4M720 64l12 10-8 4" stroke-width="4"/>
+    <circle cx="700" cy="50" r="13" fill="#f5d2b4"/>
+    <path d="M687 46c2-12 24-12 26 0-4-4-8-6-13-6s-9 2-13 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M696 54c1 2 7 2 8 0" stroke-width="1.5"/>
+    <path d="M686 36h28" stroke="#4a3b32" stroke-width="2"/>
+  </g>
+
+  <!-- house wall, shoji and eave -->
+  <rect x="0" y="0" width="290" height="340" fill="#f4efe6" stroke="none"/>
+  <rect x="30" y="60" width="110" height="280" fill="#ede9e1" stroke="#9c7450" stroke-width="3"/>
+  <path d="M30 130h110M30 200h110M30 270h110M85 60v280" stroke="#9c7450" stroke-width="2"/>
+  <rect x="140" y="60" width="110" height="280" fill="#f8e6ae" fill-opacity="0.5" stroke="#9c7450" stroke-width="3"/>
+  <path d="M140 130h110M140 200h110M140 270h110M195 60v280" stroke="#9c7450" stroke-width="2"/>
+  <path d="M290 0v340" stroke="#9c7450" stroke-width="6"/>
+  <rect x="0" y="22" width="330" height="18" fill="#5e4634"/>
+  <path d="M0 40h330" stroke="#9c7450" stroke-width="2"/>
+
+  <!-- wind chime -->
+  <g data-w="12">
+    <path d="M300 40v22" />
+    <path d="M282 86c0-16 8-26 18-26s18 10 18 26z" fill="#d6e7f0" fill-opacity="0.8"/>
+    <path d="M282 86h36" />
+    <path d="M300 86v14" />
+    <circle cx="300" cy="90" r="3" fill="#3f3a34"/>
+    <path d="M294 100h12l-2 44h-8z" fill="#f1b1aa"/>
+    <path d="M296 110h8M296 120h8M296 130h8" stroke="#d9736b" stroke-width="1"/>
+    <path d="M270 70c-4 6-4 12 0 18M330 70c4 6 4 12 0 18" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+
+  <!-- veranda -->
+  <g data-w="13">
+    <rect x="0" y="340" width="800" height="90" fill="#d8b48c"/>
+    <path d="M0 362h800M0 384h800M0 406h800" stroke="#c49b6e" stroke-width="1.5"/>
+    <rect x="0" y="426" width="800" height="12" fill="#9c7450"/>
+  </g>
+  <!-- garden ground -->
+  <rect x="0" y="438" width="800" height="62" fill="#5b8a72" stroke="none"/>
+  <path d="M40 470l4-8 4 8M110 480l4-8 4 8M300 470l4-8 4 8M430 486l4-8 4 8M560 470l4-8 4 8M770 468l4-8 4 8" stroke="#9dc0a8" stroke-width="1.5"/>
+
+  <!-- table with pen, origami, scissors -->
+  <g data-w="16">
+    <rect x="28" y="380" width="236" height="12" rx="3" fill="#9c7450"/>
+    <path d="M44 392v34M248 392v34" stroke-width="5"/>
+    <path d="M44 392v34M248 392v34" stroke="#e3c9a3" stroke-width="2"/>
+  </g>
+  <g data-w="14">
+    <rect x="90" y="364" width="40" height="16" fill="#d9736b"/>
+    <rect x="94" y="360" width="40" height="16" fill="#f0cf6d"/>
+    <rect x="98" y="356" width="40" height="16" fill="#7da2c4"/>
+  </g>
+  <g data-w="6">
+    <path d="M150 380l40-30" stroke="#3f3a34" stroke-width="7"/>
+    <path d="M150 380l40-30" stroke="#4a7fa3" stroke-width="3"/>
+    <path d="M148 382l6-2 2-6z" fill="#3f3a34" stroke="none"/>
+    <path d="M186 356l6-4" stroke="#cfc9bd" stroke-width="3"/>
+  </g>
+  <g data-w="15">
+    <path d="M210 380l24-20M234 380l-24-20" stroke="#8c867c" stroke-width="4"/>
+    <ellipse cx="206" cy="384" rx="7" ry="5" fill="#d9736b"/>
+    <ellipse cx="238" cy="384" rx="7" ry="5" fill="#d9736b"/>
+    <circle cx="222" cy="370" r="2" fill="#3f3a34"/>
+  </g>
+  <!-- child writing -->
+  <g data-w="5">
+    <path d="M138 380v-30c0-12 10-20 22-20s22 8 22 20v30z" fill="#9dc0a8"/>
+    <path d="M160 332v48" stroke="#5b8a72" stroke-width="1.5"/>
+    <path d="M140 350l-14 24M180 350l-10 20" stroke-width="5"/>
+    <circle cx="160" cy="316" r="15" fill="#f5d2b4"/>
+    <path d="M146 312c4-12 24-12 28 0-5-4-9-6-14-6s-9 2-14 6z" fill="#4a3b32" stroke="none"/>
+    <circle cx="146" cy="306" r="4" fill="#f0cf6d"/>
+    <path d="M156 322c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M160 378l8-20h26l-8 20z" fill="#f0cf6d"/>
+    <path d="M176 364l8 0M174 370l8 0" stroke="#8c867c" stroke-width="1"/>
+  </g>
+
+  <!-- child making a wish -->
+  <g data-w="4">
+    <path d="M396 320c-10-12-6-28 6-30 4-12 20-16 30-8 12-6 28 0 28 14 10 4 10 18 0 22-6 10-22 10-30 4-10 8-26 6-34-2z" fill="#ffffff"/>
+    <use href="#s" transform="translate(428 300) scale(2.2)"/>
+    <path d="M396 326l-6 8M388 330l-4 6" stroke-width="1.5"/>
+    <path d="M340 420c0-14 12-24 40-24s40 10 40 24z" fill="#d9736b"/>
+    <path d="M356 396v-30c0-12 10-20 24-20s24 8 24 20v30z" fill="#f1b1aa"/>
+    <path d="M380 346v50" stroke="#d9736b" stroke-width="1.5"/>
+    <path d="M362 370l12 2M398 370l-12 2" stroke-width="5"/>
+    <path d="M374 364l6-10 6 10v10h-12z" fill="#f5d2b4"/>
+    <circle cx="380" cy="332" r="15" fill="#f5d2b4"/>
+    <path d="M366 328c4-12 24-12 28 0-5-4-9-6-14-6s-9 2-14 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M366 320c-2 8-2 14 0 20M394 320c2 8 2 14 0 20" stroke="#4a3b32" stroke-width="4"/>
+    <path d="M372 334c2-2 4-2 6 0M382 334c2-2 4-2 6 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- adult hanging a tanzaku -->
+  <g data-w="7">
+    <path d="M526 426v-14h12v14M542 426v-14h12v14" fill="#5e4634"/>
+    <path d="M518 414v-70c0-12 10-22 22-22s22 10 22 22v70z" fill="#7da2c4"/>
+    <path d="M540 322v92" stroke="#4a7fa3" stroke-width="1.5"/>
+    <path d="M520 344l-10 36M562 340l20-40" stroke-width="5"/>
+    <circle cx="540" cy="306" r="16" fill="#f5d2b4"/>
+    <path d="M526 302c4-12 24-12 28 0-5-4-9-6-14-6s-9 2-14 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M546 310c-1 2-6 2-7 0" stroke-width="1.5"/>
+    <rect x="578" y="278" width="14" height="38" fill="#f0cf6d"/>
+    <path d="M585 278v-10" />
+  </g>
+
+  <!-- bamboo -->
+  <g data-w="1">
+    <path d="M620 480h80l-6-40h-68z" fill="#9c7450"/>
+    <path d="M652 440c-4-100 0-240 8-370M682 440c-2-100 2-240-6-370" stroke="#5b8a72" stroke-width="9"/>
+    <path d="M655 380h10M657 300h10M660 220h10M662 140h10M680 380h10M680 300h10M678 220h10M676 140h10" stroke="#3d614f" stroke-width="2"/>
+    <use href="#lf" transform="translate(600 120) rotate(-30)"/><use href="#lf" transform="translate(664 90) rotate(-50)"/><use href="#lf" transform="translate(690 110) rotate(20)"/>
+    <use href="#lf" transform="translate(620 200) rotate(-20)"/><use href="#lf" transform="translate(694 170) rotate(30)"/><use href="#lf" transform="translate(610 270) rotate(-40)"/>
+    <use href="#lf" transform="translate(700 250) rotate(20)"/><use href="#lf" transform="translate(630 340) rotate(-20)"/><use href="#lf" transform="translate(700 350) rotate(40)"/>
+    <use href="#lf" transform="translate(650 60) rotate(-70)"/><use href="#lf" transform="translate(720 60) rotate(60)"/><use href="#lf" transform="translate(600 390) rotate(-10)"/>
+    <use href="#lf" transform="translate(720 320) rotate(-10)"/><use href="#lf" transform="translate(590 160) rotate(-50)"/><use href="#lf" transform="translate(700 400) rotate(30)"/><use href="#lf" transform="translate(606 330) rotate(-25)"/>
+    <path d="M650 70c0-10 4-20 10-24M676 70c0-10-4-20-10-24" stroke="#5b8a72" stroke-width="3"/>
+  </g>
+  <!-- tanzaku -->
+  <g data-w="2">
+    <path d="M636 160v10M716 136v10M620 292v10M730 262v10M740 330v10M642 364v10" />
+    <rect x="628" y="170" width="16" height="42" fill="#d9736b"/>
+    <rect x="708" y="146" width="16" height="42" fill="#f0cf6d"/>
+    <rect x="612" y="302" width="16" height="42" fill="#a58bc0"/>
+    <rect x="722" y="272" width="16" height="42" fill="#ffffff"/>
+    <rect x="732" y="340" width="16" height="42" fill="#9dc0a8"/>
+    <rect x="634" y="374" width="16" height="42" fill="#f0cf6d"/>
+    <path d="M636 180v24M716 156v24M620 312v24M730 282v24M740 350v24M642 384v24" stroke="#3f3a34" stroke-width="1" stroke-dasharray="2 3"/>
+  </g>
+  <!-- streamer decoration -->
+  <g data-w="3">
+    <path d="M590 150v12" />
+    <circle cx="590" cy="178" r="16" fill="#f0cf6d"/>
+    <path d="M574 178h32" stroke="#e59a5b"/>
+    <path d="M576 192l-4 36M583 194l-2 38M590 194v40M597 194l2 38M604 192l4 36" stroke="#d9736b" stroke-width="4"/>
+    <path d="M580 194l-2 30M600 194l2 30" stroke="#7da2c4" stroke-width="3"/>
+  </g>
+</svg>

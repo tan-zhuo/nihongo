@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="440" width="800" height="60" fill="#d8b48c" stroke="none"/>
+  <path d="M0 470h800" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M0 440h800" stroke="#b08a63" stroke-width="3"/>
+
+  <!-- closet box -->
+  <rect x="40" y="30" width="520" height="410" fill="#ede9e1"/>
+  <rect x="40" y="30" width="520" height="410" stroke="#9c7450" stroke-width="10" fill="none"/>
+  <path d="M40 30v410M560 30v410" stroke="#9c7450" stroke-width="10"/>
+  <path d="M22 60h18M22 60v380h18" stroke="#9c7450" stroke-width="6" fill="#e3c9a3"/>
+  <!-- top shelf -->
+  <g data-w="1">
+    <rect x="46" y="94" width="508" height="10" fill="#d8b48c"/>
+    <path d="M46 104h508" stroke="#9c7450"/>
+  </g>
+  <!-- hat -->
+  <g data-w="2">
+    <path d="M74 92c0-6 70-6 70 0 0 4-70 4-70 0z" fill="#5b8a72"/>
+    <path d="M88 90c-4-26 48-26 44 0z" fill="#5b8a72"/>
+    <path d="M90 84h40" stroke="#f0cf6d" stroke-width="3"/>
+  </g>
+  <!-- folded sweater -->
+  <g data-w="3">
+    <rect x="196" y="76" width="70" height="18" rx="3" fill="#d9736b"/>
+    <rect x="200" y="58" width="62" height="18" rx="3" fill="#f1b1aa"/>
+    <path d="M206 85h50M210 67h42" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <!-- bag -->
+  <g data-w="4">
+    <rect x="330" y="58" width="72" height="36" rx="6" fill="#9c7450"/>
+    <path d="M348 58c0-14 36-14 36 0" stroke-width="3"/>
+    <rect x="356" y="68" width="20" height="10" rx="2" fill="#f0cf6d"/>
+  </g>
+
+  <!-- rod -->
+  <rect x="50" y="110" width="500" height="7" rx="3" fill="#8c867c"/>
+
+  <!-- coat -->
+  <g data-w="5">
+    <path d="M108 116v-2c0-6 8-10 8-6" stroke-width="2.5"/>
+    <path d="M78 150l30-20 30 20-6 150h-48z" fill="#5e4634"/>
+    <path d="M70 150l8-22 30 4 30-4 8 22-6 40h-64z" fill="#5e4634"/>
+    <path d="M108 126l-18 16 18 38 18-38z" fill="#e3c9a3"/>
+    <path d="M108 170v128" stroke="#3f3a34"/>
+    <circle cx="104" cy="200" r="2" fill="#f0cf6d" stroke="none"/>
+    <circle cx="104" cy="230" r="2" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- suit -->
+  <g data-w="6">
+    <path d="M196 116v-2c0-6 8-10 8-6" stroke-width="2.5"/>
+    <path d="M166 150l30-22 30 22-4 136h-52z" fill="#4a7fa3"/>
+    <path d="M158 150l8-20 30 4 30-4 8 20-6 36h-64z" fill="#4a7fa3"/>
+    <path d="M196 140l-14 10 10 60 4 20 4-20 10-60z" fill="#ffffff"/>
+    <path d="M196 140l-10 70M196 140l10 70" stroke="#3b6a8c" stroke-width="2.5"/>
+    <path d="M196 160l-20 20 12 30M196 160l20 20-12 30" fill="#4a7fa3"/>
+    <path d="M172 240h6M214 240h6" />
+  </g>
+  <!-- shirt -->
+  <g data-w="7">
+    <path d="M277 116v-2c0-6 8-10 8-6" stroke-width="2.5"/>
+    <path d="M250 150l27-16 27 16-4 96h-46z" fill="#b9cfe3"/>
+    <path d="M242 150l10-18 25 4 25-4 10 18-8 32h-54z" fill="#b9cfe3"/>
+    <path d="M277 134l-10 12 10 8 10-8z" fill="#ffffff"/>
+    <path d="M277 154v90" stroke="#7da2c4"/>
+    <circle cx="277" cy="170" r="1.8" fill="#ffffff" stroke="none"/>
+    <circle cx="277" cy="190" r="1.8" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- dress -->
+  <g data-w="8">
+    <path d="M350 116v-2c0-6 8-10 8-6" stroke-width="2.5"/>
+    <path d="M330 140l20-10 20 10 6 50-52 0z" fill="#d9736b"/>
+    <path d="M324 190h52l16 140h-84z" fill="#d9736b"/>
+    <path d="M324 190h52" stroke="#b5463f"/>
+    <path d="M334 210h30M340 240h26M346 270h22M352 300h18" stroke="#f1b1aa" stroke-width="1.5"/>
+    <circle cx="350" cy="160" r="4" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- empty hanger -->
+  <g data-w="9">
+    <path d="M430 150v-18c0-8 8-10 8-18a8 8 0 0 0-16 0" stroke-width="2.5"/>
+    <path d="M430 150l-34 20h68z" fill="#d8b48c"/>
+  </g>
+  <!-- tie over the rod -->
+  <g data-w="10">
+    <path d="M466 116h18v16h-18z" fill="#b5463f"/>
+    <path d="M466 132h18l6 100-15 30-15-30z" fill="#b5463f"/>
+    <path d="M470 150l12 22M470 180l12 22M470 210l12 22" stroke="#f1b1aa" stroke-width="2"/>
+  </g>
+  <!-- scarf -->
+  <g data-w="11">
+    <path d="M508 116h30v150c0 12-30 12-30 0z" fill="#f0cf6d"/>
+    <path d="M508 136h30M508 160h30M508 184h30M508 208h30M508 232h30" stroke="#d9736b" stroke-width="5"/>
+    <path d="M512 266l-2 12M523 268v14M534 266l2 12" stroke="#f0cf6d" stroke-width="3"/>
+  </g>
+
+  <!-- drawers -->
+  <g data-w="13">
+    <rect x="60" y="316" width="240" height="118" fill="#d8b48c"/>
+    <path d="M60 355h240M60 394h240"/>
+    <path d="M166 336h28M166 375h28M166 414h28" stroke-width="4"/>
+  </g>
+  <!-- belt coiled on top of drawers -->
+  <g data-w="12">
+    <circle cx="100" cy="304" r="12" fill="#5e4634" stroke-width="6" stroke="#5e4634"/>
+    <circle cx="100" cy="304" r="12" stroke="#3f3a34"/>
+    <circle cx="100" cy="304" r="5" fill="#ede9e1"/>
+    <rect x="110" y="298" width="12" height="12" rx="2" fill="#f0cf6d"/>
+  </g>
+  <!-- shoe boxes -->
+  <g data-w="14">
+    <rect x="322" y="402" width="116" height="34" rx="2" fill="#cfc9bd"/>
+    <rect x="322" y="368" width="116" height="34" rx="2" fill="#e59a5b"/>
+    <rect x="322" y="334" width="116" height="34" rx="2" fill="#7da2c4"/>
+    <path d="M322 344h116M322 378h116M322 412h116" stroke="#3f3a34" stroke-width="1.5"/>
+    <path d="M370 352h20M370 386h20M370 420h20" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <!-- shoes -->
+  <g data-w="15">
+    <path d="M458 436c0-14 6-24 18-24h12c4 10 12 12 26 12v12z" fill="#5e4634"/>
+    <path d="M498 436c0-14 6-24 18-24h12c4 10 12 12 26 12v12z" fill="#5e4634"/>
+    <path d="M476 412c6 6 14 8 22 8M516 412c6 6 14 8 22 8" stroke="#9c7450" stroke-width="1.5"/>
+  </g>
+
+  <!-- mirror -->
+  <g data-w="16">
+    <rect x="590" y="70" width="72" height="340" rx="36" fill="#9c7450"/>
+    <rect x="598" y="78" width="56" height="324" rx="28" fill="#b9cfe3"/>
+    <path d="M610 120c0-20 10-30 20-32" stroke="#ffffff" stroke-width="3"/>
+    <path d="M568 440l22-30h72l22 30" stroke="#9c7450" stroke-width="4"/>
+  </g>
+  <!-- person putting on a jacket -->
+  <g data-w="17">
+    <path d="M706 330h28v108h-28z" fill="#3f3a34"/>
+    <path d="M720 330v108" stroke="#8c867c"/>
+    <path d="M696 240h48l8 20v76h-64v-76z" fill="#5b8a72"/>
+    <path d="M720 240v96" stroke="#3d614f"/>
+    <path d="M700 258l-26 20 8 48" stroke="#5b8a72" stroke-width="12"/>
+    <circle cx="682" cy="330" r="7" fill="#f5d2b4"/>
+    <path d="M744 258l18 10-8 60" stroke="#9dc0a8" stroke-width="12"/>
+    <circle cx="754" cy="330" r="7" fill="#f5d2b4"/>
+    <circle cx="720" cy="216" r="20" fill="#f5d2b4"/>
+    <path d="M700 212c4-16 36-16 40 0-6-8-14-10-20-10s-14 2-20 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M714 222c2 2 10 2 12 0" stroke-width="1.5"/>
+    <path d="M700 438h40M740 438h4M696 438h4"/>
+  </g>
+</svg>

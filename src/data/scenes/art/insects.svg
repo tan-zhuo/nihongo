@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="fl"><path d="M0 0v30" stroke="#5b8a72" stroke-width="3"/><circle cx="0" cy="-10" r="8"/><circle cx="-10" cy="-2" r="8"/><circle cx="10" cy="-2" r="8"/><circle cx="-6" cy="9" r="8"/><circle cx="6" cy="9" r="8"/><circle r="6" fill="#f0cf6d"/></g>
+    <g id="gr"><path d="M0 0c-4-10-2-20 4-28M0 0c2-12 8-18 16-22M0 0c-8-10-18-14-26-12M0 0c-2-14-10-22-18-26" stroke="#5b8a72" stroke-width="2.5"/></g>
+    <g id="ant"><ellipse cx="-10" cy="0" rx="7" ry="5" fill="#3f3a34"/><circle cx="1" cy="0" r="4" fill="#3f3a34"/><circle cx="9" cy="0" r="5" fill="#3f3a34"/><path d="M-4 2l-4 7M0 3l0 7M4 2l4 7M-4 -2l-4-7M4 -2l4-7M12 -3l5-5M14 -2l6-3" stroke-width="1.3"/></g>
+    <g id="ho"><circle r="12" fill="#f8e6ae" stroke="none" fill-opacity="0.7"/><ellipse rx="4" ry="6" fill="#3f3a34"/><circle cy="5" r="3" fill="#f0cf6d" stroke="none"/><path d="M-4 -4l-6-4M4 -4l6-4" stroke-width="1"/></g>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <rect x="0" y="262" width="800" height="238" fill="#e0ece3" stroke="none"/>
+  <path d="M0 262h800" stroke="#9dc0a8"/>
+  <path d="M560 70c0-14 22-16 28-6 10-10 30-4 28 10h-56z" fill="#ffffff" stroke="none"/>
+  <path d="M330 50c0-12 20-14 26-6 10-8 28-2 26 8h-52z" fill="#ffffff" stroke="none"/>
+  <!-- tree -->
+  <g data-w="15">
+    <path d="M56 446c6-100 2-220 10-290h60c8 80 4 190 10 290z" fill="#9c7450"/>
+    <path d="M80 180c0 40-4 80 0 120M112 220c0 60 2 120-2 180" stroke="#7a5a3c" stroke-width="1.5"/>
+    <circle cx="44" cy="140" r="40" fill="#5b8a72"/>
+    <circle cx="150" cy="140" r="40" fill="#5b8a72"/>
+    <circle cx="62" cy="80" r="38" fill="#5b8a72"/>
+    <circle cx="136" cy="80" r="38" fill="#5b8a72"/>
+    <circle cx="98" cy="112" r="66" fill="#5b8a72"/>
+    <circle cx="80" cy="96" r="28" fill="#9dc0a8" stroke="none"/>
+    <circle cx="128" cy="76" r="22" fill="#9dc0a8" stroke="none"/>
+    <circle cx="48" cy="130" r="16" fill="#9dc0a8" stroke="none"/>
+    <ellipse cx="96" cy="446" rx="54" ry="10" fill="#9dc0a8" stroke="#5b8a72"/>
+  </g>
+  <!-- rhinoceros beetle -->
+  <g data-w="5" transform="translate(0,22)">
+    <path d="M78 198l-10-6M78 206l-10 2M78 214l-10 8M114 198l10-6M114 206l10 2M114 214l10 8" stroke-width="2.5"/>
+    <ellipse cx="96" cy="206" rx="18" ry="24" fill="#5e4634"/>
+    <path d="M96 196v36" stroke="#3f3a34" stroke-width="1.5"/>
+    <circle cx="96" cy="180" r="9" fill="#5e4634"/>
+    <path d="M96 172v-16M96 156l-8-8M96 156l8-8" stroke-width="3"/>
+  </g>
+  <!-- stag beetle -->
+  <g data-w="6" transform="translate(0,28)">
+    <path d="M80 262l-10-6M80 270l-10 2M80 278l-10 8M112 262l10-6M112 270l10 2M112 278l10 8" stroke-width="2.5"/>
+    <ellipse cx="96" cy="270" rx="16" ry="20" fill="#3f3a34"/>
+    <path d="M96 252v36" stroke="#8c867c" stroke-width="1.5"/>
+    <circle cx="96" cy="246" r="8" fill="#3f3a34"/>
+    <path d="M90 240c-8-6-10-16-4-22M102 240c8-6 10-16 4-22M86 222l4 6M106 222l-4 6" stroke-width="3"/>
+  </g>
+  <!-- cicada -->
+  <g data-w="7" transform="translate(0,32)">
+    <path d="M90 318c-16 8-18 30-8 42l10-20zM102 318c16 8 18 30 8 42l-10-20z" fill="#ffffff" fill-opacity="0.7" stroke="#8c867c"/>
+    <ellipse cx="96" cy="326" rx="11" ry="16" fill="#9c7450"/>
+    <path d="M88 322h16M88 328h16M89 334h14" stroke="#5e4634" stroke-width="1.2"/>
+    <circle cx="88" cy="310" r="3" fill="#3f3a34" stroke="none"/>
+    <circle cx="104" cy="310" r="3" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- ladybug on a leaf -->
+  <g data-w="9">
+    <path d="M150 416c10-24 44-28 64-10-12 20-44 26-64 10z" fill="#9dc0a8"/>
+    <path d="M154 414c16-8 36-10 56-8" stroke="#5b8a72" stroke-width="1.2"/>
+    <circle cx="184" cy="400" r="13" fill="#d9736b"/>
+    <path d="M184 387v26" stroke-width="1.5"/>
+    <path d="M176 387c2-6 14-6 16 0z" fill="#3f3a34"/>
+    <circle cx="178" cy="398" r="2.5" fill="#3f3a34" stroke="none"/><circle cx="190" cy="398" r="2.5" fill="#3f3a34" stroke="none"/><circle cx="179" cy="407" r="2" fill="#3f3a34" stroke="none"/><circle cx="189" cy="407" r="2" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- flowers -->
+  <g data-w="16">
+    <use href="#fl" x="250" y="350" fill="#f1b1aa"/>
+    <use href="#fl" x="292" y="340" fill="#a58bc0"/>
+    <use href="#fl" x="334" y="352" fill="#f0cf6d"/>
+    <path d="M258 372c12-8 22-4 24 4-8 6-18 4-24-4zM326 372c-12-8-22-4-24 4 8 6 18 4 24-4z" fill="#9dc0a8"/>
+  </g>
+  <!-- butterfly -->
+  <g data-w="1">
+    <path d="M250 272c-14-24-40-26-40-6 0 10 8 16 20 16-12 2-18 12-12 20 8 10 26 0 32-14z" fill="#e59a5b"/>
+    <path d="M250 272c14-24 40-26 40-6 0 10-8 16-20 16 12 2 18 12 12 20-8 10-26 0-32-14z" fill="#e59a5b"/>
+    <circle cx="224" cy="268" r="4" fill="#f8e6ae" stroke="none"/><circle cx="276" cy="268" r="4" fill="#f8e6ae" stroke="none"/>
+    <path d="M250 262v30" stroke-width="4"/>
+    <path d="M248 262l-6-10M252 262l6-10" stroke-width="1.5"/>
+  </g>
+  <!-- bee -->
+  <g data-w="2">
+    <ellipse cx="336" cy="258" rx="12" ry="7" fill="#ffffff" fill-opacity="0.8" stroke="#8c867c"/>
+    <ellipse cx="354" cy="256" rx="10" ry="6" fill="#ffffff" fill-opacity="0.8" stroke="#8c867c"/>
+    <ellipse cx="345" cy="276" rx="18" ry="12" fill="#f0cf6d"/>
+    <path d="M338 265v22M348 264v24" stroke-width="3"/>
+    <circle cx="328" cy="276" r="7" fill="#3f3a34"/>
+    <path d="M363 276l8 2" stroke-width="2"/>
+    <path d="M324 270l-4-6M330 270l2-7" stroke-width="1.5"/>
+  </g>
+  <!-- ants -->
+  <g data-w="3">
+    <use href="#ant" x="280" y="482"/><use href="#ant" x="312" y="478"/><use href="#ant" x="344" y="484"/>
+  </g>
+  <!-- dragonfly -->
+  <g data-w="4">
+    <path d="M440 118c-30-14-62-10-60 2 2 8 30 6 60-2zM440 118c30-14 62-10 60 2-2 8-30 6-60-2zM440 122c-30 6-56 16-50 24 4 6 30-10 50-24zM440 122c30 6 56 16 50 24-4 6-30-10-50-24z" fill="#d6e7f0" stroke="#7da2c4"/>
+    <path d="M440 112v60" stroke="#4a7fa3" stroke-width="5"/>
+    <path d="M440 130h0M440 140h0M440 150h0" stroke="#3f3a34" stroke-width="5"/>
+    <circle cx="440" cy="108" r="7" fill="#5b8a72"/>
+  </g>
+  <!-- boy with net -->
+  <g data-w="14">
+    <path d="M548 300l58-100" stroke="#9c7450" stroke-width="4"/>
+    <ellipse cx="622" cy="160" rx="30" ry="42" fill="#ffffff" fill-opacity="0.85" stroke="#8c867c"/>
+    <path d="M598 140h48M594 160h56M598 180h48M612 120v80M632 120v80" stroke="#cfc9bd" stroke-width="1"/>
+  </g>
+  <g>
+    <path d="M498 392v34M518 392v34" stroke="#4a7fa3" stroke-width="8"/>
+    <path d="M490 340h36v56h-36z" fill="#d9736b"/>
+    <path d="M490 344l-12 24M526 344l22-40" stroke="#f5d2b4" stroke-width="6"/>
+    <circle cx="508" cy="322" r="17" fill="#f5d2b4"/>
+    <path d="M490 318c2-18 34-18 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M486 312h44l-4-8h-36z" fill="#f0cf6d"/>
+    <circle cx="503" cy="322" r="1.6" fill="#3f3a34" stroke="none"/><circle cx="513" cy="322" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M503 329c3 3 7 3 10 0" stroke-width="1.5"/>
+  </g>
+  <!-- insect cage -->
+  <g data-w="13">
+    <rect x="404" y="386" width="52" height="40" rx="4" fill="#9dc0a8"/>
+    <path d="M414 386v40M424 386v40M434 386v40M444 386v40" stroke="#5b8a72"/>
+    <rect x="400" y="380" width="60" height="8" rx="3" fill="#5b8a72"/>
+    <path d="M418 380c0-12 24-12 24 0" stroke-width="3"/>
+    <path d="M420 410l10-6 8 6" stroke="#3d614f" stroke-width="2"/>
+  </g>
+  <!-- grasshopper -->
+  <g data-w="8">
+    <use href="#gr" x="600" y="446"/>
+    <path d="M546 428c-10 2-18 14-20 26l6-2c2-10 8-16 14-20z" fill="#5b8a72"/>
+    <ellipse cx="562" cy="440" rx="22" ry="8" fill="#9dc0a8"/>
+    <path d="M550 446l-6 8M560 448v8M574 446l6 8" stroke="#5b8a72" stroke-width="2"/>
+    <path d="M568 444l16-18 6 22" stroke="#5b8a72" stroke-width="2.5"/>
+    <circle cx="582" cy="438" r="5" fill="#9dc0a8"/>
+    <circle cx="584" cy="437" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M584 434l6-8M586 436l8-4" stroke-width="1.2"/>
+  </g>
+  <!-- grass -->
+  <g data-w="17">
+    <use href="#gr" x="640" y="400"/><use href="#gr" x="666" y="404"/><use href="#gr" x="614" y="396"/>
+    <use href="#gr" x="380" y="470"/><use href="#gr" x="200" y="480"/><use href="#gr" x="470" y="446"/>
+  </g>
+  <!-- fireflies among reeds -->
+  <g data-w="12">
+    <path d="M700 360v-50M716 364v-56M732 362v-48" stroke="#5b8a72" stroke-width="2.5"/>
+    <ellipse cx="700" cy="312" rx="4" ry="9" fill="#9c7450"/><ellipse cx="716" cy="310" rx="4" ry="9" fill="#9c7450"/><ellipse cx="732" cy="316" rx="4" ry="9" fill="#9c7450"/>
+    <use href="#ho" x="690" y="334"/><use href="#ho" x="748" y="322"/><use href="#ho" x="722" y="340"/>
+  </g>
+  <!-- snail -->
+  <g data-w="11">
+    <path d="M664 450c0-6 12-10 24-10h28c6 0 8 4 8 8 0 6-6 10-14 10h-40c-4 0-6-4-6-8z" fill="#f5d2b4"/>
+    <circle cx="690" cy="432" r="18" fill="#e59a5b"/>
+    <path d="M690 432c0-8 10-8 10 0s-14 10-14-2 20-14 20 2" stroke="#b5463f" stroke-width="1.5"/>
+    <path d="M716 442l4-14M722 444l6-12" stroke-width="2"/>
+    <circle cx="720" cy="426" r="2.5" fill="#3f3a34" stroke="none"/><circle cx="729" cy="430" r="2.5" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- spider web -->
+  <g data-w="10">
+    <path d="M740 50l-60 0M740 50l-52 52M740 50v70M740 50l52 52M740 50h60M740 50l-30-50M740 50l30-50" stroke="#8c867c" stroke-width="1"/>
+    <path d="M718 50c0-12 10-22 22-22s22 10 22 22-10 22-22 22-22-10-22-22zM698 50c0-24 18-42 42-42s42 18 42 42-18 42-42 42-42-18-42-42zM678 50c0-34 28-62 62-62s62 28 62 62-28 62-62 62-62-28-62-62z" stroke="#8c867c" stroke-width="1"/>
+    <path d="M740 72v22" stroke="#8c867c" stroke-width="1"/>
+    <path d="M728 96l-10-6M726 102l-12 0M730 108l-8 8M752 96l10-6M754 102l12 0M750 108l8 8" stroke-width="2"/>
+    <circle cx="740" cy="104" r="9" fill="#3f3a34"/>
+    <circle cx="740" cy="92" r="5" fill="#3f3a34"/>
+    <circle cx="738" cy="91" r="1.2" fill="#ffffff" stroke="none"/><circle cx="742" cy="91" r="1.2" fill="#ffffff" stroke="none"/>
+  </g>
+</svg>

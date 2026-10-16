@@ -1,0 +1,31 @@
+{
+  "id": "tanabata",
+  "n": 94,
+  "group": "culture",
+  "title": "七夕",
+  "title_zh": "七夕",
+  "title_en": "Tanabata",
+  "words": [
+    { "w": "笹", "r": "ささ", "zh": "竹叶；矮竹", "en": "bamboo grass", "x": 660, "y": 430 },
+    { "w": "短冊", "r": "たんざく", "zh": "许愿纸条", "en": "wish strip", "x": 722, "y": 300 },
+    { "w": "飾り", "r": "かざり", "zh": "装饰", "en": "decoration", "x": 590, "y": 250 },
+    { "w": "願い事", "r": "ねがいごと", "zh": "愿望", "en": "wish", "x": 380, "y": 412 },
+    { "w": "書く", "r": "かく", "zh": "写", "en": "to write", "x": 160, "y": 352 },
+    { "w": "ペン", "r": "ペン", "zh": "笔", "en": "pen", "x": 178, "y": 410 },
+    { "w": "飾る", "r": "かざる", "zh": "装饰；挂上", "en": "to decorate; to hang up", "x": 540, "y": 400 },
+    { "w": "織姫", "r": "おりひめ", "zh": "织女", "en": "Orihime (the Weaver Star)", "x": 430, "y": 182 },
+    { "w": "彦星", "r": "ひこぼし", "zh": "牛郎", "en": "Hikoboshi (the Cowherd Star)", "x": 700, "y": 122 },
+    { "w": "天の川", "r": "あまのがわ", "zh": "银河", "en": "Milky Way", "x": 560, "y": 96 },
+    { "w": "星", "r": "ほし", "zh": "星星", "en": "star", "x": 392, "y": 96 },
+    { "w": "風鈴", "r": "ふうりん", "zh": "风铃", "en": "wind chime", "x": 300, "y": 124 },
+    { "w": "縁側", "r": "えんがわ", "zh": "檐廊", "en": "veranda", "x": 470, "y": 366 },
+    { "w": "折り紙", "r": "おりがみ", "zh": "折纸", "en": "origami paper", "x": 118, "y": 412 },
+    { "w": "はさみ", "r": "はさみ", "zh": "剪刀", "en": "scissors", "x": 242, "y": 412 },
+    { "w": "机", "r": "つくえ", "zh": "桌子", "en": "table; desk", "x": 50, "y": 386 }
+  ],
+  "sentences": [
+    { "ja": "{七夕|たなばた}に{短冊|たんざく}に{願|ねが}い{事|ごと}を{書|か}きます。", "zh": "七夕时在纸条上写愿望。", "en": "On Tanabata, we write wishes on paper strips." },
+    { "ja": "{父|ちち}は{笹|ささ}に{短冊|たんざく}と{飾|かざ}りを{飾|かざ}っています。", "zh": "爸爸正在把纸条和装饰挂到竹子上。", "en": "Dad is hanging the wish strips and decorations on the bamboo." },
+    { "ja": "{夜|よる}、{縁側|えんがわ}から{天|あま}の{川|がわ}と{星|ほし}を{見|み}ました。", "zh": "晚上，从檐廊看到了银河和星星。", "en": "At night, we saw the Milky Way and the stars from the veranda." }
+  ]
+}

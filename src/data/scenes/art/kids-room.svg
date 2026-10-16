@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall with dots, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <g fill="#ede9e1" stroke="none">
+    <circle cx="320" cy="30" r="5"/><circle cx="520" cy="30" r="5"/><circle cx="320" cy="200" r="5"/><circle cx="560" cy="200" r="5"/>
+    <circle cx="420" cy="230" r="5"/><circle cx="600" cy="120" r="5"/><circle cx="480" cy="300" r="5"/><circle cx="560" cy="60" r="5"/>
+  </g>
+  <rect x="0" y="370" width="800" height="130" fill="#e3c9a3" stroke="none"/>
+  <path d="M0 400h800M0 430h800M0 460h800M0 490h800" stroke="#d2b486" stroke-width="1.5"/>
+  <path d="M0 370h800" stroke="#b08a63" stroke-width="3"/>
+
+  <!-- window -->
+  <g data-w="5">
+    <rect x="330" y="46" width="140" height="124" rx="4" fill="#d6e7f0"/>
+    <circle cx="370" cy="86" r="16" fill="#f8e6ae" stroke="none"/>
+    <path d="M340 150c14-12 36-12 50 0 10-8 28-8 38 0v10h-88z" fill="#ffffff" stroke="none"/>
+    <path d="M330 108h140M400 46v124"/>
+    <rect x="322" y="38" width="156" height="140" rx="6"/>
+    <rect x="316" y="174" width="168" height="10" rx="2" fill="#ffffff"/>
+    <path d="M322 38h-14v140h14M478 38h14v140h-14" fill="#f0cf6d"/>
+  </g>
+
+  <!-- balloon -->
+  <g data-w="6">
+    <path d="M520 130c10 60 40 120 76 164" stroke="#8c867c" stroke-width="1.5"/>
+    <ellipse cx="520" cy="92" rx="26" ry="32" fill="#d9736b"/>
+    <path d="M514 124l6 8 6-8z" fill="#d9736b"/>
+    <path d="M508 78c2-8 8-12 14-12" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+
+  <!-- bunk bed -->
+  <g data-w="1">
+    <rect x="40" y="60" width="14" height="320" rx="4" fill="#9c7450"/>
+    <rect x="280" y="60" width="14" height="320" rx="4" fill="#9c7450"/>
+    <rect x="44" y="156" width="246" height="14" fill="#9c7450"/>
+    <rect x="52" y="134" width="230" height="24" rx="6" fill="#d6e7f0"/>
+    <rect x="52" y="104" width="230" height="30" rx="4" fill="#ede9e1" stroke="none"/>
+    <path d="M54 110h226" stroke="#cfc9bd" stroke-width="1.5"/>
+    <rect x="44" y="286" width="246" height="14" fill="#9c7450"/>
+    <rect x="52" y="264" width="230" height="24" rx="6" fill="#9dc0a8"/>
+    <rect x="248" y="170" width="10" height="116" rx="3" fill="#d8b48c"/>
+    <rect x="272" y="170" width="10" height="116" rx="3" fill="#d8b48c"/>
+    <path d="M258 190h14M258 214h14M258 238h14M258 262h14" stroke-width="4"/>
+    <path d="M54 72h226" stroke="#9c7450" stroke-width="6"/>
+    <path d="M90 72v32M150 72v32M210 72v32" stroke="#9c7450" stroke-width="4"/>
+    <path d="M54 300h226M54 320h226" stroke="#9c7450" stroke-width="6"/>
+  </g>
+  <!-- pillow on top bunk -->
+  <g data-w="2">
+    <rect x="58" y="118" width="60" height="20" rx="8" fill="#ffffff"/>
+  </g>
+  <!-- teddy bear on top bunk -->
+  <g data-w="3">
+    <circle cx="186" cy="102" r="7" fill="#d8b48c"/>
+    <circle cx="216" cy="102" r="7" fill="#d8b48c"/>
+    <ellipse cx="201" cy="134" rx="20" ry="15" fill="#d8b48c"/>
+    <circle cx="201" cy="110" r="16" fill="#d8b48c"/>
+    <ellipse cx="201" cy="116" rx="7" ry="5" fill="#e3c9a3" stroke="none"/>
+    <circle cx="195" cy="108" r="1.6" fill="#3f3a34" stroke="none"/>
+    <circle cx="207" cy="108" r="1.6" fill="#3f3a34" stroke="none"/>
+    <circle cx="201" cy="114" r="2" fill="#3f3a34" stroke="none"/>
+    <circle cx="184" cy="134" r="7" fill="#d8b48c"/>
+    <circle cx="218" cy="134" r="7" fill="#d8b48c"/>
+  </g>
+  <!-- doll on lower bunk -->
+  <g data-w="4">
+    <circle cx="140" cy="226" r="16" fill="#f5d2b4"/>
+    <path d="M124 224c0-18 32-18 32 0-6-8-26-8-32 0z" fill="#e59a5b" stroke="none"/>
+    <path d="M124 224c-4 10-4 20 0 30M156 224c4 10 4 20 0 30" stroke="#e59a5b" stroke-width="6"/>
+    <path d="M128 242h24l10 26h-44z" fill="#f1b1aa"/>
+    <path d="M118 256h44" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="135" cy="226" r="1.6" fill="#3f3a34" stroke="none"/>
+    <circle cx="145" cy="226" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M136 232c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M128 268v-10M152 268v-10" stroke="#f5d2b4" stroke-width="6"/>
+  </g>
+
+  <!-- bookshelf with picture books -->
+  <g data-w="7">
+    <rect x="630" y="80" width="130" height="290" fill="#e3c9a3"/>
+    <path d="M630 160h130M630 240h130M630 310h130"/>
+    <path d="M644 238v-50h12v50M658 238v-40h14v40M674 238v-46h10v46M686 238v-36h14v36M702 238v-44h12v44M716 238v-40h12v40M730 238v-48h12v48" fill="#7da2c4"/>
+    <path d="M644 308v-44h40v44" fill="#f0cf6d"/>
+    <ellipse cx="664" cy="282" rx="12" ry="12" fill="#5b8a72" stroke="none"/>
+    <path d="M694 308v-26h20v26M720 308v-34h22v34" fill="#a58bc0"/>
+    <path d="M642 368v-30h36v30M688 368v-20h50v20" fill="#9dc0a8"/>
+  </g>
+  <g data-w="8">
+    <path d="M642 158v-60h50v60" fill="#f1b1aa"/>
+    <path d="M650 110h34v30h-34z" fill="#b9cfe3" stroke="none"/>
+    <circle cx="674" cy="120" r="5" fill="#f0cf6d" stroke="none"/>
+    <path d="M650 140l10-12 8 8 6-6 10 10z" fill="#5b8a72" stroke="none"/>
+    <path d="M700 158v-52h12v52M716 158v-56h12v56M732 158v-50h12v50" fill="#e59a5b"/>
+  </g>
+
+  <!-- school backpack against the shelf -->
+  <g data-w="9">
+    <rect x="566" y="296" width="60" height="74" rx="10" fill="#d9736b"/>
+    <rect x="566" y="296" width="60" height="30" rx="10" fill="#b5463f"/>
+    <rect x="578" y="340" width="36" height="20" rx="3" fill="#b5463f"/>
+    <path d="M576 300c6-14 34-14 40 0" stroke="#3f3a34" stroke-width="4"/>
+    <circle cx="596" cy="332" r="3" fill="#f0cf6d" stroke="none"/>
+  </g>
+
+  <!-- carpet -->
+  <g data-w="10">
+    <rect x="270" y="376" width="340" height="104" rx="30" fill="#9dc0a8"/>
+    <rect x="286" y="390" width="308" height="76" rx="22" fill="#e0ece3" stroke="none"/>
+  </g>
+
+  <!-- child playing with blocks -->
+  <g data-w="11" transform="translate(0 40)">
+    <path d="M304 380h54v26h-54z" fill="#f0cf6d"/>
+    <rect x="310" y="320" width="42" height="64" rx="10" fill="#e59a5b"/>
+    <path d="M300 392c-8-14 0-30 12-30M362 392c8-14 0-30-12-30" stroke="#f0cf6d" stroke-width="12"/>
+    <circle cx="300" cy="396" r="6" fill="#f5d2b4"/>
+    <circle cx="362" cy="396" r="6" fill="#f5d2b4"/>
+    <path d="M316 340l-10 30M346 340l20 26" stroke="#e59a5b" stroke-width="9"/>
+    <circle cx="306" cy="372" r="6" fill="#f5d2b4"/>
+    <circle cx="368" cy="368" r="6" fill="#f5d2b4"/>
+    <circle cx="331" cy="298" r="18" fill="#f5d2b4"/>
+    <path d="M313 294c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M325 304c2 2 10 2 12 0" stroke-width="1.5"/>
+  </g>
+  <!-- building blocks -->
+  <g data-w="12" transform="translate(0 40)">
+    <rect x="392" y="382" width="26" height="26" fill="#d9736b"/>
+    <rect x="418" y="382" width="26" height="26" fill="#7da2c4"/>
+    <rect x="405" y="356" width="26" height="26" fill="#f0cf6d"/>
+    <path d="M405 356l13-16 13 16z" fill="#5b8a72"/>
+    <rect x="456" y="384" width="24" height="24" fill="#a58bc0"/>
+  </g>
+
+  <!-- child drawing with crayons -->
+  <g data-w="13" transform="translate(0 40)">
+    <path d="M520 384c20-10 44-6 56 6v18h-56z" fill="#7da2c4"/>
+    <ellipse cx="582" cy="406" rx="10" ry="6" fill="#f5d2b4"/>
+    <rect x="478" y="326" width="44" height="66" rx="10" fill="#a58bc0"/>
+    <circle cx="500" cy="304" r="18" fill="#f5d2b4"/>
+    <path d="M482 300c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="482" cy="298" r="5" fill="#d9736b" stroke="none"/>
+    <path d="M494 310c2 2 10 2 12 0" stroke-width="1.5"/>
+    <path d="M484 346l-20 40M516 346l10 40" stroke="#a58bc0" stroke-width="9"/>
+    <circle cx="462" cy="392" r="6" fill="#f5d2b4"/>
+    <rect x="440" y="412" width="56" height="30" rx="2" fill="#ffffff"/>
+    <path d="M450 434c8-14 20-16 36-6" stroke="#d9736b" stroke-width="2"/>
+    <circle cx="462" cy="424" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="527" cy="392" r="6" fill="#f5d2b4"/>
+  </g>
+  <!-- crayons -->
+  <g data-w="14" transform="translate(0 40)">
+    <rect x="536" y="420" width="66" height="22" rx="3" fill="#f0cf6d"/>
+    <path d="M544 420v-12h6v12M556 420v-12h6v12M568 420v-12h6v12M580 420v-12h6v12M592 420v-12h6v12" fill="#d9736b"/>
+    <path d="M556 420v-12h6v12" fill="#7da2c4"/>
+    <path d="M580 420v-12h6v12" fill="#5b8a72"/>
+    <path d="M528 404l-32 8" stroke="#d9736b" stroke-width="5"/>
+  </g>
+
+  <!-- toy box -->
+  <g data-w="15">
+    <rect x="636" y="404" width="124" height="72" rx="6" fill="#7da2c4"/>
+    <path d="M636 420h124" stroke="#4a7fa3"/>
+    <rect x="650" y="372" width="28" height="40" rx="6" fill="#cfc9bd"/>
+    <circle cx="664" cy="384" r="3" fill="#d9736b" stroke="none"/>
+    <path d="M690 406c6-20 26-22 34-4" stroke="#e59a5b" stroke-width="8"/>
+    <circle cx="738" cy="396" r="12" fill="#f0cf6d"/>
+    <path d="M734 398l4-6 4 6" stroke-width="1.5"/>
+  </g>
+
+  <!-- ball -->
+  <g data-w="16">
+    <circle cx="240" cy="440" r="24" fill="#ffffff"/>
+    <path d="M222 424c10 10 26 10 36 0M222 456c10-10 26-10 36 0" stroke="#d9736b" stroke-width="3"/>
+    <path d="M240 416v48" stroke="#d9736b" stroke-width="3"/>
+  </g>
+
+  <!-- toy train -->
+  <g data-w="17">
+    <rect x="50" y="404" width="60" height="40" rx="6" fill="#5b8a72"/>
+    <rect x="56" y="388" width="30" height="20" rx="4" fill="#5b8a72"/>
+    <rect x="62" y="392" width="16" height="12" rx="2" fill="#d6e7f0"/>
+    <rect x="98" y="392" width="10" height="14" rx="2" fill="#3f3a34"/>
+    <rect x="116" y="412" width="54" height="32" rx="6" fill="#d9736b"/>
+    <rect x="124" y="420" width="12" height="12" rx="2" fill="#d6e7f0"/>
+    <rect x="148" y="420" width="12" height="12" rx="2" fill="#d6e7f0"/>
+    <path d="M110 428h6" stroke-width="4"/>
+    <circle cx="64" cy="446" r="7" fill="#3f3a34"/>
+    <circle cx="96" cy="446" r="7" fill="#3f3a34"/>
+    <circle cx="128" cy="446" r="7" fill="#3f3a34"/>
+    <circle cx="158" cy="446" r="7" fill="#3f3a34"/>
+  </g>
+</svg>

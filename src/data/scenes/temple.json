@@ -1,0 +1,32 @@
+{
+  "id": "temple",
+  "n": 100,
+  "group": "culture",
+  "title": "お寺",
+  "title_zh": "寺庙",
+  "title_en": "Temple",
+  "words": [
+    { "w": "本堂", "r": "ほんどう", "zh": "正殿", "en": "main hall", "x": 430, "y": 118 },
+    { "w": "五重塔", "r": "ごじゅうのとう", "zh": "五重塔", "en": "five-storied pagoda", "x": 170, "y": 150 },
+    { "w": "山門", "r": "さんもん", "zh": "山门", "en": "temple gate", "x": 660, "y": 176 },
+    { "w": "竹", "r": "たけ", "zh": "竹子", "en": "bamboo", "x": 752, "y": 100 },
+    { "w": "お坊さん", "r": "おぼうさん", "zh": "和尚", "en": "Buddhist monk", "x": 430, "y": 208 },
+    { "w": "数珠", "r": "じゅず", "zh": "佛珠", "en": "prayer beads", "x": 430, "y": 258 },
+    { "w": "木魚", "r": "もくぎょ", "zh": "木鱼", "en": "wooden fish drum", "x": 490, "y": 276 },
+    { "w": "お経", "r": "おきょう", "zh": "经文", "en": "sutra", "x": 370, "y": 276 },
+    { "w": "松", "r": "まつ", "zh": "松树", "en": "pine tree", "x": 70, "y": 300 },
+    { "w": "お墓", "r": "おはか", "zh": "坟墓", "en": "grave", "x": 232, "y": 366 },
+    { "w": "掃除", "r": "そうじ", "zh": "打扫", "en": "cleaning", "x": 150, "y": 470 },
+    { "w": "庭", "r": "にわ", "zh": "院子；庭院", "en": "garden; yard", "x": 300, "y": 318 },
+    { "w": "石", "r": "いし", "zh": "石头", "en": "stone", "x": 420, "y": 408 },
+    { "w": "砂", "r": "すな", "zh": "沙子", "en": "sand", "x": 522, "y": 412 },
+    { "w": "合掌", "r": "がっしょう", "zh": "合掌", "en": "pressing palms together", "x": 610, "y": 418 },
+    { "w": "池", "r": "いけ", "zh": "池塘", "en": "pond", "x": 702, "y": 316 },
+    { "w": "鯉", "r": "こい", "zh": "鲤鱼", "en": "carp; koi", "x": 718, "y": 380 }
+  ],
+  "sentences": [
+    { "ja": "お{坊|ぼう}さんは{本堂|ほんどう}でお{経|きょう}を{読|よ}んでいます。", "zh": "和尚在正殿念经。", "en": "The monk is reading a sutra in the main hall." },
+    { "ja": "{若|わか}いお{坊|ぼう}さんが{庭|にわ}を{掃除|そうじ}しています。", "zh": "年轻的和尚在打扫院子。", "en": "A young monk is cleaning the garden." },
+    { "ja": "{池|いけ}に{鯉|こい}がいます。{男|おとこ}の{人|ひと}は{合掌|がっしょう}しています。", "zh": "池塘里有鲤鱼。男人在合掌。", "en": "There are carp in the pond. The man is pressing his palms together." }
+  ]
+}

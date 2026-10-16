@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="h"><circle r="13" fill="#f5d2b4"/><path d="M-13-3c3-11 23-11 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#4a3b32" stroke="none"/><path d="M-4 5c1 2 7 2 8 0" stroke-width="1.5"/></g>
+    <g id="hl"><path d="M-15-2h30v18h-30z" fill="#4a3b32" stroke="none"/><circle r="13" fill="#f5d2b4"/><path d="M-13-3c3-11 23-11 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#4a3b32" stroke="none"/><path d="M-4 5c1 2 7 2 8 0" stroke-width="1.5"/></g>
+    <g id="hg"><circle cx="0" cy="-12" r="7" fill="#cfc9bd"/><circle r="13" fill="#f5d2b4"/><path d="M-13-3c3-11 23-11 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#cfc9bd" stroke="none"/><path d="M-4 5c1 2 7 2 8 0" stroke-width="1.5"/></g>
+  </defs>
+  <rect width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <path transform="translate(300 40) scale(0.8)" d="M0 0c-6-14 14-22 22-10 6-10 26-6 24 6 10 0 10 14 0 14H0c-10 0-10-10 0-10z" fill="#ffffff" stroke="none"/>
+  <path transform="translate(600 70) scale(0.6)" d="M0 0c-6-14 14-22 22-10 6-10 26-6 24 6 10 0 10 14 0 14H0c-10 0-10-10 0-10z" fill="#ffffff" stroke="none"/>
+  <!-- buildings -->
+  <rect x="0" y="230" width="800" height="70" fill="#ede9e1" stroke="none"/>
+  <path d="M100 300v-130h160v130zM420 300V150h140v150zM600 300V190h120v110z" fill="#b9cfe3" stroke="#8c867c"/>
+  <path d="M120 190h20v20h-20zM160 190h20v20h-20zM200 190h20v20h-20zM120 240h20v20h-20zM160 240h20v20h-20zM200 240h20v20h-20zM440 170h20v20h-20zM480 170h20v20h-20zM520 170h20v20h-20zM440 220h20v20h-20zM480 220h20v20h-20zM520 220h20v20h-20zM620 210h20v20h-20zM660 210h20v20h-20z" fill="#ffffff" stroke="#8c867c"/>
+  <!-- tree -->
+  <g data-w="17">
+    <rect x="754" y="180" width="12" height="120" fill="#9c7450"/>
+    <circle cx="736" cy="178" r="26" fill="#9dc0a8"/>
+    <circle cx="784" cy="180" r="24" fill="#9dc0a8"/>
+    <circle cx="760" cy="150" r="34" fill="#9dc0a8"/>
+  </g>
+  <!-- road and sidewalk -->
+  <rect x="0" y="300" width="800" height="100" fill="#8c867c" stroke="none"/>
+  <path d="M0 300h800" stroke="#5e4634"/>
+  <rect x="0" y="400" width="800" height="100" fill="#ede9e1" stroke="none"/>
+  <path d="M0 400h800" stroke-width="3"/>
+  <path d="M0 450h800" stroke="#cfc9bd"/>
+  <!-- traffic light -->
+  <g data-w="16">
+    <rect x="40" y="150" width="6" height="250" fill="#8c867c"/>
+    <rect x="14" y="124" width="84" height="30" rx="5" fill="#3f3a34"/>
+    <circle cx="34" cy="139" r="9" fill="#d9736b" stroke="none"/>
+    <circle cx="56" cy="139" r="9" fill="#f0cf6d" stroke="none"/>
+    <circle cx="78" cy="139" r="9" fill="#5b8a72" stroke="none"/>
+  </g>
+  <!-- shelter roof -->
+  <g data-w="4">
+    <rect x="88" y="144" width="8" height="276" fill="#8c867c"/>
+    <rect x="334" y="144" width="8" height="276" fill="#8c867c"/>
+    <path d="M76 124h278l6 20H70z" fill="#5b8a72"/>
+  </g>
+  <!-- bench -->
+  <g data-w="5">
+    <rect x="130" y="398" width="8" height="22" fill="#5e4634"/>
+    <rect x="266" y="398" width="8" height="22" fill="#5e4634"/>
+    <rect x="120" y="386" width="160" height="12" rx="3" fill="#9c7450"/>
+    <rect x="120" y="350" width="160" height="12" rx="3" fill="#9c7450"/>
+    <path d="M132 362v24M268 362v24" stroke-width="4" stroke="#5e4634"/>
+  </g>
+  <!-- grandmother on bench -->
+  <g data-w="15">
+    <path d="M140 386l-4 34" stroke-width="3"/>
+    <path d="M154 386v-40c0-10 8-16 16-16s16 6 16 16v40z" fill="#a58bc0"/>
+    <rect x="154" y="384" width="46" height="14" rx="5" fill="#8b70a8"/>
+    <rect x="184" y="396" width="14" height="24" fill="#cfc9bd"/>
+    <path d="M170 350l-14 22" stroke="#a58bc0" stroke-width="8"/>
+    <circle cx="156" cy="374" r="5" fill="#f5d2b4"/>
+    <use href="#hg" x="170" y="318"/>
+  </g>
+  <!-- man waiting, looking at his watch -->
+  <g data-w="11">
+    <rect x="286" y="394" width="28" height="36" fill="#5e4634"/>
+    <path d="M282 394v-30c0-12 8-20 18-20s18 8 18 20v30z" fill="#7da2c4"/>
+    <path d="M290 372l10-14" stroke="#7da2c4" stroke-width="8"/>
+    <circle cx="302" cy="356" r="5" fill="#f5d2b4"/>
+    <circle cx="298" cy="362" r="4" fill="#ffffff" stroke-width="1.5"/>
+    <use href="#h" x="300" y="336"/>
+  </g>
+  <!-- bus stop pole and sign -->
+  <g data-w="2">
+    <rect x="377" y="218" width="6" height="202" fill="#8c867c"/>
+    <circle cx="380" cy="190" r="30" fill="#4a7fa3"/>
+    <rect x="366" y="180" width="28" height="18" rx="3" fill="#ffffff"/>
+    <circle cx="372" cy="200" r="3" fill="#3f3a34" stroke="none"/>
+    <circle cx="388" cy="200" r="3" fill="#3f3a34" stroke="none"/>
+  </g>
+  <g data-w="3">
+    <rect x="352" y="254" width="56" height="78" rx="3" fill="#ffffff"/>
+    <path d="M360 266h40M360 278h40M360 290h40M360 302h40M360 314h40" stroke="#8c867c" stroke-width="1.5"/>
+    <path d="M370 254v78M384 254v78" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <!-- bus -->
+  <g data-w="1">
+    <rect x="430" y="196" width="350" height="170" rx="14" fill="#ffffff"/>
+    <rect x="430" y="296" width="350" height="16" fill="#5b8a72" stroke="none"/>
+    <path d="M430 296h350M430 312h350" />
+    <rect x="440" y="208" width="38" height="142" rx="3" fill="#b9cfe3"/>
+    <path d="M459 208v142" stroke="#8c867c"/>
+    <rect x="492" y="208" width="54" height="82" rx="3" fill="#b9cfe3"/>
+    <rect x="556" y="208" width="54" height="82" rx="3" fill="#b9cfe3"/>
+    <rect x="622" y="208" width="40" height="142" rx="3" fill="#b9cfe3"/>
+    <path d="M642 208v142" stroke="#8c867c"/>
+    <rect x="674" y="208" width="96" height="82" rx="3" fill="#b9cfe3"/>
+    <rect x="432" y="326" width="10" height="16" rx="3" fill="#f0cf6d"/>
+    <rect x="420" y="206" width="12" height="20" rx="3" fill="#3f3a34"/>
+    <circle cx="520" cy="366" r="26" fill="#3f3a34"/>
+    <circle cx="520" cy="366" r="10" fill="#cfc9bd"/>
+    <circle cx="730" cy="366" r="26" fill="#3f3a34"/>
+    <circle cx="730" cy="366" r="10" fill="#cfc9bd"/>
+  </g>
+  <!-- driver -->
+  <g data-w="6">
+    <path d="M504 290v-6c0-8 8-12 15-12s15 4 15 12v6z" fill="#4a7fa3"/>
+    <circle cx="519" cy="262" r="12" fill="#f5d2b4"/>
+    <path d="M507 258c2-10 22-10 24 0-4-4-8-5-12-5s-8 1-12 5z" fill="#4a3b32" stroke="none"/>
+    <path d="M516 266c1 2 5 2 6 0" stroke-width="1.5"/>
+    <path d="M500 282c6-6 14-6 20 0" stroke-width="3"/>
+  </g>
+  <!-- passenger -->
+  <g data-w="7">
+    <path d="M569 290v-6c0-8 8-12 15-12s15 4 15 12v6z" fill="#d9736b"/>
+    <path d="M571 254h26v16h-26z" fill="#4a3b32" stroke="none"/>
+    <circle cx="584" cy="262" r="12" fill="#f5d2b4"/>
+    <path d="M572 258c2-10 22-10 24 0-4-4-8-5-12-5s-8 1-12 5z" fill="#4a3b32" stroke="none"/>
+    <path d="M581 266c1 2 5 2 6 0" stroke-width="1.5"/>
+  </g>
+  <!-- person getting off at the front door -->
+  <g data-w="9">
+    <rect x="441" y="376" width="28" height="36" fill="#3f3a34"/>
+    <path d="M437 376v-30c0-12 8-20 18-20s18 8 18 20v30z" fill="#e59a5b"/>
+    <path d="M440 344l-10 14" stroke="#e59a5b" stroke-width="8"/>
+    <circle cx="430" cy="360" r="5" fill="#f5d2b4"/>
+    <use href="#h" x="455" y="318"/>
+  </g>
+  <!-- person getting on at the rear door -->
+  <g data-w="8">
+    <rect x="628" y="364" width="12" height="36" fill="#5e4634"/>
+    <rect x="646" y="364" width="12" height="20" fill="#5e4634"/>
+    <path d="M624 364v-30c0-12 8-20 18-20s18 8 18 20v30z" fill="#5b8a72"/>
+    <path d="M636 328l-8-14" stroke="#5b8a72" stroke-width="8"/>
+    <circle cx="628" cy="312" r="5" fill="#f5d2b4"/>
+    <use href="#h" x="642" y="306"/>
+  </g>
+  <!-- woman with IC card -->
+  <g data-w="12">
+    <rect x="686" y="386" width="28" height="36" fill="#a58bc0"/>
+    <path d="M682 386v-30c0-12 8-20 18-20s18 8 18 20v30z" fill="#d9736b"/>
+    <path d="M690 352l-12-14" stroke="#d9736b" stroke-width="8"/>
+    <circle cx="678" cy="336" r="5" fill="#f5d2b4"/>
+    <rect x="662" y="322" width="26" height="18" rx="3" fill="#9dc0a8"/>
+    <path d="M666 330h6" stroke="#ffffff" stroke-width="2"/>
+    <use href="#hl" x="700" y="328"/>
+  </g>
+  <!-- student with a bag -->
+  <g data-w="13">
+    <rect x="734" y="396" width="28" height="36" fill="#3f3a34"/>
+    <path d="M730 396v-30c0-12 8-20 18-20s18 8 18 20v30z" fill="#3f3a34"/>
+    <path d="M740 366h16" stroke="#f0cf6d" stroke-width="2"/>
+    <path d="M760 360l6 30" stroke="#3f3a34" stroke-width="8"/>
+    <use href="#h" x="748" y="338"/>
+  </g>
+  <g data-w="14">
+    <path d="M760 392c0-6 14-6 14 0" />
+    <rect x="754" y="390" width="26" height="30" rx="4" fill="#9c7450"/>
+    <path d="M754 400h26" stroke="#5e4634"/>
+    <circle cx="767" cy="402" r="2" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- queue marker on the ground -->
+  <g data-w="10">
+    <path d="M620 430h150" stroke="#cfc9bd" stroke-width="2" stroke-dasharray="6 6"/>
+    <path d="M740 440l6-6 6 6M746 434v20" stroke="#8c867c"/>
+  </g>
+</svg>

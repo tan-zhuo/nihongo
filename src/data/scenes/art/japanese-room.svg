@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+<!-- ceiling beam -->
+<rect x="0" y="0" width="800" height="36" fill="#e3c9a3" stroke="none"/>
+<path d="M0 36h800" stroke="#9c7450" stroke-width="3"/>
+<rect x="0" y="36" width="800" height="12" fill="#9c7450" stroke="none"/>
+<!-- tatami floor -->
+<g data-w="1">
+<rect x="0" y="300" width="800" height="200" fill="#e0ece3" stroke="none"/>
+<path d="M0 312h800M0 324h800M0 336h800M0 348h800M0 360h800M0 372h800M0 384h800M0 396h800M0 408h800M0 420h800M0 432h800M0 444h800M0 456h800M0 468h800M0 480h800M0 492h800" stroke="#cbdccf" stroke-width="1"/>
+<path d="M270 300v200M530 300v200" stroke="#3d614f" stroke-width="7"/>
+<path d="M0 300h800" stroke="#3d614f" stroke-width="4"/>
+</g>
+<!-- closet -->
+<g data-w="9">
+<rect x="20" y="56" width="184" height="244" fill="#cfc9bd"/>
+<rect x="110" y="56" width="92" height="122" fill="#f4efe6"/>
+<rect x="20" y="178" width="92" height="122" fill="#f4efe6"/>
+<rect x="110" y="178" width="92" height="122" fill="#f4efe6"/>
+<circle cx="122" cy="118" r="4" fill="#8c867c"/>
+<circle cx="100" cy="240" r="4" fill="#8c867c"/>
+<circle cx="122" cy="240" r="4" fill="#8c867c"/>
+<path d="M20 178h92" stroke-width="3"/>
+</g>
+<!-- futon folded inside -->
+<g data-w="8">
+<rect x="30" y="156" width="76" height="20" rx="8" fill="#b9cfe3"/>
+<rect x="30" y="138" width="76" height="20" rx="8" fill="#ffffff"/>
+<rect x="30" y="120" width="76" height="20" rx="8" fill="#7da2c4"/>
+<path d="M44 130h48M44 166h48" stroke="#ffffff" stroke-width="1.5"/>
+</g>
+<g data-w="17">
+<rect x="42" y="98" width="52" height="22" rx="8" fill="#f8e6ae"/>
+<path d="M52 109h32" stroke="#e8c874" stroke-width="1.5"/>
+</g>
+<!-- post -->
+<rect x="204" y="48" width="12" height="252" fill="#9c7450"/>
+<!-- tokonoma alcove -->
+<g data-w="6">
+<rect x="216" y="56" width="190" height="212" fill="#ede9e1"/>
+<rect x="216" y="268" width="190" height="32" fill="#9c7450"/>
+<path d="M216 268h190" stroke="#e3c9a3"/>
+<rect x="216" y="56" width="190" height="10" fill="#d8b48c"/>
+</g>
+<rect x="406" y="48" width="12" height="252" fill="#9c7450"/>
+<!-- hanging scroll -->
+<g data-w="7">
+<path d="M310 66v14"/>
+<rect x="282" y="80" width="56" height="160" fill="#ffffff"/>
+<rect x="290" y="100" width="40" height="110" fill="#f4efe6" stroke="#cfc9bd" stroke-width="1.5"/>
+<path d="M292 190l14-30 10 16 8-10 16 24z" fill="#7da2c4" stroke="none"/>
+<circle cx="320" cy="124" r="8" fill="#d9736b" stroke="none"/>
+<rect x="276" y="76" width="68" height="8" rx="4" fill="#5e4634"/>
+<rect x="276" y="236" width="68" height="8" rx="4" fill="#5e4634"/>
+</g>
+<!-- ikebana -->
+<g data-w="16">
+<path d="M362 236h26l4 32h-34z" fill="#3d614f"/>
+<path d="M375 236v-30M370 236l-14-26M380 236l16-20" stroke="#5b8a72" stroke-width="2.5"/>
+<circle cx="375" cy="200" r="9" fill="#d9736b"/>
+<circle cx="375" cy="200" r="3" fill="#f0cf6d" stroke="none"/>
+<circle cx="354" cy="206" r="7" fill="#f1b1aa"/>
+<path d="M396 216c10-8 8-18 2-22-6 6-8 14-2 22z" fill="#9dc0a8"/>
+</g>
+<!-- shoji with garden -->
+<g data-w="15">
+<rect x="430" y="60" width="90" height="230" fill="#d6e7f0" stroke="none"/>
+<rect x="430" y="214" width="90" height="76" fill="#9dc0a8" stroke="none"/>
+<ellipse cx="455" cy="214" rx="26" ry="18" fill="#5b8a72"/>
+<ellipse cx="500" cy="222" rx="18" ry="12" fill="#5b8a72"/>
+<path d="M486 212v-18" stroke="#8c867c" stroke-width="4"/>
+<rect x="476" y="180" width="20" height="16" rx="2" fill="#cfc9bd"/>
+<path d="M470 180l16-10 16 10z" fill="#8c867c"/>
+<path d="M444 150c-10-20 2-44 20-44s30 24 20 44z" fill="#9dc0a8"/>
+<path d="M464 150v64" stroke="#9c7450" stroke-width="4"/>
+<path d="M430 290h90" stroke="#cfc9bd" stroke-width="6"/>
+</g>
+<g data-w="2">
+<rect x="430" y="60" width="180" height="230"/>
+<rect x="514" y="64" width="94" height="222" fill="#ffffff"/>
+<path d="M514 101h94M514 138h94M514 175h94M514 212h94M514 249h94M545 64v222M577 64v222" stroke="#cfc9bd" stroke-width="1.5"/>
+<rect x="514" y="64" width="94" height="222"/>
+<rect x="508" y="64" width="6" height="222" fill="#ede9e1"/>
+<rect x="424" y="290" width="192" height="10" fill="#9c7450"/>
+</g>
+<!-- fusuma -->
+<g data-w="3">
+<rect x="630" y="56" width="150" height="244" fill="#ede9e1"/>
+<path d="M705 56v244"/>
+<path d="M640 120c14-10 28-10 42 0M650 140c10-8 20-8 30 0M720 200c14-10 28-10 42 0M730 220c10-8 20-8 30 0M650 250c12-8 24-8 36 0M715 90c12-8 24-8 36 0" stroke="#b9cfe3" stroke-width="2.5"/>
+<ellipse cx="695" cy="180" rx="5" ry="8" fill="#5e4634"/>
+<ellipse cx="715" cy="180" rx="5" ry="8" fill="#5e4634"/>
+<rect x="624" y="290" width="162" height="10" fill="#9c7450"/>
+</g>
+<!-- ceiling light -->
+<g data-w="14">
+<path d="M400 0v10"/>
+<path d="M368 46l8-36h48l8 36z" fill="#f8e6ae"/>
+<path d="M376 10v36M400 10v36M424 10v36M372 28h56" stroke="#9c7450" stroke-width="1.5"/>
+<path d="M366 46h68" stroke="#9c7450" stroke-width="3"/>
+</g>
+<!-- spare cushion -->
+<g data-w="4">
+<path d="M582 404h76l6 38h-88z" fill="#a58bc0"/>
+<path d="M590 410h60M588 424h64" stroke="#8b70a8" stroke-width="1.5"/>
+<circle cx="620" cy="423" r="3" fill="#f0cf6d" stroke="none"/>
+</g>
+<!-- person sitting -->
+<g data-w="13">
+<path d="M454 392h92l8 40h-108z" fill="#a58bc0"/>
+<path d="M464 404h72" stroke="#8b70a8" stroke-width="1.5"/>
+<path d="M472 400v-60c0-10 8-18 18-18h20c10 0 18 8 18 18v60z" fill="#4a7fa3"/>
+<path d="M462 402c0-14 76-14 76 0 0 10-10 16-38 16s-38-6-38-16z" fill="#3d614f"/>
+<rect x="460" y="326" width="16" height="64" rx="8" fill="#4a7fa3"/>
+<rect x="524" y="326" width="16" height="64" rx="8" fill="#4a7fa3"/>
+<circle cx="468" cy="392" r="8" fill="#f5d2b4"/>
+<circle cx="532" cy="392" r="8" fill="#f5d2b4"/>
+<circle cx="500" cy="300" r="24" fill="#f5d2b4"/>
+<path d="M476 298a24 24 0 0 1 48 0c-8-12-16-16-24-16s-16 4-24 16z" fill="#4a3b32" stroke="none"/>
+<circle cx="491" cy="298" r="2.4" fill="#3f3a34" stroke="none"/>
+<circle cx="509" cy="298" r="2.4" fill="#3f3a34" stroke="none"/>
+<path d="M493 309q7 7 14 0"/>
+</g>
+<!-- kotatsu -->
+<g data-w="5">
+<path d="M166 366l-14 78c80 14 230 14 310 0l-14-78z" fill="#d9736b"/>
+<path d="M190 384h236M182 416h252" stroke="#f1b1aa" stroke-width="1.5"/>
+<circle cx="220" cy="400" r="6" fill="#f1b1aa" stroke="none"/>
+<circle cx="390" cy="400" r="6" fill="#f1b1aa" stroke="none"/>
+<circle cx="305" cy="430" r="6" fill="#f1b1aa" stroke="none"/>
+<rect x="176" y="346" width="262" height="20" rx="4" fill="#9c7450"/>
+<path d="M184 352h246" stroke="#e3c9a3" stroke-width="3"/>
+</g>
+<!-- teapot -->
+<g data-w="11">
+<path d="M208 320c-8 8-8 22 0 26h34c8-4 8-18 0-26z" fill="#5b8a72"/>
+<path d="M210 320h30" />
+<path d="M242 326c10 0 16 8 14 20" stroke-width="5"/>
+<path d="M208 330c-10-2-14 6-10 14" stroke-width="4"/>
+<circle cx="225" cy="316" r="4" fill="#3d614f"/>
+</g>
+<!-- teacups -->
+<g data-w="10">
+<path d="M280 326h20l-2 20h-16z" fill="#9dc0a8"/>
+<path d="M306 326h20l-2 20h-16z" fill="#9dc0a8"/>
+<path d="M282 334h16M308 334h16" stroke="#5b8a72" stroke-width="1.5"/>
+<path d="M288 320c-3-4 3-6 0-10M316 320c-3-4 3-6 0-10" stroke="#cfc9bd" stroke-width="1.5"/>
+</g>
+<!-- mandarins -->
+<g data-w="12">
+<path d="M352 334h64l-6 12h-52z" fill="#ffffff"/>
+<circle cx="368" cy="326" r="9" fill="#e59a5b"/>
+<circle cx="398" cy="326" r="9" fill="#e59a5b"/>
+<circle cx="383" cy="320" r="9" fill="#e59a5b"/>
+<path d="M383 311l6-4" stroke="#5b8a72" stroke-width="2"/>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "id": "ramen",
+  "n": 79,
+  "group": "food",
+  "title": "ラーメン屋",
+  "title_zh": "拉面店",
+  "title_en": "Ramen shop",
+  "words": [
+    { "w": "ラーメン", "r": "ラーメン", "zh": "拉面", "en": "ramen", "x": 430, "y": 392 },
+    { "w": "麺", "r": "めん", "zh": "面条", "en": "noodles", "x": 450, "y": 330 },
+    { "w": "スープ", "r": "スープ", "zh": "汤", "en": "soup", "x": 360, "y": 270 },
+    { "w": "チャーシュー", "r": "チャーシュー", "zh": "叉烧", "en": "roast pork slice", "x": 236, "y": 318 },
+    { "w": "味玉", "r": "あじたま", "zh": "卤蛋", "en": "seasoned egg", "x": 445, "y": 262 },
+    { "w": "ねぎ", "r": "ねぎ", "zh": "葱", "en": "green onion", "x": 505, "y": 322 },
+    { "w": "メンマ", "r": "メンマ", "zh": "笋干", "en": "bamboo shoots", "x": 395, "y": 342 },
+    { "w": "なると", "r": "なると", "zh": "鸣门卷（鱼糕）", "en": "fish cake swirl", "x": 608, "y": 290 },
+    { "w": "れんげ", "r": "れんげ", "zh": "汤勺", "en": "soup spoon", "x": 612, "y": 350 },
+    { "w": "熱い", "r": "あつい", "zh": "热的；烫的", "en": "hot (to the touch)", "x": 430, "y": 222 },
+    { "w": "餃子", "r": "ぎょうざ", "zh": "饺子", "en": "gyoza; dumplings", "x": 250, "y": 462 },
+    { "w": "チャーハン", "r": "チャーハン", "zh": "炒饭", "en": "fried rice", "x": 640, "y": 464 },
+    { "w": "替え玉", "r": "かえだま", "zh": "加面", "en": "extra serving of noodles", "x": 745, "y": 464 },
+    { "w": "券売機", "r": "けんばいき", "zh": "售票机", "en": "ticket vending machine", "x": 105, "y": 452 },
+    { "w": "暖簾", "r": "のれん", "zh": "门帘", "en": "shop curtain", "x": 270, "y": 64 },
+    { "w": "客", "r": "きゃく", "zh": "客人；顾客", "en": "guest; customer", "x": 690, "y": 232 }
+  ],
+  "sentences": [
+    { "ja": "{券売機|けんばいき}で{食券|しょっけん}を{買|か}ってから{座|すわ}ります。", "zh": "先在售票机买餐券再坐下。", "en": "You buy a meal ticket at the machine and then sit down." },
+    { "ja": "ラーメンのスープは{熱|あつ}いので、{気|き}をつけてください。", "zh": "拉面的汤很烫，请小心。", "en": "The ramen soup is hot, so please be careful." },
+    { "ja": "{餃子|ぎょうざ}とチャーハンも{注文|ちゅうもん}しました。", "zh": "还点了饺子和炒饭。", "en": "I also ordered gyoza and fried rice." },
+    { "ja": "{麺|めん}が{足|た}りないので、{替|か}え{玉|だま}をお{願|ねが}いします。", "zh": "面不够，请再加一份面。", "en": "The noodles aren't enough, so an extra serving please." }
+  ]
+}

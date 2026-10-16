@@ -1,0 +1,33 @@
+{
+  "id": "garbage-day",
+  "n": 58,
+  "group": "home",
+  "title": "ゴミ出し",
+  "title_zh": "扔垃圾",
+  "title_en": "Garbage day",
+  "words": [
+    { "w": "ごみ", "r": "ごみ", "zh": "垃圾", "en": "garbage; trash", "x": 612, "y": 316 },
+    { "w": "ゴミ袋", "r": "ゴミぶくろ", "zh": "垃圾袋", "en": "garbage bag", "x": 550, "y": 305 },
+    { "w": "ゴミ箱", "r": "ゴミばこ", "zh": "垃圾桶", "en": "trash can", "x": 430, "y": 300 },
+    { "w": "ペットボトル", "r": "ペットボトル", "zh": "塑料瓶", "en": "plastic (PET) bottle", "x": 390, "y": 345 },
+    { "w": "缶", "r": "かん", "zh": "罐；易拉罐", "en": "can", "x": 243, "y": 345 },
+    { "w": "瓶", "r": "びん", "zh": "玻璃瓶", "en": "bottle; jar", "x": 305, "y": 345 },
+    { "w": "カラス", "r": "カラス", "zh": "乌鸦", "en": "crow", "x": 640, "y": 182 },
+    { "w": "ゴミ収集車", "r": "ゴミしゅうしゅうしゃ", "zh": "垃圾车", "en": "garbage truck", "x": 110, "y": 372 },
+    { "w": "分別", "r": "ぶんべつ", "zh": "（垃圾）分类", "en": "sorting (garbage)", "x": 305, "y": 268 },
+    { "w": "捨てる", "r": "すてる", "zh": "扔掉", "en": "to throw away", "x": 490, "y": 250 },
+    { "w": "段ボール", "r": "だんボール", "zh": "纸板；纸箱", "en": "cardboard", "x": 745, "y": 240 },
+    { "w": "新聞紙", "r": "しんぶんし", "zh": "旧报纸", "en": "newspaper (paper)", "x": 730, "y": 305 },
+    { "w": "ネット", "r": "ネット", "zh": "网；防鸟网", "en": "net", "x": 650, "y": 252 },
+    { "w": "朝", "r": "あさ", "zh": "早上", "en": "morning", "x": 80, "y": 112 },
+    { "w": "看板", "r": "かんばん", "zh": "告示牌；招牌", "en": "sign; signboard", "x": 320, "y": 215 },
+    { "w": "道", "r": "みち", "zh": "路", "en": "road; street", "x": 470, "y": 470 },
+    { "w": "電柱", "r": "でんちゅう", "zh": "电线杆", "en": "utility pole", "x": 735, "y": 170 }
+  ],
+  "sentences": [
+    { "ja": "{朝|あさ}、{父|ちち}はゴミ{袋|ぶくろ}を{捨|す}てに{行|い}きます。", "zh": "早上，爸爸去扔垃圾袋。", "en": "In the morning, Dad goes to throw out the garbage bag." },
+    { "ja": "{缶|かん}と{瓶|びん}とペットボトルは{分別|ぶんべつ}して{出|だ}します。", "zh": "罐、瓶和塑料瓶要分类后拿出去。", "en": "Cans, bottles and PET bottles are sorted before being put out." },
+    { "ja": "カラスがごみを{食|た}べないように、ネットをかけます。", "zh": "为了不让乌鸦吃垃圾，盖上网。", "en": "A net is put over the garbage so the crows don't eat it." },
+    { "ja": "ゴミ{収集車|しゅうしゅうしゃ}が{道|みち}に{来|き}ました。", "zh": "垃圾车来到路上了。", "en": "The garbage truck has come down the street." }
+  ]
+}

@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <!-- background mountains -->
+  <path d="M0 230l150-110 110 80 160-120 140 100 120-70 120 90v120H0z" fill="#ede9e1"/>
+  <path d="M110 150l40-30 40 30-14 4-26-14-24 16zM380 110l40-30 40 30-16 2-24-14-24 16zM640 140l40-30 40 30-16 2-24-14-24 16z" fill="#ffffff" stroke="none"/>
+  <!-- slope -->
+  <g data-w="11">
+    <path d="M0 190C200 210 400 260 800 300V500H0z" fill="#ffffff"/>
+    <path d="M40 240c80 30 160 60 230 100M120 220c80 30 170 70 240 110M560 300c60 20 110 40 170 70" stroke="#d6e7f0" stroke-width="3"/>
+  </g>
+
+  <!-- lift -->
+  <g data-w="3">
+    <path d="M250 82v134M560 180v92" stroke-width="5"/>
+    <path d="M250 82v134M560 180v92" stroke="#8c867c" stroke-width="2"/>
+    <path d="M236 90h28M546 188h28" stroke-width="3"/>
+    <path d="M90 30L720 230" stroke-width="2.5"/>
+    <path d="M160 52v22M330 106v22M500 160v22" />
+    <rect x="140" y="74" width="40" height="8" rx="3" fill="#8c867c"/>
+    <path d="M176 60v16M144 60v16" />
+    <rect x="310" y="128" width="40" height="8" rx="3" fill="#8c867c"/>
+    <path d="M346 114v16M314 114v16" />
+    <rect x="480" y="182" width="40" height="8" rx="3" fill="#8c867c"/>
+    <path d="M516 168v16M484 168v16" />
+    <path d="M150 74v-16c0-6 5-10 10-10s10 4 10 10v16z" fill="#d9736b"/>
+    <circle cx="160" cy="44" r="7" fill="#f5d2b4"/>
+    <path d="M320 128v-16c0-6 5-10 10-10s10 4 10 10v16z" fill="#4a7fa3"/>
+    <circle cx="330" cy="98" r="7" fill="#f5d2b4"/>
+    <path d="M490 182v-16c0-6 5-10 10-10s10 4 10 10v16z" fill="#5b8a72"/>
+    <circle cx="500" cy="152" r="7" fill="#f5d2b4"/>
+  </g>
+
+  <!-- falling snow -->
+  <g data-w="10">
+    <path d="M650 60v24M638 72h24M642 64l16 16M658 64l-16 16" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M700 110v24M688 122h24M692 114l16 16M708 114l-16 16" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M740 56v20M730 66h20M733 59l14 14M747 59l-14 14" stroke="#ffffff" stroke-width="2.5"/>
+    <g fill="#ffffff" stroke="none"><circle cx="620" cy="100" r="3"/><circle cx="760" cy="110" r="3"/><circle cx="680" cy="150" r="3"/><circle cx="730" cy="160" r="2.5"/></g>
+  </g>
+  <g fill="#ffffff" stroke="none">
+    <circle cx="40" cy="60" r="3"/><circle cx="110" cy="110" r="3"/><circle cx="60" cy="150" r="2.5"/><circle cx="420" cy="50" r="3"/>
+    <circle cx="560" cy="40" r="3"/><circle cx="470" cy="120" r="2.5"/><circle cx="600" cy="160" r="2.5"/><circle cx="30" cy="110" r="2"/>
+  </g>
+
+  <!-- lodge -->
+  <g data-w="12">
+    <rect x="700" y="206" width="20" height="36" fill="#8c867c"/>
+    <path d="M706 200c-6-10 4-16 0-26M716 196c6-10-4-16 0-26" stroke="#cfc9bd"/>
+    <rect x="610" y="290" width="170" height="90" fill="#d8b48c"/>
+    <path d="M610 310h170M610 330h170M610 350h170" stroke="#c49b6e" stroke-width="1.5"/>
+    <path d="M596 292l99-70 99 70z" fill="#9c7450"/>
+    <path d="M604 286l91-62 91 62c-14-2-22-10-30-12l-61-40-61 40c-8 2-16 10-30 12z" fill="#ffffff" stroke="none"/>
+    <path d="M596 292l99-70 99 70" />
+    <rect x="630" y="306" width="36" height="30" fill="#f8e6ae"/>
+    <path d="M648 306v30M630 321h36" />
+    <rect x="724" y="306" width="36" height="30" fill="#f8e6ae"/>
+    <path d="M742 306v30M724 321h36" />
+    <rect x="678" y="336" width="34" height="44" rx="3" fill="#5e4634"/>
+    <circle cx="704" cy="360" r="2" fill="#f0cf6d"/>
+  </g>
+
+  <!-- standing person wearing hat, goggles, gloves -->
+  <g>
+    <path d="M500 372v-50c0-12 9-20 20-20s20 8 20 20v50z" fill="#a58bc0"/>
+    <path d="M504 372v14h12v-14M524 372v14h12v-14" fill="#5e4634"/>
+    <circle cx="520" cy="292" r="16" fill="#f5d2b4"/>
+    <path d="M516 298c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M494 318l-10 50M546 318l10 50" stroke-width="5"/>
+    <path d="M494 318l-10 50M546 318l10 50" stroke="#a58bc0" stroke-width="2"/>
+  </g>
+  <g data-w="6">
+    <path d="M502 282c0-16 8-24 18-24s18 8 18 24z" fill="#d9736b"/>
+    <rect x="498" y="278" width="44" height="10" rx="4" fill="#ffffff"/>
+    <circle cx="520" cy="258" r="6" fill="#ffffff"/>
+  </g>
+  <g data-w="4">
+    <path d="M500 296h40" stroke-width="3"/>
+    <rect x="502" y="288" width="36" height="14" rx="6" fill="#7da2c4"/>
+    <path d="M520 290v10" />
+  </g>
+  <g data-w="5">
+    <path d="M472 370c-6 0-10 6-8 12 2 8 12 10 18 6 6-2 8-10 4-16-2-4-6-4-10-2 0-4-2-6-4 0z" fill="#d9736b"/>
+    <path d="M568 370c6 0 10 6 8 12-2 8-12 10-18 6-6-2-8-10-4-16 2-4 6-4 10-2 0-4 2-6 4 0z" fill="#d9736b"/>
+  </g>
+
+  <!-- shivering person with scarf and cocoa at table -->
+  <g data-w="14">
+    <path d="M580 396c-8 2-8 12 0 14M572 410c-8 2-8 12 0 14M662 396c8 2 8 12 0 14" stroke="#7da2c4" stroke-width="2"/>
+    <path d="M598 436v-40c0-12 10-20 22-20s22 8 22 20v40z" fill="#f0cf6d"/>
+    <rect x="596" y="434" width="48" height="12" rx="4" fill="#5e4634"/>
+    <circle cx="620" cy="366" r="16" fill="#f5d2b4"/>
+    <path d="M606 362c4-12 24-12 28 0-5-4-9-6-14-6s-9 2-14 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M614 372c2-2 10-2 12 0" stroke-width="1.5"/>
+    <path d="M598 404l-6 20M642 404l6 20" stroke-width="5"/>
+  </g>
+  <g data-w="16">
+    <path d="M602 384c6 8 30 8 36 0v10c-6 6-30 6-36 0z" fill="#4a7fa3"/>
+    <path d="M602 392l-4 26h12l2-22" fill="#4a7fa3"/>
+  </g>
+  <g data-w="13">
+    <path d="M686 456v-30h56v30" fill="#9c7450"/>
+    <rect x="676" y="422" width="76" height="8" rx="3" fill="#9c7450"/>
+    <path d="M700 422v-26h26v26z" fill="#ffffff"/>
+    <path d="M702 404h22v-8h-22z" fill="#5e4634" stroke="none"/>
+    <path d="M726 402c6 0 8 4 8 8s-2 8-8 8" />
+    <path d="M708 388c-3-6 3-8 0-14M718 388c3-6-3-8 0-14" stroke="#cfc9bd"/>
+  </g>
+
+  <!-- skier -->
+  <g data-w="8">
+    <g transform="translate(0 -22) rotate(12 300 260)">
+      <path d="M250 292h96c6 0 10-4 10-8M256 304h96c6 0 10-4 10-8" stroke="#d9736b" stroke-width="5"/>
+      <path d="M300 252l-14 22-2 16M310 254l-6 22v20" stroke-width="8"/>
+      <path d="M300 252l-14 22-2 16M310 254l-6 22v20" stroke="#4a7fa3" stroke-width="4"/>
+      <rect x="276" y="284" width="18" height="10" rx="3" fill="#5e4634"/>
+      <rect x="296" y="296" width="18" height="10" rx="3" fill="#5e4634"/>
+      <path d="M290 258l12-36 20 4-8 36z" fill="#4a7fa3"/>
+      <path d="M318 232l20 20M306 236l-24 14" stroke-width="6"/>
+      <path d="M338 252l-14 46M282 250l-12 46" stroke-width="2"/>
+      <circle cx="324" cy="298" r="4" stroke-width="1.5"/>
+      <circle cx="270" cy="296" r="4" stroke-width="1.5"/>
+      <circle cx="340" cy="252" r="5" fill="#d9736b"/>
+      <circle cx="282" cy="250" r="5" fill="#d9736b"/>
+      <circle cx="326" cy="214" r="14" fill="#f5d2b4"/>
+      <path d="M312 210c2-12 26-12 28 0z" fill="#d9736b"/>
+      <path d="M311 210h30" stroke-width="3"/>
+      <path d="M332 220c2 0 4-1 5-3" stroke-width="1.5"/>
+    </g>
+    <path d="M226 282c10-6 20-6 28-2M222 294c8-4 14-4 20-2" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+
+  <!-- snowboarder -->
+  <g data-w="2">
+    <g transform="translate(-50 0) rotate(10 440 350)">
+      <rect x="396" y="356" width="88" height="12" rx="6" fill="#5b8a72"/>
+      <path d="M406 362h68" stroke="#9dc0a8" stroke-width="2"/>
+      <path d="M418 356v-12h12v12M452 356v-12h12v12" fill="#5e4634"/>
+      <path d="M416 344l10-30c2-10 10-16 18-14 10 2 16 12 14 22l-8 22z" fill="#e59a5b"/>
+      <path d="M428 318l-26 6M452 312l26-10" stroke-width="5"/>
+      <circle cx="446" cy="292" r="14" fill="#f5d2b4"/>
+      <path d="M434 286c4-10 22-10 26 0-4-4-8-6-13-6s-9 2-13 6z" fill="#4a3b32" stroke="none"/>
+      <path d="M450 296c2 0 4 0 5-2" stroke-width="1.5"/>
+    </g>
+    <path d="M330 372c8-4 16-4 24-2" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+
+  <!-- fallen person -->
+  <g data-w="9">
+    <ellipse cx="206" cy="388" rx="60" ry="10" fill="#ede9e1"/>
+    <path d="M250 336l8-40M262 352l30-30" stroke="#d9736b" stroke-width="5"/>
+    <path d="M232 370l20-32M238 382l26-26" stroke-width="8"/>
+    <path d="M232 370l20-32M238 382l26-26" stroke="#5e4634" stroke-width="4"/>
+    <circle cx="252" cy="338" r="6" fill="#3f3a34"/>
+    <circle cx="264" cy="356" r="6" fill="#3f3a34"/>
+    <rect x="176" y="362" width="62" height="24" rx="11" fill="#e59a5b"/>
+    <path d="M192 364l-14-18M198 386l-6 16" stroke-width="6"/>
+    <circle cx="164" cy="374" r="14" fill="#f5d2b4"/>
+    <path d="M152 368c4-10 20-10 24 0-4-4-8-6-12-6s-8 2-12 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M156 372l4 4M160 372l-4 4M168 372l4 4M172 372l-4 4" stroke-width="1.5"/>
+    <path d="M160 382c2-2 6-2 8 0" stroke-width="1.5"/>
+    <path d="M138 350l2 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1zM176 342l2 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z" fill="#f0cf6d" stroke-width="1.5"/>
+  </g>
+
+  <!-- sled -->
+  <g data-w="7">
+    <path d="M296 452c0 8 6 12 14 12h60c8 0 14-6 14-14v-10h-70z" fill="#d9736b"/>
+    <path d="M284 446c-4 6 0 12 8 14h8" stroke-width="3"/>
+    <path d="M314 440v-6c0-10 8-18 18-18h10c10 0 18 8 18 18v6z" fill="#5b8a72"/>
+    <path d="M318 440l-12 14M352 440l12 14" stroke-width="4"/>
+    <circle cx="337" cy="404" r="13" fill="#f5d2b4"/>
+    <path d="M326 398c4-10 18-10 22 0-3-4-7-6-11-6s-8 2-11 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M330 404c0 4 14 4 14 0" stroke-width="1.5"/>
+    <path d="M338 400c0 2 1 3 2 3" stroke-width="1.5"/>
+    <path d="M300 440c-10-8-14-20-10-32" stroke-width="2"/>
+  </g>
+
+  <!-- skis and poles stuck in snow -->
+  <g data-w="1">
+    <path d="M436 462l4-82c0-6 10-6 10 0v82M454 462l4-82c0-6 10-6 10 0v82" fill="#7da2c4"/>
+    <path d="M440 404h12M458 404h12M440 420h12M458 420h12" stroke="#ffffff" stroke-width="1.5"/>
+    <path d="M478 462l6-84M496 462l6-84" stroke-width="2.5"/>
+    <path d="M482 378h6M500 378h6" stroke-width="6"/>
+    <circle cx="480" cy="450" r="5" stroke-width="1.5"/>
+    <circle cx="498" cy="450" r="5" stroke-width="1.5"/>
+  </g>
+
+  <!-- snowball fight -->
+  <g data-w="15">
+    <path d="M40 440c12-10 28-10 40 0v-14c-12-8-28-8-40 0z" fill="#ede9e1"/>
+    <path d="M56 448v-30c0-8 6-14 14-14s14 6 14 14v30z" fill="#d9736b"/>
+    <path d="M58 416l-14-18" stroke-width="5"/>
+    <circle cx="40" cy="394" r="6" fill="#ffffff"/>
+    <circle cx="70" cy="390" r="13" fill="#f5d2b4"/>
+    <path d="M59 384c4-10 18-10 22 0-3-4-7-6-11-6s-8 2-11 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M66 394c1 2 7 2 8 0" stroke-width="1.5"/>
+    <path d="M126 448v-30c0-8 6-14 14-14s14 6 14 14v30z" fill="#5b8a72"/>
+    <path d="M152 416l16-18" stroke-width="5"/>
+    <circle cx="140" cy="390" r="13" fill="#f5d2b4"/>
+    <path d="M129 384c4-10 18-10 22 0-3-4-7-6-11-6s-8 2-11 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M136 392c1 2 7 2 8 0" stroke-width="1.5"/>
+    <circle cx="106" cy="384" r="7" fill="#ffffff"/>
+    <path d="M90 386h8M92 392h6" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+</svg>

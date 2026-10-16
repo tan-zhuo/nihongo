@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <path d="M0 40h800" stroke="#9c7450" stroke-width="6"/>
+  <!-- tatami floor -->
+  <g data-w="8">
+    <rect x="0" y="300" width="800" height="200" fill="#e0ece3" stroke="none"/>
+    <path d="M0 300h800" stroke="#9c7450" stroke-width="3"/>
+    <path d="M0 320h800M0 340h800M0 360h800M0 380h800M0 420h800M0 440h800M0 460h800M0 480h800" stroke="#cfdccf" stroke-width="1"/>
+    <path d="M0 400h800M270 300v100M530 300v100M400 400v100" stroke="#3d614f" stroke-width="4"/>
+  </g>
+
+  <!-- alcove with scroll and ikebana -->
+  <rect x="40" y="40" width="200" height="252" fill="#ede9e1"/>
+  <rect x="40" y="288" width="200" height="14" fill="#d8b48c"/>
+  <rect x="236" y="40" width="12" height="262" fill="#9c7450"/>
+  <g data-w="9">
+    <path d="M140 46v14" />
+    <rect x="112" y="60" width="56" height="8" rx="3" fill="#5e4634"/>
+    <rect x="116" y="68" width="48" height="150" fill="#d8b48c"/>
+    <rect x="122" y="80" width="36" height="112" fill="#ffffff"/>
+    <circle cx="146" cy="100" r="8" fill="#d9736b" stroke="none"/>
+    <path d="M124 170c8-20 14-30 20-30s12 10 18 20M126 176c6-10 10-14 14-14" stroke="#3f3a34" stroke-width="2"/>
+    <rect x="112" y="218" width="56" height="8" rx="4" fill="#5e4634"/>
+  </g>
+  <g data-w="10">
+    <path d="M78 260l-10-40 6-30M78 258l16-36 20-16M80 262l-26-30" stroke="#5e4634" stroke-width="2.5"/>
+    <path d="M54 232c-8-6-8-16-2-20 8 2 10 10 2 20zM108 210c6-8 16-8 20-2-2 8-12 10-20 2z" fill="#9dc0a8"/>
+    <circle cx="74" cy="186" r="10" fill="#d9736b"/>
+    <circle cx="74" cy="186" r="3" fill="#f0cf6d" stroke="none"/>
+    <circle cx="112" cy="206" r="7" fill="#ffffff"/>
+    <circle cx="112" cy="206" r="2" fill="#f0cf6d" stroke="none"/>
+    <path d="M60 258h36l-4 32H64z" fill="#4a7fa3"/>
+    <path d="M62 258c0-6 32-6 32 0" />
+  </g>
+
+  <!-- shoji -->
+  <g data-w="11">
+    <rect x="560" y="46" width="110" height="254" fill="#9dc0a8"/>
+    <path d="M586 300v-80c0-20 10-30 24-30s24 10 24 30v80" fill="#5b8a72"/>
+    <circle cx="610" cy="160" r="26" fill="#3d614f"/>
+    <path d="M580 300c0-20 20-30 40-24" fill="#8c867c"/>
+    <rect x="560" y="46" width="110" height="254" />
+    <rect x="664" y="46" width="116" height="254" fill="#ffffff"/>
+    <path d="M664 92h116M664 138h116M664 184h116M664 230h116M664 276h116M702 46v254M742 46v254" stroke="#9c7450" stroke-width="2"/>
+    <rect x="664" y="46" width="116" height="254" stroke="#9c7450" stroke-width="4"/>
+    <path d="M556 42h228v4H556zM556 300h228" stroke="#9c7450" stroke-width="3"/>
+  </g>
+
+  <!-- guest bowing -->
+  <g data-w="16">
+    <path d="M110 334c0-10 8-16 20-16h90c12 0 20 6 20 16z" fill="#f0cf6d"/>
+    <path d="M122 334c0-26 10-40 28-40l44 12c14 4 20 14 20 28z" fill="#5b8a72"/>
+    <path d="M150 296c-4 12-6 24-4 38M166 300c-2 10-4 22-2 34" stroke="#3d614f" stroke-width="1.5"/>
+    <path d="M196 312l32 14M190 322l30 10" stroke-width="5"/>
+    <ellipse cx="232" cy="330" rx="8" ry="4" fill="#f5d2b4"/>
+    <ellipse cx="224" cy="334" rx="8" ry="4" fill="#f5d2b4"/>
+    <circle cx="214" cy="312" r="14" fill="#f5d2b4"/>
+    <path d="M200 310c2-12 18-16 26-6-6-2-10-2-14 0s-8 4-12 6z" fill="#4a3b32" stroke="none"/>
+    <circle cx="204" cy="300" r="5" fill="#4a3b32" stroke="none"/>
+    <path d="M222 320c0-2 2-4 4-4" stroke-width="1.5"/>
+  </g>
+  <!-- cushion under the seiza guest -->
+  <g data-w="12">
+    <path d="M236 334c0-10 8-16 20-16h80c12 0 20 6 20 16z" fill="#d9736b"/>
+    <path d="M240 324l-4-4M352 324l4-4" stroke-width="1.5"/>
+  </g>
+  <!-- guest sitting seiza -->
+  <g data-w="15">
+    <path d="M254 334c0-12 4-18 10-22v-30c0-14 8-22 20-22s20 8 20 22v26c6 4 10 10 10 26z" fill="#7da2c4"/>
+    <path d="M264 296h34" stroke="#f0cf6d" stroke-width="8"/>
+    <path d="M260 284c-4 10-8 20-6 30M302 284c4 10 8 20 6 30" stroke="#4a7fa3" stroke-width="1.5"/>
+    <path d="M268 314l20 4M292 314l-20 4" stroke-width="4"/>
+    <circle cx="284" cy="250" r="16" fill="#f5d2b4"/>
+    <path d="M268 246c4-14 28-14 32 0-6-4-10-6-16-6s-10 2-16 6z" fill="#4a3b32" stroke="none"/>
+    <circle cx="294" cy="236" r="5" fill="#4a3b32" stroke="none"/>
+    <path d="M290 254c1 2 4 2 5 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- host whisking tea -->
+  <g data-w="14">
+    <path d="M440 334c0-10 8-16 20-16h60c12 0 20 6 20 16z" fill="#a58bc0"/>
+    <path d="M450 320c0-18 6-24 12-28v-28c0-14 10-22 22-22s22 8 22 22v26c8 4 12 12 12 30z" fill="#a58bc0"/>
+    <path d="M464 280h40" stroke="#f0cf6d" stroke-width="8"/>
+    <path d="M462 264l-22 26 14 8M504 262l-12 12-36-2" stroke-width="5"/>
+    <path d="M430 300c-2 14 8 24 20 24s22-10 20-24z" fill="#3f3a34"/>
+    <path d="M430 300h40" stroke="#9dc0a8" stroke-width="3"/>
+    <path d="M450 298v-26" stroke-width="7"/>
+    <path d="M450 298v-26" stroke="#e3c9a3" stroke-width="3"/>
+    <circle cx="452" cy="272" r="6" fill="#f5d2b4"/>
+    <path d="M440 310c-4 2-6 6-6 10M460 310c4 2 6 6 6 10" stroke="#cfc9bd" stroke-width="1.5"/>
+    <circle cx="484" cy="232" r="16" fill="#f5d2b4"/>
+    <path d="M468 230c4-14 28-14 32 0-6-4-10-6-16-6s-10 2-16 6z" fill="#4a3b32" stroke="none"/>
+    <circle cx="496" cy="218" r="5" fill="#4a3b32" stroke="none"/>
+    <path d="M476 236c-1 2-4 2-5 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- kettle on brazier -->
+  <g data-w="5">
+    <path d="M528 404c0-10 6-16 14-16h36c8 0 14 6 14 16z" fill="#8c867c"/>
+    <path d="M530 392c0-14 10-22 30-22s30 8 30 22" fill="#8c867c"/>
+    <path d="M536 374c-6 8-6 20 0 26" stroke="#e59a5b" stroke-width="2.5"/>
+    <path d="M526 360c0-24 14-38 34-38s34 14 34 38c0 10-10 16-34 16s-34-6-34-16z" fill="#3f3a34"/>
+    <path d="M532 336c6-6 50-6 56 0" stroke="#8c867c"/>
+    <path d="M538 326h44" stroke="#5e4634" stroke-width="6"/>
+    <path d="M560 326v-8" stroke-width="3"/>
+    <path d="M548 312c-4-10 4-16 0-26M572 312c4-10-4-16 0-26" stroke="#cfc9bd"/>
+  </g>
+  <!-- ladle -->
+  <g data-w="6">
+    <path d="M612 352h80" stroke="#5e4634" stroke-width="3"/>
+    <path d="M620 352v-6M684 352v-6" stroke-width="2"/>
+    <path d="M604 342l82-8" stroke-width="6"/>
+    <path d="M604 342l82-8" stroke="#e3c9a3" stroke-width="3"/>
+    <path d="M684 322c-12 0-14 20-2 22s18-8 14-18c-2-3-6-4-12-4z" fill="#e3c9a3"/>
+  </g>
+
+  <!-- tea bowl -->
+  <g data-w="2">
+    <path d="M396 372c-2 16 10 26 24 26s26-10 24-26z" fill="#5e4634"/>
+    <ellipse cx="420" cy="372" rx="24" ry="6" fill="#ede9e1"/>
+    <path d="M404 380c4 6 10 10 16 12" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- whisk -->
+  <g data-w="3">
+    <rect x="470" y="378" width="8" height="22" rx="3" fill="#e3c9a3"/>
+    <path d="M460 378c0-12 4-26 14-26s14 14 14 26z" fill="#e3c9a3"/>
+    <path d="M464 378c0-10 2-18 6-24M470 378c0-10 1-18 3-24M478 378c0-10-1-18-3-24M484 378c0-10-2-18-6-24M474 354v24" stroke="#9c7450" stroke-width="1.5"/>
+    <path d="M466 374h16" stroke="#3f3a34" stroke-width="1.5"/>
+  </g>
+  <!-- scoop on tea caddy -->
+  <g data-w="4">
+    <path d="M366 342c20-4 40-6 60-6 6 0 8 4 2 6-20 2-42 4-62 4z" fill="#e3c9a3"/>
+  </g>
+  <rect x="382" y="346" width="28" height="22" rx="6" fill="#3f3a34"/>
+  <path d="M382 354h28" stroke="#8c867c"/>
+
+  <!-- matcha bowl -->
+  <g data-w="1">
+    <path d="M276 374c-2 16 10 26 24 26s26-10 24-26z" fill="#3f3a34"/>
+    <ellipse cx="300" cy="374" rx="24" ry="6" fill="#5b8a72"/>
+    <ellipse cx="300" cy="374" rx="16" ry="3" fill="#9dc0a8" stroke="none"/>
+    <path d="M292 370c0-8 2-14 6-18M304 368c0-8-2-14-6-18" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <!-- sweets -->
+  <g data-w="7">
+    <ellipse cx="190" cy="398" rx="30" ry="9" fill="#ffffff"/>
+    <circle cx="180" cy="390" r="9" fill="#f1b1aa"/>
+    <path d="M194 392c6-8 18-8 22 0-6 6-16 6-22 0z" fill="#9dc0a8"/>
+    <path d="M170 380l-6-8" stroke-width="1.5"/>
+  </g>
+  <!-- folding fan -->
+  <g data-w="13">
+    <path d="M222 432h56c4 0 6 2 6 5s-2 5-6 5h-56z" fill="#f8e6ae"/>
+    <path d="M234 432v10M246 432v10M258 432v10M270 432v10" stroke="#9c7450" stroke-width="1"/>
+    <circle cx="222" cy="437" r="3" fill="#3f3a34"/>
+  </g>
+</svg>

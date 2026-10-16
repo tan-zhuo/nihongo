@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <!-- far buildings -->
+  <path d="M230 320v-90h90v90zM250 250v-14h12v14M270 250v-14h12v14M290 250v-14h12v14M250 280v-14h12v14M270 280v-14h12v14M290 280v-14h12v14" fill="#ede9e1" stroke="#cfc9bd"/>
+  <path d="M440 320v-110h100v110" fill="#ede9e1" stroke="#cfc9bd"/>
+  <path d="M456 230h16v16h-16zM486 230h16v16h-16zM516 230h16v16h-16zM456 262h16v16h-16zM486 262h16v16h-16zM516 262h16v16h-16z" fill="#cfc9bd" stroke="none"/>
+  <!-- sidewalk and road -->
+  <rect x="0" y="320" width="800" height="26" fill="#ede9e1" stroke="none"/>
+  <path d="M0 320h800M0 346h800" stroke="#8c867c"/>
+  <rect x="0" y="346" width="800" height="126" fill="#8c867c" stroke="none"/>
+  <path d="M0 410h60M110 410h60M210 410h60M310 410h60M410 410h60M510 410h60M610 410h60M710 410h60" stroke="#f4efe6" stroke-width="3"/>
+  <rect x="0" y="472" width="800" height="28" fill="#cfc9bd" stroke="none"/>
+  <path d="M0 472h800" stroke="#5e4634"/>
+
+  <!-- police box -->
+  <g data-w="2">
+    <rect x="40" y="134" width="170" height="186" fill="#ffffff"/>
+    <rect x="30" y="120" width="190" height="16" rx="3" fill="#4a7fa3"/>
+    <path d="M30 136h190" stroke="#b9cfe3"/>
+    <path d="M125 120v-10" stroke-width="4"/>
+    <circle cx="125" cy="102" r="9" fill="#d9736b"/>
+    <rect x="56" y="156" width="64" height="54" fill="#b9cfe3"/>
+    <path d="M88 156v54M56 183h64"/>
+    <rect x="146" y="206" width="46" height="114" fill="#7da2c4"/>
+    <rect x="152" y="214" width="34" height="44" fill="#d6e7f0"/>
+    <circle cx="184" cy="272" r="3" fill="#f0cf6d"/>
+    <rect x="56" y="230" width="64" height="8" fill="#4a7fa3" stroke="none"/>
+  </g>
+
+  <!-- burning building -->
+  <g data-w="17">
+    <rect x="560" y="60" width="200" height="260" fill="#cfc9bd"/>
+    <rect x="552" y="52" width="216" height="12" rx="2" fill="#8c867c"/>
+    <rect x="572" y="90" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="642" y="90" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="712" y="90" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="572" y="150" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="642" y="150" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="712" y="150" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="572" y="210" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="642" y="210" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="712" y="210" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="572" y="270" width="36" height="40" fill="#b9cfe3"/>
+    <rect x="642" y="270" width="36" height="50" fill="#5e4634"/>
+    <rect x="712" y="270" width="36" height="40" fill="#b9cfe3"/>
+  </g>
+  <!-- fire -->
+  <g data-w="14">
+    <path d="M712 130v-22c0-10 6-16 10-24 2 8 8 10 8 2 6 8 14 14 14 24v20z" fill="#e59a5b"/>
+    <path d="M722 130v-12c0-6 4-10 8-14 4 4 8 8 8 14v12z" fill="#f0cf6d"/>
+    <path d="M642 190v-24c0-10 6-14 8-24 4 8 10 8 10 0 6 8 14 14 14 26v22z" fill="#e59a5b"/>
+    <path d="M652 190v-12c0-6 4-10 8-14 4 4 8 8 8 14v12z" fill="#f0cf6d"/>
+    <path d="M708 136c-6-10-8-18-6-28M752 134c4-8 4-16 2-24" stroke="#e59a5b" stroke-width="3"/>
+  </g>
+  <!-- smoke -->
+  <g data-w="15">
+    <circle cx="650" cy="64" r="16" fill="#cfc9bd"/>
+    <circle cx="676" cy="50" r="20" fill="#cfc9bd"/>
+    <circle cx="706" cy="40" r="22" fill="#cfc9bd"/>
+    <circle cx="738" cy="30" r="18" fill="#cfc9bd"/>
+    <circle cx="728" cy="60" r="14" fill="#ede9e1"/>
+    <circle cx="690" cy="72" r="14" fill="#ede9e1"/>
+  </g>
+
+  <!-- thief -->
+  <g data-w="4">
+    <circle cx="228" cy="236" r="18" fill="#5b8a72"/>
+    <path d="M222 220l-6-10 10 6zM236 218l8-8-2 10z" fill="#5b8a72"/>
+    <path d="M222 222c4 6 8 6 12 0" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="250" cy="212" r="18" fill="#f5d2b4"/>
+    <path d="M232 210c0-20 36-22 36-2-6-6-12-8-18-8s-12 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M232 210h36" stroke="#3f3a34" stroke-width="7"/>
+    <circle cx="243" cy="210" r="2" fill="#ffffff" stroke="none"/>
+    <circle cx="257" cy="210" r="2" fill="#ffffff" stroke="none"/>
+    <path d="M246 222c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M232 282v-40c0-10 8-16 18-16s18 6 18 16v40z" fill="#ffffff"/>
+    <path d="M232 240h36M232 252h36M232 264h36M232 276h36" stroke="#3f3a34" stroke-width="3"/>
+    <path d="M238 234l-12 8" stroke="#f5d2b4" stroke-width="8"/>
+  </g>
+  <g data-w="5">
+    <path d="M240 280l-16 30" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M240 280l-16 30" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M258 280l10 32" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M240 280l-16 30M258 280l10 32" stroke="#5e4634" stroke-width="8"/>
+    <path d="M218 310l-6 2 2 6h14M268 312l8 6-2 4h-14" fill="#3f3a34"/>
+    <path d="M206 292h-10M204 300h-16M206 308h-10" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+
+  <!-- police officer -->
+  <g data-w="1">
+    <path d="M314 282v-40c0-10 8-16 18-16s18 6 18 16v40z" fill="#4a7fa3"/>
+    <path d="M332 232v50" stroke="#3f3a34" stroke-width="1"/>
+    <path d="M314 254h36" stroke="#3f3a34" stroke-width="3"/>
+    <path d="M318 318l6-36M346 318l-4-36" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M318 318l6-36M346 318l-4-36" stroke="#4a7fa3" stroke-width="8"/>
+    <path d="M312 318h16v4h-16zM340 318h16v4h-16z" fill="#3f3a34"/>
+    <path d="M348 236l10-30" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M348 236l10-30" stroke="#4a7fa3" stroke-width="8"/>
+    <circle cx="358" cy="204" r="6" fill="#f5d2b4"/>
+    <circle cx="332" cy="212" r="18" fill="#f5d2b4"/>
+    <path d="M314 206c0-18 36-18 36 0z" fill="#4a7fa3"/>
+    <path d="M310 206h44" stroke="#3f3a34" stroke-width="5"/>
+    <path d="M332 188v8" stroke="#f0cf6d" stroke-width="4"/>
+    <circle cx="326" cy="214" r="1.6" fill="#3f3a34" stroke="none"/>
+    <circle cx="338" cy="214" r="1.6" fill="#3f3a34" stroke="none"/>
+  </g>
+  <g data-w="7">
+    <path d="M324 224l-14 2" stroke="#3f3a34" stroke-width="6"/>
+    <path d="M324 224l-14 2" stroke="#f0cf6d" stroke-width="3"/>
+    <circle cx="308" cy="228" r="4" fill="#f0cf6d"/>
+    <path d="M300 220l-6-4M298 228h-8M300 236l-6 4" stroke-width="1.5"/>
+  </g>
+  <g data-w="6">
+    <circle cx="364" cy="190" r="7" stroke-width="3" fill="#ffffff"/>
+    <circle cx="376" cy="182" r="7" stroke-width="3" fill="#ffffff"/>
+    <path d="M369 186l2-1" stroke-width="3"/>
+  </g>
+
+  <!-- firefighter -->
+  <g data-w="9">
+    <path d="M384 290v-48c0-12 8-18 20-18s20 6 20 18v48z" fill="#e59a5b"/>
+    <path d="M384 262h40M384 276h40" stroke="#f8e6ae" stroke-width="3"/>
+    <rect x="386" y="288" width="14" height="32" rx="4" fill="#5e4634"/>
+    <rect x="408" y="288" width="14" height="32" rx="4" fill="#5e4634"/>
+    <path d="M382 320h20v-4h-20zM406 320h20v-4h-20z" fill="#3f3a34"/>
+    <path d="M420 236l18 14" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M420 236l18 14" stroke="#e59a5b" stroke-width="8"/>
+    <path d="M388 236l24 20" stroke="#3f3a34" stroke-width="12"/>
+    <path d="M388 236l24 20" stroke="#e59a5b" stroke-width="8"/>
+    <circle cx="414" cy="258" r="6" fill="#f5d2b4"/>
+    <circle cx="440" cy="252" r="6" fill="#f5d2b4"/>
+    <circle cx="404" cy="206" r="17" fill="#f5d2b4"/>
+    <path d="M400 212c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <g data-w="11">
+    <path d="M384 204c0-26 40-26 40 0z" fill="#f0cf6d"/>
+    <path d="M380 204h48" stroke-width="5"/>
+    <path d="M404 180v14" stroke="#d9736b" stroke-width="4"/>
+    <path d="M382 206c-6 4-6 8 0 10" stroke-width="3"/>
+  </g>
+  <!-- hose -->
+  <g data-w="12">
+    <path d="M404 264c-20 20-44 40-44 66s30 34 56 30 36-6 44-6" stroke="#3f3a34" stroke-width="9"/>
+    <path d="M404 264c-20 20-44 40-44 66s30 34 56 30 36-6 44-6" stroke="#f0cf6d" stroke-width="5"/>
+    <path d="M430 248l18-10" stroke="#3f3a34" stroke-width="10"/>
+    <path d="M430 248l18-10" stroke="#8c867c" stroke-width="6"/>
+  </g>
+  <!-- water -->
+  <g data-w="13">
+    <path d="M448 238c40-60 130-90 204-70" stroke="#4a7fa3" stroke-width="9"/>
+    <path d="M448 238c40-60 130-90 204-70" stroke="#7da2c4" stroke-width="5"/>
+    <path d="M470 212c30-30 90-50 150-44" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6 8"/>
+    <circle cx="660" cy="162" r="4" fill="#7da2c4"/>
+    <circle cx="648" cy="178" r="3" fill="#7da2c4"/>
+    <circle cx="666" cy="180" r="3" fill="#7da2c4"/>
+  </g>
+
+  <!-- police car -->
+  <g data-w="3">
+    <path d="M40 436v-30l24-28h80l28 28h30v30z" fill="#ffffff"/>
+    <path d="M40 420h162v16h-162z" fill="#3f3a34"/>
+    <path d="M70 406l16-22h30v22zM124 384h18l20 22h-38z" fill="#b9cfe3"/>
+    <rect x="84" y="368" width="36" height="10" rx="3" fill="#d9736b"/>
+    <circle cx="80" cy="438" r="13" fill="#3f3a34"/>
+    <circle cx="80" cy="438" r="5" fill="#cfc9bd"/>
+    <circle cx="170" cy="438" r="13" fill="#3f3a34"/>
+    <circle cx="170" cy="438" r="5" fill="#cfc9bd"/>
+    <rect x="44" y="408" width="8" height="8" rx="2" fill="#f0cf6d"/>
+  </g>
+  <!-- ambulance -->
+  <g data-w="10">
+    <path d="M222 436v-56c0-6 4-10 10-10h100v66z" fill="#ffffff"/>
+    <path d="M222 390l10-20h34v66h-44z" fill="#ffffff"/>
+    <path d="M228 376h4" />
+    <path d="M232 378h26v20h-30z" fill="#b9cfe3"/>
+    <rect x="270" y="376" width="54" height="26" fill="#b9cfe3"/>
+    <path d="M292 410v16M284 418h16" stroke="#b5463f" stroke-width="6"/>
+    <path d="M222 430h110" stroke="#d9736b" stroke-width="4"/>
+    <rect x="276" y="360" width="22" height="10" rx="3" fill="#d9736b"/>
+    <circle cx="254" cy="438" r="13" fill="#3f3a34"/>
+    <circle cx="254" cy="438" r="5" fill="#cfc9bd"/>
+    <circle cx="312" cy="438" r="13" fill="#3f3a34"/>
+    <circle cx="312" cy="438" r="5" fill="#cfc9bd"/>
+  </g>
+  <!-- fire engine -->
+  <g data-w="8">
+    <rect x="440" y="358" width="180" height="76" rx="4" fill="#b5463f"/>
+    <path d="M620 434v-64h50l30 30v34z" fill="#b5463f"/>
+    <path d="M626 376h40l22 22h-62z" fill="#b9cfe3"/>
+    <path d="M440 400h180" stroke="#f4efe6" stroke-width="5"/>
+    <rect x="456" y="368" width="40" height="24" rx="2" fill="#cfc9bd"/>
+    <rect x="508" y="368" width="40" height="24" rx="2" fill="#cfc9bd"/>
+    <rect x="560" y="368" width="40" height="24" rx="2" fill="#cfc9bd"/>
+    <rect x="640" y="358" width="24" height="12" rx="3" fill="#d9736b"/>
+    <circle cx="482" cy="436" r="15" fill="#3f3a34"/>
+    <circle cx="482" cy="436" r="6" fill="#cfc9bd"/>
+    <circle cx="592" cy="436" r="15" fill="#3f3a34"/>
+    <circle cx="592" cy="436" r="6" fill="#cfc9bd"/>
+    <circle cx="672" cy="436" r="15" fill="#3f3a34"/>
+    <circle cx="672" cy="436" r="6" fill="#cfc9bd"/>
+    <rect x="690" y="404" width="10" height="10" rx="2" fill="#f0cf6d"/>
+  </g>
+  <!-- ladder -->
+  <g data-w="16">
+    <path d="M480 358l236-120M488 374l236-120" stroke="#5e4634" stroke-width="5"/>
+    <path d="M499 348l8 16M521 337l8 16M544 326l8 16M566 314l8 16M589 303l8 16M611 291l8 16M633 280l8 16M656 269l8 16M678 257l8 16M701 246l8 16" stroke="#5e4634" stroke-width="3"/>
+    <rect x="470" y="350" width="26" height="12" rx="3" fill="#8c867c"/>
+  </g>
+</svg>

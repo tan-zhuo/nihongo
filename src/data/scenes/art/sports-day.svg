@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <path id="flag" d="M0 0l8 14 8-14z"/>
+    <g id="kid">
+      <path d="M-6-18v18M6-18v18" stroke="#f5d2b4" stroke-width="7"/>
+      <path d="M-11 0h10M1 0h10" stroke-width="4"/>
+      <rect x="-12" y="-30" width="24" height="14" fill="#4a7fa3"/>
+      <rect x="-13" y="-54" width="26" height="26" rx="5" fill="#ffffff"/>
+      <path d="M-13-50l-10-18M13-50l10-18" stroke="#f5d2b4" stroke-width="6"/>
+      <circle cx="0" cy="-66" r="14" fill="#f5d2b4"/>
+      <circle cx="-5" cy="-66" r="1.5" fill="#3f3a34" stroke="none"/>
+      <circle cx="5" cy="-66" r="1.5" fill="#3f3a34" stroke="none"/>
+      <path d="M-3-60c2 2 4 2 6 0" stroke-width="1.5"/>
+      <path d="M-14-70c0-18 28-18 28 0z"/>
+      <path d="M-17-70h34" stroke-width="3"/>
+    </g>
+    <g id="puller">
+      <path d="M-6-36l24 34M-6-36l10 36" stroke="#f5d2b4" stroke-width="9"/>
+      <path d="M12 0h14M-2 0h12" stroke-width="4"/>
+      <path d="M-18-46l24 4 4 14-26-2z" fill="#4a7fa3"/>
+      <path d="M-30-72l28 6 6 24-26-2z" fill="#ffffff"/>
+      <path d="M-20-64l30 20M-14-68l30 20" stroke="#f5d2b4" stroke-width="6"/>
+      <circle cx="12" cy="-43" r="4" fill="#f5d2b4"/>
+      <circle cx="17" cy="-47" r="4" fill="#f5d2b4"/>
+      <circle cx="-22" cy="-82" r="13" fill="#f5d2b4"/>
+      <circle cx="-18" cy="-83" r="1.5" fill="#3f3a34" stroke="none"/>
+      <path d="M-16-76l4-2" stroke-width="1.5"/>
+      <path d="M-35-86c0-16 26-16 26 0z"/>
+      <path d="M-38-86h32" stroke-width="3"/>
+    </g>
+    <g id="runner">
+      <path d="M0-34l-18 18-10 14M0-34l16-12 8 20" stroke="#f5d2b4" stroke-width="8"/>
+      <path d="M-34-2h14M20-26l10 2" stroke-width="4"/>
+      <path d="M-10-42h22l2 12h-26z" fill="#4a7fa3"/>
+      <path d="M-8-70h20l4 30h-28z" fill="#ffffff"/>
+      <path d="M-6-62l-16 10M8-62l14-6" stroke="#f5d2b4" stroke-width="6"/>
+      <circle cx="-22" cy="-52" r="4" fill="#f5d2b4"/>
+      <circle cx="24" cy="-68" r="4" fill="#f5d2b4"/>
+      <circle cx="6" cy="-82" r="14" fill="#f5d2b4"/>
+      <circle cx="10" cy="-83" r="1.5" fill="#3f3a34" stroke="none"/>
+      <path d="M12-77l4-1" stroke-width="1.5"/>
+      <path d="M-8-86c0-18 28-18 28 0z"/>
+      <path d="M-11-86h34" stroke-width="3"/>
+    </g>
+    <path id="pom" d="M0-8c6 0 8 4 8 8s-2 8-8 8-8-4-8-8 2-8 8-8z"/>
+  </defs>
+  <!-- sky and ground -->
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <path d="M0 165c40-24 80-24 120 0 40-24 80-24 120 0 40-24 80-24 120 0 40-24 80-24 120 0 40-24 80-24 120 0 40-24 80-24 120 0 30-16 60-16 80 0v20H0z" fill="#9dc0a8" stroke="none"/>
+  <rect x="0" y="180" width="800" height="320" fill="#e3c9a3" stroke="none"/>
+  <path d="M0 180h800" stroke="#c49b6e"/>
+  <path d="M0 350h800M0 410h800M0 470h800" stroke="#ffffff" stroke-width="3"/>
+  <!-- flags -->
+  <g data-w="1">
+    <path d="M0 30q200 60 400 30t400 30" stroke="#8c867c"/>
+    <path d="M0 66q200 60 400 30t400 30" stroke="#8c867c"/>
+    <use href="#flag" x="40" y="43" fill="#d9736b"/><use href="#flag" x="90" y="52" fill="#f0cf6d"/><use href="#flag" x="140" y="57" fill="#4a7fa3"/><use href="#flag" x="190" y="59" fill="#5b8a72"/><use href="#flag" x="240" y="58" fill="#ffffff"/><use href="#flag" x="290" y="54" fill="#d9736b"/><use href="#flag" x="340" y="49" fill="#f0cf6d"/><use href="#flag" x="440" y="44" fill="#4a7fa3"/><use href="#flag" x="490" y="48" fill="#d9736b"/><use href="#flag" x="540" y="54" fill="#ffffff"/><use href="#flag" x="590" y="59" fill="#f0cf6d"/><use href="#flag" x="640" y="60" fill="#5b8a72"/><use href="#flag" x="690" y="59" fill="#d9736b"/><use href="#flag" x="740" y="55" fill="#4a7fa3"/>
+    <use href="#flag" x="20" y="72" fill="#4a7fa3"/><use href="#flag" x="70" y="83" fill="#ffffff"/><use href="#flag" x="120" y="90" fill="#d9736b"/><use href="#flag" x="170" y="94" fill="#f0cf6d"/><use href="#flag" x="220" y="94" fill="#5b8a72"/><use href="#flag" x="270" y="91" fill="#4a7fa3"/><use href="#flag" x="320" y="86" fill="#d9736b"/><use href="#flag" x="470" y="81" fill="#f0cf6d"/><use href="#flag" x="520" y="87" fill="#4a7fa3"/><use href="#flag" x="570" y="93" fill="#d9736b"/><use href="#flag" x="620" y="96" fill="#ffffff"/><use href="#flag" x="670" y="95" fill="#5b8a72"/><use href="#flag" x="720" y="91" fill="#f0cf6d"/><use href="#flag" x="770" y="86" fill="#d9736b"/>
+  </g>
+  <!-- tent -->
+  <g data-w="2">
+    <path d="M56 170v96M224 170v96" stroke-width="4"/>
+    <path d="M36 172l104-64 104 64z" fill="#ffffff"/>
+    <path d="M78 146l20-12 28 38h-50zM162 134l20 12-2 26h-50z" fill="#7da2c4" stroke="none"/>
+    <path d="M36 172l104-64 104 64z"/>
+    <circle cx="140" cy="106" r="4" fill="#f0cf6d"/>
+  </g>
+  <!-- family on a sheet -->
+  <g data-w="3">
+    <path d="M60 248h150l14 30H44z" fill="#7da2c4"/>
+    <path d="M78 256v-30c0-14 36-14 36 0v30z" fill="#d9736b"/>
+    <circle cx="96" cy="212" r="15" fill="#f5d2b4"/>
+    <path d="M81 210c0-20 30-20 30 0v10h-6v-8c-6-4-12-4-18 0v8h-6z" fill="#4a3b32" stroke="none"/>
+    <circle cx="91" cy="213" r="1.5" fill="#3f3a34" stroke="none"/><circle cx="101" cy="213" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M93 219c2 2 4 2 6 0" stroke-width="1.5"/>
+    <path d="M122 256v-30c0-14 36-14 36 0v30z" fill="#5b8a72"/>
+    <circle cx="140" cy="212" r="15" fill="#f5d2b4"/>
+    <path d="M125 210c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="135" cy="213" r="1.5" fill="#3f3a34" stroke="none"/><circle cx="145" cy="213" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M137 219c2 2 4 2 6 0" stroke-width="1.5"/>
+    <path d="M104 266v-20c0-10 26-10 26 0v20z" fill="#f0cf6d"/>
+    <circle cx="117" cy="238" r="12" fill="#f5d2b4"/>
+    <path d="M105 236c0-14 24-14 24 0z" fill="#d9736b"/>
+    <path d="M114 242c2 1 4 1 6 0" stroke-width="1.5"/>
+  </g>
+  <g data-w="4">
+    <rect x="156" y="250" width="44" height="20" rx="3" fill="#ffffff"/>
+    <path d="M176 250v20M156 260h20" stroke="#8c867c"/>
+    <circle cx="166" cy="255" r="3" fill="#d9736b" stroke="none"/>
+    <rect x="180" y="254" width="14" height="12" fill="#f0cf6d" stroke="none"/>
+    <path d="M160 266h12" stroke="#5b8a72" stroke-width="2"/>
+  </g>
+  <!-- tamaire -->
+  <g data-w="5">
+    <path d="M700 150v120" stroke-width="5"/>
+    <path d="M676 150h48l-6-32h-36z" fill="#d8b48c"/>
+    <path d="M688 118l-2 32M700 118v32M712 118l2 32M680 128h40M678 140h44" stroke="#9c7450" stroke-width="1.5"/>
+    <use href="#kid" x="660" y="276" fill="#ffffff"/>
+    <use href="#kid" x="708" y="280" fill="#ffffff"/>
+    <use href="#kid" x="750" y="276" fill="#ffffff"/>
+    <circle cx="634" cy="204" r="6" fill="#d9736b"/>
+    <circle cx="736" cy="208" r="6" fill="#ffffff"/>
+  </g>
+  <g data-w="6">
+    <circle cx="630" cy="100" r="6" fill="#d9736b"/>
+    <circle cx="652" cy="86" r="6" fill="#ffffff"/>
+    <circle cx="672" cy="108" r="6" fill="#d9736b"/>
+    <circle cx="690" cy="92" r="6" fill="#ffffff"/>
+    <circle cx="710" cy="104" r="6" fill="#d9736b"/>
+    <circle cx="660" cy="130" r="6" fill="#ffffff"/>
+    <circle cx="740" cy="120" r="6" fill="#d9736b"/>
+    <path d="M626 116l-6 10M668 124l-4 10M724 130l6 8" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- tug of war -->
+  <g data-w="8">
+    <use href="#puller" x="286" y="322" fill="#d9736b"/>
+    <use href="#puller" x="336" y="322" fill="#d9736b"/>
+    <use href="#puller" x="386" y="322" fill="#d9736b"/>
+  </g>
+  <g data-w="9">
+    <use href="#puller" transform="translate(594 322) scale(-1 1)" fill="#ffffff"/>
+    <use href="#puller" transform="translate(544 322) scale(-1 1)" fill="#ffffff"/>
+    <use href="#puller" transform="translate(494 322) scale(-1 1)" fill="#ffffff"/>
+  </g>
+  <g data-w="7">
+    <path d="M262 278h356" stroke="#9c7450" stroke-width="7"/>
+    <path d="M262 278h356" stroke="#e3c9a3" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <path d="M436 266h8v24h-8z" fill="#d9736b"/>
+  </g>
+  <!-- starter with pistol -->
+  <g data-w="10">
+    <path d="M244 420v38M256 420v38" stroke="#f5d2b4" stroke-width="9"/>
+    <path d="M238 460h14M250 460h14" stroke-width="4"/>
+    <rect x="234" y="366" width="32" height="56" rx="6" fill="#5b8a72"/>
+    <path d="M238 374l-10 40" stroke="#5b8a72" stroke-width="10"/>
+    <circle cx="228" cy="416" r="5" fill="#f5d2b4"/>
+    <path d="M262 374l8-40" stroke="#5b8a72" stroke-width="10"/>
+    <circle cx="270" cy="334" r="6" fill="#f5d2b4"/>
+    <circle cx="250" cy="350" r="16" fill="#f5d2b4"/>
+    <path d="M234 346c0-20 32-20 32 0-4-6-10-8-16-8s-12 2-16 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="245" cy="351" r="1.5" fill="#3f3a34" stroke="none"/><circle cx="255" cy="351" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M247 357c2 2 4 2 6 0" stroke-width="1.5"/>
+    <path d="M266 330h18v-7h-18zM266 330v8h6v-8" fill="#3f3a34"/>
+    <path d="M292 316l6-14 2 12 12-6-6 10 12 2-10 6 4 10-10-6-2 10-6-10-10 4 6-10z" fill="#f0cf6d"/>
+  </g>
+  <!-- relay runners -->
+  <g data-w="11">
+    <use href="#runner" x="350" y="446" fill="#d9736b"/>
+    <use href="#runner" x="440" y="440" fill="#ffffff"/>
+    <path d="M420 384l-20 2" stroke="#f5d2b4" stroke-width="6"/>
+    <circle cx="398" cy="386" r="4" fill="#f5d2b4"/>
+  </g>
+  <g data-w="12">
+    <path d="M374 380l22 6" stroke="#e59a5b" stroke-width="7"/>
+  </g>
+  <g data-w="13">
+    <use href="#runner" x="570" y="440" fill="#d9736b"/>
+    <path d="M520 390h-16M522 404h-24M524 418h-14" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- goal tape -->
+  <g data-w="14">
+    <path d="M650 362v96M730 362v96" stroke-width="4"/>
+    <path d="M650 402h80" stroke="#ffffff" stroke-width="6"/>
+    <path d="M650 402h80" stroke="#d9736b" stroke-width="1.5" stroke-dasharray="6 6"/>
+    <circle cx="650" cy="360" r="5" fill="#f0cf6d"/>
+    <circle cx="730" cy="360" r="5" fill="#f0cf6d"/>
+  </g>
+  <!-- cheering kids -->
+  <g data-w="15">
+    <use href="#kid" x="130" y="474" fill="#d9736b"/>
+    <use href="#kid" x="180" y="474" fill="#d9736b"/>
+    <use href="#pom" x="106" y="402" fill="#d9736b"/><use href="#pom" x="154" y="402" fill="#ffffff"/>
+    <use href="#pom" x="206" y="402" fill="#d9736b"/>
+  </g>
+  <g data-w="16">
+    <use href="#kid" x="80" y="474" fill="#d9736b"/>
+    <use href="#pom" x="56" y="402" fill="#ffffff"/>
+  </g>
+</svg>

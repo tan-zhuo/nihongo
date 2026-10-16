@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <!-- ceiling, 2F slab, 1F floor -->
+  <rect x="0" y="0" width="800" height="36" fill="#cfc9bd" stroke="none"/>
+  <path d="M0 36h800" stroke="#8c867c"/>
+  <path d="M120 36v6h40v-6M560 36v6h40v-6" fill="#f8e6ae"/>
+  <rect x="0" y="236" width="706" height="16" fill="#cfc9bd"/>
+  <rect x="0" y="410" width="800" height="90" fill="#ede9e1" stroke="none"/>
+  <path d="M0 410h800" stroke="#8c867c" stroke-width="3"/>
+  <path d="M0 450h800M100 410v90M300 410v90M500 410v90M700 410v90" stroke="#cfc9bd" stroke-width="1.5"/>
+
+  <!-- elevator -->
+  <g data-w="2">
+    <rect x="706" y="40" width="70" height="370" fill="#cfc9bd"/>
+    <rect x="714" y="110" width="54" height="126" fill="#7da2c4"/>
+    <path d="M741 110v126" stroke="#3f3a34"/>
+    <rect x="730" y="90" width="22" height="12" rx="2" fill="#ffffff"/>
+    <path d="M737 99l4-6 4 6z" fill="#5b8a72"/>
+    <rect x="714" y="284" width="54" height="126" fill="#7da2c4"/>
+    <path d="M741 284v126" stroke="#3f3a34"/>
+    <rect x="730" y="264" width="22" height="12" rx="2" fill="#ffffff"/>
+    <path d="M737 267l4 6 4-6z" fill="#d9736b"/>
+  </g>
+
+  <!-- escalator -->
+  <g data-w="1">
+    <path d="M240 410l240-174h40l-240 174z" fill="#cfc9bd"/>
+    <path d="M260 396l40 14M280 382l40 14M300 368l40 14M320 354l40 14M340 340l40 14M360 326l40 14M380 312l40 14M400 298l40 14M420 284l40 14M440 270l40 14M460 256l40 14" stroke="#8c867c"/>
+    <path d="M246 404l240-174v-54l-240 174z" fill="#d6e7f0" fill-opacity="0.8"/>
+    <path d="M246 350l240-174" stroke-width="7"/>
+    <path d="M246 350l240-174" stroke="#5e4634" stroke-width="3"/>
+    <path d="M360 338v-28c0-8 6-14 14-14s14 6 14 14v22z" fill="#a58bc0"/>
+    <circle cx="374" cy="284" r="13" fill="#f5d2b4"/>
+    <path d="M361 282c0-16 26-16 26 0-4-6-8-8-13-8s-9 2-13 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M370 288c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- 1F: cosmetics counter and clerk -->
+  <g data-w="4">
+    <path d="M118 332v-42c0-12 10-20 22-20s22 8 22 20v42z" fill="#4a7fa3"/>
+    <circle cx="140" cy="258" r="18" fill="#f5d2b4"/>
+    <path d="M122 254c2-18 34-18 36 0-6-8-12-10-18-10s-12 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M122 254v24c0 6 4 8 6 4v-24M158 254v24c0 6-4 8-6 4v-24" fill="#4a3b32" stroke="none"/>
+    <path d="M136 264c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <rect x="40" y="330" width="160" height="80" fill="#f1b1aa"/>
+  <path d="M40 342h160" stroke="#d9736b"/>
+  <rect x="36" y="324" width="168" height="10" rx="3" fill="#ffffff"/>
+  <g data-w="7">
+    <rect x="54" y="300" width="22" height="24" rx="4" fill="#a58bc0"/>
+    <rect x="60" y="290" width="10" height="10" rx="2" fill="#f0cf6d"/>
+    <rect x="86" y="296" width="10" height="28" rx="2" fill="#3f3a34"/>
+    <path d="M86 300v-10c0-4 10-6 10 0v10z" fill="#d9736b"/>
+    <rect x="106" y="308" width="26" height="16" rx="4" fill="#ffffff"/>
+    <rect x="104" y="302" width="30" height="8" rx="3" fill="#f0cf6d"/>
+    <rect x="144" y="296" width="20" height="28" rx="3" fill="#7da2c4"/>
+    <rect x="148" y="288" width="12" height="8" rx="2" fill="#3f3a34"/>
+  </g>
+
+  <!-- 1F: shoes stand -->
+  <g data-w="12">
+    <rect x="500" y="380" width="90" height="30" fill="#d8b48c"/>
+    <rect x="510" y="350" width="70" height="30" fill="#e3c9a3"/>
+    <rect x="520" y="320" width="50" height="30" fill="#d8b48c"/>
+    <path d="M524 320v-6l6-10h6l4 6 10 4v6z" fill="#b5463f"/>
+    <path d="M548 320v-6l6-10h6l4 6 4 4v6z" fill="#b5463f"/>
+    <path d="M512 350v-10c6-6 16-6 22 0h8v10zM548 350v-10c6-6 16-6 22 0h8v10z" fill="#4a7fa3"/>
+    <path d="M506 380v-26h12v14h16c4 0 6 4 6 8v4zM548 380v-26h12v14h16c4 0 6 4 6 8v4z" fill="#9c7450"/>
+    <path d="M508 366h8M550 366h8" stroke="#5e4634" stroke-width="1.5"/>
+  </g>
+
+  <!-- 1F: customer with paper bag -->
+  <g data-w="16">
+    <rect x="628" y="368" width="12" height="42" rx="5" fill="#5e4634"/>
+    <rect x="644" y="368" width="12" height="42" rx="5" fill="#5e4634"/>
+    <path d="M624 410h18v-6h-18zM644 410h18v-6h-18z" fill="#3f3a34"/>
+    <path d="M622 372v-54c0-14 8-22 20-22s20 8 20 22v54z" fill="#5b8a72"/>
+    <path d="M658 318l14 40" stroke="#3f3a34" stroke-width="14"/>
+    <path d="M658 318l14 40" stroke="#f5d2b4" stroke-width="10"/>
+    <circle cx="642" cy="288" r="18" fill="#f5d2b4"/>
+    <path d="M624 284c2-18 34-18 36 0-6-8-12-10-18-10s-12 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M638 294c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <g data-w="8">
+    <path d="M664 358c0-12 20-12 20 0" stroke-width="3"/>
+    <rect x="658" y="358" width="32" height="44" rx="2" fill="#f0cf6d"/>
+    <path d="M668 378c-4-6 4-10 6-4 2-6 10-2 6 4l-6 6z" fill="#d9736b" stroke="none"/>
+  </g>
+
+  <!-- 2F: fitting room -->
+  <g data-w="11">
+    <rect x="40" y="90" width="90" height="146" fill="#ede9e1"/>
+    <path d="M40 90h90" stroke-width="5"/>
+    <path d="M46 92v134c6 4 12 4 18 0 6 4 12 4 18 0 6 4 12 4 18 0V92z" fill="#a58bc0"/>
+    <path d="M64 100v126M82 100v126" stroke="#8b70a8" stroke-width="1.5"/>
+    <path d="M106 236v-14h8v14M118 236v-14h8v14" fill="#f5d2b4"/>
+    <path d="M102 236h30" stroke-width="3"/>
+  </g>
+  <!-- 2F: mannequin -->
+  <g data-w="6">
+    <ellipse cx="175" cy="232" rx="18" ry="4" fill="#8c867c"/>
+    <path d="M175 204v28" stroke-width="4"/>
+    <circle cx="175" cy="108" r="14" fill="#ede9e1"/>
+    <rect x="170" y="120" width="10" height="8" fill="#ede9e1"/>
+    <path d="M152 206l8-78h30l8 78z" fill="#d9736b"/>
+    <path d="M156 150h38" stroke="#3f3a34" stroke-width="3"/>
+    <path d="M160 128l-8 36M190 128l8 36" stroke="#ede9e1" stroke-width="8"/>
+  </g>
+  <!-- 2F: clothes rack -->
+  <g data-w="13">
+    <path d="M244 104v132M356 104v132" stroke-width="4"/>
+    <path d="M232 236h24M344 236h24" stroke-width="3"/>
+    <path d="M240 104h120" stroke-width="4"/>
+    <path d="M262 104v8M286 104v8M310 104v8M334 104v8" />
+    <path d="M250 118h8l4-6 4 6h8l6 12-6 4v34h-24v-34l-6-4z" fill="#7da2c4"/>
+    <path d="M274 118h8l4-6 4 6h8l6 12-6 4v34h-24v-34l-6-4z" fill="#f0cf6d"/>
+    <path d="M298 118h8l4-6 4 6h8l6 12-6 4v34h-24v-34l-6-4z" fill="#5b8a72"/>
+    <path d="M322 118h8l4-6 4 6h8l6 12-6 4v34h-24v-34l-6-4z" fill="#e59a5b"/>
+  </g>
+  <g data-w="15">
+    <path d="M350 104v46" stroke-width="1.5"/>
+    <path d="M340 150h20v28h-20z" fill="#f8e6ae"/>
+    <circle cx="350" cy="155" r="1.5" fill="#3f3a34"/>
+    <path d="M344 164h12M344 170h8" stroke="#b5463f" stroke-width="2"/>
+  </g>
+  <!-- 2F: sales floor sign -->
+  <g data-w="3">
+    <path d="M300 36v12" />
+    <rect x="270" y="48" width="60" height="34" rx="4" fill="#ffffff"/>
+    <path d="M292 56h16l-4 6 6 16h-20l6-16z" fill="#f1b1aa"/>
+  </g>
+  <!-- 2F: sale banner -->
+  <g data-w="10">
+    <path d="M402 36h66v70l-33-10-33 10z" fill="#b5463f"/>
+    <circle cx="435" cy="68" r="18" fill="#f0cf6d"/>
+    <circle cx="429" cy="62" r="4" fill="#ffffff"/>
+    <circle cx="441" cy="74" r="4" fill="#ffffff"/>
+    <path d="M425 80l20-24" stroke-width="2.5"/>
+  </g>
+  <!-- 2F: buying customer -->
+  <g data-w="14">
+    <rect x="500" y="200" width="11" height="36" rx="5" fill="#8c867c"/>
+    <rect x="514" y="200" width="11" height="36" rx="5" fill="#8c867c"/>
+    <path d="M496 236h16v-5h-16zM514 236h16v-5h-16z" fill="#3f3a34"/>
+    <path d="M494 204v-54c0-14 8-20 18-20s18 6 18 20v54z" fill="#e59a5b"/>
+    <path d="M528 154l16 10" stroke="#3f3a34" stroke-width="13"/>
+    <path d="M528 154l16 10" stroke="#f5d2b4" stroke-width="9"/>
+    <circle cx="512" cy="128" r="17" fill="#f5d2b4"/>
+    <path d="M495 124c2-18 32-18 34 0-6-8-12-10-17-10s-11 2-17 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M508 134c2 2 6 2 8 0" stroke-width="1.5"/>
+    <rect x="542" y="158" width="20" height="12" rx="2" fill="#9dc0a8"/>
+  </g>
+  <!-- 2F: register -->
+  <g data-w="5">
+    <path d="M600 176v-24c0-10 8-16 16-16s16 6 16 16v24z" fill="#4a7fa3"/>
+    <circle cx="616" cy="126" r="15" fill="#f5d2b4"/>
+    <path d="M601 124c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M612 132c2 2 6 2 8 0" stroke-width="1.5"/>
+    <rect x="536" y="176" width="96" height="60" fill="#9c7450"/>
+    <rect x="530" y="170" width="108" height="10" rx="3" fill="#e3c9a3"/>
+    <rect x="556" y="148" width="40" height="24" rx="3" fill="#8c867c"/>
+    <path d="M560 148v-14h22l4 14" fill="#3f3a34"/>
+    <path d="M562 160h8M574 160h8M562 166h8M574 166h8" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+  <!-- 2F: information board -->
+  <g data-w="9">
+    <rect x="650" y="148" width="44" height="78" rx="3" fill="#ffffff"/>
+    <path d="M672 226v10M662 236h20" stroke-width="3"/>
+    <rect x="655" y="154" width="10" height="10" fill="#d9736b" stroke="none"/>
+    <rect x="655" y="170" width="10" height="10" fill="#f0cf6d" stroke="none"/>
+    <rect x="655" y="186" width="10" height="10" fill="#7da2c4" stroke="none"/>
+    <rect x="655" y="202" width="10" height="10" fill="#5b8a72" stroke="none"/>
+    <path d="M669 159h20M669 175h20M669 191h20M669 207h20" stroke="#8c867c" stroke-width="3"/>
+  </g>
+</svg>

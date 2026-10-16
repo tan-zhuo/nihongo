@@ -25,8 +25,8 @@ export const PAGE_META: Record<string, PageMeta> = {
     desc: 'Look up 4,200 common Japanese words by kanji, kana, romaji, Chinese or English. Every entry has audio, pitch accent, JLPT level, example sentences and picture scenes. Browse in gojūon order like a dictionary.',
   },
   '/vocab/scenes': {
-    title: 'Japanese Picture Dictionary — 50 Illustrated Scenes (場面で覚える単語) — nihongo.ink',
-    desc: 'Learn Japanese vocabulary from pictures: 50 illustrated scenes — the kitchen, the station, a convenience store, a summer festival — with every object labelled in Japanese. Tap a label for reading, meaning, audio and example sentences.',
+    title: 'Japanese Picture Dictionary — 100 Illustrated Scenes (場面で覚える単語) — nihongo.ink',
+    desc: 'Learn Japanese vocabulary from pictures: 100 illustrated scenes — the kitchen, the station, a convenience store, a summer festival — with every object labelled in Japanese. Tap a label for reading, meaning, audio and example sentences.',
   },
   '/vocab/practice': {
     title: 'Japanese Vocabulary Typing Practice — 4,200 JLPT Words — nihongo.ink',

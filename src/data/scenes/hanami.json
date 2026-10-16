@@ -1,0 +1,31 @@
+{
+  "id": "hanami",
+  "n": 93,
+  "group": "culture",
+  "title": "花見",
+  "title_zh": "赏樱",
+  "title_en": "Cherry-blossom viewing",
+  "words": [
+    { "w": "桜", "r": "さくら", "zh": "樱花", "en": "cherry blossom", "x": 160, "y": 130 },
+    { "w": "枝", "r": "えだ", "zh": "树枝", "en": "branch", "x": 580, "y": 50 },
+    { "w": "鳥", "r": "とり", "zh": "鸟", "en": "bird", "x": 660, "y": 112 },
+    { "w": "散る", "r": "ちる", "zh": "凋落", "en": "to fall (petals)", "x": 420, "y": 212 },
+    { "w": "花びら", "r": "はなびら", "zh": "花瓣", "en": "petal", "x": 196, "y": 476 },
+    { "w": "ブルーシート", "r": "ブルーシート", "zh": "蓝色野餐垫", "en": "blue tarp", "x": 470, "y": 342 },
+    { "w": "お弁当", "r": "おべんとう", "zh": "便当", "en": "boxed lunch", "x": 350, "y": 452 },
+    { "w": "おにぎり", "r": "おにぎり", "zh": "饭团", "en": "rice ball", "x": 436, "y": 462 },
+    { "w": "団子", "r": "だんご", "zh": "团子", "en": "dango (rice dumplings)", "x": 522, "y": 436 },
+    { "w": "ビール", "r": "ビール", "zh": "啤酒", "en": "beer", "x": 590, "y": 470 },
+    { "w": "水筒", "r": "すいとう", "zh": "水壶", "en": "thermos; water bottle", "x": 262, "y": 448 },
+    { "w": "乾杯", "r": "かんぱい", "zh": "干杯", "en": "cheers; toast", "x": 630, "y": 384 },
+    { "w": "座る", "r": "すわる", "zh": "坐", "en": "to sit", "x": 290, "y": 404 },
+    { "w": "写真を撮る", "r": "しゃしんをとる", "zh": "拍照", "en": "to take a photo", "x": 720, "y": 372 },
+    { "w": "池", "r": "いけ", "zh": "池塘", "en": "pond", "x": 640, "y": 256 },
+    { "w": "芝生", "r": "しばふ", "zh": "草坪", "en": "lawn", "x": 700, "y": 446 }
+  ],
+  "sentences": [
+    { "ja": "{公園|こうえん}の{桜|さくら}が{満開|まんかい}です。", "zh": "公园里的樱花盛开了。", "en": "The cherry blossoms in the park are in full bloom." },
+    { "ja": "ブルーシートに{座|すわ}って、お{弁当|べんとう}と{団子|だんご}を{食|た}べます。", "zh": "坐在蓝色野餐垫上，吃便当和团子。", "en": "We sit on the blue tarp and eat boxed lunches and dango." },
+    { "ja": "{風|かぜ}で{花|はな}びらが{散|ち}って、きれいです。", "zh": "花瓣随风飘落，很漂亮。", "en": "The petals are falling in the wind, and it is beautiful." }
+  ]
+}

@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall, tatami floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <g data-w="16">
+    <rect x="0" y="330" width="800" height="170" fill="#e0ece3" stroke="none"/>
+    <path d="M0 330h800" stroke="#9dc0a8" stroke-width="3"/>
+    <path d="M0 415h800" stroke="#9dc0a8" stroke-width="5"/>
+    <path d="M400 330v85M130 415v85M670 415v85" stroke="#9dc0a8" stroke-width="5"/>
+    <path d="M0 350h800M0 370h800M0 390h800M0 440h800M0 460h800M0 480h800" stroke="#cfe0d2" stroke-width="1.5"/>
+  </g>
+  <rect x="0" y="318" width="800" height="12" fill="#9c7450" stroke="none"/>
+  <path d="M0 318h800" stroke="#5e4634"/>
+
+  <!-- shoji -->
+  <g data-w="10">
+    <rect x="40" y="40" width="150" height="280" fill="#ffffff"/>
+    <path d="M40 96h150M40 152h150M40 208h150M40 264h150M90 40v280M140 40v280" stroke="#8c867c" stroke-width="1.5"/>
+    <rect x="34" y="34" width="162" height="292" rx="3" stroke="#9c7450" stroke-width="5"/>
+    <rect x="34" y="34" width="162" height="292" rx="3"/>
+  </g>
+
+  <!-- mother: blue kimono -->
+  <g data-w="1">
+    <path d="M196 400l26-240c0-6 8-8 14-6l14 42 14-42c6-2 14 0 14 6l26 240z" fill="#7da2c4"/>
+    <path d="M196 400h108" stroke="#4a7fa3" stroke-width="3"/>
+    <path d="M194 170h30v90c0 8-30 8-30 0zM276 170h30v90c0 8-30 8-30 0z" fill="#7da2c4"/>
+    <circle cx="216" cy="190" r="3" fill="#ffffff" stroke="none"/>
+    <circle cx="284" cy="190" r="3" fill="#ffffff" stroke="none"/>
+    <circle cx="206" cy="340" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="290" cy="360" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="226" cy="300" r="4" fill="#ffffff" stroke="none"/>
+    <path d="M236 152l14 44 14-44" fill="#ffffff"/>
+    <circle cx="250" cy="125" r="22" fill="#f5d2b4"/>
+    <path d="M228 122c0-30 44-30 44 0-6-10-16-13-22-13s-16 3-22 13z" fill="#4a3b32" stroke="none"/>
+    <circle cx="250" cy="98" r="9" fill="#4a3b32"/>
+    <circle cx="242" cy="125" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="258" cy="125" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M245 134c3 3 7 3 10 0" stroke-width="1.5"/>
+    <circle cx="240" cy="236" r="7" fill="#f5d2b4"/>
+  </g>
+  <g data-w="3">
+    <path d="M232 150l18 50 18-50" stroke-width="3"/>
+  </g>
+  <g data-w="2">
+    <rect x="221" y="200" width="58" height="34" fill="#f0cf6d"/>
+    <path d="M221 217h58" stroke="#b5463f" stroke-width="3"/>
+  </g>
+  <!-- pouch in her hand -->
+  <g data-w="11">
+    <circle cx="292" cy="238" r="7" fill="#f5d2b4"/>
+    <path d="M292 244v18" stroke="#b5463f"/>
+    <path d="M282 262h20l10 30c-14 10-26 10-40 0z" fill="#d9736b"/>
+    <path d="M286 268c6 4 14 4 20 0" stroke="#f0cf6d"/>
+    <circle cx="296" cy="300" r="5" fill="#f0cf6d"/>
+  </g>
+
+  <!-- daughter: red furisode -->
+  <g data-w="4">
+    <path d="M366 400l26-230c0-6 8-8 14-6l14 42 14-42c6-2 14 0 14 6l26 230z" fill="#d9736b"/>
+    <path d="M366 400h108" stroke="#b5463f" stroke-width="3"/>
+    <path d="M406 158l14 44 14-44" fill="#ffffff"/>
+    <path d="M402 156l18 50 18-50" stroke-width="3"/>
+    <circle cx="390" cy="330" r="6" fill="#f0cf6d" stroke="none"/>
+    <circle cx="448" cy="372" r="6" fill="#f0cf6d" stroke="none"/>
+    <circle cx="418" cy="300" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="400" cy="380" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="420" cy="130" r="22" fill="#f5d2b4"/>
+    <path d="M398 127c0-30 44-30 44 0-6-10-16-13-22-13s-16 3-22 13z" fill="#4a3b32" stroke="none"/>
+    <circle cx="420" cy="103" r="10" fill="#4a3b32"/>
+    <circle cx="412" cy="130" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="428" cy="130" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M415 139c3 3 7 3 10 0" stroke-width="1.5"/>
+    <circle cx="434" cy="134" r="3" fill="#f1b1aa" stroke="none"/>
+    <circle cx="406" cy="134" r="3" fill="#f1b1aa" stroke="none"/>
+    <rect x="392" y="208" width="56" height="34" fill="#5b8a72"/>
+  </g>
+  <g data-w="5">
+    <path d="M356 185h34v150c0 8-34 8-34 0zM450 185h34v150c0 8-34 8-34 0z" fill="#d9736b"/>
+    <circle cx="372" cy="300" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="468" cy="260" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="374" cy="220" r="5" fill="#f0cf6d" stroke="none"/>
+    <circle cx="464" cy="318" r="5" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <g data-w="6">
+    <path d="M420 226l-20-10v24zM420 226l20-10v24z" fill="#5b8a72"/>
+    <rect x="415" y="220" width="10" height="12" fill="#f0cf6d"/>
+    <path d="M414 232l-4 20M426 232l4 20" stroke="#5b8a72" stroke-width="4"/>
+    <circle cx="404" cy="248" r="7" fill="#f5d2b4"/>
+    <circle cx="436" cy="248" r="7" fill="#f5d2b4"/>
+  </g>
+  <g data-w="7">
+    <path d="M410 103l-26-22" stroke="#b5463f" stroke-width="3"/>
+    <circle cx="384" cy="81" r="8" fill="#f1b1aa"/>
+    <circle cx="384" cy="81" r="3" fill="#f0cf6d" stroke="none"/>
+    <circle cx="396" cy="94" r="4" fill="#f0cf6d"/>
+  </g>
+
+  <!-- standing mirror -->
+  <g data-w="9">
+    <rect x="510" y="76" width="76" height="260" rx="8" fill="#9c7450"/>
+    <rect x="518" y="84" width="60" height="244" rx="5" fill="#d6e7f0"/>
+    <path d="M522 270l16-130h20l16 130z" fill="#f1b1aa" stroke="none"/>
+    <circle cx="548" cy="124" r="10" fill="#f5d2b4" stroke="none"/>
+    <path d="M526 100l-4 120" stroke="#ffffff" stroke-width="3"/>
+    <path d="M500 346h96M510 336l-8 10M586 336l8 10" stroke-width="4"/>
+  </g>
+
+  <!-- rack with yukata -->
+  <g data-w="8">
+    <rect x="612" y="56" width="140" height="8" rx="3" fill="#9c7450"/>
+    <rect x="618" y="64" width="8" height="266" fill="#9c7450"/>
+    <rect x="738" y="64" width="8" height="266" fill="#9c7450"/>
+    <path d="M600 330h44M720 330h44" stroke-width="4"/>
+    <path d="M652 70h60v194c0 10-60 10-60 0z" fill="#4a7fa3"/>
+    <path d="M622 68h30v56c0 8-30 8-30 0zM712 68h30v56c0 8-30 8-30 0z" fill="#4a7fa3"/>
+    <path d="M652 70h60l-30 40z" fill="#ffffff"/>
+    <path d="M652 70l30 44 30-44" stroke-width="3"/>
+    <rect x="652" y="150" width="60" height="18" fill="#f0cf6d"/>
+    <circle cx="656" cy="150" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="700" cy="140" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="672" cy="238" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="710" cy="252" r="4" fill="#ffffff" stroke="none"/>
+    <circle cx="636" cy="96" r="3" fill="#ffffff" stroke="none"/>
+    <circle cx="728" cy="92" r="3" fill="#ffffff" stroke="none"/>
+    <circle cx="688" cy="178" r="4" fill="#ffffff" stroke="none"/>
+  </g>
+
+  <!-- zori -->
+  <g data-w="12">
+    <ellipse cx="90" cy="380" rx="20" ry="11" fill="#e3c9a3"/>
+    <path d="M72 384c10 4 26 4 36 0" stroke="#b5463f" stroke-width="3"/>
+    <path d="M100 376v9" stroke="#b5463f" stroke-width="3"/>
+    <ellipse cx="134" cy="385" rx="20" ry="11" fill="#e3c9a3"/>
+    <path d="M116 389c10 4 26 4 36 0" stroke="#b5463f" stroke-width="3"/>
+    <path d="M144 381v9" stroke="#b5463f" stroke-width="3"/>
+  </g>
+  <!-- geta -->
+  <g data-w="13">
+    <rect x="162" y="424" width="34" height="14" rx="3" fill="#e3c9a3"/>
+    <path d="M168 438v8M190 438v8" stroke-width="4"/>
+    <path d="M164 430c8 4 22 4 30 0M184 424v8" stroke="#b5463f" stroke-width="3"/>
+    <rect x="206" y="430" width="34" height="14" rx="3" fill="#e3c9a3"/>
+    <path d="M212 444v8M234 444v8" stroke-width="4"/>
+    <path d="M208 436c8 4 22 4 30 0M228 430v8" stroke="#b5463f" stroke-width="3"/>
+  </g>
+  <!-- tabi -->
+  <g data-w="14">
+    <path d="M290 412h18v14c6 2 14 6 14 12 0 4-4 6-8 6h-26v-32z" fill="#ffffff"/>
+    <path d="M308 438v6M316 444v-6" stroke-width="2"/>
+    <path d="M324 418h18v14c6 2 14 6 14 12 0 4-4 6-8 6h-26v-32z" fill="#ffffff"/>
+    <path d="M342 444v6M350 450v-6" stroke-width="2"/>
+  </g>
+  <!-- folding fan -->
+  <g data-w="15">
+    <path d="M490 466l-46-40c26-22 66-22 92 0z" fill="#f8e6ae"/>
+    <path d="M490 466l-26-46M490 466l-6-50M490 466l16-48M490 466l34-36" stroke="#9c7450" stroke-width="1.5"/>
+    <circle cx="480" cy="436" r="5" fill="#d9736b" stroke="none"/>
+    <circle cx="500" cy="434" r="5" fill="#d9736b" stroke="none"/>
+    <circle cx="490" cy="466" r="3" fill="#3f3a34" stroke="none"/>
+  </g>
+</svg>

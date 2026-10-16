@@ -1,0 +1,31 @@
+{
+  "id": "tea-ceremony",
+  "n": 95,
+  "group": "culture",
+  "title": "茶道",
+  "title_zh": "茶道",
+  "title_en": "Tea ceremony",
+  "words": [
+    { "w": "抹茶", "r": "まっちゃ", "zh": "抹茶", "en": "matcha (powdered green tea)", "x": 300, "y": 412 },
+    { "w": "茶碗", "r": "ちゃわん", "zh": "茶碗", "en": "tea bowl", "x": 420, "y": 410 },
+    { "w": "茶筅", "r": "ちゃせん", "zh": "茶筅（竹制茶刷）", "en": "bamboo tea whisk", "x": 474, "y": 414 },
+    { "w": "茶杓", "r": "ちゃしゃく", "zh": "茶勺", "en": "bamboo tea scoop", "x": 400, "y": 318 },
+    { "w": "茶釜", "r": "ちゃがま", "zh": "茶釜（烧水铁壶）", "en": "iron tea kettle", "x": 560, "y": 426 },
+    { "w": "柄杓", "r": "ひしゃく", "zh": "水勺", "en": "ladle", "x": 660, "y": 372 },
+    { "w": "和菓子", "r": "わがし", "zh": "和果子（日式点心）", "en": "Japanese sweets", "x": 190, "y": 424 },
+    { "w": "畳", "r": "たたみ", "zh": "榻榻米", "en": "tatami mat", "x": 700, "y": 460 },
+    { "w": "掛け軸", "r": "かけじく", "zh": "挂轴", "en": "hanging scroll", "x": 140, "y": 236 },
+    { "w": "生け花", "r": "いけばな", "zh": "插花", "en": "ikebana (flower arrangement)", "x": 72, "y": 318 },
+    { "w": "障子", "r": "しょうじ", "zh": "纸拉门", "en": "shoji (paper sliding door)", "x": 720, "y": 120 },
+    { "w": "座布団", "r": "ざぶとん", "zh": "坐垫", "en": "floor cushion", "x": 326, "y": 346 },
+    { "w": "扇子", "r": "せんす", "zh": "折扇", "en": "folding fan", "x": 250, "y": 458 },
+    { "w": "点てる", "r": "たてる", "zh": "点茶（搅打抹茶）", "en": "to whisk (tea)", "x": 500, "y": 340 },
+    { "w": "正座", "r": "せいざ", "zh": "正坐（跪坐）", "en": "to sit on one's knees", "x": 284, "y": 300 },
+    { "w": "お辞儀", "r": "おじぎ", "zh": "鞠躬", "en": "bow", "x": 170, "y": 348 }
+  ],
+  "sentences": [
+    { "ja": "{茶道|さどう}では{畳|たたみ}の{上|うえ}に{正座|せいざ}します。", "zh": "在茶道中要在榻榻米上正坐。", "en": "In the tea ceremony, you sit on your knees on the tatami." },
+    { "ja": "{先生|せんせい}が{茶筅|ちゃせん}で{抹茶|まっちゃ}を{点|た}てます。", "zh": "老师用茶筅点茶。", "en": "The teacher whisks the matcha with a bamboo whisk." },
+    { "ja": "{和菓子|わがし}を{食|た}べてから、{茶碗|ちゃわん}を{両手|りょうて}で{持|も}って{飲|の}みます。", "zh": "吃过和果子后，双手捧着茶碗喝。", "en": "After eating the sweets, you hold the tea bowl with both hands and drink." }
+  ]
+}

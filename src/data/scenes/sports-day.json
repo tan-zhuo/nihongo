@@ -1,0 +1,31 @@
+{
+  "id": "sports-day",
+  "n": 99,
+  "group": "culture",
+  "title": "運動会",
+  "title_zh": "运动会",
+  "title_en": "Sports day",
+  "words": [
+    { "w": "万国旗", "r": "ばんこくき", "zh": "万国旗", "en": "strings of flags", "x": 400, "y": 58 },
+    { "w": "テント", "r": "テント", "zh": "帐篷", "en": "tent", "x": 140, "y": 146 },
+    { "w": "家族", "r": "かぞく", "zh": "家人；家庭", "en": "family", "x": 104, "y": 236 },
+    { "w": "お弁当", "r": "おべんとう", "zh": "便当；盒饭", "en": "boxed lunch", "x": 178, "y": 272 },
+    { "w": "玉入れ", "r": "たまいれ", "zh": "投球入篮", "en": "ball-toss game", "x": 700, "y": 178 },
+    { "w": "玉", "r": "たま", "zh": "球；珠", "en": "ball", "x": 648, "y": 122 },
+    { "w": "綱引き", "r": "つなひき", "zh": "拔河", "en": "tug of war", "x": 440, "y": 318 },
+    { "w": "赤組", "r": "あかぐみ", "zh": "红队", "en": "red team", "x": 330, "y": 324 },
+    { "w": "白組", "r": "しろぐみ", "zh": "白队", "en": "white team", "x": 550, "y": 330 },
+    { "w": "ピストル", "r": "ピストル", "zh": "发令枪", "en": "starter pistol", "x": 300, "y": 366 },
+    { "w": "リレー", "r": "リレー", "zh": "接力赛", "en": "relay race", "x": 436, "y": 458 },
+    { "w": "バトン", "r": "バトン", "zh": "接力棒", "en": "baton", "x": 392, "y": 412 },
+    { "w": "速い", "r": "はやい", "zh": "快的", "en": "fast", "x": 560, "y": 458 },
+    { "w": "ゴール", "r": "ゴール", "zh": "终点", "en": "finish line; goal", "x": 690, "y": 424 },
+    { "w": "応援", "r": "おうえん", "zh": "支援；声援", "en": "support; cheering", "x": 150, "y": 464 },
+    { "w": "帽子", "r": "ぼうし", "zh": "帽子", "en": "hat; cap", "x": 80, "y": 404 }
+  ],
+  "sentences": [
+    { "ja": "{赤組|あかぐみ}と{白組|しろぐみ}が{綱引|つなひ}きをしています。", "zh": "红队和白队在拔河。", "en": "The red team and the white team are having a tug of war." },
+    { "ja": "リレーで{男|おとこ}の{子|こ}がバトンを{渡|わた}します。{一番|いちばん}{前|まえ}の{子|こ}はとても{速|はや}いです。", "zh": "接力赛中男孩传接力棒。最前面的孩子非常快。", "en": "In the relay a boy passes the baton. The child in front is very fast." },
+    { "ja": "{家族|かぞく}はテントの{下|した}でお{弁当|べんとう}を{食|た}べています。", "zh": "家人在帐篷下吃便当。", "en": "The family is eating their boxed lunch under the tent." }
+  ]
+}

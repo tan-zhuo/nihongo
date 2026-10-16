@@ -1,0 +1,34 @@
+{
+  "id": "pharmacy",
+  "n": 75,
+  "group": "town",
+  "title": "薬局",
+  "title_zh": "药店",
+  "title_en": "Pharmacy",
+  "words": [
+    { "w": "薬局", "r": "やっきょく", "zh": "药店", "en": "pharmacy", "x": 400, "y": 62 },
+    { "w": "薬剤師", "r": "やくざいし", "zh": "药剂师", "en": "pharmacist", "x": 560, "y": 262 },
+    { "w": "処方箋", "r": "しょほうせん", "zh": "处方", "en": "prescription", "x": 480, "y": 262 },
+    { "w": "薬", "r": "くすり", "zh": "药", "en": "medicine", "x": 640, "y": 300 },
+    { "w": "レジ", "r": "レジ", "zh": "收银台", "en": "cash register", "x": 730, "y": 278 },
+    { "w": "客", "r": "きゃく", "zh": "客人；顾客", "en": "guest; customer", "x": 396, "y": 446 },
+    { "w": "咳", "r": "せき", "zh": "咳嗽", "en": "cough", "x": 456, "y": 370 },
+    { "w": "袋", "r": "ふくろ", "zh": "袋子", "en": "bag; sack", "x": 438, "y": 448 },
+    { "w": "棚", "r": "たな", "zh": "架子", "en": "shelf", "x": 170, "y": 358 },
+    { "w": "錠剤", "r": "じょうざい", "zh": "药片", "en": "tablet; pill", "x": 90, "y": 158 },
+    { "w": "カプセル", "r": "カプセル", "zh": "胶囊", "en": "capsule", "x": 170, "y": 158 },
+    { "w": "ビタミン", "r": "ビタミン", "zh": "维生素", "en": "vitamin", "x": 250, "y": 158 },
+    { "w": "目薬", "r": "めぐすり", "zh": "眼药水", "en": "eye drops", "x": 90, "y": 238 },
+    { "w": "体温計", "r": "たいおんけい", "zh": "体温计", "en": "thermometer", "x": 170, "y": 238 },
+    { "w": "マスク", "r": "マスク", "zh": "口罩", "en": "mask", "x": 250, "y": 238 },
+    { "w": "湿布", "r": "しっぷ", "zh": "膏药", "en": "compress; poultice", "x": 90, "y": 318 },
+    { "w": "絆創膏", "r": "ばんそうこう", "zh": "创可贴", "en": "adhesive bandage", "x": 170, "y": 318 },
+    { "w": "粉薬", "r": "こなぐすり", "zh": "药粉", "en": "powdered medicine", "x": 250, "y": 318 }
+  ],
+  "sentences": [
+    { "ja": "{薬局|やっきょく}で{処方箋|しょほうせん}を{出|だ}して、{薬|くすり}をもらいます。", "zh": "在药店交处方，领药。", "en": "I hand in the prescription at the pharmacy and receive the medicine." },
+    { "ja": "{薬剤師|やくざいし}は「この{錠剤|じょうざい}は{一日|いちにち}に{二回|にかい}{飲|の}んでください」と{言|い}いました。", "zh": "药剂师说：“这种药片请一天吃两次。”", "en": "The pharmacist said, \"Please take these tablets twice a day.\"" },
+    { "ja": "{客|きゃく}は{咳|せき}が{出|で}るので、マスクも{買|か}いました。", "zh": "顾客因为咳嗽，也买了口罩。", "en": "The customer has a cough, so she also bought a mask." },
+    { "ja": "{棚|たな}に{目薬|めぐすり}や{絆創膏|ばんそうこう}が{並|なら}んでいます。", "zh": "架子上摆着眼药水和创可贴。", "en": "Eye drops and adhesive bandages are lined up on the shelf." }
+  ]
+}

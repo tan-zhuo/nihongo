@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="440" width="800" height="60" fill="#d8b48c" stroke="none"/>
+  <path d="M0 440h800" stroke="#b08a63" stroke-width="3"/>
+  <!-- wall boards -->
+  <path d="M0 130h800" stroke="#e3c9a3" stroke-width="6"/>
+  <!-- noren -->
+  <g data-w="15">
+    <rect x="190" y="14" width="440" height="10" rx="5" fill="#9c7450"/>
+    <path d="M204 24h136v90c-20 6-40-6-60 0s-40 6-60 0-16 0-16 0z" fill="#b5463f"/>
+    <path d="M344 24h136v90c-20 6-40-6-60 0s-40 6-60 0-16 0-16 0z" fill="#b5463f"/>
+    <path d="M484 24h136v90c-20 6-40-6-60 0s-40 6-60 0-16 0-16 0z" fill="#b5463f"/>
+    <circle cx="412" cy="66" r="24" fill="#ffffff" stroke="#f1b1aa"/>
+    <path d="M404 58c8 4 10 12 4 18s-10-2-6-6" stroke="#b5463f" stroke-width="2.5"/>
+  </g>
+  <!-- ticket vending machine -->
+  <g data-w="14">
+    <rect x="40" y="110" width="130" height="330" rx="8" fill="#7da2c4"/>
+    <rect x="52" y="124" width="106" height="150" rx="4" fill="#ede9e1"/>
+    <rect x="60" y="134" width="26" height="22" rx="3" fill="#d9736b"/>
+    <rect x="92" y="134" width="26" height="22" rx="3" fill="#f0cf6d"/>
+    <rect x="124" y="134" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="60" y="166" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="92" y="166" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="124" y="166" width="26" height="22" rx="3" fill="#9dc0a8"/>
+    <rect x="60" y="198" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="92" y="198" width="26" height="22" rx="3" fill="#e59a5b"/>
+    <rect x="124" y="198" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="60" y="230" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="92" y="230" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="124" y="230" width="26" height="22" rx="3" fill="#ffffff"/>
+    <rect x="60" y="292" width="40" height="8" rx="2" fill="#3f3a34"/>
+    <circle cx="140" cy="296" r="10" fill="#cfc9bd"/>
+    <path d="M140 290v12" stroke-width="3"/>
+    <rect x="52" y="330" width="106" height="28" rx="4" fill="#4a7fa3"/>
+    <path d="M70 344h70" stroke="#3f3a34" stroke-width="3"/>
+    <path d="M60 374h90v30h-90z" fill="#4a7fa3"/>
+    <rect x="40" y="414" width="130" height="26" fill="#4a7fa3"/>
+  </g>
+  <!-- customer behind the counter -->
+  <g data-w="16">
+    <path d="M636 290v-62c0-16 12-28 28-28h52c16 0 28 12 28 28v62z" fill="#4a7fa3"/>
+    <circle cx="690" cy="170" r="28" fill="#f5d2b4"/>
+    <path d="M662 166c2-22 54-22 56 0-8-8-18-12-28-12s-20 4-28 12z" fill="#4a3b32" stroke="none"/>
+    <circle cx="680" cy="172" r="2" fill="#3f3a34" stroke="none"/>
+    <circle cx="700" cy="172" r="2" fill="#3f3a34" stroke="none"/>
+    <ellipse cx="690" cy="184" rx="5" ry="4" fill="#b5463f"/>
+    <path d="M736 230l8-26" stroke="#4a7fa3" stroke-width="10"/>
+    <circle cx="746" cy="200" r="8" fill="#f5d2b4"/>
+    <path d="M742 194l-8-36M750 194l-2-36" stroke-width="2"/>
+    <path d="M734 158c-6 6-4 14 0 20s2 12-2 16" stroke="#f0cf6d" stroke-width="3"/>
+  </g>
+  <!-- counter -->
+  <rect x="190" y="290" width="610" height="180" fill="#e3c9a3"/>
+  <rect x="190" y="470" width="610" height="30" fill="#9c7450"/>
+  <path d="M190 290h610" stroke="#c49b6e"/>
+  <path d="M190 290v210" stroke="#9c7450" stroke-width="3"/>
+  <!-- steam -->
+  <g data-w="10">
+    <path d="M380 246c-8-12 8-20 0-34s6-20 0-30M430 240c-8-12 8-20 0-34s6-20 0-30M480 246c-8-12 8-20 0-34s6-20 0-30" stroke="#cfc9bd" stroke-width="3"/>
+  </g>
+  <!-- ramen bowl -->
+  <g data-w="1">
+    <path d="M282 300c0 64 50 112 148 112s148-48 148-112z" fill="#ffffff"/>
+    <path d="M292 330h276" stroke="#d9736b" stroke-width="4"/>
+    <path d="M300 344h260" stroke="#d9736b" stroke-width="2"/>
+    <ellipse cx="430" cy="300" rx="150" ry="48" fill="#ffffff"/>
+  </g>
+  <!-- soup -->
+  <g data-w="3">
+    <ellipse cx="430" cy="300" rx="138" ry="40" fill="#e3c9a3" stroke="#c49b6e"/>
+    <path d="M320 280c20-4 36 2 48 4" stroke="#f0cf6d" stroke-width="2"/>
+  </g>
+  <!-- nori at the back -->
+  <path d="M288 248h26v44h-26z" fill="#3f3a34"/>
+  <!-- noodles -->
+  <g data-w="2">
+    <path d="M300 300c14-10 26 10 40 0s26 10 40 0 26 10 40 0 26 10 40 0 26 10 40 0 26 10 40 0M310 316c14-10 26 10 40 0s26 10 40 0 26 10 40 0 26 10 40 0 26 10 40 0 26 10 40 0" stroke="#f0cf6d" stroke-width="4"/>
+    <path d="M396 318c-4-14 10-22 26-20 14-8 36-4 44 8 16 0 22 12 14 22-6 10-24 12-44 10-22 4-42-4-40-20z" fill="#f8e6ae"/>
+    <path d="M404 314c12-8 24 6 36-2s22 6 32 0M402 326c12-8 24 6 36-2s22 6 32 0M416 304c10-6 20 4 30-2" stroke="#e59a5b" stroke-width="2"/>
+  </g>
+  <!-- chashu -->
+  <g data-w="4">
+    <circle cx="318" cy="298" r="24" fill="#d8b48c" stroke="#f1b1aa" stroke-width="5"/>
+    <circle cx="318" cy="298" r="24" />
+    <path d="M304 290c10 4 18 12 22 24" stroke="#9c7450" stroke-width="2"/>
+    <circle cx="352" cy="312" r="22" fill="#d8b48c" stroke="#f1b1aa" stroke-width="5"/>
+    <circle cx="352" cy="312" r="22" />
+    <path d="M340 304c10 4 16 12 20 22" stroke="#9c7450" stroke-width="2"/>
+  </g>
+  <!-- menma -->
+  <g data-w="7">
+    <path d="M372 318l16-16h10l-16 16zM386 320l16-16h10l-16 16zM400 322l16-16h10l-16 16z" fill="#e59a5b"/>
+  </g>
+  <!-- seasoned egg -->
+  <g data-w="5">
+    <ellipse cx="445" cy="290" rx="24" ry="17" fill="#ffffff"/>
+    <circle cx="445" cy="291" r="10" fill="#e59a5b"/>
+    <circle cx="442" cy="288" r="3" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- green onion -->
+  <g data-w="6">
+    <circle cx="492" cy="290" r="6" fill="#9dc0a8" stroke="#5b8a72"/>
+    <circle cx="506" cy="296" r="6" fill="#9dc0a8" stroke="#5b8a72"/>
+    <circle cx="520" cy="288" r="6" fill="#9dc0a8" stroke="#5b8a72"/>
+    <circle cx="498" cy="304" r="5" fill="#9dc0a8" stroke="#5b8a72"/>
+    <circle cx="514" cy="306" r="5" fill="#9dc0a8" stroke="#5b8a72"/>
+    <circle cx="528" cy="300" r="5" fill="#9dc0a8" stroke="#5b8a72"/>
+  </g>
+  <!-- naruto -->
+  <g data-w="8">
+    <circle cx="550" cy="288" r="17" fill="#ffffff"/>
+    <path d="M550 288c-8-4-6-12 2-12 10 0 12 12 4 18-8 4-18-2-16-10" stroke="#d9736b" stroke-width="3"/>
+  </g>
+  <!-- renge spoon -->
+  <g data-w="9">
+    <path d="M540 320l62 30" stroke-width="12"/>
+    <path d="M540 320l62 30" stroke="#ffffff" stroke-width="8"/>
+    <ellipse cx="530" cy="318" rx="20" ry="11" fill="#ffffff"/>
+    <ellipse cx="530" cy="318" rx="12" ry="5" fill="#e3c9a3" stroke="none"/>
+  </g>
+  <!-- gyoza plate -->
+  <g data-w="11">
+    <path d="M196 440h110c0 10-8 16-24 16h-62c-16 0-24-6-24-16z" fill="#ffffff"/>
+    <path d="M202 440c0-14 10-22 22-22s22 8 22 22z" fill="#f8e6ae"/>
+    <path d="M208 428c6-4 10-4 16-2M226 426c6-4 10-4 16-2" stroke="#d8b48c" stroke-width="2"/>
+    <path d="M232 440c0-14 10-22 22-22s22 8 22 22z" fill="#f8e6ae"/>
+    <path d="M238 428c6-4 10-4 16-2M256 426c6-4 10-4 16-2" stroke="#d8b48c" stroke-width="2"/>
+    <path d="M262 440c0-14 10-22 22-22s22 8 22 22z" fill="#f8e6ae"/>
+    <path d="M268 428c6-4 10-4 16-2M286 426c6-4 10-4 16-2" stroke="#d8b48c" stroke-width="2"/>
+    <path d="M206 440h94" stroke="#e59a5b" stroke-width="3"/>
+  </g>
+  <!-- fried rice -->
+  <g data-w="12">
+    <path d="M598 436c0-22 20-34 44-34s44 12 44 34z" fill="#f0cf6d"/>
+    <path d="M590 436h104c0 10-10 16-26 16h-52c-16 0-26-6-26-16z" fill="#ffffff"/>
+    <circle cx="624" cy="416" r="4" fill="#9dc0a8" stroke="none"/>
+    <circle cx="652" cy="414" r="4" fill="#d9736b" stroke="none"/>
+    <circle cx="640" cy="426" r="4" fill="#9dc0a8" stroke="none"/>
+    <path d="M612 428h12M656 428h12" stroke="#e59a5b" stroke-width="2.5"/>
+  </g>
+  <!-- extra noodles -->
+  <g data-w="13">
+    <path d="M708 438h72c0 8-6 14-18 14h-36c-12 0-18-6-18-14z" fill="#ffffff"/>
+    <ellipse cx="744" cy="432" rx="28" ry="14" fill="#f0cf6d"/>
+    <path d="M722 428c8-6 14 6 22 0s14 6 22 0M724 438c8-6 14 6 22 0s14 6 20 0" stroke="#e59a5b" stroke-width="2"/>
+  </g>
+</svg>

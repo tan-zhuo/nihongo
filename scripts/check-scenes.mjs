@@ -64,7 +64,7 @@ for (const file of files.sort()) {
   let s
   try { s = JSON.parse(fs.readFileSync(`${DIR}/${file}`, 'utf8')) } catch (e) { fail(at, `bad JSON: ${e.message}`); continue }
   if (s.id !== id) fail(at, `id "${s.id}" ≠ filename`)
-  if (!Number.isInteger(s.n) || s.n < 1 || s.n > 50) fail(at, `n must be 1–50, got ${s.n}`)
+  if (!Number.isInteger(s.n) || s.n < 1 || s.n > 100) fail(at, `n must be 1–100, got ${s.n}`)
   if (seenN.has(s.n)) fail(at, `n=${s.n} already used by ${seenN.get(s.n)}`)
   seenN.set(s.n, id)
   if (!GROUPS.has(s.group)) fail(at, `unknown group ${s.group}`)
@@ -134,7 +134,7 @@ for (const file of files.sort()) {
 
 if (only.length === 0) {
   const missing = []
-  for (let n = 1; n <= 50; n++) if (!seenN.has(n)) missing.push(n)
+  for (let n = 1; n <= 100; n++) if (!seenN.has(n)) missing.push(n)
   if (missing.length) console.log(`  (scenes not yet written: n = ${missing.join(', ')})`)
 }
 console.log(`${files.length} scenes, ${totalWords} words (${inVocab} in the 4200-word list), ${errors} error(s)`)

@@ -1,0 +1,33 @@
+{
+  "id": "japanese-room",
+  "n": 56,
+  "group": "home",
+  "title": "和室",
+  "title_zh": "和室",
+  "title_en": "Japanese-style room",
+  "words": [
+    { "w": "畳", "r": "たたみ", "zh": "榻榻米", "en": "tatami mat", "x": 710, "y": 468 },
+    { "w": "障子", "r": "しょうじ", "zh": "纸拉门", "en": "shoji (paper sliding door)", "x": 565, "y": 262 },
+    { "w": "襖", "r": "ふすま", "zh": "隔扇", "en": "fusuma (sliding door)", "x": 705, "y": 270 },
+    { "w": "座布団", "r": "ざぶとん", "zh": "坐垫", "en": "floor cushion", "x": 620, "y": 440 },
+    { "w": "こたつ", "r": "こたつ", "zh": "被炉", "en": "kotatsu (heated table)", "x": 305, "y": 420 },
+    { "w": "床の間", "r": "とこのま", "zh": "壁龛", "en": "alcove", "x": 250, "y": 290 },
+    { "w": "掛け軸", "r": "かけじく", "zh": "挂轴", "en": "hanging scroll", "x": 310, "y": 190 },
+    { "w": "布団", "r": "ふとん", "zh": "被褥", "en": "futon; bedding", "x": 68, "y": 160 },
+    { "w": "押し入れ", "r": "おしいれ", "zh": "壁橱", "en": "closet (Japanese-style)", "x": 110, "y": 250 },
+    { "w": "湯呑み", "r": "ゆのみ", "zh": "茶杯", "en": "teacup", "x": 300, "y": 352 },
+    { "w": "急須", "r": "きゅうす", "zh": "茶壶", "en": "teapot", "x": 225, "y": 352 },
+    { "w": "みかん", "r": "みかん", "zh": "橘子", "en": "mandarin orange", "x": 385, "y": 352 },
+    { "w": "座る", "r": "すわる", "zh": "坐", "en": "to sit", "x": 500, "y": 365 },
+    { "w": "電気", "r": "でんき", "zh": "电；电灯", "en": "electricity; electric light", "x": 400, "y": 62 },
+    { "w": "庭", "r": "にわ", "zh": "院子；庭院", "en": "garden; yard", "x": 475, "y": 170 },
+    { "w": "花", "r": "はな", "zh": "花", "en": "flower", "x": 375, "y": 232 },
+    { "w": "枕", "r": "まくら", "zh": "枕头", "en": "pillow", "x": 68, "y": 108 }
+  ],
+  "sentences": [
+    { "ja": "{畳|たたみ}の{部屋|へや}にこたつがあります。", "zh": "榻榻米房间里有被炉。", "en": "There is a kotatsu in the tatami room." },
+    { "ja": "{父|ちち}は{座布団|ざぶとん}に{座|すわ}って、お{茶|ちゃ}を{飲|の}んでいます。", "zh": "爸爸坐在坐垫上喝茶。", "en": "Dad is sitting on a floor cushion drinking tea." },
+    { "ja": "{押|お}し{入|い}れの{中|なか}に{布団|ふとん}と{枕|まくら}があります。", "zh": "壁橱里有被褥和枕头。", "en": "There is a futon and a pillow in the closet." },
+    { "ja": "{床|とこ}の{間|ま}に{掛|か}け{軸|じく}と{花|はな}が{飾|かざ}ってあります。", "zh": "壁龛里挂着挂轴，摆着花。", "en": "A hanging scroll and flowers are displayed in the alcove." }
+  ]
+}

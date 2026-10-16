@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- lobby -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="376" width="800" height="124" fill="#d8b48c" stroke="none"/>
+  <path d="M480 376h320" stroke="#b08a63" stroke-width="3"/>
+  <path d="M480 416h320M480 456h320" stroke="#c49b6e" stroke-width="1.5"/>
+  <!-- auditorium (dark) -->
+  <rect x="0" y="0" width="480" height="500" fill="#8c867c" stroke="none"/>
+  <rect x="0" y="0" width="480" height="34" fill="#5e4634" stroke="none"/>
+  <g data-w="11">
+    <rect x="0" y="376" width="480" height="124" fill="#5e4634" stroke="none"/>
+    <path d="M0 420h400M0 460h400" stroke="#4a3b32" stroke-width="1.5"/>
+  </g>
+  <path d="M0 376h480" stroke="#3f3a34" stroke-width="3"/>
+  <rect x="470" y="0" width="12" height="500" fill="#3f3a34" stroke="none"/>
+  <!-- small aisle lights -->
+  <circle cx="30" cy="300" r="4" fill="#f0cf6d" stroke="none"/>
+  <circle cx="30" cy="230" r="4" fill="#f0cf6d" stroke="none"/>
+
+  <!-- screen -->
+  <g data-w="1">
+    <rect x="46" y="40" width="334" height="166" rx="4" fill="#ffffff"/>
+    <rect x="54" y="48" width="318" height="150" fill="#4a7fa3" stroke="none"/>
+    <circle cx="110" cy="90" r="20" fill="#f8e6ae" stroke="none"/>
+    <path d="M160 70l2 4 4 2-4 2-2 4-2-4-4-2 4-2zM300 64l2 4 4 2-4 2-2 4-2-4-4-2 4-2zM240 110l1 3 3 1-3 1-1 3-1-3-3-1 3-1zM340 130l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#ffffff" stroke="none"/>
+    <path d="M54 198c40-30 80-40 130-30s90 20 188-10v40h-318z" fill="#3d614f" stroke="none"/>
+    <path d="M250 150l20-60 20 60-8 10h-24z" fill="#d9736b"/>
+    <path d="M250 150l-14 14h18zM290 150l14 14h-18z" fill="#e59a5b"/>
+    <circle cx="270" cy="120" r="7" fill="#b9cfe3"/>
+    <path d="M262 164c4 16 12 16 16 0" fill="#f0cf6d"/>
+  </g>
+
+  <!-- exit sign, door and stairs -->
+  <g data-w="9">
+    <rect x="420" y="60" width="50" height="30" rx="3" fill="#5b8a72"/>
+    <circle cx="434" cy="68" r="3.5" fill="#ffffff" stroke="none"/>
+    <path d="M430 84l4-10 6 2 4 8M432 76l-4 4M440 76l4 2" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M450 76h12M458 72l4 4-4 4" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+  <rect x="426" y="120" width="44" height="114" fill="#3d614f"/>
+  <path d="M434 180h28" stroke="#cfc9bd" stroke-width="4"/>
+  <g data-w="16">
+    <path d="M398 376v-24h12v-24h12v-24h12v-24h12v-24h12v-24h12v168z" fill="#9c7450"/>
+    <path d="M398 352h12M410 328h12M422 304h12M434 280h12M446 256h12" stroke="#5e4634"/>
+  </g>
+
+  <!-- empty seats -->
+  <g data-w="2">
+    <rect x="62" y="230" width="56" height="66" rx="10" fill="#b5463f"/>
+    <rect x="60" y="288" width="60" height="18" rx="4" fill="#d9736b"/>
+    <rect x="202" y="230" width="56" height="66" rx="10" fill="#b5463f"/>
+    <rect x="200" y="288" width="60" height="18" rx="4" fill="#d9736b"/>
+    <rect x="342" y="230" width="56" height="66" rx="10" fill="#b5463f"/>
+    <rect x="340" y="288" width="60" height="18" rx="4" fill="#d9736b"/>
+    <rect x="237" y="300" width="56" height="66" rx="10" fill="#b5463f"/>
+    <rect x="235" y="358" width="60" height="18" rx="4" fill="#d9736b"/>
+  </g>
+  <!-- occupied seats (back row) -->
+  <rect x="132" y="230" width="56" height="66" rx="10" fill="#b5463f"/>
+  <rect x="272" y="230" width="56" height="66" rx="10" fill="#b5463f"/>
+  <!-- audience (back row) -->
+  <g data-w="12">
+    <path d="M142 296v-26c0-10 8-16 18-16s18 6 18 16v26z" fill="#7da2c4"/>
+    <circle cx="160" cy="246" r="15" fill="#f5d2b4"/>
+    <path d="M145 244c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M156 250c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M282 296v-26c0-10 8-16 18-16s18 6 18 16v26z" fill="#a58bc0"/>
+    <circle cx="300" cy="246" r="15" fill="#f5d2b4"/>
+    <path d="M285 244c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="300" cy="226" r="7" fill="#4a3b32"/>
+    <path d="M296 250c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <rect x="130" y="288" width="60" height="18" rx="4" fill="#d9736b"/>
+  <rect x="270" y="288" width="60" height="18" rx="4" fill="#d9736b"/>
+  <!-- occupied seats (front row) -->
+  <rect x="167" y="300" width="56" height="66" rx="10" fill="#b5463f"/>
+  <rect x="307" y="300" width="56" height="66" rx="10" fill="#b5463f"/>
+  <!-- crying -->
+  <g data-w="13">
+    <path d="M177 366v-26c0-10 8-16 18-16s18 6 18 16v26z" fill="#5b8a72"/>
+    <circle cx="195" cy="316" r="15" fill="#f5d2b4"/>
+    <path d="M180 314c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M187 314l6 2M203 314l-6 2" stroke-width="1.5"/>
+    <path d="M191 324c2-2 6-2 8 0" stroke-width="1.5"/>
+    <path d="M186 320c-3 6-3 10 0 10s3-4 0-10zM204 320c3 6 3 10 0 10s-3-4 0-10z" fill="#7da2c4" stroke="#4a7fa3" stroke-width="1"/>
+    <path d="M178 346h-6l-2 8" stroke="#f5d2b4" stroke-width="6"/>
+  </g>
+  <!-- laughing -->
+  <g data-w="14">
+    <path d="M317 366v-26c0-10 8-16 18-16s18 6 18 16v26z" fill="#e59a5b"/>
+    <circle cx="335" cy="316" r="15" fill="#f5d2b4"/>
+    <path d="M320 314c0-18 30-18 30 0-4-6-10-8-15-8s-11 2-15 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M326 314c2-2 4-2 6 0M338 314c2-2 4-2 6 0" stroke-width="1.5"/>
+    <path d="M328 320c2 8 12 8 14 0z" fill="#d9736b"/>
+    <path d="M353 346l6-2 2-8" stroke="#f5d2b4" stroke-width="6"/>
+  </g>
+  <rect x="165" y="358" width="60" height="18" rx="4" fill="#d9736b"/>
+  <rect x="305" y="358" width="60" height="18" rx="4" fill="#d9736b"/>
+
+  <!-- entrance door -->
+  <g data-w="8">
+    <rect x="488" y="158" width="78" height="12" rx="3" fill="#b5463f"/>
+    <rect x="492" y="170" width="70" height="206" fill="#9c7450"/>
+    <rect x="498" y="178" width="26" height="130" fill="#d6e7f0"/>
+    <rect x="530" y="178" width="26" height="130" fill="#d6e7f0"/>
+    <path d="M527 170v206" />
+    <path d="M520 220v30M534 220v30" stroke-width="4"/>
+  </g>
+  <!-- poster -->
+  <g data-w="6" transform="translate(14 0)">
+    <rect x="586" y="50" width="80" height="112" fill="#3f3a34"/>
+    <rect x="592" y="56" width="68" height="100" fill="#f0cf6d" stroke="none"/>
+    <path d="M592 156c10-24 20-36 34-36s24 12 34 36z" fill="#5b8a72" stroke="none"/>
+    <circle cx="626" cy="98" r="14" fill="#f5d2b4"/>
+    <path d="M612 96c0-16 28-16 28 0-4-6-8-8-14-8s-10 2-14 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M620 102c2 3 10 3 12 0" stroke-width="1.5"/>
+    <path d="M598 66h22M598 72h14" stroke="#b5463f" stroke-width="3"/>
+  </g>
+
+  <!-- customer with 3D glasses and ticket -->
+  <g>
+    <rect x="588" y="300" width="12" height="72" rx="5" fill="#4a7fa3"/>
+    <rect x="604" y="300" width="12" height="72" rx="5" fill="#4a7fa3"/>
+    <path d="M584 380h18v-8h-18zM604 380h18v-8h-18z" fill="#3f3a34"/>
+    <path d="M582 304v-80c0-14 8-22 20-22s20 8 20 22v80z" fill="#d9736b"/>
+    <path d="M586 216l-14 28" stroke="#3f3a34" stroke-width="14"/>
+    <path d="M586 216l-14 28" stroke="#f5d2b4" stroke-width="10"/>
+    <circle cx="602" cy="188" r="18" fill="#f5d2b4"/>
+    <path d="M584 184c2-18 34-18 36 0-6-8-12-10-18-10s-12 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M598 198c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <g data-w="10">
+    <path d="M582 184h40" stroke-width="3"/>
+    <rect x="587" y="182" width="14" height="10" rx="2" fill="#d9736b"/>
+    <rect x="603" y="182" width="14" height="10" rx="2" fill="#7da2c4"/>
+  </g>
+  <g data-w="3">
+    <path d="M556 236l32 4-2 18-32-4z" fill="#f0cf6d"/>
+    <path d="M566 238v18" stroke-dasharray="2 2"/>
+    <path d="M572 244l10 1M571 250l10 1" stroke="#3f3a34" stroke-width="1.5"/>
+  </g>
+
+  <!-- popcorn machine (behind counter) -->
+  <g>
+    <rect x="624" y="184" width="46" height="78" rx="3" fill="#d6e7f0"/>
+    <rect x="618" y="172" width="58" height="14" rx="3" fill="#b5463f"/>
+    <path d="M630 262v-44c4-10 10-14 17-14s13 4 17 14v44z" fill="#f8e6ae" stroke="none"/>
+    <circle cx="638" cy="214" r="5" fill="#ffffff"/>
+    <circle cx="652" cy="208" r="5" fill="#ffffff"/>
+    <circle cx="656" cy="226" r="5" fill="#ffffff"/>
+    <circle cx="642" cy="230" r="5" fill="#ffffff"/>
+  </g>
+  <!-- clerk -->
+  <g data-w="15">
+    <path d="M716 262v-28c0-12 10-20 24-20s24 8 24 20v28z" fill="#b5463f"/>
+    <circle cx="740" cy="200" r="18" fill="#f5d2b4"/>
+    <path d="M722 196c2-18 34-18 36 0-6-8-12-10-18-10s-12 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <path d="M720 190c0-12 40-12 40 0z" fill="#b5463f"/>
+    <path d="M720 190h44" stroke="#b5463f" stroke-width="5"/>
+    <path d="M734 206c2 2 10 2 12 0" stroke-width="1.5"/>
+  </g>
+  <!-- counter -->
+  <g data-w="7">
+    <rect x="600" y="262" width="190" height="114" fill="#4a7fa3"/>
+    <path d="M600 276h190" stroke="#b9cfe3"/>
+    <rect x="594" y="256" width="202" height="10" rx="3" fill="#cfc9bd"/>
+    <circle cx="640" cy="326" r="12" fill="#f0cf6d"/>
+    <circle cx="640" cy="326" r="5" fill="#ffffff"/>
+  </g>
+  <!-- popcorn bucket -->
+  <g data-w="4">
+    <path d="M688 230l4 32h36l4-32z" fill="#ffffff"/>
+    <path d="M696 232l3 28M710 232v28M724 232l-3 28" stroke="#d9736b" stroke-width="5"/>
+    <circle cx="698" cy="226" r="7" fill="#f8e6ae"/>
+    <circle cx="712" cy="220" r="7" fill="#f8e6ae"/>
+    <circle cx="724" cy="226" r="7" fill="#f8e6ae"/>
+    <circle cx="706" cy="214" r="6" fill="#f8e6ae"/>
+    <circle cx="718" cy="212" r="6" fill="#f8e6ae"/>
+  </g>
+  <!-- drink -->
+  <g data-w="5">
+    <path d="M748 226l4 36h26l4-36z" fill="#7da2c4"/>
+    <rect x="744" y="218" width="42" height="10" rx="3" fill="#d6e7f0"/>
+    <path d="M768 218l6-24" stroke-width="3" stroke="#d9736b"/>
+    <path d="M756 238h16" stroke="#d6e7f0" stroke-width="3"/>
+  </g>
+</svg>
