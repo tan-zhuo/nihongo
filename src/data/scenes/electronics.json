@@ -1,0 +1,34 @@
+{
+  "id": "electronics",
+  "n": 9,
+  "group": "home",
+  "title": "電化製品",
+  "title_zh": "家用电器",
+  "title_en": "Home electronics",
+  "words": [
+    { "w": "テレビ", "r": "テレビ", "zh": "电视", "en": "television", "x": 360, "y": 236 },
+    { "w": "冷蔵庫", "r": "れいぞうこ", "zh": "冰箱", "en": "refrigerator", "x": 90, "y": 318 },
+    { "w": "洗濯機", "r": "せんたくき", "zh": "洗衣机", "en": "washing machine", "x": 195, "y": 318 },
+    { "w": "エアコン", "r": "エアコン", "zh": "空调", "en": "air conditioner", "x": 685, "y": 100 },
+    { "w": "電子レンジ", "r": "でんしレンジ", "zh": "微波炉", "en": "microwave oven", "x": 545, "y": 240 },
+    { "w": "掃除機", "r": "そうじき", "zh": "吸尘器", "en": "vacuum cleaner", "x": 548, "y": 346 },
+    { "w": "パソコン", "r": "パソコン", "zh": "电脑", "en": "personal computer", "x": 114, "y": 412 },
+    { "w": "スマホ", "r": "スマホ", "zh": "智能手机", "en": "smartphone", "x": 196, "y": 412 },
+    { "w": "カメラ", "r": "カメラ", "zh": "相机", "en": "camera", "x": 271, "y": 412 },
+    { "w": "ドライヤー", "r": "ドライヤー", "zh": "吹风机", "en": "hair dryer", "x": 361, "y": 412 },
+    { "w": "電話", "r": "でんわ", "zh": "电话", "en": "telephone", "x": 444, "y": 412 },
+    { "w": "ラジオ", "r": "ラジオ", "zh": "收音机", "en": "radio", "x": 511, "y": 412 },
+    { "w": "時計", "r": "とけい", "zh": "钟表；手表", "en": "clock; watch", "x": 525, "y": 122 },
+    { "w": "充電器", "r": "じゅうでんき", "zh": "充电器", "en": "charger", "x": 586, "y": 412 },
+    { "w": "コンセント", "r": "コンセント", "zh": "插座", "en": "electrical outlet", "x": 676, "y": 412 },
+    { "w": "扇風機", "r": "せんぷうき", "zh": "电风扇", "en": "electric fan", "x": 630, "y": 348 },
+    { "w": "ストーブ", "r": "ストーブ", "zh": "取暖炉", "en": "heater; stove", "x": 725, "y": 348 },
+    { "w": "店員", "r": "てんいん", "zh": "店员", "en": "shop clerk", "x": 470, "y": 300 }
+  ],
+  "sentences": [
+    { "ja": "この{店|みせ}には{冷蔵庫|れいぞうこ}や{洗濯機|せんたくき}があります。", "zh": "这家店里有冰箱和洗衣机等。", "en": "This shop has refrigerators, washing machines and more." },
+    { "ja": "{新|あたら}しいテレビは{大|おお}きくて、きれいです。", "zh": "新电视又大又清晰。", "en": "The new TV is big and clear." },
+    { "ja": "{店員|てんいん}はお{客|きゃく}さんにパソコンを{見|み}せています。", "zh": "店员正在给客人看电脑。", "en": "The clerk is showing a computer to a customer." },
+    { "ja": "{電子|でんし}レンジで{弁当|べんとう}を{温|あたた}めます。", "zh": "用微波炉加热便当。", "en": "I heat up a boxed lunch in the microwave." }
+  ]
+}

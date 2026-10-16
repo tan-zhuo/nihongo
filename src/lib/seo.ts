@@ -1,4 +1,4 @@
-import type { Article, TextbookBook, TextbookLesson } from '../types'
+import type { Article, Scene, TextbookBook, TextbookLesson } from '../types'
 
 export const ORIGIN = 'https://www.nihongo.ink'
 
@@ -21,6 +21,14 @@ export const PAGE_META: Record<string, PageMeta> = {
     desc: 'Practice typing 58 graded Japanese articles: 40 original essays from JLPT N5 to N1 plus 18 classic folktales and bedtime stories — 桃太郎, 浦島太郎, かぐや姫, 七夕 and more. Furigana, translations and audio included.',
   },
   '/vocab': {
+    title: 'Japanese Dictionary — 4,200 JLPT N5–N1 Words with Audio & Pitch Accent — nihongo.ink',
+    desc: 'Look up 4,200 common Japanese words by kanji, kana, romaji, Chinese or English. Every entry has audio, pitch accent, JLPT level, example sentences and picture scenes. Browse in gojūon order like a dictionary.',
+  },
+  '/vocab/scenes': {
+    title: 'Japanese Picture Dictionary — 50 Illustrated Scenes (場面で覚える単語) — nihongo.ink',
+    desc: 'Learn Japanese vocabulary from pictures: 50 illustrated scenes — the kitchen, the station, a convenience store, a summer festival — with every object labelled in Japanese. Tap a label for reading, meaning, audio and example sentences.',
+  },
+  '/vocab/practice': {
     title: 'Japanese Vocabulary Typing Practice — 4,200 JLPT Words — nihongo.ink',
     desc: 'Type 4,200 common Japanese words from JLPT N5 to N1. Two modes: see the meaning and type the Japanese, or see the Japanese and type the meaning. Filter by level and kana row.',
   },
@@ -102,6 +110,16 @@ export function textbookLessonMeta(book: TextbookBook, lesson: TextbookLesson): 
         .slice(0, 8)
         .map((w) => w.w)
         .join('、')}… 卡片记忆与选择题练习，带读音和中英释义。`,
+    ),
+  }
+}
+
+export function sceneMeta(s: Scene): PageMeta {
+  const words = s.words.slice(0, 8).map((w) => w.w).join('・')
+  return {
+    title: `${s.title}（${s.title_zh} · ${s.title_en}）— Japanese Picture Dictionary | nihongo.ink`,
+    desc: clip(
+      `${s.title_en} in Japanese, as a labelled picture: ${words}… ${s.words.length} words with readings, meanings, audio and example sentences. 看图学日语：${s.title_zh}场景的 ${s.words.length} 个单词。`,
     ),
   }
 }

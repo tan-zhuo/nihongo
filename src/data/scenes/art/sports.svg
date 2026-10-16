@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="hd"><circle r="13" fill="#f5d2b4"/><path d="M-13-3c3-12 23-12 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#4a3b32" stroke="none"/><path d="M-6 1c1 2 3 2 4 0M2 1c1 2 3 2 4 0" stroke-width="1.5"/><path d="M-3 7c2 2 4 2 6 0" stroke-width="1.5"/></g>
+    <g id="judoka"><path d="M-12 0v-34c0-8 6-12 12-12s12 4 12 12V0z" fill="#ffffff"/><path d="M-14 0h28v26h-10v-18h-8v18h-10z" fill="#ffffff"/><path d="M-6-46l6 22 6-22" stroke-width="1.5"/></g>
+  </defs>
+  <!-- sky, mountain, field, track -->
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <path d="M60 60c6-12 22-12 28-4 10-6 26 0 24 10 6 4 2 12-6 12H58c-10 0-12-14 2-18z" fill="#ffffff" stroke="none"/>
+  <path d="M380 44c6-12 22-12 28-4 10-6 26 0 24 10 6 4 2 12-6 12h-48c-10 0-12-14 2-18z" fill="#ffffff" stroke="none"/>
+  <path d="M540 132l110-80 60 36 50-32 50 36v40H540z" fill="#ffffff"/>
+  <path d="M600 132l50-60 20 14" stroke="#ede9e1"/>
+  <rect x="0" y="130" width="800" height="370" fill="#9dc0a8" stroke="none"/>
+  <path d="M0 130h800" stroke="#5b8a72"/>
+  <path d="M0 200h800M0 270h800M0 340h800" stroke="#a9c9b3" stroke-width="12"/>
+  <rect x="0" y="448" width="800" height="52" fill="#f1b1aa" stroke="none"/>
+  <path d="M0 448h800" stroke="#d9736b"/>
+  <path d="M0 466h800M0 484h800" stroke="#ffffff" stroke-width="1.5"/>
+
+  <!-- skier -->
+  <g data-w="10">
+    <path d="M676 128l34-8M680 134l34-8" stroke="#4a7fa3" stroke-width="3"/>
+    <path d="M700 96l-14 30M704 100l20 20" stroke="#8c867c"/>
+    <path d="M686 120l8-28c2-6 6-8 10-8h4c6 0 10 4 10 10l2 26z" fill="#7da2c4"/>
+    <circle cx="694" cy="74" r="11" fill="#f5d2b4"/>
+    <path d="M682 72c2-12 22-12 24 0z" fill="#d9736b"/>
+    <circle cx="694" cy="60" r="3" fill="#d9736b"/>
+    <path d="M691 76c1 2 3 2 4 0M697 76c1 2 3 2 4 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- goal -->
+  <g data-w="2">
+    <rect x="38" y="182" width="96" height="94" fill="#ede9e1"/>
+    <path d="M38 196h96M38 210h96M38 224h96M38 238h96M38 252h96M38 266h96M52 182v94M66 182v94M80 182v94M94 182v94M108 182v94M122 182v94" stroke="#cfc9bd" stroke-width="1"/>
+    <path d="M38 276V182h96v94" stroke="#ffffff" stroke-width="5"/>
+    <path d="M38 276V182h96v94"/>
+  </g>
+  <!-- soccer player -->
+  <g data-w="1">
+    <path d="M206 262l2 14M194 262l-20 4" stroke="#f5d2b4" stroke-width="6"/>
+    <path d="M204 276h10M170 262l-6 6" stroke-width="4"/>
+    <path d="M186 252v-30c0-8 6-12 14-12s14 4 14 12v30z" fill="#d9736b"/>
+    <path d="M186 250h28v12h-28z" fill="#ffffff"/>
+    <path d="M186 224l-10 16M214 224l10 16" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="200" y="198"/>
+  </g>
+  <!-- ball -->
+  <g data-w="3">
+    <circle cx="150" cy="266" r="11" fill="#ffffff"/>
+    <path d="M150 260l5 4-2 6h-6l-2-6z" fill="#3f3a34" stroke="none"/>
+    <path d="M150 260v-5M155 264l5-2M153 270l3 4M147 270l-3 4M145 264l-5-2" stroke-width="1.5"/>
+  </g>
+
+  <!-- tennis player -->
+  <g data-w="4">
+    <path d="M288 252v-30c0-8 6-12 14-12s14 4 14 12v30z" fill="#ffffff"/>
+    <path d="M286 250h32l4 14h-40z" fill="#7da2c4"/>
+    <path d="M288 264l-2 12h8l2-12M310 264l2 12h8l-2-12" fill="#f5d2b4"/>
+    <path d="M288 224l-12 10M314 222l14-14" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="302" y="198"/>
+  </g>
+  <!-- racket -->
+  <g data-w="5">
+    <path d="M328 210l12-14" stroke="#9c7450" stroke-width="4"/>
+    <ellipse cx="348" cy="186" rx="12" ry="16" transform="rotate(40 348 186)" fill="#ede9e1"/>
+    <path d="M340 180l14 14M344 176l12 12M338 186l12 12" stroke="#cfc9bd" stroke-width="1"/>
+    <circle cx="372" cy="172" r="5" fill="#f0cf6d"/>
+  </g>
+
+  <!-- basketball -->
+  <g data-w="6">
+    <rect x="452" y="166" width="6" height="110" fill="#8c867c"/>
+    <rect x="432" y="140" width="46" height="34" fill="#ffffff"/>
+    <rect x="446" y="150" width="18" height="14" stroke="#d9736b"/>
+    <ellipse cx="444" cy="176" rx="12" ry="4" fill="#e59a5b"/>
+    <path d="M434 178l4 16M444 180v16M454 178l-4 16M436 190h16" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M392 252v-30c0-8 6-12 14-12s14 4 14 12v30z" fill="#e59a5b"/>
+    <path d="M392 250h28v12h-28z" fill="#ffffff"/>
+    <path d="M392 264l-2 12h8l2-12M414 264l2 12h8l-2-12" fill="#f5d2b4"/>
+    <path d="M392 218l4-32M420 218l-4-32" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="406" y="200"/>
+    <circle cx="406" cy="176" r="13" fill="#e59a5b"/>
+    <path d="M393 176h26M406 163v26" stroke="#3f3a34" stroke-width="1.5"/>
+  </g>
+
+  <!-- baseball batter -->
+  <g data-w="7">
+    <path d="M530 280l16-6 16 6-16 4z" fill="#ffffff"/>
+    <path d="M532 252v-30c0-8 6-12 14-12s14 4 14 12v30z" fill="#ffffff"/>
+    <path d="M546 212v40M538 230h16" stroke="#7da2c4" stroke-width="1.5"/>
+    <path d="M530 250h32v16h-32z" fill="#8c867c"/>
+    <path d="M532 266l-2 12h8l2-12M556 266l2 12h8l-2-12" fill="#f5d2b4"/>
+    <path d="M534 224l20 2M558 222l6 4" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="546" y="200"/>
+    <path d="M532 196c2-12 26-12 28 0h6" fill="#4a7fa3"/>
+    <circle cx="505" cy="214" r="5" fill="#ffffff"/>
+    <path d="M503 211c-1 2-1 4 0 6M507 211c1 2 1 4 0 6" stroke="#b5463f" stroke-width="1"/>
+  </g>
+  <!-- bat -->
+  <g data-w="8">
+    <path d="M562 226l20-50" stroke="#9c7450" stroke-width="9"/>
+    <path d="M560 228l4-10" stroke="#5e4634" stroke-width="5"/>
+  </g>
+
+  <!-- golfer -->
+  <g data-w="9">
+    <rect x="738" y="182" width="3" height="92" fill="#8c867c"/>
+    <path d="M741 184l20 8-20 8z" fill="#d9736b"/>
+    <ellipse cx="740" cy="276" rx="9" ry="3" fill="#3f3a34"/>
+    <path d="M652 252v-30c0-8 6-12 14-12s14 4 14 12v30z" fill="#5b8a72"/>
+    <path d="M652 250h28v14h-28z" fill="#cfc9bd"/>
+    <path d="M652 264l-2 12h8l2-12M674 264l2 12h8l-2-12" fill="#f5d2b4"/>
+    <path d="M656 226l20 18M680 224l-4 20" stroke="#f5d2b4" stroke-width="6"/>
+    <path d="M680 246l20 28" stroke="#8c867c" stroke-width="3"/>
+    <path d="M696 272l12 4" stroke="#8c867c" stroke-width="5"/>
+    <circle cx="712" cy="274" r="3" fill="#ffffff"/>
+    <use href="#hd" x="666" y="200"/>
+    <path d="M652 196c2-12 26-12 28 0h8" fill="#f0cf6d"/>
+  </g>
+
+  <!-- pool with swimmer -->
+  <g data-w="11">
+    <rect x="34" y="334" width="182" height="92" fill="#cfc9bd"/>
+    <rect x="40" y="340" width="170" height="80" fill="#7da2c4"/>
+    <path d="M40 366h170M40 394h170" stroke="#ffffff" stroke-dasharray="6 4"/>
+    <path d="M136 380c10-16 22-20 32-12" stroke="#f5d2b4" stroke-width="7"/>
+    <circle cx="170" cy="364" r="5" fill="#f5d2b4"/>
+    <path d="M96 384c10-10 30-10 40 0z" fill="#7da2c4" stroke="#b9cfe3"/>
+    <circle cx="118" cy="374" r="12" fill="#f5d2b4"/>
+    <path d="M106 372c2-12 22-12 24 0z" fill="#d9736b"/>
+    <path d="M108 376h20" stroke="#4a7fa3" stroke-width="4"/>
+    <path d="M114 383c2 1 4 1 6 0" stroke-width="1.5"/>
+    <circle cx="88" cy="372" r="3" fill="#ffffff" stroke="#b9cfe3"/>
+    <circle cx="150" cy="390" r="3" fill="#ffffff" stroke="#b9cfe3"/>
+  </g>
+
+  <!-- judo -->
+  <g data-w="12">
+    <rect x="226" y="398" width="128" height="32" rx="3" fill="#f0cf6d"/>
+    <path d="M226 414h128" stroke="#d9a94a"/>
+    <use href="#judoka" x="266" y="404"/>
+    <use href="#judoka" x="314" y="404"/>
+    <path d="M254 384h24M304 384h24" stroke-width="4"/>
+    <path d="M304 384h24" stroke="#ffffff" stroke-width="2"/>
+    <path d="M276 376l30-6M276 386l30 4" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="266" y="350"/>
+    <use href="#hd" x="314" y="350"/>
+  </g>
+
+  <!-- sumo -->
+  <g data-w="13">
+    <ellipse cx="436" cy="422" rx="66" ry="17" fill="#e3c9a3"/>
+    <ellipse cx="436" cy="422" rx="50" ry="12" stroke="#9c7450" stroke-width="3"/>
+    <path d="M394 422l8-16h14l6 14z" fill="#f5d2b4"/>
+    <path d="M478 422l-8-16h-14l-6 14z" fill="#f5d2b4"/>
+    <ellipse cx="412" cy="394" rx="20" ry="18" fill="#f5d2b4"/>
+    <ellipse cx="460" cy="394" rx="20" ry="18" fill="#f5d2b4"/>
+    <path d="M396 400h32M444 400h32" stroke="#4a7fa3" stroke-width="6"/>
+    <path d="M426 386l14 4M424 396l16-2" stroke="#f5d2b4" stroke-width="7"/>
+    <circle cx="406" cy="368" r="12" fill="#f5d2b4"/>
+    <circle cx="466" cy="368" r="12" fill="#f5d2b4"/>
+    <path d="M396 364c4-8 16-8 20-2M456 362c4-6 16-6 20 2" stroke="#4a3b32" stroke-width="3"/>
+    <path d="M404 358h4v-6M468 358h-4v-6" stroke="#4a3b32" stroke-width="3"/>
+    <path d="M409 370c1 2 3 2 4 0M461 370c1 2 3 2 4 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- kendo -->
+  <g data-w="14">
+    <path d="M548 392l24-60" stroke="#e3c9a3" stroke-width="4"/>
+    <path d="M520 430l6-54h28l6 54z" fill="#3f3a34"/>
+    <path d="M526 378v-20c0-8 6-12 14-12s14 4 14 12v20z" fill="#4a7fa3"/>
+    <path d="M526 352l16 36M554 352l-6 38" stroke="#4a7fa3" stroke-width="6"/>
+    <circle cx="546" cy="392" r="4" fill="#f5d2b4"/>
+    <circle cx="540" cy="330" r="15" fill="#3f3a34"/>
+    <path d="M528 326h24M527 332h26M530 338h20M540 318v26" stroke="#cfc9bd" stroke-width="1"/>
+    <path d="M526 340h28v8h-28z" fill="#4a7fa3"/>
+  </g>
+
+  <!-- runner -->
+  <g data-w="15">
+    <path d="M620 436l-12 26M636 436l14 16 2 16" stroke="#f5d2b4" stroke-width="6"/>
+    <path d="M618 440v-28c0-8 6-12 12-12s12 4 12 12v28z" fill="#f0cf6d"/>
+    <rect x="623" y="416" width="14" height="10" fill="#ffffff"/>
+    <path d="M618 412l-10 12 10 6M642 412l10 8-8 8" stroke="#f5d2b4" stroke-width="6"/>
+    <use href="#hd" x="630" y="388"/>
+    <path d="M598 404h-14M600 414h-10" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+
+  <!-- winner on the podium -->
+  <g data-w="16">
+    <rect x="700" y="416" width="26" height="30" fill="#e3c9a3"/>
+    <rect x="726" y="400" width="34" height="46" fill="#d8b48c"/>
+    <rect x="760" y="424" width="26" height="22" fill="#e3c9a3"/>
+    <path d="M731 400l2-24h20l2 24z" fill="#4a7fa3"/>
+    <path d="M729 378v-32c0-8 6-12 14-12s14 4 14 12v32z" fill="#d9736b"/>
+    <path d="M730 346l-10-28M756 346l10-28" stroke="#f5d2b4" stroke-width="6"/>
+    <path d="M758 308c-2 10 4 14 8 14s10-4 8-14z" fill="#f0cf6d"/>
+    <path d="M762 322v6h8v-6" fill="#f0cf6d"/>
+    <path d="M756 310l-4 2 4 6M776 310l4 2-4 6" stroke="#f0cf6d"/>
+    <circle cx="720" cy="316" r="3" fill="#f0cf6d"/>
+    <use href="#hd" x="743" y="322"/>
+    <path d="M740 329c2-2 4-2 6 0" stroke-width="1.5"/>
+  </g>
+  <!-- loser -->
+  <g data-w="17">
+    <path d="M672 444c0-16 8-32 20-32s20 16 20 32z" fill="#8c867c"/>
+    <path d="M672 444c4-10 14-12 20-6 6-6 16-4 20 6z" fill="#4a7fa3"/>
+    <circle cx="692" cy="398" r="13" fill="#f5d2b4"/>
+    <path d="M679 395c3-12 23-12 26 0-5-5-9-6-13-6s-8 1-13 6z" fill="#4a3b32" stroke="none"/>
+    <path d="M686 400c1-2 3-2 4 0M694 400c1-2 3-2 4 0" stroke-width="1.5"/>
+    <path d="M689 408c2-2 4-2 6 0" stroke-width="1.5"/>
+    <path d="M682 404c-2 4-2 8 0 8s2-4 0-8zM702 404c-2 4-2 8 0 8s2-4 0-8z" fill="#7da2c4" stroke="#4a7fa3" stroke-width="1"/>
+  </g>
+</svg>

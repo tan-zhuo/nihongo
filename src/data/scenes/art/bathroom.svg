@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall, tiles, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="230" width="800" height="170" fill="#d6e7f0" stroke="none"/>
+  <path d="M0 230h800M0 272h800M0 314h800M0 356h800" stroke="#b9cfe3" stroke-width="1.5"/>
+  <path d="M40 230v42M120 230v42M200 230v42M280 230v42M360 230v42M440 230v42M520 230v42M600 230v42M680 230v42M760 230v42M80 272v42M160 272v42M240 272v42M320 272v42M400 272v42M480 272v42M560 272v42M640 272v42M720 272v42M40 314v42M120 314v42M200 314v42M280 314v42M360 314v42M440 314v42M520 314v42M600 314v42M680 314v42M760 314v42M80 356v44M160 356v44M240 356v44M320 356v44M400 356v44M480 356v44M560 356v44M640 356v44M720 356v44" stroke="#b9cfe3" stroke-width="1.5"/>
+  <rect x="0" y="400" width="800" height="100" fill="#ede9e1" stroke="none"/>
+  <path d="M0 400h800" stroke="#8c867c" stroke-width="3"/>
+  <path d="M0 450h800M100 400v100M200 400v100M300 400v100M400 400v100M500 400v100M600 400v100M700 400v100" stroke="#cfc9bd" stroke-width="1.5"/>
+  <rect x="90" y="418" width="160" height="30" rx="6" fill="#9dc0a8" stroke="#5b8a72"/>
+  <path d="M104 426h132M104 440h132" stroke="#5b8a72" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- window -->
+  <g data-w="16">
+    <rect x="160" y="56" width="80" height="74" rx="4" fill="#b9cfe3"/>
+    <path d="M200 56v74M160 93h80"/>
+    <rect x="154" y="50" width="92" height="86" rx="6"/>
+    <rect x="150" y="134" width="100" height="8" rx="2" fill="#ffffff"/>
+  </g>
+
+  <!-- shower -->
+  <g data-w="3">
+    <path d="M70 292v-170h30" stroke-width="7"/>
+    <path d="M70 292v-170h30" stroke="#cfc9bd" stroke-width="3.5"/>
+    <path d="M96 112h26c14 0 24 10 24 22v6h-56z" fill="#cfc9bd"/>
+    <path d="M102 146v140M116 146v140M130 146v140" stroke="#7da2c4" stroke-width="2.5" stroke-dasharray="6 8"/>
+  </g>
+  <!-- shelf with shampoo -->
+  <rect x="138" y="212" width="94" height="6" rx="2" fill="#9c7450"/>
+  <g data-w="10">
+    <rect x="152" y="166" width="28" height="46" rx="4" fill="#9dc0a8"/>
+    <rect x="160" y="152" width="12" height="14" rx="2" fill="#5b8a72"/>
+    <path d="M166 152v-8h12" stroke-width="3"/>
+    <rect x="158" y="178" width="16" height="20" rx="2" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- towel on a hook -->
+  <g data-w="8">
+    <circle cx="311" cy="150" r="4" fill="#8c867c"/>
+    <path d="M296 154h30v70c-6 8-24 8-30 0z" fill="#f0cf6d"/>
+    <path d="M300 174h22M300 204h22" stroke="#e59a5b" stroke-width="1.5"/>
+  </g>
+
+  <!-- bathtub with hot water -->
+  <g data-w="2">
+    <rect x="54" y="300" width="222" height="16" rx="8" fill="#7da2c4"/>
+    <path d="M118 282c-4-8 2-12-2-20M166 278c-4-8 2-12-2-20M214 284c-4-8 2-12-2-20" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+  <g data-w="1">
+    <path d="M40 296h250v70c0 14-10 24-24 24h-202c-14 0-24-10-24-24z" fill="#ffffff"/>
+    <rect x="40" y="316" width="250" height="6" fill="#ede9e1" stroke="none"/>
+    <rect x="34" y="290" width="262" height="12" rx="6" fill="#ffffff"/>
+    <rect x="54" y="300" width="222" height="16" rx="8" fill="#7da2c4" stroke="none"/>
+    <path d="M62 390v12M268 390v12" stroke-width="6"/>
+  </g>
+
+  <!-- mirror -->
+  <g data-w="4">
+    <rect x="340" y="100" width="90" height="120" rx="12" fill="#9c7450"/>
+    <rect x="348" y="108" width="74" height="104" rx="8" fill="#b9cfe3" stroke="#cfc9bd"/>
+    <path d="M360 140l14-20M362 160l20-30" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <!-- washstand -->
+  <g data-w="5">
+    <rect x="330" y="310" width="110" height="90" fill="#e3c9a3"/>
+    <path d="M385 310v90" stroke="#b08a63"/>
+    <circle cx="376" cy="356" r="3.5" fill="#3f3a34"/>
+    <circle cx="394" cy="356" r="3.5" fill="#3f3a34"/>
+    <path d="M385 278c0-8-6-10-12-6" stroke-width="5"/>
+    <path d="M385 278c0-8-6-10-12-6" stroke="#cfc9bd" stroke-width="2"/>
+    <rect x="320" y="296" width="130" height="14" rx="4" fill="#ffffff"/>
+    <ellipse cx="385" cy="302" rx="34" ry="7" fill="#d6e7f0"/>
+  </g>
+  <!-- toothpaste -->
+  <g data-w="7">
+    <rect x="326" y="282" width="34" height="14" rx="5" fill="#ffffff"/>
+    <rect x="358" y="284" width="8" height="10" rx="2" fill="#4a7fa3"/>
+    <path d="M332 289h22" stroke="#d9736b" stroke-width="3"/>
+  </g>
+  <!-- soap -->
+  <g data-w="9">
+    <ellipse cx="430" cy="294" rx="16" ry="5" fill="#cfc9bd"/>
+    <rect x="418" y="280" width="24" height="13" rx="6" fill="#f1b1aa"/>
+    <path d="M440 276c4-2 8 2 6 6M447 272c2-1 4 1 3 3" stroke="#b9cfe3" stroke-width="1.5"/>
+  </g>
+
+  <!-- person brushing teeth -->
+  <g data-w="15">
+    <rect x="480" y="312" width="17" height="88" rx="5" fill="#4a7fa3"/>
+    <rect x="499" y="312" width="17" height="88" rx="5" fill="#4a7fa3"/>
+    <path d="M474 404h26M498 404h26" stroke-width="5"/>
+    <rect x="474" y="248" width="48" height="70" rx="14" fill="#a58bc0"/>
+    <path d="M518 266c10 10 10 30 0 40" stroke="#a58bc0" stroke-width="10"/>
+    <path d="M480 266l-14 14" stroke="#a58bc0" stroke-width="10"/>
+    <circle cx="498" cy="226" r="21" fill="#f5d2b4"/>
+    <path d="M477 224c-2-18 12-26 21-26 11 0 24 8 21 24-6-6-12-8-21-8s-15 2-21 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="490" cy="226" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="506" cy="226" r="1.8" fill="#3f3a34" stroke="none"/>
+    <ellipse cx="497" cy="238" rx="4" ry="3" fill="#3f3a34" stroke="none"/>
+    <path d="M520 214c6-2 8 4 4 8M526 220c4-1 6 3 3 5" stroke="#b9cfe3" stroke-width="1.5"/>
+    <circle cx="464" cy="282" r="8" fill="#f5d2b4"/>
+  </g>
+  <g data-w="6">
+    <path d="M464 296v-60" stroke="#7da2c4" stroke-width="5"/>
+    <rect x="457" y="218" width="14" height="22" rx="4" fill="#ffffff"/>
+    <path d="M459 212c3-6 8-6 10 0" stroke="#9dc0a8" stroke-width="4"/>
+  </g>
+
+  <!-- hair dryer on a hook -->
+  <g data-w="14">
+    <circle cx="566" cy="80" r="4" fill="#8c867c"/>
+    <path d="M566 84v14"/>
+    <rect x="536" y="98" width="54" height="30" rx="15" fill="#d9736b"/>
+    <circle cx="552" cy="113" r="8" fill="#b5463f"/>
+    <rect x="588" y="104" width="16" height="18" rx="3" fill="#8c867c"/>
+    <rect x="552" y="124" width="20" height="32" rx="6" fill="#d9736b"/>
+    <path d="M562 156c0 10-8 12-6 22" stroke-width="2"/>
+  </g>
+  <!-- toilet paper -->
+  <g data-w="12">
+    <rect x="580" y="166" width="40" height="5" rx="2" fill="#8c867c"/>
+    <rect x="604" y="184" width="14" height="40" fill="#ffffff"/>
+    <circle cx="600" cy="184" r="17" fill="#ffffff"/>
+    <circle cx="600" cy="184" r="6" fill="#ede9e1"/>
+  </g>
+  <!-- toilet -->
+  <g data-w="11">
+    <rect x="566" y="250" width="68" height="62" rx="6" fill="#ffffff"/>
+    <rect x="618" y="258" width="10" height="6" rx="2" fill="#cfc9bd"/>
+    <rect x="584" y="356" width="32" height="46" rx="4" fill="#ffffff"/>
+    <path d="M562 324c0 30 14 44 38 44s38-14 38-44z" fill="#ffffff"/>
+    <ellipse cx="600" cy="322" rx="40" ry="14" fill="#ffffff"/>
+    <ellipse cx="600" cy="322" rx="28" ry="8" fill="#d6e7f0"/>
+  </g>
+  <!-- washing machine -->
+  <g data-w="13">
+    <rect x="690" y="236" width="100" height="164" rx="6" fill="#ffffff"/>
+    <rect x="690" y="236" width="100" height="26" rx="6" fill="#cfc9bd"/>
+    <circle cx="770" cy="249" r="6" fill="#3f3a34"/>
+    <rect x="702" y="244" width="24" height="10" rx="2" fill="#9dc0a8"/>
+    <circle cx="740" cy="330" r="38" fill="#8c867c"/>
+    <circle cx="740" cy="330" r="27" fill="#b9cfe3"/>
+    <path d="M722 338c8-10 20-8 26 0s14 8 18-2" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="728" cy="320" r="6" fill="#d9736b" stroke="none"/>
+    <circle cx="752" cy="324" r="5" fill="#f0cf6d" stroke="none"/>
+  </g>
+</svg>

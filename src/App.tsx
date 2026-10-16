@@ -49,6 +49,18 @@ export default function App() {
           element={<Suspense fallback={null}><Vocab /></Suspense>}
         />
         <Route
+          path="/vocab/practice"
+          element={<Suspense fallback={null}><Vocab /></Suspense>}
+        />
+        <Route
+          path="/vocab/scenes"
+          element={<Suspense fallback={null}><Vocab /></Suspense>}
+        />
+        <Route
+          path="/vocab/scenes/:scene"
+          element={<Suspense fallback={null}><Vocab /></Suspense>}
+        />
+        <Route
           path="/textbook"
           element={<Suspense fallback={null}><Textbook /></Suspense>}
         />

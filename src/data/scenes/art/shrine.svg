@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="komainu">
+      <rect x="-20" y="0" width="40" height="14" fill="#cfc9bd"/>
+      <ellipse cx="4" cy="-12" rx="14" ry="12" fill="#8c867c"/>
+      <rect x="-14" y="-20" width="8" height="20" rx="3" fill="#8c867c"/>
+      <rect x="-4" y="-20" width="8" height="20" rx="3" fill="#8c867c"/>
+      <path d="M16-8c8-6 8-16 2-20" stroke-width="3"/>
+      <circle cx="4" cy="-42" r="6" fill="#cfc9bd" stroke="none"/>
+      <circle cx="-10" cy="-38" r="6" fill="#cfc9bd" stroke="none"/>
+      <circle cx="-12" cy="-26" r="6" fill="#cfc9bd" stroke="none"/>
+      <path d="M-14-46l-2-10 9 5zM2-50l7-7 0 10z" fill="#8c867c"/>
+      <circle cx="-4" cy="-36" r="12" fill="#8c867c"/>
+      <circle cx="-8" cy="-38" r="1.8" fill="#3f3a34" stroke="none"/>
+      <circle cx="1" cy="-38" r="1.8" fill="#3f3a34" stroke="none"/>
+      <path d="M-8-30c3 4 8 4 11 0z" fill="#b5463f" stroke-width="1.5"/>
+    </g>
+    <path id="ema" d="M0 6l10-7 10 7v13H0z" fill="#e3c9a3"/>
+    <path id="kuji" d="M0 0h7v15l-3 2-4-2z" fill="#ffffff" stroke="#8c867c" stroke-width="1.5"/>
+  </defs>
+  <!-- sky, hills, ground -->
+  <rect x="0" y="0" width="800" height="500" fill="#d6e7f0" stroke="none"/>
+  <path d="M90 70c6-12 22-12 28-4 10-6 26 0 24 10 6 4 2 12-6 12H88c-10 0-12-14 2-18z" fill="#ffffff" stroke="none"/>
+  <path d="M470 56c6-12 22-12 28-4 10-6 26 0 24 10 6 4 2 12-6 12h-48c-10 0-12-14 2-18z" fill="#ffffff" stroke="none"/>
+  <path d="M0 300c60-60 150-70 250-50 90-30 200-30 300 10 90-40 200-30 250 10v30H0z" fill="#e0ece3" stroke="none"/>
+  <rect x="0" y="300" width="800" height="200" fill="#ede9e1" stroke="none"/>
+  <path d="M0 300h800" stroke="#cfc9bd"/>
+  <path d="M300 300h160l110 200H200z" fill="#cfc9bd" stroke="none"/>
+  <path d="M276 360h210M250 420h264M224 470h320" stroke="#ede9e1" stroke-width="2"/>
+
+  <!-- torii -->
+  <g data-w="1">
+    <rect x="46" y="128" width="12" height="202" fill="#d9736b"/>
+    <rect x="112" y="128" width="12" height="202" fill="#d9736b"/>
+    <rect x="40" y="322" width="24" height="10" fill="#8c867c"/>
+    <rect x="106" y="322" width="24" height="10" fill="#8c867c"/>
+    <rect x="36" y="152" width="98" height="10" fill="#d9736b"/>
+    <rect x="80" y="124" width="10" height="28" fill="#d9736b"/>
+    <path d="M24 122c60-12 62-12 122 0l-4 14H28z" fill="#b5463f"/>
+  </g>
+
+  <!-- ema rack -->
+  <g data-w="8">
+    <rect x="152" y="236" width="6" height="66" fill="#9c7450"/>
+    <rect x="208" y="236" width="6" height="66" fill="#9c7450"/>
+    <rect x="146" y="232" width="74" height="7" fill="#9c7450"/>
+    <path d="M150 262h66" stroke="#9c7450"/>
+    <use href="#ema" x="158" y="240"/><use href="#ema" x="188" y="240"/>
+    <use href="#ema" x="172" y="266"/><use href="#ema" x="196" y="266"/>
+    <circle cx="168" cy="253" r="3" fill="#d9736b" stroke="none"/>
+    <circle cx="198" cy="253" r="3" fill="#d9736b" stroke="none"/>
+    <circle cx="182" cy="279" r="3" fill="#d9736b" stroke="none"/>
+  </g>
+
+  <!-- shrine -->
+  <g data-w="2">
+    <path d="M300 96l-14-24M320 96l14-24" stroke-width="3"/>
+    <path d="M226 160h168v112H226z" fill="#ffffff"/>
+    <rect x="232" y="150" width="12" height="122" fill="#d9736b"/>
+    <rect x="376" y="150" width="12" height="122" fill="#d9736b"/>
+    <rect x="224" y="150" width="172" height="12" fill="#d9736b"/>
+    <rect x="252" y="186" width="24" height="40" fill="#e3c9a3"/>
+    <path d="M258 186v40M264 186v40M270 186v40" stroke="#9c7450" stroke-width="1.5"/>
+    <rect x="344" y="186" width="24" height="40" fill="#e3c9a3"/>
+    <path d="M350 186v40M356 186v40M362 186v40" stroke="#9c7450" stroke-width="1.5"/>
+    <rect x="290" y="196" width="40" height="76" fill="#9c7450"/>
+    <path d="M310 196v76" stroke="#5e4634"/>
+    <path d="M200 156L310 94l110 62-10 8-100-54-100 54z" fill="#5e4634"/>
+    <path d="M244 172q66 14 132 0" stroke="#e3c9a3" stroke-width="6"/>
+    <path d="M262 180v12l4 4v10M310 184v12l4 4v10M358 180v12l4 4v10" stroke="#ffffff" stroke-width="3"/>
+    <path d="M226 272h168v10H226zM218 282h184v10H218zM210 292h200v8H210z" fill="#cfc9bd"/>
+  </g>
+  <!-- bell with rope -->
+  <g data-w="4">
+    <path d="M310 162v30" stroke="#b5463f" stroke-width="4"/>
+    <circle cx="310" cy="206" r="14" fill="#f0cf6d"/>
+    <path d="M310 212v6M300 200h20" stroke="#9c7450"/>
+    <rect x="303" y="220" width="14" height="40" fill="#ffffff"/>
+    <path d="M303 228h14M303 240h14M303 252h14" stroke="#d9736b" stroke-width="3"/>
+  </g>
+  <!-- offering box -->
+  <g data-w="3">
+    <rect x="262" y="280" width="68" height="28" fill="#9c7450"/>
+    <rect x="258" y="272" width="76" height="10" fill="#d8b48c"/>
+    <path d="M268 272v10M278 272v10M288 272v10M298 272v10M308 272v10M318 272v10" stroke="#5e4634" stroke-width="1.5"/>
+    <path d="M272 300h48" stroke="#5e4634"/>
+  </g>
+  <!-- komainu pair -->
+  <g data-w="5">
+    <use href="#komainu" x="214" y="290"/>
+    <use href="#komainu" x="398" y="290"/>
+  </g>
+
+  <!-- person praying -->
+  <g data-w="10">
+    <path d="M330 376v-50c0-8 8-12 14-12h12c6 0 14 4 14 12v50z" fill="#7da2c4"/>
+    <path d="M334 376h32v22h-12v-12h-8v12h-12z" fill="#4a3b32"/>
+    <path d="M322 340h12M378 340h-12" stroke="#f5d2b4" stroke-width="7"/>
+    <ellipse cx="346" cy="341" rx="5" ry="9" fill="#f5d2b4"/>
+    <ellipse cx="354" cy="341" rx="5" ry="9" fill="#f5d2b4"/>
+    <circle cx="350" cy="300" r="15" fill="#f5d2b4"/>
+    <path d="M335 298c2-14 28-14 30 0-6-6-10-7-15-7s-9 1-15 7z" fill="#4a3b32" stroke="none"/>
+    <path d="M344 302c1-2 3-2 4 0M352 302c1-2 3-2 4 0" stroke-width="1.5"/>
+    <path d="M347 308c2 1 4 1 6 0" stroke-width="1.5"/>
+  </g>
+  <!-- miko -->
+  <g data-w="7">
+    <path d="M426 300c0-16 28-16 28 0v36h-28z" fill="#4a3b32" stroke="none"/>
+    <path d="M414 352h52l8 46h-68z" fill="#b5463f"/>
+    <path d="M422 316h36l10 36h-56z" fill="#ffffff"/>
+    <path d="M472 350v-56" stroke="#9c7450" stroke-width="3"/>
+    <path d="M468 296l-6 5 6 5-6 5 6 5-6 5M476 296l6 5-6 5 6 5-6 5 6 5" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <path d="M468 296l-6 5 6 5-6 5 6 5-6 5M476 296l6 5-6 5 6 5-6 5 6 5" fill="none" stroke-width="1"/>
+    <circle cx="472" cy="350" r="5" fill="#f5d2b4"/>
+    <circle cx="440" cy="300" r="15" fill="#f5d2b4"/>
+    <path d="M425 298c2-14 28-14 30 0-6-6-10-7-15-7s-9 1-15 7z" fill="#4a3b32" stroke="none"/>
+    <path d="M434 302c1 2 3 2 4 0M442 302c1 2 3 2 4 0" stroke-width="1.5"/>
+    <path d="M437 308c2 2 4 2 6 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- stone lantern -->
+  <g data-w="16">
+    <rect x="474" y="300" width="32" height="14" fill="#cfc9bd"/>
+    <rect x="485" y="232" width="10" height="68" fill="#cfc9bd"/>
+    <rect x="470" y="224" width="40" height="10" fill="#8c867c"/>
+    <rect x="478" y="192" width="24" height="32" fill="#cfc9bd"/>
+    <rect x="484" y="200" width="12" height="14" fill="#f8e6ae"/>
+    <path d="M464 192l26-20 26 20z" fill="#8c867c"/>
+    <circle cx="490" cy="168" r="4" fill="#8c867c"/>
+  </g>
+
+  <!-- temple -->
+  <g data-w="11">
+    <rect x="560" y="262" width="220" height="40" fill="#cfc9bd"/>
+    <path d="M560 282h220" stroke="#ede9e1"/>
+    <rect x="574" y="154" width="192" height="108" fill="#e3c9a3"/>
+    <rect x="576" y="154" width="10" height="108" fill="#9c7450"/>
+    <rect x="754" y="154" width="10" height="108" fill="#9c7450"/>
+    <rect x="594" y="176" width="26" height="40" fill="#ffffff"/>
+    <path d="M600 176v40M608 176v40M614 176v40M594 190h26M594 204h26" stroke="#9c7450" stroke-width="1.5"/>
+    <rect x="720" y="176" width="26" height="40" fill="#ffffff"/>
+    <path d="M726 176v40M734 176v40M740 176v40M720 190h26M720 204h26" stroke="#9c7450" stroke-width="1.5"/>
+    <rect x="630" y="166" width="80" height="96" fill="#5e4634"/>
+    <rect x="600" y="96" width="140" height="10" rx="3" fill="#5e4634"/>
+    <path d="M604 104h132l64 52H540z" fill="#8c867c"/>
+    <path d="M580 134h180M564 148h212" stroke="#ede9e1" stroke-width="1.5"/>
+    <path d="M540 156h260" stroke-width="3"/>
+  </g>
+  <!-- Buddha statue inside the hall -->
+  <g data-w="12">
+    <circle cx="670" cy="210" r="22" fill="#f8e6ae" stroke="none"/>
+    <ellipse cx="670" cy="258" rx="28" ry="6" fill="#e59a5b"/>
+    <path d="M648 256c-2-22 8-38 22-38s24 16 22 38z" fill="#f0cf6d"/>
+    <ellipse cx="670" cy="246" rx="10" ry="4" fill="#f0cf6d"/>
+    <circle cx="670" cy="208" r="13" fill="#f0cf6d"/>
+    <path d="M657 206c2-12 24-12 26 0-4-4-9-5-13-5s-9 1-13 5z" fill="#e59a5b" stroke="none"/>
+    <path d="M664 209c1 1 3 1 4 0M672 209c1 1 3 1 4 0" stroke-width="1.5"/>
+    <path d="M667 215c2 1 4 1 6 0" stroke-width="1.5"/>
+  </g>
+  <!-- stone steps -->
+  <g data-w="17">
+    <path d="M632 262h76l10 44H622z" fill="#cfc9bd"/>
+    <path d="M630 272h80M627 282h86M625 292h90" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- bell tower -->
+  <g data-w="13">
+    <rect x="722" y="290" width="72" height="14" fill="#cfc9bd"/>
+    <rect x="728" y="166" width="6" height="124" fill="#9c7450"/>
+    <rect x="782" y="166" width="6" height="124" fill="#9c7450"/>
+    <rect x="720" y="162" width="76" height="8" fill="#9c7450"/>
+    <path d="M712 164l46-28 46 28z" fill="#5e4634"/>
+    <path d="M758 170v10" stroke-width="3"/>
+    <path d="M742 236c0-30 2-56 16-56s16 26 16 56c0 6-32 6-32 0z" fill="#5b8a72"/>
+    <path d="M744 220h28M746 200h24" stroke="#3d614f" stroke-width="1.5"/>
+    <path d="M718 212h22" stroke="#9c7450" stroke-width="7"/>
+    <path d="M724 172v36M736 172v36" stroke="#e3c9a3" stroke-width="1.5"/>
+  </g>
+
+  <!-- monk -->
+  <g data-w="15">
+    <path d="M540 398l6-74c2-8 8-12 19-12s17 4 19 12l6 74z" fill="#8c867c"/>
+    <path d="M548 324l30 40v34" stroke="#e59a5b" stroke-width="8"/>
+    <circle cx="565" cy="356" r="9" stroke="#5e4634" stroke-width="2" stroke-dasharray="2 2"/>
+    <circle cx="559" cy="352" r="4" fill="#f5d2b4"/>
+    <circle cx="571" cy="352" r="4" fill="#f5d2b4"/>
+    <circle cx="565" cy="300" r="15" fill="#f5d2b4"/>
+    <path d="M559 302c1 2 3 2 4 0M567 302c1 2 3 2 4 0" stroke-width="1.5"/>
+    <path d="M562 308c2 2 4 2 6 0" stroke-width="1.5"/>
+  </g>
+  <!-- incense burner -->
+  <g data-w="14">
+    <path d="M652 338c-4-10 2-18 6-28M668 338c6-10-6-18 0-28M684 338c-4-10 4-18 0-28" stroke="#cfc9bd"/>
+    <path d="M660 340v-14M668 340v-18M676 340v-14" stroke="#9c7450" stroke-width="2"/>
+    <circle cx="660" cy="325" r="1.5" fill="#b5463f" stroke="none"/>
+    <circle cx="668" cy="321" r="1.5" fill="#b5463f" stroke="none"/>
+    <circle cx="676" cy="325" r="1.5" fill="#b5463f" stroke="none"/>
+    <path d="M640 344c-6 20 8 32 28 32s34-12 28-32z" fill="#8c867c"/>
+    <ellipse cx="668" cy="344" rx="30" ry="7" fill="#5e4634"/>
+    <path d="M648 376v8M668 376v8M688 376v8" stroke-width="4"/>
+  </g>
+  <!-- omikuji rack -->
+  <g data-w="9">
+    <rect x="472" y="426" width="6" height="56" fill="#9c7450"/>
+    <rect x="538" y="426" width="6" height="56" fill="#9c7450"/>
+    <path d="M478 438h60M478 458h60" stroke="#e3c9a3" stroke-width="2.5"/>
+    <use href="#kuji" x="482" y="438"/><use href="#kuji" x="496" y="440"/><use href="#kuji" x="510" y="438"/><use href="#kuji" x="524" y="440"/>
+    <use href="#kuji" x="488" y="458"/><use href="#kuji" x="504" y="460"/><use href="#kuji" x="520" y="458"/>
+  </g>
+  <!-- chozuya water basin -->
+  <g data-w="6">
+    <rect x="56" y="362" width="6" height="78" fill="#9c7450"/>
+    <rect x="150" y="362" width="6" height="78" fill="#9c7450"/>
+    <path d="M40 366l66-30 66 30z" fill="#5e4634"/>
+    <rect x="64" y="398" width="84" height="40" rx="4" fill="#8c867c"/>
+    <rect x="70" y="400" width="72" height="8" fill="#7da2c4"/>
+    <path d="M92 394l48-10" stroke="#9c7450" stroke-width="3"/>
+    <ellipse cx="88" cy="394" rx="9" ry="5" fill="#e3c9a3"/>
+  </g>
+</svg>

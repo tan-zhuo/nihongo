@@ -1,0 +1,33 @@
+{
+  "id": "weather",
+  "n": 40,
+  "group": "nature",
+  "title": "天気",
+  "title_zh": "天气",
+  "title_en": "Weather",
+  "words": [
+    { "w": "太陽", "r": "たいよう", "zh": "太阳", "en": "sun", "x": 90, "y": 136 },
+    { "w": "晴れ", "r": "はれ", "zh": "晴天", "en": "sunny weather", "x": 220, "y": 116 },
+    { "w": "雲", "r": "くも", "zh": "云", "en": "cloud", "x": 390, "y": 112 },
+    { "w": "曇り", "r": "くもり", "zh": "阴天", "en": "cloudy weather", "x": 520, "y": 170 },
+    { "w": "雨", "r": "あめ", "zh": "雨", "en": "rain", "x": 604, "y": 216 },
+    { "w": "傘", "r": "かさ", "zh": "伞", "en": "umbrella", "x": 646, "y": 262 },
+    { "w": "雷", "r": "かみなり", "zh": "雷；闪电", "en": "thunder; lightning", "x": 748, "y": 118 },
+    { "w": "雪", "r": "ゆき", "zh": "雪", "en": "snow", "x": 300, "y": 126 },
+    { "w": "山", "r": "やま", "zh": "山", "en": "mountain", "x": 260, "y": 250 },
+    { "w": "風", "r": "かぜ", "zh": "风", "en": "wind", "x": 500, "y": 270 },
+    { "w": "虹", "r": "にじ", "zh": "彩虹", "en": "rainbow", "x": 650, "y": 226 },
+    { "w": "霧", "r": "きり", "zh": "雾", "en": "fog", "x": 230, "y": 346 },
+    { "w": "暑い", "r": "あつい", "zh": "热的（天气）", "en": "hot (weather)", "x": 152, "y": 248 },
+    { "w": "寒い", "r": "さむい", "zh": "冷的（天气）", "en": "cold (weather)", "x": 354, "y": 250 },
+    { "w": "気温", "r": "きおん", "zh": "气温", "en": "air temperature", "x": 64, "y": 364 },
+    { "w": "天気予報", "r": "てんきよほう", "zh": "天气预报", "en": "weather forecast", "x": 530, "y": 404 },
+    { "w": "木", "r": "き", "zh": "树", "en": "tree", "x": 404, "y": 398 }
+  ],
+  "sentences": [
+    { "ja": "{今日|きょう}は{晴|は}れで、とても{暑|あつ}いです。", "zh": "今天是晴天，非常热。", "en": "It is sunny and very hot today." },
+    { "ja": "{雨|あめ}が{降|ふ}っているので、{傘|かさ}をさしています。", "zh": "因为在下雨，所以撑着伞。", "en": "Since it is raining, I am holding an umbrella." },
+    { "ja": "{天気予報|てんきよほう}によると、{明日|あした}の{気温|きおん}は５{度|ど}で、{雪|ゆき}が{降|ふ}るそうです。", "zh": "据天气预报说，明天气温5度，会下雪。", "en": "According to the weather forecast, tomorrow it will be 5 degrees and snow." },
+    { "ja": "{雨|あめ}がやんで、{空|そら}に{虹|にじ}が{出|で}ました。", "zh": "雨停了，天空出现了彩虹。", "en": "The rain stopped and a rainbow appeared in the sky." }
+  ]
+}

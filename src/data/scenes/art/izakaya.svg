@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wood wall and floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="0" width="800" height="380" fill="#e3c9a3" stroke="none"/>
+  <path d="M100 0v380M200 0v380M300 0v380M400 0v380M500 0v380M600 0v380M700 0v380" stroke="#d3b68e" stroke-width="1.5"/>
+  <rect x="0" y="380" width="800" height="120" fill="#9c7450" stroke="none"/>
+  <path d="M0 380h800" stroke="#5e4634" stroke-width="3"/>
+  <path d="M0 420h800M0 460h800" stroke="#8a6440" stroke-width="1.5"/>
+
+  <!-- lanterns (10) -->
+  <g data-w="10">
+    <path d="M90 0v30M400 0v30" />
+    <rect x="76" y="30" width="28" height="8" rx="2" fill="#3f3a34"/>
+    <path d="M70 40c-12 30-12 50 0 80h40c12-30 12-50 0-80z" fill="#d9736b"/>
+    <path d="M66 56h48M62 72h56M62 88h56M66 104h48" stroke="#b5463f" stroke-width="1.5"/>
+    <rect x="76" y="120" width="28" height="8" rx="2" fill="#3f3a34"/>
+    <path d="M90 128v12" />
+    <rect x="386" y="30" width="28" height="8" rx="2" fill="#3f3a34"/>
+    <path d="M380 40c-12 30-12 50 0 80h40c12-30 12-50 0-80z" fill="#d9736b"/>
+    <path d="M376 56h48M372 72h56M372 88h56M376 104h48" stroke="#b5463f" stroke-width="1.5"/>
+    <rect x="386" y="120" width="28" height="8" rx="2" fill="#3f3a34"/>
+    <path d="M400 128v12" />
+  </g>
+
+  <!-- menu tags on the wall (16) -->
+  <g data-w="16">
+    <rect x="130" y="56" width="22" height="90" rx="2" fill="#ffffff"/>
+    <rect x="156" y="56" width="22" height="90" rx="2" fill="#ffffff"/>
+    <rect x="182" y="56" width="22" height="90" rx="2" fill="#ffffff"/>
+    <rect x="208" y="56" width="22" height="90" rx="2" fill="#ffffff"/>
+    <rect x="234" y="56" width="22" height="90" rx="2" fill="#ffffff"/>
+    <path d="M141 68v50M167 68v40M193 68v56M219 68v44M245 68v52" stroke-width="3"/>
+    <path d="M141 126v10M167 116v18M193 132v6M219 120v16M245 128v10" stroke="#d9736b" stroke-width="3"/>
+  </g>
+
+  <!-- noren over the counter (11) -->
+  <g data-w="11">
+    <rect x="470" y="22" width="330" height="10" rx="3" fill="#5e4634"/>
+    <path d="M476 32h100v62c-30 8-70 8-100 0z" fill="#4a7fa3"/>
+    <path d="M586 32h100v62c-30 8-70 8-100 0z" fill="#4a7fa3"/>
+    <path d="M696 32h100v62c-30 8-70 8-100 0z" fill="#4a7fa3"/>
+    <circle cx="526" cy="64" r="14" fill="#ffffff" stroke="none"/>
+    <circle cx="636" cy="64" r="14" fill="#ffffff" stroke="none"/>
+    <circle cx="746" cy="64" r="14" fill="#ffffff" stroke="none"/>
+    <path d="M520 64h12M636 58v12M740 64h12" stroke="#4a7fa3" stroke-width="3"/>
+  </g>
+
+  <!-- back shelf with bottles -->
+  <rect x="560" y="150" width="240" height="8" rx="2" fill="#5e4634"/>
+  <path d="M580 150v-30c0-6 4-8 4-14h-2v-6h12v6h-2c0 6 4 8 4 14v30z" fill="#5b8a72"/>
+  <path d="M604 150v-30c0-6 4-8 4-14h-2v-6h12v6h-2c0 6 4 8 4 14v30z" fill="#9c7450"/>
+  <path d="M628 150v-30c0-6 4-8 4-14h-2v-6h12v6h-2c0 6 4 8 4 14v30z" fill="#5b8a72"/>
+  <path d="M760 150v-30c0-6 4-8 4-14h-2v-6h12v6h-2c0 6 4 8 4 14v30z" fill="#ffffff"/>
+
+  <!-- staff (13) -->
+  <g data-w="13">
+    <path d="M692 272v-40c0-12 10-22 22-22h12c12 0 22 10 22 22v40z" fill="#4a7fa3"/>
+    <path d="M708 212l12 16 12-16" fill="#ffffff"/>
+    <path d="M720 228v44" stroke="#3f5f80"/>
+    <circle cx="720" cy="190" r="18" fill="#f5d2b4"/>
+    <path d="M702 186c2-12 34-12 36 0-4-6-10-8-18-8s-14 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M702 184h36" stroke="#d9736b" stroke-width="5"/>
+    <path d="M738 182l10-6-4 10" fill="#d9736b" stroke="#d9736b"/>
+    <path d="M714 196c2 2 10 2 12 0" stroke-width="1.5"/>
+    <path d="M696 244l-14 18M744 244l14 18" stroke-width="5"/>
+    <path d="M696 244l-14 18M744 244l14 18" stroke="#4a7fa3" stroke-width="2"/>
+    <circle cx="681" cy="264" r="5" fill="#f5d2b4"/>
+    <circle cx="759" cy="264" r="5" fill="#f5d2b4"/>
+  </g>
+
+  <!-- counter (12) -->
+  <g data-w="12">
+    <rect x="480" y="282" width="320" height="98" fill="#5e4634"/>
+    <path d="M560 282v98M640 282v98M720 282v98" stroke="#4a3626"/>
+    <rect x="470" y="268" width="330" height="16" rx="3" fill="#d8b48c"/>
+  </g>
+  <!-- oshibori (9) -->
+  <g data-w="9">
+    <rect x="496" y="262" width="60" height="8" rx="2" fill="#9c7450"/>
+    <rect x="502" y="246" width="48" height="16" rx="8" fill="#ffffff"/>
+    <path d="M514 248v12M538 248v12" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <!-- chopsticks (15) -->
+  <g data-w="15">
+    <path d="M568 268l40-18M574 270l40-18" stroke="#9c7450" stroke-width="4"/>
+    <path d="M568 268l40-18M574 270l40-18" stroke-width="1.5"/>
+    <rect x="594" y="258" width="14" height="8" rx="3" fill="#7da2c4"/>
+  </g>
+  <!-- sake (4) -->
+  <g data-w="4">
+    <path d="M636 268v-26c-6-6-8-14-4-24 0-4 2-6 4-8v-8h12v8c2 2 4 4 4 8 4 10 2 18-4 24v26z" fill="#ffffff"/>
+    <path d="M634 222c6 4 14 4 20 0" stroke="#7da2c4" stroke-width="2"/>
+    <path d="M640 254h8" stroke="#7da2c4" stroke-width="2"/>
+    <path d="M660 254h18l-2 14h-14z" fill="#ffffff"/>
+    <path d="M660 254h18" stroke="#7da2c4"/>
+  </g>
+
+  <!-- beer crate -->
+  <rect x="40" y="420" width="100" height="56" rx="3" fill="#f0cf6d"/>
+  <path d="M40 440h100M40 458h100" stroke="#d9a94a" stroke-width="1.5"/>
+  <path d="M60 420v-14h8v14M84 420v-14h8v14M108 420v-14h8v14" fill="#9c7450"/>
+  <!-- stool -->
+  <rect x="690" y="392" width="56" height="12" rx="4" fill="#d9736b"/>
+  <path d="M698 404v60M738 404v60" stroke-width="4"/>
+  <!-- table -->
+  <rect x="140" y="300" width="310" height="14" rx="3" fill="#9c7450"/>
+  <path d="M156 314v80M434 314v80" stroke-width="6"/>
+  <path d="M156 314v80M434 314v80" stroke="#d8b48c" stroke-width="2"/>
+
+  <!-- customers (14) -->
+  <g data-w="14">
+    <path d="M176 300v-38c0-14 12-24 26-24h6c14 0 26 10 26 24v38z" fill="#4a7fa3"/>
+    <path d="M205 240v60" stroke="#3f5f80" stroke-width="1.5"/>
+    <circle cx="205" cy="222" r="18" fill="#f5d2b4"/>
+    <path d="M187 218c2-14 34-14 36 0-4-6-10-8-18-8s-14 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M199 228c2 2 10 2 12 0" stroke-width="1.5"/>
+    <path d="M228 256l30-18" stroke-width="5"/>
+    <path d="M228 256l30-18" stroke="#4a7fa3" stroke-width="2"/>
+    <circle cx="260" cy="236" r="6" fill="#f5d2b4"/>
+    <path d="M352 300v-38c0-14 12-24 26-24h6c14 0 26 10 26 24v38z" fill="#e59a5b"/>
+    <circle cx="380" cy="222" r="18" fill="#f5d2b4"/>
+    <path d="M362 220c0-16 36-16 36 0 0-6-6-12-18-12s-18 6-18 12z" fill="#4a3b32" stroke="none"/>
+    <path d="M396 210c6 4 6 12 4 18" fill="#4a3b32" stroke="none"/>
+    <path d="M374 228c2 2 10 2 12 0" stroke-width="1.5"/>
+    <path d="M358 256l-30-18" stroke-width="5"/>
+    <path d="M358 256l-30-18" stroke="#e59a5b" stroke-width="2"/>
+    <circle cx="326" cy="236" r="6" fill="#f5d2b4"/>
+  </g>
+  <!-- beer mug left (1) -->
+  <g data-w="1">
+    <path d="M254 204h28v34c0 2-2 4-4 4h-20c-2 0-4-2-4-4z" fill="#f0cf6d"/>
+    <path d="M252 204c-2-10 32-10 32 0 0 4-4 6-16 6s-16-2-16-6z" fill="#ffffff"/>
+    <path d="M250 212c-8 2-8 18 0 20" stroke-width="3"/>
+    <path d="M260 216v18M268 216v18" stroke="#e5b95a" stroke-width="1.5"/>
+  </g>
+  <!-- beer mug right (2) -->
+  <g data-w="2">
+    <path d="M304 204h28v34c0 2-2 4-4 4h-20c-2 0-4-2-4-4z" fill="#f0cf6d"/>
+    <path d="M302 204c-2-10 32-10 32 0 0 4-4 6-16 6s-16-2-16-6z" fill="#ffffff"/>
+    <path d="M336 212c8 2 8 18 0 20" stroke-width="3"/>
+    <path d="M312 216v18M320 216v18" stroke="#e5b95a" stroke-width="1.5"/>
+  </g>
+  <!-- kanpai sparkle (3) -->
+  <g data-w="3">
+    <path d="M293 186v10M288 191h10M280 182l-4-4M306 182l4-4M284 198l-4 4M302 198l4 4" stroke="#e59a5b" stroke-width="2.5"/>
+  </g>
+
+  <!-- otoshi (5) -->
+  <g data-w="5">
+    <path d="M158 286h32c0 10-4 14-16 14s-16-4-16-14z" fill="#5b8a72"/>
+    <ellipse cx="174" cy="286" rx="16" ry="5" fill="#f8e6ae"/>
+    <path d="M166 284h16" stroke="#9c7450" stroke-width="2"/>
+  </g>
+  <!-- edamame (6) -->
+  <g data-w="6">
+    <path d="M198 290h50c0 8-6 12-25 12s-25-4-25-12z" fill="#7da2c4"/>
+    <path d="M204 290c6-10 14-14 22-8 6-6 16-4 22 8z" fill="#9dc0a8"/>
+    <path d="M208 282c6-12 12-12 18-4M222 276c8-6 16-2 22 8" stroke="#5b8a72" stroke-width="4"/>
+    <path d="M198 290h50"/>
+  </g>
+  <!-- yakitori (7) -->
+  <g data-w="7">
+    <ellipse cx="282" cy="296" rx="32" ry="6" fill="#ffffff"/>
+    <path d="M258 290l48-14M256 298l50-10" stroke="#e3c9a3" stroke-width="3"/>
+    <path d="M266 286l6-2 6-2M280 282l6-2 6-2M266 294l6-1 6-2M280 290l6-1 6-2" stroke="#9c7450" stroke-width="7"/>
+    <path d="M272 276v8M286 272v8M274 286v8M288 282v8" stroke="#5b8a72" stroke-width="3"/>
+  </g>
+  <!-- karaage (8) -->
+  <g data-w="8">
+    <ellipse cx="346" cy="296" rx="28" ry="6" fill="#ffffff"/>
+    <circle cx="334" cy="288" r="8" fill="#e59a5b"/>
+    <circle cx="350" cy="286" r="8" fill="#e59a5b"/>
+    <circle cx="342" cy="276" r="7" fill="#e59a5b"/>
+    <path d="M362 292a8 8 0 0 1 8-8v8z" fill="#f0cf6d"/>
+  </g>
+  <!-- sashimi (17) -->
+  <g data-w="17">
+    <path d="M382 300h58c0-4-4-14-12-14h-34c-8 0-12 10-12 14z" fill="#3f3a34"/>
+    <path d="M394 286c-4-4 0-10 6-10s10 6 6 10z" fill="#9dc0a8"/>
+    <path d="M404 288l6-8h8l4 8zM416 288l6-8h8l4 8zM410 288v-8M422 288v-8" fill="#d9736b" stroke="#b5463f" stroke-width="1.5"/>
+    <path d="M404 288l6-8h8l4 8zM416 288l6-8h8l4 8z" fill="#d9736b"/>
+    <path d="M428 288l6-8h6l2 8z" fill="#f1b1aa"/>
+    <path d="M398 290c4-3 8-3 12 0M418 290c4-3 8-3 12 0" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "id": "entrance",
+  "n": 6,
+  "group": "home",
+  "title": "玄関",
+  "title_zh": "玄关",
+  "title_en": "Entrance hall",
+  "words": [
+    { "w": "玄関", "r": "げんかん", "zh": "门口；玄关", "en": "entrance; front door", "x": 600, "y": 352 },
+    { "w": "ドア", "r": "ドア", "zh": "门", "en": "door", "x": 232, "y": 292 },
+    { "w": "靴", "r": "くつ", "zh": "鞋", "en": "shoes", "x": 406, "y": 384 },
+    { "w": "靴箱", "r": "くつばこ", "zh": "鞋柜", "en": "shoe cabinet", "x": 680, "y": 300 },
+    { "w": "傘", "r": "かさ", "zh": "伞", "en": "umbrella", "x": 312, "y": 284 },
+    { "w": "傘立て", "r": "かさたて", "zh": "伞架", "en": "umbrella stand", "x": 312, "y": 362 },
+    { "w": "鍵", "r": "かぎ", "zh": "钥匙；锁", "en": "key; lock", "x": 750, "y": 140 },
+    { "w": "かばん", "r": "かばん", "zh": "包；书包", "en": "bag; briefcase", "x": 190, "y": 400 },
+    { "w": "帽子", "r": "ぼうし", "zh": "帽子", "en": "hat; cap", "x": 700, "y": 122 },
+    { "w": "コート", "r": "コート", "zh": "大衣；外套", "en": "coat", "x": 622, "y": 150 },
+    { "w": "インターホン", "r": "インターホン", "zh": "对讲门铃", "en": "intercom; doorphone", "x": 300, "y": 164 },
+    { "w": "マット", "r": "マット", "zh": "地垫", "en": "mat", "x": 395, "y": 452 },
+    { "w": "手紙", "r": "てがみ", "zh": "信", "en": "letter", "x": 612, "y": 214 },
+    { "w": "ただいま", "r": "ただいま", "zh": "我回来了", "en": "I'm home", "x": 250, "y": 230 },
+    { "w": "スリッパ", "r": "スリッパ", "zh": "拖鞋", "en": "slippers", "x": 280, "y": 442 },
+    { "w": "母", "r": "はは", "zh": "母亲（谦称）", "en": "(my) mother", "x": 522, "y": 300 },
+    { "w": "女の子", "r": "おんなのこ", "zh": "女孩", "en": "girl", "x": 130, "y": 300 }
+  ],
+  "sentences": [
+    { "ja": "{女|おんな}の{子|こ}は「ただいま」と{言|い}って、{玄関|げんかん}に{入|はい}りました。", "zh": "女孩说着“我回来了”，走进了玄关。", "en": "The girl said \"I'm home\" and came into the entrance hall." },
+    { "ja": "{玄関|げんかん}で{靴|くつ}を{脱|ぬ}いで、スリッパをはきます。", "zh": "在玄关脱鞋，换上拖鞋。", "en": "At the entrance you take off your shoes and put on slippers." },
+    { "ja": "{傘|かさ}は{傘立|かさた}ての{中|なか}に、コートと{帽子|ぼうし}は{壁|かべ}にかけてあります。", "zh": "伞放在伞架里，大衣和帽子挂在墙上。", "en": "The umbrellas are in the umbrella stand, and the coat and hat are hanging on the wall." }
+  ]
+}

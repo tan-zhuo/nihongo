@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="330" width="800" height="170" fill="#d8b48c" stroke="none"/>
+  <path d="M0 370h800M0 410h800M0 450h800" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M0 330h800" stroke="#b08a63" stroke-width="3"/>
+  <!-- window -->
+  <rect x="60" y="28" width="150" height="116" rx="4" fill="#d6e7f0"/>
+  <path d="M60 86h150M135 28v116"/>
+  <circle cx="100" cy="66" r="14" fill="#f8e6ae" stroke="none"/>
+  <path d="M80 124c14-12 34-12 48 0 10-8 26-8 36 0" fill="#ffffff" stroke="none"/>
+  <rect x="52" y="20" width="166" height="132" rx="6"/>
+  <rect x="46" y="146" width="178" height="10" rx="2" fill="#ffffff"/>
+  <!-- pendant lamp -->
+  <path d="M400 0v50" stroke-width="3"/>
+  <path d="M356 96l14-46h60l14 46z" fill="#f0cf6d"/>
+  <circle cx="400" cy="100" r="8" fill="#f8e6ae"/>
+  <!-- picture -->
+  <rect x="560" y="56" width="110" height="80" fill="#9c7450"/>
+  <rect x="570" y="66" width="90" height="60" fill="#e0ece3" stroke="none"/>
+  <circle cx="600" cy="98" r="14" fill="#d9736b" stroke="none"/>
+  <circle cx="630" cy="96" r="12" fill="#f0cf6d" stroke="none"/>
+  <path d="M580 118h70" stroke="#9dc0a8" stroke-width="4"/>
+  <g transform="translate(0 -20)">
+  <!-- chairs behind -->
+  <rect x="106" y="176" width="68" height="120" rx="10" fill="#9c7450"/>
+  <rect x="372" y="196" width="56" height="100" rx="8" fill="#9c7450"/>
+  <rect x="616" y="176" width="68" height="120" rx="10" fill="#9c7450"/>
+  <!-- father reading -->
+  <path d="M104 296v-44c0-14 12-24 26-24h20c14 0 26 10 26 24v44z" fill="#4a7fa3"/>
+  <circle cx="140" cy="212" r="18" fill="#f5d2b4"/>
+  <path d="M122 208c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+  <circle cx="133" cy="214" r="5" stroke-width="1.5"/>
+  <circle cx="148" cy="214" r="5" stroke-width="1.5"/>
+  <path d="M138 214h5" stroke-width="1.5"/>
+  <path d="M136 224c2 2 6 2 8 0" stroke-width="1.5"/>
+  <path d="M154 262l18-22" stroke="#4a7fa3" stroke-width="9"/>
+  <g data-w="17">
+    <path d="M166 222l60-10 6 60-60 10z" fill="#ffffff"/>
+    <path d="M176 236l40-7M178 248l40-7M180 260l34-6" stroke="#8c867c" stroke-width="1.5"/>
+    <circle cx="170" cy="244" r="5" fill="#f5d2b4"/>
+  </g>
+  <!-- child eating -->
+  <g data-w="18">
+    <path d="M372 296v-34c0-12 10-20 22-20h12c12 0 22 8 22 20v34z" fill="#d9736b"/>
+    <circle cx="400" cy="228" r="15" fill="#f5d2b4"/>
+    <path d="M385 225c3-12 27-12 30 0-5-5-10-6-15-6s-10 1-15 6zM398 212l4-8 4 8" fill="#4a3b32" stroke="none"/>
+    <circle cx="395" cy="228" r="1.5" fill="#3f3a34" stroke="none"/>
+    <circle cx="405" cy="228" r="1.5" fill="#3f3a34" stroke="none"/>
+    <circle cx="400" cy="236" r="2.5" fill="#3f3a34" stroke="none"/>
+    <path d="M418 276l12-30" stroke="#d9736b" stroke-width="8"/>
+    <path d="M426 242l-18-12M430 240l-16-16" stroke="#5e4634"/>
+    <circle cx="430" cy="246" r="5" fill="#f5d2b4"/>
+  </g>
+  <!-- mother drinking -->
+  <g data-w="19">
+    <path d="M628 244v-32c0-14 10-24 22-24s22 10 22 24v32z" fill="#4a3b32"/>
+    <path d="M614 296v-44c0-14 12-24 26-24h20c14 0 26 10 26 24v44z" fill="#5b8a72"/>
+    <circle cx="650" cy="212" r="18" fill="#f5d2b4"/>
+    <path d="M632 208c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="644" cy="213" r="1.5" fill="#3f3a34" stroke="none"/>
+    <circle cx="656" cy="213" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M668 272l10-24" stroke="#5b8a72" stroke-width="8"/>
+    <rect x="652" y="226" width="22" height="18" rx="4" fill="#ffffff"/>
+    <path d="M674 230c8 0 8 10 0 10"/>
+    <circle cx="678" cy="248" r="5" fill="#f5d2b4"/>
+  </g>
+  </g>
+  <!-- table -->
+  <g data-w="1">
+    <rect x="40" y="270" width="720" height="160" rx="6" fill="#e3c9a3"/>
+    <rect x="40" y="430" width="720" height="16" rx="3" fill="#9c7450"/>
+    <path d="M70 446v44M730 446v44" stroke="#5e4634" stroke-width="8"/>
+  </g>
+  <!-- egg -->
+  <g data-w="6" transform="translate(0 -28)">
+    <ellipse cx="90" cy="322" rx="36" ry="14" fill="#ffffff"/>
+    <path d="M66 318c0-10 12-16 24-14s22 4 22 12-10 14-22 14-24-4-24-12z" fill="#ffffff"/>
+    <circle cx="90" cy="318" r="7" fill="#f0cf6d"/>
+  </g>
+  <!-- bread -->
+  <g data-w="7" transform="translate(0 -28)">
+    <ellipse cx="195" cy="326" rx="34" ry="13" fill="#ffffff"/>
+    <path d="M176 328v-26c0-6 6-10 10-8 4-6 14-6 18 0 4-2 10 2 10 8v26z" fill="#e3c9a3"/>
+    <path d="M184 326v-20c4-4 18-4 22 0v20" fill="#f8e6ae" stroke="none"/>
+  </g>
+  <!-- salad -->
+  <g data-w="8" transform="translate(0 -28)">
+    <circle cx="288" cy="312" r="10" fill="#9dc0a8"/>
+    <circle cx="312" cy="311" r="11" fill="#9dc0a8"/>
+    <circle cx="300" cy="306" r="9" fill="#5b8a72"/>
+    <circle cx="300" cy="314" r="6" fill="#d9736b"/>
+    <path d="M270 318h60l-8 22h-44z" fill="#ffffff"/>
+  </g>
+  <!-- fish -->
+  <g data-w="5" transform="translate(0 -28)">
+    <ellipse cx="405" cy="326" rx="48" ry="14" fill="#ffffff"/>
+    <path d="M368 322c10-12 44-14 60-2-16 12-50 10-60 2z" fill="#7da2c4"/>
+    <path d="M426 320l18-10-2 20z" fill="#7da2c4"/>
+    <path d="M392 314v12M402 313v14M412 314v12" stroke="#4a7fa3" stroke-width="1.5"/>
+    <circle cx="378" cy="320" r="1.6" fill="#3f3a34" stroke="none"/>
+  </g>
+  <!-- rice -->
+  <g data-w="3" transform="translate(0 -28)">
+    <path d="M486 322c4-14 44-14 48 0z" fill="#ffffff"/>
+    <path d="M484 322h52l-6 20h-40z" fill="#7da2c4"/>
+    <path d="M490 330h40" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <!-- miso soup -->
+  <g data-w="4" transform="translate(0 -28)">
+    <path d="M590 324h50l-6 18h-38z" fill="#b5463f"/>
+    <ellipse cx="615" cy="324" rx="25" ry="6" fill="#d8b48c"/>
+    <rect x="606" y="320" width="6" height="5" fill="#ffffff" stroke="none"/>
+    <rect x="618" y="321" width="6" height="5" fill="#ffffff" stroke="none"/>
+    <path d="M606 312c4-6-4-10 0-16M624 312c4-6-4-10 0-16" stroke="#cfc9bd"/>
+  </g>
+  <!-- coffee -->
+  <g data-w="16" transform="translate(0 -28)">
+    <rect x="700" y="312" width="32" height="28" rx="4" fill="#ffffff"/>
+    <path d="M732 318c10 0 10 16 0 16"/>
+    <ellipse cx="716" cy="312" rx="16" ry="4" fill="#5e4634"/>
+    <path d="M708 304c4-6-4-10 0-16M724 304c4-6-4-10 0-16" stroke="#cfc9bd"/>
+  </g>
+  <!-- milk -->
+  <g data-w="9">
+    <rect x="76" y="355" width="38" height="50" fill="#ffffff"/>
+    <path d="M76 355l8-14h22l8 14z" fill="#d6e7f0"/>
+    <rect x="76" y="370" width="38" height="14" fill="#7da2c4" stroke="none"/>
+    <circle cx="95" cy="394" r="4" fill="#7da2c4" stroke="none"/>
+  </g>
+  <!-- glass -->
+  <g data-w="10">
+    <path d="M184 362l4 42h24l4-42z" fill="#d6e7f0"/>
+    <path d="M187 376l3 26h20l3-26z" fill="#e59a5b" stroke="none"/>
+  </g>
+  <!-- butter -->
+  <g data-w="11">
+    <rect x="282" y="388" width="46" height="12" rx="3" fill="#ffffff"/>
+    <rect x="288" y="370" width="34" height="20" rx="2" fill="#f8e6ae"/>
+    <path d="M288 376h34" stroke="#f0cf6d"/>
+  </g>
+  <!-- jam -->
+  <g data-w="12">
+    <rect x="394" y="366" width="32" height="38" rx="6" fill="#b5463f"/>
+    <rect x="392" y="360" width="36" height="10" rx="3" fill="#f0cf6d"/>
+    <rect x="399" y="380" width="22" height="14" rx="2" fill="#ffffff" stroke="none"/>
+    <circle cx="410" cy="387" r="3" fill="#d9736b" stroke="none"/>
+  </g>
+  <!-- chopsticks -->
+  <g data-w="13">
+    <ellipse cx="500" cy="391" rx="7" ry="4" fill="#9dc0a8"/>
+    <path d="M494 386l56-4M494 394l56-4" stroke="#5e4634" stroke-width="3"/>
+  </g>
+  <!-- tea -->
+  <g data-w="14">
+    <path d="M596 400c-6-20 6-34 24-34s30 14 24 34z" fill="#5b8a72"/>
+    <path d="M608 366c4-6 20-6 24 0" fill="#5b8a72"/>
+    <circle cx="620" cy="362" r="3" fill="#3f3a34"/>
+    <path d="M642 384c8-2 12-8 10-16"/>
+    <path d="M598 380c-8 2-10 12-4 18"/>
+    <rect x="658" y="386" width="18" height="16" rx="3" fill="#e0ece3"/>
+  </g>
+  <!-- plates -->
+  <g data-w="15">
+    <ellipse cx="725" cy="400" rx="32" ry="8" fill="#ffffff"/>
+    <ellipse cx="725" cy="393" rx="32" ry="8" fill="#ffffff"/>
+    <ellipse cx="725" cy="386" rx="32" ry="8" fill="#ffffff"/>
+    <ellipse cx="725" cy="386" rx="20" ry="4" stroke="#7da2c4" stroke-width="1.5"/>
+  </g>
+  <!-- chair in front -->
+  <g data-w="2">
+    <path d="M445 374v104M485 374v104" stroke-width="6"/>
+    <path d="M445 374v104M485 374v104" stroke="#9c7450" stroke-width="2.5"/>
+    <rect x="440" y="368" width="50" height="14" rx="6" fill="#9c7450"/>
+    <rect x="445" y="396" width="40" height="10" rx="4" fill="#9c7450"/>
+    <rect x="445" y="416" width="40" height="10" rx="4" fill="#9c7450"/>
+  </g>
+</svg>

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="wh"><circle r="9" fill="#3f3a34"/><circle r="3.5" fill="#cfc9bd"/></g>
+    <g id="wb"><circle r="12" fill="#3f3a34"/><circle r="5" fill="#cfc9bd"/></g>
+  </defs>
+  <!-- sky -->
+  <g data-w="1">
+    <rect x="0" y="0" width="800" height="210" fill="#d6e7f0" stroke="none"/>
+    <circle cx="740" cy="52" r="26" fill="#f8e6ae" stroke="none"/>
+    <path d="M300 60c0-14 30-20 40-8 14-8 36 0 32 14h-72z" fill="#ffffff" stroke="none"/>
+    <path d="M460 96c0-12 24-16 32-6 12-6 28 0 26 12h-58z" fill="#ffffff" stroke="none"/>
+    <path d="M40 150c0-12 24-16 32-6 12-6 28 0 26 12h-58z" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- hills -->
+  <path d="M0 200c80-50 160-50 240-20s140 10 200-20 160-20 240 10 80 20 120 10v40h-800z" fill="#e0ece3" stroke="none"/>
+  <path d="M0 210c60-30 140-40 220-10s200-10 300 0 160 20 280-10v30h-800z" fill="#9dc0a8" stroke="none"/>
+
+  <!-- airplane -->
+  <g data-w="2">
+    <path d="M136 56l-20-18h26l16 18z" fill="#cfc9bd"/>
+    <path d="M72 78c0-10 14-16 36-16h110c22 0 42 6 42 16s-20 14-42 14h-110c-22 0-36-4-36-14z" fill="#ffffff"/>
+    <path d="M224 62l18-26h24l-16 26z" fill="#d9736b"/>
+    <path d="M128 92l-36 20h40l30-20z" fill="#cfc9bd"/>
+    <circle cx="112" cy="74" r="3" fill="#7da2c4"/><circle cx="132" cy="74" r="3" fill="#7da2c4"/><circle cx="152" cy="74" r="3" fill="#7da2c4"/><circle cx="172" cy="74" r="3" fill="#7da2c4"/><circle cx="192" cy="74" r="3" fill="#7da2c4"/>
+    <path d="M78 74c6-6 14-8 22-8v16c-8 0-16-2-22-8z" fill="#7da2c4" stroke="none"/>
+    <ellipse cx="150" cy="96" rx="12" ry="6" fill="#8c867c"/>
+  </g>
+  <!-- helicopter -->
+  <g data-w="3">
+    <path d="M560 54h140" stroke-width="4"/>
+    <path d="M632 54v10" stroke-width="4"/>
+    <path d="M700 94l-30-14 2 14z" fill="#4a7fa3"/>
+    <path d="M700 82l10-12v24z" fill="#7da2c4"/>
+    <path d="M648 76h56" stroke="#4a7fa3" stroke-width="10"/>
+    <ellipse cx="620" cy="84" rx="42" ry="22" fill="#4a7fa3"/>
+    <path d="M636 68c12 4 20 12 22 20h-30v-20z" fill="#d6e7f0" stroke="none"/>
+    <circle cx="614" cy="82" r="8" fill="#d6e7f0"/>
+    <path d="M604 106v8M636 106v8M594 114h50" stroke-width="3"/>
+  </g>
+
+  <!-- viaduct and shinkansen -->
+  <g data-w="4">
+    <path d="M640 182H270c10-22 36-34 74-34h296z" fill="#ffffff"/>
+    <path d="M284 176h356" stroke="#4a7fa3" stroke-width="6"/>
+    <path d="M360 156h18v12h-18zM390 156h18v12h-18zM420 156h18v12h-18zM450 156h18v12h-18zM480 156h18v12h-18zM510 156h18v12h-18zM540 156h18v12h-18zM570 156h18v12h-18zM600 156h18v12h-18z" fill="#7da2c4"/>
+    <path d="M296 170c8-10 18-16 32-18l-4 14z" fill="#4a7fa3"/>
+  </g>
+  <rect x="240" y="182" width="560" height="12" fill="#cfc9bd"/>
+  <path d="M300 194v62M420 194v62M540 194v62M660 194v62M780 194v62" stroke="#cfc9bd" stroke-width="14"/>
+  <path d="M300 194v62M420 194v62M540 194v62M660 194v62M780 194v62" stroke="#3f3a34" stroke-width="18" stroke-opacity="0" />
+
+  <!-- river -->
+  <g data-w="5">
+    <rect x="0" y="206" width="800" height="52" fill="#b9cfe3" stroke="none"/>
+    <path d="M0 206h800M0 258h800" stroke="#7da2c4"/>
+    <path d="M250 222c10-6 20-6 30 0M340 240c10-6 20-6 30 0M460 224c10-6 20-6 30 0M600 238c10-6 20-6 30 0M720 222c10-6 20-6 30 0" stroke="#7da2c4" stroke-width="1.5"/>
+  </g>
+  <path d="M300 194v62M420 194v62M540 194v62M660 194v62M780 194v62" stroke="#cfc9bd" stroke-width="14"/>
+  <!-- boat -->
+  <g data-w="6">
+    <path d="M60 230h172l-18 22h-140z" fill="#b5463f"/>
+    <path d="M70 236h150" stroke="#ffffff" stroke-width="3"/>
+    <rect x="104" y="210" width="70" height="22" rx="4" fill="#ffffff"/>
+    <circle cx="120" cy="221" r="4" fill="#7da2c4"/><circle cx="138" cy="221" r="4" fill="#7da2c4"/><circle cx="156" cy="221" r="4" fill="#7da2c4"/>
+    <rect x="140" y="196" width="12" height="14" fill="#8c867c"/>
+    <path d="M180 220h20" stroke-width="3"/>
+  </g>
+
+  <!-- bank, rail line with train -->
+  <rect x="0" y="258" width="800" height="52" fill="#9dc0a8" stroke="none"/>
+  <path d="M0 304h800" stroke="#8c867c" stroke-width="3"/>
+  <g data-w="7">
+    <rect x="420" y="258" width="170" height="42" rx="6" fill="#ede9e1"/>
+    <rect x="596" y="258" width="164" height="42" rx="6" fill="#ede9e1"/>
+    <path d="M420 288h340" stroke="#5b8a72" stroke-width="6"/>
+    <path d="M430 266h22v16h-22zM460 266h22v16h-22zM490 266h22v16h-22zM520 266h22v16h-22zM550 266h22v16h-22zM606 266h22v16h-22zM636 266h22v16h-22zM666 266h22v16h-22zM696 266h22v16h-22zM726 266h22v16h-22z" fill="#b9cfe3"/>
+    <path d="M440 300v4M560 300v4M616 300v4M740 300v4" stroke-width="6"/>
+    <path d="M440 254v4M740 254v4" />
+  </g>
+
+  <!-- road -->
+  <rect x="0" y="310" width="800" height="110" fill="#8c867c" stroke="none"/>
+  <path d="M0 366h800" stroke="#ffffff" stroke-width="2" stroke-dasharray="24 16"/>
+  <path d="M0 310h800" stroke="#5e5852"/>
+  <!-- traffic light -->
+  <g data-w="8">
+    <path d="M50 352v68" stroke-width="5"/>
+    <rect x="36" y="296" width="28" height="58" rx="6" fill="#3f3a34"/>
+    <circle cx="50" cy="308" r="7" fill="#d9736b" stroke="none"/>
+    <circle cx="50" cy="325" r="7" fill="#f0cf6d" stroke="none"/>
+    <circle cx="50" cy="342" r="7" fill="#5b8a72" stroke="none"/>
+  </g>
+  <!-- bus -->
+  <g data-w="9">
+    <rect x="80" y="316" width="140" height="42" rx="6" fill="#f0cf6d"/>
+    <path d="M86 324h26v18h-26zM120 324h20v18h-20zM148 324h20v18h-20zM176 324h20v18h-20zM204 324h10v30h-10z" fill="#d6e7f0"/>
+    <path d="M80 348h140" stroke="#e59a5b"/>
+    <use href="#wh" x="108" y="358"/><use href="#wh" x="194" y="358"/>
+  </g>
+  <!-- truck -->
+  <g data-w="10">
+    <rect x="292" y="314" width="88" height="44" rx="3" fill="#ffffff"/>
+    <path d="M250 340l8-14h34v32h-42z" fill="#4a7fa3"/>
+    <path d="M262 330h22v12h-22z" fill="#d6e7f0"/>
+    <use href="#wh" x="272" y="358"/><use href="#wh" x="352" y="358"/>
+  </g>
+  <!-- ambulance -->
+  <g data-w="11">
+    <path d="M410 340l10-20h100v38h-110z" fill="#ffffff"/>
+    <path d="M416 332h22v12h-22z" fill="#d6e7f0"/>
+    <path d="M440 348h80" stroke="#d9736b" stroke-width="3"/>
+    <path d="M478 326v16M470 334h16" stroke="#b5463f" stroke-width="4"/>
+    <rect x="440" y="314" width="14" height="6" rx="2" fill="#d9736b"/>
+    <use href="#wh" x="432" y="358"/><use href="#wh" x="500" y="358"/>
+  </g>
+  <!-- fire engine -->
+  <g data-w="12">
+    <rect x="550" y="316" width="170" height="42" rx="4" fill="#b5463f"/>
+    <path d="M556 324h26v14h-26zM596 326h20v12h-20z" fill="#d6e7f0"/>
+    <path d="M620 312h96M620 306h96M636 306v6M652 306v6M668 306v6M684 306v6M700 306v6" stroke="#cfc9bd"/>
+    <rect x="560" y="308" width="14" height="6" rx="2" fill="#d9736b"/>
+    <path d="M640 344h70" stroke="#f0cf6d" stroke-width="3"/>
+    <use href="#wh" x="580" y="358"/><use href="#wh" x="690" y="358"/>
+  </g>
+  <!-- car -->
+  <g data-w="13">
+    <path d="M50 412v-18l20-6 14-16h44l18 16 14 4v20z" fill="#d9736b"/>
+    <path d="M88 374h18v14h-18zM112 374h16v14h-16z" fill="#d6e7f0"/>
+    <use href="#wh" x="78" y="412"/><use href="#wh" x="136" y="412"/>
+  </g>
+  <!-- taxi -->
+  <g data-w="14">
+    <path d="M200 412v-18l20-6 14-16h44l18 16 14 4v20z" fill="#f0cf6d"/>
+    <path d="M238 374h18v14h-18zM262 374h16v14h-16z" fill="#d6e7f0"/>
+    <rect x="244" y="364" width="24" height="8" rx="2" fill="#5b8a72"/>
+    <use href="#wh" x="228" y="412"/><use href="#wh" x="286" y="412"/>
+  </g>
+  <!-- police car -->
+  <g data-w="15">
+    <path d="M350 412v-18l20-6 14-16h44l18 16 14 4v20z" fill="#ffffff"/>
+    <path d="M350 400h110v12h-110z" fill="#3f3a34"/>
+    <path d="M388 374h18v14h-18zM412 374h16v14h-16z" fill="#d6e7f0"/>
+    <rect x="396" y="366" width="18" height="6" rx="2" fill="#d9736b"/>
+    <use href="#wh" x="378" y="412"/><use href="#wh" x="436" y="412"/>
+  </g>
+  <!-- motorbike -->
+  <g data-w="16">
+    <use href="#wb" x="520" y="410"/><use href="#wb" x="576" y="410"/>
+    <path d="M520 410l16-22h26l10 14 4 8" />
+    <path d="M536 388h26l12 14h-44z" fill="#d9736b"/>
+    <path d="M528 384h22v8h-22z" fill="#3f3a34"/>
+    <path d="M566 388l10-14M572 376h10" stroke-width="3"/>
+    <path d="M548 374h-16" stroke-width="3"/>
+  </g>
+  <!-- bicycle -->
+  <g data-w="17">
+    <circle cx="640" cy="410" r="13" fill="#ffffff"/><circle cx="690" cy="410" r="13" fill="#ffffff"/>
+    <path d="M640 410l14-26h22l14 26M654 384l10 26 14-26M664 410l-10-26" stroke="#4a7fa3"/>
+    <path d="M648 382h14M678 378h12l6 6" stroke-width="3"/>
+    <path d="M696 378v-10" />
+    <circle cx="664" cy="410" r="4" fill="#3f3a34"/>
+  </g>
+
+  <!-- sidewalk -->
+  <rect x="0" y="420" width="800" height="80" fill="#ede9e1" stroke="none"/>
+  <path d="M0 420h800" stroke-width="3"/>
+  <path d="M0 428h800" stroke="#cfc9bd"/>
+  <path d="M100 490v-36M300 490v-36M470 490v-36" stroke="#9c7450" stroke-width="5"/>
+  <circle cx="100" cy="448" r="22" fill="#5b8a72"/><circle cx="300" cy="448" r="22" fill="#5b8a72"/><circle cx="470" cy="448" r="22" fill="#5b8a72"/>
+  <rect x="170" y="462" width="70" height="10" rx="3" fill="#e3c9a3"/><path d="M178 472v16M232 472v16" stroke-width="3"/>
+  <!-- subway entrance -->
+  <g data-w="18">
+    <path d="M600 436h150v52h-150z" fill="#8c867c"/>
+    <path d="M620 446h130M640 456h110M660 466h90M680 476h70" stroke="#cfc9bd"/>
+    <path d="M600 436l20 10 20 10 20 10 20 10v12h-80z" fill="#5e5852" stroke="none"/>
+    <path d="M600 436v-12h150v12M600 424h150" stroke-width="3"/>
+    <path d="M612 424v12M640 424v12M668 424v12M696 424v12M724 424v12" />
+    <path d="M760 488v-56" stroke-width="4"/>
+    <circle cx="760" cy="422" r="14" fill="#4a7fa3"/>
+    <path d="M753 428v-12l7 8 7-8v12" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+</svg>

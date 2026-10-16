@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- sky, grass, sidewalk, road -->
+  <g data-w="15">
+    <rect x="0" y="0" width="800" height="330" fill="#d6e7f0" stroke="none"/>
+  </g>
+  <rect x="0" y="320" width="800" height="100" fill="#9dc0a8" stroke="none"/>
+  <path d="M0 320h800" stroke="#5b8a72"/>
+  <rect x="0" y="420" width="800" height="30" fill="#ede9e1" stroke="none"/>
+  <path d="M0 420h800" stroke="#cfc9bd"/>
+  <rect x="0" y="450" width="800" height="50" fill="#cfc9bd" stroke="none"/>
+  <path d="M0 450h800" stroke="#8c867c"/>
+  <path d="M20 476h760" stroke="#ffffff" stroke-width="3" stroke-dasharray="26 18"/>
+
+  <!-- sun -->
+  <g data-w="17">
+    <path d="M90 22v10M90 98v10M47 65h10M123 65h10M60 35l7 7M113 88l7 7M60 95l7-7M113 42l7-7" stroke="#e59a5b" stroke-width="3"/>
+    <circle cx="90" cy="65" r="26" fill="#f0cf6d" stroke="#e59a5b"/>
+  </g>
+  <!-- clouds -->
+  <g data-w="16" stroke="none" fill="#ffffff">
+    <circle cx="186" cy="80" r="15"/><circle cx="206" cy="70" r="20"/><circle cx="230" cy="80" r="14"/>
+    <rect x="172" y="78" width="72" height="18" rx="9"/>
+    <circle cx="670" cy="72" r="13"/><circle cx="690" cy="64" r="18"/><circle cx="712" cy="74" r="12"/>
+    <rect x="658" y="70" width="66" height="16" rx="8"/>
+  </g>
+  <!-- birds -->
+  <g data-w="18">
+    <path d="M546 102q8-9 16 0q8-9 16 0M578 86q7-8 14 0q7-8 14 0M606 108q6-7 12 0q6-7 12 0" stroke-width="2.5"/>
+  </g>
+
+  <!-- house wall and chimney -->
+  <g data-w="1">
+    <rect x="466" y="88" width="30" height="52" fill="#9c7450"/>
+    <rect x="461" y="84" width="40" height="10" rx="2" fill="#8c867c"/>
+    <circle cx="486" cy="70" r="7" fill="#ede9e1" stroke="#cfc9bd"/>
+    <circle cx="498" cy="56" r="9" fill="#ede9e1" stroke="#cfc9bd"/>
+    <rect x="230" y="168" width="300" height="212" fill="#f8e6ae"/>
+    <path d="M230 200h300" stroke="#e8d08a"/>
+  </g>
+  <!-- roof -->
+  <g data-w="2">
+    <path d="M204 172l176-106 176 106z" fill="#d9736b"/>
+    <path d="M260 138h240M232 155h296" stroke="#b5463f" stroke-width="1.5"/>
+    <rect x="198" y="168" width="364" height="10" rx="3" fill="#b5463f"/>
+  </g>
+  <!-- windows -->
+  <g data-w="3">
+    <circle cx="380" cy="120" r="16" fill="#ffffff"/>
+    <circle cx="380" cy="120" r="11" fill="#d6e7f0"/>
+    <path d="M380 109v22M369 120h22"/>
+    <rect x="256" y="216" width="68" height="68" rx="3" fill="#ffffff"/>
+    <rect x="263" y="223" width="54" height="54" fill="#d6e7f0"/>
+    <path d="M290 223v54M263 250h54"/>
+    <rect x="250" y="284" width="80" height="8" rx="2" fill="#ede9e1"/>
+    <rect x="436" y="216" width="68" height="68" rx="3" fill="#ffffff"/>
+    <rect x="443" y="223" width="54" height="54" fill="#d6e7f0"/>
+    <path d="M470 223v54M443 250h54"/>
+    <rect x="430" y="284" width="80" height="8" rx="2" fill="#ede9e1"/>
+  </g>
+  <!-- door -->
+  <g data-w="4">
+    <rect x="358" y="272" width="54" height="82" rx="4" fill="#9c7450"/>
+    <rect x="366" y="282" width="38" height="26" rx="2" fill="#d6e7f0"/>
+    <circle cx="402" cy="322" r="3.5" fill="#f0cf6d"/>
+  </g>
+  <!-- steps -->
+  <g data-w="5">
+    <rect x="318" y="374" width="134" height="12" fill="#cfc9bd"/>
+    <rect x="328" y="363" width="114" height="12" fill="#ede9e1"/>
+    <rect x="338" y="352" width="94" height="12" fill="#ffffff"/>
+  </g>
+
+  <!-- flowers -->
+  <g data-w="8">
+    <path d="M70 378v-36M100 378v-40M130 378v-34" stroke="#5b8a72" stroke-width="2.5"/>
+    <path d="M70 362c-10 0-14-8-10-14 8 2 12 6 10 14zM100 358c10 0 14-8 10-14-8 2-12 6-10 14zM130 364c-10 0-14-8-10-14 8 2 12 6 10 14z" fill="#9dc0a8"/>
+    <circle cx="70" cy="340" r="10" fill="#d9736b"/><circle cx="70" cy="340" r="4" fill="#f0cf6d"/>
+    <circle cx="100" cy="336" r="10" fill="#f0cf6d"/><circle cx="100" cy="336" r="4" fill="#e59a5b"/>
+    <circle cx="130" cy="342" r="10" fill="#a58bc0"/><circle cx="130" cy="342" r="4" fill="#f8e6ae"/>
+  </g>
+  <!-- dog -->
+  <g data-w="13">
+    <path d="M168 378v-14M196 378v-14" stroke-width="5"/>
+    <ellipse cx="182" cy="362" rx="22" ry="20" fill="#d8b48c"/>
+    <path d="M162 368c-14 0-20-14-10-24" stroke="#d8b48c" stroke-width="5"/>
+    <ellipse cx="166" cy="338" rx="6" ry="13" fill="#9c7450"/>
+    <ellipse cx="198" cy="338" rx="6" ry="13" fill="#9c7450"/>
+    <circle cx="182" cy="332" r="16" fill="#d8b48c"/>
+    <circle cx="176" cy="331" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="188" cy="331" r="1.8" fill="#3f3a34" stroke="none"/>
+    <ellipse cx="182" cy="339" rx="4" ry="2.5" fill="#3f3a34" stroke="none"/>
+    <path d="M178 343c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- garden grass patch -->
+  <g data-w="6">
+    <ellipse cx="640" cy="400" rx="130" ry="16" fill="#e0ece3" stroke="#5b8a72" stroke-width="1.5"/>
+    <path d="M560 384l3-8 3 8M590 390l3-8 3 8M700 392l3-8 3 8M730 386l3-8 3 8" stroke="#5b8a72"/>
+  </g>
+  <!-- tree -->
+  <g data-w="7">
+    <rect x="618" y="250" width="24" height="152" rx="4" fill="#9c7450"/>
+    <path d="M630 300l-10-18M630 280l10-16" stroke="#7a5b3d"/>
+    <circle cx="590" cy="236" r="40" fill="#5b8a72"/>
+    <circle cx="672" cy="238" r="40" fill="#5b8a72"/>
+    <circle cx="630" cy="200" r="58" fill="#5b8a72"/>
+    <circle cx="612" cy="184" r="20" fill="#9dc0a8" stroke="none"/>
+  </g>
+
+  <!-- block wall (fence) -->
+  <g data-w="10">
+    <rect x="40" y="380" width="310" height="42" fill="#ede9e1"/>
+    <path d="M40 394h310M40 408h310M90 380v14M150 380v14M210 380v14M270 380v14M120 394v14M180 394v14M240 394v14M300 394v14M60 408v14M120 408v14M180 408v14M240 408v14M300 408v14" stroke="#cfc9bd" stroke-width="1.5"/>
+    <rect x="36" y="374" width="318" height="8" rx="2" fill="#cfc9bd"/>
+    <rect x="420" y="380" width="150" height="42" fill="#ede9e1"/>
+    <path d="M420 394h150M420 408h150M450 380v14M510 380v14M480 394v14M540 394v14M450 408v14M510 408v14" stroke="#cfc9bd" stroke-width="1.5"/>
+    <rect x="416" y="374" width="158" height="8" rx="2" fill="#cfc9bd"/>
+  </g>
+  <!-- gate -->
+  <g data-w="11">
+    <rect x="348" y="366" width="10" height="58" rx="2" fill="#8c867c"/>
+    <rect x="412" y="366" width="10" height="58" rx="2" fill="#8c867c"/>
+    <rect x="358" y="376" width="54" height="46" fill="#9c7450"/>
+    <path d="M370 376v46M385 376v46M400 376v46M358 390h54M358 408h54" stroke="#7a5b3d" stroke-width="1.5"/>
+  </g>
+  <!-- mailbox -->
+  <g data-w="12">
+    <rect x="266" y="340" width="7" height="42" fill="#8c867c"/>
+    <rect x="248" y="302" width="44" height="40" rx="5" fill="#d9736b"/>
+    <rect x="256" y="312" width="28" height="5" rx="2" fill="#3f3a34" stroke="none"/>
+    <path d="M248 328h44" stroke="#b5463f"/>
+  </g>
+
+  <!-- bicycle -->
+  <g data-w="14">
+    <circle cx="100" cy="430" r="20" stroke-width="3"/>
+    <circle cx="180" cy="430" r="20" stroke-width="3"/>
+    <circle cx="100" cy="430" r="4" fill="#8c867c"/>
+    <circle cx="180" cy="430" r="4" fill="#8c867c"/>
+    <path d="M100 430l28-32h36l16 32M128 398l14 32 36-32M128 398v-10M118 388h20M164 398l6-12M160 386h20" stroke="#4a7fa3" stroke-width="3"/>
+    <circle cx="142" cy="430" r="5" fill="#8c867c"/>
+  </g>
+  <!-- car -->
+  <g data-w="9">
+    <path d="M568 462v-38c0-8 6-14 14-14h30l24-28h66l22 28h18c8 0 14 6 14 14v38z" fill="#7da2c4"/>
+    <path d="M624 416l18-24h22v24zM674 416v-24h22l20 24z" fill="#d6e7f0"/>
+    <path d="M568 440h188" stroke="#4a7fa3"/>
+    <circle cx="612" cy="462" r="15" fill="#3f3a34"/><circle cx="612" cy="462" r="6" fill="#cfc9bd"/>
+    <circle cx="712" cy="462" r="15" fill="#3f3a34"/><circle cx="712" cy="462" r="6" fill="#cfc9bd"/>
+    <rect x="746" y="428" width="10" height="8" rx="2" fill="#f0cf6d"/>
+    <rect x="568" y="428" width="8" height="8" rx="2" fill="#d9736b"/>
+  </g>
+</svg>

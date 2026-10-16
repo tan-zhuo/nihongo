@@ -1,0 +1,32 @@
+{
+  "id": "shrine",
+  "n": 48,
+  "group": "culture",
+  "title": "神社とお寺",
+  "title_zh": "神社和寺庙",
+  "title_en": "Shrine & temple",
+  "words": [
+    { "w": "鳥居", "r": "とりい", "zh": "鸟居", "en": "torii gate", "x": 85, "y": 222 },
+    { "w": "神社", "r": "じんじゃ", "zh": "神社", "en": "Shinto shrine", "x": 310, "y": 128 },
+    { "w": "賽銭箱", "r": "さいせんばこ", "zh": "香油钱箱", "en": "offering box", "x": 296, "y": 332 },
+    { "w": "鈴", "r": "すず", "zh": "铃", "en": "bell", "x": 310, "y": 246 },
+    { "w": "狛犬", "r": "こまいぬ", "zh": "石狮子", "en": "guardian lion-dog", "x": 398, "y": 322 },
+    { "w": "手水舎", "r": "ちょうずや", "zh": "净手池", "en": "purification basin", "x": 108, "y": 458 },
+    { "w": "巫女", "r": "みこ", "zh": "巫女", "en": "shrine maiden", "x": 440, "y": 410 },
+    { "w": "絵馬", "r": "えま", "zh": "绘马（许愿牌）", "en": "votive plaque", "x": 183, "y": 318 },
+    { "w": "おみくじ", "r": "おみくじ", "zh": "神签", "en": "fortune slip", "x": 508, "y": 470 },
+    { "w": "祈る", "r": "いのる", "zh": "祈祷；祝愿", "en": "to pray; to wish", "x": 350, "y": 408 },
+    { "w": "お寺", "r": "おてら", "zh": "寺庙", "en": "Buddhist temple", "x": 670, "y": 120 },
+    { "w": "仏像", "r": "ぶつぞう", "zh": "佛像", "en": "Buddha statue", "x": 670, "y": 242 },
+    { "w": "鐘", "r": "かね", "zh": "钟", "en": "temple bell", "x": 760, "y": 252 },
+    { "w": "お線香", "r": "おせんこう", "zh": "线香", "en": "incense stick", "x": 668, "y": 400 },
+    { "w": "お坊さん", "r": "おぼうさん", "zh": "和尚", "en": "Buddhist monk", "x": 565, "y": 414 },
+    { "w": "灯籠", "r": "とうろう", "zh": "石灯笼", "en": "stone lantern", "x": 490, "y": 338 },
+    { "w": "石段", "r": "いしだん", "zh": "石阶", "en": "stone steps", "x": 670, "y": 294 }
+  ],
+  "sentences": [
+    { "ja": "{神社|じんじゃ}の{入|い}り{口|ぐち}に{赤|あか}い{鳥居|とりい}があります。", "zh": "神社的入口有红色的鸟居。", "en": "There is a red torii gate at the entrance of the shrine." },
+    { "ja": "{賽銭箱|さいせんばこ}にお{金|かね}を{入|い}れて、{鈴|すず}を{鳴|な}らして{祈|いの}ります。", "zh": "把钱投进香油钱箱，摇铃祈祷。", "en": "I put money in the offering box, ring the bell, and pray." },
+    { "ja": "お{寺|てら}には{大|おお}きな{仏像|ぶつぞう}と{鐘|かね}があります。", "zh": "寺庙里有大佛像和钟。", "en": "At the temple there is a big Buddha statue and a bell." }
+  ]
+}

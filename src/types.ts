@@ -189,3 +189,41 @@ export interface TextbookBook {
   themed: boolean
   lessons: TextbookLesson[]
 }
+
+/**
+ * Picture scenes (場面で覚える単語): one flat illustration with the things in
+ * it labelled in Japanese, like a picture dictionary. The art lives in
+ * src/data/scenes/art/<id>.svg; the words and sentences in <id>.json.
+ */
+export type SceneGroup = 'home' | 'people' | 'town' | 'food' | 'nature' | 'culture'
+
+export interface SceneWord {
+  w: string
+  r: string
+  zh: string
+  en: string
+  /** label anchor in the art's 800×500 viewBox */
+  x: number
+  y: number
+  /** id in the 4200-word vocabulary when the word is in it (audio, accent, level) */
+  vid?: string
+}
+
+export interface SceneSentence {
+  /** with kanji runs annotated as {漢字|かんじ} */
+  ja: string
+  zh: string
+  en: string
+}
+
+export interface Scene {
+  id: string
+  /** display order, 1-based */
+  n: number
+  group: SceneGroup
+  title: string
+  title_zh: string
+  title_en: string
+  words: SceneWord[]
+  sentences: SceneSentence[]
+}

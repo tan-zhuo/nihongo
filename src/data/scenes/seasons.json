@@ -1,0 +1,34 @@
+{
+  "id": "seasons",
+  "n": 41,
+  "group": "nature",
+  "title": "四季",
+  "title_zh": "四季",
+  "title_en": "Four seasons",
+  "words": [
+    { "w": "春", "r": "はる", "zh": "春天", "en": "spring", "x": 100, "y": 40 },
+    { "w": "夏", "r": "なつ", "zh": "夏天", "en": "summer", "x": 300, "y": 40 },
+    { "w": "秋", "r": "あき", "zh": "秋天", "en": "autumn; fall", "x": 500, "y": 40 },
+    { "w": "冬", "r": "ふゆ", "zh": "冬天", "en": "winter", "x": 700, "y": 40 },
+    { "w": "桜", "r": "さくら", "zh": "樱花", "en": "cherry blossom", "x": 100, "y": 232 },
+    { "w": "花見", "r": "はなみ", "zh": "赏花；赏樱", "en": "cherry blossom viewing", "x": 100, "y": 424 },
+    { "w": "蝶", "r": "ちょう", "zh": "蝴蝶", "en": "butterfly", "x": 48, "y": 196 },
+    { "w": "海", "r": "うみ", "zh": "大海", "en": "sea; ocean", "x": 240, "y": 310 },
+    { "w": "花火", "r": "はなび", "zh": "烟花", "en": "fireworks", "x": 300, "y": 100 },
+    { "w": "蝉", "r": "せみ", "zh": "蝉", "en": "cicada", "x": 262, "y": 266 },
+    { "w": "かき氷", "r": "かきごおり", "zh": "刨冰", "en": "shaved ice", "x": 360, "y": 404 },
+    { "w": "紅葉", "r": "こうよう", "zh": "红叶", "en": "autumn leaves", "x": 500, "y": 232 },
+    { "w": "栗", "r": "くり", "zh": "栗子", "en": "chestnut", "x": 454, "y": 424 },
+    { "w": "月", "r": "つき", "zh": "月亮", "en": "moon", "x": 556, "y": 112 },
+    { "w": "月見", "r": "つきみ", "zh": "赏月", "en": "moon viewing", "x": 566, "y": 426 },
+    { "w": "雪だるま", "r": "ゆきだるま", "zh": "雪人", "en": "snowman", "x": 646, "y": 432 },
+    { "w": "クリスマス", "r": "クリスマス", "zh": "圣诞节", "en": "Christmas", "x": 700, "y": 176 },
+    { "w": "スキー", "r": "スキー", "zh": "滑雪", "en": "skiing", "x": 758, "y": 366 }
+  ],
+  "sentences": [
+    { "ja": "{春|はる}になると、{桜|さくら}が{咲|さ}いて、みんなで{花見|はなみ}をします。", "zh": "一到春天，樱花盛开，大家一起赏花。", "en": "When spring comes, the cherry blossoms bloom and everyone goes flower viewing." },
+    { "ja": "{夏|なつ}は{海|うみ}で{泳|およ}いで、{夜|よる}は{花火|はなび}を{見|み}ます。", "zh": "夏天在海里游泳，晚上看烟花。", "en": "In summer we swim in the sea and watch fireworks at night." },
+    { "ja": "{秋|あき}は{紅葉|こうよう}がきれいで、{栗|くり}がおいしいです。", "zh": "秋天红叶很美，栗子很好吃。", "en": "In autumn the leaves are beautiful and the chestnuts are delicious." },
+    { "ja": "{冬|ふゆ}は{雪|ゆき}だるまを{作|つく}ったり、スキーをしたりします。", "zh": "冬天堆雪人、滑雪。", "en": "In winter we build snowmen and go skiing." }
+  ]
+}

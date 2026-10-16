@@ -1,0 +1,34 @@
+{
+  "id": "convenience-store",
+  "n": 25,
+  "group": "town",
+  "title": "コンビニ",
+  "title_zh": "便利店",
+  "title_en": "Convenience store",
+  "words": [
+    { "w": "レジ", "r": "レジ", "zh": "收银台", "en": "cash register", "x": 510, "y": 366 },
+    { "w": "店員", "r": "てんいん", "zh": "店员", "en": "shop clerk", "x": 380, "y": 302 },
+    { "w": "客", "r": "きゃく", "zh": "客人；顾客", "en": "customer", "x": 660, "y": 420 },
+    { "w": "袋", "r": "ふくろ", "zh": "袋子", "en": "bag", "x": 574, "y": 318 },
+    { "w": "ペットボトル", "r": "ペットボトル", "zh": "塑料瓶", "en": "plastic bottle", "x": 626, "y": 372 },
+    { "w": "飲み物", "r": "のみもの", "zh": "饮料", "en": "drink; beverage", "x": 690, "y": 110 },
+    { "w": "パン", "r": "パン", "zh": "面包", "en": "bread", "x": 330, "y": 148 },
+    { "w": "お菓子", "r": "おかし", "zh": "点心；零食", "en": "sweets; snacks", "x": 474, "y": 148 },
+    { "w": "おにぎり", "r": "おにぎり", "zh": "饭团", "en": "rice ball", "x": 334, "y": 212 },
+    { "w": "弁当", "r": "べんとう", "zh": "便当；盒饭", "en": "boxed lunch", "x": 472, "y": 212 },
+    { "w": "雑誌", "r": "ざっし", "zh": "杂志", "en": "magazine", "x": 90, "y": 160 },
+    { "w": "ATM", "r": "エーティーエム", "zh": "自动取款机", "en": "ATM", "x": 210, "y": 206 },
+    { "w": "コーヒー", "r": "コーヒー", "zh": "咖啡", "en": "coffee", "x": 574, "y": 222 },
+    { "w": "コピー機", "r": "コピーき", "zh": "复印机", "en": "copy machine", "x": 100, "y": 404 },
+    { "w": "レシート", "r": "レシート", "zh": "小票", "en": "receipt", "x": 470, "y": 284 },
+    { "w": "電子レンジ", "r": "でんしレンジ", "zh": "微波炉", "en": "microwave oven", "x": 336, "y": 366 },
+    { "w": "おでん", "r": "おでん", "zh": "关东煮", "en": "oden", "x": 434, "y": 366 },
+    { "w": "棚", "r": "たな", "zh": "架子", "en": "shelf", "x": 400, "y": 94 }
+  ],
+  "sentences": [
+    { "ja": "{店員|てんいん}はレジでお{客|きゃく}さんにレシートを{渡|わた}します。", "zh": "店员在收银台把小票递给顾客。", "en": "The clerk hands the receipt to the customer at the register." },
+    { "ja": "{棚|たな}におにぎりとお{弁当|べんとう}とパンが{並|なら}んでいます。", "zh": "架子上摆着饭团、便当和面包。", "en": "Rice balls, boxed lunches and bread are lined up on the shelf." },
+    { "ja": "{私|わたし}はコンビニで{飲|の}み{物|もの}とお{菓子|かし}を{買|か}いました。", "zh": "我在便利店买了饮料和零食。", "en": "I bought a drink and snacks at the convenience store." },
+    { "ja": "お{弁当|べんとう}を{電子|でんし}レンジで{温|あたた}めてください。", "zh": "请用微波炉把便当加热一下。", "en": "Please heat the boxed lunch in the microwave." }
+  ]
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <circle cx="290" cy="250" r="210" fill="#e0ece3" stroke="none"/>
+  <circle cx="640" cy="250" r="150" fill="#d6e7f0" stroke="none"/>
+  <rect x="0" y="450" width="800" height="50" fill="#ede9e1" stroke="none"/>
+  <path d="M0 450h800" stroke="#cfc9bd" stroke-width="3"/>
+  <!-- ===== big face ===== -->
+  <g data-w="10">
+    <ellipse cx="150" cy="255" rx="14" ry="22" fill="#f5d2b4"/>
+    <ellipse cx="430" cy="255" rx="14" ry="22" fill="#f5d2b4"/>
+    <path d="M148 246c-4 6-4 14 0 20M432 246c4 6 4 14 0 20" stroke-width="1.5"/>
+  </g>
+  <g data-w="1">
+    <ellipse cx="290" cy="250" rx="140" ry="160" fill="#f5d2b4"/>
+  </g>
+  <g data-w="14">
+    <path d="M150 240c-4-100 60-160 140-160s144 60 140 160c-20-60-50-90-90-96-10 0-26 8-50 8s-40-8-50-8c-40 6-70 36-90 96z" fill="#4a3b32"/>
+  </g>
+  <g data-w="12">
+    <path d="M226 160c20-10 48-14 64-14s44 4 64 14" stroke="#e8bf9c" stroke-width="1.5"/>
+  </g>
+  <g data-w="3">
+    <path d="M212 198c14-8 34-8 48 0M320 198c14-8 34-8 48 0" stroke="#4a3b32" stroke-width="5"/>
+  </g>
+  <g data-w="2">
+    <ellipse cx="236" cy="232" rx="20" ry="13" fill="#ffffff"/>
+    <circle cx="238" cy="233" r="7" fill="#5e4634"/>
+    <circle cx="240" cy="230" r="2" fill="#ffffff" stroke="none"/>
+    <ellipse cx="344" cy="232" rx="20" ry="13" fill="#ffffff"/>
+    <circle cx="346" cy="233" r="7" fill="#5e4634"/>
+    <circle cx="348" cy="230" r="2" fill="#ffffff" stroke="none"/>
+  </g>
+  <g data-w="4">
+    <path d="M328 221l-6-8M336 219l-3-9M344 219v-10M352 219l3-9M360 221l6-8M223 221l-6-8M230 219l-3-9M243 219l3-9M250 221l6-8" stroke-width="2.2"/>
+  </g>
+  <g data-w="5">
+    <path d="M290 256v28M276 290c6 6 22 6 28 0"/>
+  </g>
+  <g data-w="11">
+    <circle cx="196" cy="306" r="16" fill="#f1b1aa" stroke="none"/>
+    <circle cx="384" cy="306" r="16" fill="#f1b1aa" stroke="none"/>
+  </g>
+  <g data-w="16">
+    <circle cx="398" cy="330" r="4" fill="#4a3b32" stroke="none"/>
+  </g>
+  <g data-w="7">
+    <path d="M250 338c20-10 60-10 80 0 0 26-20 40-40 40s-40-14-40-40z" stroke="#d9736b" stroke-width="8"/>
+  </g>
+  <g data-w="6">
+    <path d="M250 338c20-10 60-10 80 0 0 26-20 40-40 40s-40-14-40-40z" fill="#b5463f"/>
+  </g>
+  <g data-w="8">
+    <path d="M256 340h68v6c-22 6-46 6-68 0z" fill="#ffffff"/>
+    <path d="M268 341v8M280 342v9M292 342v9M304 342v9M314 341v7" stroke="#cfc9bd" stroke-width="1.2"/>
+  </g>
+  <g data-w="9">
+    <path d="M270 362c6-6 34-6 40 0 0 8-8 14-20 14s-20-6-20-14z" fill="#f1b1aa"/>
+  </g>
+  <g data-w="13">
+    <path d="M250 396c14 10 66 10 80 0" stroke="#e8bf9c" stroke-width="2"/>
+  </g>
+  <!-- ===== profile with glasses and beard ===== -->
+  <path d="M560 388c0-20 34-30 76-30s80 10 80 30v62h-156z" fill="#5b8a72"/>
+  <rect x="608" y="306" width="54" height="56" fill="#f5d2b4"/>
+  <circle cx="636" cy="240" r="88" fill="#f5d2b4"/>
+  <path d="M712 230l28 22-28 12z" fill="#f5d2b4"/>
+  <path d="M716 278c-2 6 0 10 6 10" stroke-width="2.5"/>
+  <path d="M548 260c-10-60 20-114 76-118 30-2 56 8 72 28-24-8-48-6-66 8-30 24-36 60-28 100-20-4-40-10-54-18z" fill="#4a3b32"/>
+  <ellipse cx="594" cy="250" rx="10" ry="16" fill="#f5d2b4"/>
+  <path d="M666 212c6-4 14-4 20 0" stroke="#4a3b32" stroke-width="4"/>
+  <path d="M672 226c4 0 7 2 8 6" stroke-width="2.5"/>
+  <g data-w="15">
+    <path d="M604 312c16 36 84 46 114-22l-14-10c-20 46-66 42-86 16z" fill="#4a3b32"/>
+    <path d="M700 268c10-6 20-2 22 6-8 2-16 0-22-6z" fill="#4a3b32"/>
+  </g>
+  <g data-w="17">
+    <circle cx="678" cy="228" r="17" fill="#d6e7f0" fill-opacity="0.5" stroke-width="2.5"/>
+    <path d="M695 226l12 2M661 228l-56 10" stroke-width="2.5"/>
+    <path d="M605 238l-6 10" stroke-width="2.5"/>
+  </g>
+</svg>

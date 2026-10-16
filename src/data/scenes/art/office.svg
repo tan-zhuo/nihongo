@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall and carpet -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="320" width="800" height="180" fill="#ede9e1" stroke="none"/>
+  <path d="M0 360h800M0 400h800M0 440h800M0 480h800" stroke="#cfc9bd" stroke-width="1.5"/>
+  <path d="M0 320h800" stroke-width="3"/>
+  <rect x="0" y="312" width="800" height="8" fill="#cfc9bd" stroke="none"/>
+
+  <!-- window with city view -->
+  <g data-w="1">
+    <rect x="60" y="40" width="240" height="170" rx="4" fill="#d6e7f0"/>
+    <path d="M80 210v-80h30v-30h30v110M150 210v-60h40v60M200 210v-100h26v-20h30v120M262 210v-70h26v70" fill="#b9cfe3" stroke="#7da2c4"/>
+    <path d="M90 140h10M90 156h10M90 172h10M160 164h20M160 180h20M210 124h8M210 140h8M242 110h8M242 126h8" stroke="#ffffff" stroke-width="2"/>
+    <path d="M60 60h240M60 80h240M60 100h240" stroke="#ffffff" stroke-width="3"/>
+    <rect x="52" y="32" width="256" height="186" rx="6"/>
+    <rect x="46" y="212" width="268" height="10" rx="2" fill="#ffffff"/>
+  </g>
+
+  <!-- clock -->
+  <g data-w="2">
+    <circle cx="370" cy="56" r="24" fill="#ffffff"/>
+    <circle cx="370" cy="56" r="19" fill="#ffffff" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M370 56v-13M370 56l9 6" stroke-width="2.5"/>
+    <circle cx="370" cy="56" r="2" fill="#3f3a34"/>
+  </g>
+  <!-- shelf with files -->
+  <g data-w="3">
+    <rect x="314" y="196" width="112" height="8" rx="2" fill="#9c7450"/>
+    <rect x="322" y="146" width="18" height="50" rx="2" fill="#d9736b"/>
+    <rect x="342" y="146" width="18" height="50" rx="2" fill="#7da2c4"/>
+    <rect x="362" y="146" width="18" height="50" rx="2" fill="#f0cf6d"/>
+    <rect x="382" y="146" width="18" height="50" rx="2" fill="#5b8a72"/>
+    <rect x="402" y="146" width="18" height="50" rx="2" fill="#d9736b"/>
+    <path d="M326 156h10M346 156h10M366 156h10M386 156h10M406 156h10" stroke="#ffffff" stroke-width="3"/>
+    <path d="M326 184h10M346 184h10M366 184h10M386 184h10M406 184h10" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <!-- whiteboard -->
+  <g data-w="4">
+    <rect x="430" y="50" width="200" height="140" rx="4" fill="#ffffff" stroke="#8c867c"/>
+    <path d="M450 160h160" stroke="#8c867c"/>
+    <rect x="462" y="120" width="20" height="40" fill="#7da2c4" stroke="none"/>
+    <rect x="492" y="100" width="20" height="60" fill="#7da2c4" stroke="none"/>
+    <rect x="522" y="84" width="20" height="76" fill="#d9736b" stroke="none"/>
+    <path d="M556 140l48-50M604 90h-14M604 90v14" stroke="#d9736b" stroke-width="2.5"/>
+    <path d="M450 66h60M450 76h40" stroke="#4a7fa3" stroke-width="2.5"/>
+    <rect x="440" y="190" width="180" height="8" rx="2" fill="#cfc9bd"/>
+  </g>
+  <!-- meeting room door -->
+  <g data-w="5">
+    <rect x="664" y="110" width="96" height="210" rx="2" fill="#cfc9bd"/>
+    <rect x="702" y="124" width="20" height="110" rx="2" fill="#d6e7f0"/>
+    <path d="M676 250h72" stroke="#8c867c"/>
+    <rect x="690" y="86" width="44" height="16" rx="3" fill="#ffffff"/>
+    <path d="M696 94h32" stroke="#8c867c" stroke-width="2"/>
+    <circle cx="738" cy="262" r="4" fill="#f0cf6d"/>
+  </g>
+
+  <!-- printer on a cabinet -->
+  <g data-w="6">
+    <rect x="16" y="330" width="106" height="120" fill="#cfc9bd"/>
+    <path d="M16 390h106M62 350v30" stroke="#8c867c"/>
+    <rect x="26" y="292" width="88" height="40" rx="5" fill="#ffffff"/>
+    <rect x="42" y="272" width="56" height="22" fill="#ede9e1"/>
+    <rect x="34" y="312" width="72" height="8" fill="#8c867c"/>
+    <path d="M40 320l-4 16h68l-4-16z" fill="#ffffff"/>
+    <circle cx="100" cy="302" r="3" fill="#5b8a72" stroke="none"/>
+  </g>
+
+  <!-- desk -->
+  <g data-w="13">
+    <rect x="126" y="330" width="398" height="12" rx="3" fill="#9c7450"/>
+    <rect x="130" y="342" width="390" height="110" fill="#e3c9a3"/>
+    <rect x="150" y="358" width="260" height="80" rx="3" fill="#d8b48c"/>
+    <rect x="430" y="356" width="80" height="80" rx="3" fill="#d8b48c"/>
+    <path d="M430 396h80M460 376h20M460 416h20" stroke="#9c7450"/>
+    <path d="M130 342v110M520 342v110" stroke="#c49b6e"/>
+  </g>
+  <!-- documents -->
+  <g data-w="7">
+    <rect x="140" y="304" width="60" height="26" fill="#ffffff"/>
+    <rect x="146" y="298" width="60" height="26" fill="#ffffff"/>
+    <rect x="150" y="292" width="60" height="26" fill="#ffffff"/>
+    <path d="M158 300h40M158 306h30M158 312h40" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- office chair -->
+  <g data-w="10">
+    <rect x="306" y="228" width="68" height="104" rx="16" fill="#8c867c"/>
+    <rect x="314" y="236" width="52" height="88" rx="12" fill="#5e4634" stroke="none"/>
+  </g>
+  <!-- company employee -->
+  <g data-w="9">
+    <path d="M308 330v-50c0-12 10-20 22-20h20c12 0 22 8 22 20v50z" fill="#ffffff"/>
+    <path d="M340 260v-6l-6 6zM340 260l6-6-6-6z" fill="#4a7fa3" stroke="none"/>
+    <path d="M340 262v12l-5 6 5 24 5-24-5-6z" fill="#7da2c4" stroke="none"/>
+    <path d="M318 290l-26 40" stroke="#ffffff" stroke-width="9"/>
+    <circle cx="290" cy="334" r="6" fill="#f5d2b4"/>
+    <circle cx="340" cy="242" r="16" fill="#f5d2b4"/>
+    <path d="M324 238c4-14 28-14 32 0-6-6-10-8-16-8s-12 2-16 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M336 246c0 2 2 3 4 3s4-1 4-3" stroke-width="1.5"/>
+  </g>
+  <!-- computer -->
+  <g data-w="8">
+    <rect x="212" y="236" width="96" height="70" rx="4" fill="#3f3a34"/>
+    <rect x="218" y="242" width="84" height="58" rx="2" fill="#d6e7f0" stroke="none"/>
+    <path d="M226 254h40M226 264h60M226 274h50M226 284h30" stroke="#7da2c4" stroke-width="2"/>
+    <path d="M260 306v14" stroke-width="5"/>
+    <rect x="236" y="318" width="48" height="6" rx="3" fill="#3f3a34"/>
+    <rect x="232" y="332" width="68" height="12" rx="3" fill="#ffffff"/>
+    <path d="M240 338h52" stroke="#cfc9bd" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+  <!-- telephone -->
+  <g data-w="11">
+    <path d="M394 330v-18c0-4 4-8 8-8h46c4 0 8 4 8 8v18z" fill="#4a7fa3"/>
+    <rect x="392" y="292" width="64" height="14" rx="7" fill="#3f3a34"/>
+    <path d="M400 306v8M448 306v8" stroke-width="3"/>
+    <circle cx="420" cy="318" r="2" fill="#ffffff" stroke="none"/>
+    <circle cx="430" cy="318" r="2" fill="#ffffff" stroke="none"/>
+    <circle cx="440" cy="318" r="2" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- coffee -->
+  <g data-w="12">
+    <path d="M468 302h32v22c0 4-3 6-6 6h-20c-3 0-6-2-6-6z" fill="#ffffff"/>
+    <path d="M500 308c8 0 8 14 0 14" />
+    <path d="M470 302h28" stroke="#5e4634" stroke-width="3"/>
+    <path d="M478 292c-3-4 3-8 0-12M490 292c-3-4 3-8 0-12" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+
+  <!-- manager: suit (17), tie (16), person (15) -->
+  <g data-w="17">
+    <path d="M552 362v-74c0-12 10-20 22-20h12c12 0 22 8 22 20v74z" fill="#4a7fa3"/>
+    <path d="M566 268l14 30 14-30" fill="#ffffff" stroke="none"/>
+    <path d="M580 274v62" stroke="#3f6f93" stroke-width="1.5"/>
+    <path d="M556 362h48v56h-16v-36h-16v36h-16z" fill="#4a7fa3"/>
+    <path d="M560 296l-24-10" stroke="#4a7fa3" stroke-width="9"/>
+  </g>
+  <g data-w="16">
+    <path d="M580 268v12l-5 6 5 34 5-34-5-6z" fill="#d9736b"/>
+  </g>
+  <g data-w="15">
+    <path d="M552 418h20M584 418h20" stroke-width="4"/>
+    <circle cx="534" cy="286" r="6" fill="#f5d2b4"/>
+    <circle cx="580" cy="250" r="16" fill="#f5d2b4"/>
+    <path d="M564 246c4-14 28-14 32 0-6-6-10-8-16-8s-12 2-16 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M576 254c0 2 2 3 4 3s4-1 4-3" stroke-width="1.5"/>
+    <path d="M572 240c2-2 6-2 8 0M580 240c2-2 6-2 8 0" stroke-width="1.5"/>
+  </g>
+  <!-- business card -->
+  <g data-w="14">
+    <rect x="508" y="268" width="42" height="26" rx="2" fill="#ffffff"/>
+    <path d="M514 276h16M514 282h28M514 288h22" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+</svg>

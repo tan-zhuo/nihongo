@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="on"><path d="M0-14l14 24h-28z" fill="#ffffff"/><path d="M-6 10v-8h12v8z" fill="#3f3a34" stroke="none"/></g>
+    <g id="bt"><rect x="-5" y="-16" width="10" height="32" rx="3"/><rect x="-3" y="-20" width="6" height="5" fill="#3f3a34" stroke="none"/></g>
+  </defs>
+  <!-- wall, ceiling, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="0" width="800" height="30" fill="#ede9e1" stroke="none"/>
+  <path d="M0 30h800" stroke="#cfc9bd"/>
+  <rect x="120" y="10" width="160" height="10" rx="5" fill="#ffffff" stroke="#cfc9bd"/>
+  <rect x="520" y="10" width="160" height="10" rx="5" fill="#ffffff" stroke="#cfc9bd"/>
+  <rect x="0" y="300" width="800" height="200" fill="#ede9e1" stroke="none"/>
+  <path d="M0 300h800" stroke-width="3"/>
+  <path d="M0 350h800M0 400h800M0 450h800M160 300v200M400 300v200M640 300v200" stroke="#d9d3c7" stroke-width="1.5"/>
+
+  <!-- magazine rack -->
+  <g data-w="11">
+    <rect x="30" y="110" width="120" height="190" fill="#e3c9a3"/>
+    <path d="M30 172h120M30 236h120" stroke-width="3"/>
+    <path d="M40 126h22v42h-22zM66 126h22v42h-22zM92 126h22v42h-22zM118 126h22v42h-22z" fill="#d9736b"/>
+    <path d="M40 190h22v42h-22zM66 190h22v42h-22zM92 190h22v42h-22zM118 190h22v42h-22z" fill="#7da2c4"/>
+    <path d="M40 254h22v42h-22zM66 254h22v42h-22zM92 254h22v42h-22zM118 254h22v42h-22z" fill="#f0cf6d"/>
+    <path d="M44 134h14M70 134h14M96 134h14M122 134h14M44 198h14M70 198h14M96 198h14M122 198h14M44 262h14M70 262h14M96 262h14M122 262h14" stroke="#ffffff" stroke-width="3"/>
+    <path d="M30 168h120M30 232h120M30 296h120" stroke="#9c7450" stroke-width="4"/>
+  </g>
+  <!-- ATM -->
+  <g data-w="12">
+    <rect x="170" y="140" width="80" height="160" rx="4" fill="#cfc9bd"/>
+    <rect x="180" y="152" width="60" height="44" rx="3" fill="#7da2c4"/>
+    <path d="M188 164h30M188 174h40M188 184h24" stroke="#d6e7f0" stroke-width="3"/>
+    <path d="M180 212h60v16h-60z" fill="#3f3a34"/>
+    <path d="M184 244h8v8h-8zM196 244h8v8h-8zM208 244h8v8h-8zM184 256h8v8h-8zM196 256h8v8h-8zM208 256h8v8h-8z" fill="#ffffff"/>
+    <path d="M226 246h14v18h-14z" fill="#5b8a72"/>
+  </g>
+
+  <!-- shelves -->
+  <g data-w="18">
+    <rect x="260" y="92" width="280" height="208" fill="#ffffff"/>
+    <path d="M260 156h280M260 220h280M260 284h280" stroke-width="3"/>
+    <path d="M260 92h280" stroke-width="3"/>
+    <path d="M270 238h20v44h-20zM296 238h20v44h-20zM322 238h20v44h-20zM348 238h20v44h-20z" fill="#f8e6ae"/>
+    <path d="M384 250h30v32h-30zM420 250h30v32h-30zM456 250h30v32h-30zM492 250h30v32h-30z" fill="#b9cfe3"/>
+    <path d="M390 262h18M426 262h18M462 262h18M498 262h18" stroke="#4a7fa3" stroke-width="3"/>
+  </g>
+  <!-- bread -->
+  <g data-w="7">
+    <path d="M270 154v-26c0-10 8-16 18-16h16c10 0 18 6 18 16v26z" fill="#e3c9a3"/>
+    <path d="M272 128c10-6 36-6 48 0" stroke="#9c7450"/>
+    <ellipse cx="350" cy="140" rx="22" ry="14" fill="#d8b48c"/>
+    <path d="M340 134c6-4 14-4 20 0" stroke="#9c7450"/>
+    <path d="M378 154v-20c0-8 6-14 14-14h14c8 0 14 6 14 14v20z" fill="#e3c9a3"/>
+    <path d="M380 136h38" stroke="#9c7450"/>
+  </g>
+  <!-- snacks -->
+  <g data-w="8">
+    <path d="M426 154v-40l4-6h22l4 6v40z" fill="#d9736b"/>
+    <path d="M460 154v-40l4-6h22l4 6v40z" fill="#f0cf6d"/>
+    <path d="M494 154v-40l4-6h22l4 6v40z" fill="#a58bc0"/>
+    <circle cx="441" cy="130" r="7" fill="#f8e6ae" stroke="none"/><circle cx="475" cy="130" r="7" fill="#e59a5b" stroke="none"/><circle cx="509" cy="130" r="7" fill="#ffffff" stroke="none"/>
+  </g>
+  <!-- rice balls -->
+  <g data-w="9">
+    <use href="#on" x="286" y="200"/><use href="#on" x="318" y="200"/><use href="#on" x="350" y="200"/><use href="#on" x="382" y="200"/>
+  </g>
+  <!-- boxed lunches -->
+  <g data-w="10">
+    <rect x="416" y="184" width="52" height="34" rx="3" fill="#ffffff"/>
+    <path d="M422 190h20v22h-20zM446 190h16v10h-16zM446 204h16v8h-16z" fill="#f8e6ae" stroke="none"/>
+    <path d="M446 190h16v10h-16z" fill="#d9736b" stroke="none"/>
+    <path d="M446 204h16v8h-16z" fill="#5b8a72" stroke="none"/>
+    <rect x="476" y="184" width="52" height="34" rx="3" fill="#ffffff"/>
+    <path d="M482 190h20v22h-20z" fill="#f8e6ae" stroke="none"/>
+    <path d="M506 190h16v10h-16z" fill="#e59a5b" stroke="none"/>
+    <path d="M506 204h16v8h-16z" fill="#9dc0a8" stroke="none"/>
+    <path d="M416 198h52M476 198h52" stroke="#cfc9bd"/>
+  </g>
+
+  <!-- coffee machine -->
+  <g data-w="13">
+    <rect x="548" y="180" width="52" height="120" rx="4" fill="#5e4634"/>
+    <rect x="556" y="190" width="36" height="22" rx="2" fill="#b9cfe3"/>
+    <path d="M556 226h36v30h-36z" fill="#3f3a34"/>
+    <path d="M566 246h16v10h-16z" fill="#ffffff"/>
+    <path d="M574 230v10" stroke="#9c7450" stroke-width="3"/>
+    <circle cx="566" cy="272" r="4" fill="#d9736b" stroke="none"/><circle cx="582" cy="272" r="4" fill="#5b8a72" stroke="none"/>
+  </g>
+  <!-- drink cooler -->
+  <g data-w="6">
+    <rect x="610" y="70" width="160" height="230" rx="4" fill="#cfc9bd"/>
+    <rect x="610" y="70" width="160" height="16" fill="#4a7fa3"/>
+    <rect x="620" y="94" width="140" height="198" fill="#d6e7f0"/>
+    <path d="M690 94v198" />
+    <path d="M620 144h140M620 194h140M620 244h140" stroke="#8c867c"/>
+    <g fill="#7da2c4"><use href="#bt" x="634" y="126"/><use href="#bt" x="652" y="126"/><use href="#bt" x="670" y="126"/></g>
+    <g fill="#e59a5b"><use href="#bt" x="706" y="126"/><use href="#bt" x="724" y="126"/><use href="#bt" x="742" y="126"/></g>
+    <g fill="#5b8a72"><use href="#bt" x="634" y="176"/><use href="#bt" x="652" y="176"/><use href="#bt" x="670" y="176"/></g>
+    <g fill="#f0cf6d"><use href="#bt" x="706" y="176"/><use href="#bt" x="724" y="176"/><use href="#bt" x="742" y="176"/></g>
+    <g fill="#ffffff"><use href="#bt" x="634" y="226"/><use href="#bt" x="652" y="226"/><use href="#bt" x="670" y="226"/></g>
+    <g fill="#d9736b"><use href="#bt" x="706" y="226"/><use href="#bt" x="724" y="226"/><use href="#bt" x="742" y="226"/></g>
+    <path d="M682 160v30M698 160v30" stroke-width="4"/>
+  </g>
+
+  <!-- copier -->
+  <g data-w="14">
+    <rect x="40" y="350" width="120" height="90" rx="4" fill="#ede9e1"/>
+    <rect x="46" y="338" width="90" height="14" rx="3" fill="#cfc9bd"/>
+    <rect x="138" y="354" width="18" height="10" rx="2" fill="#7da2c4"/>
+    <path d="M50 364h6v6h-6zM60 364h6v6h-6zM70 364h6v6h-6zM80 364h6v6h-6z" fill="#8c867c" stroke="none"/>
+    <path d="M40 390h120" stroke="#cfc9bd"/>
+    <path d="M60 398h60v10h-60z" fill="#8c867c"/>
+    <path d="M66 398h48v-14h-48z" fill="#ffffff"/>
+    <path d="M40 440v10M160 440v10" stroke-width="3"/>
+  </g>
+
+  <!-- clerk behind the counter -->
+  <g data-w="2">
+    <path d="M352 340v-50c0-12 10-20 22-20h12c12 0 22 8 22 20v50z" fill="#9dc0a8"/>
+    <path d="M364 272v68M380 272v68M396 272v68" stroke="#ffffff" stroke-width="4"/>
+    <path d="M374 272l6 8 6-8z" fill="#ffffff" stroke="none"/>
+    <circle cx="380" cy="252" r="18" fill="#f5d2b4"/>
+    <path d="M362 250c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="374" cy="254" r="1.6" fill="#3f3a34" stroke="none"/><circle cx="386" cy="254" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M376 262c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M406 296l34 20" stroke="#9dc0a8" stroke-width="9"/>
+    <circle cx="442" cy="318" r="5" fill="#f5d2b4"/>
+  </g>
+  <!-- counter -->
+  <rect x="300" y="340" width="310" height="110" rx="4" fill="#ffffff"/>
+  <rect x="294" y="334" width="322" height="10" rx="3" fill="#d8b48c"/>
+  <path d="M300 420h310" stroke="#cfc9bd"/>
+  <!-- microwave -->
+  <g data-w="16">
+    <rect x="306" y="294" width="62" height="42" rx="3" fill="#cfc9bd"/>
+    <rect x="312" y="300" width="36" height="30" rx="2" fill="#5e5852"/>
+    <path d="M318 306h24v18h-24z" fill="#8c867c" stroke="none"/>
+    <circle cx="358" cy="308" r="3" fill="#3f3a34" stroke="none"/>
+    <path d="M354 318h8M354 324h8" stroke-width="1.5"/>
+  </g>
+  <!-- oden pot -->
+  <g data-w="17">
+    <path d="M416 296c-4-10 4-18 8-8M432 294c-4-10 4-18 8-8M448 296c-4-10 4-18 8-8" stroke="#cfc9bd"/>
+    <rect x="404" y="302" width="60" height="36" rx="3" fill="#8c867c"/>
+    <path d="M408 306h52v10h-52z" fill="#f0cf6d"/>
+    <circle cx="418" cy="310" r="5" fill="#ffffff"/>
+    <path d="M428 306h10v10h-10z" fill="#e3c9a3"/>
+    <path d="M442 306h14v10h-14z" fill="#d9736b"/>
+    <path d="M404 322h60" stroke="#5e5852"/>
+  </g>
+  <!-- receipt -->
+  <g data-w="15">
+    <path d="M460 292h16v46h-16z" fill="#ffffff"/>
+    <path d="M464 306h8M464 312h8M464 318h8M464 324h8" stroke="#8c867c" stroke-width="1.5"/>
+    <path d="M460 338l4 4 4-4 4 4 4-4" />
+  </g>
+  <!-- cash register -->
+  <g data-w="1">
+    <rect x="480" y="304" width="60" height="34" rx="3" fill="#3f3a34"/>
+    <path d="M488 312h10v6h-10zM502 312h10v6h-10zM516 312h10v6h-10zM488 322h10v6h-10zM502 322h10v6h-10zM516 322h10v6h-10z" fill="#cfc9bd" stroke="none"/>
+    <path d="M510 304v-10" stroke-width="4"/>
+    <rect x="486" y="280" width="48" height="18" rx="3" fill="#b9cfe3"/>
+    <path d="M494 289h32" stroke="#4a7fa3" stroke-width="2"/>
+  </g>
+  <!-- plastic bag -->
+  <g data-w="4">
+    <path d="M550 338v-32l6-8h36l6 8v32z" fill="#ffffff"/>
+    <path d="M556 298c0-8 8-14 16-14s16 6 16 14" />
+    <path d="M560 316h28M560 324h20" stroke="#cfc9bd"/>
+  </g>
+
+  <!-- customer -->
+  <g data-w="3">
+    <path d="M630 384v-80c0-12 10-20 22-20h16c12 0 22 8 22 20v80z" fill="#d9736b"/>
+    <path d="M652 284l8 12 8-12z" fill="#ffffff" stroke="none"/>
+    <path d="M634 380h52v30h-14v28h-10v-28h-4v28h-10v-28h-14z" fill="#4a7fa3"/>
+    <path d="M644 436h18v6h-18zM666 436h18v6h-18z" fill="#3f3a34"/>
+    <path d="M640 306l-16 30" stroke="#d9736b" stroke-width="10"/>
+    <circle cx="624" cy="340" r="6" fill="#f5d2b4"/>
+    <circle cx="660" cy="262" r="19" fill="#f5d2b4"/>
+    <path d="M641 260c4-14 34-14 38 0-6-6-13-8-19-8s-13 2-19 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="654" cy="264" r="1.6" fill="#3f3a34" stroke="none"/><circle cx="666" cy="264" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M656 272c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <!-- PET bottle -->
+  <g data-w="5">
+    <rect x="616" y="312" width="16" height="48" rx="4" fill="#d6e7f0"/>
+    <rect x="619" y="306" width="10" height="7" fill="#4a7fa3"/>
+    <path d="M616 332h16v12h-16z" fill="#4a7fa3" stroke="none"/>
+  </g>
+</svg>

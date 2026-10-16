@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="330" width="800" height="170" fill="#ede9e1" stroke="none"/>
+  <path d="M0 360h800M0 390h800M0 450h800M0 480h800M100 330v170M300 330v170M500 330v170M700 330v170" stroke="#d9d4ca" stroke-width="1.5"/>
+  <path d="M0 330h800" stroke="#cfc9bd" stroke-width="3"/>
+  <!-- fridge -->
+  <g data-w="2">
+    <rect x="50" y="110" width="80" height="220" rx="6" fill="#ffffff"/>
+    <path d="M50 190h80"/>
+    <path d="M118 128v44M118 206v60" stroke-width="5" stroke="#8c867c"/>
+    <rect x="60" y="120" width="22" height="14" rx="2" fill="#f0cf6d"/>
+    <path d="M64 127h14" stroke="#d9736b" stroke-width="2"/>
+  </g>
+  <!-- washing machine (top loader) -->
+  <g data-w="3">
+    <rect x="150" y="220" width="90" height="110" rx="6" fill="#ffffff"/>
+    <rect x="158" y="226" width="74" height="26" rx="4" fill="#d6e7f0"/>
+    <path d="M150 260h90"/>
+    <circle cx="166" cy="256" r="4" fill="#8c867c" stroke="none"/>
+    <circle cx="178" cy="256" r="4" fill="#5b8a72" stroke="none"/>
+    <circle cx="195" cy="296" r="22" fill="#b9cfe3"/>
+    <circle cx="195" cy="296" r="14" fill="#d6e7f0"/>
+  </g>
+  <!-- television on cabinet -->
+  <g data-w="1">
+    <rect x="265" y="250" width="190" height="80" rx="4" fill="#9c7450"/>
+    <path d="M360 250v80M265 290h190"/>
+    <path d="M340 240h40v10h-40z" fill="#3f3a34"/>
+    <rect x="270" y="130" width="180" height="112" rx="6" fill="#3f3a34"/>
+    <rect x="278" y="138" width="164" height="94" fill="#b9cfe3" stroke="none"/>
+    <path d="M278 200c30-24 60-10 90-30s46-4 74 12v50h-164z" fill="#5b8a72" stroke="none"/>
+    <circle cx="410" cy="160" r="12" fill="#f0cf6d" stroke="none"/>
+    <rect x="278" y="258" width="22" height="14" rx="2" fill="#f0cf6d"/>
+    <path d="M282 265h14" stroke="#d9736b" stroke-width="2"/>
+  </g>
+  <!-- wall clock -->
+  <g data-w="13">
+    <circle cx="525" cy="84" r="30" fill="#ffffff"/>
+    <circle cx="525" cy="84" r="24" fill="#ffffff" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M525 64v4M525 100v4M507 84h4M539 84h4"/>
+    <path d="M525 84V68M525 84l12 7" stroke-width="3"/>
+    <circle cx="525" cy="84" r="2.5" fill="#3f3a34"/>
+  </g>
+  <!-- microwave on a shelf -->
+  <g data-w="5">
+    <rect x="494" y="222" width="104" height="8" rx="2" fill="#9c7450"/>
+    <path d="M502 230l-6 12M590 230l6 12" stroke-width="3"/>
+    <rect x="500" y="172" width="92" height="50" rx="4" fill="#ffffff"/>
+    <rect x="506" y="178" width="58" height="38" rx="2" fill="#8c867c"/>
+    <ellipse cx="535" cy="208" rx="18" ry="4" fill="#cfc9bd" stroke="none"/>
+    <circle cx="578" cy="186" r="5" fill="#5b8a72"/>
+    <rect x="572" y="198" width="12" height="4" fill="#cfc9bd" stroke="none"/>
+    <rect x="572" y="206" width="12" height="4" fill="#cfc9bd" stroke="none"/>
+  </g>
+  <!-- vacuum cleaner -->
+  <g data-w="6">
+    <path d="M552 300c10-10 8-26 16-36" stroke-width="5"/>
+    <rect x="562" y="254" width="20" height="12" rx="4" fill="#3f3a34"/>
+    <ellipse cx="525" cy="310" rx="32" ry="18" fill="#d9736b"/>
+    <circle cx="506" cy="326" r="5" fill="#3f3a34"/>
+    <circle cx="544" cy="326" r="5" fill="#3f3a34"/>
+    <path d="M498 304h30" stroke="#f1b1aa"/>
+  </g>
+  <!-- electric fan -->
+  <g data-w="16">
+    <ellipse cx="630" cy="326" rx="28" ry="7" fill="#8c867c"/>
+    <path d="M630 266v58" stroke-width="5"/>
+    <circle cx="630" cy="236" r="30" fill="#ffffff"/>
+    <circle cx="630" cy="236" r="22" fill="#d6e7f0" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M630 214v44M608 236h44M614 220l32 32M646 220l-32 32" stroke="#cfc9bd" stroke-width="1.5"/>
+    <circle cx="630" cy="236" r="6" fill="#7da2c4"/>
+  </g>
+  <!-- heater -->
+  <g data-w="17">
+    <rect x="690" y="250" width="70" height="80" rx="6" fill="#ede9e1"/>
+    <rect x="698" y="268" width="54" height="42" fill="#3f3a34"/>
+    <rect x="702" y="272" width="46" height="34" fill="#e59a5b" stroke="none"/>
+    <path d="M702 282h46M702 292h46M702 302h46" stroke="#3f3a34" stroke-width="1.5"/>
+    <circle cx="704" cy="259" r="3" fill="#d9736b" stroke="none"/>
+    <rect x="712" y="256" width="30" height="6" rx="2" fill="#cfc9bd" stroke="none"/>
+  </g>
+  <!-- air conditioner -->
+  <g data-w="4">
+    <rect x="610" y="50" width="150" height="38" rx="8" fill="#ffffff"/>
+    <path d="M622 78h126" stroke="#cfc9bd"/>
+    <circle cx="746" cy="64" r="3" fill="#5b8a72" stroke="none"/>
+  </g>
+  <!-- shop clerk -->
+  <g data-w="18">
+    <rect x="452" y="330" width="16" height="50" fill="#5e4634"/>
+    <rect x="474" y="330" width="16" height="50" fill="#5e4634"/>
+    <path d="M446 332v-66c0-12 10-22 24-22s24 10 24 22v66z" fill="#4a7fa3"/>
+    <path d="M458 262v70" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="474" y="264" width="12" height="7" rx="1" fill="#f0cf6d" stroke="none"/>
+    <circle cx="470" cy="224" r="18" fill="#f5d2b4"/>
+    <path d="M452 220c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <circle cx="464" cy="226" r="1.5" fill="#3f3a34" stroke="none"/>
+    <circle cx="476" cy="226" r="1.5" fill="#3f3a34" stroke="none"/>
+    <path d="M466 234c2 2 6 2 8 0" stroke-width="1.5"/>
+    <path d="M450 256l-8 46M490 256l16-40" stroke="#4a7fa3" stroke-width="9"/>
+    <circle cx="441" cy="306" r="5" fill="#f5d2b4"/>
+    <circle cx="508" cy="212" r="5" fill="#f5d2b4"/>
+  </g>
+  <!-- display counter -->
+  <rect x="40" y="400" width="720" height="70" fill="#d8b48c"/>
+  <rect x="34" y="372" width="732" height="28" rx="4" fill="#e3c9a3"/>
+  <path d="M40 470h720" stroke="#b08a63" stroke-width="3"/>
+  <!-- laptop -->
+  <g data-w="7">
+    <rect x="86" y="342" width="56" height="40" rx="3" fill="#3f3a34"/>
+    <rect x="91" y="347" width="46" height="30" fill="#7da2c4" stroke="none"/>
+    <path d="M80 382h68l6 10h-80z" fill="#cfc9bd"/>
+  </g>
+  <!-- smartphone -->
+  <g data-w="8">
+    <rect x="184" y="346" width="24" height="46" rx="4" fill="#3f3a34"/>
+    <rect x="187" y="351" width="18" height="34" fill="#7da2c4" stroke="none"/>
+    <circle cx="196" cy="388" r="1.5" fill="#cfc9bd" stroke="none"/>
+  </g>
+  <!-- camera -->
+  <g data-w="9">
+    <rect x="258" y="350" width="16" height="8" rx="2" fill="#3f3a34"/>
+    <rect x="248" y="356" width="46" height="34" rx="4" fill="#3f3a34"/>
+    <circle cx="271" cy="373" r="11" fill="#8c867c"/>
+    <circle cx="271" cy="373" r="6" fill="#4a7fa3"/>
+    <rect x="283" y="361" width="7" height="5" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- hair dryer -->
+  <g data-w="10">
+    <rect x="336" y="352" width="20" height="12" fill="#d9736b"/>
+    <path d="M362 372v22" stroke-width="12"/>
+    <path d="M362 372v22" stroke="#b5463f" stroke-width="8"/>
+    <circle cx="366" cy="358" r="16" fill="#d9736b"/>
+    <circle cx="368" cy="358" r="8" fill="#f1b1aa" stroke="#b5463f"/>
+  </g>
+  <!-- telephone -->
+  <g data-w="11">
+    <rect x="422" y="366" width="44" height="26" rx="4" fill="#ede9e1"/>
+    <rect x="416" y="352" width="56" height="12" rx="6" fill="#5e4634"/>
+    <path d="M424 362v6M464 362v6" stroke="#5e4634" stroke-width="4"/>
+    <path d="M432 376h24M432 384h24" stroke="#8c867c" stroke-width="1.5"/>
+  </g>
+  <!-- radio -->
+  <g data-w="12">
+    <path d="M530 356l14-16" stroke-width="3"/>
+    <rect x="486" y="356" width="50" height="36" rx="4" fill="#e59a5b"/>
+    <circle cx="501" cy="375" r="10" fill="#5e4634"/>
+    <circle cx="524" cy="366" r="6" fill="#ffffff"/>
+    <rect x="518" y="378" width="12" height="4" fill="#5e4634" stroke="none"/>
+  </g>
+  <!-- charger -->
+  <g data-w="14">
+    <path d="M598 380c22 0 30 6 48 6" />
+    <rect x="574" y="368" width="24" height="24" rx="4" fill="#ffffff"/>
+    <path d="M580 374v12M592 374v12" stroke="#8c867c"/>
+  </g>
+  <!-- power strip -->
+  <g data-w="15">
+    <rect x="640" y="376" width="72" height="16" rx="4" fill="#ffffff"/>
+    <path d="M652 381v6M658 381v6M672 381v6M678 381v6M692 381v6M698 381v6" stroke-width="1.5"/>
+    <rect x="644" y="378" width="12" height="12" rx="2" fill="#3f3a34"/>
+    <path d="M712 384h16c6 0 8 4 8 10v6" stroke="#8c867c"/>
+  </g>
+</svg>

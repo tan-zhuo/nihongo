@@ -1,0 +1,33 @@
+{
+  "id": "school",
+  "n": 28,
+  "group": "town",
+  "title": "学校",
+  "title_zh": "学校",
+  "title_en": "School",
+  "words": [
+    { "w": "校門", "r": "こうもん", "zh": "校门", "en": "school gate", "x": 150, "y": 246 },
+    { "w": "校舎", "r": "こうしゃ", "zh": "教学楼", "en": "school building", "x": 500, "y": 276 },
+    { "w": "窓", "r": "まど", "zh": "窗户", "en": "window", "x": 290, "y": 198 },
+    { "w": "屋上", "r": "おくじょう", "zh": "屋顶", "en": "rooftop", "x": 250, "y": 78 },
+    { "w": "時計", "r": "とけい", "zh": "钟表", "en": "clock", "x": 390, "y": 182 },
+    { "w": "旗", "r": "はた", "zh": "旗子", "en": "flag", "x": 578, "y": 62 },
+    { "w": "体育館", "r": "たいいくかん", "zh": "体育馆", "en": "gymnasium", "x": 695, "y": 240 },
+    { "w": "プール", "r": "プール", "zh": "游泳池", "en": "swimming pool", "x": 690, "y": 480 },
+    { "w": "校庭", "r": "こうてい", "zh": "操场", "en": "schoolyard", "x": 250, "y": 470 },
+    { "w": "鉄棒", "r": "てつぼう", "zh": "单杠", "en": "horizontal bar", "x": 397, "y": 452 },
+    { "w": "桜", "r": "さくら", "zh": "樱花", "en": "cherry blossom", "x": 62, "y": 160 },
+    { "w": "先生", "r": "せんせい", "zh": "老师", "en": "teacher", "x": 152, "y": 360 },
+    { "w": "生徒", "r": "せいと", "zh": "（中小学）学生", "en": "pupil; student", "x": 220, "y": 376 },
+    { "w": "ランドセル", "r": "ランドセル", "zh": "（小学生）双肩书包", "en": "school backpack", "x": 190, "y": 420 },
+    { "w": "制服", "r": "せいふく", "zh": "制服", "en": "uniform", "x": 304, "y": 400 },
+    { "w": "ボール", "r": "ボール", "zh": "球", "en": "ball", "x": 545, "y": 466 },
+    { "w": "走る", "r": "はしる", "zh": "跑", "en": "to run", "x": 468, "y": 448 }
+  ],
+  "sentences": [
+    { "ja": "{校門|こうもん}の{前|まえ}に{先生|せんせい}と{生徒|せいと}がいます。", "zh": "校门前有老师和学生。", "en": "There are a teacher and a pupil in front of the school gate." },
+    { "ja": "{男|おとこ}の{子|こ}はボールを{持|も}って{校庭|こうてい}を{走|はし}っています。", "zh": "男孩拿着球在操场上跑。", "en": "The boy is running across the schoolyard with a ball." },
+    { "ja": "{校舎|こうしゃ}の{屋上|おくじょう}に{旗|はた}があります。", "zh": "教学楼的屋顶上有旗子。", "en": "There is a flag on the roof of the school building." },
+    { "ja": "{春|はる}になると、{学校|がっこう}の{桜|さくら}が{咲|さ}きます。", "zh": "一到春天，学校的樱花就开了。", "en": "When spring comes, the school's cherry trees bloom." }
+  ]
+}

@@ -25,10 +25,11 @@ const vite = await createServer({
 
 try {
   const { render } = await vite.ssrLoadModule('/src/entry-server.tsx')
-  const { ORIGIN, PAGE_META, articleMeta, textbookBookMeta, textbookLessonMeta } =
+  const { ORIGIN, PAGE_META, articleMeta, textbookBookMeta, textbookLessonMeta, sceneMeta } =
     await vite.ssrLoadModule('/src/lib/seo.ts')
   const { articles } = await vite.ssrLoadModule('/src/data/articles/index.ts')
   const { books } = await vite.ssrLoadModule('/src/data/textbook/index.ts')
+  const { scenes } = await vite.ssrLoadModule('/src/data/scenes/index.ts')
 
   const routes = [
     ...Object.entries(PAGE_META).map(([path, meta]) => ({ path, ...meta })),
@@ -43,6 +44,7 @@ try {
           lesson: { book: b, lesson: l },
         })),
       ]),
+    ...scenes.map((s) => ({ path: `/vocab/scenes/${s.id}`, ...sceneMeta(s), scene: s })),
   ]
 
   const template = readFileSync(join(dist, 'index.html'), 'utf8')
@@ -99,6 +101,25 @@ try {
       )
     }
 
+    if (route.scene) {
+      const s = route.scene
+      const ld = {
+        '@context': 'https://schema.org',
+        '@type': 'LearningResource',
+        name: `${s.title} — ${s.title_en}`,
+        alternateName: [s.title_zh, s.title_en],
+        url,
+        inLanguage: 'ja',
+        learningResourceType: 'picture dictionary',
+        teaches: s.words.map((w) => w.w).join('、'),
+        isPartOf: { '@type': 'WebSite', name: 'nihongo.ink', url: ORIGIN },
+      }
+      html = html.replace(
+        '</head>',
+        `  <script type="application/ld+json">${JSON.stringify(ld)}</script>\n  </head>`,
+      )
+    }
+
     const app = await render(route.path)
     html = html.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
 
@@ -113,7 +134,7 @@ try {
     .filter((r) => !r.noindex)
     .map((r) => {
       const loc = ORIGIN + (r.path === '/' ? '/' : r.path)
-      const priority = r.path === '/' ? '1.0' : r.article || r.lesson ? '0.6' : '0.8'
+      const priority = r.path === '/' ? '1.0' : r.article || r.lesson || r.scene ? '0.6' : '0.8'
       return `  <url><loc>${loc}</loc><priority>${priority}</priority></url>`
     })
   writeFileSync(

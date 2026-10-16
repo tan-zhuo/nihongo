@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <g id="tag"><rect x="-14" y="-8" width="28" height="16" rx="2" fill="#f8e6ae"/><path d="M-8-2h16M-8 3h10" stroke="#b5463f" stroke-width="2"/></g>
+    <g id="mk"><rect x="-9" y="-14" width="18" height="34" fill="#ffffff"/><path d="M-9-14l4-8h10l4 8z" fill="#7da2c4"/><path d="M-5 4h10" stroke="#7da2c4" stroke-width="3"/></g>
+    <g id="eg"><rect x="-18" y="-8" width="36" height="16" rx="3" fill="#f8e6ae"/><circle cx="-10" cy="-2" r="4" fill="#ffffff"/><circle cx="0" cy="-2" r="4" fill="#ffffff"/><circle cx="10" cy="-2" r="4" fill="#ffffff"/></g>
+    <g id="mt"><rect x="-14" y="-9" width="28" height="18" rx="2" fill="#f1b1aa"/><path d="M-8-4h16M-8 2h12" stroke="#d9736b" stroke-width="2.5"/></g>
+    <g id="fs"><ellipse rx="18" ry="8" fill="#7da2c4"/><path d="M14-2l10-8v20l-10-8z" fill="#7da2c4"/><circle cx="-10" cy="-2" r="1.6" fill="#3f3a34" stroke="none"/></g>
+  </defs>
+  <!-- wall, ceiling, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="0" width="800" height="28" fill="#ede9e1" stroke="none"/>
+  <path d="M0 28h800" stroke="#cfc9bd"/>
+  <path d="M110 28v26M270 28v26M420 28v26M555 28v26M705 28v26" stroke="#8c867c"/>
+  <rect x="60" y="54" width="100" height="30" rx="4" fill="#5b8a72"/>
+  <rect x="220" y="54" width="100" height="30" rx="4" fill="#d9736b"/>
+  <rect x="370" y="54" width="100" height="30" rx="4" fill="#e59a5b"/>
+  <rect x="505" y="54" width="100" height="30" rx="4" fill="#4a7fa3"/>
+  <rect x="655" y="54" width="100" height="30" rx="4" fill="#a58bc0"/>
+  <path d="M80 69h60M240 69h60M390 69h60M525 69h60M675 69h60" stroke="#ffffff" stroke-width="5"/>
+  <rect x="0" y="300" width="800" height="200" fill="#ede9e1" stroke="none"/>
+  <path d="M0 300h800" stroke-width="3"/>
+  <path d="M0 350h800M0 400h800M0 450h800M160 300v200M400 300v200M640 300v200" stroke="#d9d3c7" stroke-width="1.5"/>
+
+  <!-- vegetables -->
+  <g data-w="1">
+    <path d="M30 210l160-20v-44l-160 20z" fill="#e3c9a3"/>
+    <path d="M30 300v-90l160-20v110z" fill="#9c7450"/>
+    <path d="M30 210l160-20" stroke-width="3"/>
+    <circle cx="56" cy="188" r="16" fill="#9dc0a8"/><circle cx="86" cy="182" r="16" fill="#9dc0a8"/>
+    <path d="M46 184c6-8 14-10 20-6M76 178c6-8 14-10 20-6" stroke="#5b8a72"/>
+    <path d="M112 196l8-30 8 30z" fill="#e59a5b"/><path d="M130 192l8-30 8 30z" fill="#e59a5b"/><path d="M148 188l8-30 8 30z" fill="#e59a5b"/>
+    <path d="M120 166v-10M138 162v-10M156 158v-10" stroke="#5b8a72" stroke-width="3"/>
+    <circle cx="58" cy="226" r="11" fill="#d9736b"/><circle cx="84" cy="222" r="11" fill="#d9736b"/><circle cx="110" cy="218" r="11" fill="#d9736b"/>
+    <path d="M54 218l4-6 4 6M80 214l4-6 4 6M106 210l4-6 4 6" stroke="#5b8a72"/>
+    <path d="M136 228l24-30 10 24z" fill="#a58bc0"/><path d="M160 224l20-26 6 24z" fill="#a58bc0"/>
+  </g>
+  <!-- fruit -->
+  <g data-w="2">
+    <path d="M200 190l140-20v-44l-140 20z" fill="#e3c9a3"/>
+    <path d="M200 300v-110l140-20v130z" fill="#9c7450"/>
+    <path d="M200 190l140-20" stroke-width="3"/>
+    <circle cx="222" cy="170" r="12" fill="#d9736b"/><circle cx="248" cy="166" r="12" fill="#d9736b"/><circle cx="235" cy="150" r="12" fill="#d9736b"/>
+    <path d="M222 158v-6M248 154v-6M235 138v-6" stroke="#5b8a72" stroke-width="2.5"/>
+    <path d="M270 170c10-24 34-30 56-24-6 14-24 26-56 24z" fill="#f0cf6d"/>
+    <path d="M276 184c10-24 34-30 56-24-6 14-24 26-56 24z" fill="#f0cf6d"/>
+    <circle cx="226" cy="208" r="12" fill="#e59a5b"/><circle cx="254" cy="204" r="12" fill="#e59a5b"/><circle cx="282" cy="200" r="12" fill="#e59a5b"/>
+    <circle cx="310" cy="206" r="14" fill="#9dc0a8"/><path d="M300 200c6-6 14-6 20 0M300 212c6 6 14 6 20 0" stroke="#5b8a72"/>
+  </g>
+  <!-- meat -->
+  <g data-w="3">
+    <rect x="360" y="140" width="120" height="160" rx="4" fill="#cfc9bd"/>
+    <rect x="368" y="150" width="104" height="142" fill="#ede9e1"/>
+    <path d="M368 200h104M368 246h104M368 292h104" stroke-width="3"/>
+    <use href="#mt" x="386" y="190"/><use href="#mt" x="418" y="190"/><use href="#mt" x="450" y="190"/>
+    <use href="#mt" x="386" y="236"/><use href="#mt" x="418" y="236"/><use href="#mt" x="450" y="236"/>
+    <use href="#mt" x="386" y="282"/><use href="#mt" x="418" y="282"/><use href="#mt" x="450" y="282"/>
+  </g>
+  <!-- fish -->
+  <g data-w="4">
+    <path d="M490 300v-80h130v80z" fill="#4a7fa3"/>
+    <path d="M490 220h130" stroke-width="3"/>
+    <path d="M496 220c20-30 50-40 80-30s40 14 48 30z" fill="#ffffff"/>
+    <use href="#fs" x="520" y="200"/><use href="#fs" x="566" y="204"/><use href="#fs" x="544" y="186"/>
+    <path d="M500 250h110M500 276h110" stroke="#3d6a8a"/>
+  </g>
+  <!-- milk and eggs cooler -->
+  <rect x="640" y="130" width="130" height="170" rx="4" fill="#cfc9bd"/>
+  <rect x="648" y="140" width="114" height="152" fill="#ede9e1"/>
+  <path d="M648 200h114M648 270h114" stroke-width="3"/>
+  <g data-w="5">
+    <use href="#mk" x="664" y="180"/><use href="#mk" x="688" y="180"/><use href="#mk" x="712" y="180"/><use href="#mk" x="736" y="180"/>
+  </g>
+  <g data-w="6">
+    <use href="#eg" x="670" y="260"/><use href="#eg" x="710" y="260"/><use href="#eg" x="690" y="240"/>
+  </g>
+  <!-- price tags -->
+  <g data-w="7">
+    <use href="#tag" x="60" y="290"/><use href="#tag" x="160" y="290"/><use href="#tag" x="230" y="290"/><use href="#tag" x="310" y="290"/>
+    <use href="#tag" x="520" y="230"/><use href="#tag" x="596" y="230"/>
+  </g>
+
+  <!-- rice bags with sale sign -->
+  <g data-w="9">
+    <path d="M98 360v-20" stroke-width="3"/>
+    <path d="M98 318l6 10 10-6-2 12 12 2-8 8 8 8-12 2 2 12-10-6-6 10-6-10-10 6 2-12-12-2 8-8-8-8 12-2-2-12 10 6z" fill="#d9736b"/>
+    <path d="M90 334h16M90 342h16" stroke="#f8e6ae" stroke-width="3"/>
+  </g>
+  <g data-w="8">
+    <rect x="44" y="412" width="52" height="36" rx="4" fill="#ffffff"/>
+    <rect x="98" y="412" width="52" height="36" rx="4" fill="#ffffff"/>
+    <rect x="70" y="376" width="52" height="36" rx="4" fill="#ffffff"/>
+    <ellipse cx="70" cy="430" rx="10" ry="12" fill="#e0ece3" stroke="#5b8a72"/><ellipse cx="124" cy="430" rx="10" ry="12" fill="#e0ece3" stroke="#5b8a72"/><ellipse cx="96" cy="394" rx="10" ry="12" fill="#e0ece3" stroke="#5b8a72"/>
+    <path d="M44 420h52M98 420h52M70 384h52" stroke="#9c7450"/>
+  </g>
+  <!-- freezer -->
+  <g data-w="10">
+    <rect x="170" y="350" width="160" height="90" rx="4" fill="#ffffff"/>
+    <rect x="178" y="358" width="144" height="26" fill="#d6e7f0"/>
+    <path d="M186 364h26v18h-26zM218 362h26v20h-26zM250 364h26v18h-26zM282 362h26v20h-26z" fill="#7da2c4"/>
+    <path d="M192 373h14M224 371h14M256 373h14M288 371h14" stroke="#ffffff" stroke-width="3"/>
+    <path d="M250 346v-6M250 332v6M243 336l14 8M257 336l-14 8" stroke="#7da2c4" stroke-width="2"/>
+    <path d="M170 396h160" stroke="#cfc9bd"/>
+    <path d="M176 440v8M324 440v8" stroke-width="3"/>
+    <circle cx="300" cy="418" r="4" fill="#d9736b" stroke="none"/>
+  </g>
+
+  <!-- customer -->
+  <g data-w="11">
+    <path d="M364 390v-84c0-12 10-20 22-20h8c12 0 22 8 22 20v84z" fill="#e59a5b"/>
+    <path d="M360 386h60l-4 36h-52z" fill="#5e4634"/>
+    <path d="M372 422h10v18h-10zM396 422h10v18h-10z" fill="#f5d2b4"/>
+    <path d="M370 440h14v6h-14zM394 440h14v6h-14z" fill="#3f3a34"/>
+    <path d="M410 316l22 36" stroke="#e59a5b" stroke-width="10"/>
+    <circle cx="434" cy="354" r="6" fill="#f5d2b4"/>
+    <circle cx="390" cy="268" r="18" fill="#f5d2b4"/>
+    <path d="M372 266c2-14 34-14 36 0-4-8-10-10-18-10s-14 2-18 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="390" cy="248" r="7" fill="#4a3b32" stroke="none"/>
+    <circle cx="384" cy="270" r="1.6" fill="#3f3a34" stroke="none"/><circle cx="396" cy="270" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M386 278c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <!-- cart -->
+  <g data-w="12">
+    <path d="M428 356h14" stroke-width="5"/>
+    <path d="M442 356v96M520 356v96M442 394h78M442 416h78M442 440h78" stroke-width="3"/>
+    <path d="M460 416v24M480 416v24M500 416v24" stroke="#8c867c"/>
+    <circle cx="448" cy="454" r="6" fill="#3f3a34"/><circle cx="514" cy="454" r="6" fill="#3f3a34"/>
+  </g>
+  <!-- basket in the cart -->
+  <g data-w="13">
+    <path d="M462 346c0-10 6-14 10-14M494 346c0-10-6-14-10-14" stroke="#5b8a72" stroke-width="3"/>
+    <path d="M470 352v-16h6v16zM492 352v-16h-6v16z" fill="#9dc0a8"/>
+    <rect x="440" y="352" width="82" height="40" rx="3" fill="#d9736b"/>
+    <path d="M454 352v40M468 352v40M482 352v40M496 352v40M510 352v40M440 366h82M440 380h82" stroke="#b5463f"/>
+    <path d="M440 352h82" stroke-width="3"/>
+  </g>
+
+  <!-- register counter -->
+  <g data-w="14">
+    <rect x="560" y="340" width="210" height="110" rx="4" fill="#ffffff"/>
+    <rect x="554" y="334" width="222" height="10" rx="3" fill="#d8b48c"/>
+    <path d="M560 420h210" stroke="#cfc9bd"/>
+    <rect x="576" y="300" width="60" height="36" rx="3" fill="#3f3a34"/>
+    <path d="M584 308h10v6h-10zM598 308h10v6h-10zM612 308h10v6h-10zM584 318h10v6h-10zM598 318h10v6h-10zM612 318h10v6h-10z" fill="#cfc9bd" stroke="none"/>
+    <path d="M606 300v-10" stroke-width="4"/>
+    <rect x="582" y="276" width="48" height="16" rx="3" fill="#b9cfe3"/>
+  </g>
+  <!-- clerk -->
+  <g data-w="15">
+    <path d="M636 338v-50c0-12 10-20 22-20h12c12 0 22 8 22 20v50z" fill="#ffffff"/>
+    <path d="M648 286h32l4 52h-40z" fill="#5b8a72"/>
+    <path d="M652 272h24v8h-24z" fill="#5b8a72" stroke="none"/>
+    <circle cx="664" cy="250" r="18" fill="#f5d2b4"/>
+    <path d="M646 248c4-14 32-14 36 0-6-6-12-8-18-8s-12 2-18 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M644 242h40v-6h-40z" fill="#5b8a72"/>
+    <circle cx="658" cy="252" r="1.6" fill="#3f3a34" stroke="none"/><circle cx="670" cy="252" r="1.6" fill="#3f3a34" stroke="none"/>
+    <path d="M660 260c2 2 6 2 8 0" stroke-width="1.5"/>
+  </g>
+  <!-- shopping bag -->
+  <g data-w="16">
+    <path d="M722 300l6-26M734 298l4-26" stroke="#9dc0a8" stroke-width="5"/>
+    <path d="M718 290l-6-20M722 290l2-24" stroke="#5b8a72" stroke-width="4"/>
+    <path d="M700 338v-34l6-8h40l6 8v34z" fill="#ffffff"/>
+    <path d="M708 296c0-8 8-14 18-14s18 6 18 14" />
+    <path d="M710 318h32M710 326h22" stroke="#cfc9bd"/>
+  </g>
+</svg>

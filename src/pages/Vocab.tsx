@@ -1,284 +1,83 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { vocab } from '../data/vocab'
-import LevelFilter from '../components/LevelFilter'
-import { KANA_ROWS, rowOfReading, meaningMatches, type RowKey } from '../lib/kana'
-import { addVocabRecord } from '../lib/storage'
-import { speakWord } from '../lib/tts'
-import VocabBrowser from '../components/VocabBrowser'
-import PitchAccent from '../components/PitchAccent'
-import accents from '../data/vocab/accents.json'
+import { findScene } from '../data/scenes'
+import VocabDictionary from '../components/VocabDictionary'
+import VocabPractice from '../components/VocabPractice'
+import SceneGallery from '../components/SceneGallery'
+import SceneView from '../components/SceneView'
 import { usePageMeta } from '../hooks/usePageMeta'
-import type { Level, VocabWord } from '../types'
 
-const SESSION_SIZE = 20
+type Tab = 'dict' | 'scenes' | 'practice'
 
-type Mode = 'toJa' | 'toMeaning' | 'browse'
+const TABS: { key: Tab; to: string }[] = [
+  { key: 'dict', to: '/vocab' },
+  { key: 'scenes', to: '/vocab/scenes' },
+  { key: 'practice', to: '/vocab/practice' },
+]
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
+function Shell({ tab, children }: { tab: Tab; children: React.ReactNode }) {
+  const { t } = useTranslation()
+  return (
+    <div>
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+        <h1 className="font-serif text-2xl font-bold">{t('vocab.title')}</h1>
+        <nav className="seg-group">
+          {TABS.map((x) => (
+            <Link key={x.key} to={x.to} className={tab === x.key ? 'seg-on' : 'seg-off'}>
+              {t(`vocab.tab.${x.key}`)}
+            </Link>
+          ))}
+        </nav>
+      </div>
+      {children}
+    </div>
+  )
 }
 
-function kataToHira(s: string): string {
-  return s.replace(/[ァ-ヶ]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60))
+function DictPage({ zhFirst }: { zhFirst: boolean }) {
+  usePageMeta('/vocab')
+  return (
+    <Shell tab="dict">
+      <VocabDictionary zhFirst={zhFirst} />
+    </Shell>
+  )
+}
+
+function PracticePage({ zhFirst }: { zhFirst: boolean }) {
+  usePageMeta('/vocab/practice')
+  return (
+    <Shell tab="practice">
+      <VocabPractice zhFirst={zhFirst} />
+    </Shell>
+  )
+}
+
+function ScenesPage() {
+  usePageMeta('/vocab/scenes')
+  return (
+    <Shell tab="scenes">
+      <SceneGallery />
+    </Shell>
+  )
 }
 
 export default function Vocab() {
-  usePageMeta('/vocab')
-  const { t, i18n } = useTranslation()
-  const [level, setLevel] = useState<Level | 'all'>('all')
-  const [row, setRow] = useState<RowKey | 'all'>('all')
-  const [mode, setMode] = useState<Mode>('toJa')
-  const [seed, setSeed] = useState(0)
-
-  const pool = useMemo(() => {
-    let list = vocab
-    if (level !== 'all') list = list.filter((w) => w.level === level)
-    if (row !== 'all') list = list.filter((w) => rowOfReading(w.reading) === row)
-    return list
-  }, [level, row])
-
-  const session = useMemo(
-    () => shuffle(pool).slice(0, SESSION_SIZE),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [pool, mode, seed],
-  )
-
-  const [index, setIndex] = useState(0)
-  const [input, setInput] = useState('')
-  const [feedback, setFeedback] = useState<'ok' | 'ng' | null>(null)
-  const [correctCount, setCorrectCount] = useState(0)
-  const [revealed, setRevealed] = useState(0)
-  const inputRef = useRef<HTMLInputElement>(null)
-  const savedRef = useRef(false)
-
-  useEffect(() => {
-    setIndex(0)
-    setInput('')
-    setFeedback(null)
-    setCorrectCount(0)
-    setRevealed(0)
-    savedRef.current = false
-    inputRef.current?.focus()
-  }, [session])
-
-  const word: VocabWord | undefined = session[index]
-  const done = session.length > 0 && index >= session.length
-
-  // Persist the session result once when it completes.
-  useEffect(() => {
-    if (!done || savedRef.current || mode === 'browse') return
-    savedRef.current = true
-    addVocabRecord({ ts: Date.now(), mode, level, correct: correctCount, total: session.length })
-  }, [done, mode, level, correctCount, session.length])
+  const { i18n } = useTranslation()
   const zhFirst = (i18n.resolvedLanguage ?? 'en').startsWith('zh')
+  const { pathname } = useLocation()
+  const { scene: sceneId } = useParams()
 
-  const check = () => {
-    if (!word || !input.trim()) return
-    let ok: boolean
-    if (mode === 'toJa') {
-      const given = kataToHira(input.trim())
-      ok = given === kataToHira(word.word) || given === kataToHira(word.reading)
-    } else {
-      ok = meaningMatches(input, word.meaning_zh, word.meaning_en)
+  if (pathname.startsWith('/vocab/practice')) return <PracticePage zhFirst={zhFirst} />
+  if (pathname.startsWith('/vocab/scenes')) {
+    const scene = findScene(sceneId)
+    if (scene) {
+      return (
+        <Shell tab="scenes">
+          <SceneView scene={scene} zhFirst={zhFirst} />
+        </Shell>
+      )
     }
-    if (ok) setCorrectCount((c) => c + 1)
-    setFeedback(ok ? 'ok' : 'ng')
-    speakWord(word.id, word.reading)
+    return <ScenesPage />
   }
-
-  const advance = () => {
-    setIndex((i) => i + 1)
-    setInput('')
-    setFeedback(null)
-    setRevealed(0)
-    inputRef.current?.focus()
-  }
-
-  // Progressive hint: the answer's kana (or the primary meaning sense),
-  // shown as placeholders and revealed one character per press.
-  const hintTarget = word
-    ? mode === 'toJa'
-      ? word.reading
-      : (zhFirst ? word.meaning_zh : word.meaning_en).split(/[;；]/)[0].trim()
-    : ''
-  const hintChars = Array.from(hintTarget)
-  const hintText = hintChars
-    .map((c, i) => (i < revealed ? c : c === ' ' ? ' ' : '○'))
-    .join('')
-  const hintExhausted = revealed >= hintChars.length
-
-  const onKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key !== 'Enter' || e.nativeEvent.isComposing) return
-    e.preventDefault()
-    if (feedback) advance()
-    else check()
-  }
-
-  return (
-    <div className="mx-auto max-w-2xl">
-      <h1 className="mb-5 font-serif text-2xl font-bold">{t('vocab.title')}</h1>
-
-      {/* Mode toggle */}
-      <div className="mb-5 flex gap-2">
-        {(['toJa', 'toMeaning', 'browse'] as Mode[]).map((m) => (
-          <button
-            key={m}
-            className={`${mode === m ? 'chip-on' : 'chip-off'} flex-1 justify-center whitespace-nowrap sm:flex-none`}
-            onClick={() => setMode(m)}
-          >
-            {t(m === 'toJa' ? 'vocab.modeToJa' : m === 'toMeaning' ? 'vocab.modeToMeaning' : 'vocab.modeBrowse')}
-          </button>
-        ))}
-      </div>
-
-      {/* Filters */}
-      <div className="mb-3 flex flex-col gap-1.5 text-sm text-stone-500 sm:flex-row sm:items-center sm:gap-2">
-        <span className="text-xs sm:w-20 sm:shrink-0 sm:text-sm">{t('vocab.level')}</span>
-        <LevelFilter value={level} onChange={setLevel} />
-      </div>
-      <div className="mb-6 flex flex-col gap-1.5 text-sm text-stone-500 sm:flex-row sm:items-start sm:gap-2">
-        <span className="text-xs sm:mt-1 sm:w-20 sm:shrink-0 sm:text-sm">{t('vocab.row')}</span>
-        <div className="flex flex-wrap gap-2">
-          <button className={row === 'all' ? 'chip-on' : 'chip-off'} onClick={() => setRow('all')}>
-            {t('vocab.all')}
-          </button>
-          {KANA_ROWS.map((r) => (
-            <button key={r.key} className={row === r.key ? 'chip-on' : 'chip-off'} onClick={() => setRow(r.key)}>
-              {r.label}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {mode === 'browse' ? (
-        <VocabBrowser pool={pool} poolKey={`${level}|${row}`} zhFirst={zhFirst} />
-      ) : session.length === 0 ? (
-        <p className="py-12 text-center text-stone-400">{t('vocab.empty')}</p>
-      ) : done ? (
-        <div className="card p-8 text-center">
-          <h2 className="mb-2 text-xl font-bold text-accent-dark">{t('vocab.sessionDone')}</h2>
-          <p className="mb-6 text-3xl font-bold">
-            {t('vocab.scoreOf', { correct: correctCount, total: session.length })}
-          </p>
-          <button className="btn-primary" onClick={() => setSeed((s) => s + 1)}>
-            {t('vocab.again')}
-          </button>
-        </div>
-      ) : word ? (
-        <div className="card p-6 sm:p-8">
-          <div className="mb-1 flex items-center justify-between text-xs text-stone-400">
-            <span>
-              {index + 1} / {session.length}
-            </span>
-            <span>
-              {t('vocab.score')}: {correctCount}
-            </span>
-          </div>
-
-          {/* Prompt */}
-          <div className="my-6 text-center">
-            {mode === 'toJa' ? (
-              <>
-                <div className="mb-2 text-2xl font-bold sm:text-3xl">
-                  {zhFirst ? word.meaning_zh : word.meaning_en}
-                </div>
-                <div className="text-sm text-stone-400">
-                  {zhFirst ? word.meaning_en : word.meaning_zh} ·{' '}
-                  {t(`vocab.pos.${word.pos}`, { defaultValue: word.pos })}
-                </div>
-                <p className="mt-4 text-xs text-stone-400">{t('vocab.promptToJa')}</p>
-              </>
-            ) : (
-              <>
-                <button
-                  className="mb-2 font-serif text-3xl font-bold transition-colors hover:text-accent-deep sm:text-4xl"
-                  onClick={() => speakWord(word.id, word.reading)}
-                  title={t('vocab.playAudio')}
-                >
-                  {word.word}
-                </button>
-                <div className="text-stone-500">{word.reading}</div>
-                <p className="mt-4 text-xs text-stone-400">{t('vocab.promptToMeaning')}</p>
-              </>
-            )}
-            {!feedback && (
-              <p className="mt-4 text-lg tracking-[0.2em] text-accent-deep">{hintText}</p>
-            )}
-          </div>
-
-          {/* Feedback */}
-          {feedback && (
-            <div
-              className={`mb-4 rounded-lg p-3 text-center text-sm ${
-                feedback === 'ok' ? 'bg-emerald-50 text-emerald-700' : 'bg-red-50 text-red-600'
-              }`}
-            >
-              <span className="font-bold">
-                {feedback === 'ok' ? t('vocab.correct') : t('vocab.incorrect')}
-              </span>
-              {'　'}
-              {t('vocab.answer')}: {word.word}（
-              {(accents as Record<string, number>)[word.id] !== undefined ? (
-                <PitchAccent reading={word.reading} accent={(accents as Record<string, number>)[word.id]} />
-              ) : (
-                word.reading
-              )}
-              ）
-              {mode === 'toMeaning' && ` — ${zhFirst ? word.meaning_zh : word.meaning_en}`}
-            </div>
-          )}
-
-          <input
-            ref={inputRef}
-            value={input}
-            autoFocus
-            spellCheck={false}
-            autoComplete="off"
-            placeholder={t('vocab.inputPlaceholder')}
-            className="mb-4 w-full rounded-lg border border-stone-300 p-3 text-center text-lg outline-none focus:border-accent focus:ring-2 focus:ring-accent-light"
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={onKeyDown}
-            onPaste={(e) => e.preventDefault()}
-            readOnly={feedback !== null}
-          />
-          <div className="flex justify-center gap-2">
-            {feedback ? (
-              <button className="btn-primary" onClick={advance}>{t('vocab.nextWord')}</button>
-            ) : (
-              <>
-                <button className="btn-primary" onClick={check}>{t('vocab.check')}</button>
-                <button
-                  className="btn-ghost"
-                  disabled={hintExhausted}
-                  onClick={() => {
-                    setRevealed((r) => r + 1)
-                    inputRef.current?.focus()
-                  }}
-                >
-                  {t('vocab.hint')}
-                  {revealed > 0 && !hintExhausted && (
-                    <span className="ml-1 text-xs text-stone-400">
-                      {revealed}/{hintChars.length}
-                    </span>
-                  )}
-                </button>
-                <button
-                  className="btn-ghost"
-                  onClick={() => setFeedback('ng')}
-                >
-                  {t('vocab.skip')}
-                </button>
-              </>
-            )}
-          </div>
-        </div>
-      ) : null}
-    </div>
-  )
+  return <DictPage zhFirst={zhFirst} />
 }

@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall, tataki, wooden floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <g data-w="1">
+    <rect x="0" y="300" width="800" height="80" fill="#cfc9bd" stroke="none"/>
+    <path d="M0 340h800M50 300v80M150 300v80M250 300v80M350 300v80M450 300v80M550 300v80M650 300v80M750 300v80M100 340v40M200 340v40M300 340v40M400 340v40M500 340v40M600 340v40M700 340v40" stroke="#b8b2a6" stroke-width="1.5"/>
+    <path d="M0 300h800" stroke="#8c867c"/>
+  </g>
+  <rect x="0" y="376" width="800" height="12" fill="#5e4634" stroke="none"/>
+  <rect x="0" y="388" width="800" height="112" fill="#d8b48c" stroke="none"/>
+  <path d="M0 388h800" stroke="#b08a63" stroke-width="2"/>
+  <path d="M0 420h800M0 452h800M0 484h800" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M160 388v32M520 388v32M700 388v32M80 420v32M360 420v32M620 420v32M240 452v32M480 452v32M760 452v32" stroke="#c49b6e" stroke-width="1.5"/>
+
+  <!-- open front door -->
+  <g data-w="2">
+    <rect x="54" y="54" width="152" height="250" fill="#9c7450"/>
+    <rect x="66" y="64" width="128" height="238" fill="#d6e7f0"/>
+    <rect x="66" y="236" width="128" height="66" fill="#9dc0a8" stroke="none"/>
+    <path d="M66 236h128" stroke="#5b8a72"/>
+    <circle cx="100" cy="104" r="14" fill="#f0cf6d" stroke="#e59a5b"/>
+    <path d="M160 186c0-26 32-26 32 0z" fill="#5b8a72"/>
+    <path d="M206 54l56 32v246l-56-32z" fill="#9c7450"/>
+    <path d="M216 80l36 20v60l-36-20zM216 180l36 20v80l-36-20z" fill="#b08a63"/>
+    <circle cx="222" cy="186" r="4" fill="#f0cf6d"/>
+  </g>
+  <!-- intercom -->
+  <g data-w="11">
+    <rect x="276" y="94" width="44" height="50" rx="4" fill="#ffffff"/>
+    <rect x="282" y="100" width="32" height="24" rx="2" fill="#b9cfe3"/>
+    <circle cx="298" cy="134" r="4" fill="#5b8a72"/>
+  </g>
+
+  <!-- umbrellas in the stand -->
+  <g data-w="5">
+    <path d="M298 326v-60l6-22 6 22v60z" fill="#d9736b"/>
+    <path d="M304 244v-16c0-8 12-8 12 0" stroke-width="3"/>
+    <path d="M316 326v-54l6-20 6 20v54z" fill="#f0cf6d"/>
+    <path d="M322 252v-14c0-8 12-8 12 0" stroke-width="3"/>
+  </g>
+  <g data-w="6">
+    <rect x="288" y="322" width="48" height="58" rx="6" fill="#7da2c4"/>
+    <path d="M296 334h32M296 346h32" stroke="#4a7fa3" stroke-width="1.5"/>
+  </g>
+
+  <!-- girl coming home -->
+  <g data-w="17">
+    <rect x="116" y="316" width="12" height="60" rx="4" fill="#f5d2b4"/>
+    <rect x="134" y="316" width="12" height="60" rx="4" fill="#f5d2b4"/>
+    <path d="M112 378h18M132 378h18" stroke-width="5"/>
+    <path d="M110 268c0-10 8-16 20-16s20 6 20 16l6 54h-52z" fill="#d9736b"/>
+    <path d="M148 262l20-22" stroke="#d9736b" stroke-width="9"/>
+    <path d="M112 262l-6 42" stroke="#d9736b" stroke-width="9"/>
+    <circle cx="170" cy="238" r="6" fill="#f5d2b4"/>
+    <circle cx="106" cy="306" r="6" fill="#f5d2b4"/>
+    <circle cx="130" cy="236" r="20" fill="#f5d2b4"/>
+    <path d="M110 234c-2-18 10-26 20-26s22 8 20 24c-6-6-12-8-20-8s-14 2-20 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="108" cy="246" r="7" fill="#4a3b32" stroke="none"/>
+    <circle cx="152" cy="246" r="7" fill="#4a3b32" stroke="none"/>
+    <circle cx="123" cy="238" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="137" cy="238" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M125 246c2 3 8 3 10 0" stroke-width="1.5"/>
+  </g>
+  <!-- speech bubble -->
+  <g data-w="14">
+    <ellipse cx="250" cy="230" rx="44" ry="22" fill="#ffffff"/>
+    <path d="M214 238l-28 6 18-16" fill="#ffffff"/>
+    <path d="M214 232c-2 6 0 8 4 8" stroke="#ffffff"/>
+  </g>
+  <!-- bag on the floor -->
+  <g data-w="8">
+    <path d="M178 348c0-10 24-10 24 0" stroke-width="3"/>
+    <rect x="168" y="346" width="44" height="32" rx="5" fill="#4a7fa3"/>
+    <path d="M168 358h44" stroke="#7da2c4"/>
+    <circle cx="190" cy="364" r="3" fill="#f0cf6d"/>
+  </g>
+
+  <!-- shoes on the tataki -->
+  <g data-w="3">
+    <path d="M352 378c-2-10 6-20 20-20h14c10 0 18 8 18 20z" fill="#9c7450"/>
+    <path d="M352 374h52" stroke="#ffffff"/>
+    <path d="M372 362c4 6 14 6 20 0" stroke="#5e4634"/>
+    <path d="M412 378c-2-10 6-20 20-20h14c10 0 18 8 18 20z" fill="#9c7450"/>
+    <path d="M412 374h52" stroke="#ffffff"/>
+    <path d="M432 362c4 6 14 6 20 0" stroke="#5e4634"/>
+  </g>
+
+  <!-- slippers and mat on the wooden floor -->
+  <g data-w="15">
+    <path d="M236 404c-2-8 8-14 26-14h20c12 0 18 6 18 14s-6 12-18 12h-30c-10 0-16-4-16-12z" fill="#f1b1aa"/>
+    <path d="M256 390c8 10 26 10 36 2" fill="#d9736b"/>
+    <path d="M276 418c-2-8 8-14 26-14h20c12 0 18 6 18 14s-6 12-18 12h-30c-10 0-16-4-16-12z" fill="#f1b1aa"/>
+    <path d="M296 404c8 10 26 10 36 2" fill="#d9736b"/>
+  </g>
+  <g data-w="12">
+    <rect x="330" y="400" width="130" height="36" rx="4" fill="#5b8a72"/>
+    <rect x="338" y="406" width="114" height="24" rx="3" stroke="#9dc0a8"/>
+    <path d="M360 406v24M390 406v24M420 406v24" stroke="#9dc0a8" stroke-width="1.5"/>
+  </g>
+
+  <!-- mother -->
+  <g data-w="16" transform="translate(50 0)">
+    <rect x="456" y="378" width="13" height="88" rx="4" fill="#f5d2b4"/>
+    <rect x="474" y="378" width="13" height="88" rx="4" fill="#f5d2b4"/>
+    <path d="M450 470h22M470 470h22" stroke-width="5"/>
+    <path d="M440 380l10-58h44l10 58z" fill="#4a7fa3"/>
+    <path d="M444 334v-74c0-12 10-20 22-20h12c12 0 22 8 22 20v74z" fill="#5b8a72"/>
+    <path d="M448 258l-22-26" stroke="#5b8a72" stroke-width="10"/>
+    <path d="M496 258l8 40" stroke="#5b8a72" stroke-width="10"/>
+    <circle cx="424" cy="230" r="7" fill="#f5d2b4"/>
+    <circle cx="506" cy="300" r="7" fill="#f5d2b4"/>
+    <circle cx="472" cy="222" r="22" fill="#f5d2b4"/>
+    <path d="M450 220c-2-20 12-28 22-28s24 8 22 26c-6-6-12-8-22-8s-16 2-22 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="472" cy="196" r="9" fill="#4a3b32" stroke="none"/>
+    <circle cx="464" cy="224" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="480" cy="224" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M466 233c2 3 10 3 12 0" stroke-width="1.5"/>
+  </g>
+
+  <!-- shoe cabinet with letters and plant -->
+  <g data-w="4">
+    <rect x="580" y="196" width="200" height="120" fill="#e3c9a3"/>
+    <rect x="590" y="206" width="88" height="100" rx="2" fill="#d8b48c"/>
+    <rect x="682" y="206" width="88" height="100" rx="2" fill="#d8b48c"/>
+    <circle cx="670" cy="256" r="3.5" fill="#3f3a34"/>
+    <circle cx="690" cy="256" r="3.5" fill="#3f3a34"/>
+    <rect x="574" y="190" width="212" height="8" rx="2" fill="#9c7450"/>
+  </g>
+  <g data-w="13">
+    <rect x="596" y="166" width="46" height="24" rx="2" fill="#ffffff"/>
+    <path d="M596 166l23 14 23-14"/>
+    <rect x="586" y="174" width="44" height="18" rx="2" fill="#ffffff"/>
+    <path d="M586 174l22 12 22-12"/>
+  </g>
+  <path d="M740 170c-10-10-6-26 4-28 4 10 2 20-4 28zM748 170c10-10 6-26-4-28-4 10-2 20 4 28z" fill="#9dc0a8"/>
+  <path d="M744 174v-24" stroke="#5b8a72"/>
+  <path d="M730 172h30l-4 20h-22z" fill="#d9736b"/>
+
+  <!-- coat rack: coat, hat, key -->
+  <rect x="590" y="62" width="180" height="8" rx="2" fill="#9c7450"/>
+  <circle cx="620" cy="76" r="3" fill="#8c867c"/>
+  <circle cx="700" cy="76" r="3" fill="#8c867c"/>
+  <circle cx="750" cy="76" r="3" fill="#8c867c"/>
+  <g data-w="10">
+    <path d="M598 90c6-8 38-8 44 0l10 96h-64z" fill="#7da2c4"/>
+    <path d="M608 90l12 24 12-24" fill="#ffffff"/>
+    <path d="M620 114v70" stroke="#4a7fa3"/>
+    <circle cx="626" cy="132" r="2.5" fill="#3f3a34"/>
+    <circle cx="626" cy="152" r="2.5" fill="#3f3a34"/>
+  </g>
+  <g data-w="9">
+    <path d="M684 96c0-14 8-22 16-22s16 8 16 22z" fill="#e59a5b"/>
+    <rect x="672" y="94" width="56" height="8" rx="4" fill="#e59a5b"/>
+    <path d="M686 92h28" stroke="#9c7450" stroke-width="3"/>
+  </g>
+  <g data-w="7">
+    <circle cx="750" cy="84" r="6"/>
+    <circle cx="750" cy="96" r="8" fill="#f0cf6d"/>
+    <rect x="747" y="100" width="6" height="22" fill="#f0cf6d"/>
+    <path d="M753 112h5M753 118h5" stroke-width="3"/>
+  </g>
+</svg>

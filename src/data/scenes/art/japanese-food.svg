@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wooden table -->
+  <rect x="0" y="0" width="800" height="500" fill="#d8b48c" stroke="none"/>
+  <path d="M0 60h800M0 180h800M0 300h800M0 420h800" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M300 60v120M620 180v120M200 300v120M520 420v80M700 0v60" stroke="#c49b6e" stroke-width="1.5"/>
+
+  <!-- sushi -->
+  <g data-w="1">
+    <rect x="40" y="60" width="140" height="66" rx="5" fill="#e3c9a3"/>
+    <path d="M46 118h128" stroke="#c4a37a" stroke-width="1.5"/>
+    <ellipse cx="66" cy="98" rx="16" ry="9" fill="#ffffff"/>
+    <path d="M48 92c4-10 30-10 34 0l-4 6h-26z" fill="#d9736b"/>
+    <ellipse cx="102" cy="98" rx="16" ry="9" fill="#ffffff"/>
+    <path d="M84 92c4-10 30-10 34 0l-4 6h-26z" fill="#e59a5b"/>
+    <path d="M92 90c4 2 8 2 12 0M94 96c4 2 8 2 12 0" stroke="#ffffff" stroke-width="1.5"/>
+    <ellipse cx="138" cy="98" rx="16" ry="9" fill="#ffffff"/>
+    <path d="M120 92c4-10 30-10 34 0l-4 6h-26z" fill="#f1b1aa"/>
+    <path d="M126 92c4 2 8 2 12 0M130 86c4 2 8 2 12 0" stroke="#ffffff" stroke-width="1.5"/>
+    <path d="M148 86l10-10" stroke="#d9736b" stroke-width="3"/>
+    <circle cx="164" cy="96" r="13" fill="#3f3a34"/>
+    <circle cx="164" cy="96" r="9" fill="#ffffff" stroke="none"/>
+    <circle cx="164" cy="96" r="4" fill="#d9736b" stroke="none"/>
+  </g>
+
+  <!-- sashimi -->
+  <g data-w="2">
+    <ellipse cx="280" cy="92" rx="58" ry="36" fill="#ffffff"/>
+    <path d="M288 74c10-14 26-14 36-4M292 70c12-10 30-8 38 2M298 78c10-6 20-6 28 0" stroke="#ede9e1" stroke-width="2.5"/>
+    <path d="M238 86c0-14 10-22 22-22 6 8 4 22-10 26-6 2-12-2-12-4z" fill="#5b8a72"/>
+    <path d="M248 70l8 10" stroke="#3d614f"/>
+    <path d="M250 94l16-6 10 24-16 6zM268 92l16-6 10 24-16 6zM286 92l16-6 10 24-16 6z" fill="#d9736b"/>
+    <path d="M258 102l10-4M276 100l10-4M294 100l10-4" stroke="#f1b1aa" stroke-width="1.5"/>
+    <path d="M304 96l14-4 6 18-14 4zM316 94l14-4 6 18-14 4z" fill="#f1b1aa"/>
+  </g>
+  <g data-w="3">
+    <path d="M318 76c-4-10 2-16 8-18 6 2 12 8 8 18-4 4-12 4-16 0z" fill="#5b8a72"/>
+    <path d="M322 70l4-6 4 6" stroke="#9dc0a8" stroke-width="1.5"/>
+  </g>
+
+  <!-- tempura -->
+  <g data-w="4">
+    <ellipse cx="452" cy="94" rx="60" ry="36" fill="#ede9e1"/>
+    <path d="M410 100l34-32 40 4-30 36z" fill="#ffffff" stroke="#cfc9bd"/>
+    <g transform="rotate(-30 448 92)">
+      <path d="M416 94c0-12 10-18 40-18 20 0 30 4 34 10-4 8-14 12-34 12-30 0-40-2-40-4z" fill="#e59a5b"/>
+      <path d="M422 88l6 4M434 82l6 6M448 80l4 6M462 82l4 6" stroke="#f0cf6d" stroke-width="2"/>
+      <path d="M490 86c6-6 14-8 20-4-2 6-10 10-20 8z" fill="#d9736b"/>
+    </g>
+    <g transform="rotate(-12 456 108)">
+      <path d="M424 112c0-12 10-18 40-18 20 0 30 4 34 10-4 8-14 12-34 12-30 0-40-2-40-4z" fill="#e59a5b"/>
+      <path d="M430 106l6 4M442 100l6 6M456 98l4 6M470 100l4 6" stroke="#f0cf6d" stroke-width="2"/>
+      <path d="M498 104c6-6 14-8 20-4-2 6-10 10-20 8z" fill="#d9736b"/>
+    </g>
+    <path d="M400 108c6-10 20-12 28-6-4 10-16 14-28 6z" fill="#5b8a72"/>
+    <path d="M476 116c8-6 20-4 24 4-8 6-18 6-24-4z" fill="#f0cf6d" stroke="#3d614f"/>
+  </g>
+
+  <!-- ramen -->
+  <g data-w="5">
+    <path d="M578 96c0 36 24 60 62 60s62-24 62-60z" fill="#ffffff"/>
+    <path d="M584 118h112" stroke="#d9736b" stroke-width="3"/>
+    <ellipse cx="640" cy="96" rx="62" ry="36" fill="#ffffff"/>
+    <ellipse cx="640" cy="96" rx="54" ry="29" fill="#e59a5b" stroke="none"/>
+    <path d="M594 92c10-8 20 8 30 0s20 8 30 0 20 8 30 0M598 104c10-8 20 8 30 0s20 8 30 0 20 8 30 0" stroke="#f8e6ae" stroke-width="3"/>
+    <circle cx="616" cy="86" r="14" fill="#9c7450"/>
+    <circle cx="616" cy="86" r="7" fill="#d8b48c" stroke="none"/>
+    <ellipse cx="660" cy="84" rx="13" ry="9" fill="#ffffff"/>
+    <circle cx="660" cy="84" r="5" fill="#f0cf6d" stroke="none"/>
+    <path d="M672 100h20v18h-20z" fill="#3f3a34"/>
+    <circle cx="640" cy="106" r="9" fill="#ffffff"/>
+    <path d="M636 106c0-4 4-6 6-2 0 4-4 6-6 2z" stroke="#d9736b" stroke-width="1.5"/>
+    <path d="M600 108h3M606 100h3M652 108h3M626 112h3" stroke="#5b8a72" stroke-width="3"/>
+  </g>
+
+  <!-- curry rice -->
+  <g data-w="6">
+    <ellipse cx="120" cy="250" rx="66" ry="38" fill="#ffffff"/>
+    <path d="M62 250c0-18 20-26 50-26 10 10 10 40 0 52-30 0-50-8-50-26z" fill="#ffffff" stroke="#cfc9bd"/>
+    <path d="M112 224c40 0 62 10 62 26s-22 26-62 26c12-14 12-40 0-52z" fill="#9c7450"/>
+    <path d="M78 240h3M90 252h3M80 262h3M100 236h3" stroke="#cfc9bd" stroke-width="2"/>
+    <path d="M134 240h5M150 254h5M136 262h5" stroke="#e59a5b" stroke-width="4"/>
+    <path d="M152 236h4M128 254h4" stroke="#f0cf6d" stroke-width="4"/>
+    <path d="M166 212l-26 26" stroke="#8c867c" stroke-width="4"/>
+    <ellipse cx="172" cy="206" rx="8" ry="11" fill="#ede9e1" transform="rotate(45 172 206)"/>
+  </g>
+
+  <!-- udon -->
+  <g data-w="7">
+    <path d="M250 250c0 30 20 48 50 48s50-18 50-48z" fill="#5e4634"/>
+    <ellipse cx="300" cy="250" rx="50" ry="29" fill="#5e4634"/>
+    <ellipse cx="300" cy="250" rx="42" ry="22" fill="#e3c9a3" stroke="none"/>
+    <path d="M266 244c8-6 16 6 24 0s16 6 24 0 14 6 20 0M264 256c8-6 16 6 24 0s16 6 24 0 14 6 20 0M272 266c8-6 16 6 24 0s16 6 24 0" stroke="#ffffff" stroke-width="4"/>
+    <path d="M276 240c0-10 8-14 14-14s14 4 14 14z" fill="#ffffff"/>
+    <path d="M278 236c6-6 18-6 24 0" stroke="#d9736b" stroke-width="3"/>
+    <rect x="306" y="234" width="26" height="18" rx="4" fill="#d8b48c"/>
+    <path d="M282 262h3M316 260h3M300 268h3" stroke="#5b8a72" stroke-width="3"/>
+  </g>
+
+  <!-- grilled fish -->
+  <g data-w="8">
+    <rect x="404" y="212" width="132" height="60" rx="10" fill="#d6e7f0"/>
+    <path d="M412 264c20-6 40-6 60 0M470 220c20-6 40-6 56 0" stroke="#7da2c4" stroke-width="1.5"/>
+    <path d="M416 242c10-16 40-24 70-20 10 2 18 6 24 10l16-12-4 22 4 22-16-12c-6 4-14 8-24 10-30 4-60-4-70-20z" fill="#8c867c"/>
+    <path d="M420 242c20 0 40 0 60 0" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M446 232l-4 20M462 230l-4 24M478 232l-4 20M494 234l-4 16" stroke="#5e4634" stroke-width="2.5"/>
+    <path d="M520 238c4-4 10-4 14 0" stroke="#5e4634" stroke-width="2"/>
+    <circle cx="430" cy="238" r="2.5" fill="#3f3a34" stroke="none"/>
+    <path d="M500 262c0-6 6-10 14-10s14 4 14 10z" fill="#ffffff"/>
+    <path d="M524 230c6-6 14-4 14 4-6 2-10 2-14-4z" fill="#f0cf6d"/>
+  </g>
+
+  <!-- tofu -->
+  <g data-w="9">
+    <rect x="598" y="222" width="86" height="58" rx="6" fill="#e0ece3"/>
+    <path d="M618 248l10-10h40v22l-10 10h-40z" fill="#ffffff"/>
+    <path d="M618 248h40v22M658 248l10-10M658 248v22" stroke="#cfc9bd"/>
+    <path d="M618 248h40l10-10" />
+    <path d="M630 244c4-6 10-6 14-2M640 240c4-6 10-6 14-2M624 250c4-6 10-6 14-2" stroke="#d8b48c" stroke-width="2"/>
+    <path d="M636 236h3M650 234h3" stroke="#5b8a72" stroke-width="3"/>
+    <path d="M672 262c4 4 8 4 10 0" stroke="#e59a5b" stroke-width="3"/>
+  </g>
+
+  <!-- rice bowl -->
+  <g data-w="10">
+    <path d="M54 392c0-34 72-34 72 0z" fill="#ffffff"/>
+    <path d="M66 384h3M78 376h3M94 378h3M106 386h3M88 390h3" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+  <g data-w="11">
+    <path d="M54 392c0 20 14 36 24 40h24c10-4 24-20 24-40z" fill="#7da2c4"/>
+    <path d="M76 432h28v6H76z" fill="#4a7fa3"/>
+    <ellipse cx="90" cy="392" rx="36" ry="7" fill="#b9cfe3"/>
+    <path d="M62 410c16 6 40 6 56 0" stroke="#ffffff" stroke-width="2"/>
+  </g>
+
+  <!-- miso soup -->
+  <g data-w="12">
+    <path d="M164 400c0 18 12 34 22 38h28c10-4 22-20 22-38z" fill="#3f3a34"/>
+    <path d="M186 438h28v6h-28z" fill="#3f3a34"/>
+    <ellipse cx="200" cy="400" rx="36" ry="12" fill="#b5463f"/>
+    <ellipse cx="200" cy="400" rx="28" ry="8" fill="#c9a67a" stroke="none"/>
+    <path d="M184 396h8v6h-8zM204 400h8v6h-8z" fill="#ffffff"/>
+    <path d="M194 406c6-4 12 2 18-2" stroke="#3d614f" stroke-width="2"/>
+    <path d="M180 400h3M214 396h3" stroke="#5b8a72" stroke-width="3"/>
+    <path d="M192 380c2-6-2-10 0-16M206 382c2-6-2-10 0-16" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+
+  <!-- chopsticks -->
+  <g data-w="13">
+    <path d="M70 470l160-8M72 480l158-8" stroke="#9c7450" stroke-width="4"/>
+    <path d="M70 470l160-8M72 480l158-8" stroke-width="1"/>
+    <rect x="80" y="462" width="18" height="24" rx="6" fill="#7da2c4"/>
+  </g>
+
+  <!-- onigiri -->
+  <g data-w="14">
+    <path d="M276 418c6-28 22-44 32-44s26 16 32 44c-20 6-44 6-64 0z" fill="#ffffff"/>
+    <path d="M290 418v-16h36v16z" fill="#3f3a34"/>
+    <path d="M316 426c6-28 22-44 32-44s26 16 32 44c-20 6-44 6-64 0z" fill="#ffffff"/>
+    <path d="M330 426v-16h36v16z" fill="#3f3a34"/>
+    <path d="M298 392h3M310 384h3M342 398h3M356 392h3" stroke="#cfc9bd" stroke-width="2"/>
+  </g>
+
+  <!-- pickles -->
+  <g data-w="15">
+    <ellipse cx="430" cy="404" rx="36" ry="21" fill="#e0ece3"/>
+    <path d="M404 408c0-10 8-14 14-14s14 4 14 14zM418 400c0-10 8-14 14-14s14 4 14 14z" fill="#f0cf6d"/>
+    <circle cx="444" cy="410" r="8" fill="#5b8a72"/>
+    <circle cx="444" cy="410" r="4" fill="#9dc0a8" stroke="none"/>
+    <circle cx="456" cy="402" r="8" fill="#5b8a72"/>
+    <circle cx="456" cy="402" r="4" fill="#9dc0a8" stroke="none"/>
+    <path d="M408 412c8 4 16 4 24 0" stroke="#a58bc0" stroke-width="3"/>
+  </g>
+
+  <!-- soy sauce -->
+  <g data-w="16">
+    <path d="M504 420c0-16 6-28 6-40 0-8 20-8 20 0 0 12 6 24 6 40 0 8-32 8-32 0z" fill="#d6e7f0"/>
+    <path d="M506 418c0-12 4-22 6-32h16c2 10 6 20 6 32 0 6-28 6-28 0z" fill="#5e4634" stroke="none"/>
+    <path d="M510 374v-14h20v14" fill="#b5463f"/>
+    <path d="M530 364l10-8" stroke="#b5463f" stroke-width="4"/>
+    <path d="M526 382c-6 4-6 10-4 14" stroke="#b9cfe3" stroke-width="1.5"/>
+    <ellipse cx="560" cy="416" rx="18" ry="9" fill="#ffffff"/>
+    <ellipse cx="560" cy="416" rx="11" ry="5" fill="#5e4634" stroke="none"/>
+  </g>
+
+  <!-- tea -->
+  <g data-w="17">
+    <path d="M594 392c0 22 4 36 8 40h20c4-4 8-18 8-40z" fill="#e0ece3"/>
+    <ellipse cx="612" cy="392" rx="18" ry="6" fill="#9dc0a8"/>
+    <path d="M598 410h28" stroke="#5b8a72" stroke-width="2"/>
+    <path d="M606 380c2-6-2-10 0-16M618 382c2-6-2-10 0-16" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M656 400c0-18 14-28 34-28s34 10 34 28-14 28-34 28-34-10-34-28z" fill="#5b8a72"/>
+    <path d="M660 390h60" stroke="#3d614f" stroke-width="1.5"/>
+    <ellipse cx="690" cy="374" rx="22" ry="7" fill="#9dc0a8"/>
+    <circle cx="690" cy="368" r="5" fill="#3d614f"/>
+    <path d="M722 392c12-4 20 2 22 12" stroke="#5b8a72" stroke-width="8"/>
+    <path d="M722 392c12-4 20 2 22 12" stroke-width="1"/>
+    <path d="M660 390l-14-10" stroke="#5b8a72" stroke-width="7"/>
+    <path d="M660 390l-14-10" stroke-width="1"/>
+  </g>
+</svg>

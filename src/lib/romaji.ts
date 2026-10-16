@@ -1,0 +1,70 @@
+// Romaji → hiragana, for looking words up by typing "gakkou" or "shinbun".
+// Greedy longest-match over Hepburn and the common kunrei/wāpuro spellings.
+
+const TABLE: Record<string, string> = {
+  a: 'あ', i: 'い', u: 'う', e: 'え', o: 'お',
+  ka: 'か', ki: 'き', ku: 'く', ke: 'け', ko: 'こ',
+  sa: 'さ', shi: 'し', si: 'し', su: 'す', se: 'せ', so: 'そ',
+  ta: 'た', chi: 'ち', ti: 'ち', tsu: 'つ', tu: 'つ', te: 'て', to: 'と',
+  na: 'な', ni: 'に', nu: 'ぬ', ne: 'ね', no: 'の',
+  ha: 'は', hi: 'ひ', fu: 'ふ', hu: 'ふ', he: 'へ', ho: 'ほ',
+  ma: 'ま', mi: 'み', mu: 'む', me: 'め', mo: 'も',
+  ya: 'や', yu: 'ゆ', yo: 'よ',
+  ra: 'ら', ri: 'り', ru: 'る', re: 'れ', ro: 'ろ',
+  wa: 'わ', wo: 'を', nn: 'ん',
+  ga: 'が', gi: 'ぎ', gu: 'ぐ', ge: 'げ', go: 'ご',
+  za: 'ざ', ji: 'じ', zi: 'じ', zu: 'ず', ze: 'ぜ', zo: 'ぞ',
+  da: 'だ', di: 'ぢ', du: 'づ', de: 'で', do: 'ど',
+  ba: 'ば', bi: 'び', bu: 'ぶ', be: 'べ', bo: 'ぼ',
+  pa: 'ぱ', pi: 'ぴ', pu: 'ぷ', pe: 'ぺ', po: 'ぽ',
+  kya: 'きゃ', kyu: 'きゅ', kyo: 'きょ',
+  sha: 'しゃ', shu: 'しゅ', sho: 'しょ', sya: 'しゃ', syu: 'しゅ', syo: 'しょ',
+  cha: 'ちゃ', chu: 'ちゅ', cho: 'ちょ', tya: 'ちゃ', tyu: 'ちゅ', tyo: 'ちょ',
+  nya: 'にゃ', nyu: 'にゅ', nyo: 'にょ',
+  hya: 'ひゃ', hyu: 'ひゅ', hyo: 'ひょ',
+  mya: 'みゃ', myu: 'みゅ', myo: 'みょ',
+  rya: 'りゃ', ryu: 'りゅ', ryo: 'りょ',
+  gya: 'ぎゃ', gyu: 'ぎゅ', gyo: 'ぎょ',
+  ja: 'じゃ', ju: 'じゅ', jo: 'じょ', jya: 'じゃ', jyu: 'じゅ', jyo: 'じょ',
+  bya: 'びゃ', byu: 'びゅ', byo: 'びょ',
+  pya: 'ぴゃ', pyu: 'ぴゅ', pyo: 'ぴょ',
+  fa: 'ふぁ', fi: 'ふぃ', fe: 'ふぇ', fo: 'ふぉ',
+  va: 'ゔぁ', vi: 'ゔぃ', vu: 'ゔ', ve: 'ゔぇ', vo: 'ゔぉ',
+  wi: 'うぃ', we: 'うぇ', she: 'しぇ', che: 'ちぇ', je: 'じぇ',
+  tsa: 'つぁ', tse: 'つぇ', tso: 'つぉ', dyu: 'でゅ', thi: 'てぃ', dhi: 'でぃ',
+  xa: 'ぁ', xi: 'ぃ', xu: 'ぅ', xe: 'ぇ', xo: 'ぉ', xya: 'ゃ', xyu: 'ゅ', xyo: 'ょ', xtsu: 'っ', xtu: 'っ',
+  '-': 'ー',
+}
+
+const VOWELS = 'aiueo'
+
+/** True when the string is plain ASCII letters (so romaji conversion applies). */
+export const isRomaji = (s: string) => /^[a-z'\- ]+$/i.test(s)
+
+export function romajiToHiragana(input: string): string {
+  const s = input.toLowerCase().replace(/\s+/g, '')
+  let out = ''
+  let i = 0
+  while (i < s.length) {
+    const c = s[i]
+    // ん: n before a consonant / apostrophe / end, or "nn"
+    if (c === 'n') {
+      const next = s[i + 1]
+      if (next === "'") { out += 'ん'; i += 2; continue }
+      if (next === undefined || (!VOWELS.includes(next) && next !== 'y' && next !== 'n')) {
+        out += 'ん'; i += 1; continue
+      }
+    }
+    // っ: doubled consonant (except n)
+    if (c !== 'n' && !VOWELS.includes(c) && s[i + 1] === c && /[a-z]/.test(c)) {
+      out += 'っ'; i += 1; continue
+    }
+    let matched = false
+    for (const len of [4, 3, 2, 1]) {
+      const chunk = s.slice(i, i + len)
+      if (TABLE[chunk]) { out += TABLE[chunk]; i += len; matched = true; break }
+    }
+    if (!matched) { out += c; i += 1 }
+  }
+  return out
+}

@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall, tiles, floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="196" width="800" height="100" fill="#d6e7f0" stroke="none"/>
+  <path d="M0 196h800M0 221h800M0 246h800M0 271h800" stroke="#b9cfe3" stroke-width="1.5"/>
+  <path d="M25 196v25M75 196v25M125 196v25M175 196v25M225 196v25M275 196v25M325 196v25M375 196v25M425 196v25M475 196v25M525 196v25M575 196v25M625 196v25M675 196v25M725 196v25M775 196v25M50 221v25M100 221v25M150 221v25M200 221v25M250 221v25M300 221v25M350 221v25M400 221v25M450 221v25M500 221v25M550 221v25M600 221v25M650 221v25M700 221v25M750 221v25M25 246v25M75 246v25M125 246v25M175 246v25M225 246v25M275 246v25M325 246v25M375 246v25M425 246v25M475 246v25M525 246v25M575 246v25M625 246v25M675 246v25M725 246v25M775 246v25M50 271v25M100 271v25M150 271v25M200 271v25M250 271v25M300 271v25M350 271v25M400 271v25M450 271v25M500 271v25M550 271v25M600 271v25M650 271v25M700 271v25M750 271v25" stroke="#b9cfe3" stroke-width="1.5"/>
+  <rect x="0" y="420" width="800" height="80" fill="#ede9e1" stroke="none"/>
+  <path d="M0 420h800" stroke="#8c867c" stroke-width="3"/>
+  <path d="M0 460h800M60 420v80M180 420v80M300 420v80M420 420v80M540 420v80M660 420v80M780 420v80" stroke="#cfc9bd" stroke-width="1.5"/>
+
+  <!-- lower cabinets and counter -->
+  <rect x="170" y="314" width="630" height="106" fill="#e3c9a3"/>
+  <path d="M300 314v106M440 314v106M600 314v106M720 314v106" stroke="#b08a63"/>
+  <circle cx="286" cy="366" r="4" fill="#3f3a34"/><circle cx="314" cy="366" r="4" fill="#3f3a34"/>
+  <circle cx="454" cy="366" r="4" fill="#3f3a34"/><circle cx="586" cy="366" r="4" fill="#3f3a34"/>
+  <circle cx="614" cy="366" r="4" fill="#3f3a34"/><circle cx="706" cy="366" r="4" fill="#3f3a34"/>
+  <rect x="164" y="292" width="636" height="22" rx="3" fill="#ffffff"/>
+
+  <!-- fridge -->
+  <g data-w="1">
+    <rect x="40" y="100" width="110" height="320" rx="6" fill="#ffffff"/>
+    <path d="M40 206h110"/>
+    <rect x="130" y="128" width="8" height="56" rx="4" fill="#cfc9bd"/>
+    <rect x="130" y="228" width="8" height="90" rx="4" fill="#cfc9bd"/>
+    <circle cx="68" cy="140" r="6" fill="#d9736b"/>
+    <rect x="84" y="160" width="26" height="20" rx="2" fill="#f0cf6d"/>
+    <path d="M60 420v6M130 420v6" stroke-width="4"/>
+  </g>
+
+  <!-- rice cooker -->
+  <g data-w="10">
+    <rect x="62" y="66" width="62" height="34" rx="10" fill="#ffffff"/>
+    <rect x="66" y="56" width="54" height="14" rx="7" fill="#cfc9bd"/>
+    <rect x="84" y="50" width="18" height="6" rx="3" fill="#8c867c"/>
+    <circle cx="80" cy="88" r="3" fill="#d9736b"/>
+    <rect x="92" y="84" width="22" height="8" rx="2" fill="#b9cfe3"/>
+    <path d="M104 46c-4-6 0-10-4-16" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+
+  <!-- wall shelf with plates, cups, chopsticks -->
+  <g data-w="11">
+    <rect x="200" y="80" width="290" height="8" rx="2" fill="#9c7450"/>
+    <path d="M214 88l-6 14M476 88l6 14" stroke="#9c7450" stroke-width="3"/>
+    <rect x="440" y="58" width="22" height="22" rx="3" fill="#9dc0a8"/>
+    <path d="M451 58c-8-10-6-22 0-26 6 4 8 16 0 26zM451 60l-6-8M451 60l6-10" stroke="#5b8a72"/>
+  </g>
+  <g data-w="12">
+    <circle cx="236" cy="62" r="18" fill="#ffffff"/>
+    <circle cx="236" cy="62" r="11" stroke="#7da2c4"/>
+    <circle cx="268" cy="62" r="18" fill="#ffffff"/>
+    <circle cx="268" cy="62" r="11" stroke="#7da2c4"/>
+  </g>
+  <g data-w="13">
+    <path d="M330 62c8-2 10 10 0 10" stroke-width="3"/>
+    <rect x="304" y="50" width="26" height="30" rx="3" fill="#d9736b"/>
+    <path d="M372 62c8-2 10 10 0 10" stroke-width="3"/>
+    <rect x="346" y="50" width="26" height="30" rx="3" fill="#7da2c4"/>
+  </g>
+  <g data-w="14">
+    <path d="M400 60l5-32M410 60l6-32" stroke="#5e4634" stroke-width="3"/>
+    <rect x="392" y="58" width="26" height="22" rx="3" fill="#f0cf6d"/>
+  </g>
+
+  <!-- rail with spoon and fork -->
+  <rect x="474" y="146" width="92" height="6" rx="3" fill="#9c7450"/>
+  <g data-w="15">
+    <path d="M500 152v42" stroke="#8c867c" stroke-width="5"/>
+    <ellipse cx="500" cy="206" rx="10" ry="14" fill="#cfc9bd"/>
+  </g>
+  <g data-w="16">
+    <path d="M544 152v42" stroke="#8c867c" stroke-width="5"/>
+    <rect x="535" y="192" width="18" height="12" rx="3" fill="#cfc9bd"/>
+    <path d="M538 204v14M544 204v14M550 204v14" stroke="#8c867c" stroke-width="2.5"/>
+  </g>
+
+  <!-- microwave -->
+  <g data-w="9">
+    <rect x="594" y="150" width="136" height="6" rx="2" fill="#9c7450"/>
+    <rect x="600" y="72" width="124" height="78" rx="4" fill="#ede9e1"/>
+    <rect x="608" y="80" width="80" height="62" rx="3" fill="#8c867c"/>
+    <rect x="616" y="88" width="64" height="46" rx="2" fill="#b9cfe3"/>
+    <circle cx="706" cy="96" r="6" fill="#3f3a34"/>
+    <rect x="700" y="110" width="12" height="4" rx="2" fill="#5b8a72" stroke="none"/>
+    <rect x="700" y="120" width="12" height="4" rx="2" fill="#d9736b" stroke="none"/>
+  </g>
+  <!-- frying pan on the wall -->
+  <g data-w="4">
+    <circle cx="764" cy="52" r="3" fill="#3f3a34"/>
+    <rect x="759" y="54" width="10" height="44" rx="4" fill="#5e4634"/>
+    <circle cx="764" cy="118" r="26" fill="#8c867c"/>
+    <circle cx="764" cy="118" r="17" fill="#3f3a34" stroke="none"/>
+  </g>
+
+  <!-- sink and tap -->
+  <g data-w="7">
+    <rect x="182" y="284" width="112" height="28" rx="8" fill="#cfc9bd"/>
+    <rect x="190" y="290" width="96" height="16" rx="5" fill="#b9cfe3"/>
+    <circle cx="238" cy="298" r="3" fill="#8c867c"/>
+  </g>
+  <g data-w="8">
+    <path d="M208 284v-32c0-8 6-14 14-14h12c8 0 14 6 14 14v8" stroke-width="7"/>
+    <path d="M208 284v-32c0-8 6-14 14-14h12c8 0 14 6 14 14v8" stroke="#cfc9bd" stroke-width="3.5"/>
+    <path d="M196 284h24" stroke-width="5"/>
+    <path d="M248 264v24" stroke="#7da2c4" stroke-width="3" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- cook: person cutting -->
+  <g data-w="20">
+    <path d="M334 234l-16 42M386 234l28 36" stroke="#5b8a72" stroke-width="10"/>
+    <path d="M330 294v-62c0-10 8-18 18-18h24c10 0 18 8 18 18v62z" fill="#5b8a72"/>
+    <path d="M340 294v-56h40v56z" fill="#f1b1aa"/>
+    <path d="M334 234l-16 42M386 234l28 36" stroke="#5b8a72" stroke-width="10"/>
+    <circle cx="360" cy="192" r="21" fill="#f5d2b4"/>
+    <path d="M339 190c-2-18 12-26 21-26 11 0 24 8 21 24-6-6-12-8-21-8s-15 2-21 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="360" cy="166" r="9" fill="#4a3b32" stroke="none"/>
+    <circle cx="352" cy="192" r="1.8" fill="#3f3a34" stroke="none"/>
+    <circle cx="368" cy="192" r="1.8" fill="#3f3a34" stroke="none"/>
+    <path d="M354 201c3 3 9 3 12 0" stroke-width="1.5"/>
+    <circle cx="316" cy="280" r="7" fill="#f5d2b4"/>
+    <circle cx="418" cy="274" r="7" fill="#f5d2b4"/>
+  </g>
+  <!-- cutting board -->
+  <g data-w="6">
+    <rect x="318" y="286" width="96" height="12" rx="3" fill="#e3c9a3"/>
+    <circle cx="326" cy="292" r="2" fill="#3f3a34"/>
+  </g>
+  <!-- knife -->
+  <g data-w="5">
+    <path d="M404 268l-56-4-4 12 60 4z" fill="#cfc9bd"/>
+    <rect x="402" y="268" width="32" height="12" rx="5" fill="#5e4634"/>
+  </g>
+  <!-- vegetables -->
+  <g data-w="19">
+    <path d="M512 272l6-36" stroke="#e59a5b" stroke-width="9"/>
+    <path d="M518 236l-6-14M518 236l4-14M518 236l-1-16" stroke="#5b8a72" stroke-width="2.5"/>
+    <circle cx="486" cy="262" r="13" fill="#d9736b"/>
+    <path d="M480 252l6-6 6 6" stroke="#5b8a72" stroke-width="2.5"/>
+    <circle cx="530" cy="260" r="13" fill="#9dc0a8"/>
+    <path d="M522 254c6 6 12 6 16 0" stroke="#5b8a72"/>
+    <path d="M468 268l10 30h54l10-30z" fill="#d8b48c"/>
+    <path d="M322 286c0-6 10-8 24-8h8c6 0 8 4 8 4v4z" fill="#e59a5b"/>
+    <circle cx="376" cy="282" r="5" fill="#e59a5b"/><circle cx="388" cy="282" r="5" fill="#e59a5b"/>
+    <path d="M474 280h66M480 290h54" stroke="#9c7450" stroke-width="1.5"/>
+  </g>
+  <!-- eggs -->
+  <g data-w="18">
+    <ellipse cx="560" cy="280" rx="7" ry="9" fill="#ffffff"/>
+    <ellipse cx="585" cy="280" rx="7" ry="9" fill="#ffffff"/>
+    <ellipse cx="572" cy="276" rx="7" ry="9" fill="#ffffff"/>
+    <path d="M546 284c0 14 10 16 26 16s26-2 26-16z" fill="#b9cfe3"/>
+  </g>
+
+  <!-- gas stove -->
+  <g data-w="2">
+    <rect x="620" y="266" width="160" height="30" rx="4" fill="#cfc9bd"/>
+    <path d="M620 280h160" stroke="#8c867c"/>
+    <ellipse cx="670" cy="270" rx="20" ry="6" fill="#3f3a34"/>
+    <ellipse cx="740" cy="270" rx="20" ry="6" fill="#3f3a34"/>
+    <circle cx="640" cy="288" r="4" fill="#3f3a34"/><circle cx="656" cy="288" r="4" fill="#3f3a34"/>
+    <circle cx="744" cy="288" r="4" fill="#3f3a34"/><circle cx="760" cy="288" r="4" fill="#3f3a34"/>
+  </g>
+  <!-- kettle -->
+  <g data-w="17">
+    <path d="M652 262l-14-16 6-4 14 14" fill="#4a7fa3"/>
+    <path d="M646 268c-8-22 6-36 24-36s32 14 24 36z" fill="#4a7fa3"/>
+    <path d="M656 236c4-14 24-14 28 0" stroke-width="4"/>
+    <circle cx="670" cy="232" r="3.5" fill="#f0cf6d"/>
+    <path d="M636 236c-4-6 0-10-4-16" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+  <!-- pot -->
+  <g data-w="3">
+    <rect x="716" y="234" width="48" height="34" rx="3" fill="#d9736b"/>
+    <rect x="710" y="228" width="60" height="8" rx="3" fill="#8c867c"/>
+    <circle cx="740" cy="223" r="4" fill="#3f3a34"/>
+    <rect x="704" y="242" width="10" height="6" rx="2" fill="#5e4634"/>
+    <rect x="766" y="242" width="10" height="6" rx="2" fill="#5e4634"/>
+    <path d="M730 218c-4-6 0-10-4-16M750 218c-4-6 0-10-4-16" stroke="#cfc9bd" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "id": "station",
+  "n": 21,
+  "group": "town",
+  "title": "駅",
+  "title_zh": "车站",
+  "title_en": "Station",
+  "words": [
+    { "w": "改札", "r": "かいさつ", "zh": "检票口", "en": "ticket gate", "x": 470, "y": 186 },
+    { "w": "切符", "r": "きっぷ", "zh": "车票；票", "en": "ticket", "x": 300, "y": 160 },
+    { "w": "券売機", "r": "けんばいき", "zh": "售票机", "en": "ticket machine", "x": 220, "y": 140 },
+    { "w": "ホーム", "r": "ホーム", "zh": "站台", "en": "platform", "x": 760, "y": 474 },
+    { "w": "電車", "r": "でんしゃ", "zh": "电车", "en": "train", "x": 620, "y": 400 },
+    { "w": "駅員", "r": "えきいん", "zh": "站务员", "en": "station staff", "x": 525, "y": 160 },
+    { "w": "時刻表", "r": "じこくひょう", "zh": "时刻表", "en": "timetable", "x": 100, "y": 160 },
+    { "w": "階段", "r": "かいだん", "zh": "楼梯", "en": "stairs", "x": 185, "y": 474 },
+    { "w": "エレベーター", "r": "エレベーター", "zh": "电梯", "en": "elevator", "x": 72, "y": 474 },
+    { "w": "エスカレーター", "r": "エスカレーター", "zh": "自动扶梯", "en": "escalator", "x": 350, "y": 474 },
+    { "w": "売店", "r": "ばいてん", "zh": "小卖部", "en": "kiosk; stand", "x": 625, "y": 100 },
+    { "w": "コインロッカー", "r": "コインロッカー", "zh": "投币储物柜", "en": "coin locker", "x": 730, "y": 110 },
+    { "w": "乗る", "r": "のる", "zh": "乘坐", "en": "to ride; to get on", "x": 548, "y": 474 },
+    { "w": "降りる", "r": "おりる", "zh": "下（车）", "en": "to get off", "x": 672, "y": 474 },
+    { "w": "ICカード", "r": "アイシーカード", "zh": "IC卡（交通卡）", "en": "IC card", "x": 384, "y": 150 },
+    { "w": "出口", "r": "でぐち", "zh": "出口", "en": "exit", "x": 360, "y": 110 },
+    { "w": "荷物", "r": "にもつ", "zh": "行李；包裹", "en": "luggage; baggage", "x": 452, "y": 474 }
+  ],
+  "sentences": [
+    { "ja": "{券売機|けんばいき}で{切符|きっぷ}を{買|か}って、{改札|かいさつ}を{通|とお}ります。", "zh": "在售票机买票，然后过检票口。", "en": "Buy a ticket at the ticket machine and go through the ticket gate." },
+    { "ja": "{階段|かいだん}を{下|お}りると、ホームに{電車|でんしゃ}が{来|き}ていました。", "zh": "走下楼梯，电车已经到站台了。", "en": "When I went down the stairs, the train was already at the platform." },
+    { "ja": "{重|おも}い{荷物|にもつ}があるので、エレベーターに{乗|の}ります。", "zh": "因为有很重的行李，所以坐电梯。", "en": "I have heavy luggage, so I take the elevator." },
+    { "ja": "{出口|でぐち}は{売店|ばいてん}の{右|みぎ}です。", "zh": "出口在小卖部的右边。", "en": "The exit is to the right of the kiosk." }
+  ]
+}

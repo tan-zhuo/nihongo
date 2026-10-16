@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { speakWord } from '../lib/tts'
+import { loadWordImages } from '../lib/wordImages'
 import PitchAccent from './PitchAccent'
 import accents from '../data/vocab/accents.json'
 import type { VocabWord } from '../types'
@@ -8,14 +9,6 @@ import type { VocabWord } from '../types'
 const POS_KEY = 'nihongotype.vocab.browse.pos.v1'
 const INTERVALS = [5000, 3000, 2000] as const
 
-// One shared fetch of the prebuilt word→image manifest (public/word-images.json).
-let imagesPromise: Promise<Record<string, string>> | null = null
-function loadImages(): Promise<Record<string, string>> {
-  imagesPromise ??= fetch('/word-images.json')
-    .then((r) => (r.ok ? r.json() : {}))
-    .catch(() => ({}))
-  return imagesPromise
-}
 
 function loadPositions(): Record<string, number> {
   try {
@@ -59,7 +52,7 @@ export default function VocabBrowser({ pool, poolKey, zhFirst }: Props) {
   soundRef.current = sound
 
   useEffect(() => {
-    loadImages().then(setImages)
+    loadWordImages().then(setImages)
   }, [])
 
   // Filter change → jump to that pool's saved position.

@@ -1,0 +1,32 @@
+{
+  "id": "cooking",
+  "n": 39,
+  "group": "food",
+  "title": "料理",
+  "title_zh": "做饭",
+  "title_en": "Cooking",
+  "words": [
+    { "w": "鍋", "r": "なべ", "zh": "锅", "en": "pot", "x": 580, "y": 330 },
+    { "w": "煮る", "r": "にる", "zh": "煮；炖", "en": "to simmer; to boil", "x": 580, "y": 196 },
+    { "w": "焼く", "r": "やく", "zh": "烤；煎", "en": "to grill; to bake", "x": 700, "y": 236 },
+    { "w": "まな板", "r": "まないた", "zh": "砧板", "en": "cutting board", "x": 240, "y": 330 },
+    { "w": "包丁", "r": "ほうちょう", "zh": "菜刀", "en": "kitchen knife", "x": 306, "y": 318 },
+    { "w": "切る", "r": "きる", "zh": "切；剪", "en": "to cut", "x": 330, "y": 226 },
+    { "w": "野菜", "r": "やさい", "zh": "蔬菜", "en": "vegetable", "x": 210, "y": 262 },
+    { "w": "エプロン", "r": "エプロン", "zh": "围裙", "en": "apron", "x": 240, "y": 206 },
+    { "w": "フライパン", "r": "フライパン", "zh": "平底锅", "en": "frying pan", "x": 456, "y": 330 },
+    { "w": "炒める", "r": "いためる", "zh": "炒", "en": "to stir-fry", "x": 460, "y": 212 },
+    { "w": "塩", "r": "しお", "zh": "盐", "en": "salt", "x": 480, "y": 152 },
+    { "w": "醤油", "r": "しょうゆ", "zh": "酱油", "en": "soy sauce", "x": 540, "y": 152 },
+    { "w": "油", "r": "あぶら", "zh": "油", "en": "oil", "x": 610, "y": 152 },
+    { "w": "水", "r": "みず", "zh": "水", "en": "water", "x": 124, "y": 236 },
+    { "w": "洗う", "r": "あらう", "zh": "洗", "en": "to wash", "x": 90, "y": 330 },
+    { "w": "混ぜる", "r": "まぜる", "zh": "搅拌；混合", "en": "to mix", "x": 372, "y": 334 },
+    { "w": "火", "r": "ひ", "zh": "火", "en": "fire; flame", "x": 524, "y": 296 }
+  ],
+  "sentences": [
+    { "ja": "{母|はは}はエプロンをして、{包丁|ほうちょう}で{野菜|やさい}を{切|き}っています。", "zh": "妈妈系着围裙，正在用菜刀切菜。", "en": "Mom is wearing an apron and cutting vegetables with a kitchen knife." },
+    { "ja": "フライパンで{肉|にく}と{野菜|やさい}を{炒|いた}めて、{塩|しお}と{醤油|しょうゆ}を{入|い}れます。", "zh": "用平底锅炒肉和蔬菜，然后加盐和酱油。", "en": "Stir-fry the meat and vegetables in a frying pan, then add salt and soy sauce." },
+    { "ja": "{鍋|なべ}に{水|みず}を{入|い}れて、{火|ひ}をつけました。", "zh": "往锅里加了水，然后点了火。", "en": "I put water in the pot and turned on the fire." }
+  ]
+}

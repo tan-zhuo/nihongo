@@ -1,0 +1,32 @@
+{
+  "id": "airport",
+  "n": 24,
+  "group": "town",
+  "title": "空港",
+  "title_zh": "机场",
+  "title_en": "Airport",
+  "words": [
+    { "w": "飛行機", "r": "ひこうき", "zh": "飞机", "en": "airplane", "x": 410, "y": 120 },
+    { "w": "滑走路", "r": "かっそうろ", "zh": "跑道", "en": "runway", "x": 480, "y": 232 },
+    { "w": "時計", "r": "とけい", "zh": "钟表", "en": "clock", "x": 90, "y": 60 },
+    { "w": "免税店", "r": "めんぜいてん", "zh": "免税店", "en": "duty-free shop", "x": 94, "y": 134 },
+    { "w": "案内板", "r": "あんないばん", "zh": "指示牌；信息板", "en": "information board", "x": 710, "y": 70 },
+    { "w": "搭乗口", "r": "とうじょうぐち", "zh": "登机口", "en": "boarding gate", "x": 710, "y": 234 },
+    { "w": "椅子", "r": "いす", "zh": "椅子", "en": "chair", "x": 732, "y": 386 },
+    { "w": "カウンター", "r": "カウンター", "zh": "柜台", "en": "counter", "x": 170, "y": 402 },
+    { "w": "搭乗券", "r": "とうじょうけん", "zh": "登机牌", "en": "boarding pass", "x": 182, "y": 258 },
+    { "w": "パスポート", "r": "パスポート", "zh": "护照", "en": "passport", "x": 216, "y": 364 },
+    { "w": "スーツケース", "r": "スーツケース", "zh": "行李箱", "en": "suitcase", "x": 330, "y": 446 },
+    { "w": "荷物", "r": "にもつ", "zh": "行李", "en": "luggage; baggage", "x": 436, "y": 396 },
+    { "w": "パイロット", "r": "パイロット", "zh": "飞行员", "en": "pilot", "x": 514, "y": 440 },
+    { "w": "客室乗務員", "r": "きゃくしつじょうむいん", "zh": "空乘人员", "en": "flight attendant", "x": 616, "y": 440 },
+    { "w": "出発", "r": "しゅっぱつ", "zh": "出发", "en": "departure", "x": 734, "y": 110 },
+    { "w": "到着", "r": "とうちゃく", "zh": "到达", "en": "arrival", "x": 734, "y": 152 }
+  ],
+  "sentences": [
+    { "ja": "カウンターでパスポートを{見|み}せて、{搭乗券|とうじょうけん}をもらいます。", "zh": "在柜台出示护照，领取登机牌。", "en": "You show your passport at the counter and get a boarding pass." },
+    { "ja": "{飛行機|ひこうき}は{滑走路|かっそうろ}から{出発|しゅっぱつ}します。", "zh": "飞机从跑道起飞出发。", "en": "The airplane departs from the runway." },
+    { "ja": "パイロットと{客室乗務員|きゃくしつじょうむいん}が{搭乗口|とうじょうぐち}へ{歩|ある}いています。", "zh": "飞行员和空乘人员正走向登机口。", "en": "The pilot and the flight attendant are walking to the boarding gate." },
+    { "ja": "スーツケースが{重|おも}いので、{荷物|にもつ}をカートに{乗|の}せました。", "zh": "行李箱很重，所以把行李放到了推车上。", "en": "The suitcase was heavy, so I put the luggage on a cart." }
+  ]
+}

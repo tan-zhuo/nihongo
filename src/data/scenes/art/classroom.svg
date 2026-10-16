@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" stroke="#3f3a34" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="800" height="500" fill="#f4efe6" stroke="none"/>
+  <rect x="0" y="330" width="800" height="170" fill="#d8b48c" stroke="none"/>
+  <path d="M0 370h800M0 410h800M0 450h800M0 490h800" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M150 330v40M450 330v40M700 330v40M300 370v40M600 370v40M100 410v40M400 410v40M700 410v40M250 450v40M550 450v40" stroke="#c49b6e" stroke-width="1.5"/>
+  <path d="M0 330h800" stroke="#b08a63" stroke-width="3"/>
+  <rect x="0" y="320" width="800" height="10" fill="#e9dfcf" stroke="none"/>
+
+  <!-- door -->
+  <g data-w="18">
+    <rect x="40" y="214" width="84" height="108" rx="3" fill="#9c7450"/>
+    <rect x="52" y="226" width="60" height="40" rx="2" fill="#b9cfe3"/>
+    <circle cx="110" cy="282" r="4" fill="#f0cf6d"/>
+  </g>
+  <!-- calendar -->
+  <g data-w="17">
+    <rect x="48" y="70" width="96" height="112" rx="3" fill="#ffffff"/>
+    <rect x="48" y="70" width="96" height="24" rx="3" fill="#d9736b"/>
+    <path d="M60 104h72M60 118h72M60 132h72M60 146h72M60 160h72M60 174h72" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M72 100v76M84 100v76M96 100v76M108 100v76M120 100v76M132 100v76" stroke="#cfc9bd" stroke-width="1.5"/>
+    <circle cx="90" cy="139" r="6" stroke="#d9736b" stroke-width="2"/>
+    <path d="M70 62v16M122 62v16" stroke-width="3"/>
+  </g>
+
+  <!-- blackboard -->
+  <g data-w="1">
+    <rect x="166" y="56" width="398" height="182" rx="4" fill="#9c7450"/>
+    <rect x="174" y="64" width="382" height="166" fill="#3d614f" stroke="none"/>
+    <path d="M200 90h90M200 108h60M200 126h80M200 144h50" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M330 92l24 48h-48z" stroke="#f8e6ae" stroke-width="2.5"/>
+    <circle cx="400" cy="116" r="24" stroke="#f8e6ae" stroke-width="2.5"/>
+    <path d="M450 96h80M450 114h60M450 132h80M450 150h40" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M200 180h120M200 198h90" stroke="#f1b1aa" stroke-width="2.5"/>
+    <rect x="166" y="232" width="398" height="12" rx="2" fill="#9c7450"/>
+  </g>
+  <!-- chalk -->
+  <g data-w="2">
+    <rect x="272" y="222" width="40" height="11" rx="2" fill="#ffffff"/>
+    <rect x="320" y="222" width="34" height="11" rx="2" fill="#f1b1aa"/>
+  </g>
+  <!-- board eraser -->
+  <g data-w="3">
+    <rect x="428" y="212" width="56" height="12" rx="2" fill="#7da2c4"/>
+    <rect x="428" y="222" width="56" height="10" fill="#8c867c"/>
+  </g>
+
+  <!-- clock -->
+  <g data-w="16">
+    <circle cx="690" cy="58" r="24" fill="#ffffff"/>
+    <circle cx="690" cy="58" r="19" fill="#ffffff" stroke="#cfc9bd" stroke-width="1.5"/>
+    <path d="M690 58v-13M690 58l9 6" stroke-width="2.5"/>
+    <circle cx="690" cy="58" r="2" fill="#3f3a34"/>
+  </g>
+  <!-- map -->
+  <g data-w="15">
+    <rect x="600" y="112" width="160" height="128" fill="#d6e7f0"/>
+    <path d="M632 150c10-12 24-10 30 0 10-6 20 2 18 12-8 6-6 16-14 22-6 6-14 4-20 10-6 6-10 14-18 10-8-2-14-6-18-14-2-10 4-16 10-20 2-8 4-14 12-20z" fill="#9dc0a8"/>
+    <path d="M694 136c8-8 20-4 22 6 4 8 10 10 8 20-4 8-12 8-14 16-4 8-14 8-18 2-6-6-2-14-4-22-2-8-2-16 6-22z" fill="#9dc0a8"/>
+    <path d="M668 198c8-6 18-2 22 6 2 8-4 14-12 14-8 0-14-4-14-10 0-4 0-8 4-10z" fill="#9dc0a8"/>
+    <circle cx="640" cy="170" r="3" fill="#d9736b" stroke="none"/>
+    <circle cx="708" cy="156" r="3" fill="#d9736b" stroke="none"/>
+    <rect x="600" y="104" width="160" height="8" rx="3" fill="#8c867c"/>
+  </g>
+
+  <!-- teacher -->
+  <g data-w="4">
+    <path d="M594 360v-58c0-12 10-20 22-20h8c12 0 22 8 22 20v58z" fill="#5b8a72"/>
+    <path d="M600 304l-32-36" stroke="#5b8a72" stroke-width="9"/>
+    <circle cx="566" cy="266" r="6" fill="#f5d2b4"/>
+    <path d="M560 262l-10-12" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="620" cy="266" r="16" fill="#f5d2b4"/>
+    <path d="M604 262c4-14 28-14 32 0-6-6-10-8-16-8s-12 2-16 8zM604 262v12M636 262v14" fill="#4a3b32" stroke="#4a3b32"/>
+    <path d="M616 270c0 2 2 3 4 3s4-1 4-3" stroke-width="1.5"/>
+    <path d="M598 360h44v44h-15v-26h-14v26h-15z" fill="#4a3b32"/>
+    <path d="M594 404h20M624 404h20" stroke-width="4"/>
+  </g>
+
+  <!-- student 1 raising hand, chair, desk -->
+  <g data-w="7">
+    <rect x="166" y="320" width="68" height="52" rx="5" fill="#9c7450"/>
+    <path d="M186 380v80M214 380v80" stroke-width="4"/>
+    <path d="M186 460h28" stroke-width="3"/>
+  </g>
+  <g data-w="6">
+    <path d="M176 368v-36c0-12 10-20 22-20h4c12 0 22 8 22 20v36z" fill="#d9736b"/>
+    <path d="M220 340l24-52" stroke="#d9736b" stroke-width="9"/>
+    <circle cx="246" cy="282" r="7" fill="#f5d2b4"/>
+    <circle cx="200" cy="296" r="16" fill="#f5d2b4"/>
+    <path d="M184 292c4-14 28-14 32 0-6-6-10-8-16-8s-12 2-16 8z" fill="#4a3b32" stroke="none"/>
+    <path d="M196 300c0 2 2 3 4 3s4-1 4-3" stroke-width="1.5"/>
+  </g>
+  <g data-w="5">
+    <path d="M426 372v-36c0-12 10-20 22-20h4c12 0 22 8 22 20v36z" fill="#4a7fa3"/>
+    <circle cx="450" cy="302" r="16" fill="#f5d2b4"/>
+    <path d="M434 298c4-14 28-14 32 0-6-6-10-8-16-8s-12 2-16 8zM434 298v10M466 298v12" fill="#4a3b32" stroke="#4a3b32"/>
+    <path d="M446 306c0 2 2 3 4 3s4-1 4-3" stroke-width="1.5"/>
+    <path d="M436 386v76M464 386v76" stroke-width="4"/>
+  </g>
+  <!-- desk 1 -->
+  <g data-w="8">
+    <rect x="110" y="366" width="180" height="14" rx="3" fill="#e3c9a3"/>
+    <path d="M120 380v90M280 380v90" stroke-width="5"/>
+    <path d="M120 380v90M280 380v90" stroke="#9c7450" stroke-width="2"/>
+    <path d="M120 400h160" stroke-width="3"/>
+  </g>
+  <!-- desk 2 (no label) -->
+  <g>
+    <rect x="360" y="372" width="180" height="14" rx="3" fill="#e3c9a3"/>
+    <path d="M370 386v90M530 386v90" stroke-width="5"/>
+    <path d="M370 386v90M530 386v90" stroke="#9c7450" stroke-width="2"/>
+    <path d="M370 406h160" stroke-width="3"/>
+  </g>
+  <!-- textbook (open) -->
+  <g data-w="9">
+    <path d="M112 366v-24c14-10 32-8 38 2 6-10 24-12 38-2v24z" fill="#ffffff"/>
+    <path d="M150 344v22M122 350h18M122 357h16M160 350h18M160 357h16" stroke="#8c867c" stroke-width="1.5"/>
+    <path d="M108 366h84" stroke="#7da2c4" stroke-width="5"/>
+  </g>
+  <!-- pencil -->
+  <g data-w="10">
+    <path d="M190 362l8-6h40v10h-40z" fill="#f0cf6d"/>
+    <path d="M190 362l8-6v10z" fill="#f5d2b4"/>
+    <rect x="230" y="356" width="8" height="10" fill="#f1b1aa" stroke="none"/>
+  </g>
+  <!-- notebook -->
+  <g data-w="11">
+    <rect x="242" y="344" width="48" height="22" rx="2" fill="#9dc0a8"/>
+    <path d="M242 352h48" stroke="#5b8a72" stroke-width="1.5"/>
+    <path d="M250 340v8M260 340v8M270 340v8M280 340v8" stroke-width="2"/>
+  </g>
+  <!-- dictionary -->
+  <g data-w="12">
+    <rect x="368" y="326" width="36" height="46" rx="2" fill="#b5463f"/>
+    <path d="M376 326v46" stroke="#f1b1aa"/>
+    <path d="M384 340h12M384 348h12" stroke="#f8e6ae" stroke-width="1.5"/>
+  </g>
+  <!-- pencil case -->
+  <g data-w="13">
+    <rect x="414" y="354" width="60" height="18" rx="5" fill="#7da2c4"/>
+    <path d="M420 360h48" stroke="#4a7fa3"/>
+    <circle cx="468" cy="366" r="2" fill="#f0cf6d" stroke="none"/>
+  </g>
+  <!-- eraser -->
+  <g data-w="14">
+    <rect x="486" y="352" width="34" height="20" rx="3" fill="#ffffff"/>
+    <rect x="486" y="352" width="34" height="9" rx="3" fill="#7da2c4"/>
+  </g>
+</svg>

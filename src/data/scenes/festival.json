@@ -1,0 +1,33 @@
+{
+  "id": "festival",
+  "n": 45,
+  "group": "culture",
+  "title": "夏祭り",
+  "title_zh": "夏日祭",
+  "title_en": "Summer festival",
+  "words": [
+    { "w": "浴衣", "r": "ゆかた", "zh": "浴衣（夏季和服）", "en": "yukata (summer kimono)", "x": 256, "y": 436 },
+    { "w": "うちわ", "r": "うちわ", "zh": "团扇", "en": "round paper fan", "x": 196, "y": 452 },
+    { "w": "提灯", "r": "ちょうちん", "zh": "灯笼", "en": "paper lantern", "x": 400, "y": 180 },
+    { "w": "屋台", "r": "やたい", "zh": "小吃摊", "en": "food stall", "x": 240, "y": 252 },
+    { "w": "金魚すくい", "r": "きんぎょすくい", "zh": "捞金鱼", "en": "goldfish scooping", "x": 550, "y": 480 },
+    { "w": "たこ焼き", "r": "たこやき", "zh": "章鱼烧", "en": "takoyaki", "x": 200, "y": 330 },
+    { "w": "焼きそば", "r": "やきそば", "zh": "炒面", "en": "fried noodles", "x": 292, "y": 330 },
+    { "w": "りんご飴", "r": "りんごあめ", "zh": "苹果糖", "en": "candy apple", "x": 330, "y": 440 },
+    { "w": "かき氷", "r": "かきごおり", "zh": "刨冰", "en": "shaved ice", "x": 450, "y": 330 },
+    { "w": "綿あめ", "r": "わたあめ", "zh": "棉花糖", "en": "cotton candy", "x": 380, "y": 330 },
+    { "w": "花火", "r": "はなび", "zh": "烟花", "en": "fireworks", "x": 560, "y": 150 },
+    { "w": "太鼓", "r": "たいこ", "zh": "太鼓", "en": "drum", "x": 720, "y": 330 },
+    { "w": "神輿", "r": "みこし", "zh": "神轿", "en": "portable shrine", "x": 90, "y": 372 },
+    { "w": "お面", "r": "おめん", "zh": "面具", "en": "mask", "x": 436, "y": 402 },
+    { "w": "下駄", "r": "げた", "zh": "木屐", "en": "geta (wooden clogs)", "x": 296, "y": 480 },
+    { "w": "鳥居", "r": "とりい", "zh": "鸟居", "en": "torii gate", "x": 90, "y": 186 },
+    { "w": "踊る", "r": "おどる", "zh": "跳舞", "en": "to dance", "x": 730, "y": 478 }
+  ],
+  "sentences": [
+    { "ja": "{夏祭|なつまつ}りで{浴衣|ゆかた}を{着|き}ました。", "zh": "在夏日祭上穿了浴衣。", "en": "I wore a yukata at the summer festival." },
+    { "ja": "{屋台|やたい}でたこ{焼|や}きとかき{氷|ごおり}を{買|か}いました。", "zh": "在小吃摊买了章鱼烧和刨冰。", "en": "I bought takoyaki and shaved ice at the food stalls." },
+    { "ja": "{夜|よる}、{空|そら}にきれいな{花火|はなび}が{上|あ}がります。", "zh": "晚上，天空中升起美丽的烟花。", "en": "At night, beautiful fireworks go up in the sky." },
+    { "ja": "{太鼓|たいこ}の{音|おと}に{合|あ}わせてみんなで{踊|おど}ります。", "zh": "大家和着太鼓的声音跳舞。", "en": "Everyone dances to the sound of the drum." }
+  ]
+}

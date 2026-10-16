@@ -1,0 +1,33 @@
+{
+  "id": "office",
+  "n": 30,
+  "group": "town",
+  "title": "会社",
+  "title_zh": "办公室",
+  "title_en": "Office",
+  "words": [
+    { "w": "窓", "r": "まど", "zh": "窗户", "en": "window", "x": 110, "y": 90 },
+    { "w": "時計", "r": "とけい", "zh": "钟表", "en": "clock", "x": 370, "y": 100 },
+    { "w": "ファイル", "r": "ファイル", "zh": "文件夹", "en": "file; binder", "x": 370, "y": 216 },
+    { "w": "ホワイトボード", "r": "ホワイトボード", "zh": "白板", "en": "whiteboard", "x": 530, "y": 210 },
+    { "w": "会議室", "r": "かいぎしつ", "zh": "会议室", "en": "meeting room", "x": 712, "y": 300 },
+    { "w": "プリンター", "r": "プリンター", "zh": "打印机", "en": "printer", "x": 70, "y": 356 },
+    { "w": "書類", "r": "しょるい", "zh": "文件；材料", "en": "documents; papers", "x": 172, "y": 356 },
+    { "w": "パソコン", "r": "パソコン", "zh": "电脑", "en": "personal computer", "x": 260, "y": 262 },
+    { "w": "会社員", "r": "かいしゃいん", "zh": "公司职员", "en": "company employee", "x": 340, "y": 300 },
+    { "w": "椅子", "r": "いす", "zh": "椅子", "en": "chair", "x": 394, "y": 258 },
+    { "w": "電話", "r": "でんわ", "zh": "电话", "en": "telephone", "x": 424, "y": 354 },
+    { "w": "コーヒー", "r": "コーヒー", "zh": "咖啡", "en": "coffee", "x": 490, "y": 358 },
+    { "w": "机", "r": "つくえ", "zh": "办公桌", "en": "desk", "x": 300, "y": 412 },
+    { "w": "名刺", "r": "めいし", "zh": "名片", "en": "business card", "x": 530, "y": 318 },
+    { "w": "部長", "r": "ぶちょう", "zh": "部长；部门经理", "en": "department manager", "x": 634, "y": 262 },
+    { "w": "ネクタイ", "r": "ネクタイ", "zh": "领带", "en": "necktie", "x": 598, "y": 300 },
+    { "w": "スーツ", "r": "スーツ", "zh": "西装", "en": "suit", "x": 580, "y": 374 }
+  ],
+  "sentences": [
+    { "ja": "{会社員|かいしゃいん}は{机|つくえ}でパソコンを{使|つか}って{働|はたら}いています。", "zh": "公司职员在办公桌前用电脑工作。", "en": "The company employee is working at the desk on a computer." },
+    { "ja": "{部長|ぶちょう}はスーツを{着|き}て、{赤|あか}いネクタイをしています。", "zh": "部长穿着西装，系着红领带。", "en": "The manager is wearing a suit and a red tie." },
+    { "ja": "{机|つくえ}の{上|うえ}に{電話|でんわ}とコーヒーと{書類|しょるい}があります。", "zh": "桌子上有电话、咖啡和文件。", "en": "There are a telephone, coffee and documents on the desk." },
+    { "ja": "{三時|さんじ}から{会議室|かいぎしつ}で{会議|かいぎ}があります。", "zh": "三点开始在会议室开会。", "en": "There is a meeting in the meeting room from three o'clock." }
+  ]
+}
