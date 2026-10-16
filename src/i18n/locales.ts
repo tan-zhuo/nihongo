@@ -1,6 +1,6 @@
 export const zh = {
   app: { name: 'nihongo.ink', tagline: '专注的日语打字练习' },
-  nav: { home: '首页', articles: '文章练习', vocab: '单词', textbook: '标日', stats: '成绩', kana: '五十音', grammar: '语法', quiz: '刷题', numbers: '数字' },
+  nav: { home: '首页', articles: '文章练习', vocab: '单词', textbook: '标日', stats: '成绩', kana: '五十音', grammar: '语法', quiz: '刷题', numbers: '数字', more: '更多', short: { textbook: '标日', articles: '文章', vocab: '单词' } },
   numbers: {
     title: '数字・日期・时刻',
     intro: '规则很短，例外全在这里：4 是よん，但 4時 是よじ、4日 是よっか；300 是さんびゃく，8本 是はっぽん，20日 是はつか。表里标了颜色的就是不按规则走的读法。下面的题目是现算出来的，可以一直做。',
@@ -324,7 +324,7 @@ export const zh = {
 
 export const ja: typeof zh = {
   app: { name: 'nihongo.ink', tagline: '集中できる日本語タイピング練習' },
-  nav: { home: 'ホーム', articles: '文章練習', vocab: '単語', textbook: '標準日本語', stats: '記録', kana: '五十音', grammar: '文法', quiz: '模擬問題', numbers: '数・日付' },
+  nav: { home: 'ホーム', articles: '文章練習', vocab: '単語', textbook: '標準日本語', stats: '記録', kana: '五十音', grammar: '文法', quiz: '模擬問題', numbers: '数・日付', more: 'その他', short: { textbook: '教科書', articles: '文章', vocab: '単語' } },
   numbers: {
     title: '数・日付・時刻の読み方',
     intro: 'ルールは短く、例外がほとんどです。4 は よん でも 4時 は よじ、4日 は よっか。300 は さんびゃく、8本 は はっぽん、20日 は はつか。表で色がついているものが規則どおりでない読み方です。問題はその場で作られるので、いくらでも続けられます。',
@@ -648,7 +648,7 @@ export const ja: typeof zh = {
 
 export const en: typeof zh = {
   app: { name: 'nihongo.ink', tagline: 'Focused Japanese typing practice' },
-  nav: { home: 'Home', articles: 'Articles', vocab: 'Vocabulary', textbook: 'Textbook', stats: 'Stats', kana: 'Kana', grammar: 'Grammar', quiz: 'Quiz', numbers: 'Numbers' },
+  nav: { home: 'Home', articles: 'Articles', vocab: 'Vocabulary', textbook: 'Textbook', stats: 'Stats', kana: 'Kana', grammar: 'Grammar', quiz: 'Quiz', numbers: 'Numbers', more: 'More', short: { textbook: 'Textbook', articles: 'Articles', vocab: 'Vocab' } },
   numbers: {
     title: 'Numbers, dates & times',
     intro: 'The rules are short and the exceptions are the point: 4 is よん but 4時 is よじ and 4日 is よっか; 300 is さんびゃく, 8本 is はっぽん, 20日 is はつか. Anything coloured in the tables breaks the regular pattern. The questions are generated, so they never run out.',

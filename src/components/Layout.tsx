@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Outlet, NavLink, Link } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Outlet, NavLink, Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const LANGS = [
@@ -59,21 +59,37 @@ interface NavItem {
   key: string
   icon: string
   end?: boolean
-  /** false keeps it out of the phone tab bar — eight tabs stop being legible. */
-  tab?: boolean
+  /**
+   * Where the item lives when there is no room for everything:
+   * 'primary' stays in the medium-width header and in the phone tab bar,
+   * 'more' is folded into the 「更多」 menu there. Wide screens (lg+) show all.
+   */
+  place: 'primary' | 'more'
 }
 
+// Home is not listed: the logo is the home link in both bars.
 const NAV_ITEMS: NavItem[] = [
-  { to: '/', key: 'home', icon: 'home', end: true },
-  { to: '/kana', key: 'kana', icon: 'kana' },
-  { to: '/numbers', key: 'numbers', icon: 'numbers', tab: false },
-  { to: '/grammar', key: 'grammar', icon: 'grammar' },
-  { to: '/articles', key: 'articles', icon: 'articles' },
-  { to: '/vocab', key: 'vocab', icon: 'vocab' },
-  { to: '/textbook', key: 'textbook', icon: 'textbook' },
-  { to: '/quiz', key: 'quiz', icon: 'quiz' },
-  { to: '/stats', key: 'stats', icon: 'stats' },
+  { to: '/kana', key: 'kana', icon: 'kana', place: 'primary' },
+  { to: '/grammar', key: 'grammar', icon: 'grammar', place: 'primary' },
+  { to: '/vocab', key: 'vocab', icon: 'vocab', place: 'primary' },
+  { to: '/textbook', key: 'textbook', icon: 'textbook', place: 'primary' },
+  { to: '/numbers', key: 'numbers', icon: 'numbers', place: 'more' },
+  { to: '/articles', key: 'articles', icon: 'articles', place: 'more' },
+  { to: '/quiz', key: 'quiz', icon: 'quiz', place: 'more' },
+  { to: '/stats', key: 'stats', icon: 'stats', place: 'more' },
 ]
+const PRIMARY_ITEMS = NAV_ITEMS.filter((i) => i.place === 'primary')
+const MORE_ITEMS = NAV_ITEMS.filter((i) => i.place === 'more')
+
+function MoreIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
+      <circle cx="5" cy="12" r="1.9" />
+      <circle cx="12" cy="12" r="1.9" />
+      <circle cx="19" cy="12" r="1.9" />
+    </svg>
+  )
+}
 
 const FOOTER_LINKS = [
   { to: '/kana', key: 'nav.kana' },
@@ -88,14 +104,40 @@ const FOOTER_LINKS = [
 
 const YEAR = new Date().getFullYear()
 
-// The bottom tab bar drops Home — the logo already goes there — to stay legible at 375px.
-const TAB_ITEMS = NAV_ITEMS.filter((i) => i.key !== 'home' && i.tab !== false)
-
 export default function Layout() {
   const { t, i18n } = useTranslation()
   const current = i18n.resolvedLanguage ?? 'en'
   const [feedbackOpen, setFeedbackOpen] = useState(false)
   const [feedbackText, setFeedbackText] = useState('')
+  const [moreOpen, setMoreOpen] = useState(false)
+  // Desktop dropdown and phone sheet are both mounted (CSS picks one), so each gets its own ref.
+  const moreRef = useRef<HTMLDivElement>(null)
+  const moreSheetRef = useRef<HTMLDivElement>(null)
+  const { pathname } = useLocation()
+  const moreActive = MORE_ITEMS.some((i) => pathname === i.to || pathname.startsWith(i.to + '/'))
+
+  // Any navigation closes the 「更多」 menu (desktop dropdown and phone sheet alike).
+  useEffect(() => setMoreOpen(false), [pathname])
+  useEffect(() => {
+    if (!moreOpen) return
+    const onDown = (e: PointerEvent) => {
+      const el = e.target as Node
+      if (moreRef.current?.contains(el) || moreSheetRef.current?.contains(el)) return
+      setMoreOpen(false)
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMoreOpen(false)
+    }
+    document.addEventListener('pointerdown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('pointerdown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [moreOpen])
+
+  /** Short label where space is tight (tab bar, medium-width header). */
+  const shortLabel = (key: string) => t(`nav.short.${key}`, { defaultValue: t(`nav.${key}`) })
 
   const submitFeedback = () => {
     const url = `https://github.com/tan-zhuo/Nihongo/issues/new?title=${encodeURIComponent(
@@ -107,14 +149,14 @@ export default function Layout() {
   }
 
   const topNavCls = ({ isActive }: { isActive: boolean }) =>
-    `whitespace-nowrap rounded-lg px-3 py-1.5 text-sm transition-colors duration-150 ${
+    `whitespace-nowrap rounded-lg px-2.5 py-1.5 text-sm transition-colors duration-150 lg:px-3 ${
       isActive
         ? 'font-semibold text-accent-deep'
         : 'font-medium text-stone-400 hover:text-ink'
     }`
 
   const tabCls = ({ isActive }: { isActive: boolean }) =>
-    `flex flex-1 flex-col items-center gap-0.5 py-2 text-[11px] transition-colors duration-150 ${
+    `flex flex-1 flex-col items-center gap-0.5 py-2 text-xs transition-colors duration-150 ${
       isActive ? 'font-semibold text-accent-deep' : 'font-medium text-stone-400'
     }`
 
@@ -123,20 +165,85 @@ export default function Layout() {
       <header className="sticky top-0 z-10 border-b border-stone-200/70 bg-paper/90 backdrop-blur">
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-2 px-4 sm:h-16 sm:px-6">
           <div className="flex min-w-0 items-center gap-2 sm:gap-6">
-            <Link to="/" className="flex shrink-0 items-center gap-2.5">
+            <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="nihongo.ink">
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-dark font-serif text-lg font-bold text-white">
                 日
               </span>
-              <span className="font-serif text-lg font-semibold tracking-tight">
+              {/* Wordmark steps aside between sm and md so the menu has room. */}
+              <span className="font-serif text-lg font-semibold tracking-tight sm:hidden md:inline">
                 nihongo.ink
               </span>
             </Link>
-            <nav className="hidden items-center gap-1 sm:flex">
-              {NAV_ITEMS.map((item) => (
+            <nav className="hidden items-center gap-0.5 sm:flex lg:gap-1">
+              {PRIMARY_ITEMS.map((item) => (
                 <NavLink key={item.to} to={item.to} end={item.end} className={topNavCls}>
+                  <span className="lg:hidden">{shortLabel(item.key)}</span>
+                  <span className="hidden lg:inline">{t(`nav.${item.key}`)}</span>
+                </NavLink>
+              ))}
+              {MORE_ITEMS.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  end={item.end}
+                  className={(a) => `hidden lg:block ${topNavCls(a)}`}
+                >
                   {t(`nav.${item.key}`)}
                 </NavLink>
               ))}
+              {/* Medium widths: the rest folds into a dropdown. */}
+              <div className="relative lg:hidden" ref={moreRef}>
+                <button
+                  type="button"
+                  aria-haspopup="menu"
+                  aria-expanded={moreOpen}
+                  onClick={() => setMoreOpen((v) => !v)}
+                  className={`flex items-center gap-1 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-sm transition-colors duration-150 ${
+                    moreActive || moreOpen
+                      ? 'font-semibold text-accent-deep'
+                      : 'font-medium text-stone-400 hover:text-ink'
+                  }`}
+                >
+                  {t('nav.more')}
+                  <svg
+                    viewBox="0 0 20 20"
+                    className={`h-3.5 w-3.5 transition-transform duration-150 ${moreOpen ? 'rotate-180' : ''}`}
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m5 7.5 5 5 5-5" />
+                  </svg>
+                </button>
+                {moreOpen && (
+                  <div
+                    role="menu"
+                    className="card absolute left-0 top-full z-20 mt-2 min-w-[11rem] p-1.5 shadow-lg"
+                  >
+                    {MORE_ITEMS.map((item) => (
+                      <NavLink
+                        key={item.to}
+                        to={item.to}
+                        role="menuitem"
+                        className={({ isActive }) =>
+                          `flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm transition-colors ${
+                            isActive
+                              ? 'bg-accent-light/40 font-semibold text-accent-deep'
+                              : 'text-stone-600 hover:bg-stone-50 hover:text-ink'
+                          }`
+                        }
+                      >
+                        <span className="text-stone-400">
+                          <NavIcon name={item.icon} />
+                        </span>
+                        {t(`nav.${item.key}`)}
+                      </NavLink>
+                    ))}
+                  </div>
+                )}
+              </div>
             </nav>
           </div>
           <div className="flex shrink-0 items-center rounded-full border border-stone-200 bg-white p-0.5">
@@ -313,17 +420,62 @@ export default function Layout() {
         </div>
       )}
 
-      {/* Mobile bottom tab bar */}
-      <nav className="fixed inset-x-0 bottom-0 z-10 border-t border-stone-200/70 bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden">
-        <div className="flex">
-          {TAB_ITEMS.map((item) => (
-            <NavLink key={item.to} to={item.to} end={item.end} className={tabCls}>
-              <NavIcon name={item.icon} />
-              {t(`nav.${item.key}`)}
-            </NavLink>
-          ))}
-        </div>
-      </nav>
+      {/* Phone: 「更多」 sheet above the tab bar */}
+      {moreOpen && (
+        <div className="fixed inset-0 z-10 bg-ink/20 sm:hidden" aria-hidden="true" />
+      )}
+      <div ref={moreSheetRef} className="contents sm:hidden">
+        {moreOpen && (
+          <div
+            role="menu"
+            className="fixed inset-x-3 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 rounded-2xl border border-stone-200/70 bg-white p-2 shadow-lg sm:hidden"
+          >
+            <div className="grid grid-cols-2 gap-1">
+              {MORE_ITEMS.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  role="menuitem"
+                  className={({ isActive }) =>
+                    `flex items-center gap-3 rounded-xl px-3 py-3 text-sm transition-colors ${
+                      isActive
+                        ? 'bg-accent-light/40 font-semibold text-accent-deep'
+                        : 'text-stone-600 active:bg-stone-50'
+                    }`
+                  }
+                >
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-stone-100 text-stone-500">
+                    <NavIcon name={item.icon} />
+                  </span>
+                  {t(`nav.${item.key}`)}
+                </NavLink>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Mobile bottom tab bar: four fixed tabs + more */}
+        <nav className="fixed inset-x-0 bottom-0 z-10 border-t border-stone-200/70 bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
+          <div className="flex">
+            {PRIMARY_ITEMS.map((item) => (
+              <NavLink key={item.to} to={item.to} end={item.end} className={tabCls}>
+                <NavIcon name={item.icon} />
+                {shortLabel(item.key)}
+              </NavLink>
+            ))}
+            <button
+              type="button"
+              aria-haspopup="menu"
+              aria-expanded={moreOpen}
+              onClick={() => setMoreOpen((v) => !v)}
+              className={tabCls({ isActive: moreActive || moreOpen })}
+            >
+              <MoreIcon />
+              {t('nav.more')}
+            </button>
+          </div>
+        </nav>
+      </div>
     </div>
   )
 }
