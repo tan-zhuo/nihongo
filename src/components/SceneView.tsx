@@ -8,7 +8,10 @@ import { useComputedPageMeta } from '../hooks/usePageMeta'
 import { sceneMeta } from '../lib/seo'
 import Furigana from './Furigana'
 import WordDetail, { DetailDock, type DictEntry } from './WordDetail'
+import SceneTyping from './SceneTyping'
 import type { Scene, SceneWord } from '../types'
+
+type Mode = 'show' | 'quiz' | 'type'
 
 const strip = (s: string) => s.replace(/\{([^|{}]+)\|([^|{}]+)\}/g, '$1')
 
@@ -67,8 +70,12 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
   const [focus, setFocus] = useState<number | null>(null) // 1-based word index
   const [picked, setPicked] = useState<number | null>(null)
   const [sheetOpen, setSheetOpen] = useState(false)
-  const [quiz, setQuiz] = useState(false)
-  const [revealed, setRevealed] = useState<Set<number>>(new Set())
+  const [mode, setMode] = useState<Mode>('show')
+  const [revealed, setRevealed] = useState<Set<number>>(new Set()) // quiz: tapped open
+  const [typed, setTyped] = useState<Set<number>>(new Set()) // typing: finished words
+  const [locked, setLocked] = useState<number | null>(null) // typing: the word just finished
+  const [typingDone, setTypingDone] = useState(false)
+  const labelRefs = useRef(new Map<number, HTMLButtonElement>())
   const [furi, setFuri] = useState(true)
   const [playing, setPlaying] = useState(-1)
   const cancelRef = useRef<(() => void) | null>(null)
@@ -88,6 +95,9 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
     setPicked(null)
     setSheetOpen(false)
     setRevealed(new Set())
+    setTyped(new Set())
+    setLocked(null)
+    setTypingDone(false)
     cancelRef.current?.()
     return () => {
       alive = false
@@ -113,11 +123,46 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
       const w = scene.words[n - 1]
       setPicked(n)
       setSheetOpen(true)
-      if (quiz) setRevealed((r) => new Set(r).add(n))
+      if (mode === 'quiz') setRevealed((r) => new Set(r).add(n))
       say(w)
     },
-    [scene, quiz],
+    [scene, mode],
   )
+
+  const switchMode = (m: Mode) => {
+    setMode(m)
+    setRevealed(new Set())
+    setTyped(new Set())
+    setLocked(null)
+    setTypingDone(false)
+    // typing: bring the picture up so it and the typing card share the screen
+    if (m === 'type') {
+      requestAnimationFrame(() => {
+        const el = document.getElementById('scene-tools')
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 72, behavior: 'smooth' })
+      })
+    }
+  }
+
+  // A word typed correctly lights up where it is in the picture.
+  const lockWord = useCallback(
+    (n: number) => {
+      setTyped((s) => new Set(s).add(n))
+      setLocked(n)
+      say(scene.words[n - 1])
+      labelRefs.current.get(n)?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+    },
+    [scene],
+  )
+  const resetTyping = useCallback(() => {
+    setTyped(new Set())
+    setLocked(null)
+    setTypingDone(false)
+  }, [])
+  const finishTyping = useCallback(() => {
+    setTypingDone(true)
+    setLocked(null) // show the whole picture again
+  }, [])
 
   const togglePlay = () => {
     if (cancelRef.current) {
@@ -135,8 +180,8 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
   const subtitle = lang.startsWith('zh') ? scene.title_zh : lang.startsWith('ja') ? scene.title_en : scene.title_en
   const pickedWord = picked ? scene.words[picked - 1] : undefined
   const pickedEntry = useMemo(() => (pickedWord ? entryOfSceneWord(pickedWord) : null), [pickedWord])
-  const active = focus ?? picked
-  const hidden = (n: number) => quiz && !revealed.has(n)
+  const active = focus ?? locked ?? picked
+  const hidden = (n: number) => (mode === 'quiz' ? !revealed.has(n) : mode === 'type' ? !typed.has(n) : false)
 
   return (
     <div className="lg:grid lg:grid-cols-[1fr_20rem] lg:gap-8">
@@ -171,31 +216,32 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
         </div>
 
         {/* toolbar */}
-        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+        <div id="scene-tools" className="mb-3 flex flex-wrap items-center gap-2 text-xs">
           <div className="seg-group !p-0.5">
-            <button className={`${!quiz ? 'seg-on' : 'seg-off'} !px-2.5 !py-1 !text-xs`} onClick={() => setQuiz(false)}>
-              {t('vocab.scenes.showWords')}
-            </button>
-            <button
-              className={`${quiz ? 'seg-on' : 'seg-off'} !px-2.5 !py-1 !text-xs`}
-              onClick={() => {
-                setQuiz(true)
-                setRevealed(new Set())
-              }}
-            >
-              {t('vocab.scenes.quizMode')}
-            </button>
+            {(['show', 'quiz', 'type'] as Mode[]).map((m) => (
+              <button
+                key={m}
+                className={`${mode === m ? 'seg-on' : 'seg-off'} !px-2.5 !py-1 !text-xs`}
+                onClick={() => switchMode(m)}
+              >
+                {t(m === 'show' ? 'vocab.scenes.showWords' : m === 'quiz' ? 'vocab.scenes.quizMode' : 'vocab.scenes.typing.mode')}
+              </button>
+            ))}
           </div>
           <button className={`${playing >= 0 ? 'chip-on' : 'chip-off'} !px-3 !py-1 !text-xs`} onClick={togglePlay}>
             {playing >= 0 ? `■ ${t('vocab.scenes.stop')}` : `♪ ${t('vocab.scenes.playAll')}`}
           </button>
-          <span className="ml-auto hidden text-stone-300 sm:inline">{t('vocab.scenes.hint')}</span>
+          <span className="ml-auto hidden text-stone-300 sm:inline">
+            {t(mode === 'type' ? 'vocab.scenes.typing.tip' : 'vocab.scenes.hint')}
+          </span>
         </div>
 
         {/* the picture */}
         <div
           id="scene-art"
-          className={`card relative overflow-hidden ${active ? 'has-focus' : ''}`}
+          className={`card relative overflow-hidden ${active ? 'has-focus' : ''} ${
+            mode === 'type' ? 'mx-auto lg:max-w-[calc((100vh-21rem)*1.6)]' : ''
+          }`}
           onMouseLeave={() => setFocus(null)}
         >
           {active && (
@@ -213,22 +259,40 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
             const n = i + 1
             const isActive = active === n
             const blank = hidden(n)
+            const inert = blank && mode === 'type' // not typed yet: no peeking
+            const isLocked = mode === 'type' && locked === n && !focus
             return (
               <button
                 key={n}
-                onClick={() => pick(n)}
-                onMouseEnter={() => setFocus(n)}
-                onFocus={() => setFocus(n)}
+                ref={(el) => {
+                  if (el) labelRefs.current.set(n, el)
+                  else labelRefs.current.delete(n)
+                }}
+                onClick={inert ? undefined : () => pick(n)}
+                onMouseEnter={inert ? undefined : () => setFocus(n)}
+                onFocus={inert ? undefined : () => setFocus(n)}
+                tabIndex={inert ? -1 : undefined}
                 style={{ left: `${(w.x / 800) * 100}%`, top: `${(w.y / 500) * 100}%` }}
                 className={`absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full border shadow-sm transition-all duration-150 ${
                   blank
-                    ? 'h-[clamp(18px,3.4vw,28px)] w-[clamp(18px,3.4vw,28px)] border-accent-dark bg-accent-dark text-[clamp(9px,1.5vw,13px)] font-semibold text-white'
+                    ? `h-[clamp(18px,3.4vw,28px)] w-[clamp(18px,3.4vw,28px)] text-[clamp(9px,1.5vw,13px)] font-semibold ${
+                        inert
+                          ? 'cursor-default border-stone-400/70 bg-stone-400/70 text-white'
+                          : 'border-accent-dark bg-accent-dark text-white'
+                      }`
                     : isActive
-                      ? 'z-[2] scale-110 border-accent-deep bg-accent-deep px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-white'
-                      : 'border-stone-300/80 bg-white/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-ink hover:border-accent-dark hover:text-accent-deep'
+                      ? `z-[2] px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-white ${
+                          isLocked
+                            ? 'lock-pop border-emerald-600 bg-emerald-600 ring-4 ring-emerald-200/80'
+                            : 'scale-110 border-accent-deep bg-accent-deep'
+                        }`
+                      : mode === 'type'
+                        ? 'border-emerald-300 bg-emerald-50/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-emerald-800 hover:border-emerald-500'
+                        : 'border-stone-300/80 bg-white/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-ink hover:border-accent-dark hover:text-accent-deep'
                 }`}
                 title={blank ? undefined : `${w.r} · ${zhFirst ? w.zh : w.en}`}
-                aria-label={w.w}
+                aria-label={blank ? undefined : w.w}
+                aria-hidden={inert || undefined}
               >
                 {blank ? (
                   n
@@ -236,7 +300,13 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
                   <span className="flex items-baseline gap-[0.3em] leading-[1.3]">
                     <span>{w.w}</span>
                     {w.r !== w.w && (
-                      <span className={`text-[0.62em] ${isActive ? 'text-white/80' : 'text-accent-dark'}`}>{w.r}</span>
+                      <span
+                        className={`text-[0.62em] ${
+                          isActive ? 'text-white/80' : mode === 'type' ? 'text-emerald-600' : 'text-accent-dark'
+                        }`}
+                      >
+                        {w.r}
+                      </span>
                     )}
                   </span>
                 )}
@@ -245,7 +315,22 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
           })}
         </div>
 
-        {/* word list */}
+        {/* typing: the scene's words, one after another, right under the picture */}
+        {mode === 'type' && (
+          <SceneTyping
+            key={scene.id}
+            scene={scene}
+            zhFirst={zhFirst}
+            next={next}
+            onLock={lockWord}
+            onReset={resetTyping}
+            onFinish={finishTyping}
+            onPick={pick}
+          />
+        )}
+
+        {/* word list (in typing mode only once every word has been typed) */}
+        {(mode !== 'type' || typingDone) && (
         <div className="mt-5 grid gap-x-6 sm:grid-cols-2">
           {scene.words.map((w, i) => {
             const n = i + 1
@@ -279,6 +364,7 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
             )
           })}
         </div>
+        )}
 
         {/* sentences */}
         <div className="mt-8">

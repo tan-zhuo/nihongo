@@ -108,3 +108,13 @@
     transition: none;
   }
 }
+
+/* Picture-scene typing: the label of a word just typed pops once to draw the eye. */
+@keyframes lock-pop {
+  0% { transform: translate(-50%, -50%) scale(0.6); }
+  60% { transform: translate(-50%, -50%) scale(1.3); }
+  100% { transform: translate(-50%, -50%) scale(1.1); }
+}
+.lock-pop {
+  animation: lock-pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}

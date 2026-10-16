@@ -12,7 +12,7 @@ export interface ArticleRecord {
 
 export interface VocabRecord {
   ts: number
-  mode: 'toJa' | 'toMeaning'
+  mode: 'toJa' | 'toMeaning' | 'scene'
   level: Level | 'all'
   correct: number
   total: number

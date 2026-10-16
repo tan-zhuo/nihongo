@@ -37,6 +37,10 @@ const TABLE: Record<string, string> = {
 }
 
 const VOWELS = 'aiueo'
+const KEYS = Object.keys(TABLE)
+
+/** True when `tail` could still grow into a romaji syllable ("k", "sh", "ky" — but not "q" or "kx"). */
+export const isRomajiPrefix = (tail: string) => tail === '' || KEYS.some((k) => k.startsWith(tail))
 
 /** True when the string is plain ASCII letters (so romaji conversion applies). */
 export const isRomaji = (s: string) => /^[a-z'\- ]+$/i.test(s)
@@ -51,7 +55,14 @@ export function romajiToHiragana(input: string): string {
     if (c === 'n') {
       const next = s[i + 1]
       if (next === "'") { out += 'ん'; i += 2; continue }
-      if (next === undefined || (!VOWELS.includes(next) && next !== 'y' && next !== 'n')) {
+      if (next === 'n') {
+        // "nn" is ん; in "nna" / "nnya" the second n belongs to the next kana (こんにちは)
+        const after = s[i + 2]
+        out += 'ん'
+        i += after !== undefined && (VOWELS.includes(after) || after === 'y') ? 1 : 2
+        continue
+      }
+      if (next === undefined || (!VOWELS.includes(next) && next !== 'y')) {
         out += 'ん'; i += 1; continue
       }
     }
@@ -67,4 +78,23 @@ export function romajiToHiragana(input: string): string {
     if (!matched) { out += c; i += 1 }
   }
   return out
+}
+
+/**
+ * Convert romaji as it is being typed: the kana finished so far plus the
+ * tail that is still waiting for its vowel ("k", "sh", a lone "n"). Kana or
+ * kanji typed directly pass through untouched.
+ */
+export function liveRomajiToKana(raw: string): { kana: string; pending: string } {
+  let s = raw.toLowerCase().replace(/\s+/g, '')
+  let pending = ''
+  // a lone trailing n may still become な/に/…, so hold it back
+  if (/(^|[^n])n$/.test(s)) {
+    pending = 'n'
+    s = s.slice(0, -1)
+  }
+  const out = romajiToHiragana(s)
+  const m = /[a-z']+$/.exec(out)
+  if (m && m[0].length <= 3) return { kana: out.slice(0, m.index), pending: m[0] + pending }
+  return { kana: out, pending }
 }
