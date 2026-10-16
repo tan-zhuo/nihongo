@@ -50,15 +50,16 @@
   <!-- guest bowing -->
   <g data-w="16">
     <path d="M110 334c0-10 8-16 20-16h90c12 0 20 6 20 16z" fill="#f0cf6d"/>
-    <path d="M122 334c0-26 10-40 28-40l44 12c14 4 20 14 20 28z" fill="#5b8a72"/>
-    <path d="M150 296c-4 12-6 24-4 38M166 300c-2 10-4 22-2 34" stroke="#3d614f" stroke-width="1.5"/>
-    <path d="M196 312l32 14M190 322l30 10" stroke-width="5"/>
-    <ellipse cx="232" cy="330" rx="8" ry="4" fill="#f5d2b4"/>
-    <ellipse cx="224" cy="334" rx="8" ry="4" fill="#f5d2b4"/>
-    <circle cx="214" cy="312" r="14" fill="#f5d2b4"/>
-    <path d="M200 310c2-12 18-16 26-6-6-2-10-2-14 0s-8 4-12 6z" fill="#4a3b32" stroke="none"/>
-    <circle cx="204" cy="300" r="5" fill="#4a3b32" stroke="none"/>
-    <path d="M222 320c0-2 2-4 4-4" stroke-width="1.5"/>
+    <path d="M120 334c0-16 8-26 22-30h28c10 4 16 14 16 30z" fill="#3d614f"/>
+    <path d="M128 312c-4-16 10-30 26-36l30 22c-2 12-12 22-26 26z" fill="#5b8a72"/>
+    <path d="M150 284c-6 8-10 16-10 26M160 290c-6 8-8 16-6 26" stroke="#3d614f" stroke-width="1.5"/>
+    <path d="M170 296l30 26M162 304l30 24" stroke-width="5"/>
+    <ellipse cx="208" cy="326" rx="8" ry="4" fill="#f5d2b4"/>
+    <ellipse cx="198" cy="332" rx="8" ry="4" fill="#f5d2b4"/>
+    <circle cx="192" cy="286" r="14" fill="#f5d2b4"/>
+    <path d="M178 282c0-12 14-20 28-12-4 2-8 0-12 2s-10 4-16 10z" fill="#4a3b32" stroke="none"/>
+    <circle cx="178" cy="272" r="5" fill="#4a3b32" stroke="none"/>
+    <path d="M200 294c1 2 3 2 4 0" stroke-width="1.5"/>
   </g>
   <!-- cushion under the seiza guest -->
   <g data-w="12">
