@@ -1,0 +1,284 @@
+[
+  {
+    "id": "n2-l01",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "田中さん、明日の打ち合わせの準備なんだけど、どこまで進んでる？"},
+      {"s": "M", "t": "資料は昨日のうちに印刷しておきました。会議室も押さえてあります。"},
+      {"s": "F", "t": "ありがとう。先方への確認の連絡はもう入れた？"},
+      {"s": "M", "t": "いえ、それはまだです。今からメールしようかと思っていたんですが…。"},
+      {"s": "F", "t": "メールだと返事が遅くなるかもしれないから、電話のほうがいいんじゃない？"},
+      {"s": "M", "t": "わかりました。あ、それとプロジェクターなんですが、三階のものが故障中で…。"},
+      {"s": "F", "t": "それは私が総務に聞いてみるから、田中さんはそっちをお願い。"},
+      {"s": "M", "t": "はい、すぐにかけます。"}
+    ],
+    "question": "男の人はこのあとまず何をしますか。",
+    "options": ["資料を印刷する", "会議室を予約する", "先方に電話をかける", "総務にプロジェクターのことを聞く"],
+    "answer": 2,
+    "expl_zh": "关键句是女方的「メールだと返事が遅くなるかもしれないから、電話のほうがいいんじゃない？」和男方最后的「はい、すぐにかけます」。「かけます」指打电话，所以男方接下来要给对方打电话。资料和会议室已经完成；投影仪的事由女方「私が総務に聞いてみる」负责，不是男方的任务。",
+    "expl_en": "The woman suggests phoning instead of emailing and the man answers すぐにかけます, so he will call the client now. Printing and the room are already done, and the projector is the woman's job."
+  },
+  {
+    "id": "n2-l02",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "今週の土曜日、どこか行かない？"},
+      {"s": "F", "t": "うーん、行きたいけど、天気予報だと午後から雨なんだよね。"},
+      {"s": "M", "t": "じゃあ、午前中に出かけて早めに帰ってくる？動物園とか。"},
+      {"s": "F", "t": "動物園は雨が降ったら困るし…。それより、前から話してた水族館はどう？屋内だし。"},
+      {"s": "M", "t": "水族館か。でも土曜日は混むよ。日曜日のほうが空いてるんじゃない？"},
+      {"s": "F", "t": "日曜は夕方から実家に行く約束があるから、朝早く行けば大丈夫かな。"},
+      {"s": "M", "t": "そうだね。じゃあ、そうしよう。"}
+    ],
+    "question": "二人は週末どうすることにしましたか。",
+    "options": ["土曜日の午前中に動物園に行く", "土曜日に水族館に行く", "日曜日に実家に行ってから水族館に行く", "日曜日の朝に水族館に行く"],
+    "answer": 3,
+    "expl_zh": "决定性的句子是「日曜は夕方から実家に行く約束があるから、朝早く行けば大丈夫かな」和男方的「じゃあ、そうしよう」。女方用「動物園は雨が降ったら困るし…」委婉否定了动物园；男方又以「土曜日は混むよ」否定了周六，最终定为周日早上去水族馆。回老家是傍晚之后的安排，顺序与选项3相反。",
+    "expl_en": "The zoo is rejected because of rain and Saturday because of crowds; the woman proposes going early Sunday morning before her evening visit to her parents, and the man agrees. So they go to the aquarium Sunday morning."
+  },
+  {
+    "id": "n2-l03",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "山田さん、ちょっといい？来週の金曜日の夜のシフトなんだけど、入れないかな。"},
+      {"s": "F", "t": "金曜日ですか…。その日は夕方まで授業があって、六時からなら入れるんですが。"},
+      {"s": "M", "t": "六時からか。開店準備は五時からなんだけど…。じゃあ、準備は僕がやるから、六時から閉店までお願いできる？"},
+      {"s": "F", "t": "はい、それなら大丈夫です。あ、でも代わりに土曜日の昼は休ませていただけますか。試験が近くて。"},
+      {"s": "M", "t": "土曜の昼ね。佐藤さんに代わってもらえるか聞いてみるよ。"},
+      {"s": "F", "t": "すみません、お願いします。"}
+    ],
+    "question": "女の人は来週どうしますか。",
+    "options": ["金曜日の五時から開店準備をする", "金曜日の六時から閉店まで働く", "土曜日の昼に佐藤さんの代わりに働く", "金曜日は休んで土曜日の昼に働く"],
+    "answer": 1,
+    "expl_zh": "关键是店长的「準備は僕がやるから、六時から閉店までお願いできる？」和女方的「はい、それなら大丈夫です」。五点开始的开店准备由店长自己做；女方反过来请求周六中午休息，店长说去问佐藤能否替班，所以她不是去替佐藤，而是佐藤替她。",
+    "expl_en": "The manager takes the 5 o'clock prep himself and asks her to work from 6 until closing, which she accepts. She then asks to have Saturday lunchtime off, with Sato possibly covering her, not the other way round."
+  },
+  {
+    "id": "n2-l04",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "すみません、奨学金の申請書を持ってきたんですが。"},
+      {"s": "F", "t": "はい、お預かりします。…あ、こちら、指導教員の署名欄が空いていますね。"},
+      {"s": "M", "t": "えっ、必要なんですか。"},
+      {"s": "F", "t": "はい。それと、成績証明書は原本でないと受け付けられないんです。コピーになっていますね。"},
+      {"s": "M", "t": "証明書は一階の機械ですぐ出せますよね。"},
+      {"s": "F", "t": "ええ。ただ、署名のほうは先生のご都合もあるでしょうから、締め切りの金曜日までに揃えて、もう一度お持ちください。書類はいったんお返しします。"},
+      {"s": "M", "t": "わかりました。先生には今日研究室で会えるので、先に署名をもらってきます。"}
+    ],
+    "question": "男の人はこのあとまず何をしますか。",
+    "options": ["指導教員に署名をもらいに行く", "一階で成績証明書を発行する", "申請書を窓口に預ける", "金曜日に窓口にもう一度来る"],
+    "answer": 0,
+    "expl_zh": "决定性的一句是男方最后的「先生には今日研究室で会えるので、先に署名をもらってきます」。「先に」表明他首先去找指导老师签名。成绩证明书虽然也要重新开，但他没有说先做；申请书被窗口「いったんお返しします」退回，所以不能先交；周五再来是最后一步。",
+    "expl_en": "He ends with 先に署名をもらってきます, so his first step is getting the supervisor's signature. The transcript comes later, the form was handed back, and returning Friday is the final step."
+  },
+  {
+    "id": "n2-l05",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "部長、来週の大阪出張の件ですが、新幹線と飛行機、どちらで手配しましょうか。"},
+      {"s": "M", "t": "飛行機のほうが安いんだよね？"},
+      {"s": "F", "t": "はい、早めに取れば三千円ほど安くなります。ただ、空港から会場まで一時間近くかかりますので、朝九時の会議には少し厳しいかと…。"},
+      {"s": "M", "t": "じゃあ、前日に入るしかないか。"},
+      {"s": "F", "t": "前泊ということでしたら、会場の近くのホテルに空きがありました。"},
+      {"s": "M", "t": "うーん、前泊するなら移動時間を気にしなくていいから、新幹線でいい。朝一番の便で当日に行くのはやめておこう。"},
+      {"s": "F", "t": "承知しました。では、そのように手配します。"}
+    ],
+    "question": "女の人はどのように手配しますか。",
+    "options": ["飛行機で当日の朝に行く", "飛行機で前日に行き、ホテルに泊まる", "新幹線で前日に行き、ホテルに泊まる", "新幹線で当日の朝に行く"],
+    "answer": 2,
+    "expl_zh": "关键句是部长的「前泊するなら移動時間を気にしなくていいから、新幹線でいい。朝一番の便で当日に行くのはやめておこう」。飞机虽然便宜，但女方用「少し厳しいかと…」暗示赶不上九点的会议；最终决定前一天乘新干线到大阪并住酒店。当天早上出发的两个选项都被「やめておこう」排除。",
+    "expl_en": "The manager decides on 前泊 (staying the night before) and says that in that case the Shinkansen is fine, explicitly rejecting a same-day morning trip. So she books the Shinkansen the day before plus a hotel."
+  },
+  {
+    "id": "n2-l06",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "いらっしゃいませ。"},
+      {"s": "F", "t": "このノートパソコン、電源が入らなくなってしまって。修理だとどのくらいかかりますか。"},
+      {"s": "M", "t": "拝見します。…おそらくバッテリーの不具合ですね。交換なら一万五千円ほどで、一週間ほどお預かりになります。"},
+      {"s": "F", "t": "一週間ですか…。来週の月曜に発表があって、それまでに必要なんです。"},
+      {"s": "M", "t": "でしたら、お急ぎ対応で三日後にお渡しもできますが、料金は五千円ほど上がります。"},
+      {"s": "F", "t": "うーん。新しいのを買うほどではないし…。じゃあ、少し高くてもそちらでお願いします。"},
+      {"s": "M", "t": "承知しました。それでは、こちらの用紙にご記入ください。"}
+    ],
+    "question": "女の人はどうすることにしましたか。",
+    "options": ["新しいパソコンを買う", "通常の修理を頼み、一週間後に受け取る", "修理をやめて持ち帰る", "追加料金を払って三日後に受け取る"],
+    "answer": 3,
+    "expl_zh": "决定性的句子是「新しいのを買うほどではないし…。じゃあ、少し高くてもそちらでお願いします」。「そちら」指店员刚提到的「お急ぎ対応で三日後にお渡し」，即加急服务。「一週間ですか…」表示普通修理来不及；「買うほどではない」否定了买新电脑。",
+    "expl_en": "一週間ですか… signals the normal repair is too slow, and 新しいのを買うほどではない rules out buying a new one. 少し高くてもそちらで refers to the rush option: pay extra and collect in three days."
+  },
+  {
+    "id": "n2-l07",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "課長、来月のお客様向けセミナーの日程なんですが、一週間ほど後ろにずらせないでしょうか。"},
+      {"s": "M", "t": "どうして？もう案内も出しているだろう。"},
+      {"s": "F", "t": "ええ、それは承知しているんですが、講師の先生から、その週は学会と重なっていて、資料の準備が間に合わないかもしれないと連絡がありまして。"},
+      {"s": "M", "t": "会場の都合じゃなくて？"},
+      {"s": "F", "t": "会場は幸い翌週も空いています。参加者の方には改めてご案内を出せば、まだ一か月ありますし。"},
+      {"s": "M", "t": "うーん、お客様に迷惑をかけることになるが、中身が薄くなるほうが問題だな。わかった、調整してくれ。"}
+    ],
+    "question": "女の人がセミナーの日程を変えたい理由は何ですか。",
+    "options": ["会場が予約できなかったから", "講師の準備が間に合わないかもしれないから", "参加者の申し込みが少ないから", "課長の予定と重なっているから"],
+    "answer": 1,
+    "expl_zh": "理由在「講師の先生から、その週は学会と重なっていて、資料の準備が間に合わないかもしれないと連絡がありまして」。与学会撞期的是讲师而不是课长。会场「翌週も空いています」说明不是会场问题；参加人数在对话中没有提到。",
+    "expl_en": "The lecturer's week clashes with a conference, so his materials may not be ready in time. The venue is available, the manager's schedule is not mentioned as a conflict, and attendance numbers never come up."
+  },
+  {
+    "id": "n2-l08",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "来月から始まるフレックスタイム制度について、一点だけお願いがあります。出勤時間を自由に選べるようになりますが、十時から三時までは必ず社内にいていただくことになっています。この時間帯に会議や打ち合わせが集中しますので、ここを外れると業務に支障が出かねません。制度の目的は、各自が集中できる時間に働けるようにすることであって、出勤時間を遅くするためのものではありません。それぞれの仕事の状況を見ながら、チーム内で相談のうえ活用してください。"}
+    ],
+    "question": "この人が一番言いたいことは何ですか。",
+    "options": ["決められた時間帯は社内にいて、制度の目的を忘れないでほしい", "出勤時間は十時より遅くしてはいけない", "会議は十時から三時の間に行うべきだ", "チームで相談すれば出勤時間を遅くしてもよい"],
+    "answer": 0,
+    "expl_zh": "核心是「十時から三時までは必ず社内にいていただく」和「制度の目的は…出勤時間を遅くするためのものではありません」。说话人强调的是核心时间段必须在公司并理解制度目的。十点前上班并非被禁止，只要求十点前到即可；会议集中在该时段是现状说明而非要求；「相談のうえ活用」也不是允许晚到的意思。",
+    "expl_en": "The speaker's one request is to be in the office from 10 to 3 and to remember the system is about working when you can concentrate, not about coming in later. The other options twist details into rules the speaker never states."
+  },
+  {
+    "id": "n2-l09",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "駅前に新しくできたカフェ、もう行った？"},
+      {"s": "M", "t": "先週行ってみたよ。内装はおしゃれだったけど…。"},
+      {"s": "F", "t": "けど？"},
+      {"s": "M", "t": "コーヒー一杯で七百円はちょっとね。味は悪くないんだけど、それなら前からある喫茶店で十分かなって。"},
+      {"s": "F", "t": "でも、仕事するには静かでいいって聞いたけど。"},
+      {"s": "M", "t": "確かに席は広いし電源もあるから、長居する人にはいいと思う。僕みたいにさっと飲んで出る人には、ちょっと合わないかな。"}
+    ],
+    "question": "男の人は新しいカフェについてどう思っていますか。",
+    "options": ["内装が気に入らない", "味が悪いので行きたくない", "値段に対して自分には合わない", "うるさくて仕事には向いていない"],
+    "answer": 2,
+    "expl_zh": "关键是「コーヒー一杯で七百円はちょっとね」和「僕みたいにさっと飲んで出る人には、ちょっと合わないかな」。「ちょっとね」是委婉的否定，表示价格偏高；他认为店适合久坐的人，不适合自己。他明确说「内装はおしゃれ」「味は悪くない」，也承认店里适合工作，所以其他选项都不对。",
+    "expl_en": "七百円はちょっとね is an indirect complaint about price, and he concludes the cafe suits people who linger, not someone like him who drinks and leaves. He praises the interior and taste and concedes it is good for working."
+  },
+  {
+    "id": "n2-l10",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "転職するって言ってたの、どうなった？"},
+      {"s": "F", "t": "実は、やめることにしたの。"},
+      {"s": "M", "t": "えっ、もう内定も出てたんじゃなかった？"},
+      {"s": "F", "t": "うん。条件は今よりいいし、迷ったんだけど…。先月、今の部署で新しいプロジェクトのリーダーを任されて。"},
+      {"s": "M", "t": "へえ、それで気が変わったの？"},
+      {"s": "F", "t": "給料のことだけ考えたら向こうなんだけど、ここでやりかけたことを放り出すのは、やっぱり自分が納得できなくて。"},
+      {"s": "M", "t": "なるほどね。でも、そう決めたなら応援するよ。"}
+    ],
+    "question": "女の人が転職をやめた理由は何ですか。",
+    "options": ["新しい会社の条件が悪かったから", "内定が取り消されたから", "周りの人に反対されたから", "今の会社で任された仕事をやり遂げたいから"],
+    "answer": 3,
+    "expl_zh": "理由在「ここでやりかけたことを放り出すのは、やっぱり自分が納得できなくて」。她被任命为新项目负责人，不想半途而废。她明确说新公司「条件は今よりいい」，内定也已拿到（「うん」），没有人反对她，所以其他选项不成立。",
+    "expl_en": "She was made leader of a new project and cannot bring herself to abandon it halfway. The offer's conditions were better, the offer was not withdrawn, and nobody opposed her."
+  },
+  {
+    "id": "n2-l11",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "みなき市からのお知らせです。来月一日より、プラスチックごみの回収方法が変わります。これまで燃えるごみと一緒に出していただいていた食品のトレーや袋などは、今後は資源ごみとして、毎週水曜日に別の袋で出していただくことになります。燃えるごみの回収日は火曜と金曜で、変更はありません。なお、汚れが落ちないものは、これまでどおり燃えるごみとしてお出しください。詳しくは、各家庭に配布されるパンフレットをご覧ください。"}
+    ],
+    "question": "来月から何が変わりますか。",
+    "options": ["きれいなプラスチックを資源ごみとして別に出す", "燃えるごみの回収日が水曜日になる", "汚れたプラスチックも資源ごみとして出す", "ごみの回収が週一回になる"],
+    "answer": 0,
+    "expl_zh": "变化在「食品のトレーや袋などは、今後は資源ごみとして、毎週水曜日に別の袋で出していただく」。而「燃えるごみの回収日は火曜と金曜で、変更はありません」排除选项2；「汚れが落ちないものは、これまでどおり燃えるごみ」排除选项3；回收并没有减少为每周一次。",
+    "expl_en": "Plastic trays and bags move from burnable waste to recyclables collected on Wednesdays. Burnable collection days are unchanged, dirty plastic still goes with burnable waste, and nothing says collection drops to once a week."
+  },
+  {
+    "id": "n2-l12",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "鈴木さん、この報告書、読ませてもらったよ。"},
+      {"s": "F", "t": "ありがとうございます。何か問題がありましたか。"},
+      {"s": "M", "t": "データは丁寧に集めてあるし、グラフも見やすい。ただ、結論のところがね。"},
+      {"s": "F", "t": "結論ですか。"},
+      {"s": "M", "t": "調査の結果はよくまとまっているんだけど、「だから何をすべきか」が書いてないんだよ。読む側は、次にどう動けばいいか知りたいわけだから。"},
+      {"s": "F", "t": "なるほど…。もう少し具体的な提案を加えたほうがいいということですね。"},
+      {"s": "M", "t": "そう。長くする必要はないから、最後に三行でも入れておいて。"}
+    ],
+    "question": "男の人は報告書をどう直すべきだと言っていますか。",
+    "options": ["データをもっと多く集める", "今後の提案を書き加える", "グラフを見やすく直す", "全体を短くまとめる"],
+    "answer": 1,
+    "expl_zh": "关键句是「『だから何をすべきか』が書いてないんだよ」以及女方确认的「具体的な提案を加えたほうがいい」、男方的「そう」。他肯定了数据和图表（「データは丁寧に集めてある」「グラフも見やすい」），只要求在结尾加几行建议；「長くする必要はない」也不是要求整体缩短。",
+    "expl_en": "He praises the data and graphs but says the report lacks a 'so what should we do' section, confirming that concrete proposals should be added at the end. He does not ask for it to be shortened overall."
+  },
+  {
+    "id": "n2-l13",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "悪いけど、明日の会議の資料、もう一部刷っておいてもらえる？"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、もう読ませていただきました。", "承知しました。すぐに用意します。", "いえ、何部でもお持ちください。"],
+    "answer": 1,
+    "expl_zh": "「もう一部刷っておいてもらえる？」是请对方再多印一份资料的委托，正确回应是接受请求的「承知しました。すぐに用意します」。选项1把「刷る」误解成「读」；选项3「お持ちください」是请对方拿，立场颠倒。",
+    "expl_en": "The speaker asks you to print one more copy, so the fitting reply is to accept and say you will do it right away. The other replies misread 刷る as reading or invert who is giving copies to whom."
+  },
+  {
+    "id": "n2-l14",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "お忙しいところ恐縮ですが、今週中にお返事いただけますでしょうか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、金曜日までには必ずご連絡いたします。", "いえいえ、こちらこそ恐縮です。", "ええ、お忙しいのは承知しております。"],
+    "answer": 0,
+    "expl_zh": "「今週中にお返事いただけますでしょうか」是委婉催促本周内回复，正确回应是承诺期限的「金曜日までには必ずご連絡いたします」。选项2只是对「恐縮」客套地回礼，没有回答请求；选项3把「忙しい」说成对方的事，意思不通。",
+    "expl_en": "She is politely asking for a reply within the week, so the right answer commits to a deadline. Echoing 恐縮 or commenting on her being busy does not answer the request."
+  },
+  {
+    "id": "n2-l15",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "取引先の人が会社を訪ねてきました。応接室に案内するとき、何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["こっち来て。案内するから。", "どうぞ、お気をつけてお帰りください。", "こちらへどうぞ。ご案内いたします。"],
+    "answer": 2,
+    "expl_zh": "对来访的客户要用敬语引路，正确的是「こちらへどうぞ。ご案内いたします」。「こっち来て」是对朋友说的随便口气，对客户失礼；「お気をつけてお帰りください」是送客时的用语，场合不对。",
+    "expl_en": "Guiding a client calls for humble keigo: こちらへどうぞ。ご案内いたします. こっち来て is far too casual, and お帰りください is what you say when seeing someone off."
+  },
+  {
+    "id": "n2-l16",
+    "level": "N2",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "同僚が重そうな荷物を運んでいます。手伝いたいとき、何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["それ、持っていただけますか。", "よかったら、お持ちしましょうか。", "持ってやってもいいけど。"],
+    "answer": 1,
+    "expl_zh": "主动帮忙拿东西用谦让语「お持ちしましょうか」。「持っていただけますか」是请对方帮自己拿，方向相反；「持ってやってもいいけど」语气傲慢、过于随便，不适合对同事说。",
+    "expl_en": "Offering to carry something uses humble お持ちしましょうか. 持っていただけますか asks the other person to carry it for you, and 持ってやってもいいけど sounds condescending."
+  }
+]

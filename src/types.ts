@@ -67,7 +67,7 @@ export interface VocabWord {
   pos: string
 }
 
-export type QuizSection = 'vocab' | 'grammar' | 'reading'
+export type QuizSection = 'vocab' | 'grammar' | 'reading' | 'listening'
 
 export type QuizType =
   | 'kanji-reading'
@@ -78,6 +78,16 @@ export type QuizType =
   | 'grammar-form'
   | 'sentence-order'
   | 'reading'
+  | 'listening-task'
+  | 'listening-point'
+  | 'listening-response'
+  | 'listening-expression'
+
+/** One line of a listening script: F = woman, M = man, N = narrator. */
+export interface ScriptLine {
+  s: 'F' | 'M' | 'N'
+  t: string
+}
 
 export interface QuizQuestion {
   id: string
@@ -86,6 +96,8 @@ export interface QuizQuestion {
   type: QuizType
   /** short reading passage, only for type 'reading' */
   passage?: string
+  /** audio script, only for the listening types; hidden until answered */
+  script?: ScriptLine[]
   /** stem; target word wrapped in 【】, blanks as （　）, star slot as ★ */
   question: string
   options: string[]

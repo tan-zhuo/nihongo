@@ -5,12 +5,13 @@ import LevelFilter from '../components/LevelFilter'
 import { addQuizRecord, loadRecords } from '../lib/storage'
 import { usePageMeta } from '../hooks/usePageMeta'
 import { LEVELS, type Level, type QuizQuestion, type QuizSection } from '../types'
+import { playbackSequence, useListeningPlayer } from '../lib/listening'
 
 const SESSION_SIZE = 20
 
 type SectionFilter = 'all' | QuizSection
 
-const SECTIONS: SectionFilter[] = ['all', 'vocab', 'grammar', 'reading']
+const SECTIONS: SectionFilter[] = ['all', 'vocab', 'grammar', 'reading', 'listening']
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]
@@ -76,6 +77,8 @@ export default function Quiz() {
 
   const q: QuizQuestion | undefined = session[index]
   const done = session.length > 0 && index >= session.length
+  const listening = q?.section === 'listening'
+  const player = useListeningPlayer(listening ? q : undefined)
 
   useEffect(() => {
     if (!done || savedRef.current) return
@@ -111,7 +114,10 @@ export default function Quiz() {
       if (e.isComposing) return
       const target = e.target as HTMLElement | null
       if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return
-      if (picked === null && ['1', '2', '3', '4'].includes(e.key)) {
+      if (listening && e.key === ' ') {
+        e.preventDefault()
+        player.play()
+      } else if (picked === null && ['1', '2', '3', '4'].includes(e.key)) {
         e.preventDefault()
         pick(Number(e.key) - 1)
       } else if (picked !== null && e.key === 'Enter') {
@@ -122,7 +128,7 @@ export default function Quiz() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [picked, q])
+  }, [picked, q, player.play])
 
   const instKey = q ? `quiz.inst_${q.type.replace(/-/g, '_')}` : ''
 
@@ -180,7 +186,62 @@ export default function Quiz() {
             </div>
           )}
 
-          <p className="mb-6 text-lg leading-loose">
+          {listening && (
+            <div className="mb-5 rounded-2xl bg-stone-50 p-4 sm:p-5">
+              <div className="flex items-center gap-4">
+                <button
+                  type="button"
+                  onClick={player.playing ? player.stop : player.play}
+                  aria-label={player.playing ? t('quiz.playing') : t('quiz.play')}
+                  className="tile h-14 w-14 shrink-0 !rounded-full transition-transform duration-200 ease-spring hover:scale-105 active:scale-95"
+                >
+                  {player.playing ? (
+                    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden="true">
+                      <rect x="6" y="5" width="4" height="14" rx="1" />
+                      <rect x="14" y="5" width="4" height="14" rx="1" />
+                    </svg>
+                  ) : (
+                    <svg viewBox="0 0 24 24" className="ml-1 h-6 w-6" fill="currentColor" aria-hidden="true">
+                      <path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z" />
+                    </svg>
+                  )}
+                </button>
+                <div className="min-w-0 flex-1">
+                  <p className="font-display text-[15px] font-semibold">
+                    {player.playing ? t('quiz.playing') : player.plays > 0 ? t('quiz.replay') : t('quiz.play')}
+                  </p>
+                  <p className="mt-0.5 text-xs text-stone-500">
+                    {player.plays > 0 ? t('quiz.played', { count: player.plays }) : t('quiz.listenHint')}
+                  </p>
+                  <div className="bar mt-2.5">
+                    <span
+                      style={{
+                        width: `${Number.isNaN(player.progress) ? (player.playing ? 100 : 0) : Math.round(player.progress * 100)}%`,
+                        transitionDuration: player.playing ? '250ms' : '0ms',
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              {/* Equalizer-ish ticks: one per line, the current one lit. */}
+              <div className="mt-3 flex gap-1" aria-hidden="true">
+                {playbackSequence(q).map((ln, i) => (
+                  <span
+                    key={i}
+                    className={`h-1.5 flex-1 rounded-full transition-colors duration-200 ${
+                      i === player.line
+                        ? 'bg-accent-dark'
+                        : ln.s === 'N'
+                          ? 'bg-stone-200'
+                          : 'bg-stone-300'
+                    }`}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          <p className={`mb-6 leading-loose ${listening ? 'text-[15px] text-stone-500' : 'text-lg'}`}>
             <Stem text={q.question} />
           </p>
 
@@ -218,6 +279,32 @@ export default function Quiz() {
                   </span>
                 )}
               </p>
+              {q.script && (
+                <div className="mb-3 rounded-lg bg-surface p-3.5">
+                  <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-stone-400">
+                    {t('quiz.transcript')}
+                  </p>
+                  <div className="space-y-1.5 text-[15px] leading-relaxed">
+                    {q.script.map((ln, i) => (
+                      <p
+                        key={i}
+                        className={`flex gap-2.5 rounded-md transition-colors ${
+                          player.line === i + 1 ? 'bg-accent-light/60' : ''
+                        }`}
+                      >
+                        <span
+                          className={`shrink-0 whitespace-nowrap rounded bg-stone-100 px-1.5 text-[11px] font-semibold leading-6 ${
+                            ln.s === 'M' ? 'text-sky-700' : ln.s === 'F' ? 'text-rose-700' : 'text-stone-400'
+                          }`}
+                        >
+                          {t(`quiz.spk_${ln.s}`)}
+                        </span>
+                        <span>{ln.t}</span>
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
               <p className="text-sm leading-relaxed text-stone-600">
                 <span className="mr-1 font-medium text-stone-400">{t('quiz.explanation')}:</span>
                 {zhFirst ? q.expl_zh : q.expl_en}

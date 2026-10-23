@@ -1,0 +1,366 @@
+[
+  {
+    "id": "n3-l01",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "林さん、明日の午後、ABC商事の方が三名いらっしゃいます。会議室の予約は済んでいますか。"},
+      {"s": "F", "t": "はい、第二会議室を取ってあります。資料の印刷も済んでいます。"},
+      {"s": "M", "t": "ありがとう。ただ、第二会議室はプロジェクターが壊れているらしい。"},
+      {"s": "F", "t": "そうですか。じゃあ、第一会議室に変更できるか、総務に確認してみます。"},
+      {"s": "M", "t": "お願い。決まってから、先方に部屋の番号をメールで伝えてくれる？"},
+      {"s": "F", "t": "わかりました。"}
+    ],
+    "question": "女の人はまず何をしますか。",
+    "options": ["総務に会議室の変更を確認する", "資料を印刷する", "取引先にメールを送る", "プロジェクターを修理する"],
+    "answer": 0,
+    "expl_zh": "关键句是「第一会議室に変更できるか、総務に確認してみます」。资料已经印好，给客户发邮件要等会议室定下来之后，修投影仪没有人提到要做。",
+    "expl_en": "She will first check with general affairs whether the room can be changed. Printing is already done, and the email to the client is sent only after the room is settled."
+  },
+  {
+    "id": "n3-l02",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "健太、来週の金曜のシフト、代わってもらえないかな。友だちの結婚式があって。"},
+      {"s": "M", "t": "金曜か…。昼なら大丈夫だけど、夜はサークルがあるんだ。"},
+      {"s": "F", "t": "昼なんだ、よかった。じゃあ代わりに、木曜の夜のあなたのシフトは私が入るよ。"},
+      {"s": "M", "t": "助かる。でも、店長に言わないとまずいよね。"},
+      {"s": "F", "t": "店長には私から話しておくから大丈夫。"}
+    ],
+    "question": "男の人は来週、いつ働きますか。",
+    "options": ["木曜の夜", "金曜の夜", "木曜の昼", "金曜の昼"],
+    "answer": 3,
+    "expl_zh": "男的说「昼なら大丈夫」，女的回答「昼なんだ、よかった」，所以男的替她上周五白天的班。周四晚上原本是男的班，现在换成女的上；周五晚上男的有社团活动。",
+    "expl_en": "He agrees to cover her Friday daytime shift, since he is free in the daytime. His Thursday night shift will be taken by her instead, and Friday night he has club activities."
+  },
+  {
+    "id": "n3-l03",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "引っ越しは土曜日の朝九時だよね。ガスと電気の手続きはした？"},
+      {"s": "F", "t": "電気はネットで済ませた。ガスは電話しないといけないんだけど、まだなんだ。"},
+      {"s": "M", "t": "ガス会社、土曜日も開いてるかな。"},
+      {"s": "F", "t": "開いてると思うけど、直前だと予約が取れないかもしれないから、今日中に電話しておく。"},
+      {"s": "M", "t": "じゃあ、僕は冷蔵庫の中を片付けるよ。"},
+      {"s": "F", "t": "お願い。段ボールは明日届くから、荷造りはそれからね。"}
+    ],
+    "question": "女の人はこれから何をしますか。",
+    "options": ["電気の手続きをする", "ガス会社に電話する", "冷蔵庫を片付ける", "荷造りを始める"],
+    "answer": 1,
+    "expl_zh": "女的说「今日中に電話しておく」，指的是给燃气公司打电话。电的手续已经在网上办好，整理冰箱由男的做，打包要等明天纸箱送到之后。",
+    "expl_en": "She will phone the gas company today. Electricity is already done online, the man will clear the fridge, and packing waits until the boxes arrive tomorrow."
+  },
+  {
+    "id": "n3-l04",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "北海道旅行、飛行機とホテル、どっちから予約する？"},
+      {"s": "M", "t": "先にホテルじゃない？人気のところはすぐ埋まるし。"},
+      {"s": "F", "t": "でも、飛行機の時間が決まらないと、何泊するか決められないよ。"},
+      {"s": "M", "t": "それもそうか。じゃあ、まず飛行機を取って、その後でホテルだね。レンタカーは？"},
+      {"s": "F", "t": "レンタカーは現地で借りてもいいから、最後でいいよ。"}
+    ],
+    "question": "二人はまず何を予約しますか。",
+    "options": ["ホテル", "レンタカー", "飛行機", "電車"],
+    "answer": 2,
+    "expl_zh": "男的被说服后说「まず飛行機を取って、その後でホテルだね」。酒店是男的最初的提议但被推翻，租车放到最后，电车没有提到。",
+    "expl_en": "After the woman's objection, the man agrees to book the flight first and the hotel afterwards. The rental car is left until last."
+  },
+  {
+    "id": "n3-l05",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "お電話ありがとうございます。みどりクリニックです。"},
+      {"s": "M", "t": "明日十時に予約している木村ですが、急に出張が入ってしまって。別の日に変えていただけますか。"},
+      {"s": "F", "t": "かしこまりました。木曜日の午後か、金曜日の午前が空いております。"},
+      {"s": "M", "t": "金曜の午前でお願いします。あ、保険証が新しくなったんですが。"},
+      {"s": "F", "t": "では、当日は新しい保険証をお持ちください。前回のお薬が残っていれば、それも一緒にお願いします。"}
+    ],
+    "question": "男の人は金曜日に何を持っていきますか。",
+    "options": ["古い保険証と薬", "新しい保険証だけ", "出張の書類", "新しい保険証と残っている薬"],
+    "answer": 3,
+    "expl_zh": "前台说「新しい保険証をお持ちください。前回のお薬が残っていれば、それも一緒に」，所以要带新保险证和剩下的药。旧保险证已经换掉，出差文件与看病无关。",
+    "expl_en": "He is asked to bring his new insurance card and any leftover medicine from last time. The old card has been replaced, and business-trip papers are irrelevant."
+  },
+  {
+    "id": "n3-l06",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "文化祭の準備、あと三日だね。ポスターはできた？"},
+      {"s": "F", "t": "デザインはできたけど、印刷がまだ。先に看板を作ったほうがいいかな。"},
+      {"s": "M", "t": "看板は木材が明日届くから、今日はできないよ。"},
+      {"s": "F", "t": "じゃあ、今日はポスターを印刷して、駅前に貼りに行こうか。"},
+      {"s": "M", "t": "貼るのは学校の許可が出てからって先生が言ってた。許可は明日の朝出るって。"},
+      {"s": "F", "t": "わかった。じゃあ今日は印刷だけしておくね。"}
+    ],
+    "question": "女の人は今日何をしますか。",
+    "options": ["看板を作る", "駅前にポスターを貼る", "ポスターを印刷する", "先生に許可をもらう"],
+    "answer": 2,
+    "expl_zh": "女的最后说「今日は印刷だけしておくね」。做招牌的木材明天才到，贴海报要等学校许可（明天早上才下来），许可是老师去办而非她。",
+    "expl_en": "She decides to only print the posters today. The signboard materials arrive tomorrow, and posters can be put up only after permission comes tomorrow morning."
+  },
+  {
+    "id": "n3-l07",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "いらっしゃいませ。ご予約でしょうか。"},
+      {"s": "M", "t": "はい、日曜日に誕生日ケーキをお願いしたいんですが。チョコレートはありますか。"},
+      {"s": "F", "t": "申し訳ございません。チョコレートは日曜日はお作りできないんです。いちごのケーキかチーズケーキでしたらご用意できます。"},
+      {"s": "M", "t": "じゃあ、いちごにします。名前のプレートもつけてもらえますか。"},
+      {"s": "F", "t": "はい。お受け取りは何時ごろですか。"},
+      {"s": "M", "t": "午後三時でお願いします。"}
+    ],
+    "question": "男の人はどんなケーキを注文しましたか。",
+    "options": ["名前のプレートつきのチョコレートケーキ", "名前のプレートつきのいちごケーキ", "プレートなしのいちごケーキ", "名前のプレートつきのチーズケーキ"],
+    "answer": 1,
+    "expl_zh": "男的说「いちごにします。名前のプレートもつけてもらえますか」，所以是带名字牌的草莓蛋糕。巧克力蛋糕周日做不了，芝士蛋糕只是店员提供的另一个选项。",
+    "expl_en": "He chooses the strawberry cake and asks for a name plate. Chocolate is unavailable on Sunday and cheesecake was only offered as an alternative."
+  },
+  {
+    "id": "n3-l08",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "先生、レポートの締め切りは明日ですよね。実は、調査の結果がまだ出ていなくて。"},
+      {"s": "F", "t": "それは困りましたね。何日あれば終わりますか。"},
+      {"s": "M", "t": "あと三日あれば終わります。"},
+      {"s": "F", "t": "わかりました。ただ、延ばす場合は、今日中に理由を書いた申請書を事務室に出してください。私のサインが必要なので、書いたら先に私のところに持ってきて。"},
+      {"s": "M", "t": "はい。すぐ書きます。"}
+    ],
+    "question": "男の学生はこれからまずどうしますか。",
+    "options": ["申請書を書いて先生に見せる", "申請書を事務室に出す", "レポートを明日提出する", "調査の結果を先生に送る"],
+    "answer": 0,
+    "expl_zh": "老师说「書いたら先に私のところに持ってきて」，所以先写申请书拿给老师签字。交到事务室是签字之后的步骤，报告已经获准延期，调查结果还没出来。",
+    "expl_en": "He must write the application and bring it to the teacher first for her signature. Submitting it to the office comes after that, and the report deadline has been extended."
+  },
+  {
+    "id": "n3-l09",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "お客様にご案内いたします。現在、強風の影響で、みなと線は上下線とも運転を見合わせております。運転再開は午後二時ごろの見込みです。お急ぎのお客様は、三番線から発車するさくら線をご利用ください。なお、振替輸送を行っておりますので、切符をお持ちの方は改札でお申し出ください。"}
+    ],
+    "question": "みなと線が止まっているのはどうしてですか。",
+    "options": ["事故があったから", "線路の点検をしているから", "雨が強いから", "風が強いから"],
+    "answer": 3,
+    "expl_zh": "广播说「強風の影響で、みなと線は上下線とも運転を見合わせております」，停运原因是强风。事故、检修、大雨都没有提到。",
+    "expl_en": "The announcement says service is suspended due to strong winds. Accidents, track inspections and heavy rain are not mentioned."
+  },
+  {
+    "id": "n3-l10",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "部長、三時の会議、四時に変更になったそうですね。資料の準備が間に合わなかったんですか。"},
+      {"s": "M", "t": "いや、資料はできているよ。実は、営業部の佐々木さんが出張先から戻るのが遅れていて。"},
+      {"s": "F", "t": "飛行機が遅れているんですか。"},
+      {"s": "M", "t": "いや、先方との打ち合わせが長引いているらしい。佐々木さんの報告がないと話が進まないからね。"},
+      {"s": "F", "t": "わかりました。皆さんに連絡しておきます。"}
+    ],
+    "question": "会議はどうして四時に変わりましたか。",
+    "options": ["資料が間に合わなかったから", "飛行機が遅れたから", "佐々木さんの打ち合わせが長引いているから", "部長が出張しているから"],
+    "answer": 2,
+    "expl_zh": "部长说「先方との打ち合わせが長引いているらしい」，会议推迟是因为佐佐木在客户那边的洽谈拖长了。资料已经准备好，飞机晚点被否定，出差的是佐佐木不是部长。",
+    "expl_en": "The meeting was pushed back because Sasaki's meeting with the client is running long. The materials are ready and the flight-delay guess is denied."
+  },
+  {
+    "id": "n3-l11",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "田村さん、来月から時給が上がることになりました。"},
+      {"s": "F", "t": "ありがとうございます。いくらになりますか。"},
+      {"s": "M", "t": "今は千五十円ですが、千百五十円になります。ただ、朝の時間帯は人が足りないので、来月から朝八時に来てもらえますか。"},
+      {"s": "F", "t": "今は九時からですよね。八時は少し早いですが、大丈夫です。"},
+      {"s": "M", "t": "助かります。終わる時間は今までと同じで構いません。"}
+    ],
+    "question": "来月から何が変わりますか。",
+    "options": ["時給と始まる時間", "時給と終わる時間", "始まる時間と終わる時間", "時給だけ"],
+    "answer": 0,
+    "expl_zh": "店长说时薪「千百五十円になります」，又说「来月から朝八時に来てもらえますか」，所以变的是时薪和开始时间。结束时间「今までと同じで構いません」没有变。",
+    "expl_en": "Her hourly wage rises and her start time moves from 9:00 to 8:00. The finishing time stays the same, so only wage and start time change."
+  },
+  {
+    "id": "n3-l12",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "もしもし、翔太？土曜日の花見なんだけど、日曜日に変えてもいい？"},
+      {"s": "M", "t": "どうしたの？雨の予報？"},
+      {"s": "F", "t": "天気は大丈夫なんだけど、母が急に入院することになって、土曜はお見舞いに行かなきゃいけなくて。"},
+      {"s": "M", "t": "そうか、大変だね。日曜日なら僕は大丈夫だよ。ほかのみんなにも聞いてみる。"},
+      {"s": "F", "t": "ありがとう。助かる。"}
+    ],
+    "question": "女の人はどうして花見の日を変えたいのですか。",
+    "options": ["土曜日は雨の予報だから", "お母さんのお見舞いに行くから", "自分が入院するから", "友だちの都合が悪いから"],
+    "answer": 1,
+    "expl_zh": "女的说「母が急に入院することになって、土曜はお見舞いに行かなきゃいけなくて」。天气「大丈夫」不是原因，住院的是母亲不是她自己，朋友的安排是之后才要确认的。",
+    "expl_en": "She needs to visit her mother, who has suddenly been hospitalised. The weather is fine, it is her mother and not herself in hospital, and the friends have not yet been asked."
+  },
+  {
+    "id": "n3-l13",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "皆さま、本日はご参加ありがとうございます。これから自由行動になります。集合は午後四時、このバスの前です。当初は三時半の予定でしたが、お寺の見学が長くなりましたので、三十分遅くしました。遅れますと夕食の予約に間に合いませんので、時間は必ずお守りください。"}
+    ],
+    "question": "集合時間は何時ですか。",
+    "options": ["三時", "三時半", "四時", "四時半"],
+    "answer": 2,
+    "expl_zh": "导游说「集合は午後四時、このバスの前です」，又解释「当初は三時半の予定でしたが…三十分遅くしました」。三点半是原定时间，四点半没有提到。",
+    "expl_en": "The meeting time is 4:00 in front of the bus, pushed back thirty minutes from the original 3:30 because the temple visit ran long."
+  },
+  {
+    "id": "n3-l14",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "検査の結果、血圧が少し高いですね。お酒は飲まれますか。"},
+      {"s": "F", "t": "週に二、三回です。たばこは吸いません。"},
+      {"s": "M", "t": "お酒は量を減らせば続けても構いません。それより問題は塩分ですね。ラーメンや漬物をよく食べますか。"},
+      {"s": "F", "t": "はい、ほとんど毎日食べています。"},
+      {"s": "M", "t": "では、しばらくそれをやめてみましょう。運動は今のまま、週末の散歩を続けてください。"}
+    ],
+    "question": "女の人は何をやめるように言われましたか。",
+    "options": ["塩分の多い食べ物を食べること", "お酒を飲むこと", "週末に散歩すること", "たばこを吸うこと"],
+    "answer": 0,
+    "expl_zh": "医生问拉面和咸菜后说「しばらくそれをやめてみましょう」，要停的是高盐食物。酒「量を減らせば続けても構いません」，散步要继续，她本来就不抽烟。",
+    "expl_en": "The doctor tells her to stop eating salty foods like ramen and pickles for a while. Alcohol may continue in smaller amounts, walking should continue, and she does not smoke."
+  },
+  {
+    "id": "n3-l15",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "二年生の皆さんにお知らせします。来月の修学旅行の参加申込書は、保護者のサインをもらって、今週の金曜日までに担任の先生に提出してください。費用の支払いは、申込書とは別に、来週の水曜日までに事務室で行います。アレルギーのある人は、申込書の裏に必ず書いてください。"}
+    ],
+    "question": "申込書はいつまでに出しますか。",
+    "options": ["今週の水曜日", "今週の金曜日", "来週の水曜日", "来週の金曜日"],
+    "answer": 1,
+    "expl_zh": "广播说「参加申込書は…今週の金曜日までに担任の先生に提出してください」。下周三是交费的截止日，不是交申请书的。",
+    "expl_en": "The application form is due to the homeroom teacher by this Friday. Next Wednesday is the deadline for paying the fee, not for the form."
+  },
+  {
+    "id": "n3-l16",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "新しいアパート、どう？駅から近くていいって言ってたよね。"},
+      {"s": "M", "t": "うん、駅は近いし、部屋も前より広いんだ。ただ、一つ困ってることがあって。"},
+      {"s": "F", "t": "隣の人がうるさいとか？"},
+      {"s": "M", "t": "いや、隣は静かだよ。問題は日当たり。南向きだと聞いてたのに、前に高いビルがあって、昼でも暗いんだ。"},
+      {"s": "F", "t": "それは残念だね。"}
+    ],
+    "question": "男の人は新しいアパートの何に困っていますか。",
+    "options": ["駅から遠いこと", "部屋が狭いこと", "隣の人がうるさいこと", "部屋が暗いこと"],
+    "answer": 3,
+    "expl_zh": "男的说「問題は日当たり。…前に高いビルがあって、昼でも暗いんだ」。离车站近、房间比以前大、邻居很安静，这三项都被否定。",
+    "expl_en": "His complaint is the lack of sunlight: a tall building in front makes the flat dark even at midday. It is near the station, bigger than before, and the neighbours are quiet."
+  },
+  {
+    "id": "n3-l17",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "お世話になっております。山田商事の山田ですが、部長の高橋さんはいらっしゃいますか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["申し訳ありません、高橋はただいま席を外しております。", "はい、高橋様はただいまこちらにいらっしゃいます。", "いいえ、高橋はよく外出なさいます。"],
+    "answer": 0,
+    "expl_zh": "外部来电找自己公司的部长，要用谦让语「高橋はただいま席を外しております」，且对内部人不加「さん・様」。选项2对自己上司用「様」和尊敬语「いらっしゃいます」，选项3用「なさいます」抬高自己人，都不合商务礼仪。",
+    "expl_en": "Speaking to an outside caller, you refer to your own boss without honorifics and use humble 席を外しております. The other replies wrongly honour your own boss with 様 and いらっしゃいます/なさいます."
+  },
+  {
+    "id": "n3-l18",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "先日はごちそうになって、ありがとうございました。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、ごちそうさまでした。", "いえいえ、こちらこそ楽しかったです。", "どうぞ、ご遠慮なく召し上がってください。"],
+    "answer": 1,
+    "expl_zh": "对方在为上次请客道谢，请客的一方应谦虚地回「いえいえ、こちらこそ楽しかったです」。「ごちそうさまでした」是被请的人说的，「召し上がってください」是当场劝人吃东西的话。",
+    "expl_en": "He is thanking you for treating him, so you modestly reply that you enjoyed it too. ごちそうさまでした is what the guest says, and 召し上がってください offers food in the moment."
+  },
+  {
+    "id": "n3-l19",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "すみません、この企画書、今日中に目を通していただけますか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、目はよく見えますよ。", "はい、昨日もう通しておきました。", "わかりました。夕方までには見ておきます。"],
+    "answer": 2,
+    "expl_zh": "「目を通す」是“过目、看一遍”的惯用语，对方请求今天之内看完，合适的回答是「夕方までには見ておきます」。选项1把「目」理解成眼睛，选项2说昨天已经看过，与“今天之内”的请求对不上。",
+    "expl_en": "目を通す means to look over a document, so promising to read it by evening is the right reply. The first option misreads 目 as eyesight, and the second claims it was done yesterday, which contradicts the request."
+  },
+  {
+    "id": "n3-l20",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "昨日、資料を作るのに徹夜してしまって、もうくたくたなんだ。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["それはよかったね。おめでとう。", "へえ、ぐっすり眠れたんだね。", "お疲れさま。無理しないで、早めに帰ったら？"],
+    "answer": 2,
+    "expl_zh": "对方说「徹夜してしまって、もうくたくた」，是在诉苦说熬夜很累，应慰劳并劝他别勉强。「おめでとう」是祝贺，「ぐっすり眠れた」与通宵没睡正好相反。",
+    "expl_en": "He stayed up all night and is exhausted, so sympathising and suggesting he go home early fits. Congratulating him or saying he slept well contradicts what he said."
+  },
+  {
+    "id": "n3-l21",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "会社の受付にいます。取引先の人が来ましたが、名前をまだ聞いていません。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["お名前を申し上げてください。", "失礼ですが、お名前をお伺いしてもよろしいでしょうか。", "すみません、名前は何ですか。"],
+    "answer": 1,
+    "expl_zh": "在前台询问客户姓名要用敬语「失礼ですが、お名前をお伺いしてもよろしいでしょうか」。「申し上げる」是谦让语，不能用于对方的动作；「名前は何ですか」对客户太直接、不够礼貌。",
+    "expl_en": "Asking a visiting client's name calls for polite keigo: 失礼ですが、お名前をお伺いしてもよろしいでしょうか. 申し上げる is humble language and cannot describe the other person's action, and 名前は何ですか is too blunt."
+  },
+  {
+    "id": "n3-l22",
+    "level": "N3",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "大学院に進みたいので、ゼミの先生に推薦状を書いてほしいと思っています。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["先生、推薦状を書いていただけないでしょうか。", "先生、推薦状を書いてあげましょうか。", "先生、推薦状を書いてくれ。"],
+    "answer": 0,
+    "expl_zh": "请老师帮忙要用「〜ていただけないでしょうか」这种客气的请求。「書いてあげましょうか」是自己要替老师写，方向反了；「書いてくれ」是命令口吻，对老师很失礼。",
+    "expl_en": "A polite request to a teacher uses 〜ていただけないでしょうか. 書いてあげましょうか offers to write it for the teacher, and 書いてくれ is a blunt command."
+  }
+]

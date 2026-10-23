@@ -116,13 +116,14 @@ export function speakWord(id: string, reading: string) {
   })
 }
 
-export function speak(text: string, opts: { rate?: number; onEnd?: () => void } = {}) {
+export function speak(text: string, opts: { rate?: number; pitch?: number; onEnd?: () => void } = {}) {
   if (typeof speechSynthesis === 'undefined') return
   try {
     speechSynthesis.cancel()
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'ja-JP'
     u.rate = opts.rate ?? 0.95
+    if (opts.pitch !== undefined) u.pitch = opts.pitch
     const voice = bestJapaneseVoice()
     if (voice) u.voice = voice
     if (opts.onEnd) {

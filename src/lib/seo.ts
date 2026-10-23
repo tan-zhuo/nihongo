@@ -50,7 +50,7 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   '/quiz': {
     title: 'JLPT Practice Quiz (N5–N1) — 模擬試験 · 模拟刷题 — nihongo.ink',
-    desc: 'Free JLPT practice questions for N5–N1 in the official exam format: kanji reading, orthography, context, paraphrase, usage, grammar, sentence order and reading comprehension — with explanations.',
+    desc: 'Free JLPT practice questions for N5–N1 in the official exam format: kanji reading, orthography, context, paraphrase, usage, grammar, sentence order, reading comprehension and listening with two-voice audio — with explanations.',
   },
   '/textbook': {
     title: '标准日本语单词卡片 · 初级/中级/高级分课背单词 — nihongo.ink',

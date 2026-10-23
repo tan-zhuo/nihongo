@@ -1,0 +1,468 @@
+[
+  {
+    "id": "n5-l01",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "山田さん、スーパーで何を買いますか。"},
+      {"s": "M", "t": "パンとぎゅうにゅうを買います。"},
+      {"s": "F", "t": "ぎゅうにゅうはまだありますよ。たまごがありません。"},
+      {"s": "M", "t": "じゃ、パンとたまごですね。"}
+    ],
+    "question": "男の人は何を買いますか。",
+    "options": ["パンとぎゅうにゅう", "ぎゅうにゅうとたまご", "パンだけ", "パンとたまご"],
+    "answer": 3,
+    "expl_zh": "女的说「ぎゅうにゅうはまだありますよ。たまごがありません」,所以牛奶不用买,改买鸡蛋;男的最后确认「パンとたまごですね」。「パンとぎゅうにゅう」是最初的打算,已被更改。",
+    "expl_en": "The woman says there is still milk but no eggs, so the man switches from bread and milk to bread and eggs."
+  },
+  {
+    "id": "n5-l02",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "田中さん、あしたはどこで会いますか。学校の前ですか。"},
+      {"s": "M", "t": "駅の前はどうですか。"},
+      {"s": "F", "t": "駅の前は人が多いですよ。駅のきっさてんか本やはどうですか。"},
+      {"s": "M", "t": "じゃ、きっさてんにしましょう。"}
+    ],
+    "question": "二人はあしたどこで会いますか。",
+    "options": ["学校の前", "駅の前", "駅のきっさてん", "駅の本や"],
+    "answer": 2,
+    "expl_zh": "男的最后说「じゃ、きっさてんにしましょう」,决定在车站的咖啡店见面。「学校の前」「駅の前」是先提出后被否定的地点,「本や」只是备选,没有被选中。",
+    "expl_en": "The man settles it with \"let's make it the coffee shop\"; the school gate and the station front were rejected, and the bookshop was only an alternative."
+  },
+  {
+    "id": "n5-l03",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "リーさん、今からひるごはんを食べませんか。"},
+      {"s": "F", "t": "すみません、先に先生にレポートを出します。"},
+      {"s": "M", "t": "じゃ、しょくどうで待っています。コーヒーを買いますか。"},
+      {"s": "F", "t": "はい、おねがいします。すぐ行きます。"}
+    ],
+    "question": "女の人はこのあとまず何をしますか。",
+    "options": ["レポートを出します", "ひるごはんを食べます", "しょくどうで待ちます", "コーヒーを買います"],
+    "answer": 0,
+    "expl_zh": "女的说「先に先生にレポートを出します」,表示先去交报告。吃饭是之后的事;在食堂等、买咖啡都是男的要做的事。",
+    "expl_en": "She says she will hand in her report to the teacher first; waiting in the cafeteria and buying coffee are what the man will do."
+  },
+  {
+    "id": "n5-l04",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "キムさん、あしたのピクニックに何をもって行きますか。"},
+      {"s": "M", "t": "おべんとうと飲み物です。"},
+      {"s": "F", "t": "飲み物はわたしが買います。雨がふりますから、かさをおねがいします。"},
+      {"s": "M", "t": "はい、わかりました。"}
+    ],
+    "question": "男の人はあした何をもって行きますか。",
+    "options": ["おべんとうと飲み物", "飲み物とかさ", "かさだけ", "おべんとうとかさ"],
+    "answer": 3,
+    "expl_zh": "女的说「飲み物はわたしが買います」「かさをおねがいします」,所以男的不用带饮料,要带便当和雨伞。「おべんとうと飲み物」是他原来的打算,已被改变。",
+    "expl_en": "The woman will buy the drinks herself and asks him to bring an umbrella, so he brings the lunch box and an umbrella."
+  },
+  {
+    "id": "n5-l05",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "はい、山田です。"},
+      {"s": "F", "t": "田中です。今日のかいぎは三時からですか。"},
+      {"s": "M", "t": "いいえ、四時からです。その前に、かいぎしつのかぎをもらってきてください。"},
+      {"s": "F", "t": "わかりました。今から行きます。"}
+    ],
+    "question": "女の人はこのあと何をしますか。",
+    "options": ["かいぎに出ます", "かぎをもらいに行きます", "山田さんに電話します", "三時にかいぎしつへ行きます"],
+    "answer": 1,
+    "expl_zh": "男的说「その前に、かいぎしつのかぎをもらってきてください」,女的回答「今から行きます」,所以她先去拿钥匙。会议是四点而不是三点;打电话是她正在做的事。",
+    "expl_en": "The man asks her to fetch the meeting-room key before the meeting and she says she will go now; the meeting itself is at four, not three."
+  },
+  {
+    "id": "n5-l06",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "何を食べますか。わたしはカレーにします。"},
+      {"s": "F", "t": "わたしはラーメンにします。あ、でも今日はあついですね。"},
+      {"s": "M", "t": "じゃ、つめたいそばかうどんはどうですか。"},
+      {"s": "F", "t": "いいですね。そばにします。"}
+    ],
+    "question": "女の人は何を食べますか。",
+    "options": ["カレー", "ラーメン", "そば", "うどん"],
+    "answer": 2,
+    "expl_zh": "女的最后说「そばにします」。「カレー」是男的点的,「ラーメン」是她最初想点但因为天热改了主意的,「うどん」只是男的提议之一。",
+    "expl_en": "She finally says \"I'll have soba\"; curry is the man's choice, ramen was her first idea, and udon was only suggested."
+  },
+  {
+    "id": "n5-l07",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "すみません、この電車はとうきょうへ行きますか。"},
+      {"s": "F", "t": "いいえ、行きません。さんばんせんの電車にのってください。"},
+      {"s": "M", "t": "さんばんせんですね。どうも。"},
+      {"s": "F", "t": "あ、その前にきっぷを買ってくださいね。"}
+    ],
+    "question": "男の人はこのあとまず何をしますか。",
+    "options": ["きっぷを買います", "この電車にのります", "さんばんせんの電車にのります", "とうきょうで電車をおります"],
+    "answer": 0,
+    "expl_zh": "女的最后补充「その前にきっぷを買ってくださいね」,所以男的要先买票,然后才去三号线坐车。「この電車」不去东京,已被否定。",
+    "expl_en": "The woman adds that he must buy a ticket first, before taking the platform-3 train; the train he is on does not go to Tokyo."
+  },
+  {
+    "id": "n5-l08",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "山田さん、だいじょうぶですか。"},
+      {"s": "F", "t": "あたまがいたいです。でも、午後じゅぎょうがあります。"},
+      {"s": "M", "t": "じゅぎょうは休んでください。家で休みますか。"},
+      {"s": "F", "t": "いいえ、びょういんへ行きます。先に先生に電話します。"}
+    ],
+    "question": "女の人はこのあとまず何をしますか。",
+    "options": ["じゅぎょうに行きます", "びょういんへ行きます", "先生に電話します", "家で休みます"],
+    "answer": 2,
+    "expl_zh": "女的最后说「先に先生に電話します」,所以她先给老师打电话,然后再去医院。上课被男的劝阻,在家休息也被她否定了。",
+    "expl_en": "She says she will call the teacher first and then go to the hospital; the man told her to skip class, and she declined to rest at home."
+  },
+  {
+    "id": "n5-l09",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "田中さん、このしりょうを十まいコピーしてください。"},
+      {"s": "M", "t": "はい。コピーはキムさんにわたしますか。"},
+      {"s": "F", "t": "いいえ、わたしのつくえの上においてください。"},
+      {"s": "M", "t": "わかりました。"}
+    ],
+    "question": "男の人はコピーをどうしますか。",
+    "options": ["キムさんにわたします", "女の人のつくえの上におきます", "田中さんのつくえの上におきます", "女の人にわたします"],
+    "answer": 1,
+    "expl_zh": "女的说「わたしのつくえの上においてください」,所以复印件要放在女的桌子上。「キムさんにわたす」被否定了;其他选项把地点或动作换掉了。",
+    "expl_en": "She tells him to put the copies on her desk; handing them to Kim was rejected."
+  },
+  {
+    "id": "n5-l10",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "リーさんのたんじょうびに何をあげますか。"},
+      {"s": "F", "t": "花はどうですか。"},
+      {"s": "M", "t": "花は山田さんがあげます。ケーキはわたしがつくります。"},
+      {"s": "F", "t": "じゃ、わたしは本にします。リーさんは本がすきですから。"}
+    ],
+    "question": "女の人はリーさんに何をあげますか。",
+    "options": ["本", "花", "ケーキ", "花と本"],
+    "answer": 0,
+    "expl_zh": "女的最后说「じゃ、わたしは本にします」。「花」是山田要送的,「ケーキ」是男的要做的,所以女的只送书。",
+    "expl_en": "She decides on a book; the flowers are Yamada's gift and the cake is the man's."
+  },
+  {
+    "id": "n5-l11",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "おしらせします。十時十分の電車は、今日は来ません。つぎの電車は十時二十五分です。十時四十分の電車は、時間どおりに来ます。"}
+    ],
+    "question": "つぎの電車は何時に来ますか。",
+    "options": ["十時", "十時十分", "十時二十五分", "十時四十分"],
+    "answer": 2,
+    "expl_zh": "广播说「つぎの電車は十時二十五分です」。「十時十分」的电车今天不来,「十時四十分」是再下一班。",
+    "expl_en": "The announcement says the next train is at 10:25; the 10:10 train is cancelled and 10:40 is the one after."
+  },
+  {
+    "id": "n5-l12",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "みなさん、来週のテストについて話します。テストは水曜日でした。でも、水曜日は休みですから、金曜日にします。木曜日はほかのクラスのテストです。"}
+    ],
+    "question": "テストは何曜日ですか。",
+    "options": ["月曜日", "水曜日", "木曜日", "金曜日"],
+    "answer": 3,
+    "expl_zh": "老师说「水曜日は休みですから、金曜日にします」,考试改到星期五。「水曜日」是原定日期,「木曜日」是别的班的考试。",
+    "expl_en": "The test moves from Wednesday to Friday because Wednesday is a holiday; Thursday is another class's test."
+  },
+  {
+    "id": "n5-l13",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "リーさんはいつ国へ帰りますか。"},
+      {"s": "F", "t": "来月の十五日です。"},
+      {"s": "M", "t": "五日ですか。"},
+      {"s": "F", "t": "いいえ、十五日です。五日は友だちが日本に来ます。"}
+    ],
+    "question": "女の人はいつ国へ帰りますか。",
+    "options": ["来月の十五日", "来月の五日", "今月の十五日", "今月の五日"],
+    "answer": 0,
+    "expl_zh": "女的两次说「十五日です」,并说明「五日は友だちが日本に来ます」,所以回国是下个月十五日,五日是朋友来日本的日子。",
+    "expl_en": "She repeats that she goes home on the 15th of next month; the 5th is when her friend arrives in Japan."
+  },
+  {
+    "id": "n5-l14",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "田中さん、こんばんレストランへ行きませんか。"},
+      {"s": "M", "t": "いいですね。だれが行きますか。"},
+      {"s": "F", "t": "わたしと田中さんと、キムさんとリーさんです。あ、リーさんは来ません。"},
+      {"s": "M", "t": "じゃ、わたしが店に電話します。"}
+    ],
+    "question": "何人でレストランへ行きますか。",
+    "options": ["二人", "三人", "四人", "五人"],
+    "answer": 1,
+    "expl_zh": "女的列出「わたしと田中さんと、キムさんとリーさん」四个人,但接着说「リーさんは来ません」,所以去的是三个人。",
+    "expl_en": "Four people are named, but Lee is not coming today, so three people go."
+  },
+  {
+    "id": "n5-l15",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "山田さん、きのうはどうして休みましたか。びょうきですか。"},
+      {"s": "M", "t": "いいえ。子どもがねつを出しましたから、びょういんへ行きました。"},
+      {"s": "F", "t": "子どもさんはだいじょうぶですか。"},
+      {"s": "M", "t": "はい、もうげんきです。"}
+    ],
+    "question": "男の人はきのうどうして会社を休みましたか。",
+    "options": ["子どもがびょうきでしたから", "男の人がびょうきでしたから", "びょういんではたらきましたから", "りょこうに行きましたから"],
+    "answer": 0,
+    "expl_zh": "男的说「子どもがねつを出しましたから、びょういんへ行きました」,是孩子发烧。女的问他本人是否生病,他回答「いいえ」,所以不是本人生病。",
+    "expl_en": "He stayed home because his child had a fever and he took the child to the hospital; he denies being sick himself."
+  },
+  {
+    "id": "n5-l16",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "すみません、わたしのかさを見ませんでしたか。"},
+      {"s": "F", "t": "くろいかさですか。つくえの上にありましたよ。"},
+      {"s": "M", "t": "つくえの上にはありません。"},
+      {"s": "F", "t": "あ、いすの後ろにありますよ。"},
+      {"s": "M", "t": "ああ、ありました。"}
+    ],
+    "question": "男の人のかさはどこにありましたか。",
+    "options": ["つくえの上", "つくえの下", "いすの上", "いすの後ろ"],
+    "answer": 3,
+    "expl_zh": "女的先说在桌子上,但男的说「つくえの上にはありません」,然后女的发现「いすの後ろにありますよ」,所以伞在椅子后面。",
+    "expl_en": "It was not on the desk after all; the woman then spots it behind the chair."
+  },
+  {
+    "id": "n5-l17",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "すみません、このりんごはいくらですか。"},
+      {"s": "M", "t": "一つ百円です。三つで二百五十円です。"},
+      {"s": "F", "t": "じゃ、三つください。あと、このみかんも一つください。"},
+      {"s": "M", "t": "みかんは一つ五十円です。ぜんぶで三百円です。"}
+    ],
+    "question": "りんごは三つでいくらですか。",
+    "options": ["百円", "二百五十円", "三百円", "三百五十円"],
+    "answer": 1,
+    "expl_zh": "店员说「三つで二百五十円です」。「百円」是一个的价格,「三百円」是加上橘子后的总价。",
+    "expl_en": "Three apples cost 250 yen; 100 yen is the price of one, and 300 yen is the total including the orange."
+  },
+  {
+    "id": "n5-l18",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "学生のみなさんにおしらせします。今日の午後のえいがは、二かいの大きいきょうしつではありません。三かいのとしょしつでします。一時に来てください。"}
+    ],
+    "question": "えいがはどこでしますか。",
+    "options": ["一かいのきょうしつ", "二かいのきょうしつ", "三かいのとしょしつ", "四かいのとしょしつ"],
+    "answer": 2,
+    "expl_zh": "广播说「二かいの大きいきょうしつではありません。三かいのとしょしつでします」,所以在三楼图书室。「二かいのきょうしつ」是被否定的地点。",
+    "expl_en": "The film is shown in the third-floor library, not in the second-floor classroom."
+  },
+  {
+    "id": "n5-l19",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "すみません、このへんにゆうびんきょくはありますか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、あのかどを右にまがってください。", "はい、ゆうびんきょくへ行きます。", "いいえ、てがみを書きません。"],
+    "answer": 0,
+    "expl_zh": "对方问附近有没有邮局,应该回答位置「あのかどを右にまがってください」。另外两项是在说自己的行为,没有回答问题。",
+    "expl_en": "The person is asking where the post office is, so giving directions is the only fitting reply."
+  },
+  {
+    "id": "n5-l20",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "リーさん、しゅうまつは何をしましたか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["友だちとえいがを見ます。", "友だちとえいがを見ました。", "はい、しゅうまつです。"],
+    "answer": 1,
+    "expl_zh": "「何をしましたか」问的是过去做了什么,要用过去形「見ました」回答。「見ます」是将来,「はい、しゅうまつです」答非所问。",
+    "expl_en": "The question is in the past tense, so the past-tense reply is the right one."
+  },
+  {
+    "id": "n5-l21",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "田中さん、コーヒーをもういっぱいいかがですか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["いいえ、もうけっこうです。", "はい、どうぞ。", "コーヒーはおいしいですか。"],
+    "answer": 0,
+    "expl_zh": "「いかがですか」是在劝对方再喝一杯,礼貌拒绝说「いいえ、もうけっこうです」。「はい、どうぞ」是给别人东西时说的话,反问好不好喝也不合适。",
+    "expl_en": "When offered another cup, \"no thank you, I've had enough\" is the natural reply; \"here you are\" is what the giver would say."
+  },
+  {
+    "id": "n5-l22",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "すみません、ここにすわってもいいですか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["いいえ、すわりません。", "はい、いすがあります。", "はい、どうぞ。"],
+    "answer": 2,
+    "expl_zh": "对方在请求允许「すわってもいいですか」,同意时说「はい、どうぞ」。「すわりません」是在说自己不坐,「いすがあります」没有回答能不能坐。",
+    "expl_en": "He is asking permission to sit, so \"yes, go ahead\" is the right answer."
+  },
+  {
+    "id": "n5-l23",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "はじめまして。キムです。どうぞよろしく。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["おかげさまで、げんきです。", "こちらこそ、よろしくおねがいします。", "はい、いってきます。"],
+    "answer": 1,
+    "expl_zh": "初次见面对方说「どうぞよろしく」,要回答「こちらこそ、よろしくおねがいします」。「おかげさまで」是回答「お元気ですか」的,「いってきます」是出门时说的。",
+    "expl_en": "The standard reply to a first-meeting greeting is \"likewise, nice to meet you.\""
+  },
+  {
+    "id": "n5-l24",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "このしゅくだいは、いつまでに出しますか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["先週の月曜日に出しました。", "月曜日は休みです。", "来週の月曜日までです。"],
+    "answer": 2,
+    "expl_zh": "「いつまでに」问的是截止日期,回答「来週の月曜日までです」。「先週…出しました」是过去的事,「月曜日は休みです」没有回答期限。",
+    "expl_en": "The question asks for a deadline, so \"by next Monday\" is the only answer that fits."
+  },
+  {
+    "id": "n5-l25",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "すみません、ちょっとてつだってください。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、何でしょうか。", "いいえ、わかりません。", "はい、てつだいました。"],
+    "answer": 0,
+    "expl_zh": "被请求帮忙时,回答「はい、何でしょうか」表示愿意并询问内容。「わかりません」答非所问,「てつだいました」是过去形,不合语境。",
+    "expl_en": "When asked for help, \"sure, what is it?\" is the natural response."
+  },
+  {
+    "id": "n5-l26",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "今日はさむいですね。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、今日は火曜日です。", "ええ、ほんとうにさむいですね。", "ええ、あたたかいですね。"],
+    "answer": 1,
+    "expl_zh": "对方用「さむいですね」寻求共鸣,应该附和「ええ、ほんとうにさむいですね」。「あたたかいですね」意思相反,「火曜日です」与天气无关。",
+    "expl_en": "The remark invites agreement about the cold; \"warm\" contradicts it and \"Tuesday\" is unrelated."
+  },
+  {
+    "id": "n5-l27",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "朝、学校で先生に会いました。何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["おはようございます。", "おやすみなさい。", "ただいま。"],
+    "answer": 0,
+    "expl_zh": "情境是「朝、学校で先生に会いました」,早上见到老师要说「おはようございます」。「おやすみなさい」是睡前说的,「ただいま」是回家时说的。",
+    "expl_en": "The morning greeting to a teacher is おはようございます; the others are for bedtime and for coming home."
+  },
+  {
+    "id": "n5-l28",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "友だちにペンをかりました。かえします。何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["ペンをかしてください。", "ペンをかりてもいいですか。", "ペンをありがとうございました。"],
+    "answer": 2,
+    "expl_zh": "情境是「かえします」,还笔时要道谢「ありがとうございました」。「かしてください」和「かりてもいいですか」都是借笔时说的。",
+    "expl_en": "When returning the pen you thank your friend; the other two are what you say when borrowing."
+  },
+  {
+    "id": "n5-l29",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "店でセーターを見ています。ほかのいろがほしいです。店の人に何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["このいろはきれいですね。", "ほかのいろはありますか。", "このいろをください。"],
+    "answer": 1,
+    "expl_zh": "情境是「ほかのいろがほしいです」,要问店员「ほかのいろはありますか」。「このいろをください」是买这个颜色,「きれいですね」没有表达要求。",
+    "expl_en": "Wanting a different color, you ask the clerk whether other colors are available."
+  },
+  {
+    "id": "n5-l30",
+    "level": "N5",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "先生のへやに入ります。何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["いただきます。", "おじゃましました。", "しつれいします。"],
+    "answer": 2,
+    "expl_zh": "情境是「先生のへやに入ります」,进老师房间时说「しつれいします」。「いただきます」是吃饭前说的,「おじゃましました」是离开别人家时说的。",
+    "expl_en": "Entering a teacher's room calls for しつれいします; いただきます is said before eating and おじゃましました when leaving someone's home."
+  }
+]

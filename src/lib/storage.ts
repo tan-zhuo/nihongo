@@ -49,7 +49,7 @@ export interface NumbersRecord {
 export interface QuizRecord {
   ts: number
   level: Level | 'all'
-  section: 'all' | 'vocab' | 'grammar' | 'reading'
+  section: 'all' | 'vocab' | 'grammar' | 'reading' | 'listening'
   correct: number
   total: number
 }

@@ -9,7 +9,7 @@ const STATS: { n: string; key: string }[] = [
   { n: '104', key: 'lessons' },
   { n: '100', key: 'scenes' },
   { n: '608', key: 'grammar' },
-  { n: '507', key: 'questions' },
+  { n: '617', key: 'questions' },
 ]
 
 export default function Home() {

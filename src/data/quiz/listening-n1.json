@@ -1,0 +1,288 @@
+[
+  {
+    "id": "n1-l01",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "高橋さん、企画書の件、部長から戻ってきたよ。"},
+      {"s": "F", "t": "どうでしたか。"},
+      {"s": "M", "t": "方向性は悪くないって。ただ、市場規模の根拠が弱いって指摘があった。あと、競合の分析がうちの製品との比較になっていないって。"},
+      {"s": "F", "t": "市場規模のデータは調査会社のものを使ったんですが…。"},
+      {"s": "M", "t": "出典を明記して、推定の方法も一行添えておけば十分だと思う。競合のほうは、僕が営業から聞いた情報を持っているから、まとめて渡すよ。"},
+      {"s": "F", "t": "ありがとうございます。では、まず市場規模のところを直して、競合の比較は伊藤さんの資料を待ってからにします。"},
+      {"s": "M", "t": "うん。それと、再提出は木曜までだから、水曜の夕方には一度見せて。"},
+      {"s": "F", "t": "承知しました。"}
+    ],
+    "question": "女の人はこのあとまず何をしますか。",
+    "options": ["営業部に競合の情報を聞きに行く", "市場規模の出典と推定方法を書き加える", "競合製品との比較表を作る", "部長に企画書を再提出する"],
+    "answer": 1,
+    "expl_zh": "决定性的句子是「まず市場規模のところを直して、競合の比較は伊藤さんの資料を待ってからにします」。结合男方的「出典を明記して、推定の方法も一行添えておけば十分」，她首先要补写出处和推算方法。竞品信息由伊藤（男方）从营业部拿来并整理，比较表要等资料到了再做；再提交是周四前的最后一步。",
+    "expl_en": "She says she will first fix the market-size section, which the man defined as adding the source and estimation method. The competitor data is Ito's job, the comparison waits for his material, and resubmission comes last."
+  },
+  {
+    "id": "n1-l02",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "先生、論文の投稿先なんですが、A誌とB誌、どちらにすべきか迷っていまして。"},
+      {"s": "M", "t": "A誌は査読が厳しいが、通れば評価は高い。B誌は比較的早く結果が出る。君は来年の就職活動までに業績が欲しいんだろう？"},
+      {"s": "F", "t": "はい。ただ、内容的にはA誌の読者層のほうが合っているとも思うんです。"},
+      {"s": "M", "t": "だったら、まずA誌に出して、万一不採択なら修正してB誌に回す、という手もある。ただしA誌は結果が出るまで半年かかる。"},
+      {"s": "F", "t": "半年…。それだと就職活動には間に合いませんね。"},
+      {"s": "M", "t": "そうなる。業績を優先するか、内容の合う場所を優先するか。決めるのは君だ。"},
+      {"s": "F", "t": "…わかりました。今回は時期を優先します。原稿の書式を直しますので、もう一度見ていただけますか。"},
+      {"s": "M", "t": "B誌の書式だな。わかった、見よう。"}
+    ],
+    "question": "女の人は論文をどうすることにしましたか。",
+    "options": ["A誌に投稿し、結果を半年待つ", "A誌に出し、不採択ならB誌に回す", "B誌に投稿する", "就職活動が終わってから投稿する"],
+    "answer": 2,
+    "expl_zh": "关键是「今回は時期を優先します」和教授随后确认的「B誌の書式だな」。教授一开始说B誌「比較的早く結果が出る」，而A誌要等半年、「就職活動には間に合いません」，所以优先时间就是投B誌。「まずA誌に出して…B誌に回す」是教授提出但因耗时半年被放弃的方案。",
+    "expl_en": "Choosing 時期を優先 means picking the journal with the faster decision, journal B, and the professor confirms with B誌の書式だな. Submitting to A first was proposed but dropped because it takes six months."
+  },
+  {
+    "id": "n1-l03",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "来月の防災訓練ですが、参加者が年々減っているので、今年は何か手を打ちたいんです。"},
+      {"s": "F", "t": "高齢の方は参加されるんですが、若い世帯がほとんど来ませんね。"},
+      {"s": "M", "t": "回覧板だけだと目に入らないんでしょう。小学校と連携して、親子で参加できる形にしてはどうかと。"},
+      {"s": "F", "t": "いいですね。ただ、学校との調整は時間がかかりますよ。来月に間に合いますか。"},
+      {"s": "M", "t": "校長とは顔見知りなので、私が明日にでも話をしてみます。それで、佐々木さんにはSNSでの告知をお願いしたいんですが。"},
+      {"s": "F", "t": "告知文は作れますが、自治会の公式アカウントは今ありませんよね。"},
+      {"s": "M", "t": "それは私が市の担当に確認します。佐々木さんはまず文面の案を作っておいてください。"},
+      {"s": "F", "t": "わかりました。"}
+    ],
+    "question": "女の人はこのあと何をしますか。",
+    "options": ["小学校の校長に相談する", "市の担当者にアカウントについて確認する", "回覧板を各家庭に配る", "SNSの告知文の案を作る"],
+    "answer": 3,
+    "expl_zh": "分工在男方的「それは私が市の担当に確認します。佐々木さんはまず文面の案を作っておいてください」。女方（佐々木）负责起草SNS通知文案；与校长沟通和向市里确认账号都是男方「私が」承担的任务；回览板被认为效果不好，不是新的行动。",
+    "expl_en": "The man assigns himself the school principal and the city office, and tells Sasaki to draft the SNS announcement text first. The circular notice is what already fails to reach young families."
+  },
+  {
+    "id": "n1-l04",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "もしもし、編集部の中村です。原稿の進み具合はいかがでしょうか。"},
+      {"s": "M", "t": "すみません、実は取材先の都合で、最後の章だけ来週にずれそうなんです。"},
+      {"s": "F", "t": "来週ですか…。印刷所への入稿が月末ですので、校正の時間を考えると、正直かなり厳しいです。"},
+      {"s": "M", "t": "一章から四章までは今週中にお送りできます。先にそちらだけ校正に回していただけませんか。"},
+      {"s": "F", "t": "それなら何とか…。最終章は、遅くとも来週の水曜までにいただければ。"},
+      {"s": "M", "t": "水曜ですね。取材が月曜なので、火曜の夜には必ず。"},
+      {"s": "F", "t": "では、そのように印刷所にも伝えておきます。あと、写真のキャプションもまだでしたよね。"},
+      {"s": "M", "t": "あ、それは今日中にメールします。"}
+    ],
+    "question": "男の人は今週、何をしますか。",
+    "options": ["一章から四章の原稿とキャプションを送る", "最終章の原稿を送る", "印刷所に入稿の日程を伝える", "取材先に日程の変更を頼む"],
+    "answer": 0,
+    "expl_zh": "关键是「一章から四章までは今週中にお送りできます」和「（キャプションは）今日中にメールします」。本周他要交前四章和照片说明。最终章因采访在下周一，「火曜の夜には必ず」是下周；联系印刷厂是编辑「そのように印刷所にも伝えておきます」的事；采访日期的变更是既成事实，不是他要去请求的。",
+    "expl_en": "This week he sends chapters one to four and emails the photo captions today. The final chapter comes next Tuesday night, and informing the printer is the editor's task."
+  },
+  {
+    "id": "n1-l05",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "母のことでご相談なんですが、最近一人で入浴するのが難しくなってきたようで。"},
+      {"s": "F", "t": "そうですか。選択肢としては、週に数回デイサービスに通っていただいてそこで入浴されるか、ご自宅に訪問入浴の方に来てもらうか、ですね。"},
+      {"s": "M", "t": "本人は、人が家に来るのは気が進まないと言っています。ただ、デイサービスも最初は嫌がるんじゃないかと。"},
+      {"s": "F", "t": "一度体験利用ができますよ。それで様子を見てから決めるのも一つの方法です。"},
+      {"s": "M", "t": "なるほど。それじゃ、まずそれをお願いします。本人には私からうまく話しておきます。"},
+      {"s": "F", "t": "では、来週の空きを施設に確認して、ご連絡します。"},
+      {"s": "M", "t": "よろしくお願いします。"}
+    ],
+    "question": "男の人はまず何をしますか。",
+    "options": ["訪問入浴のサービスを申し込む", "母親にデイサービスの体験について話す", "施設に空きを問い合わせる", "母親を週に数回デイサービスに通わせる"],
+    "answer": 1,
+    "expl_zh": "决定性的句子是「まずそれをお願いします。本人には私からうまく話しておきます」。「それ」指日间照护的体验利用，而男方自己要做的是先向母亲说明。向机构确认空位是女方「施設に確認して、ご連絡します」的任务；上门洗浴因母亲「気が進まない」被排除；正式每周去几次要等体验后再定。",
+    "expl_en": "He asks for the trial day-service visit and says he himself will talk his mother round. Checking the facility's availability is the care manager's job, the home-visit service was rejected, and regular attendance is not decided yet."
+  },
+  {
+    "id": "n1-l06",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "昨夜の障害、原因はわかりましたか。"},
+      {"s": "M", "t": "サーバーの設定変更が引き金だったようです。すでに元に戻して、復旧はしています。"},
+      {"s": "F", "t": "お客様への説明はどうなっていますか。"},
+      {"s": "M", "t": "第一報は今朝出しました。詳しい報告書は、原因の確認が終わってからにしたいんですが。"},
+      {"s": "F", "t": "それは当然ね。ただ、問い合わせが来ているので、営業には今わかっている範囲で状況を共有しておいて。報告書は明日の午前中に私が確認するから、今日中にたたき台をください。"},
+      {"s": "M", "t": "わかりました。では、営業への共有を済ませてから、報告書に取りかかります。"},
+      {"s": "F", "t": "再発防止策は、技術部の全員で話し合ってから盛り込みましょう。それは来週で構いません。"}
+    ],
+    "question": "男の人はこのあとまず何をしますか。",
+    "options": ["サーバーの設定を元に戻す", "報告書のたたき台を書く", "技術部で再発防止策を話し合う", "営業部に現在の状況を共有する"],
+    "answer": 3,
+    "expl_zh": "顺序在男方的「営業への共有を済ませてから、報告書に取りかかります」。先向营业部共享现状，然后才写报告草稿。服务器设置「すでに元に戻して」已经完成；再发防止对策「来週で構いません」是下周的事。",
+    "expl_en": "He states the order himself: share the situation with sales first, then start on the report draft. The server rollback is already done, and the prevention discussion is next week."
+  },
+  {
+    "id": "n1-l07",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "ごみの問題というと、分別やリサイクルの話になりがちです。もちろんそれは大切なのですが、私はむしろ、リサイクルが「免罪符」になっていないかと問いたいのです。きちんと分別しているから、使い捨ての容器を使っても構わない。そう考える人は少なくありません。しかし、回収したプラスチックの多くは、実際には再生されずに燃やされているのが現状です。本当に必要なのは、出たごみをどう処理するかではなく、ごみになるものをいかに家に持ち込まないか、という発想の転換でしょう。"}
+    ],
+    "question": "この人が最も言いたいことは何ですか。",
+    "options": ["分別の仕方をもっと丁寧に教えるべきだ", "リサイクルに頼るより、ごみを出さない発想が必要だ", "プラスチックは燃やして処理するほうが効率的だ", "使い捨て容器を法律で禁止すべきだ"],
+    "answer": 1,
+    "expl_zh": "结论句是「本当に必要なのは、出たごみをどう処理するかではなく、ごみになるものをいかに家に持ち込まないか、という発想の転換でしょう」。「免罪符」指人们把回收当作使用一次性容器的借口。塑料被焚烧只是现状描述而非主张；讲话人也没有提到法律禁止或分类教育。",
+    "expl_en": "The speaker argues that recycling has become an excuse (免罪符) and calls for a shift toward not bringing future waste home at all. Burning plastic is cited as a problem, not a recommendation, and no ban or sorting education is proposed."
+  },
+  {
+    "id": "n1-l08",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "この商店街で五十年、お店を続けてこられたそうですね。"},
+      {"s": "M", "t": "ええ。昔は夕方になると歩けないほど人がいましたよ。"},
+      {"s": "F", "t": "郊外に大型店ができた影響が大きいとよく言われますが。"},
+      {"s": "M", "t": "それもあるでしょう。でもね、私はそれだけじゃないと思っているんです。店が代替わりしなかった。息子に継がせるのは気が引けるって、みんな自分の代で畳んでしまった。"},
+      {"s": "F", "t": "後継者の問題ですか。"},
+      {"s": "M", "t": "客が減ったから店が消えたんじゃなくて、店が減ったから客が来なくなった。順番が逆なんですよ。"},
+      {"s": "F", "t": "なるほど、そういう見方もあるんですね。"}
+    ],
+    "question": "男の人は商店街が衰退した一番の原因を何だと考えていますか。",
+    "options": ["店を継ぐ人がおらず店が減ったこと", "郊外に大型店ができたこと", "客の好みが変わったこと", "息子が店を継ぐのを拒んだこと"],
+    "answer": 0,
+    "expl_zh": "核心是「店が代替わりしなかった」和「店が減ったから客が来なくなった。順番が逆なんですよ」。他认为店主们没有让下一代接班，店铺减少才导致顾客流失。大型店的影响他只说「それもあるでしょう」，不是主因；拒绝接班的不是儿子，而是店主自己「継がせるのは気が引ける」没有让儿子继承。",
+    "expl_en": "He says shops closed because owners did not pass them on, and that fewer shops drove customers away, not the reverse. Big suburban stores are acknowledged only as a partial factor, and it was the owners, not the sons, who decided against succession."
+  },
+  {
+    "id": "n1-l09",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "来年度から全学年にタブレットが配られるそうですね。授業、変わりますか。"},
+      {"s": "F", "t": "変わるでしょうね。ただ、私は少し懐疑的なんです。"},
+      {"s": "M", "t": "道具が増えるのは、いいことじゃないですか。"},
+      {"s": "F", "t": "道具としては便利ですよ。でも「導入した」こと自体が成果のように語られるのが気になるんです。何のために使うのかが先に議論されないまま、配ることが目的になっている。"},
+      {"s": "M", "t": "確かに、使い方は現場任せですね。"},
+      {"s": "F", "t": "結局、紙でできることを画面に移すだけなら、生徒にとって何も変わらない。それならむしろ、ノートに手で書かせたほうが身につくことだってあります。"}
+    ],
+    "question": "女の人はタブレットの導入についてどう考えていますか。",
+    "options": ["道具として役に立たないので反対だ", "紙の教材を全面的に廃止すべきだ", "使い方は現場の教師に任せるべきだ", "目的を議論せずに導入すること自体が問題だ"],
+    "answer": 3,
+    "expl_zh": "关键句是「何のために使うのかが先に議論されないまま、配ることが目的になっている」。她并不否定平板作为工具（「道具としては便利ですよ」），而是质疑没有讨论目的就把发放当成成果。她最后反而说手写有时更有效，所以不可能主张废除纸质教材；「使い方は現場任せ」是男方指出的现状，她并未赞成。",
+    "expl_en": "She concedes tablets are useful tools but objects that distribution itself is treated as an achievement without first debating the purpose. She defends handwriting, so she is not against paper, and leaving usage to teachers is the status quo the man describes, not her proposal."
+  },
+  {
+    "id": "n1-l10",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "大手企業で導入が進む週休三日制について、民間の研究所が調査結果を発表しました。制度を導入した企業のおよそ七割で、従業員一人当たりの売上はほぼ変わらないか、むしろ増えていたということです。一方で、休みが増えた分を一日の労働時間を延ばして補う形にした企業では、疲労を訴える声がかえって多くなっていました。研究所は、制度の効果は休みの日数そのものではなく、業務の中身を見直したかどうかに左右されると分析しています。"}
+    ],
+    "question": "この調査から何がわかりましたか。",
+    "options": ["週休三日制を導入すると売上が必ず増える", "休みを増やすほど従業員の疲労は減る", "効果は業務の中身を見直したかどうかで変わる", "一日の労働時間を延ばせば生産性が上がる"],
+    "answer": 2,
+    "expl_zh": "结论在「制度の効果は休みの日数そのものではなく、業務の中身を見直したかどうかに左右される」。销售额只是「およそ七割で…ほぼ変わらないか、むしろ増えていた」，并非「必ず増える」；延长每日工时的企业「疲労を訴える声がかえって多く」，说明休假增加并不自动减少疲劳，延长工时也没有提高生产率。",
+    "expl_en": "The institute concludes the effect depends on whether work itself was redesigned, not on the number of days off. Sales rose or held steady in only about 70% of firms, and longer workdays actually increased fatigue complaints."
+  },
+  {
+    "id": "n1-l11",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "部長、先日提案した在庫管理システムの件、ご検討いただけましたか。"},
+      {"s": "M", "t": "ああ、読んだよ。よくできていると思う。…ただね、今の時期にこれを上に持っていくのは、どうかな。"},
+      {"s": "F", "t": "予算のことでしょうか。"},
+      {"s": "M", "t": "それもあるが、今、本社が全社の仕組みを見直している最中なんだ。ここで部単位で動くと、二重投資だと言われかねない。"},
+      {"s": "F", "t": "では、見送りということですか。"},
+      {"s": "M", "t": "いや、そうは言っていない。本社の方針が固まるのを待って、それに合わせた形で出し直せば、むしろ通りやすくなるんじゃないかと言っているんだ。"},
+      {"s": "F", "t": "なるほど。では、時期を見て改めてご相談します。"}
+    ],
+    "question": "男の人は何が言いたいのですか。",
+    "options": ["内容が不十分なので提案を作り直してほしい", "予算がないので提案は採用できない", "本社の方針を待って出し直したほうがよい", "部ではなく本社に直接提案したほうがよい"],
+    "answer": 2,
+    "expl_zh": "真意在「本社の方針が固まるのを待って、それに合わせた形で出し直せば、むしろ通りやすくなる」。「今の時期に…どうかな」是对时机而非内容的委婉保留；他明确说「よくできている」，也否定了「見送り」。预算只是「それもあるが」顺带一提，并不是拒绝的理由。",
+    "expl_en": "His hesitation (どうかな) is about timing: wait until head office fixes its policy, then resubmit in a matching form. He praises the proposal's quality, denies shelving it, and treats budget as only a secondary point."
+  },
+  {
+    "id": "n1-l12",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "去年、地方に移住したんでしょう？私も考えてるんだけど、どう？"},
+      {"s": "M", "t": "うーん、勧めるかと聞かれると、正直、人によるとしか言えないな。"},
+      {"s": "F", "t": "自然が豊かで、家賃も安いんでしょう？"},
+      {"s": "M", "t": "そこは期待どおりだよ。ただ、仕事の選択肢が少ないのは覚悟したほうがいい。僕はリモートで前の会社の仕事を続けているから何とかなっているけど。"},
+      {"s": "F", "t": "地域の人との付き合いは？"},
+      {"s": "M", "t": "温かいよ。でも、その分、距離感が近い。都会の匿名性が恋しくなる瞬間はあるね。まあ、何を手放せるかを先に考えておくことかな。"}
+    ],
+    "question": "男の人は地方への移住についてどう思っていますか。",
+    "options": ["良い面もあるが、何を手放せるか考えて決めるべきだ", "自然や家賃は期待外れだったので勧めない", "仕事さえあれば誰にとっても良い選択だ", "人との距離が近すぎて移住を後悔している"],
+    "answer": 0,
+    "expl_zh": "他的态度集中在「人によるとしか言えない」和结尾的「何を手放せるかを先に考えておくことかな」。他承认自然和房租「期待どおり」，人际关系「温かい」，但也指出工作选择少、距离感近等代价，并没有说后悔，也没有说只要有工作就适合所有人。",
+    "expl_en": "He refuses to recommend it outright (人による) and advises deciding what you can give up first. Nature and rent met his expectations and he does not express regret, so the other options overstate either the negatives or the positives."
+  },
+  {
+    "id": "n1-l13",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "先日の件、お手数をおかけしましたが、おかげさまで何とか収まりました。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["そうですか、それはお気の毒に。", "いえ、まだ収まっていないようですが。", "いえ、お役に立てたなら何よりです。"],
+    "answer": 2,
+    "expl_zh": "「おかげさまで何とか収まりました」是在报告问题已解决并致谢，正确回应是谦虚地表示高兴的「お役に立てたなら何よりです」。「お気の毒に」用于表示同情，与好消息不符；选项2否定了对方的说法，既不合逻辑也失礼。",
+    "expl_en": "The speaker is thanking you and reporting that the matter was settled, so the natural reply is modest pleasure at having helped. お気の毒に expresses sympathy for bad news, and contradicting him is both illogical and rude."
+  },
+  {
+    "id": "n1-l14",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "この企画、正直なところ、私はまだ腑に落ちないんですが。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["どの点がご懸念でしょうか。改めてご説明します。", "それはよかったです。安心いたしました。", "ええ、私もすっかり腑に落ちました。"],
+    "answer": 0,
+    "expl_zh": "「腑に落ちない」意为无法信服、想不通。对方表示仍有疑虑，恰当的回应是询问具体顾虑并再作说明。「それはよかったです」把疑虑当成了好消息；「私も腑に落ちました」误把惯用语理解成了相反的意思。",
+    "expl_en": "腑に落ちない means 'I'm not convinced', so you should ask what concerns her and offer to explain again. The other replies treat her doubt as good news or misread the idiom as agreement."
+  },
+  {
+    "id": "n1-l15",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "会議で、上司の意見とは違う考えを述べたいです。何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["それは違うと思いますけど。", "差し出がましいようですが、別の見方もあるかと存じます。", "おっしゃるとおりで、異論はございません。"],
+    "answer": 1,
+    "expl_zh": "在会议上对上司提出不同意见，要先用「差し出がましいようですが」这样的缓冲语再表达，正确的是选项2。「それは違うと思いますけど」过于直接、不够礼貌；「異論はございません」表示完全赞同，与想表达的意思相反。",
+    "expl_en": "Disagreeing with a superior calls for a softening preface such as 差し出がましいようですが before offering another view. それは違うと思いますけど is too blunt, and 異論はございません expresses agreement."
+  },
+  {
+    "id": "n1-l16",
+    "level": "N1",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "取引先との会食の途中で、先に帰らなければならなくなりました。何と言いますか。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["じゃ、お先に失礼しまーす。", "皆さん、お先にどうぞお帰りください。", "申し訳ありません、中座させていただきます。"],
+    "answer": 2,
+    "expl_zh": "在与客户的聚餐中途离席，应当道歉并使用「中座させていただきます」这样的正式表达。「お先に失礼しまーす」语气太随便，不适合对客户；「お先にどうぞお帰りください」是让别人先回去，意思完全相反。",
+    "expl_en": "Leaving a business dinner early calls for an apology plus the formal 中座させていただきます. The drawn-out 失礼しまーす is too casual for clients, and telling everyone else to go home first reverses the meaning."
+  }
+]

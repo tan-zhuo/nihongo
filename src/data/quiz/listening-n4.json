@@ -1,0 +1,428 @@
+[
+  {
+    "id": "n4-l01",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "田中さん、この書類、十部コピーしてくれる？"},
+      {"s": "M", "t": "はい。すぐやります。会議は三時からですよね。"},
+      {"s": "F", "t": "うん。あ、でもコピーの前に、二ページ目の日付を直してほしいの。来週じゃなくて今週の金曜日。"},
+      {"s": "M", "t": "わかりました。直してからコピーします。"},
+      {"s": "F", "t": "お願い。終わったら会議室に持ってきて。"}
+    ],
+    "question": "男の人はまず何をしますか。",
+    "options": ["書類の日付を直す", "書類をコピーする", "会議室に書類を持っていく", "会議の時間を変える"],
+    "answer": 0,
+    "expl_zh": "关键句是「コピーの前に、二ページ目の日付を直してほしいの」，所以男的要先改日期。复印和送到会议室都是之后的事，会议时间并没有改变。",
+    "expl_en": "The woman says to fix the date on page two before copying, so fixing the date comes first; copying and bringing the papers to the meeting room come later."
+  },
+  {
+    "id": "n4-l02",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "山本さん、今日は初めてだから、まずレジのやり方を教えます。"},
+      {"s": "F", "t": "はい、お願いします。"},
+      {"s": "M", "t": "その前に、制服に着替えてきてください。ロッカーは奥にあります。"},
+      {"s": "F", "t": "わかりました。掃除もしますか。"},
+      {"s": "M", "t": "掃除は夕方、ほかの人がやるから大丈夫。"}
+    ],
+    "question": "女の人はこれから何をしますか。",
+    "options": ["レジのやり方を習う", "店の掃除をする", "制服に着替える", "ロッカーを片付ける"],
+    "answer": 2,
+    "expl_zh": "店长说「その前に、制服に着替えてきてください」，所以先换制服。学收银是换完衣服之后的事，打扫由别人在傍晚做，整理储物柜没有提到。",
+    "expl_en": "Before learning the register she is told to change into her uniform first. Cleaning will be done by someone else in the evening."
+  },
+  {
+    "id": "n4-l03",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "引っ越し、明日だね。本はもう箱に入れた？"},
+      {"s": "M", "t": "うん、本と服は入れたよ。お皿がまだ。"},
+      {"s": "F", "t": "お皿は割れやすいから、新聞紙で包んでから入れてね。"},
+      {"s": "M", "t": "新聞紙がないよ。"},
+      {"s": "F", "t": "じゃ、私がコンビニで買ってくるから、先にテレビのコードを外しておいて。"},
+      {"s": "M", "t": "わかった。"}
+    ],
+    "question": "男の人はこれから何をしますか。",
+    "options": ["本を箱に入れる", "お皿を新聞紙で包む", "新聞紙を買いに行く", "テレビのコードを外す"],
+    "answer": 3,
+    "expl_zh": "女的说「私がコンビニで買ってくるから、先にテレビのコードを外しておいて」，所以男的先拔电视线。书已经装好，报纸由女的去买，包盘子要等报纸买回来。",
+    "expl_en": "The woman will buy the newspaper herself and tells him to unplug the TV cords first. The books are already packed and the plates must wait for the newspaper."
+  },
+  {
+    "id": "n4-l04",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "来週の京都旅行、何を持っていけばいい？"},
+      {"s": "F", "t": "カメラは私が持っていくから、いらないよ。お弁当も駅で買おう。"},
+      {"s": "M", "t": "傘は？"},
+      {"s": "F", "t": "天気予報では晴れだから、傘もいらないと思う。でも、お寺はたくさん歩くから、歩きやすい靴は絶対に必要。"},
+      {"s": "M", "t": "わかった。じゃ、新しい靴を買っておくよ。"}
+    ],
+    "question": "男の人は何を持っていきますか。",
+    "options": ["傘", "カメラ", "お弁当", "歩きやすい靴"],
+    "answer": 3,
+    "expl_zh": "关键句是「歩きやすい靴は絶対に必要」。相机由女的带，便当在车站买，天气预报是晴天所以不用带伞。",
+    "expl_en": "Comfortable shoes are the one thing she says is absolutely necessary. She will bring the camera, lunch will be bought at the station, and no umbrella is needed because it will be sunny."
+  },
+  {
+    "id": "n4-l05",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "佐藤さん、診察が終わりましたので、こちらで少しお待ちください。"},
+      {"s": "M", "t": "はい。お金はここで払いますか。"},
+      {"s": "F", "t": "いえ、お会計は一階の窓口です。その前にお薬の説明がありますので、名前を呼ばれたら三番の部屋に入ってください。"},
+      {"s": "M", "t": "三番の部屋ですね。"},
+      {"s": "F", "t": "はい。お会計はその後でお願いします。"}
+    ],
+    "question": "男の人は次に何をしますか。",
+    "options": ["三番の部屋で薬の説明を聞く", "一階でお金を払う", "もう一度診察を受ける", "薬局で薬を買う"],
+    "answer": 0,
+    "expl_zh": "护士说「その前にお薬の説明がありますので、名前を呼ばれたら三番の部屋に入ってください」，所以下一步是去三号房间听用药说明。付钱是在那之后，诊察已经结束，买药没有提到。",
+    "expl_en": "Before paying, he is told to go to room 3 for the medicine explanation when his name is called. Payment at the first-floor counter comes after that."
+  },
+  {
+    "id": "n4-l06",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "もしもし、鈴木さん？明日、駅の前で待ち合わせだったけど、駅の前は工事で入れないんだって。"},
+      {"s": "F", "t": "そうなの？じゃ、どこにする？"},
+      {"s": "M", "t": "駅の中の本屋はどう？"},
+      {"s": "F", "t": "本屋は日曜日は休みだよ。南口のコンビニの前はどう？"},
+      {"s": "M", "t": "いいね。じゃ、そこで十時に。"}
+    ],
+    "question": "二人は明日どこで会いますか。",
+    "options": ["駅の前", "駅の中の本屋", "南口のコンビニの前", "南口の喫茶店"],
+    "answer": 2,
+    "expl_zh": "女的提议「南口のコンビニの前はどう？」，男的回答「いいね」，所以在南口便利店前见。车站前因施工进不去，书店周日休息，咖啡店没有提到。",
+    "expl_en": "The man agrees to the woman's suggestion of the convenience store at the south exit. The station front is closed for construction and the bookshop is shut on Sundays."
+  },
+  {
+    "id": "n4-l07",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "金曜日のパーティー、飲み物は私が買うね。"},
+      {"s": "M", "t": "ありがとう。ケーキは山田さんが作ってくれるって。"},
+      {"s": "F", "t": "じゃ、紙のお皿とコップも買っておく？"},
+      {"s": "M", "t": "コップはうちにたくさんあるから、お皿だけでいいよ。"},
+      {"s": "F", "t": "わかった。飲み物とお皿ね。"}
+    ],
+    "question": "女の人は何を買いますか。",
+    "options": ["飲み物とケーキ", "お皿とコップ", "ケーキとコップ", "飲み物とお皿"],
+    "answer": 3,
+    "expl_zh": "最后女的确认「飲み物とお皿ね」。蛋糕由山田做，杯子家里有很多所以不用买。",
+    "expl_en": "She confirms she will buy drinks and plates. Yamada is making the cake and there are already plenty of cups at home."
+  },
+  {
+    "id": "n4-l08",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "すみません、ハンバーグ定食をお願いします。"},
+      {"s": "F", "t": "申し訳ありません。ハンバーグは売り切れてしまいました。"},
+      {"s": "M", "t": "じゃあ、カレーで。あ、辛いのはちょっと…。"},
+      {"s": "F", "t": "カレーは甘口もございます。"},
+      {"s": "M", "t": "うーん、やっぱり魚の定食にします。それと、コーヒーを食後に。"}
+    ],
+    "question": "男の人は何を注文しましたか。",
+    "options": ["ハンバーグ定食とコーヒー", "魚の定食とコーヒー", "甘口のカレーとコーヒー", "魚の定食と紅茶"],
+    "answer": 1,
+    "expl_zh": "男的最后说「やっぱり魚の定食にします。それと、コーヒーを食後に」。汉堡排卖完了，咖喱虽然有甜口但他改变主意没点，红茶没有提到。",
+    "expl_en": "He finally settles on the fish set meal with coffee after the meal. The hamburger steak is sold out and he decides against the curry even though a mild version exists."
+  },
+  {
+    "id": "n4-l09",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "M", "t": "明日は工場見学です。お弁当と飲み物を持ってきてください。"},
+      {"s": "F", "t": "先生、教科書もいりますか。"},
+      {"s": "M", "t": "教科書はいりません。でも、メモを取るので、ノートとペンは必要です。"},
+      {"s": "F", "t": "カメラはいいですか。"},
+      {"s": "M", "t": "工場の中では写真が撮れないので、持ってこないでください。"}
+    ],
+    "question": "学生は明日何を持っていきますか。",
+    "options": ["お弁当とノート", "お弁当と教科書", "教科書とカメラ", "ノートとカメラ"],
+    "answer": 0,
+    "expl_zh": "老师说要带「お弁当と飲み物」，又说「ノートとペンは必要です」。教科书不用带，工厂里不能拍照所以相机也不能带。",
+    "expl_en": "Students must bring lunch and drinks plus a notebook and pen. Textbooks are not needed and cameras are not allowed inside the factory."
+  },
+  {
+    "id": "n4-l10",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-task",
+    "script": [
+      {"s": "F", "t": "すみません、横浜に行きたいんですが、この電車でいいですか。"},
+      {"s": "M", "t": "この電車は急行で、横浜には止まりません。次の各駅停車に乗ってください。"},
+      {"s": "F", "t": "次の電車は何番線ですか。"},
+      {"s": "M", "t": "同じホームの反対側、二番線です。十分後に来ます。"},
+      {"s": "F", "t": "ありがとうございます。"}
+    ],
+    "question": "女の人はどうしますか。",
+    "options": ["この急行に乗る", "一番線で急行を待つ", "隣の駅まで歩く", "二番線で次の各駅停車を待つ"],
+    "answer": 3,
+    "expl_zh": "站务员说「次の各駅停車に乗ってください」「二番線です。十分後に来ます」，所以她在二号线等下一班普通车。眼前这班是不停横滨的快车，不能坐。",
+    "expl_en": "The staff member tells her to take the next local train from platform 2 in ten minutes. The current train is an express that does not stop at Yokohama."
+  },
+  {
+    "id": "n4-l11",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "ご案内いたします。十時三十分発、札幌行きの飛行機は、機体の点検のため、出発が十一時十五分に変わりました。また、搭乗口は十二番から十八番に変わりました。お客様は十八番搭乗口へお越しください。"}
+    ],
+    "question": "札幌行きの飛行機は何番の搭乗口から出発しますか。",
+    "options": ["十八番", "十二番", "十五番", "十番"],
+    "answer": 0,
+    "expl_zh": "广播说「搭乗口は十二番から十八番に変わりました」，所以从18号登机口出发。12号是原来的登机口，15和10来自时间「十一時十五分」「十時三十分」的干扰。",
+    "expl_en": "The gate has changed from 12 to 18, so the flight now leaves from gate 18. Gate 12 was the original gate; 15 and 10 echo the departure times."
+  },
+  {
+    "id": "n4-l12",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "中村さん、遅かったね。電車が遅れたの？"},
+      {"s": "F", "t": "いえ、電車は時間通りだったんですが、駅で財布を落としてしまって。"},
+      {"s": "M", "t": "ええ、大変。見つかった？"},
+      {"s": "F", "t": "はい、駅員さんが拾ってくれていました。でも、それで三十分かかってしまいました。すみません。"},
+      {"s": "M", "t": "無事でよかったよ。"}
+    ],
+    "question": "女の人はどうして遅れましたか。",
+    "options": ["電車が遅れたから", "財布を落として探していたから", "寝坊したから", "駅で友だちに会ったから"],
+    "answer": 1,
+    "expl_zh": "女的说「駅で財布を落としてしまって」「それで三十分かかってしまいました」，迟到是因为丢了钱包。电车是准时的，睡过头和遇到朋友都没有提到。",
+    "expl_en": "She dropped her wallet at the station and it took thirty minutes to get it back. The train was on time, so that option is wrong."
+  },
+  {
+    "id": "n4-l13",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "夏休みは沖縄に行くんだって？"},
+      {"s": "M", "t": "うん。最初は二泊三日の予定だったんだけど、安い飛行機があったから、一日増やして三泊にしたよ。"},
+      {"s": "F", "t": "いいね。ホテルは？"},
+      {"s": "M", "t": "二日目までホテルで、最後の夜は友だちの家に泊まる。"}
+    ],
+    "question": "男の人は沖縄に何泊しますか。",
+    "options": ["一泊", "二泊", "三泊", "四泊"],
+    "answer": 2,
+    "expl_zh": "男的说「一日増やして三泊にしたよ」，所以住三晚。两晚是最初的计划；酒店住两晚、朋友家住一晚，合计仍是三晚。",
+    "expl_en": "He added a day to the original two-night plan, making it three nights: two at a hotel and the last one at a friend's house."
+  },
+  {
+    "id": "n4-l14",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "こちらがお薬です。白い薬は朝と夜、食事の後に一つずつ飲んでください。"},
+      {"s": "M", "t": "一日二回ですね。この黄色いのは？"},
+      {"s": "F", "t": "黄色いのは痛い時だけ飲んでください。一日に三回までです。"},
+      {"s": "M", "t": "寝る前にも飲んだほうがいいですか。"},
+      {"s": "F", "t": "痛くなければ、飲まなくていいです。"}
+    ],
+    "question": "白い薬は一日に何回飲みますか。",
+    "options": ["一回", "二回", "三回", "痛い時だけ"],
+    "answer": 1,
+    "expl_zh": "药剂师说「白い薬は朝と夜、食事の後に一つずつ」，男的确认「一日二回ですね」。一天最多三次和只在疼的时候吃说的都是黄色的药。",
+    "expl_en": "The white pill is taken after breakfast and dinner, twice a day. 'Up to three times' and 'only when it hurts' refer to the yellow pill."
+  },
+  {
+    "id": "n4-l15",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "N", "t": "学生の皆さんにお知らせします。明日の漢字テストは、三階の教室ではなく、二階の大きい教室で行います。時間は変わらず、九時からです。辞書は使えませんので、鉛筆と消しゴムだけ持ってきてください。"}
+    ],
+    "question": "明日のテストについて、何が変わりましたか。",
+    "options": ["テストの時間", "テストの日", "テストの教室", "持ってくる物"],
+    "answer": 2,
+    "expl_zh": "广播说「三階の教室ではなく、二階の大きい教室で行います」，改变的是考试教室。时间「変わらず、九時から」，日期没有变，带的东西只是说明而不是变更。",
+    "expl_en": "The test has moved from a third-floor classroom to the large room on the second floor. The time is explicitly unchanged, and the date is not altered."
+  },
+  {
+    "id": "n4-l16",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "明日の映画、何時に待ち合わせする？映画は七時からだよ。"},
+      {"s": "F", "t": "六時半はどう？"},
+      {"s": "M", "t": "うーん、ちょっと早く行って、チケットを買っておきたいから、六時にしない？"},
+      {"s": "F", "t": "六時だと仕事が終わらないかも。六時十五分なら大丈夫。"},
+      {"s": "M", "t": "じゃ、それで。"}
+    ],
+    "question": "二人は何時に会いますか。",
+    "options": ["六時", "六時十五分", "六時半", "七時"],
+    "answer": 1,
+    "expl_zh": "女的说「六時十五分なら大丈夫」，男的回答「じゃ、それで」，所以六点十五分见。六点半是最初提议，六点女的工作可能结束不了，七点是电影开始时间。",
+    "expl_en": "They settle on 6:15, which the woman says works for her. 6:30 was the first suggestion, 6:00 is too early for her, and 7:00 is when the film starts."
+  },
+  {
+    "id": "n4-l17",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "F", "t": "大山さん、引っ越すんですか。今のアパート、駅に近くて便利なのに。"},
+      {"s": "M", "t": "ええ。会社が来月、大阪に移ることになったんです。"},
+      {"s": "F", "t": "ああ、それで。家賃が高いからだと思いました。"},
+      {"s": "M", "t": "家賃はそんなに高くなかったんですけどね。"}
+    ],
+    "question": "男の人はどうして引っ越しますか。",
+    "options": ["家賃が高いから", "駅から遠いから", "部屋が狭いから", "会社が大阪に移るから"],
+    "answer": 3,
+    "expl_zh": "男的说「会社が来月、大阪に移ることになったんです」，搬家是因为公司迁到大阪。房租他说并不贵，现在的公寓离车站很近，房间大小没有提到。",
+    "expl_en": "He is moving because his company is relocating to Osaka next month. He denies that the rent is high, and the current flat is close to the station."
+  },
+  {
+    "id": "n4-l18",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-point",
+    "script": [
+      {"s": "M", "t": "すみません、このパン屋さん、休みの日はいつですか。"},
+      {"s": "F", "t": "今までは毎週火曜日が休みだったんですが、今月から水曜日に変わりました。"},
+      {"s": "M", "t": "水曜日ですか。日曜日は開いていますか。"},
+      {"s": "F", "t": "はい、日曜日も祝日も開いています。"}
+    ],
+    "question": "このパン屋は今、何曜日が休みですか。",
+    "options": ["水曜日", "火曜日", "日曜日", "祝日"],
+    "answer": 0,
+    "expl_zh": "店员说「今月から水曜日に変わりました」，现在周三休息。周二是以前的休息日，周日和节假日都营业。",
+    "expl_en": "The closing day changed from Tuesday to Wednesday this month. The shop is open on Sundays and public holidays."
+  },
+  {
+    "id": "n4-l19",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "すみません、この辺に郵便局はありますか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、あの角を右に曲がるとありますよ。", "はい、郵便局で切手を買いました。", "いいえ、手紙はまだ出していません。"],
+    "answer": 0,
+    "expl_zh": "对方问「この辺に郵便局はありますか」是在问路，应告诉她郵便局在哪里。另外两个选项说的是自己买邮票、寄信，答非所问。",
+    "expl_en": "She is asking where a post office is, so giving directions is the natural reply. The other options talk about buying stamps or sending letters, which do not answer the question."
+  },
+  {
+    "id": "n4-l20",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "荷物、重そうですね。持ちましょうか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、持ってきました。", "すみません、お願いします。", "いいえ、持っていません。"],
+    "answer": 1,
+    "expl_zh": "「持ちましょうか」是提出帮忙拿行李，接受时说「すみません、お願いします」。「持ってきました」「持っていません」都是回答“带了没带”，与帮忙无关。",
+    "expl_en": "持ちましょうか is an offer to carry the bag, so the reply accepts with お願いします. The other two answer whether something was brought, not the offer."
+  },
+  {
+    "id": "n4-l21",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "来週の土曜日、暇だったら、一緒に映画を見に行かない？"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["土曜日は映画を見ました。", "うん、暇じゃなかったよ。", "いいね。何時に行く？"],
+    "answer": 2,
+    "expl_zh": "「映画を見に行かない？」是邀请，回答「いいね。何時に行く？」表示接受并约时间。选项1用了过去形说已经看了，选项2说“不空”却用「うん」肯定，前后矛盾且是过去时。",
+    "expl_en": "The woman is inviting him to a film next Saturday, so accepting and asking what time is the right reply. The other two use the past tense about a future plan and do not make sense."
+  },
+  {
+    "id": "n4-l22",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "M", "t": "お先に失礼します。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["お疲れさまでした。", "いらっしゃいませ。", "お邪魔しました。"],
+    "answer": 0,
+    "expl_zh": "「お先に失礼します」是下班先走时的寒暄，留下的人回答「お疲れさまでした」。「いらっしゃいませ」是迎客用语，「お邪魔しました」是自己离开别人家时说的。",
+    "expl_en": "When a colleague leaves work first with お先に失礼します, the standard reply is お疲れさまでした. いらっしゃいませ greets customers and お邪魔しました is said by a guest leaving someone's home."
+  },
+  {
+    "id": "n4-l23",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-response",
+    "script": [
+      {"s": "F", "t": "このペン、ちょっと借りてもいいですか。"}
+    ],
+    "question": "この人に何と答えますか。",
+    "options": ["はい、借りました。", "ええ、どうぞ使ってください。", "いいえ、貸してください。"],
+    "answer": 1,
+    "expl_zh": "「借りてもいいですか」是请求借用，同意时说「ええ、どうぞ使ってください」。「借りました」是说自己借了，「貸してください」反而是向对方借，方向都错了。",
+    "expl_en": "She asks permission to borrow the pen, so the reply grants it with どうぞ使ってください. The other two reverse who is lending and borrowing."
+  },
+  {
+    "id": "n4-l24",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "友だちの家で晩ご飯をごちそうになりました。食べ終わって、これから帰ります。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["ごちそうさまでした。", "いただきます。", "おかげさまで。"],
+    "answer": 0,
+    "expl_zh": "吃完别人请的饭要说「ごちそうさまでした」表示感谢。「いただきます」是开饭前说的，「おかげさまで」是回答对方问候时表示“多亏您”的说法。",
+    "expl_en": "After being treated to a meal you say ごちそうさまでした. いただきます is said before eating, and おかげさまで means 'thanks to you' in reply to a greeting."
+  },
+  {
+    "id": "n4-l25",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "電車の中で、おばあさんが立っています。自分の席をゆずりたいです。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["ここに座ってもいいですか。", "どうぞ、座ってください。", "座らないでください。"],
+    "answer": 1,
+    "expl_zh": "让座时对老人说「どうぞ、座ってください」。「座ってもいいですか」是自己想坐时请求许可，「座らないでください」是禁止对方坐，意思相反。",
+    "expl_en": "To offer your seat you say どうぞ、座ってください. 座ってもいいですか asks permission for yourself to sit, and 座らないでください tells someone not to sit."
+  },
+  {
+    "id": "n4-l26",
+    "level": "N4",
+    "section": "listening",
+    "type": "listening-expression",
+    "script": [
+      {"s": "N", "t": "会社で、隣の席の人が電話で話しています。声が大きくて、仕事ができません。"}
+    ],
+    "question": "何と言いますか。",
+    "options": ["もっと大きい声で話してください。", "電話を貸してください。", "すみません、もう少し静かに話してもらえませんか。"],
+    "answer": 2,
+    "expl_zh": "想请同事小声一点，要用委婉的请求「もう少し静かに話してもらえませんか」。「大きい声で」正好相反，「電話を貸して」是借电话，与情况无关。",
+    "expl_en": "You politely ask the colleague to speak a little more quietly with 〜てもらえませんか. Asking them to speak louder is the opposite, and asking to borrow the phone is unrelated."
+  }
+]
