@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { themeColor } from '../lib/theme'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { allCells, conversionOptions, type KanaCell, type KanaSection } from '../data/kana'
@@ -69,7 +70,7 @@ function WritingPad({ ghost }: { ghost: string | null }) {
 
     // 田字格 guide lines
     ctx.save()
-    ctx.strokeStyle = '#e7e5e4'
+    ctx.strokeStyle = themeColor('stone-200')
     ctx.lineWidth = 1
     ctx.setLineDash([5, 6])
     ctx.beginPath()
@@ -80,7 +81,7 @@ function WritingPad({ ghost }: { ghost: string | null }) {
     ctx.stroke()
     ctx.restore()
 
-    ctx.strokeStyle = '#1c1917'
+    ctx.strokeStyle = themeColor('ink')
     ctx.lineWidth = Math.max(4, box.w * 0.035)
     ctx.lineCap = 'round'
     ctx.lineJoin = 'round'
@@ -94,6 +95,12 @@ function WritingPad({ ghost }: { ghost: string | null }) {
     }
   }, [strokes, box])
 
+  // Canvas colours are read from the theme at draw time; repaint on a switch.
+  useEffect(() => {
+    window.addEventListener('themechange', redraw)
+    return () => window.removeEventListener('themechange', redraw)
+  }, [redraw])
+
   useEffect(redraw, [redraw])
 
   const pointOf = (e: React.PointerEvent<HTMLCanvasElement>): Point => {
@@ -105,7 +112,7 @@ function WritingPad({ ghost }: { ghost: string | null }) {
     <div className="relative mx-auto aspect-square w-full max-w-[16rem]">
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 h-full w-full cursor-crosshair touch-none rounded-2xl border border-stone-200 bg-white"
+        className="absolute inset-0 h-full w-full cursor-crosshair touch-none rounded-2xl border border-stone-200 bg-surface"
         onPointerDown={(e) => {
           e.currentTarget.setPointerCapture(e.pointerId)
           current.current = [pointOf(e)]
@@ -384,7 +391,7 @@ export default function KanaConvert() {
                   <button
                     key={c.r[0] + c.h}
                     onClick={() => speakKana(answer(c), c.r[0], KANA_AUDIO)}
-                    className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 font-serif text-lg"
+                    className="rounded-lg border border-stone-200 bg-surface px-3 py-1.5 font-serif text-lg"
                   >
                     {source(c)} → <span className="font-bold text-accent-deep">{answer(c)}</span>
                     <span className="ml-1.5 font-sans text-[11px] text-stone-400">{c.r[0]}</span>
@@ -442,12 +449,12 @@ export default function KanaConvert() {
                   const isAnswer = answer(o) === answer(cell)
                   const isPicked = picked !== null && answer(o) === answer(picked)
                   const state = !revealed
-                    ? 'border-stone-200 bg-white hover:-translate-y-0.5 hover:border-accent hover:shadow-lift'
+                    ? 'border-stone-200 bg-surface hover:-translate-y-0.5 hover:border-accent hover:shadow-lift'
                     : isAnswer
                       ? 'border-emerald-400 bg-emerald-50 text-emerald-700'
                       : isPicked
                         ? 'border-red-300 bg-red-50 text-red-600'
-                        : 'border-stone-200 bg-white opacity-40'
+                        : 'border-stone-200 bg-surface opacity-40'
                   return (
                     <button
                       key={answer(o)}

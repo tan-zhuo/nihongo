@@ -288,7 +288,7 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
                         }`
                       : mode === 'type'
                         ? 'border-emerald-300 bg-emerald-50/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-emerald-800 hover:border-emerald-500'
-                        : 'border-stone-300/80 bg-white/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-ink hover:border-accent-dark hover:text-accent-deep'
+                        : 'border-stone-300/80 bg-surface/95 px-[0.7em] py-[0.15em] text-[clamp(9px,1.7vw,15px)] font-medium text-ink hover:border-accent-dark hover:text-accent-deep'
                 }`}
                 title={blank ? undefined : `${w.r} · ${zhFirst ? w.zh : w.en}`}
                 aria-label={blank ? undefined : w.w}

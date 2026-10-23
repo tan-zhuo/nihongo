@@ -114,11 +114,11 @@ export default function WordChoice({ questions, zhFirst, onFinish }: Props) {
           {q.options.map((opt, i) => {
             const isAnswer = i === q.answer
             const isPicked = i === picked
-            let cls = 'border-stone-200 bg-white hover:border-accent hover:bg-accent-light/40'
+            let cls = 'border-stone-200 bg-surface hover:border-accent hover:bg-accent-light/40'
             if (picked !== null) {
               if (isAnswer) cls = 'border-emerald-400 bg-emerald-50 text-emerald-800'
               else if (isPicked) cls = 'border-red-300 bg-red-50 text-red-700'
-              else cls = 'border-stone-200 bg-white text-stone-400'
+              else cls = 'border-stone-200 bg-surface text-stone-400'
             }
             return (
               <button

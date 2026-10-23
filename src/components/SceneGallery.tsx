@@ -92,7 +92,7 @@ export default function SceneGallery() {
           >
             <div className="relative">
               <SceneThumb id={s.id} />
-              <span className="absolute left-2 top-2 rounded-md bg-white/85 px-1.5 py-0.5 font-serif text-[10px] font-semibold text-accent-deep backdrop-blur">
+              <span className="absolute left-2 top-2 rounded-md bg-surface/85 px-1.5 py-0.5 font-serif text-[10px] font-semibold text-accent-deep backdrop-blur">
                 {GROUP_MARK[s.group]} · {s.n}
               </span>
               {seen.has(s.id) && (

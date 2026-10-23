@@ -28,14 +28,14 @@
   /* Thin, overlay-ish scrollbars like macOS. */
   * {
     scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+    scrollbar-color: rgb(var(--c-fill) / 0.2) transparent;
   }
   *::-webkit-scrollbar {
     width: 8px;
     height: 8px;
   }
   *::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.18);
+    background: rgb(var(--c-fill) / 0.2);
     border-radius: 999px;
     border: 2px solid transparent;
     background-clip: padding-box;
@@ -55,12 +55,12 @@
 
   /* Frosted glass — the material of every bar, sheet and menu. */
   .glass {
-    background-color: rgba(255, 255, 255, 0.72);
+    background-color: var(--glass);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
   .glass-paper {
-    background-color: rgba(245, 245, 247, 0.78);
+    background-color: var(--glass-paper);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
@@ -72,14 +72,14 @@
 
   /* Hairline: a 1px line that reads as 0.5pt on retina. */
   .hairline-b {
-    box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5px 0 var(--line);
   }
   .hairline-t {
-    box-shadow: 0 -0.5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -0.5px 0 var(--line);
   }
 
   .card {
-    @apply rounded-2.5xl bg-white shadow-card;
+    @apply rounded-2.5xl bg-surface shadow-card;
   }
   .card-inset {
     @apply rounded-2xl bg-stone-50;
@@ -111,13 +111,13 @@
     transform: none;
   }
   .btn-ghost {
-    @apply btn bg-black/[0.05] text-ink hover:bg-black/[0.08] active:scale-[0.97];
+    @apply btn bg-fill/[0.06] text-ink hover:bg-fill/[0.1] active:scale-[0.97];
   }
   .btn-dark {
     @apply btn bg-ink text-white hover:bg-stone-800 active:scale-[0.97];
   }
   .btn-white {
-    @apply btn bg-white text-ink shadow-key hover:bg-stone-50 active:scale-[0.97];
+    @apply btn bg-white text-night shadow-key hover:bg-[#f0f0f2] active:scale-[0.97];
   }
 
   .chip {
@@ -128,19 +128,19 @@
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 2px rgba(0, 0, 0, 0.1);
   }
   .chip-off {
-    @apply chip bg-black/[0.045] text-stone-500 hover:bg-black/[0.08] hover:text-ink active:scale-[0.97];
+    @apply chip bg-fill/[0.06] text-stone-500 hover:bg-fill/[0.1] hover:text-ink active:scale-[0.97];
   }
 
   /* Segmented control — one choice out of a small fixed set, unlike the
      chips, which toggle independently. */
   .seg-group {
-    @apply inline-flex gap-0 rounded-[11px] bg-black/[0.05] p-[3px];
+    @apply inline-flex gap-0 rounded-[11px] bg-fill/[0.06] p-[3px];
   }
   .seg {
     @apply cursor-pointer select-none rounded-[8px] px-3.5 py-1.5 text-[13px] leading-5 transition-all duration-200 ease-spring;
   }
   .seg-on {
-    @apply seg bg-white font-semibold text-ink shadow-key;
+    @apply seg bg-seg font-semibold text-ink shadow-key;
   }
   .seg-off {
     @apply seg font-medium text-stone-500 hover:text-ink;
@@ -167,16 +167,24 @@
   }
   .tile-soft {
     @apply flex items-center justify-center rounded-[22%] bg-accent-light text-accent-deep;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 0 0 0.5px rgba(61, 97, 79, 0.08);
+    box-shadow: inset 0 1px 0 rgb(var(--c-surface) / 0.6), 0 0 0 0.5px rgb(var(--c-accent-deep) / 0.12);
   }
   .tile-grey {
     @apply flex items-center justify-center rounded-[22%] bg-stone-100 text-stone-600;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 0 0 0.5px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 1px 0 rgb(var(--c-surface) / 0.6), 0 0 0 0.5px rgb(var(--c-fill) / 0.06);
   }
 
   /* Form fields: filled, borderless, like iOS. */
   .field {
-    @apply w-full rounded-2xl border-0 bg-black/[0.045] px-4 py-3 text-[15px] text-ink outline-none transition-shadow duration-200 placeholder:text-stone-400 focus:bg-white focus:ring-2 focus:ring-accent/60;
+    @apply w-full rounded-2xl border-0 bg-fill/[0.06] px-4 py-3 text-[15px] text-ink outline-none transition-shadow duration-200 placeholder:text-stone-400 focus:bg-surface focus:ring-2 focus:ring-accent/60;
+  }
+
+  /* Horizontal strips that scroll by touch: no visible scrollbar. */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 
   /* Pages fade up a touch on route change, like a pushed view. */
@@ -195,13 +203,13 @@
 }
 
 @keyframes caret-blink {
-  0%, 100% { border-color: #4d7a63; }
+  0%, 100% { border-color: rgb(var(--c-accent-dark)); }
   50% { border-color: transparent; }
 }
 .typing-current {
-  border-bottom: 2px solid #4d7a63;
+  border-bottom: 2px solid rgb(var(--c-accent-dark));
   animation: caret-blink 1s step-end infinite;
-  background-color: #e8f1ec;
+  background-color: rgb(var(--c-accent-light));
   border-radius: 3px;
 }
 

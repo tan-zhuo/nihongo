@@ -263,7 +263,7 @@ export default function Kana() {
                     className={`shrink-0 rounded-lg border p-1.5 transition-colors ${
                       isRowPlaying
                         ? 'border-accent-dark bg-accent-light text-accent-deep'
-                        : 'border-stone-200 bg-white text-stone-300 hover:text-accent-dark'
+                        : 'border-stone-200 bg-surface text-stone-300 hover:text-accent-dark'
                     }`}
                     onClick={() => playRow(row.name, filled)}
                     title={t('kana.playRow')}

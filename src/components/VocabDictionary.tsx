@@ -157,7 +157,7 @@ export default function VocabDictionary({ zhFirst }: { zhFirst: boolean }) {
             placeholder={t('vocab.dict.searchPlaceholder')}
             spellCheck={false}
             autoComplete="off"
-            className="w-full rounded-2xl border border-stone-200 bg-white py-3.5 pl-12 pr-12 text-lg shadow-card outline-none transition-shadow focus:border-accent focus:ring-2 focus:ring-accent-light"
+            className="w-full rounded-2xl border border-stone-200 bg-surface py-3.5 pl-12 pr-12 text-lg shadow-card outline-none transition-shadow focus:border-accent focus:ring-2 focus:ring-accent-light"
           />
           {query ? (
             <button
@@ -190,7 +190,7 @@ export default function VocabDictionary({ zhFirst }: { zhFirst: boolean }) {
           <select
             value={pos}
             onChange={(e) => setPos(e.target.value)}
-            className="ml-auto rounded-full border border-stone-200 bg-white px-3 py-1 text-xs text-stone-500 outline-none focus:border-accent"
+            className="ml-auto rounded-full border border-stone-200 bg-surface px-3 py-1 text-xs text-stone-500 outline-none focus:border-accent"
           >
             <option value="all">{t('vocab.dict.allPos')}</option>
             {POS_LIST.map((p) => (
@@ -213,7 +213,7 @@ export default function VocabDictionary({ zhFirst }: { zhFirst: boolean }) {
 
         <div className="flex flex-col md:flex-row md:gap-4">
           {/* thumb index */}
-          <div className="-mx-4 mb-3 flex gap-1 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0 md:mb-0 md:w-10 md:shrink-0 md:flex-col md:self-start md:overflow-visible md:pb-0 md:sticky md:top-24">
+          <div className="no-scrollbar -mx-4 mb-3 flex gap-1 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0 md:mb-0 md:w-10 md:shrink-0 md:flex-col md:self-start md:overflow-visible md:pb-0 md:sticky md:top-24">
             <button
               className={`shrink-0 rounded-lg px-2 py-1 text-xs font-medium transition-colors md:w-10 md:px-0 md:py-1.5 ${
                 row === 'all' ? 'bg-accent-dark text-white' : 'text-stone-400 hover:bg-stone-100 hover:text-ink'

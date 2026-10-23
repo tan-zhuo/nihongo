@@ -158,7 +158,7 @@ export default function WordDetail({ entry, zhFirst, onPick }: Props) {
               <Link
                 key={s.id}
                 to={`/vocab/scenes/${s.id}`}
-                className="rounded-full border border-stone-200 bg-white px-2.5 py-1 text-xs text-stone-600 transition-colors hover:border-accent hover:text-accent-deep"
+                className="rounded-full border border-stone-200 bg-surface px-2.5 py-1 text-xs text-stone-600 transition-colors hover:border-accent hover:text-accent-deep"
               >
                 {s.title}
                 <span className="ml-1 text-stone-400">{zhFirst ? s.title_zh : s.title_en}</span>
@@ -211,7 +211,7 @@ export default function WordDetail({ entry, zhFirst, onPick }: Props) {
               <button
                 key={w.id}
                 onClick={() => onPick?.(w)}
-                className="rounded-full border border-stone-200 bg-white px-2.5 py-1 text-xs transition-colors hover:border-accent hover:text-accent-deep"
+                className="rounded-full border border-stone-200 bg-surface px-2.5 py-1 text-xs transition-colors hover:border-accent hover:text-accent-deep"
               >
                 <span className="font-medium">{w.word}</span>
                 <span className="ml-1 text-stone-400">{w.reading}</span>
@@ -270,9 +270,9 @@ export function DetailDock({
       </aside>
       {/* phone: sheet */}
       {open && children && (
-        <div className="fixed inset-0 z-20 flex items-end bg-ink/30 backdrop-blur-sm lg:hidden" onClick={onClose}>
+        <div className="fixed inset-0 z-20 flex items-end bg-black/40 backdrop-blur-sm lg:hidden" onClick={onClose}>
           <div
-            className="max-h-[82vh] w-full overflow-y-auto rounded-t-2xl bg-white p-5 pb-[calc(env(safe-area-inset-bottom)+5rem)] shadow-lift"
+            className="max-h-[82vh] w-full overflow-y-auto rounded-t-2xl bg-surface p-5 pb-[calc(env(safe-area-inset-bottom)+5rem)] shadow-lift"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-stone-200" />

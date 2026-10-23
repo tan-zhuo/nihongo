@@ -78,8 +78,8 @@ export default function TrendChart({
         {/* recessive grid */}
         {ticks.map((tv) => (
           <g key={tv}>
-            <line x1={PAD.l} x2={W - PAD.r} y1={yFor(tv)} y2={yFor(tv)} stroke="#e7e5e4" strokeWidth="1" />
-            <text x={PAD.l - 6} y={yFor(tv) + 3} textAnchor="end" fontSize="9" fill="#a8a29e">
+            <line x1={PAD.l} x2={W - PAD.r} y1={yFor(tv)} y2={yFor(tv)} className="stroke-stone-200" strokeWidth="1" />
+            <text x={PAD.l - 6} y={yFor(tv) + 3} textAnchor="end" fontSize="9" className="fill-stone-400">
               {Math.round(tv)}
             </text>
           </g>
@@ -104,7 +104,7 @@ export default function TrendChart({
           textAnchor="end"
           fontSize="10"
           fontWeight="600"
-          fill="#57534e"
+          className="fill-stone-600"
         >
           {values[values.length - 1]}
           {unit}
@@ -117,16 +117,16 @@ export default function TrendChart({
               x2={points[hover].x}
               y1={PAD.t}
               y2={H - PAD.b}
-              stroke="#d6d3d1"
+              className="stroke-stone-300"
               strokeWidth="1"
             />
-            <circle cx={points[hover].x} cy={points[hover].y} r="5" fill={color} stroke="#ffffff" strokeWidth="2" />
+            <circle cx={points[hover].x} cy={points[hover].y} r="5" fill={color} className="stroke-surface" strokeWidth="2" />
           </g>
         )}
       </svg>
       {hover !== null && (
         <div
-          className="pointer-events-none absolute -top-1 rounded-lg bg-ink px-2.5 py-1.5 text-xs text-white shadow-lift"
+          className="pointer-events-none absolute -top-1 rounded-lg bg-ink px-2.5 py-1.5 text-xs text-paper shadow-lift"
           style={{
             left: `${Math.min((points[hover].x / W) * 100, 70)}%`,
           }}

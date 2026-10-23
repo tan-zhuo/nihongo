@@ -9,7 +9,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
   const kana = ['あ', 'い', 'う', 'え', 'お']
   return (
     <div
-      className={`relative aspect-[9/19] w-[250px] select-none rounded-[2.6rem] bg-ink p-[9px] shadow-lift ring-1 ring-black/40 ${className}`}
+      className={`relative aspect-[9/19] w-[250px] select-none rounded-[2.6rem] bg-night p-[9px] shadow-lift ring-1 ring-black/40 ${className}`}
       aria-hidden="true"
     >
       {/* Side buttons */}
@@ -19,7 +19,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
 
       <div className="relative flex h-full w-full flex-col overflow-hidden rounded-[2.1rem] bg-paper text-ink">
         {/* Dynamic island */}
-        <span className="absolute left-1/2 top-2.5 z-10 h-[22px] w-[76px] -translate-x-1/2 rounded-full bg-ink" />
+        <span className="absolute left-1/2 top-2.5 z-10 h-[22px] w-[76px] -translate-x-1/2 rounded-full bg-night" />
 
         {/* Status bar */}
         <div className="flex items-center justify-between px-6 pt-3.5 text-[10px] font-semibold text-ink">
@@ -42,7 +42,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
           <p className="text-[10px] font-medium text-stone-500">{t('appPage.mock.greeting')} 👋</p>
           <p className="font-display text-[19px] font-bold leading-tight">nihongo.ink</p>
 
-          <div className="mt-3.5 rounded-2xl bg-white p-3.5 shadow-card">
+          <div className="mt-3.5 rounded-2xl bg-surface p-3.5 shadow-card">
             <p className="text-[9px] font-semibold uppercase tracking-wider text-accent-dark">
               {t('appPage.mock.today')}
             </p>
@@ -66,7 +66,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
               <span
                 key={k}
                 className={`flex aspect-square items-center justify-center rounded-xl text-[14px] font-semibold ${
-                  i === 1 ? 'bg-accent-dark text-white shadow-key' : 'bg-white text-ink shadow-key'
+                  i === 1 ? 'bg-accent-dark text-white shadow-key' : 'bg-surface text-ink shadow-key'
                 }`}
               >
                 {k}
@@ -74,7 +74,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
             ))}
           </div>
 
-          <div className="mt-3 rounded-2xl bg-white p-3 shadow-card">
+          <div className="mt-3 rounded-2xl bg-surface p-3 shadow-card">
             <div className="flex items-center justify-between text-[10px]">
               <span className="font-medium text-ink">{t('appPage.mock.progress')}</span>
               <span className="text-accent-dark">60%</span>
@@ -89,7 +89,7 @@ export default function PhoneMock({ className = '' }: { className?: string }) {
               { k: '文', c: 'tile-soft' },
               { k: '験', c: 'tile-grey' },
             ].map((x) => (
-              <div key={x.k} className="flex items-center gap-2 rounded-2xl bg-white p-2.5 shadow-card">
+              <div key={x.k} className="flex items-center gap-2 rounded-2xl bg-surface p-2.5 shadow-card">
                 <span className={`${x.c} h-7 w-7 text-[12px] font-semibold`}>{x.k}</span>
                 <span className="h-1.5 w-12 rounded-full bg-stone-150" />
               </div>

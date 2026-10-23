@@ -8,6 +8,18 @@
     <meta name="description" content="Free Japanese typing practice. 52 JLPT N5–N1 graded articles and classic folktales, 4,200 vocabulary words, kana drills, grammar and keigo — with furigana, translations and audio." />
     <link rel="canonical" href="https://www.nihongo.ink/" />
     <meta name="theme-color" content="#f5f5f7" />
+    <meta name="color-scheme" content="light dark" />
+    <!-- Apply a saved theme before first paint so there is no flash. -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          var dark = t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+          if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+          if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#141416');
+        } catch (e) {}
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />

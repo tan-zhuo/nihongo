@@ -35,13 +35,13 @@ export default function Home() {
         aria-hidden="true"
       >
         <div className="absolute left-1/2 top-0 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-accent-light opacity-80 blur-3xl" />
-        <div className="absolute left-[20%] top-24 h-[260px] w-[360px] rounded-full bg-white blur-3xl" />
-        <div className="absolute right-[12%] top-10 h-[260px] w-[300px] rounded-full bg-[#dfe9f5] opacity-70 blur-3xl" />
+        <div className="absolute left-[20%] top-24 h-[260px] w-[360px] rounded-full bg-surface blur-3xl" />
+        <div className="absolute right-[12%] top-10 h-[260px] w-[300px] rounded-full bg-glow opacity-70 blur-3xl" />
       </div>
 
       {/* Hero */}
       <section className="mb-14 text-center sm:mb-20">
-        <p className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-stone-600 shadow-key ring-1 ring-white/60">
+        <p className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-stone-600 shadow-key ring-1 ring-surface/60">
           <span className="tile h-5 w-5 !rounded-[6px] font-serif text-[11px] font-bold">日</span>
           {t('home.eyebrow')}
         </p>
@@ -89,7 +89,7 @@ export default function Home() {
             >
               <div className="mb-5 flex items-start justify-between">
                 <span className="tile h-12 w-12 font-serif text-[22px] font-bold">{c.mark}</span>
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-black/[0.04] text-stone-400 transition-all duration-300 ease-spring group-hover:bg-accent-dark group-hover:text-white">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-fill/[0.04] text-stone-400 transition-all duration-300 ease-spring group-hover:bg-accent-dark group-hover:text-white">
                   <svg viewBox="0 0 20 20" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="m7.5 5 5 5-5 5" />
                   </svg>
@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* App promo */}
-      <section className="relative overflow-hidden rounded-4xl bg-ink text-white shadow-lift">
+      <section className="relative overflow-hidden rounded-4xl bg-night text-white shadow-lift">
         <div
           className="pointer-events-none absolute -right-20 -top-24 h-[360px] w-[360px] rounded-full bg-accent opacity-30 blur-3xl"
           aria-hidden="true"

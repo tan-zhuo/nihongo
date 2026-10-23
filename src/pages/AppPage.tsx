@@ -59,7 +59,7 @@ function StoreButton({
     'inline-flex h-[52px] min-w-[172px] items-center gap-3 rounded-2xl px-4 transition-all duration-200 ease-spring'
   if (!href) {
     return (
-      <span className={`${cls} cursor-default bg-black/[0.05] text-stone-500`} aria-disabled="true">
+      <span className={`${cls} cursor-default bg-fill/[0.06] text-stone-500`} aria-disabled="true">
         {inner}
       </span>
     )
@@ -69,7 +69,7 @@ function StoreButton({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${cls} bg-ink text-white shadow-key hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.98]`}
+      className={`${cls} bg-ink text-paper shadow-key hover:-translate-y-0.5 hover:shadow-lift active:scale-[0.98]`}
     >
       {inner}
     </a>
@@ -90,7 +90,7 @@ export default function AppPage() {
         aria-hidden="true"
       >
         <div className="absolute left-[10%] top-0 h-[380px] w-[520px] rounded-full bg-accent-light opacity-80 blur-3xl" />
-        <div className="absolute right-[5%] top-20 h-[320px] w-[380px] rounded-full bg-[#dfe9f5] opacity-80 blur-3xl" />
+        <div className="absolute right-[5%] top-20 h-[320px] w-[380px] rounded-full bg-glow opacity-80 blur-3xl" />
       </div>
 
       {/* Hero */}
@@ -166,7 +166,7 @@ export default function AppPage() {
           <ol className="space-y-2.5">
             {(['pwaIos', 'pwaAndroid', 'pwaDesktop'] as const).map((k, i) => (
               <li key={k} className="flex items-start gap-3 rounded-2xl bg-stone-50 px-4 py-3 text-[14px] leading-relaxed text-stone-600">
-                <span className="mt-[2px] flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-ink text-[11px] font-semibold text-white">
+                <span className="mt-[2px] flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-ink text-[11px] font-semibold text-paper">
                   {i + 1}
                 </span>
                 {t(`appPage.${k}`)}
@@ -177,7 +177,7 @@ export default function AppPage() {
       </section>
 
       {/* Notify */}
-      <section className="relative mt-6 overflow-hidden rounded-4xl bg-ink px-7 py-10 text-center text-white shadow-lift sm:px-12 sm:py-14">
+      <section className="relative mt-6 overflow-hidden rounded-4xl bg-night px-7 py-10 text-center text-white shadow-lift sm:px-12 sm:py-14">
         <div
           className="pointer-events-none absolute -left-16 -top-24 h-[300px] w-[300px] rounded-full bg-accent opacity-30 blur-3xl"
           aria-hidden="true"

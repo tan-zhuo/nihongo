@@ -73,7 +73,7 @@ function CounterTable({ units, label }: { units: Unit[]; label: (u: Unit) => str
       <table className="w-full min-w-[46rem] border-collapse text-xs">
         <thead>
           <tr>
-            <th className="sticky left-0 z-10 bg-white pb-2 pr-3 text-left font-medium text-stone-400" />
+            <th className="sticky left-0 z-10 bg-surface pb-2 pr-3 text-left font-medium text-stone-400" />
             {cols.map((n) => (
               <th key={n} className="pb-2 text-center font-medium text-stone-400">
                 {n}
@@ -84,7 +84,7 @@ function CounterTable({ units, label }: { units: Unit[]; label: (u: Unit) => str
         <tbody>
           {units.map((u) => (
             <tr key={u.id} className="border-t border-stone-100">
-              <th className="sticky left-0 z-10 whitespace-nowrap bg-white py-1.5 pr-3 text-left font-normal">
+              <th className="sticky left-0 z-10 whitespace-nowrap bg-surface py-1.5 pr-3 text-left font-normal">
                 <span className="font-serif text-sm font-semibold">{u.suffix}</span>
                 <span className="ml-1.5 text-[11px] text-stone-400">{label(u)}</span>
               </th>
@@ -297,10 +297,10 @@ export default function Numbers() {
   )
 
   const optionCls = (option: string) => {
-    if (!revealed) return 'border-stone-200 bg-white hover:border-accent hover:text-accent-dark'
+    if (!revealed) return 'border-stone-200 bg-surface hover:border-accent hover:text-accent-dark'
     if (q?.answers.includes(option)) return 'border-emerald-400 bg-emerald-50 text-emerald-700'
     if (option === picked) return 'border-red-300 bg-red-50 text-red-600'
-    return 'border-stone-200 bg-white text-stone-300'
+    return 'border-stone-200 bg-surface text-stone-300'
   }
 
   return (

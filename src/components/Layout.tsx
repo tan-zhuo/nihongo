@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Outlet, NavLink, Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { toggleTheme, useTheme } from '../lib/theme'
 
 const LANGS = [
   { code: 'zh', label: '中' },
@@ -88,6 +89,41 @@ function MoreIcon() {
   )
 }
 
+function ThemeToggle() {
+  const { t } = useTranslation()
+  const theme = useTheme()
+  const dark = theme === 'dark'
+  return (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label={t('nav.theme')}
+      title={t('nav.theme')}
+      aria-pressed={dark}
+      className="flex h-8 w-8 items-center justify-center rounded-full bg-fill/[0.06] text-stone-600 transition-all duration-200 ease-spring hover:bg-fill/[0.1] hover:text-ink active:scale-95"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        className="h-[17px] w-[17px]"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        {dark ? (
+          <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z" />
+        ) : (
+          <>
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4" />
+          </>
+        )}
+      </svg>
+    </button>
+  )
+}
+
 const FOOTER_LINKS = [
   { to: '/kana', key: 'nav.kana' },
   { to: '/kana/convert', key: 'home.convertTitle' },
@@ -157,8 +193,8 @@ export default function Layout() {
   const topNavCls = ({ isActive }: { isActive: boolean }) =>
     `whitespace-nowrap rounded-full px-3 py-1.5 text-[13px] leading-5 transition-all duration-200 ease-spring ${
       isActive
-        ? 'bg-black/[0.06] font-semibold text-ink'
-        : 'font-medium text-stone-500 hover:bg-black/[0.04] hover:text-ink'
+        ? 'bg-fill/[0.06] font-semibold text-ink'
+        : 'font-medium text-stone-500 hover:bg-fill/[0.04] hover:text-ink'
     }`
 
   const tabCls = ({ isActive }: { isActive: boolean }) =>
@@ -224,7 +260,7 @@ export default function Layout() {
                 {moreOpen && (
                   <div
                     role="menu"
-                    className="glass absolute left-0 top-full z-20 mt-2 min-w-[12rem] origin-top-left animate-pop-in rounded-2xl p-1.5 shadow-glass ring-1 ring-black/[0.06]"
+                    className="glass absolute left-0 top-full z-20 mt-2 min-w-[12rem] origin-top-left animate-pop-in rounded-2xl p-1.5 shadow-glass ring-1 ring-fill/[0.1]"
                   >
                     {MORE_ITEMS.map((item) => (
                       <NavLink
@@ -234,8 +270,8 @@ export default function Layout() {
                         className={({ isActive }) =>
                           `flex items-center gap-2.5 rounded-xl px-3 py-2 text-[13px] transition-colors ${
                             isActive
-                              ? 'bg-black/[0.06] font-semibold text-ink'
-                              : 'text-stone-600 hover:bg-black/[0.04] hover:text-ink'
+                              ? 'bg-fill/[0.06] font-semibold text-ink'
+                              : 'text-stone-600 hover:bg-fill/[0.04] hover:text-ink'
                           }`
                         }
                       >
@@ -250,7 +286,9 @@ export default function Layout() {
               </div>
             </nav>
           </div>
-          <div className="seg-group shrink-0 !rounded-full !p-[2px]">
+          <div className="flex shrink-0 items-center gap-2">
+          <ThemeToggle />
+          <div className="seg-group !rounded-full !p-[2px]">
             {LANGS.map((l) => (
               <button
                 key={l.code}
@@ -262,6 +300,7 @@ export default function Layout() {
                 {l.label}
               </button>
             ))}
+          </div>
           </div>
         </div>
       </header>
@@ -310,7 +349,7 @@ export default function Layout() {
               </p>
               <Link
                 to="/app"
-                className="mt-5 inline-flex items-center gap-2 rounded-full bg-black/[0.05] py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-ink transition-colors hover:bg-black/[0.08]"
+                className="mt-5 inline-flex items-center gap-2 rounded-full bg-fill/[0.05] py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-ink transition-colors hover:bg-fill/[0.08]"
               >
                 <span className="tile h-6 w-6 !rounded-[7px] text-[11px]">
                   <NavIcon name="app" className="h-3.5 w-3.5" />
@@ -381,7 +420,7 @@ export default function Layout() {
             </nav>
           </div>
 
-          <div className="mt-10 flex flex-col gap-2 border-t border-black/[0.06] pt-5 text-[11px] leading-relaxed text-stone-400 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
+          <div className="mt-10 flex flex-col gap-2 border-t border-fill/[0.08] pt-5 text-[11px] leading-relaxed text-stone-400 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
             <p suppressHydrationWarning>
               © {YEAR} nihongo.ink · {t('app.tagline')}
             </p>
@@ -404,11 +443,11 @@ export default function Layout() {
 
       {feedbackOpen && (
         <div
-          className="fixed inset-0 z-40 flex animate-fade-in items-end justify-center bg-ink/25 p-3 backdrop-blur-sm sm:items-center sm:p-4"
+          className="fixed inset-0 z-40 flex animate-fade-in items-end justify-center bg-black/40 p-3 backdrop-blur-sm sm:items-center sm:p-4"
           onClick={() => setFeedbackOpen(false)}
         >
           <div
-            className="glass w-full max-w-md animate-sheet-up rounded-3.5xl p-6 shadow-lift ring-1 ring-white/60 sm:p-7"
+            className="glass w-full max-w-md animate-sheet-up rounded-3.5xl p-6 shadow-lift ring-1 ring-surface/60 sm:p-7"
             onClick={(e) => e.stopPropagation()}
           >
             <h2 className="mb-1 font-display text-xl font-bold">{t('feedback.title')}</h2>
@@ -439,15 +478,15 @@ export default function Layout() {
 
       {/* Phone: 「更多」 sheet above the tab bar */}
       {moreOpen && (
-        <div className="fixed inset-0 z-10 animate-fade-in bg-ink/20 sm:hidden" aria-hidden="true" />
+        <div className="fixed inset-0 z-10 animate-fade-in bg-black/40 sm:hidden" aria-hidden="true" />
       )}
       <div ref={moreSheetRef} className="contents sm:hidden">
         {moreOpen && (
           <div
             role="menu"
-            className="glass fixed inset-x-2.5 bottom-[calc(3.75rem+env(safe-area-inset-bottom))] z-20 animate-sheet-up rounded-3.5xl p-2 pt-1 shadow-glass ring-1 ring-white/60 sm:hidden"
+            className="glass fixed inset-x-2.5 bottom-[calc(3.75rem+env(safe-area-inset-bottom))] z-20 animate-sheet-up rounded-3.5xl p-2 pt-1 shadow-glass ring-1 ring-surface/60 sm:hidden"
           >
-            <div className="mx-auto mb-1.5 mt-1 h-[5px] w-9 rounded-full bg-black/[0.12]" aria-hidden="true" />
+            <div className="mx-auto mb-1.5 mt-1 h-[5px] w-9 rounded-full bg-fill/[0.12]" aria-hidden="true" />
             <div className="grid grid-cols-2 gap-1">
               {MORE_ITEMS.map((item) => (
                 <NavLink
@@ -457,8 +496,8 @@ export default function Layout() {
                   className={({ isActive }) =>
                     `flex items-center gap-3 rounded-2xl px-3 py-2.5 text-[15px] transition-colors ${
                       isActive
-                        ? 'bg-black/[0.06] font-semibold text-ink'
-                        : 'text-stone-700 active:bg-black/[0.05]'
+                        ? 'bg-fill/[0.06] font-semibold text-ink'
+                        : 'text-stone-700 active:bg-fill/[0.05]'
                     }`
                   }
                 >

@@ -185,7 +185,7 @@ export default function Practice() {
                 className={`btn gap-1.5 whitespace-nowrap px-3 text-xs ${
                   audio.playing
                     ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                    : 'border border-stone-200 bg-white text-stone-500 hover:text-ink'
+                    : 'border border-stone-200 bg-surface text-stone-500 hover:text-ink'
                 }`}
                 onClick={audio.toggle}
                 aria-label={t('practice.read')}
@@ -201,7 +201,7 @@ export default function Practice() {
               </button>
               {audio.playing && (
                 <button
-                  className="btn whitespace-nowrap border border-stone-200 bg-white px-2.5 text-xs text-stone-500 hover:text-ink"
+                  className="btn whitespace-nowrap border border-stone-200 bg-surface px-2.5 text-xs text-stone-500 hover:text-ink"
                   onClick={() => audio.setRate(RATES[(RATES.indexOf(audio.rate) + 1) % RATES.length])}
                 >
                   {audio.rate}×
@@ -213,7 +213,7 @@ export default function Practice() {
             className={`btn whitespace-nowrap px-3 text-xs ${
               showFurigana
                 ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                : 'border border-stone-200 bg-white text-stone-400 hover:text-ink'
+                : 'border border-stone-200 bg-surface text-stone-400 hover:text-ink'
             }`}
             onClick={toggleFurigana}
           >
@@ -224,7 +224,7 @@ export default function Practice() {
               className={`btn whitespace-nowrap px-3 text-xs ${
                 showTrans
                   ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                  : 'border border-stone-200 bg-white text-stone-400 hover:text-ink'
+                  : 'border border-stone-200 bg-surface text-stone-400 hover:text-ink'
               }`}
               onClick={toggleTrans}
             >
@@ -344,7 +344,7 @@ export default function Practice() {
                         e.preventDefault()
                         typing.stepBack()
                       }}
-                      className="absolute right-0 top-1/2 -translate-y-1/2 rounded-md border border-stone-200 bg-white px-2 py-1 text-xs text-stone-400 transition-colors hover:border-accent-dark hover:text-accent-deep"
+                      className="absolute right-0 top-1/2 -translate-y-1/2 rounded-md border border-stone-200 bg-surface px-2 py-1 text-xs text-stone-400 transition-colors hover:border-accent-dark hover:text-accent-deep"
                     >
                       ← {t('practice.editPrev')}
                     </button>

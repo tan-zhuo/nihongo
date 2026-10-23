@@ -128,10 +128,10 @@ export default function Quiz() {
 
   const optionCls = (i: number) => {
     if (picked === null)
-      return 'border-stone-200 bg-white hover:border-accent hover:bg-accent-light/40'
+      return 'border-stone-200 bg-surface hover:border-accent hover:bg-accent-light/40'
     if (i === q!.answer) return 'border-emerald-400 bg-emerald-50'
     if (i === picked) return 'border-red-300 bg-red-50'
-    return 'border-stone-200 bg-white opacity-60'
+    return 'border-stone-200 bg-surface opacity-60'
   }
 
   return (
