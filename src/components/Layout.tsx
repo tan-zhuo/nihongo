@@ -193,7 +193,7 @@ export default function Layout() {
   const topNavCls = ({ isActive }: { isActive: boolean }) =>
     `whitespace-nowrap rounded-full px-3 py-1.5 text-[13px] leading-5 transition-all duration-200 ease-spring ${
       isActive
-        ? 'bg-fill/[0.06] font-semibold text-ink'
+        ? 'glass-on font-semibold text-ink'
         : 'font-medium text-stone-500 hover:bg-fill/[0.04] hover:text-ink'
     }`
 
@@ -270,7 +270,7 @@ export default function Layout() {
                         className={({ isActive }) =>
                           `flex items-center gap-2.5 rounded-xl px-3 py-2 text-[13px] transition-colors ${
                             isActive
-                              ? 'bg-fill/[0.06] font-semibold text-ink'
+                              ? 'glass-on font-semibold text-ink'
                               : 'text-stone-600 hover:bg-fill/[0.04] hover:text-ink'
                           }`
                         }
@@ -496,7 +496,7 @@ export default function Layout() {
                   className={({ isActive }) =>
                     `flex items-center gap-3 rounded-2xl px-3 py-2.5 text-[15px] transition-colors ${
                       isActive
-                        ? 'bg-fill/[0.06] font-semibold text-ink'
+                        ? 'glass-on font-semibold text-ink'
                         : 'text-stone-700 active:bg-fill/[0.05]'
                     }`
                   }

@@ -64,6 +64,23 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
+  /* Selected tab / segment / chip: a small pane of glass sitting on the track,
+     with a top highlight and a soft drop, like macOS segmented controls. */
+  .glass-on {
+    background-color: var(--glass-on);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 60%);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: var(--glass-on-shadow);
+  }
+  /* Tinted glass for the accent-coloured selected chips. */
+  .glass-tint {
+    background-color: rgb(var(--c-accent-dark) / 0.84);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0) 60%);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: var(--glass-tint-shadow);
+  }
   .glass-dark {
     background-color: rgba(29, 29, 31, 0.72);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -124,8 +141,7 @@
     @apply inline-flex cursor-pointer select-none items-center rounded-full px-3.5 py-1.5 text-[13px] font-medium leading-none transition-all duration-150;
   }
   .chip-on {
-    @apply chip bg-accent-dark text-white;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 2px rgba(0, 0, 0, 0.1);
+    @apply chip glass-tint text-white;
   }
   .chip-off {
     @apply chip bg-fill/[0.06] text-stone-500 hover:bg-fill/[0.1] hover:text-ink active:scale-[0.97];
@@ -140,7 +156,7 @@
     @apply cursor-pointer select-none rounded-[8px] px-3.5 py-1.5 text-[13px] leading-5 transition-all duration-200 ease-spring;
   }
   .seg-on {
-    @apply seg bg-seg font-semibold text-ink shadow-key;
+    @apply seg glass-on font-semibold text-ink;
   }
   .seg-off {
     @apply seg font-medium text-stone-500 hover:text-ink;

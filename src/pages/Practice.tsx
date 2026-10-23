@@ -184,8 +184,8 @@ export default function Practice() {
               <button
                 className={`btn gap-1.5 whitespace-nowrap px-3 text-xs ${
                   audio.playing
-                    ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                    : 'border border-stone-200 bg-surface text-stone-500 hover:text-ink'
+                    ? 'glass-tint text-white'
+                    : 'bg-fill/[0.06] text-stone-500 hover:bg-fill/[0.1] hover:text-ink'
                 }`}
                 onClick={audio.toggle}
                 aria-label={t('practice.read')}
@@ -212,8 +212,8 @@ export default function Practice() {
           <button
             className={`btn whitespace-nowrap px-3 text-xs ${
               showFurigana
-                ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                : 'border border-stone-200 bg-surface text-stone-400 hover:text-ink'
+                ? 'glass-tint text-white'
+                : 'bg-fill/[0.06] text-stone-500 hover:bg-fill/[0.1] hover:text-ink'
             }`}
             onClick={toggleFurigana}
           >
@@ -223,8 +223,8 @@ export default function Practice() {
             <button
               className={`btn whitespace-nowrap px-3 text-xs ${
                 showTrans
-                  ? 'border border-accent-dark bg-accent-light text-accent-deep'
-                  : 'border border-stone-200 bg-surface text-stone-400 hover:text-ink'
+                  ? 'glass-tint text-white'
+                  : 'bg-fill/[0.06] text-stone-500 hover:bg-fill/[0.1] hover:text-ink'
               }`}
               onClick={toggleTrans}
             >

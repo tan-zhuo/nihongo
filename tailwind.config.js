@@ -118,6 +118,12 @@ const LIGHT_VARS = {
     '0 0 0 1px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.05), 0 24px 56px -16px rgba(0, 0, 0, 0.16)',
   '--shadow-glass': '0 1px 0 rgba(255, 255, 255, 0.55) inset, 0 12px 40px -8px rgba(0, 0, 0, 0.12)',
   '--shadow-key': '0 1px 2px rgba(0, 0, 0, 0.08), 0 0 0 0.5px rgba(0, 0, 0, 0.05)',
+  // Selected state of segments, chips and nav pills: a glass tab.
+  '--glass-on': 'rgba(255, 255, 255, 0.8)',
+  '--glass-on-shadow':
+    'inset 0 1px 0 rgba(255, 255, 255, 0.95), inset 0 -1px 0 rgba(0, 0, 0, 0.03), 0 0 0 0.5px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.08), 0 6px 14px -6px rgba(0, 0, 0, 0.16)',
+  '--glass-tint-shadow':
+    'inset 0 1px 0 rgba(255, 255, 255, 0.38), inset 0 -1px 0 rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.12), 0 8px 18px -8px rgba(61, 97, 79, 0.65)',
   'color-scheme': 'light',
 }
 const DARK_VARS = {
@@ -130,6 +136,11 @@ const DARK_VARS = {
     '0 0 0 1px rgba(255, 255, 255, 0.08), 0 2px 6px rgba(0, 0, 0, 0.5), 0 24px 56px -16px rgba(0, 0, 0, 0.8)',
   '--shadow-glass': '0 1px 0 rgba(255, 255, 255, 0.08) inset, 0 12px 40px -8px rgba(0, 0, 0, 0.6)',
   '--shadow-key': '0 1px 2px rgba(0, 0, 0, 0.5), 0 0 0 0.5px rgba(255, 255, 255, 0.08)',
+  '--glass-on': 'rgba(110, 110, 115, 0.55)',
+  '--glass-on-shadow':
+    'inset 0 1px 0 rgba(255, 255, 255, 0.18), inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.5px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 14px -6px rgba(0, 0, 0, 0.6)',
+  '--glass-tint-shadow':
+    'inset 0 1px 0 rgba(255, 255, 255, 0.28), inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 18px -8px rgba(0, 0, 0, 0.6)',
   'color-scheme': 'dark',
 }
 
