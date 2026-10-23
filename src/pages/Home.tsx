@@ -28,7 +28,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="relative pb-6 pt-6 sm:pt-14">
+    <div className="relative pb-6 pt-10 sm:pt-20">
       {/* Soft wallpaper glow behind the hero */}
       <div
         className="pointer-events-none absolute inset-x-0 -top-24 -z-10 h-[520px] overflow-hidden"
@@ -41,10 +41,6 @@ export default function Home() {
 
       {/* Hero */}
       <section className="mb-14 text-center sm:mb-20">
-        <p className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-stone-600 shadow-key ring-1 ring-surface/60">
-          <span className="tile h-5 w-5 !rounded-[6px] font-serif text-[11px] font-bold">日</span>
-          {t('home.eyebrow')}
-        </p>
         <h1 className="mx-auto mb-5 max-w-3xl font-display text-[2.5rem] font-bold leading-[1.08] sm:text-6xl sm:leading-[1.05]">
           {t('home.heroTitle')}
         </h1>
