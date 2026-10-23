@@ -359,7 +359,7 @@ export default function KanaConvert() {
   return (
     <div className="mx-auto max-w-2xl">
       <div className="mb-5 flex items-center justify-between gap-3">
-        <h1 className="font-serif text-2xl font-bold">{t('kana.convert.title')}</h1>
+        <h1 className="font-display text-2xl font-bold">{t('kana.convert.title')}</h1>
         <Link to="/kana" className="btn-ghost shrink-0 text-xs">
           {t('kana.convert.backToChart')}
         </Link>
@@ -368,7 +368,7 @@ export default function KanaConvert() {
 
       {done ? (
         <div className="card p-8 text-center">
-          <h2 className="mb-2 font-serif text-xl font-bold text-accent-deep">
+          <h2 className="mb-2 font-display text-xl font-bold text-accent-deep">
             {t('vocab.sessionDone')}
           </h2>
           <p className="mb-6 text-3xl font-bold">

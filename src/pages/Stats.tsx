@@ -109,7 +109,7 @@ export default function Stats() {
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="font-serif text-2xl font-bold">{t('stats.title')}</h1>
+        <h1 className="font-display text-2xl font-bold">{t('stats.title')}</h1>
         <button className="btn-ghost text-xs text-red-500" onClick={clear}>
           {t('stats.clear')}
         </button>

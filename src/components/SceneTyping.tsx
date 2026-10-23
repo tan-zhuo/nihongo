@@ -229,7 +229,7 @@ export default function SceneTyping({
   if (result) {
     return (
       <div className="card mt-4 p-6 text-center sm:p-8">
-        <h3 className="mb-1 font-serif text-xl font-bold text-accent-deep">{t('vocab.scenes.typing.done')}</h3>
+        <h3 className="mb-1 font-display text-xl font-bold text-accent-deep">{t('vocab.scenes.typing.done')}</h3>
         {result.newBest && (
           <p className="mb-2 text-xs font-semibold text-amber-600">{t('vocab.scenes.typing.newBest')}</p>
         )}

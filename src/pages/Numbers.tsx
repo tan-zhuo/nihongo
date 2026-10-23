@@ -305,7 +305,7 @@ export default function Numbers() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <h1 className="mb-2 font-serif text-2xl font-bold">{t('numbers.title')}</h1>
+      <h1 className="mb-2 font-display text-2xl font-bold">{t('numbers.title')}</h1>
       <p className="mb-6 max-w-2xl text-sm leading-relaxed text-stone-500">{t('numbers.intro')}</p>
 
       <div className="mb-5 flex flex-wrap gap-2">
@@ -326,7 +326,7 @@ export default function Numbers() {
 
       <div className="card mb-6 p-5">
         <div className="mb-3 flex items-baseline justify-between gap-3">
-          <h2 className="font-serif text-lg font-semibold">{t('numbers.tableTitle')}</h2>
+          <h2 className="font-display text-lg font-semibold">{t('numbers.tableTitle')}</h2>
           <button
             className="text-xs text-stone-400 transition-colors hover:text-accent-dark"
             onClick={() => setTableOpen((v) => !v)}

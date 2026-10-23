@@ -24,7 +24,7 @@ export default function Articles() {
 
   return (
     <div>
-      <h1 className="mb-5 font-serif text-2xl font-bold">{t('articles.title')}</h1>
+      <h1 className="mb-5 font-display text-2xl font-bold">{t('articles.title')}</h1>
       <div className="mb-3 flex flex-wrap gap-2">
         {(['all', 'essay', 'story'] as Kind[]).map((k) => (
           <button key={k} className={kind === k ? 'chip-on' : 'chip-off'} onClick={() => setKind(k)}>
@@ -62,7 +62,7 @@ export default function Articles() {
                     {t('articles.charCount', { count: a.content.length })}
                   </span>
                 </div>
-                <h2 className="font-serif text-lg font-semibold group-hover:text-accent-deep">
+                <h2 className="font-display text-lg font-semibold group-hover:text-accent-deep">
                   {a.title}
                 </h2>
                 {(zhFirst ? a.title_zh : a.title_en) && (

@@ -173,7 +173,7 @@ export default function Practice() {
           <Link to="/articles" className="text-sm text-stone-400 transition-colors hover:text-accent-dark">
             ← {t('practice.back')}
           </Link>
-          <h1 className="font-serif text-lg font-semibold">{article.title}</h1>
+          <h1 className="font-display text-lg font-semibold">{article.title}</h1>
           <span className="rounded-md bg-accent-light px-2 py-0.5 text-xs font-semibold text-accent-deep">
             {article.level}
           </span>

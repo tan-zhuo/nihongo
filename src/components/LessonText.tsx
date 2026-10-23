@@ -24,7 +24,7 @@ function probeFor(word: string, hay: string): string | undefined {
 
 function SectionTitle({ label, count }: { label: string; count?: number }) {
   return (
-    <h2 className="mb-3 flex items-baseline gap-2 font-serif text-base font-semibold text-accent-deep">
+    <h2 className="mb-3 flex items-baseline gap-2 font-display text-base font-semibold text-accent-deep">
       <span className="relative top-0.5 h-4 w-1 rounded-full bg-accent" />
       {label}
       {count !== undefined && <span className="text-xs font-normal text-stone-400">{count}</span>}

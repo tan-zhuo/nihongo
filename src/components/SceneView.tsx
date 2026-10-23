@@ -192,7 +192,7 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
             <p className="mb-1 text-[11px] font-medium uppercase tracking-[0.16em] text-stone-400">
               {t(`vocab.scenes.group.${scene.group}`)} · {scene.n} / {scenes.length}
             </p>
-            <h2 className="font-serif text-3xl font-bold leading-none">
+            <h2 className="font-display text-3xl font-bold leading-none">
               {scene.title}
               <span className="ml-3 align-middle text-base font-normal text-stone-400">{subtitle}</span>
             </h2>
@@ -369,7 +369,7 @@ export default function SceneView({ scene, zhFirst }: { scene: Scene; zhFirst: b
         {/* sentences */}
         <div className="mt-8">
           <div className="mb-3 flex items-baseline justify-between">
-            <h3 className="flex items-baseline gap-2 font-serif text-base font-semibold text-accent-deep">
+            <h3 className="flex items-baseline gap-2 font-display text-base font-semibold text-accent-deep">
               <span className="relative top-0.5 h-4 w-1 rounded-full bg-accent" />
               {t('vocab.scenes.sentences')}
             </h3>

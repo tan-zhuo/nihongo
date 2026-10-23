@@ -20,7 +20,7 @@ function Shell({ tab, children }: { tab: Tab; children: React.ReactNode }) {
   return (
     <div>
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-        <h1 className="font-serif text-2xl font-bold">{t('vocab.title')}</h1>
+        <h1 className="font-display text-2xl font-bold">{t('vocab.title')}</h1>
         <nav className="seg-group">
           {TABS.map((x) => (
             <Link key={x.key} to={x.to} className={tab === x.key ? 'seg-on' : 'seg-off'}>

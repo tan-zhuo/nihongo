@@ -14,6 +14,7 @@ const pageLoaders = {
   textbook: () => import('./pages/Textbook'),
   quiz: () => import('./pages/Quiz'),
   stats: () => import('./pages/Stats'),
+  app: () => import('./pages/AppPage'),
 }
 
 /** Used by entry-server so SSR renders pages instead of Suspense fallbacks. */
@@ -30,6 +31,7 @@ const Vocab = lazy(pageLoaders.vocab)
 const Textbook = lazy(pageLoaders.textbook)
 const Quiz = lazy(pageLoaders.quiz)
 const Stats = lazy(pageLoaders.stats)
+const AppPage = lazy(pageLoaders.app)
 
 export default function App() {
   return (
@@ -95,6 +97,10 @@ export default function App() {
         <Route
           path="/stats"
           element={<Suspense fallback={null}><Stats /></Suspense>}
+        />
+        <Route
+          path="/app"
+          element={<Suspense fallback={null}><AppPage /></Suspense>}
         />
       </Route>
     </Routes>

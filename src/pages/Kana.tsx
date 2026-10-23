@@ -134,7 +134,7 @@ export default function Kana() {
     return (
       <div className="mx-auto max-w-2xl">
         <div className="mb-5 flex items-center justify-between">
-          <h1 className="font-serif text-2xl font-bold">{t('kana.practice')}</h1>
+          <h1 className="font-display text-2xl font-bold">{t('kana.practice')}</h1>
           <div className="flex gap-2">
             <Link to="/kana/convert" className="btn-ghost text-xs">
               {t('kana.convertEntry')}
@@ -159,7 +159,7 @@ export default function Kana() {
 
         {done ? (
           <div className="card p-8 text-center">
-            <h2 className="mb-2 font-serif text-xl font-bold text-accent-deep">
+            <h2 className="mb-2 font-display text-xl font-bold text-accent-deep">
               {t('vocab.sessionDone')}
             </h2>
             <p className="mb-6 text-3xl font-bold">
@@ -235,7 +235,7 @@ export default function Kana() {
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-        <h1 className="font-serif text-2xl font-bold">{t('kana.title')}</h1>
+        <h1 className="font-display text-2xl font-bold">{t('kana.title')}</h1>
         <div className="flex gap-2">
           <Link to="/kana/convert" className="btn-ghost text-sm">
             {t('kana.convertEntry')}
@@ -250,7 +250,7 @@ export default function Kana() {
 
       {SECTIONS.map((section) => (
         <section key={section.key} className="mb-10">
-          <h2 className="mb-4 font-serif text-lg font-semibold text-accent-deep">
+          <h2 className="mb-4 font-display text-lg font-semibold text-accent-deep">
             {t(`kana.${section.key}`)}
           </h2>
           <div className="flex flex-col gap-2">

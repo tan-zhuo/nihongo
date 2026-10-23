@@ -9,43 +9,39 @@ const LANGS = [
 ]
 
 const ICONS: Record<string, JSX.Element> = {
-  home: (
-    <path d="M3 10.5 12 3l9 7.5M5.5 8.5V21h13V8.5" />
-  ),
+  home: <path d="M3 10.5 12 3l9 7.5M5.5 8.5V21h13V8.5" />,
   articles: (
     <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm3 5h6M9 12h6M9 16h4" />
   ),
-  vocab: (
-    <path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5Zm4 14v2M12 7v4m0 0-2.5 6M12 11l2.5 6" />
-  ),
-  stats: (
-    <path d="M4 20h16M7 20v-6m5 6V9m5 11v-9" />
+  vocab: <path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5Zm4 14v2M12 7v4m0 0-2.5 6M12 11l2.5 6" />,
+  stats: <path d="M4 20h16M7 20v-6m5 6V9m5 11v-9" />,
+  app: (
+    <path d="M8 2.5h8a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-15a2 2 0 0 1 2-2Zm2.5 0 .5 1.5h2l.5-1.5M11 18.5h2" />
   ),
 }
 
-function NavIcon({ name }: { name: string }) {
-  if (name === 'kana') {
-    return <span className="flex h-5 w-5 items-center justify-center text-[15px] leading-none">あ</span>
+export function NavIcon({ name, className = 'h-[22px] w-[22px]' }: { name: string; className?: string }) {
+  const glyph: Record<string, string> = {
+    kana: 'あ',
+    numbers: '数',
+    grammar: '文',
+    textbook: '標',
+    quiz: '験',
   }
-  if (name === 'numbers') {
-    return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">数</span>
-  }
-  if (name === 'grammar') {
-    return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">文</span>
-  }
-  if (name === 'textbook') {
-    return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">標</span>
-  }
-  if (name === 'quiz') {
-    return <span className="flex h-5 w-5 items-center justify-center font-serif text-[15px] leading-none">験</span>
+  if (glyph[name]) {
+    return (
+      <span className={`flex items-center justify-center text-[17px] font-semibold leading-none ${className}`}>
+        {glyph[name]}
+      </span>
+    )
   }
   return (
     <svg
       viewBox="0 0 24 24"
-      className="h-5 w-5"
+      className={className}
       fill="none"
       stroke="currentColor"
-      strokeWidth="1.7"
+      strokeWidth="1.8"
       strokeLinecap="round"
       strokeLinejoin="round"
     >
@@ -77,16 +73,17 @@ const NAV_ITEMS: NavItem[] = [
   { to: '/articles', key: 'articles', icon: 'articles', place: 'more' },
   { to: '/quiz', key: 'quiz', icon: 'quiz', place: 'more' },
   { to: '/stats', key: 'stats', icon: 'stats', place: 'more' },
+  { to: '/app', key: 'app', icon: 'app', place: 'more' },
 ]
 const PRIMARY_ITEMS = NAV_ITEMS.filter((i) => i.place === 'primary')
 const MORE_ITEMS = NAV_ITEMS.filter((i) => i.place === 'more')
 
 function MoreIcon() {
   return (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
-      <circle cx="5" cy="12" r="1.9" />
-      <circle cx="12" cy="12" r="1.9" />
-      <circle cx="19" cy="12" r="1.9" />
+    <svg viewBox="0 0 24 24" className="h-[22px] w-[22px]" fill="currentColor">
+      <circle cx="5" cy="12" r="2" />
+      <circle cx="12" cy="12" r="2" />
+      <circle cx="19" cy="12" r="2" />
     </svg>
   )
 }
@@ -103,6 +100,15 @@ const FOOTER_LINKS = [
 ]
 
 const YEAR = new Date().getFullYear()
+
+/** The 日 app icon used in the header, footer and the App page. */
+export function Logo({ size = 'h-8 w-8 text-[17px]' }: { size?: string }) {
+  return (
+    <span className={`tile font-serif font-bold ${size}`} aria-hidden="true">
+      日
+    </span>
+  )
+}
 
 export default function Layout() {
   const { t, i18n } = useTranslation()
@@ -149,32 +155,34 @@ export default function Layout() {
   }
 
   const topNavCls = ({ isActive }: { isActive: boolean }) =>
-    `whitespace-nowrap rounded-lg px-2.5 py-1.5 text-sm transition-colors duration-150 lg:px-3 ${
+    `whitespace-nowrap rounded-full px-3 py-1.5 text-[13px] leading-5 transition-all duration-200 ease-spring ${
       isActive
-        ? 'font-semibold text-accent-deep'
-        : 'font-medium text-stone-400 hover:text-ink'
+        ? 'bg-black/[0.06] font-semibold text-ink'
+        : 'font-medium text-stone-500 hover:bg-black/[0.04] hover:text-ink'
     }`
 
   const tabCls = ({ isActive }: { isActive: boolean }) =>
-    `flex flex-1 flex-col items-center gap-0.5 py-2 text-xs transition-colors duration-150 ${
-      isActive ? 'font-semibold text-accent-deep' : 'font-medium text-stone-400'
+    `flex flex-1 flex-col items-center justify-center gap-[3px] pb-1 pt-1.5 text-[10px] leading-3 tracking-[0.01em] transition-colors duration-150 active:opacity-60 ${
+      isActive ? 'font-semibold text-accent-deep' : 'font-medium text-stone-500'
     }`
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-10 border-b border-stone-200/70 bg-paper/90 backdrop-blur">
-        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-2 px-4 sm:h-16 sm:px-6">
-          <div className="flex min-w-0 items-center gap-2 sm:gap-6">
-            <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="nihongo.ink">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-dark font-serif text-lg font-bold text-white">
-                日
-              </span>
+      <header className="glass-paper hairline-b sticky top-0 z-20">
+        <div className="mx-auto flex h-[52px] max-w-5xl items-center justify-between gap-2 px-4 sm:h-[60px] sm:px-6">
+          <div className="flex min-w-0 items-center gap-2 sm:gap-5">
+            <Link
+              to="/"
+              className="flex shrink-0 items-center gap-2.5 transition-opacity active:opacity-70"
+              aria-label="nihongo.ink"
+            >
+              <Logo />
               {/* Wordmark steps aside between sm and md so the menu has room. */}
-              <span className="font-serif text-lg font-semibold tracking-tight sm:hidden md:inline">
+              <span className="font-display text-[17px] font-semibold sm:hidden md:inline">
                 nihongo.ink
               </span>
             </Link>
-            <nav className="hidden items-center gap-0.5 sm:flex lg:gap-1">
+            <nav className="hidden items-center gap-0.5 sm:flex">
               {PRIMARY_ITEMS.map((item) => (
                 <NavLink key={item.to} to={item.to} end={item.end} className={topNavCls}>
                   <span className="lg:hidden">{shortLabel(item.key)}</span>
@@ -198,19 +206,15 @@ export default function Layout() {
                   aria-haspopup="menu"
                   aria-expanded={moreOpen}
                   onClick={() => setMoreOpen((v) => !v)}
-                  className={`flex items-center gap-1 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-sm transition-colors duration-150 ${
-                    moreActive || moreOpen
-                      ? 'font-semibold text-accent-deep'
-                      : 'font-medium text-stone-400 hover:text-ink'
-                  }`}
+                  className={`flex items-center gap-1 ${topNavCls({ isActive: moreActive || moreOpen })}`}
                 >
                   {t('nav.more')}
                   <svg
                     viewBox="0 0 20 20"
-                    className={`h-3.5 w-3.5 transition-transform duration-150 ${moreOpen ? 'rotate-180' : ''}`}
+                    className={`h-3.5 w-3.5 transition-transform duration-200 ${moreOpen ? 'rotate-180' : ''}`}
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.8"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
@@ -220,7 +224,7 @@ export default function Layout() {
                 {moreOpen && (
                   <div
                     role="menu"
-                    className="card absolute left-0 top-full z-20 mt-2 min-w-[11rem] p-1.5 shadow-lg"
+                    className="glass absolute left-0 top-full z-20 mt-2 min-w-[12rem] origin-top-left animate-pop-in rounded-2xl p-1.5 shadow-glass ring-1 ring-black/[0.06]"
                   >
                     {MORE_ITEMS.map((item) => (
                       <NavLink
@@ -228,15 +232,15 @@ export default function Layout() {
                         to={item.to}
                         role="menuitem"
                         className={({ isActive }) =>
-                          `flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm transition-colors ${
+                          `flex items-center gap-2.5 rounded-xl px-3 py-2 text-[13px] transition-colors ${
                             isActive
-                              ? 'bg-accent-light/40 font-semibold text-accent-deep'
-                              : 'text-stone-600 hover:bg-stone-50 hover:text-ink'
+                              ? 'bg-black/[0.06] font-semibold text-ink'
+                              : 'text-stone-600 hover:bg-black/[0.04] hover:text-ink'
                           }`
                         }
                       >
-                        <span className="text-stone-400">
-                          <NavIcon name={item.icon} />
+                        <span className="text-stone-500">
+                          <NavIcon name={item.icon} className="h-[18px] w-[18px]" />
                         </span>
                         {t(`nav.${item.key}`)}
                       </NavLink>
@@ -246,16 +250,14 @@ export default function Layout() {
               </div>
             </nav>
           </div>
-          <div className="flex shrink-0 items-center rounded-full border border-stone-200 bg-white p-0.5">
+          <div className="seg-group shrink-0 !rounded-full !p-[2px]">
             {LANGS.map((l) => (
               <button
                 key={l.code}
                 onClick={() => i18n.changeLanguage(l.code)}
-                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors duration-150 ${
-                  current.startsWith(l.code)
-                    ? 'bg-accent-dark text-white'
-                    : 'text-stone-400 hover:text-ink'
-                }`}
+                className={`${
+                  current.startsWith(l.code) ? 'seg-on' : 'seg-off'
+                } !rounded-full !px-2.5 !py-1 !text-[12px] !leading-4`}
               >
                 {l.label}
               </button>
@@ -264,8 +266,10 @@ export default function Layout() {
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 pb-6 sm:px-6 sm:py-10">
-        <Outlet />
+      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-7 pb-6 sm:px-6 sm:py-10">
+        <div key={pathname} className="page-in">
+          <Outlet />
+        </div>
       </main>
 
       {/* Phones get no sitemap footer — with the tab bar it should read as an
@@ -273,7 +277,7 @@ export default function Layout() {
           VOICEVOX terms and the CC BY-SA kana audio require it to be visible
           wherever the audio is; it also carries the tab-bar clearance. */}
       <p
-        className="px-4 pb-24 text-center text-[10px] leading-relaxed text-stone-300 sm:hidden"
+        className="px-6 pb-[calc(5.5rem+env(safe-area-inset-bottom))] text-center text-[10px] leading-relaxed text-stone-400 sm:hidden"
         suppressHydrationWarning
       >
         © {YEAR} nihongo.ink · 音声: VOICEVOX:四国めたん · 五十音音声:{' '}
@@ -281,7 +285,7 @@ export default function Layout() {
           href="https://www.guidetojapanese.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline decoration-stone-200 underline-offset-2"
+          className="underline decoration-stone-300 underline-offset-2"
         >
           Tae Kim
         </a>{' '}
@@ -290,34 +294,39 @@ export default function Layout() {
 
       {/* Hidden with CSS rather than unmounted: the sitemap links stay in the
           prerendered HTML for crawlers. */}
-      <footer className="hidden border-t border-stone-200/70 bg-white/50 sm:block">
-        <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+      <footer className="hairline-t hidden sm:block">
+        <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
           <div className="grid gap-9 sm:grid-cols-12 sm:gap-8">
             <div className="sm:col-span-5">
-              <Link to="/" className="mb-3 inline-flex items-center gap-2.5">
-                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-dark font-serif text-lg font-bold text-white">
-                  日
-                </span>
-                <span className="font-serif text-lg font-semibold tracking-tight">
-                  nihongo.ink
-                </span>
+              <Link to="/" className="mb-4 inline-flex items-center gap-2.5">
+                <Logo />
+                <span className="font-display text-[17px] font-semibold">nihongo.ink</span>
               </Link>
-              <p className="max-w-sm text-xs leading-relaxed text-stone-400">
+              <p className="max-w-sm text-[13px] leading-relaxed text-stone-500">
                 {t('footer.blurb')}
               </p>
-              <p className="mt-3 text-[11px] leading-relaxed text-stone-300">
+              <p className="mt-3 text-[12px] leading-relaxed text-stone-400">
                 {t('footer.localOnly')}
               </p>
+              <Link
+                to="/app"
+                className="mt-5 inline-flex items-center gap-2 rounded-full bg-black/[0.05] py-1.5 pl-1.5 pr-3.5 text-[12px] font-medium text-ink transition-colors hover:bg-black/[0.08]"
+              >
+                <span className="tile h-6 w-6 !rounded-[7px] text-[11px]">
+                  <NavIcon name="app" className="h-3.5 w-3.5" />
+                </span>
+                {t('footer.appLink')}
+              </Link>
             </div>
 
             <nav className="sm:col-span-4" aria-label={t('footer.headingPractice')}>
-              <h2 className="mb-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-stone-400">
+              <h2 className="mb-3 text-[12px] font-semibold text-ink">
                 {t('footer.headingPractice')}
               </h2>
-              <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-xs text-stone-500">
+              <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-[13px] text-stone-500">
                 {FOOTER_LINKS.map((l) => (
                   <li key={l.to}>
-                    <Link to={l.to} className="transition-colors hover:text-accent-dark">
+                    <Link to={l.to} className="transition-colors hover:text-ink">
                       {t(l.key)}
                     </Link>
                   </li>
@@ -326,12 +335,17 @@ export default function Layout() {
             </nav>
 
             <nav className="sm:col-span-3" aria-label={t('footer.headingAbout')}>
-              <h2 className="mb-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-stone-400">
+              <h2 className="mb-3 text-[12px] font-semibold text-ink">
                 {t('footer.headingAbout')}
               </h2>
-              <ul className="space-y-2 text-xs text-stone-500">
+              <ul className="space-y-2 text-[13px] text-stone-500">
                 <li>
-                  <Link to="/stats" className="transition-colors hover:text-accent-dark">
+                  <Link to="/app" className="transition-colors hover:text-ink">
+                    {t('nav.app')}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/stats" className="transition-colors hover:text-ink">
                     {t('nav.stats')}
                   </Link>
                 </li>
@@ -340,7 +354,7 @@ export default function Layout() {
                     href="https://tanzhuo.xyz"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition-colors hover:text-accent-dark"
+                    className="transition-colors hover:text-ink"
                   >
                     {t('footer.blog')}
                   </a>
@@ -350,7 +364,7 @@ export default function Layout() {
                     href="https://github.com/tan-zhuo/Nihongo"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition-colors hover:text-accent-dark"
+                    className="transition-colors hover:text-ink"
                   >
                     {t('footer.source')}
                   </a>
@@ -358,7 +372,7 @@ export default function Layout() {
                 <li>
                   <button
                     onClick={() => setFeedbackOpen(true)}
-                    className="transition-colors hover:text-accent-dark"
+                    className="transition-colors hover:text-ink"
                   >
                     {t('feedback.title')}
                   </button>
@@ -367,7 +381,7 @@ export default function Layout() {
             </nav>
           </div>
 
-          <div className="mt-9 flex flex-col gap-2 border-t border-stone-200/70 pt-5 text-[11px] leading-relaxed text-stone-300 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
+          <div className="mt-10 flex flex-col gap-2 border-t border-black/[0.06] pt-5 text-[11px] leading-relaxed text-stone-400 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
             <p suppressHydrationWarning>
               © {YEAR} nihongo.ink · {t('app.tagline')}
             </p>
@@ -378,7 +392,7 @@ export default function Layout() {
                 href="https://www.guidetojapanese.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline decoration-stone-200 underline-offset-2 transition-colors hover:text-stone-400"
+                className="underline decoration-stone-300 underline-offset-2 transition-colors hover:text-stone-600"
               >
                 Tae Kim&apos;s Guide to Japanese
               </a>{' '}
@@ -390,26 +404,29 @@ export default function Layout() {
 
       {feedbackOpen && (
         <div
-          className="fixed inset-0 z-30 flex items-center justify-center bg-ink/30 p-4 backdrop-blur-sm"
+          className="fixed inset-0 z-40 flex animate-fade-in items-end justify-center bg-ink/25 p-3 backdrop-blur-sm sm:items-center sm:p-4"
           onClick={() => setFeedbackOpen(false)}
         >
-          <div className="card w-full max-w-md p-6" onClick={(e) => e.stopPropagation()}>
-            <h2 className="mb-1 font-serif text-lg font-bold">{t('feedback.title')}</h2>
-            <p className="mb-4 text-xs text-stone-400">{t('feedback.note')}</p>
+          <div
+            className="glass w-full max-w-md animate-sheet-up rounded-3.5xl p-6 shadow-lift ring-1 ring-white/60 sm:p-7"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h2 className="mb-1 font-display text-xl font-bold">{t('feedback.title')}</h2>
+            <p className="mb-4 text-[13px] leading-relaxed text-stone-500">{t('feedback.note')}</p>
             <textarea
               value={feedbackText}
               autoFocus
               rows={5}
               placeholder={t('feedback.placeholder')}
-              className="mb-4 w-full resize-none rounded-lg border border-stone-300 p-3 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent-light"
+              className="field mb-4 resize-none"
               onChange={(e) => setFeedbackText(e.target.value)}
             />
             <div className="flex justify-end gap-2">
-              <button className="btn-ghost text-sm" onClick={() => setFeedbackOpen(false)}>
+              <button className="btn-ghost" onClick={() => setFeedbackOpen(false)}>
                 {t('feedback.cancel')}
               </button>
               <button
-                className="btn-primary text-sm"
+                className="btn-primary"
                 disabled={!feedbackText.trim()}
                 onClick={submitFeedback}
               >
@@ -422,14 +439,15 @@ export default function Layout() {
 
       {/* Phone: 「更多」 sheet above the tab bar */}
       {moreOpen && (
-        <div className="fixed inset-0 z-10 bg-ink/20 sm:hidden" aria-hidden="true" />
+        <div className="fixed inset-0 z-10 animate-fade-in bg-ink/20 sm:hidden" aria-hidden="true" />
       )}
       <div ref={moreSheetRef} className="contents sm:hidden">
         {moreOpen && (
           <div
             role="menu"
-            className="fixed inset-x-3 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 rounded-2xl border border-stone-200/70 bg-white p-2 shadow-lg sm:hidden"
+            className="glass fixed inset-x-2.5 bottom-[calc(3.75rem+env(safe-area-inset-bottom))] z-20 animate-sheet-up rounded-3.5xl p-2 pt-1 shadow-glass ring-1 ring-white/60 sm:hidden"
           >
+            <div className="mx-auto mb-1.5 mt-1 h-[5px] w-9 rounded-full bg-black/[0.12]" aria-hidden="true" />
             <div className="grid grid-cols-2 gap-1">
               {MORE_ITEMS.map((item) => (
                 <NavLink
@@ -437,15 +455,15 @@ export default function Layout() {
                   to={item.to}
                   role="menuitem"
                   className={({ isActive }) =>
-                    `flex items-center gap-3 rounded-xl px-3 py-3 text-sm transition-colors ${
+                    `flex items-center gap-3 rounded-2xl px-3 py-2.5 text-[15px] transition-colors ${
                       isActive
-                        ? 'bg-accent-light/40 font-semibold text-accent-deep'
-                        : 'text-stone-600 active:bg-stone-50'
+                        ? 'bg-black/[0.06] font-semibold text-ink'
+                        : 'text-stone-700 active:bg-black/[0.05]'
                     }`
                   }
                 >
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-stone-100 text-stone-500">
-                    <NavIcon name={item.icon} />
+                  <span className="tile-soft h-10 w-10 shrink-0">
+                    <NavIcon name={item.icon} className="h-5 w-5" />
                   </span>
                   {t(`nav.${item.key}`)}
                 </NavLink>
@@ -455,8 +473,8 @@ export default function Layout() {
         )}
 
         {/* Mobile bottom tab bar: four fixed tabs + more */}
-        <nav className="fixed inset-x-0 bottom-0 z-10 border-t border-stone-200/70 bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
-          <div className="flex">
+        <nav className="glass-paper hairline-t fixed inset-x-0 bottom-0 z-10 pb-[env(safe-area-inset-bottom)]">
+          <div className="flex h-[50px]">
             {PRIMARY_ITEMS.map((item) => (
               <NavLink key={item.to} to={item.to} end={item.end} className={tabCls}>
                 <NavIcon name={item.icon} />

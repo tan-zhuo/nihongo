@@ -109,7 +109,7 @@ export default function Grammar() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <h1 className="mb-5 font-serif text-2xl font-bold">{t('grammar.title')}</h1>
+      <h1 className="mb-5 font-display text-2xl font-bold">{t('grammar.title')}</h1>
 
       <div className="mb-5 flex gap-2">
         {(['grammar', 'keigo'] as Track[]).map((tk) => (
@@ -139,7 +139,7 @@ export default function Grammar() {
           // Keyed by first item, not group name: a group can recur non-adjacently
           // (N3 has two 推量・伝聞 runs) and duplicate keys strand stale sections.
           <section key={g.items[0].id} className="mb-8">
-            <h2 className="mb-3 font-serif text-sm font-semibold tracking-wide text-accent-deep">
+            <h2 className="mb-3 font-display text-sm font-semibold tracking-wide text-accent-deep">
               {g.group}
             </h2>
             <div className="space-y-2.5">

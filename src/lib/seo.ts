@@ -56,6 +56,10 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: '标准日本语单词卡片 · 初级/中级/高级分课背单词 — nihongo.ink',
     desc: '《新版中日交流标准日本语》初级上下册、中级上下册、高级上下册，按课整理的单词表。翻卡记忆 + 四选一选择题，中日英三语释义、发音朗读，进度自动保存。',
   },
+  '/app': {
+    title: 'nihongo.ink App — Japanese Learning App for iPhone & Android | 日语学习 App',
+    desc: 'The nihongo.ink mobile app: a 4,200-word dictionary with audio and pitch accent, 100 illustrated picture scenes, 104 textbook lessons, JLPT N5–N1 grammar and quizzes, offline. Coming to the App Store and Google Play.',
+  },
   '/stats': {
     title: 'My Stats — nihongo.ink',
     desc: 'Your typing practice history and progress on nihongo.ink.',

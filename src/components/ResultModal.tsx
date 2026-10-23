@@ -21,7 +21,7 @@ export default function ResultModal({ stats, newBest, onRetry, onNext, onBack }:
   return (
     <div className="fixed inset-0 z-20 flex items-center justify-center bg-ink/30 p-4 backdrop-blur-sm">
       <div className="card w-full max-w-md p-7 sm:p-9">
-        <h2 className="mb-2 text-center font-serif text-2xl font-bold text-accent-deep">
+        <h2 className="mb-2 text-center font-display text-2xl font-bold text-accent-deep">
           {t('practice.resultTitle')}
         </h2>
         {newBest ? (

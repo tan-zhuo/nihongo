@@ -97,7 +97,7 @@ const SERIES_STRIPE: Record<BookSeries, string> = {
 function SeriesLabel({ series }: { series: BookSeries }) {
   const { t } = useTranslation()
   return (
-    <h2 className="mb-3 mt-8 flex items-center gap-3 font-serif text-lg font-semibold first:mt-0">
+    <h2 className="mb-3 mt-8 flex items-center gap-3 font-display text-lg font-semibold first:mt-0">
       <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-accent-light font-serif text-sm text-accent-deep">
         {series === 'elementary' ? '初' : series === 'intermediate' ? '中' : '高'}
       </span>
@@ -122,7 +122,7 @@ function BookIndex() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <h1 className="mb-2 font-serif text-2xl font-bold">{t('textbook.title')}</h1>
+      <h1 className="mb-2 font-display text-2xl font-bold">{t('textbook.title')}</h1>
       <p className="mb-9 text-sm leading-relaxed text-stone-500">{t('textbook.intro')}</p>
 
       {grouped.map(({ series, items }) => (
@@ -136,7 +136,7 @@ function BookIndex() {
               const inner = (
                 <>
                   <span
-                    className={`absolute inset-y-0 left-0 w-1 rounded-l-2xl ${SERIES_STRIPE[series]}`}
+                    className={`absolute inset-y-0 left-0 w-1 rounded-l-2.5xl ${SERIES_STRIPE[series]}`}
                   />
                   <div className="font-serif text-lg font-semibold">{bookTitle(book)}</div>
                   <div className="mt-1 text-xs text-stone-400">
@@ -205,7 +205,7 @@ function LessonIndex({ book }: { book: TextbookBook }) {
       </Link>
       <div className="mb-7">
         <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-          <h1 className="font-serif text-2xl font-bold">{bookTitle(book)}</h1>
+          <h1 className="font-display text-2xl font-bold">{bookTitle(book)}</h1>
           <p className="text-sm text-stone-400">
             {t('textbook.bookMeta', { lessons: book.lessons.length, words: words.length })}
           </p>
@@ -432,7 +432,7 @@ function LessonStudy({ book, lessonKey }: { book: TextbookBook; lessonKey: strin
           </span>
         )}
         <div className="min-w-0">
-          <h1 className="font-serif text-xl font-bold leading-tight sm:text-2xl">
+          <h1 className="font-display text-xl font-bold leading-tight sm:text-2xl">
             {isReview ? t('textbook.reviewTitle') : (lesson?.title ?? '')}
           </h1>
           <p className="mt-1 text-sm text-stone-400">

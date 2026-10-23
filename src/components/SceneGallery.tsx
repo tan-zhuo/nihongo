@@ -102,7 +102,7 @@ export default function SceneGallery() {
               )}
             </div>
             <div className="p-3">
-              <h3 className="font-serif text-base font-semibold leading-tight group-hover:text-accent-deep">{s.title}</h3>
+              <h3 className="font-display text-base font-semibold leading-tight group-hover:text-accent-deep">{s.title}</h3>
               <p className="mt-0.5 flex items-baseline justify-between text-[11px] text-stone-400">
                 <span className="truncate">{titleIn(s, lang) || s.title_en}</span>
                 <span className="ml-2 shrink-0">{t('vocab.scenes.wordCount', { count: s.words.length })}</span>

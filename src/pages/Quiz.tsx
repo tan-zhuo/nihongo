@@ -136,7 +136,7 @@ export default function Quiz() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <h1 className="mb-1 font-serif text-2xl font-bold">{t('quiz.title')}</h1>
+      <h1 className="mb-1 font-display text-2xl font-bold">{t('quiz.title')}</h1>
       <p className="mb-6 text-sm leading-relaxed text-stone-500">{t('quiz.subtitle')}</p>
 
       {/* Filters */}
@@ -234,7 +234,7 @@ export default function Quiz() {
 
       {done && (
         <div className="card p-8 text-center">
-          <h2 className="mb-2 font-serif text-xl font-bold">{t('quiz.sessionDone')}</h2>
+          <h2 className="mb-2 font-display text-xl font-bold">{t('quiz.sessionDone')}</h2>
           <p className="mb-6 text-3xl font-bold text-accent-deep">
             {correctCount} <span className="text-lg font-normal text-stone-400">/ {session.length}</span>
           </p>
@@ -247,7 +247,7 @@ export default function Quiz() {
       {/* Per-level lifetime accuracy */}
       {mastery.some((m) => m.pct !== null) && (
         <div className="card mt-8 p-6">
-          <h2 className="mb-1 font-serif text-base font-bold">{t('quiz.mastery')}</h2>
+          <h2 className="mb-1 font-display text-base font-bold">{t('quiz.mastery')}</h2>
           <p className="mb-4 text-xs text-stone-400">{t('quiz.masteryHint')}</p>
           <div className="flex flex-col gap-2.5">
             {mastery.map((m) => (
